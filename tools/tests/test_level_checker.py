@@ -4,7 +4,7 @@ from pathlib import Path
 import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from level_checker import check_level  # noqa: E402
+from level_checker import check_level, count_hanzi_chars  # noqa: E402
 
 SAMPLE_DICT = {
     "你好",
@@ -84,3 +84,8 @@ def test_reading_mode_requires_glossed_words_appear_at_least_twice():
     )
     assert result.passed is False
     assert "奶茶" in result.under_repeated_new
+
+
+def test_count_hanzi_chars_ignores_punctuation_and_latin():
+    assert count_hanzi_chars("Bao说：「你好，请喝茶！」123") == 6
+    assert count_hanzi_chars("") == 0

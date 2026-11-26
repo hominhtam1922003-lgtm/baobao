@@ -9,6 +9,11 @@ import re
 CJK_RUN_RE = re.compile(r"[\u4e00-\u9fff]+")
 
 
+def count_hanzi_chars(text: str) -> int:
+    """Count total CJK Hanzi characters in text."""
+    return sum(len(run) for run in CJK_RUN_RE.findall(text))
+
+
 @dataclass
 class LevelCheckResult:
     passed: bool
