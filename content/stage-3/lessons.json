@@ -42,7 +42,8 @@
             }
           ],
           "answerHanzi": "认为"
-        }
+        },
+        "audio": "audio/teacher-c05fd5038758.mp3"
       },
       {
         "id": "p-t17-2",
@@ -72,7 +73,8 @@
             }
           ],
           "answerHanzi": "来到这里"
-        }
+        },
+        "audio": "audio/teacher-24d77444ac83.mp3"
       }
     ],
     "dialogue": [
@@ -82,7 +84,8 @@
         "hanzi": "你好！很高兴认识你。",
         "pinyin": "nǐ hǎo ！ hěn gāo xìng rèn shí nǐ 。",
         "vi": "Xin chào! Rất vui được quen biết bạn.",
-        "mode": "npc"
+        "mode": "npc",
+        "audio": "audio/female-e9dd7d1a3de3.mp3"
       },
       {
         "speaker": "Bao",
@@ -111,7 +114,8 @@
             "vi": "Tạm biệt.",
             "correct": false
           }
-        ]
+        ],
+        "audio": "audio/male-df457656f8b5.mp3"
       },
       {
         "speaker": "小美",
@@ -119,7 +123,8 @@
         "hanzi": "以后我们常联系吧。",
         "pinyin": "yǐ hòu wǒ men cháng lián xì ba 。",
         "vi": "Sau này chúng ta thường xuyên liên lạc nhé.",
-        "mode": "npc"
+        "mode": "npc",
+        "audio": "audio/female-37e81fc9ec37.mp3"
       },
       {
         "speaker": "Bao",
@@ -134,7 +139,8 @@
           "，我们可以",
           "一起",
           "聊天"
-        ]
+        ],
+        "audio": "audio/male-b3947411bde1.mp3"
       },
       {
         "speaker": "小美",
@@ -142,7 +148,8 @@
         "hanzi": "你认为我们的关系怎么样？",
         "pinyin": "nǐ rèn wéi wǒ men de guān xì zěn me yàng ？",
         "vi": "Bạn cho rằng mối quan hệ của chúng ta thế nào?",
-        "mode": "npc"
+        "mode": "npc",
+        "audio": "audio/female-a9c28490758b.mp3"
       },
       {
         "speaker": "Bao",
@@ -156,7 +163,8 @@
           "wojuedewomendeguanxihenhao",
           "wǒ jué de wǒ men de guān xì hěn hǎo 。",
           "我觉得我们的关系很好"
-        ]
+        ],
+        "audio": "audio/male-15eab4731fef.mp3"
       }
     ],
     "exercises": [
@@ -209,7 +217,8 @@
             "value": "欢迎"
           }
         ],
-        "answer": "聊天"
+        "answer": "聊天",
+        "audio": "audio/teacher-20dec1cecada.mp3"
       },
       {
         "id": "ex-t17-3",
@@ -250,7 +259,9 @@
             "correct": false
           }
         ],
-        "expectedHanzi": "我也很高兴认识你。"
+        "expectedHanzi": "我也很高兴认识你。",
+        "npcAudio": "audio/female-fe912b3ef52f.mp3",
+        "replyAudio": "audio/male-df457656f8b5.mp3"
       },
       {
         "npcHanzi": "以后常联系吧。",
@@ -277,7 +288,9 @@
             "correct": false
           }
         ],
-        "expectedHanzi": "好啊，没问题。"
+        "expectedHanzi": "好啊，没问题。",
+        "npcAudio": "audio/female-028365084b14.mp3",
+        "replyAudio": "audio/male-34be8341ff84.mp3"
       },
       {
         "npcHanzi": "你喜欢聊天吗？",
@@ -304,7 +317,9 @@
             "correct": false
           }
         ],
-        "expectedHanzi": "我喜欢聊天。"
+        "expectedHanzi": "我喜欢聊天。",
+        "npcAudio": "audio/female-71d59de87761.mp3",
+        "replyAudio": "audio/male-3419a57d3e23.mp3"
       }
     ]
   },
@@ -339,7 +354,9 @@
         "voiceRole": "male",
         "hanzi": "你好，我们认识一下儿吧。",
         "pinyin": "nǐ hǎo ， wǒ men rèn shí yī xià ér ba 。",
-        "vi": "Xin chào, chúng ta làm quen một chút nhé."
+        "vi": "Xin chào, chúng ta làm quen một chút nhé.",
+        "audio": "audio/male-ac4cc02d1971.mp3",
+        "audioSlow": "audio/slow-1422596a405d.mp3"
       },
       {
         "id": "lt17-2",
@@ -347,7 +364,9 @@
         "voiceRole": "female",
         "hanzi": "好啊，很高兴认识你。",
         "pinyin": "hǎo a ， hěn gāo xìng rèn shí nǐ 。",
-        "vi": "Được chứ, rất vui được làm quen với bạn."
+        "vi": "Được chứ, rất vui được làm quen với bạn.",
+        "audio": "audio/female-50ecdae256cd.mp3",
+        "audioSlow": "audio/slow-f453944f0d75.mp3"
       },
       {
         "id": "lt17-3",
@@ -355,7 +374,9 @@
         "voiceRole": "male",
         "hanzi": "以后我们常常联系。",
         "pinyin": "yǐ hòu wǒ men cháng cháng lián xì 。",
-        "vi": "Sau này chúng ta thường xuyên liên lạc nhé."
+        "vi": "Sau này chúng ta thường xuyên liên lạc nhé.",
+        "audio": "audio/male-7bd942247a92.mp3",
+        "audioSlow": "audio/slow-c46c93c77320.mp3"
       },
       {
         "id": "lt17-4",
@@ -363,7 +384,9 @@
         "voiceRole": "female",
         "hanzi": "没问题，关系很重要。",
         "pinyin": "méi wèn tí ， guān xì hěn zhòng yào 。",
-        "vi": "Không thành vấn đề, quan hệ rất quan trọng."
+        "vi": "Không thành vấn đề, quan hệ rất quan trọng.",
+        "audio": "audio/female-ce148926f4ab.mp3",
+        "audioSlow": "audio/slow-8e31f93b8c72.mp3"
       }
     ],
     "exercises": [
@@ -390,7 +413,9 @@
             "value": "Tạm biệt nhé."
           }
         ],
-        "answer": "Chào mừng đến nhà tôi."
+        "answer": "Chào mừng đến nhà tôi.",
+        "audio": "audio/teacher-4024cbd9e3fd.mp3",
+        "audioSlow": "audio/slow-6a85dc226a13.mp3"
       },
       {
         "id": "ng17-2",
@@ -415,7 +440,9 @@
             "value": "休息"
           }
         ],
-        "answer": "联系"
+        "answer": "联系",
+        "audio": "audio/teacher-2e1a53869292.mp3",
+        "audioSlow": "audio/slow-f1daba013967.mp3"
       },
       {
         "id": "ng17-3",
@@ -427,7 +454,9 @@
           "经常",
           "聊天"
         ],
-        "answer": "我们经常聊天"
+        "answer": "我们经常聊天",
+        "audio": "audio/teacher-485c15b235e7.mp3",
+        "audioSlow": "audio/slow-ddc39365db06.mp3"
       },
       {
         "id": "ng17-4",
@@ -452,7 +481,9 @@
             "value": "一些"
           }
         ],
-        "answer": "非常"
+        "answer": "非常",
+        "audio": "audio/teacher-a221d71ad303.mp3",
+        "audioSlow": "audio/slow-f69838afa2ed.mp3"
       },
       {
         "id": "ng17-5",
@@ -473,7 +504,9 @@
             "value": "Họ đang ở trường học."
           }
         ],
-        "answer": "Mời thầy Vương đến nhà chơi."
+        "answer": "Mời thầy Vương đến nhà chơi.",
+        "audio": "audio/teacher-20aa03df1400.mp3",
+        "audioSlow": "audio/slow-c3dd5f04a615.mp3"
       },
       {
         "id": "ng17-6",
@@ -484,7 +517,9 @@
           "我们一起",
           "聊天吧"
         ],
-        "answer": "womenyiqiliaotianba"
+        "answer": "womenyiqiliaotianba",
+        "audio": "audio/teacher-5b79a8407bf5.mp3",
+        "audioSlow": "audio/slow-0fa1835df216.mp3"
       }
     ]
   },
@@ -635,7 +670,8 @@
             }
           ],
           "answerHanzi": "打算"
-        }
+        },
+        "audio": "audio/teacher-7bb6ebf015cc.mp3"
       },
       {
         "id": "p-t18-2",
@@ -665,7 +701,8 @@
             }
           ],
           "answerHanzi": "重要"
-        }
+        },
+        "audio": "audio/teacher-9e0b420ee010.mp3"
       }
     ],
     "dialogue": [
@@ -676,7 +713,8 @@
         "pinyin": "míng tiān nǐ dǎ suàn qù nǎ ér ？",
         "vi": "Ngày mai bạn dự định đi đâu?",
         "mode": "npc",
-        "goalLabel": "Hỏi dự định"
+        "goalLabel": "Hỏi dự định",
+        "audio": "audio/male-4e9b37f665a1.mp3"
       },
       {
         "speaker": "Bao",
@@ -705,7 +743,8 @@
             "vi": "Tôi không biết.",
             "correct": false
           }
-        ]
+        ],
+        "audio": "audio/male-89523492f2b8.mp3"
       },
       {
         "speaker": "小明",
@@ -714,7 +753,8 @@
         "pinyin": "bú yào chí dào 。",
         "vi": "Đừng đến muộn nhé.",
         "mode": "npc",
-        "goalLabel": "Nhắc nhở"
+        "goalLabel": "Nhắc nhở",
+        "audio": "audio/male-12d819760b13.mp3"
       },
       {
         "speaker": "Bao",
@@ -729,7 +769,8 @@
           "不",
           "会",
           "迟到"
-        ]
+        ],
+        "audio": "audio/male-7c2023fcc64e.mp3"
       },
       {
         "speaker": "小明",
@@ -738,7 +779,8 @@
         "pinyin": "zhè jiàn shì hěn zhòng yào 。",
         "vi": "Việc này rất quan trọng.",
         "mode": "npc",
-        "goalLabel": "Nhấn mạnh"
+        "goalLabel": "Nhấn mạnh",
+        "audio": "audio/male-3ee29f1779dd.mp3"
       },
       {
         "speaker": "Bao",
@@ -752,7 +794,8 @@
           "wozhidaole",
           "wǒ zhī dào le 。",
           "我知道了"
-        ]
+        ],
+        "audio": "audio/male-3fca447290e7.mp3"
       }
     ],
     "exercises": [
@@ -805,7 +848,8 @@
             "value": "重要"
           }
         ],
-        "answer": "打算"
+        "answer": "打算",
+        "audio": "audio/teacher-d92938796945.mp3"
       },
       {
         "id": "ex-t18-3",
@@ -845,7 +889,9 @@
             "correct": false
           }
         ],
-        "expectedHanzi": "我打算去玩儿。"
+        "expectedHanzi": "我打算去玩儿。",
+        "npcAudio": "audio/female-b564ecedb9c2.mp3",
+        "replyAudio": "audio/male-d357c1e933af.mp3"
       },
       {
         "npcHanzi": "你什么时候去？",
@@ -872,7 +918,9 @@
             "correct": false
           }
         ],
-        "expectedHanzi": "上午去。"
+        "expectedHanzi": "上午去。",
+        "npcAudio": "audio/female-d6f992a750c9.mp3",
+        "replyAudio": "audio/male-5a92d1de8048.mp3"
       },
       {
         "npcHanzi": "不要迟到。",
@@ -899,7 +947,9 @@
             "correct": false
           }
         ],
-        "expectedHanzi": "我知道了，不会迟到。"
+        "expectedHanzi": "我知道了，不会迟到。",
+        "npcAudio": "audio/female-4170af3aee6f.mp3",
+        "replyAudio": "audio/male-4845821163c3.mp3"
       }
     ]
   },
@@ -934,7 +984,9 @@
         "voiceRole": "male",
         "hanzi": "你打算什么时候去？",
         "pinyin": "nǐ dǎ suàn shén me shí hòu qù ？",
-        "vi": "Bạn dự định khi nào đi?"
+        "vi": "Bạn dự định khi nào đi?",
+        "audio": "audio/male-76c597696505.mp3",
+        "audioSlow": "audio/slow-c2bdac699299.mp3"
       },
       {
         "id": "lt18-2",
@@ -942,7 +994,9 @@
         "voiceRole": "female",
         "hanzi": "我决定明天去。",
         "pinyin": "wǒ jué dìng míng tiān qù 。",
-        "vi": "Tôi quyết định ngày mai đi."
+        "vi": "Tôi quyết định ngày mai đi.",
+        "audio": "audio/female-0d038be61bc9.mp3",
+        "audioSlow": "audio/slow-9cff3148739d.mp3"
       },
       {
         "id": "lt18-3",
@@ -950,7 +1004,9 @@
         "voiceRole": "formal",
         "hanzi": "不要迟到。",
         "pinyin": "bú yào chí dào 。",
-        "vi": "Đừng đến muộn."
+        "vi": "Đừng đến muộn.",
+        "audio": "audio/formal-d6a426f07461.mp3",
+        "audioSlow": "audio/slow-7f2de7d8014b.mp3"
       },
       {
         "id": "lt18-4",
@@ -958,7 +1014,9 @@
         "voiceRole": "male",
         "hanzi": "这是一个重要的问题。",
         "pinyin": "zhè shì yí gè zhòng yào de wèn tí 。",
-        "vi": "Đây là một vấn đề quan trọng."
+        "vi": "Đây là một vấn đề quan trọng.",
+        "audio": "audio/male-c383a137febe.mp3",
+        "audioSlow": "audio/slow-1feca60c5e18.mp3"
       }
     ],
     "exercises": [
@@ -985,7 +1043,9 @@
             "value": "Bạn đi lúc nào?"
           }
         ],
-        "answer": "Bạn dự định đi đâu?"
+        "answer": "Bạn dự định đi đâu?",
+        "audio": "audio/teacher-df1d633853d0.mp3",
+        "audioSlow": "audio/slow-cfcdfe83e5f0.mp3"
       },
       {
         "id": "ng18-2",
@@ -1010,7 +1070,9 @@
             "value": "重要"
           }
         ],
-        "answer": "决定"
+        "answer": "决定",
+        "audio": "audio/teacher-810617b6bbee.mp3",
+        "audioSlow": "audio/slow-293957996c60.mp3"
       },
       {
         "id": "ng18-3",
@@ -1023,7 +1085,9 @@
           "迟",
           "到"
         ],
-        "answer": "不要迟到"
+        "answer": "不要迟到",
+        "audio": "audio/teacher-03d065096239.mp3",
+        "audioSlow": "audio/slow-b08ad4f8be7e.mp3"
       },
       {
         "id": "ng18-4",
@@ -1048,7 +1112,9 @@
             "value": "重要"
           }
         ],
-        "answer": "决定"
+        "answer": "决定",
+        "audio": "audio/teacher-f636265cccd6.mp3",
+        "audioSlow": "audio/slow-9cff3148739d.mp3"
       },
       {
         "id": "ng18-5",
@@ -1069,7 +1135,9 @@
             "value": "Họp ở nhà."
           }
         ],
-        "answer": "Ngày mai có một cuộc họp quan trọng."
+        "answer": "Ngày mai có một cuộc họp quan trọng.",
+        "audio": "audio/teacher-2a0facdd92f4.mp3",
+        "audioSlow": "audio/slow-6be9144d59ee.mp3"
       },
       {
         "id": "ng18-6",
@@ -1080,7 +1148,9 @@
           "我打算",
           "去"
         ],
-        "answer": "wodasuanqu"
+        "answer": "wodasuanqu",
+        "audio": "audio/teacher-e7c9e439fba0.mp3",
+        "audioSlow": "audio/slow-bc6dbd79d397.mp3"
       }
     ]
   },
@@ -1231,7 +1301,8 @@
             }
           ],
           "answerHanzi": "音乐"
-        }
+        },
+        "audio": "audio/teacher-63eebabd2913.mp3"
       },
       {
         "id": "p-t19-2",
@@ -1261,7 +1332,8 @@
             }
           ],
           "answerHanzi": "声音"
-        }
+        },
+        "audio": "audio/teacher-e83677165a18.mp3"
       }
     ],
     "dialogue": [
@@ -1272,7 +1344,8 @@
         "pinyin": "nǐ xǐ huān kàn shén me jié mù ？",
         "vi": "Bạn thích xem chương trình gì?",
         "mode": "npc",
-        "goalLabel": "Hỏi chương trình"
+        "goalLabel": "Hỏi chương trình",
+        "audio": "audio/female-f0f4bc2df6de.mp3"
       },
       {
         "speaker": "Bao",
@@ -1301,7 +1374,8 @@
             "vi": "Anh ấy là diễn viên.",
             "correct": false
           }
-        ]
+        ],
+        "audio": "audio/male-8258560dda4f.mp3"
       },
       {
         "speaker": "小美",
@@ -1310,7 +1384,8 @@
         "pinyin": "zhè ge jié mù de yǎn yuán hěn hǎo 。",
         "vi": "Diễn viên của chương trình này rất tốt.",
         "mode": "npc",
-        "goalLabel": "Khen diễn viên"
+        "goalLabel": "Khen diễn viên",
+        "audio": "audio/female-96fd5d1b5f57.mp3"
       },
       {
         "speaker": "Bao",
@@ -1326,7 +1401,8 @@
           "声音",
           "真",
           "好听"
-        ]
+        ],
+        "audio": "audio/male-5e0b73a4711f.mp3"
       },
       {
         "speaker": "小美",
@@ -1335,7 +1411,8 @@
         "pinyin": "nǐ tīng guò zhè ge gù shì ma ？",
         "vi": "Bạn đã nghe câu chuyện này chưa?",
         "mode": "npc",
-        "goalLabel": "Hỏi chuyện cũ"
+        "goalLabel": "Hỏi chuyện cũ",
+        "audio": "audio/female-e1eae2f77061.mp3"
       },
       {
         "speaker": "Bao",
@@ -1349,7 +1426,8 @@
           "tingguozheshiyigehaogushi",
           "tīng guò ， zhè shì yí gè hǎo gù shì 。",
           "听过，这是一个好故事"
-        ]
+        ],
+        "audio": "audio/male-0c80713b4697.mp3"
       }
     ],
     "exercises": [
@@ -1402,7 +1480,8 @@
             "value": "声音"
           }
         ],
-        "answer": "演员"
+        "answer": "演员",
+        "audio": "audio/teacher-b5ce5639741a.mp3"
       },
       {
         "id": "ex-t19-3",
@@ -1443,7 +1522,9 @@
             "correct": false
           }
         ],
-        "expectedHanzi": "我非常喜欢听音乐。"
+        "expectedHanzi": "我非常喜欢听音乐。",
+        "npcAudio": "audio/female-de5fda2b3ff6.mp3",
+        "replyAudio": "audio/male-d2bfcb2ba20c.mp3"
       },
       {
         "npcHanzi": "那个演员是谁？",
@@ -1470,7 +1551,9 @@
             "correct": false
           }
         ],
-        "expectedHanzi": "我不知道那个演员是谁。"
+        "expectedHanzi": "我不知道那个演员是谁。",
+        "npcAudio": "audio/female-90417c83e658.mp3",
+        "replyAudio": "audio/male-328e76a59271.mp3"
       },
       {
         "npcHanzi": "你听过这个故事吗？",
@@ -1497,7 +1580,9 @@
             "correct": false
           }
         ],
-        "expectedHanzi": "我没有听过这个故事。"
+        "expectedHanzi": "我没有听过这个故事。",
+        "npcAudio": "audio/female-e1eae2f77061.mp3",
+        "replyAudio": "audio/male-86806b9aebf2.mp3"
       }
     ]
   },
@@ -1532,7 +1617,9 @@
         "voiceRole": "male",
         "hanzi": "你喜欢听音乐吗？",
         "pinyin": "nǐ xǐ huān tīng yīn yuè ma ？",
-        "vi": "Bạn có thích nghe nhạc không?"
+        "vi": "Bạn có thích nghe nhạc không?",
+        "audio": "audio/male-6d7ef4b794c8.mp3",
+        "audioSlow": "audio/slow-cdb407832690.mp3"
       },
       {
         "id": "lt19-2",
@@ -1540,7 +1627,9 @@
         "voiceRole": "female",
         "hanzi": "我很喜欢听音乐。",
         "pinyin": "wǒ hěn xǐ huān tīng yīn yuè 。",
-        "vi": "Tôi rất thích nghe nhạc."
+        "vi": "Tôi rất thích nghe nhạc.",
+        "audio": "audio/female-fc20241e0ee8.mp3",
+        "audioSlow": "audio/slow-d2bb9322d9e2.mp3"
       },
       {
         "id": "lt19-3",
@@ -1548,7 +1637,9 @@
         "voiceRole": "formal",
         "hanzi": "这个节目很有意思。",
         "pinyin": "zhè ge jié mù hěn yǒu yì si 。",
-        "vi": "Chương trình này rất thú vị."
+        "vi": "Chương trình này rất thú vị.",
+        "audio": "audio/formal-2d4fda79c329.mp3",
+        "audioSlow": "audio/slow-8438355438b4.mp3"
       },
       {
         "id": "lt19-4",
@@ -1556,7 +1647,9 @@
         "voiceRole": "male",
         "hanzi": "演员的声音真好听。",
         "pinyin": "yǎn yuán de shēng yīn zhēn hǎo tīng 。",
-        "vi": "Giọng của diễn viên nghe hay thật."
+        "vi": "Giọng của diễn viên nghe hay thật.",
+        "audio": "audio/male-c8a7c2c1b31f.mp3",
+        "audioSlow": "audio/slow-4d67e2c499df.mp3"
       }
     ],
     "exercises": [
@@ -1583,7 +1676,9 @@
             "value": "Chương trình này rất hay."
           }
         ],
-        "answer": "Câu chuyện này rất hay."
+        "answer": "Câu chuyện này rất hay.",
+        "audio": "audio/teacher-4abf099d9e44.mp3",
+        "audioSlow": "audio/slow-e2695ccbae6a.mp3"
       },
       {
         "id": "ng19-2",
@@ -1608,7 +1703,9 @@
             "value": "声音"
           }
         ],
-        "answer": "音乐"
+        "answer": "音乐",
+        "audio": "audio/teacher-5a2c170fbe25.mp3",
+        "audioSlow": "audio/slow-8f347d73b6c5.mp3"
       },
       {
         "id": "ng19-3",
@@ -1621,7 +1718,9 @@
           "声音",
           "真好听"
         ],
-        "answer": "演员的声音真好听"
+        "answer": "演员的声音真好听",
+        "audio": "audio/teacher-55b06e63fc4a.mp3",
+        "audioSlow": "audio/slow-f58f783627ae.mp3"
       },
       {
         "id": "ng19-4",
@@ -1646,7 +1745,9 @@
             "value": "声音"
           }
         ],
-        "answer": "音乐"
+        "answer": "音乐",
+        "audio": "audio/teacher-63eebabd2913.mp3",
+        "audioSlow": "audio/slow-301f2bceff2e.mp3"
       },
       {
         "id": "ng19-5",
@@ -1667,7 +1768,9 @@
             "value": "Hỏi bạn có biết câu chuyện này không."
           }
         ],
-        "answer": "Hỏi bạn đã xem chương trình này chưa."
+        "answer": "Hỏi bạn đã xem chương trình này chưa.",
+        "audio": "audio/teacher-7ce7c0cd59a6.mp3",
+        "audioSlow": "audio/slow-decd76db8dcf.mp3"
       },
       {
         "id": "ng19-6",
@@ -1678,7 +1781,9 @@
           "演员的声音",
           "很好听"
         ],
-        "answer": "yanyuandeshengyinhenhaoting"
+        "answer": "yanyuandeshengyinhenhaoting",
+        "audio": "audio/teacher-2fac11ef61a6.mp3",
+        "audioSlow": "audio/slow-4ea5f2d1dde3.mp3"
       }
     ]
   },
@@ -1829,7 +1934,8 @@
             }
           ],
           "answerHanzi": "赢"
-        }
+        },
+        "audio": "audio/teacher-8e30c3470155.mp3"
       },
       {
         "id": "p-t20-2",
@@ -1859,7 +1965,8 @@
             }
           ],
           "answerHanzi": "体育馆"
-        }
+        },
+        "audio": "audio/teacher-d11ad64ce208.mp3"
       }
     ],
     "dialogue": [
@@ -1870,7 +1977,8 @@
         "pinyin": "xiǎo míng ， nǐ qù tǐ yù guǎn ma ？",
         "vi": "Tiểu Minh, cậu đi nhà thi đấu không?",
         "mode": "npc",
-        "goalLabel": "Hỏi đi không"
+        "goalLabel": "Hỏi đi không",
+        "audio": "audio/female-a468af8d4d2e.mp3"
       },
       {
         "speaker": "Bao",
@@ -1899,7 +2007,8 @@
             "vi": "Tôi đi mua đồ.",
             "correct": false
           }
-        ]
+        ],
+        "audio": "audio/male-b243da74e351.mp3"
       },
       {
         "speaker": "小美",
@@ -1908,7 +2017,8 @@
         "pinyin": "tài hǎo le ， wǒ men yì qǐ qù ba 。",
         "vi": "Tốt quá rồi, chúng ta cùng đi nhé.",
         "mode": "npc",
-        "goalLabel": "Rủ cùng đi"
+        "goalLabel": "Rủ cùng đi",
+        "audio": "audio/female-f3ba5b44b2ff.mp3"
       },
       {
         "speaker": "Bao",
@@ -1924,7 +2034,8 @@
           "我们",
           "走吧",
           "。"
-        ]
+        ],
+        "audio": "audio/male-aeac52abaa0b.mp3"
       },
       {
         "speaker": "小明",
@@ -1933,7 +2044,8 @@
         "pinyin": "nǐ men bié dān xīn ， yí dìng néng yíng ！",
         "vi": "Các cậu đừng lo, nhất định có thể thắng!",
         "mode": "npc",
-        "goalLabel": "Cổ vũ"
+        "goalLabel": "Cổ vũ",
+        "audio": "audio/male-41562a5b5ceb.mp3"
       },
       {
         "speaker": "Bao",
@@ -1947,7 +2059,8 @@
           "xiexiewomenjiayou",
           "xiè xiè ， wǒ men jiā yóu ！",
           "谢谢，我们加油"
-        ]
+        ],
+        "audio": "audio/male-8727c7b7e696.mp3"
       }
     ],
     "exercises": [
@@ -2000,7 +2113,8 @@
             "value": "加油"
           }
         ],
-        "answer": "比赛"
+        "answer": "比赛",
+        "audio": "audio/teacher-a18beded0a9d.mp3"
       },
       {
         "id": "ex-t20-3",
@@ -2042,7 +2156,9 @@
             "correct": false
           }
         ],
-        "expectedHanzi": "我去体育馆看比赛。"
+        "expectedHanzi": "我去体育馆看比赛。",
+        "npcAudio": "audio/female-c157b6972bd9.mp3",
+        "replyAudio": "audio/male-b243da74e351.mp3"
       },
       {
         "npcHanzi": "你觉得能赢吗？",
@@ -2069,7 +2185,9 @@
             "correct": false
           }
         ],
-        "expectedHanzi": "我们一定能赢！"
+        "expectedHanzi": "我们一定能赢！",
+        "npcAudio": "audio/female-ede8d9c200dd.mp3",
+        "replyAudio": "audio/male-6a9f2cd45b9e.mp3"
       },
       {
         "npcHanzi": "别担心，我们一起去吧！",
@@ -2096,7 +2214,9 @@
             "correct": false
           }
         ],
-        "expectedHanzi": "好，我们一起去。"
+        "expectedHanzi": "好，我们一起去。",
+        "npcAudio": "audio/female-cfb09f53402b.mp3",
+        "replyAudio": "audio/male-083eb8334415.mp3"
       }
     ]
   },
@@ -2131,7 +2251,9 @@
         "voiceRole": "male",
         "hanzi": "小美，我们去体育馆看比赛吧！",
         "pinyin": "xiǎo měi ， wǒ men qù tǐ yù guǎn kàn bǐ sài ba ！",
-        "vi": "Tiểu Mỹ, chúng ta đi nhà thi đấu xem thi đấu đi!"
+        "vi": "Tiểu Mỹ, chúng ta đi nhà thi đấu xem thi đấu đi!",
+        "audio": "audio/male-46f1e30e47da.mp3",
+        "audioSlow": "audio/slow-4ce4ffd6aa46.mp3"
       },
       {
         "id": "lt20-2",
@@ -2139,7 +2261,9 @@
         "voiceRole": "female",
         "hanzi": "太好了，我们要为他们加油。",
         "pinyin": "tài hǎo le ， wǒ men yào wèi tā men jiā yóu 。",
-        "vi": "Tuyệt quá, chúng ta phải cổ vũ cho họ."
+        "vi": "Tuyệt quá, chúng ta phải cổ vũ cho họ.",
+        "audio": "audio/female-47b4fe5da093.mp3",
+        "audioSlow": "audio/slow-9b7b6dd88314.mp3"
       },
       {
         "id": "lt20-3",
@@ -2147,7 +2271,9 @@
         "voiceRole": "formal",
         "hanzi": "别担心，他们一定能赢。",
         "pinyin": "bié dān xīn ， tā men yí dìng néng yíng 。",
-        "vi": "Đừng lo lắng, họ nhất định có thể thắng."
+        "vi": "Đừng lo lắng, họ nhất định có thể thắng.",
+        "audio": "audio/formal-4786de8c4bb9.mp3",
+        "audioSlow": "audio/slow-e84b9428a7e7.mp3"
       },
       {
         "id": "lt20-4",
@@ -2155,7 +2281,9 @@
         "voiceRole": "male",
         "hanzi": "好，我们一起走吧！",
         "pinyin": "hǎo ， wǒ men yì qǐ zǒu ba ！",
-        "vi": "Được, chúng ta cùng đi nào!"
+        "vi": "Được, chúng ta cùng đi nào!",
+        "audio": "audio/male-d819e8705c40.mp3",
+        "audioSlow": "audio/slow-2101258b61b5.mp3"
       }
     ],
     "exercises": [
@@ -2182,7 +2310,9 @@
             "value": "Chúng ta đi trường học."
           }
         ],
-        "answer": "Chúng ta đi nhà thi đấu."
+        "answer": "Chúng ta đi nhà thi đấu.",
+        "audio": "audio/teacher-28e314aad2c5.mp3",
+        "audioSlow": "audio/slow-c0bc50f13283.mp3"
       },
       {
         "id": "ng20-2",
@@ -2207,7 +2337,9 @@
             "value": "练习"
           }
         ],
-        "answer": "比赛"
+        "answer": "比赛",
+        "audio": "audio/teacher-a18beded0a9d.mp3",
+        "audioSlow": "audio/slow-358c90a712ae.mp3"
       },
       {
         "id": "ng20-3",
@@ -2219,7 +2351,9 @@
           "要",
           "加油"
         ],
-        "answer": "我们要加油"
+        "answer": "我们要加油",
+        "audio": "audio/teacher-61716aff4162.mp3",
+        "audioSlow": "audio/slow-dcc75e85a766.mp3"
       },
       {
         "id": "ng20-4",
@@ -2244,7 +2378,9 @@
             "value": "听"
           }
         ],
-        "answer": "赢"
+        "answer": "赢",
+        "audio": "audio/teacher-fffb82d4cb46.mp3",
+        "audioSlow": "audio/slow-ac4e08791c7b.mp3"
       },
       {
         "id": "ng20-5",
@@ -2265,7 +2401,9 @@
             "value": "Hỏi xem ai là người thi đấu"
           }
         ],
-        "answer": "Khuyên người nghe đừng lo lắng vì họ sẽ thắng"
+        "answer": "Khuyên người nghe đừng lo lắng vì họ sẽ thắng",
+        "audio": "audio/teacher-23f510d32d4a.mp3",
+        "audioSlow": "audio/slow-821f607ba580.mp3"
       },
       {
         "id": "ng20-6",
@@ -2276,7 +2414,9 @@
           "别担心",
           "我们一定能赢"
         ],
-        "answer": "biedanxinwomenyidingnengying"
+        "answer": "biedanxinwomenyidingnengying",
+        "audio": "audio/teacher-a9e6ea42e02d.mp3",
+        "audioSlow": "audio/slow-69f8eeb9c7ff.mp3"
       }
     ]
   },
@@ -2427,7 +2567,8 @@
             }
           ],
           "answerHanzi": "行李"
-        }
+        },
+        "audio": "audio/teacher-c6049c9502c8.mp3"
       },
       {
         "id": "p-t21-2",
@@ -2457,7 +2598,8 @@
             }
           ],
           "answerHanzi": "城市"
-        }
+        },
+        "audio": "audio/teacher-b76b9859ecee.mp3"
       }
     ],
     "dialogue": [
@@ -2468,7 +2610,8 @@
         "pinyin": "wǒ men kàn kàn dì tú ba 。",
         "vi": "Chúng ta xem bản đồ nhé.",
         "mode": "npc",
-        "goalLabel": "Xem bản đồ"
+        "goalLabel": "Xem bản đồ",
+        "audio": "audio/female-99a6fae54aeb.mp3"
       },
       {
         "speaker": "Bao",
@@ -2497,7 +2640,8 @@
             "vi": "Được, hành lý không nhiều.",
             "correct": false
           }
-        ]
+        ],
+        "audio": "audio/male-bf566654b5f3.mp3"
       },
       {
         "speaker": "小美",
@@ -2506,7 +2650,8 @@
         "pinyin": "xíng lǐ zhǔn bèi hǎo le ma ？",
         "vi": "Hành lý đã chuẩn bị xong chưa?",
         "mode": "npc",
-        "goalLabel": "Hành lý"
+        "goalLabel": "Hành lý",
+        "audio": "audio/female-1e8ebfe7319b.mp3"
       },
       {
         "speaker": "Bao",
@@ -2521,7 +2666,8 @@
           "已经",
           "准备",
           "好了。"
-        ]
+        ],
+        "audio": "audio/male-e78bef9860ad.mp3"
       },
       {
         "speaker": "小美",
@@ -2530,7 +2676,8 @@
         "pinyin": "nǐ xuǎn zé nǎ yí gè ？",
         "vi": "Bạn chọn cái nào?",
         "mode": "npc",
-        "goalLabel": "Lựa chọn"
+        "goalLabel": "Lựa chọn",
+        "audio": "audio/female-94ba39759133.mp3"
       },
       {
         "speaker": "Bao",
@@ -2544,7 +2691,8 @@
           "woxuanzezhege",
           "wǒ xuǎn zé zhè ge 。",
           "我选择这个"
-        ]
+        ],
+        "audio": "audio/male-475da5c19b75.mp3"
       }
     ],
     "exercises": [
@@ -2597,7 +2745,8 @@
             "value": "安全"
           }
         ],
-        "answer": "行李"
+        "answer": "行李",
+        "audio": "audio/teacher-c02af6b781b8.mp3"
       },
       {
         "id": "ex-t21-3",
@@ -2638,7 +2787,9 @@
             "correct": false
           }
         ],
-        "expectedHanzi": "我们要去这个城市。"
+        "expectedHanzi": "我们要去这个城市。",
+        "npcAudio": "audio/female-3045e4404e5b.mp3",
+        "replyAudio": "audio/male-dd9db8ae3b43.mp3"
       },
       {
         "npcHanzi": "行李多吗？",
@@ -2665,7 +2816,9 @@
             "correct": false
           }
         ],
-        "expectedHanzi": "行李不多。"
+        "expectedHanzi": "行李不多。",
+        "npcAudio": "audio/female-52c77099a092.mp3",
+        "replyAudio": "audio/male-bc8b9ff2dc6a.mp3"
       },
       {
         "npcHanzi": "这里安全吗？",
@@ -2692,7 +2845,9 @@
             "correct": false
           }
         ],
-        "expectedHanzi": "这里很安全。"
+        "expectedHanzi": "这里很安全。",
+        "npcAudio": "audio/female-fae6b09da067.mp3",
+        "replyAudio": "audio/male-7133a9fa48aa.mp3"
       }
     ]
   },
@@ -2727,7 +2882,9 @@
         "voiceRole": "male",
         "hanzi": "我们要选择去哪个城市旅游？",
         "pinyin": "wǒ men yào xuǎn zé qù nǎ ge chéng shì lǚ yóu ？",
-        "vi": "Chúng ta nên chọn đi du lịch thành phố nào?"
+        "vi": "Chúng ta nên chọn đi du lịch thành phố nào?",
+        "audio": "audio/male-2f58bf40e094.mp3",
+        "audioSlow": "audio/slow-fcb134643f27.mp3"
       },
       {
         "id": "lt21-2",
@@ -2735,7 +2892,9 @@
         "voiceRole": "female",
         "hanzi": "北京很好，我准备带一些地图。",
         "pinyin": "běi jīng hěn hǎo ， wǒ zhǔn bèi dài yī xiē dì tú 。",
-        "vi": "Bắc Kinh rất tốt, tôi chuẩn bị mang theo một số bản đồ."
+        "vi": "Bắc Kinh rất tốt, tôi chuẩn bị mang theo một số bản đồ.",
+        "audio": "audio/female-3fc89f4b2a59.mp3",
+        "audioSlow": "audio/slow-c3d938d18e4f.mp3"
       },
       {
         "id": "lt21-3",
@@ -2743,7 +2902,9 @@
         "voiceRole": "male",
         "hanzi": "好的，我会把行李准备好。",
         "pinyin": "hǎo de ， wǒ huì bǎ xíng lǐ zhǔn bèi hǎo 。",
-        "vi": "Được, tôi sẽ chuẩn bị hành lý cho tốt."
+        "vi": "Được, tôi sẽ chuẩn bị hành lý cho tốt.",
+        "audio": "audio/male-f8d3e62e4a13.mp3",
+        "audioSlow": "audio/slow-c4bc68c31968.mp3"
       },
       {
         "id": "lt21-4",
@@ -2751,7 +2912,9 @@
         "voiceRole": "female",
         "hanzi": "太好了，旅游的时候安全最重要。",
         "pinyin": "tài hǎo le ， lǚ yóu de shí hòu ān quán zuì zhòng yào 。",
-        "vi": "Tốt quá, khi đi du lịch an toàn là quan trọng nhất."
+        "vi": "Tốt quá, khi đi du lịch an toàn là quan trọng nhất.",
+        "audio": "audio/female-91dae5daa3f7.mp3",
+        "audioSlow": "audio/slow-1b7430c8d6fc.mp3"
       }
     ],
     "exercises": [
@@ -2778,7 +2941,9 @@
             "value": "Tôi muốn chuẩn bị hành lý."
           }
         ],
-        "answer": "Tôi muốn chọn một thành phố để đi du lịch."
+        "answer": "Tôi muốn chọn một thành phố để đi du lịch.",
+        "audio": "audio/teacher-fef3d623b54c.mp3",
+        "audioSlow": "audio/slow-1fd3c5336aa0.mp3"
       },
       {
         "id": "ng21-2",
@@ -2803,7 +2968,9 @@
             "value": "安全"
           }
         ],
-        "answer": "行李"
+        "answer": "行李",
+        "audio": "audio/teacher-c02af6b781b8.mp3",
+        "audioSlow": "audio/slow-1b00695a6e27.mp3"
       },
       {
         "id": "ng21-3",
@@ -2815,7 +2982,9 @@
           "安全",
           "旅游"
         ],
-        "answer": "我们要安全旅游"
+        "answer": "我们要安全旅游",
+        "audio": "audio/teacher-682bc990d698.mp3",
+        "audioSlow": "audio/slow-eee0d4613266.mp3"
       },
       {
         "id": "ng21-4",
@@ -2840,7 +3009,9 @@
             "value": "安全"
           }
         ],
-        "answer": "地图"
+        "answer": "地图",
+        "audio": "audio/teacher-b68babf0c714.mp3",
+        "audioSlow": "audio/slow-00f2750096db.mp3"
       },
       {
         "id": "ng21-5",
@@ -2861,7 +3032,9 @@
             "value": "Họ chọn ở nhà."
           }
         ],
-        "answer": "Họ chọn đi Bắc Kinh vì an toàn."
+        "answer": "Họ chọn đi Bắc Kinh vì an toàn.",
+        "audio": "audio/teacher-ad7de8e9f474.mp3",
+        "audioSlow": "audio/slow-c6825611af6f.mp3"
       },
       {
         "id": "ng21-6",
@@ -2872,7 +3045,9 @@
           "我们要",
           "选择城市"
         ],
-        "answer": "womenyaoxuanzechengshi"
+        "answer": "womenyaoxuanzechengshi",
+        "audio": "audio/teacher-a6e297b2b16e.mp3",
+        "audioSlow": "audio/slow-254a6994082b.mp3"
       }
     ]
   },
@@ -3023,7 +3198,8 @@
             }
           ],
           "answerHanzi": "节日"
-        }
+        },
+        "audio": "audio/teacher-78f1f60251a5.mp3"
       },
       {
         "id": "p-t22-2",
@@ -3053,7 +3229,8 @@
             }
           ],
           "answerHanzi": "礼物"
-        }
+        },
+        "audio": "audio/teacher-6a5b199c3884.mp3"
       }
     ],
     "dialogue": [
@@ -3064,7 +3241,8 @@
         "pinyin": "chūn jié de shí hòu ， jiē shàng fēi cháng rè nào 。",
         "vi": "Vào dịp Tết, trên phố rất náo nhiệt.",
         "mode": "npc",
-        "goalLabel": "Nói về Tết"
+        "goalLabel": "Nói về Tết",
+        "audio": "audio/female-5542145c239f.mp3"
       },
       {
         "speaker": "Bao",
@@ -3093,7 +3271,8 @@
             "vi": "Không biết.",
             "correct": false
           }
-        ]
+        ],
+        "audio": "audio/male-1b18c231e331.mp3"
       },
       {
         "speaker": "小美",
@@ -3102,7 +3281,8 @@
         "pinyin": "nǐ mǎi lǐ wù le ma ？",
         "vi": "Bạn đã mua quà chưa?",
         "mode": "npc",
-        "goalLabel": "Hỏi quà"
+        "goalLabel": "Hỏi quà",
+        "audio": "audio/female-d60d8b238813.mp3"
       },
       {
         "speaker": "Bao",
@@ -3118,7 +3298,8 @@
           "了",
           "一件",
           "礼物"
-        ]
+        ],
+        "audio": "audio/male-fb52f243ae21.mp3"
       },
       {
         "speaker": "小美",
@@ -3127,7 +3308,8 @@
         "pinyin": "tài hǎo le ， zhè shì xué xí de hǎo jī huì 。",
         "vi": "Tuyệt quá, đây là cơ hội tốt để học tập.",
         "mode": "npc",
-        "goalLabel": "Nói về cơ hội"
+        "goalLabel": "Nói về cơ hội",
+        "audio": "audio/female-d78835b5e8ba.mp3"
       },
       {
         "speaker": "Bao",
@@ -3141,7 +3323,8 @@
           "woyejuedehengaoxing",
           "wǒ yě jué de hěn gāo xìng 。",
           "我也觉得很高兴"
-        ]
+        ],
+        "audio": "audio/male-1802bde3b678.mp3"
       }
     ],
     "exercises": [
@@ -3194,7 +3377,8 @@
             "value": "机会"
           }
         ],
-        "answer": "礼物"
+        "answer": "礼物",
+        "audio": "audio/teacher-547b035c6970.mp3"
       },
       {
         "id": "ex-t22-3",
@@ -3235,7 +3419,9 @@
             "correct": false
           }
         ],
-        "expectedHanzi": "是的，非常热闹。"
+        "expectedHanzi": "是的，非常热闹。",
+        "npcAudio": "audio/female-b15b21f19153.mp3",
+        "replyAudio": "audio/male-8462239bd961.mp3"
       },
       {
         "npcHanzi": "你想买什么礼物？",
@@ -3262,7 +3448,9 @@
             "correct": false
           }
         ],
-        "expectedHanzi": "我想买一件衣服。"
+        "expectedHanzi": "我想买一件衣服。",
+        "npcAudio": "audio/female-c11fcb5646ef.mp3",
+        "replyAudio": "audio/male-5f94ed637509.mp3"
       },
       {
         "npcHanzi": "这是一个好机会。",
@@ -3289,7 +3477,9 @@
             "correct": false
           }
         ],
-        "expectedHanzi": "我们一起去吧。"
+        "expectedHanzi": "我们一起去吧。",
+        "npcAudio": "audio/female-3ddb9c314203.mp3",
+        "replyAudio": "audio/male-211ca02f1378.mp3"
       }
     ]
   },
@@ -3324,7 +3514,9 @@
         "voiceRole": "male",
         "hanzi": "节日的时候，我们一起去买礼物。",
         "pinyin": "jié rì de shí hòu ， wǒ men yì qǐ qù mǎi lǐ wù 。",
-        "vi": "Vào dịp lễ tết, chúng ta cùng nhau đi mua quà."
+        "vi": "Vào dịp lễ tết, chúng ta cùng nhau đi mua quà.",
+        "audio": "audio/male-54454b1be6db.mp3",
+        "audioSlow": "audio/slow-9131d66b1dff.mp3"
       },
       {
         "id": "lt22-2",
@@ -3332,7 +3524,9 @@
         "voiceRole": "female",
         "hanzi": "好啊，街上非常热闹。",
         "pinyin": "hǎo a ， jiē shàng fēi cháng rè nào 。",
-        "vi": "Được chứ, ngoài phố vô cùng náo nhiệt."
+        "vi": "Được chứ, ngoài phố vô cùng náo nhiệt.",
+        "audio": "audio/female-43b928789793.mp3",
+        "audioSlow": "audio/slow-c6f1d25b244d.mp3"
       },
       {
         "id": "lt22-3",
@@ -3340,7 +3534,9 @@
         "voiceRole": "formal",
         "hanzi": "这是一个了解中国文化的好机会。",
         "pinyin": "zhè shì yí gè liǎo jiě zhōng guó wén huà de hǎo jī huì 。",
-        "vi": "Đây là một cơ hội tốt để tìm hiểu văn hóa Trung Quốc."
+        "vi": "Đây là một cơ hội tốt để tìm hiểu văn hóa Trung Quốc.",
+        "audio": "audio/formal-49bd82085a4c.mp3",
+        "audioSlow": "audio/slow-38e7ac9e073c.mp3"
       },
       {
         "id": "lt22-4",
@@ -3348,7 +3544,9 @@
         "voiceRole": "male",
         "hanzi": "我们现在去吧。",
         "pinyin": "wǒ men xiàn zài qù ba 。",
-        "vi": "Chúng ta đi ngay bây giờ nhé."
+        "vi": "Chúng ta đi ngay bây giờ nhé.",
+        "audio": "audio/male-a4b4f5f58f3e.mp3",
+        "audioSlow": "audio/slow-bf70c1b1a425.mp3"
       }
     ],
     "exercises": [
@@ -3375,7 +3573,9 @@
             "value": "Mùa hè rất nóng."
           }
         ],
-        "answer": "Vào dịp lễ rất náo nhiệt."
+        "answer": "Vào dịp lễ rất náo nhiệt.",
+        "audio": "audio/teacher-da49ac375c40.mp3",
+        "audioSlow": "audio/slow-8a7228899fc1.mp3"
       },
       {
         "id": "ng22-2",
@@ -3400,7 +3600,9 @@
             "value": "机会"
           }
         ],
-        "answer": "文化"
+        "answer": "文化",
+        "audio": "audio/teacher-d61e7838cad1.mp3",
+        "audioSlow": "audio/slow-ef449a281a01.mp3"
       },
       {
         "id": "ng22-3",
@@ -3412,7 +3614,9 @@
           "非常",
           "热闹"
         ],
-        "answer": "节日非常热闹"
+        "answer": "节日非常热闹",
+        "audio": "audio/teacher-6c14f0510b48.mp3",
+        "audioSlow": "audio/slow-75a7b0ba2035.mp3"
       },
       {
         "id": "ng22-4",
@@ -3437,7 +3641,9 @@
             "value": "节日"
           }
         ],
-        "answer": "礼物"
+        "answer": "礼物",
+        "audio": "audio/teacher-1dacb7deed34.mp3",
+        "audioSlow": "audio/slow-3c5d037ff8a1.mp3"
       },
       {
         "id": "ng22-5",
@@ -3458,7 +3664,9 @@
             "value": "Đây là một ngày lễ."
           }
         ],
-        "answer": "Đây là một cơ hội tốt."
+        "answer": "Đây là một cơ hội tốt.",
+        "audio": "audio/teacher-434d8ec15c1c.mp3",
+        "audioSlow": "audio/slow-2797d915334d.mp3"
       },
       {
         "id": "ng22-6",
@@ -3469,7 +3677,9 @@
           "这是一个",
           "好机会"
         ],
-        "answer": "zheshiyigehaojihui"
+        "answer": "zheshiyigehaojihui",
+        "audio": "audio/teacher-adc34183e60f.mp3",
+        "audioSlow": "audio/slow-3f6ce9d0456f.mp3"
       }
     ]
   },
@@ -3620,7 +3830,8 @@
             }
           ],
           "answerHanzi": "聪明"
-        }
+        },
+        "audio": "audio/teacher-f0a549ee0b5d.mp3"
       },
       {
         "id": "p-t23-2",
@@ -3650,7 +3861,8 @@
             }
           ],
           "answerHanzi": "认真"
-        }
+        },
+        "audio": "audio/teacher-242772b9ab32.mp3"
       }
     ],
     "dialogue": [
@@ -3661,7 +3873,8 @@
         "pinyin": "míng tiān yǒu kǎo shì ， nǐ jǐn zhāng ma ？",
         "vi": "Ngày mai có kì thi, bạn có hồi hộp không?",
         "mode": "npc",
-        "goalLabel": "Hỏi thăm"
+        "goalLabel": "Hỏi thăm",
+        "audio": "audio/female-b02839c9be8e.mp3"
       },
       {
         "speaker": "Bao",
@@ -3690,7 +3903,8 @@
             "vi": "Tôi rất mệt.",
             "correct": false
           }
-        ]
+        ],
+        "audio": "audio/male-e5b7fb18917d.mp3"
       },
       {
         "speaker": "小美",
@@ -3699,7 +3913,8 @@
         "pinyin": "bù yòng dān xīn ， nǐ hěn cōng míng 。",
         "vi": "Không cần lo lắng, bạn rất thông minh.",
         "mode": "npc",
-        "goalLabel": "Động viên"
+        "goalLabel": "Động viên",
+        "audio": "audio/female-207973ee17a5.mp3"
       },
       {
         "speaker": "Bao",
@@ -3713,7 +3928,8 @@
           "谢谢",
           "你",
           "我会努力的"
-        ]
+        ],
+        "audio": "audio/male-9144d2b1e6c1.mp3"
       },
       {
         "speaker": "王老师",
@@ -3722,7 +3938,8 @@
         "pinyin": "dà jiā shàng kè yào rèn zhēn 。",
         "vi": "Mọi người lên lớp phải nghiêm túc.",
         "mode": "npc",
-        "goalLabel": "Nhắc nhở"
+        "goalLabel": "Nhắc nhở",
+        "audio": "audio/formal-d6ce3d8c4ea0.mp3"
       },
       {
         "speaker": "Bao",
@@ -3736,7 +3953,8 @@
           "wozhidaolewanglaoshi",
           "wǒ zhī dào le ， wáng lǎo shī 。",
           "我知道了，王老师"
-        ]
+        ],
+        "audio": "audio/male-51271665856d.mp3"
       }
     ],
     "exercises": [
@@ -3789,7 +4007,8 @@
             "value": "聪明"
           }
         ],
-        "answer": "担心"
+        "answer": "担心",
+        "audio": "audio/teacher-96b69a663ee5.mp3"
       },
       {
         "id": "ex-t23-3",
@@ -3829,7 +4048,9 @@
             "correct": false
           }
         ],
-        "expectedHanzi": "我不担心。"
+        "expectedHanzi": "我不担心。",
+        "npcAudio": "audio/female-a9a2195c9fc6.mp3",
+        "replyAudio": "audio/male-1c0ae29cef69.mp3"
       },
       {
         "npcHanzi": "小明学习怎么样？",
@@ -3856,7 +4077,9 @@
             "correct": false
           }
         ],
-        "expectedHanzi": "小明很认真。"
+        "expectedHanzi": "小明很认真。",
+        "npcAudio": "audio/female-926fa48b713b.mp3",
+        "replyAudio": "audio/male-362f2bd46406.mp3"
       },
       {
         "npcHanzi": "那个猫怎么样？",
@@ -3883,7 +4106,9 @@
             "correct": false
           }
         ],
-        "expectedHanzi": "那个猫很可爱。"
+        "expectedHanzi": "那个猫很可爱。",
+        "npcAudio": "audio/female-eb08f6a7c1a9.mp3",
+        "replyAudio": "audio/male-b26875fe2a48.mp3"
       }
     ]
   },
@@ -3918,7 +4143,9 @@
         "voiceRole": "male",
         "hanzi": "你为什么担心？",
         "pinyin": "nǐ wèi shén me dān xīn ？",
-        "vi": "Tại sao bạn lo lắng?"
+        "vi": "Tại sao bạn lo lắng?",
+        "audio": "audio/male-e47e7a85dc85.mp3",
+        "audioSlow": "audio/slow-93e287613854.mp3"
       },
       {
         "id": "lt23-2",
@@ -3926,7 +4153,9 @@
         "voiceRole": "female",
         "hanzi": "我有一点儿紧张。",
         "pinyin": "wǒ yǒu yì diǎn ér jǐn zhāng 。",
-        "vi": "Tôi hơi căng thẳng một chút."
+        "vi": "Tôi hơi căng thẳng một chút.",
+        "audio": "audio/female-993695e79c3d.mp3",
+        "audioSlow": "audio/slow-7903cc822048.mp3"
       },
       {
         "id": "lt23-3",
@@ -3934,7 +4163,9 @@
         "voiceRole": "formal",
         "hanzi": "他是一个聪明的孩子。",
         "pinyin": "tā shì yí gè cōng míng de hái zi 。",
-        "vi": "Cậu ấy là một đứa trẻ thông minh."
+        "vi": "Cậu ấy là một đứa trẻ thông minh.",
+        "audio": "audio/formal-539052e31ea6.mp3",
+        "audioSlow": "audio/slow-5d9b1555cebb.mp3"
       },
       {
         "id": "lt23-4",
@@ -3942,7 +4173,9 @@
         "voiceRole": "male",
         "hanzi": "大家都很认真。",
         "pinyin": "dà jiā dōu hěn rèn zhēn 。",
-        "vi": "Mọi người đều rất nghiêm túc."
+        "vi": "Mọi người đều rất nghiêm túc.",
+        "audio": "audio/male-8ebe165e7fec.mp3",
+        "audioSlow": "audio/slow-70185b4782bd.mp3"
       }
     ],
     "exercises": [
@@ -3969,7 +4202,9 @@
             "value": "Tiểu Mỹ rất nghiêm túc."
           }
         ],
-        "answer": "Tiểu Mỹ rất đáng yêu."
+        "answer": "Tiểu Mỹ rất đáng yêu.",
+        "audio": "audio/teacher-2e59ffe47530.mp3",
+        "audioSlow": "audio/slow-7142fe32bc3f.mp3"
       },
       {
         "id": "ng23-2",
@@ -3994,7 +4229,9 @@
             "value": "聪明"
           }
         ],
-        "answer": "认真"
+        "answer": "认真",
+        "audio": "audio/teacher-fe804b12593d.mp3",
+        "audioSlow": "audio/slow-fd88d2395f88.mp3"
       },
       {
         "id": "ng23-3",
@@ -4006,7 +4243,9 @@
           "非常",
           "聪明"
         ],
-        "answer": "他非常聪明"
+        "answer": "他非常聪明",
+        "audio": "audio/teacher-ad81057293a3.mp3",
+        "audioSlow": "audio/slow-9074dfcea565.mp3"
       },
       {
         "id": "ng23-4",
@@ -4031,7 +4270,9 @@
             "value": "聪明"
           }
         ],
-        "answer": "紧张"
+        "answer": "紧张",
+        "audio": "audio/teacher-080cbcbb9267.mp3",
+        "audioSlow": "audio/slow-81e8d4826926.mp3"
       },
       {
         "id": "ng23-5",
@@ -4052,7 +4293,9 @@
             "value": "Thầy Vương cảm thấy cậu ấy rất đáng yêu."
           }
         ],
-        "answer": "Thầy Vương cảm thấy cậu ấy rất nghiêm túc."
+        "answer": "Thầy Vương cảm thấy cậu ấy rất nghiêm túc.",
+        "audio": "audio/teacher-ab4ad733ddcc.mp3",
+        "audioSlow": "audio/slow-96e65403a926.mp3"
       },
       {
         "id": "ng23-6",
@@ -4064,7 +4307,9 @@
           "非常",
           "可爱"
         ],
-        "answer": "xiaomeifeichangkeai"
+        "answer": "xiaomeifeichangkeai",
+        "audio": "audio/teacher-16c895bb6129.mp3",
+        "audioSlow": "audio/slow-a097e874ad31.mp3"
       }
     ]
   },
@@ -4215,7 +4460,8 @@
             }
           ],
           "answerHanzi": "刚才"
-        }
+        },
+        "audio": "audio/teacher-1a9de7ec5823.mp3"
       },
       {
         "id": "p-t24-2",
@@ -4245,7 +4491,8 @@
             }
           ],
           "answerHanzi": "解决"
-        }
+        },
+        "audio": "audio/teacher-7e85daf426f8.mp3"
       }
     ],
     "dialogue": [
@@ -4256,7 +4503,8 @@
         "pinyin": "nǐ gāng cái qù nǎ lǐ le ？",
         "vi": "Bạn vừa nãy đi đâu thế?",
         "mode": "npc",
-        "goalLabel": "Hỏi chuyện cũ"
+        "goalLabel": "Hỏi chuyện cũ",
+        "audio": "audio/female-204e75dea578.mp3"
       },
       {
         "speaker": "Bao",
@@ -4285,7 +4533,8 @@
             "vi": "Tôi không muốn mua đồ.",
             "correct": false
           }
-        ]
+        ],
+        "audio": "audio/male-bffb0d1b3981.mp3"
       },
       {
         "speaker": "小美",
@@ -4294,7 +4543,8 @@
         "pinyin": "nǐ tū rán huí lái ， yǒu shén me shì ma ？",
         "vi": "Bạn đột nhiên về, có việc gì không?",
         "mode": "npc",
-        "goalLabel": "Hỏi lý do về"
+        "goalLabel": "Hỏi lý do về",
+        "audio": "audio/female-54cc50345dd5.mp3"
       },
       {
         "speaker": "Bao",
@@ -4310,7 +4560,8 @@
           "拿",
           "手机",
           "了"
-        ]
+        ],
+        "audio": "audio/male-fb1e3ac499ac.mp3"
       },
       {
         "speaker": "小美",
@@ -4319,7 +4570,8 @@
         "pinyin": "nà xiàn zài wèn tí jiě jué le ma ？",
         "vi": "Thế bây giờ vấn đề đã giải quyết chưa?",
         "mode": "npc",
-        "goalLabel": "Hỏi tiến độ"
+        "goalLabel": "Hỏi tiến độ",
+        "audio": "audio/female-f4dd0da194e6.mp3"
       },
       {
         "speaker": "Bao",
@@ -4333,7 +4585,8 @@
           "qishiyijingjiejuele",
           "qí shí yǐ jīng jiě jué le 。",
           "其实已经解决了"
-        ]
+        ],
+        "audio": "audio/male-caf6575b0932.mp3"
       }
     ],
     "exercises": [
@@ -4386,7 +4639,8 @@
             "value": "忘记"
           }
         ],
-        "answer": "其实"
+        "answer": "其实",
+        "audio": "audio/teacher-17738bc9f519.mp3"
       },
       {
         "id": "ex-t24-3",
@@ -4428,7 +4682,9 @@
             "correct": false
           }
         ],
-        "expectedHanzi": "我刚才没看到他。"
+        "expectedHanzi": "我刚才没看到他。",
+        "npcAudio": "audio/female-4c89f906e537.mp3",
+        "replyAudio": "audio/male-382dc8f6282d.mp3"
       },
       {
         "npcHanzi": "他为什么突然走开？",
@@ -4455,7 +4711,9 @@
             "correct": false
           }
         ],
-        "expectedHanzi": "我不知道，可能他忘记了什么。"
+        "expectedHanzi": "我不知道，可能他忘记了什么。",
+        "npcAudio": "audio/female-9642374c4570.mp3",
+        "replyAudio": "audio/male-a162e1e12d9b.mp3"
       },
       {
         "npcHanzi": "那现在怎么办？",
@@ -4482,7 +4740,9 @@
             "correct": false
           }
         ],
-        "expectedHanzi": "其实可以解决。"
+        "expectedHanzi": "其实可以解决。",
+        "npcAudio": "audio/female-c4a6600fe60b.mp3",
+        "replyAudio": "audio/male-8054e10104d9.mp3"
       }
     ]
   },
@@ -4517,7 +4777,9 @@
         "voiceRole": "male",
         "hanzi": "你刚才在做什么？",
         "pinyin": "nǐ gāng cái zài zuò shén me ？",
-        "vi": "Vừa rồi bạn đang làm gì vậy?"
+        "vi": "Vừa rồi bạn đang làm gì vậy?",
+        "audio": "audio/male-56af74f7e489.mp3",
+        "audioSlow": "audio/slow-e778fea83f2d.mp3"
       },
       {
         "id": "lt24-2",
@@ -4525,7 +4787,9 @@
         "voiceRole": "female",
         "hanzi": "我突然忘记了东西。",
         "pinyin": "wǒ tū rán wàng jì le dōng xī 。",
-        "vi": "Đột nhiên tớ quên mất đồ đạc rồi."
+        "vi": "Đột nhiên tớ quên mất đồ đạc rồi.",
+        "audio": "audio/female-d444afcff03a.mp3",
+        "audioSlow": "audio/slow-dad70201cde6.mp3"
       },
       {
         "id": "lt24-3",
@@ -4533,7 +4797,9 @@
         "voiceRole": "male",
         "hanzi": "其实这很容易解决。",
         "pinyin": "qí shí zhè hěn róng yì jiě jué 。",
-        "vi": "Thực ra việc này rất dễ giải quyết."
+        "vi": "Thực ra việc này rất dễ giải quyết.",
+        "audio": "audio/male-b15837c75c3a.mp3",
+        "audioSlow": "audio/slow-a9c8beb0ac24.mp3"
       },
       {
         "id": "lt24-4",
@@ -4541,7 +4807,9 @@
         "voiceRole": "female",
         "hanzi": "谢谢你的帮助。",
         "pinyin": "xiè xiè nǐ de bāng zhù 。",
-        "vi": "Cảm ơn sự giúp đỡ của bạn."
+        "vi": "Cảm ơn sự giúp đỡ của bạn.",
+        "audio": "audio/female-a50febb8ffb4.mp3",
+        "audioSlow": "audio/slow-3b60da371fe2.mp3"
       }
     ],
     "exercises": [
@@ -4568,7 +4836,9 @@
             "value": "Vừa rồi tôi đã giải quyết xong."
           }
         ],
-        "answer": "Thực ra việc này rất dễ giải quyết."
+        "answer": "Thực ra việc này rất dễ giải quyết.",
+        "audio": "audio/teacher-654b4976fd04.mp3",
+        "audioSlow": "audio/slow-a9c8beb0ac24.mp3"
       },
       {
         "id": "ng24-2",
@@ -4593,7 +4863,9 @@
             "value": "忘记"
           }
         ],
-        "answer": "突然"
+        "answer": "突然",
+        "audio": "audio/teacher-2d497c548e2a.mp3",
+        "audioSlow": "audio/slow-9fd4933ced54.mp3"
       },
       {
         "id": "ng24-3",
@@ -4605,7 +4877,9 @@
           "我",
           "忘记了"
         ],
-        "answer": "刚才我忘记了"
+        "answer": "刚才我忘记了",
+        "audio": "audio/teacher-26de87e6487e.mp3",
+        "audioSlow": "audio/slow-3a70caab936a.mp3"
       },
       {
         "id": "ng24-4",
@@ -4630,7 +4904,9 @@
             "value": "解决"
           }
         ],
-        "answer": "刚才"
+        "answer": "刚才",
+        "audio": "audio/teacher-f4510f7c2649.mp3",
+        "audioSlow": "audio/slow-ec6fc2f87c4c.mp3"
       },
       {
         "id": "ng24-5",
@@ -4651,7 +4927,9 @@
             "value": "Đi học cùng nhau"
           }
         ],
-        "answer": "Quên đồ đạc và tìm cách giải quyết"
+        "answer": "Quên đồ đạc và tìm cách giải quyết",
+        "audio": "audio/teacher-739b1b585b28.mp3",
+        "audioSlow": "audio/slow-ac2add66197a.mp3"
       },
       {
         "id": "ng24-6",
@@ -4663,7 +4941,9 @@
           "很容易",
           "解决"
         ],
-        "answer": "qishihenrongyijiejue"
+        "answer": "qishihenrongyijiejue",
+        "audio": "audio/teacher-283316898be9.mp3",
+        "audioSlow": "audio/slow-7b0309ca1c18.mp3"
       }
     ]
   },
@@ -4803,7 +5083,8 @@
           }
         ],
         "answer": "好极了，我最喜欢吃小笼包。",
-        "explainVi": "Tiểu Minh đề nghị đi ăn, câu trả lời '好极了' (tuyệt quá) cùng việc nêu sở thích món ăn là phù hợp nhất."
+        "explainVi": "Tiểu Minh đề nghị đi ăn, câu trả lời '好极了' (tuyệt quá) cùng việc nêu sở thích món ăn là phù hợp nhất.",
+        "audio": "audio/female-29f0d566ff13.mp3"
       },
       {
         "id": "st3-q2",
@@ -4828,7 +5109,8 @@
           }
         ],
         "answer": "我可以借书吗",
-        "explainVi": "Câu '我可以借书吗' (Tôi có thể mượn sách không) là cách hỏi lịch sự và đúng ngữ cảnh."
+        "explainVi": "Câu '我可以借书吗' (Tôi có thể mượn sách không) là cách hỏi lịch sự và đúng ngữ cảnh.",
+        "audio": "audio/female-d9a1e0899812.mp3"
       },
       {
         "id": "st3-q3",
@@ -4903,7 +5185,9 @@
           }
         ],
         "answer": "小明去北京旅游。",
-        "explainVi": "Câu nghe được là '小明明天要去北京旅游' (Tiểu Minh ngày mai đi Bắc Kinh du lịch)."
+        "explainVi": "Câu nghe được là '小明明天要去北京旅游' (Tiểu Minh ngày mai đi Bắc Kinh du lịch).",
+        "audio": "audio/teacher-abea4a59a4d8.mp3",
+        "audioSlow": "audio/slow-3b8fc959909e.mp3"
       },
       {
         "id": "st3-q6",
@@ -4928,7 +5212,9 @@
           }
         ],
         "answer": "王老师在工作。",
-        "explainVi": "Câu nghe được là '王老师正在办公室工作' (Vương lão sư đang làm việc ở văn phòng)."
+        "explainVi": "Câu nghe được là '王老师正在办公室工作' (Vương lão sư đang làm việc ở văn phòng).",
+        "audio": "audio/teacher-7d62ab70d083.mp3",
+        "audioSlow": "audio/slow-cd1c8b6d17bc.mp3"
       },
       {
         "id": "st3-q7",

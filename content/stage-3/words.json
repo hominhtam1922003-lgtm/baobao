@@ -12,9 +12,11 @@
       {
         "hanzi": "他把我错认为我妈妈了。",
         "pinyin": "tā bǎ wǒ cuò rèn wéi wǒ mā mā le 。",
-        "vi": "Anh ta đã nhận nhầm tôi thành mẹ tôi."
+        "vi": "Anh ta đã nhận nhầm tôi thành mẹ tôi.",
+        "audio": "audio/teacher-02cd7f7d2c73.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-24c8be3d549b.mp3"
   },
   {
     "id": "w3-002",
@@ -29,9 +31,11 @@
       {
         "hanzi": "我要環遊世界。",
         "pinyin": "wǒ yào huán yóu shì jiè 。",
-        "vi": "Tôi muốn đi vòng quanh thế giới."
+        "vi": "Tôi muốn đi vòng quanh thế giới.",
+        "audio": "audio/teacher-f70e19b72b21.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-f77b66e3603f.mp3"
   },
   {
     "id": "w3-003",
@@ -46,9 +50,11 @@
       {
         "hanzi": "变量的声明在C和C++中极其重要。",
         "pinyin": "biàn liàng de shēng míng zài C hé C++ zhōng jí qí zhòng yào 。",
-        "vi": "Khai báo biến trong C/C++ vô cùng quan trọng."
+        "vi": "Khai báo biến trong C/C++ vô cùng quan trọng.",
+        "audio": "audio/teacher-ebe72cea09cb.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-9baebe70ba47.mp3"
   },
   {
     "id": "w3-004",
@@ -63,9 +69,11 @@
       {
         "hanzi": "他有可能赢得比赛。",
         "pinyin": "tā yǒu kě néng yíng dé bǐ sài 。",
-        "vi": "Cậu ấy có khả năng thắng trận đấu."
+        "vi": "Cậu ấy có khả năng thắng trận đấu.",
+        "audio": "audio/teacher-404252ab05fd.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-a18beded0a9d.mp3"
   },
   {
     "id": "w3-005",
@@ -80,9 +88,11 @@
       {
         "hanzi": "不要担心，我会一直在你身边。",
         "pinyin": "bú yào dān xīn ， wǒ huì yì zhí zài nǐ shēn biān 。",
-        "vi": "Đừng lo lắng, anh sẽ luôn ở bên em."
+        "vi": "Đừng lo lắng, anh sẽ luôn ở bên em.",
+        "audio": "audio/teacher-23b6223dc36c.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-96b69a663ee5.mp3"
   },
   {
     "id": "w3-006",
@@ -97,9 +107,11 @@
       {
         "hanzi": "没关系。",
         "pinyin": "méi guān xì 。",
-        "vi": "Không sao đâu."
+        "vi": "Không sao đâu.",
+        "audio": "audio/teacher-7e35c38ba1aa.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-5563d7eb306e.mp3"
   },
   {
     "id": "w3-007",
@@ -114,9 +126,11 @@
       {
         "hanzi": "司機應該繫安全帶。",
         "pinyin": "sī jī yīng gāi xì ān quán dài 。",
-        "vi": "Những người lái xe phải thắt dây an toàn."
+        "vi": "Những người lái xe phải thắt dây an toàn.",
+        "audio": "audio/teacher-e55f797cf2d2.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-97bc80853ab2.mp3"
   },
   {
     "id": "w3-008",
@@ -131,9 +145,11 @@
       {
         "hanzi": "这件事你自己决定就是了。",
         "pinyin": "zhè jiàn shì nǐ zì jǐ jué dìng jiù shì le 。",
-        "vi": "Việc này cậu tự quyết định là được rồi."
+        "vi": "Việc này cậu tự quyết định là được rồi.",
+        "audio": "audio/teacher-b110a97589ab.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-810617b6bbee.mp3"
   },
   {
     "id": "w3-009",
@@ -148,9 +164,11 @@
       {
         "hanzi": "你可以选择红茶，咖啡或牛奶。",
         "pinyin": "nǐ kě yǐ xuǎn zé hóng chá ， kā fēi huò niú nǎi 。",
-        "vi": "Bạn có thể chọn hồng trà, cà phê hoặc sữa."
+        "vi": "Bạn có thể chọn hồng trà, cà phê hoặc sữa.",
+        "audio": "audio/teacher-3fa0e752515d.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-51c386a61ec8.mp3"
   },
   {
     "id": "w3-010",
@@ -165,9 +183,11 @@
       {
         "hanzi": "我们没机会赢那些一流选手。",
         "pinyin": "wǒ men méi jī huì yíng nà xiē yì liú xuǎn shǒu 。",
-        "vi": "Mình không có cơ hội thắng những tay đua top đầu đâu."
+        "vi": "Mình không có cơ hội thắng những tay đua top đầu đâu.",
+        "audio": "audio/teacher-e8fb42469847.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-48414413c473.mp3"
   },
   {
     "id": "w3-011",
@@ -182,9 +202,11 @@
       {
         "hanzi": "你其实没必要带伞。",
         "pinyin": "nǐ qí shí méi bì yào dài sǎn 。",
-        "vi": "Thực ra bạn không cần mang ô đâu."
+        "vi": "Thực ra bạn không cần mang ô đâu.",
+        "audio": "audio/teacher-a0655c7319c2.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-17738bc9f519.mp3"
   },
   {
     "id": "w3-012",
@@ -199,9 +221,11 @@
       {
         "hanzi": "不立即解决，那桩事会马上告吹的。",
         "pinyin": "bù lì jí jiě jué ， nà zhuāng shì huì mǎ shàng gào chuī de 。",
-        "vi": "Không giải quyết ngay thì việc đó sẽ hỏng bây giờ đây."
+        "vi": "Không giải quyết ngay thì việc đó sẽ hỏng bây giờ đây.",
+        "audio": "audio/teacher-2fc41e3c9276.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-0b244bf3ba77.mp3"
   },
   {
     "id": "w3-013",
@@ -216,9 +240,11 @@
       {
         "hanzi": "要努力完成计划。",
         "pinyin": "yào nǔ lì wán chéng jì huà 。",
-        "vi": "Hãy ra sức hoàn thành kế hoạch."
+        "vi": "Hãy ra sức hoàn thành kế hoạch.",
+        "audio": "audio/teacher-a4ebc9371284.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-90b8693b159c.mp3"
   },
   {
     "id": "w3-014",
@@ -233,9 +259,11 @@
       {
         "hanzi": "贸易帮助国家发展。",
         "pinyin": "mào yì bāng zhù guó jiā fā zhǎn 。",
-        "vi": "Mậu dịch hỗ trợ sự phát triển của quốc gia."
+        "vi": "Mậu dịch hỗ trợ sự phát triển của quốc gia.",
+        "audio": "audio/teacher-2c855e6018f4.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-15d73432b59d.mp3"
   },
   {
     "id": "w3-015",
@@ -250,9 +278,11 @@
       {
         "hanzi": "我努力地改善我的成績。",
         "pinyin": "wǒ nǔ lì dì gǎi shàn wǒ de chéng jī 。",
-        "vi": "Tôi nổ lực cải thiện thành tích của tôi."
+        "vi": "Tôi nổ lực cải thiện thành tích của tôi.",
+        "audio": "audio/teacher-70acc464ff18.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-f78ba745b298.mp3"
   },
   {
     "id": "w3-016",
@@ -267,9 +297,11 @@
       {
         "hanzi": "这是没办法的。",
         "pinyin": "zhè shì méi bàn fǎ de 。",
-        "vi": "Vụ này hết cách rồi."
+        "vi": "Vụ này hết cách rồi.",
+        "audio": "audio/teacher-856d71569f7a.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-0b9c0d8e5c27.mp3"
   },
   {
     "id": "w3-017",
@@ -284,9 +316,11 @@
       {
         "hanzi": "哈巴羅夫斯克是俄羅斯遠東地區最大的城市之一。",
         "pinyin": "hā bā luó fū sī kè shì é luó sī yuǎn dōng dì qū zuì dà de chéng shì zhī yī 。",
-        "vi": "Khabarovsk là một trong những thành phố lớn nhất vùng Viễn Đông nước Nga."
+        "vi": "Khabarovsk là một trong những thành phố lớn nhất vùng Viễn Đông nước Nga.",
+        "audio": "audio/teacher-ef7a4db187f3.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-edf9d3ff6aa0.mp3"
   },
   {
     "id": "w3-018",
@@ -301,9 +335,11 @@
       {
         "hanzi": "这对他没有影响。",
         "pinyin": "zhè duì tā méi yǒu yǐng xiǎng 。",
-        "vi": "Việc này không ảnh hưởng gì đến cậu ấy."
+        "vi": "Việc này không ảnh hưởng gì đến cậu ấy.",
+        "audio": "audio/teacher-df14cc8e3be9.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-02acdeeafbed.mp3"
   },
   {
     "id": "w3-019",
@@ -318,9 +354,11 @@
       {
         "hanzi": "突然天下起雨来。",
         "pinyin": "tū rán tiān xià qǐ yǔ lái 。",
-        "vi": "Bỗng nhiên trời mưa."
+        "vi": "Bỗng nhiên trời mưa.",
+        "audio": "audio/teacher-119b1db7edfd.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-2d497c548e2a.mp3"
   },
   {
     "id": "w3-020",
@@ -335,9 +373,11 @@
       {
         "hanzi": "我在检查这里有没有激光警报装置。",
         "pinyin": "wǒ zài jiǎn chá zhè lǐ yǒu méi yǒu jī guāng jǐng bào zhuāng zhì 。",
-        "vi": "Tôi đang kiểm tra xem ở đây có thiết bị báo động laser hay không."
+        "vi": "Tôi đang kiểm tra xem ở đây có thiết bị báo động laser hay không.",
+        "audio": "audio/teacher-681f6ba5b365.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-4e852d2b84ee.mp3"
   },
   {
     "id": "w3-021",
@@ -352,9 +392,11 @@
       {
         "hanzi": "开车真的非常简单。",
         "pinyin": "kāi chē zhēn de fēi cháng jiǎn dān 。",
-        "vi": "Lái xe thực ra rất đơn giản."
+        "vi": "Lái xe thực ra rất đơn giản.",
+        "audio": "audio/teacher-dfaf1543e182.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-32f70ae209fa.mp3"
   },
   {
     "id": "w3-022",
@@ -369,9 +411,11 @@
       {
         "hanzi": "这音乐值得听许多次。",
         "pinyin": "zhè yīn yuè zhí de tīng xǔ duō cì 。",
-        "vi": "Bản nhạc này đáng nghe lại nhiều lần."
+        "vi": "Bản nhạc này đáng nghe lại nhiều lần.",
+        "audio": "audio/teacher-60a12aaf0c6a.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-5a2c170fbe25.mp3"
   },
   {
     "id": "w3-023",
@@ -386,9 +430,11 @@
       {
         "hanzi": "他还没有把情况了解清楚就急忙发表意见。",
         "pinyin": "tā hái méi yǒu bǎ qíng kuàng liǎo jiě qīng chǔ jiù jí máng fā biǎo yì jiàn 。",
-        "vi": "Anh ta chưa biết rõ tình hình đã phát biểu ý kiến ngay."
+        "vi": "Anh ta chưa biết rõ tình hình đã phát biểu ý kiến ngay.",
+        "audio": "audio/teacher-3f9e992afc5a.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-2e4c30b719d5.mp3"
   },
   {
     "id": "w3-024",
@@ -403,9 +449,11 @@
       {
         "hanzi": "他给我们讲了一个有趣的故事，我们都笑了起来。",
         "pinyin": "tā gěi wǒ men jiǎng le yí gè yǒu qù de gù shì ， wǒ men dōu xiào le qǐ lái 。",
-        "vi": "Cậu ấy kể một câu chuyện cười khiến tất cả chúng mình đều bật cười."
+        "vi": "Cậu ấy kể một câu chuyện cười khiến tất cả chúng mình đều bật cười.",
+        "audio": "audio/teacher-f429b9cc369f.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-7334e4cbf525.mp3"
   },
   {
     "id": "w3-025",
@@ -420,9 +468,11 @@
       {
         "hanzi": "欢迎回家。",
         "pinyin": "huān yíng huí jiā 。",
-        "vi": "Chào mừng bạn đã về nhà."
+        "vi": "Chào mừng bạn đã về nhà.",
+        "audio": "audio/teacher-4e9b95d2d42e.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-41d1fbe6fbc5.mp3"
   },
   {
     "id": "w3-026",
@@ -437,9 +487,11 @@
       {
         "hanzi": "猫是很可爱的。",
         "pinyin": "māo shì hěn kě ài de 。",
-        "vi": "Mèo rất dễ thương."
+        "vi": "Mèo rất dễ thương.",
+        "audio": "audio/teacher-c5a6ea27976a.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-816f88fe616f.mp3"
   },
   {
     "id": "w3-027",
@@ -454,9 +506,11 @@
       {
         "hanzi": "不要发出声音。",
         "pinyin": "bú yào fā chū shēng yīn 。",
-        "vi": "Đừng tạo tiếng động."
+        "vi": "Đừng tạo tiếng động.",
+        "audio": "audio/teacher-b9d89ed9b6a7.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-68630f328ddc.mp3"
   },
   {
     "id": "w3-028",
@@ -471,9 +525,11 @@
       {
         "hanzi": "只有为数不多的几个电视节目值得关注。",
         "pinyin": "zhǐ yǒu wéi shù bù duō de jǐ gè diàn shì jié mù zhí de guān zhù 。",
-        "vi": "Chỉ có một số ít chương trình truyền hình đáng xem."
+        "vi": "Chỉ có một số ít chương trình truyền hình đáng xem.",
+        "audio": "audio/teacher-ce272ed0aaf6.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-421bdf439fb9.mp3"
   },
   {
     "id": "w3-029",
@@ -488,9 +544,11 @@
       {
         "hanzi": "我们也同意。",
         "pinyin": "wǒ men yě tóng yì 。",
-        "vi": "Chúng tôi cũng đồng ý."
+        "vi": "Chúng tôi cũng đồng ý.",
+        "audio": "audio/teacher-02cb1bca9f81.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-12c6bf26c71d.mp3"
   },
   {
     "id": "w3-030",
@@ -505,9 +563,11 @@
       {
         "hanzi": "她哥哥很认真学习。",
         "pinyin": "tā gē gē hěn rèn zhēn xué xí 。",
-        "vi": "Anh trai của cô ấy học rất nghiêm túc."
+        "vi": "Anh trai của cô ấy học rất nghiêm túc.",
+        "audio": "audio/teacher-5129946a9488.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-fe804b12593d.mp3"
   },
   {
     "id": "w3-031",
@@ -522,9 +582,11 @@
       {
         "hanzi": "刚才是和你闹着玩儿的，你别当真。",
         "pinyin": "gāng cái shì hé nǐ nào zhe wán ér de ， nǐ bié dàng zhēn 。",
-        "vi": "Vừa nãy là đùa với cậu thôi, cậu đừng tưởng thật."
+        "vi": "Vừa nãy là đùa với cậu thôi, cậu đừng tưởng thật.",
+        "audio": "audio/teacher-262a684c4ac2.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-84a2cc03824c.mp3"
   },
   {
     "id": "w3-032",
@@ -539,9 +601,11 @@
       {
         "hanzi": "据说山上的天气变化很快。",
         "pinyin": "jù shuō shān shàng de tiān qì biàn huà hěn kuài 。",
-        "vi": "Nghe nói thời tiết trên núi thay đổi rất nhanh."
+        "vi": "Nghe nói thời tiết trên núi thay đổi rất nhanh.",
+        "audio": "audio/teacher-97203f81e2e0.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-0bba5e6b1609.mp3"
   },
   {
     "id": "w3-033",
@@ -556,9 +620,11 @@
       {
         "hanzi": "不要忘记吸烟对你的健康有害。",
         "pinyin": "bú yào wàng jì xī yān duì nǐ de jiàn kāng yǒu hài 。",
-        "vi": "Đừng quên hút thuốc có hại cho sức khỏe của bạn."
+        "vi": "Đừng quên hút thuốc có hại cho sức khỏe của bạn.",
+        "audio": "audio/teacher-da93c787ee05.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-bf184ff8a64f.mp3"
   },
   {
     "id": "w3-034",
@@ -573,9 +639,11 @@
       {
         "hanzi": "迪克打算自己去。",
         "pinyin": "dí kè dǎ suàn zì jǐ qù 。",
-        "vi": "Dick dự tính tự đi một mình."
+        "vi": "Dick dự tính tự đi một mình.",
+        "audio": "audio/teacher-e5de71616bbd.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-d92938796945.mp3"
   },
   {
     "id": "w3-035",
@@ -590,9 +658,11 @@
       {
         "hanzi": "你自己小心，玩得开心点！",
         "pinyin": "nǐ zì jǐ xiǎo xīn ， wán dé kāi xīn diǎn ！",
-        "vi": "Cẩn thận nhé, chúc bạn chơi vui vẻ!"
+        "vi": "Cẩn thận nhé, chúc bạn chơi vui vẻ!",
+        "audio": "audio/teacher-0fd7b2f37ecb.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-9dc778d4b4f1.mp3"
   },
   {
     "id": "w3-036",
@@ -607,9 +677,11 @@
       {
         "hanzi": "他们有他们自己的文化。",
         "pinyin": "tā men yǒu tā men zì jǐ de wén huà 。",
-        "vi": "Họ có nền văn hóa riêng của mình."
+        "vi": "Họ có nền văn hóa riêng của mình.",
+        "audio": "audio/teacher-34f9ffa749d5.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-d61e7838cad1.mp3"
   },
   {
     "id": "w3-037",
@@ -624,9 +696,11 @@
       {
         "hanzi": "送你一点礼物。",
         "pinyin": "sòng nǐ yì diǎn lǐ wù 。",
-        "vi": "Biếu chị một chút quà."
+        "vi": "Biếu chị một chút quà.",
+        "audio": "audio/teacher-49e2fc2fd30c.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-547b035c6970.mp3"
   },
   {
     "id": "w3-038",
@@ -641,9 +715,11 @@
       {
         "hanzi": "她提高了她的嗓音。",
         "pinyin": "tā tí gāo le tā de sǎng yīn 。",
-        "vi": "Bạn ấy đã tăng giọng mình lên."
+        "vi": "Bạn ấy đã tăng giọng mình lên.",
+        "audio": "audio/teacher-03290ae66099.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-1bd0bb95ea4f.mp3"
   },
   {
     "id": "w3-039",
@@ -658,9 +734,11 @@
       {
         "hanzi": "他和班上其他男生一样聪明。",
         "pinyin": "tā hé bān shàng qí tā nán shēng yī yàng cōng míng 。",
-        "vi": "Bạn ấy thông minh không kém gì mấy bạn nam khác trong lớp."
+        "vi": "Bạn ấy thông minh không kém gì mấy bạn nam khác trong lớp.",
+        "audio": "audio/teacher-f611d9f7f615.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-4a3c936913f4.mp3"
   },
   {
     "id": "w3-040",
@@ -675,9 +753,11 @@
       {
         "hanzi": "节日和考试碰巧在同一天。",
         "pinyin": "jié rì hé kǎo shì pèng qiǎo zài tóng yī tiān 。",
-        "vi": "Ngày lễ và kỳ thi lại trùng vào cùng một ngày."
+        "vi": "Ngày lễ và kỳ thi lại trùng vào cùng một ngày.",
+        "audio": "audio/teacher-2c50516b8e1c.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-978a3a1699ee.mp3"
   },
   {
     "id": "w3-041",
@@ -692,9 +772,11 @@
       {
         "hanzi": "我在旅行中用了地图。",
         "pinyin": "wǒ zài lǚ xíng zhōng yòng le dì tú 。",
-        "vi": "Mình đã dùng bản đồ trong chuyến đi."
+        "vi": "Mình đã dùng bản đồ trong chuyến đi.",
+        "audio": "audio/teacher-5b6cfa7997a5.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-ee69fa46d650.mp3"
   },
   {
     "id": "w3-042",
@@ -709,9 +791,11 @@
       {
         "hanzi": "由于火车延误，我迟到了。",
         "pinyin": "yóu yú huǒ chē yán wù ， wǒ chí dào le 。",
-        "vi": "Mình đến muộn vì tàu bị hoãn."
+        "vi": "Mình đến muộn vì tàu bị hoãn.",
+        "audio": "audio/teacher-c20a7f8b3291.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-b40d3ea878b0.mp3"
   },
   {
     "id": "w3-043",
@@ -726,9 +810,11 @@
       {
         "hanzi": "你的行李多重？",
         "pinyin": "nǐ de xíng lǐ duō zhòng ？",
-        "vi": "Hành lý của bạn nặng bao nhiêu?"
+        "vi": "Hành lý của bạn nặng bao nhiêu?",
+        "audio": "audio/teacher-386385218715.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-c02af6b781b8.mp3"
   },
   {
     "id": "w3-044",
@@ -743,9 +829,11 @@
       {
         "hanzi": "我们在体育馆打篮球。",
         "pinyin": "wǒ men zài tǐ yù guǎn dǎ lán qiú 。",
-        "vi": "Chúng mình chơi bóng rổ ở nhà thi đấu."
+        "vi": "Chúng mình chơi bóng rổ ở nhà thi đấu.",
+        "audio": "audio/teacher-64436405f9e9.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-741f55e9beaf.mp3"
   },
   {
     "id": "w3-045",
@@ -760,9 +848,11 @@
       {
         "hanzi": "我要把他射下來。",
         "pinyin": "wǒ yào bǎ tā shè xià lái 。",
-        "vi": "Tao sẽ bắn hạ nó."
+        "vi": "Tao sẽ bắn hạ nó.",
+        "audio": "audio/teacher-0d4f2056a419.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-347c36281eac.mp3"
   },
   {
     "id": "w3-046",
@@ -777,9 +867,11 @@
       {
         "hanzi": "我的表被偷了。",
         "pinyin": "wǒ de biǎo bèi tōu le 。",
-        "vi": "Đồng hồ của tôi bị trộm mất rồi."
+        "vi": "Đồng hồ của tôi bị trộm mất rồi.",
+        "audio": "audio/teacher-373f9c617efb.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-91e31c1792ac.mp3"
   },
   {
     "id": "w3-047",
@@ -794,9 +886,11 @@
       {
         "hanzi": "一个人要为他的行为负责。",
         "pinyin": "yí gè rén yào wèi tā de xíng wéi fù zé 。",
-        "vi": "Một người phải có trách nhiệm với những hành động của mình."
+        "vi": "Một người phải có trách nhiệm với những hành động của mình.",
+        "audio": "audio/teacher-cb87bf5b17cb.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-3adda8fbc690.mp3"
   },
   {
     "id": "w3-048",
@@ -811,9 +905,11 @@
       {
         "hanzi": "变量的声明在C和C++中极其重要。",
         "pinyin": "biàn liàng de shēng míng zài C hé C++ zhōng jí qí zhòng yào 。",
-        "vi": "Khai báo biến trong C/C++ vô cùng quan trọng."
+        "vi": "Khai báo biến trong C/C++ vô cùng quan trọng.",
+        "audio": "audio/teacher-ebe72cea09cb.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-c0c892b55398.mp3"
   },
   {
     "id": "w3-049",
@@ -828,9 +924,11 @@
       {
         "hanzi": "如果我可以像那樣的話...",
         "pinyin": "rú guǒ wǒ kě yǐ xiàng nà yàng de huà ...",
-        "vi": "Giá mà tôi cũng như vậy..."
+        "vi": "Giá mà tôi cũng như vậy...",
+        "audio": "audio/teacher-875747315981.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-0759989c656d.mp3"
   },
   {
     "id": "w3-050",
@@ -845,9 +943,11 @@
       {
         "hanzi": "那又怎樣?",
         "pinyin": "nà yòu zěn yàng ?",
-        "vi": "Thì sao?"
+        "vi": "Thì sao?",
+        "audio": "audio/teacher-4689f86eb62c.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-305dbcbf7acb.mp3"
   },
   {
     "id": "w3-051",
@@ -862,9 +962,11 @@
       {
         "hanzi": "可惜这是真的。",
         "pinyin": "kě xī zhè shì zhēn de 。",
-        "vi": "Tiếc rằng cái đó là sự thật."
+        "vi": "Tiếc rằng cái đó là sự thật.",
+        "audio": "audio/teacher-816a351e0734.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-4dcdc635eeb5.mp3"
   },
   {
     "id": "w3-052",
@@ -879,9 +981,11 @@
       {
         "hanzi": "我该去睡觉了。",
         "pinyin": "wǒ gāi qù shuì jiào le 。",
-        "vi": "Tôi phải đi ngủ."
+        "vi": "Tôi phải đi ngủ.",
+        "audio": "audio/teacher-326d68e1d642.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-316397ae3c68.mp3"
   },
   {
     "id": "w3-053",
@@ -896,9 +1000,11 @@
       {
         "hanzi": "你的车很快，但是我的更快。",
         "pinyin": "nǐ de chē hěn kuài ， dàn shì wǒ de gèng kuài 。",
-        "vi": "Xe của mày rất nhanh, nhưng xe của tao nhanh hơn."
+        "vi": "Xe của mày rất nhanh, nhưng xe của tao nhanh hơn.",
+        "audio": "audio/teacher-35a3785f3597.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-8afc01326dfb.mp3"
   },
   {
     "id": "w3-054",
@@ -913,9 +1019,11 @@
       {
         "hanzi": "我们的眼睛需要时间来适应黑暗。",
         "pinyin": "wǒ men de yǎn jīng xū yào shí jiān lái shì yìng hēi àn 。",
-        "vi": "Mắt của chúng ta cần thời gian để điều chỉnh với bóng tối."
+        "vi": "Mắt của chúng ta cần thời gian để điều chỉnh với bóng tối.",
+        "audio": "audio/teacher-45e9e1300344.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-39d3a0c97f75.mp3"
   },
   {
     "id": "w3-055",
@@ -930,9 +1038,11 @@
       {
         "hanzi": "我不知道應該說什麼才好。",
         "pinyin": "wǒ bù zhī dào yīng gāi shuō shén me cái hǎo 。",
-        "vi": "Tôi hết lời để nói."
+        "vi": "Tôi hết lời để nói.",
+        "audio": "audio/teacher-61150fc96947.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-28978aa8c0af.mp3"
   },
   {
     "id": "w3-056",
@@ -947,9 +1057,11 @@
       {
         "hanzi": "如果我可以像那樣的話...",
         "pinyin": "rú guǒ wǒ kě yǐ xiàng nà yàng de huà ...",
-        "vi": "Giá mà tôi cũng như vậy..."
+        "vi": "Giá mà tôi cũng như vậy...",
+        "audio": "audio/teacher-875747315981.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-aae428ba7134.mp3"
   },
   {
     "id": "w3-057",
@@ -964,9 +1076,11 @@
       {
         "hanzi": "帕克夫人面帶微笑向他打招呼。",
         "pinyin": "pà kè fū rén miàn dài wēi xiào xiàng tā dǎ zhāo hū 。",
-        "vi": "Bà Parker mỉm cười chào anh ấy."
+        "vi": "Bà Parker mỉm cười chào anh ấy.",
+        "audio": "audio/teacher-bd20daa68ef1.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-ac3c9441737d.mp3"
   },
   {
     "id": "w3-058",
@@ -981,9 +1095,11 @@
       {
         "hanzi": "我想和你一起去。",
         "pinyin": "wǒ xiǎng hé nǐ yì qǐ qù 。",
-        "vi": "Tôi muốn đi cùng với bạn."
+        "vi": "Tôi muốn đi cùng với bạn.",
+        "audio": "audio/teacher-0f69bb5c6332.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-f621d1030ea3.mp3"
   },
   {
     "id": "w3-059",
@@ -998,9 +1114,11 @@
       {
         "hanzi": "我认为这个消息应该通知大家。",
         "pinyin": "wǒ rèn wéi zhè ge xiāo xī yīng gāi tōng zhī dà jiā 。",
-        "vi": "Tôi thấy tin đó nên báo cho mọi người biết."
+        "vi": "Tôi thấy tin đó nên báo cho mọi người biết.",
+        "audio": "audio/teacher-f00866631237.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-726828f14eed.mp3"
   },
   {
     "id": "w3-060",
@@ -1015,9 +1133,11 @@
       {
         "hanzi": "她给了她父亲一条领带。",
         "pinyin": "tā gěi le tā fù qīn yī tiáo lǐng dài 。",
-        "vi": "Cô ấy đã đưa cho bố cô một chiếc cà vạt."
+        "vi": "Cô ấy đã đưa cho bố cô một chiếc cà vạt.",
+        "audio": "audio/teacher-d3b1d0dc6984.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-5eb856bd87a8.mp3"
   },
   {
     "id": "w3-061",
@@ -1032,9 +1152,11 @@
       {
         "hanzi": "我接种了流感疫苗。",
         "pinyin": "wǒ jiē zhǒng le liú gǎn yì miáo 。",
-        "vi": "Tôi đã tiêm vắc-xin phòng cúm."
+        "vi": "Tôi đã tiêm vắc-xin phòng cúm.",
+        "audio": "audio/teacher-e514782a85d4.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-c7ebf6b27c9b.mp3"
   },
   {
     "id": "w3-062",
@@ -1049,9 +1171,11 @@
       {
         "hanzi": "那个发现纯属偶然。",
         "pinyin": "nà ge fā xiàn chún shǔ ǒu rán 。",
-        "vi": "Phát hiện đó hoàn toàn là do tình cờ."
+        "vi": "Phát hiện đó hoàn toàn là do tình cờ.",
+        "audio": "audio/teacher-101d9d4b5c74.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-c8becbf85f5e.mp3"
   },
   {
     "id": "w3-063",
@@ -1066,9 +1190,11 @@
       {
         "hanzi": "到了最後，大家一定要靠自己學習。",
         "pinyin": "dào le zuì hòu ， dà jiā yí dìng yào kào zì jǐ xué xí 。",
-        "vi": "Rốt cuộc, ai cũng phải tự học thôi."
+        "vi": "Rốt cuộc, ai cũng phải tự học thôi.",
+        "audio": "audio/teacher-484947606990.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-3157c3e25fdd.mp3"
   },
   {
     "id": "w3-064",
@@ -1083,9 +1209,11 @@
       {
         "hanzi": "他们生活得很幸福。",
         "pinyin": "tā men shēng huó dé hěn xìng fú 。",
-        "vi": "Họ đã có một cuộc sống hạnh phúc."
+        "vi": "Họ đã có một cuộc sống hạnh phúc.",
+        "audio": "audio/teacher-5be6b7b1d226.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-526c4f03779e.mp3"
   },
   {
     "id": "w3-065",
@@ -1100,9 +1228,11 @@
       {
         "hanzi": "不要担心，我会一直在你身边。",
         "pinyin": "bú yào dān xīn ， wǒ huì yì zhí zài nǐ shēn biān 。",
-        "vi": "Đừng lo lắng, anh sẽ luôn ở bên em."
+        "vi": "Đừng lo lắng, anh sẽ luôn ở bên em.",
+        "audio": "audio/teacher-23b6223dc36c.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-f3a9cadd679c.mp3"
   },
   {
     "id": "w3-066",
@@ -1117,9 +1247,11 @@
       {
         "hanzi": "不要再让这种事发生了！",
         "pinyin": "bú yào zài ràng zhè zhǒng shì fā shēng le ！",
-        "vi": "Đừng để chuyện này tái diễn nữa nhé!"
+        "vi": "Đừng để chuyện này tái diễn nữa nhé!",
+        "audio": "audio/teacher-a7ad0f6100c4.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-2b04dfb6ca47.mp3"
   },
   {
     "id": "w3-067",
@@ -1134,9 +1266,11 @@
       {
         "hanzi": "援救人员为了找到孩子，仔细搜索了那个区域。",
         "pinyin": "yuán jiù rén yuán wèi le zhǎo dào hái zi ， zǐ xì sōu suǒ le nà ge qū yù 。",
-        "vi": "Đội cứu hộ đã lùng sục khắp khu vực đó để tìm đứa trẻ."
+        "vi": "Đội cứu hộ đã lùng sục khắp khu vực đó để tìm đứa trẻ.",
+        "audio": "audio/teacher-2465a2e2bac3.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-07344f5f7c5e.mp3"
   },
   {
     "id": "w3-068",
@@ -1151,9 +1285,11 @@
       {
         "hanzi": "这个班里没有人像Bill一样高。",
         "pinyin": "zhè ge bān lǐ méi yǒu rén xiàng Bill yī yàng gāo 。",
-        "vi": "Trong lớp này không có người cao như Bill."
+        "vi": "Trong lớp này không có người cao như Bill.",
+        "audio": "audio/teacher-74e4c89a2c5a.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-cfde66c0eb4e.mp3"
   },
   {
     "id": "w3-069",
@@ -1168,9 +1304,11 @@
       {
         "hanzi": "我只是不知道應該說什麼而已……",
         "pinyin": "wǒ zhǐ shì bù zhī dào yīng gāi shuō shén me ér yǐ ……",
-        "vi": "Tôi không biết nên nói gì cả..."
+        "vi": "Tôi không biết nên nói gì cả...",
+        "audio": "audio/teacher-f20812fe81f5.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-b8a93138f803.mp3"
   },
   {
     "id": "w3-070",
@@ -1185,9 +1323,11 @@
       {
         "hanzi": "她不但漂亮，而且聪明。",
         "pinyin": "tā bù dàn piào liàng ， ér qiě cōng míng 。",
-        "vi": "Bạn ấy vừa đẹp vừa thông minh."
+        "vi": "Bạn ấy vừa đẹp vừa thông minh.",
+        "audio": "audio/teacher-48e26d17d20a.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-ba4665f27e82.mp3"
   },
   {
     "id": "w3-071",
@@ -1202,9 +1342,11 @@
       {
         "hanzi": "你必须停止吸烟。",
         "pinyin": "nǐ bì xū tíng zhǐ xī yān 。",
-        "vi": "Bạn phải ngưng hút thuốc."
+        "vi": "Bạn phải ngưng hút thuốc.",
+        "audio": "audio/teacher-e88e10001bef.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-f1273ef7bdc2.mp3"
   },
   {
     "id": "w3-072",
@@ -1219,9 +1361,11 @@
       {
         "hanzi": "這裡是爸爸工作的地方。",
         "pinyin": "zhè lǐ shì bà bà gōng zuò de dì fāng 。",
-        "vi": "Đây là nơi làm việc của bố tôi."
+        "vi": "Đây là nơi làm việc của bố tôi.",
+        "audio": "audio/teacher-872edd1eff18.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-118324c488d1.mp3"
   },
   {
     "id": "w3-073",
@@ -1236,9 +1380,11 @@
       {
         "hanzi": "那个老人非常 亲切。",
         "pinyin": "nà ge lǎo rén fēi cháng   qīn qiè 。",
-        "vi": "Ông già đó rất nhiệt tình."
+        "vi": "Ông già đó rất nhiệt tình.",
+        "audio": "audio/teacher-5d74ba2b179c.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-f85e859cedca.mp3"
   },
   {
     "id": "w3-074",
@@ -1253,9 +1399,11 @@
       {
         "hanzi": "我爱你胜过其他任何一个人。",
         "pinyin": "wǒ ài nǐ shèng guò qí tā rèn hé yí gè rén 。",
-        "vi": "Anh yêu thương em nhiều hơn ai hết."
+        "vi": "Anh yêu thương em nhiều hơn ai hết.",
+        "audio": "audio/teacher-6a932d995c79.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-b6fbc4e4e7d5.mp3"
   },
   {
     "id": "w3-075",
@@ -1270,9 +1418,11 @@
       {
         "hanzi": "一个人要为他的行为负责。",
         "pinyin": "yí gè rén yào wèi tā de xíng wéi fù zé 。",
-        "vi": "Một người phải có trách nhiệm với những hành động của mình."
+        "vi": "Một người phải có trách nhiệm với những hành động của mình.",
+        "audio": "audio/teacher-cb87bf5b17cb.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-74935055740c.mp3"
   },
   {
     "id": "w3-076",
@@ -1287,9 +1437,11 @@
       {
         "hanzi": "她拥抱了一下儿子，然后让他上床睡觉。",
         "pinyin": "tā yōng bào le yī xià ér zi ， rán hòu ràng tā shàng chuáng shuì jiào 。",
-        "vi": "Cô ấy ôm con vào lòng, sau đó để nó ngủ trên giường."
+        "vi": "Cô ấy ôm con vào lòng, sau đó để nó ngủ trên giường.",
+        "audio": "audio/teacher-0b3dd4fa70dc.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-a971437ebcc8.mp3"
   },
   {
     "id": "w3-077",
@@ -1304,9 +1456,11 @@
       {
         "hanzi": "他放弃了所有希望。",
         "pinyin": "tā fàng qì le suǒ yǒu xī wàng 。",
-        "vi": "Anh ta từ bỏ mọi hy vọng"
+        "vi": "Anh ta từ bỏ mọi hy vọng",
+        "audio": "audio/teacher-439d112acc0e.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-23b8f0a26ee6.mp3"
   },
   {
     "id": "w3-078",
@@ -1321,9 +1475,11 @@
       {
         "hanzi": "他在城市里一直受到噪音或者其他的干扰。",
         "pinyin": "tā zài chéng shì lǐ yì zhí shòu dào zào yīn huò zhě qí tā de gān rǎo 。",
-        "vi": "Bạn ấy luôn bị tiếng ồn và các thứ khác làm phiền ở thành phố."
+        "vi": "Bạn ấy luôn bị tiếng ồn và các thứ khác làm phiền ở thành phố.",
+        "audio": "audio/teacher-f63dd7cddac2.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-6432653d74bf.mp3"
   },
   {
     "id": "w3-079",
@@ -1338,9 +1494,11 @@
       {
         "hanzi": "得不到的东西就最想得到。",
         "pinyin": "dé bú dào de dōng xī jiù zuì xiǎng de dào 。",
-        "vi": "Cái gì không có được thì mình lại càng muốn có."
+        "vi": "Cái gì không có được thì mình lại càng muốn có.",
+        "audio": "audio/teacher-2b785a87772b.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-4aedb829c5fd.mp3"
   },
   {
     "id": "w3-080",
@@ -1355,9 +1513,11 @@
       {
         "hanzi": "那是一张近照吗？",
         "pinyin": "nà shì yī zhāng jìn zhào ma ？",
-        "vi": "Tấm hình này có mới không?"
+        "vi": "Tấm hình này có mới không?",
+        "audio": "audio/teacher-b80dbd69bbb8.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-bcdd9c43f5e9.mp3"
   },
   {
     "id": "w3-081",
@@ -1372,9 +1532,11 @@
       {
         "hanzi": "总的来说，这部电影从剧本到银幕是成功的。",
         "pinyin": "zǒng de lái shuō ， zhè bù diàn yǐng cóng jù běn dào yín mù shì chéng gōng de 。",
-        "vi": "Nói tóm lại, bộ phim này từ kịch bản đến cách trình chiếu đều thành công."
+        "vi": "Nói tóm lại, bộ phim này từ kịch bản đến cách trình chiếu đều thành công.",
+        "audio": "audio/teacher-0defb16f6276.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-4aacdd027de5.mp3"
   },
   {
     "id": "w3-082",
@@ -1389,9 +1551,11 @@
       {
         "hanzi": "在某種程度上我能了解你。",
         "pinyin": "zài mǒu zhǒng chéng dù shàng wǒ néng liǎo jiě nǐ 。",
-        "vi": "Tôi có thể hiểu bạn ở mức độ nào đó."
+        "vi": "Tôi có thể hiểu bạn ở mức độ nào đó.",
+        "audio": "audio/teacher-edb64c4348b2.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-c9ee9a5727e7.mp3"
   },
   {
     "id": "w3-083",
@@ -1406,9 +1570,11 @@
       {
         "hanzi": "人人都积极参加劳动。",
         "pinyin": "rén rén dōu jī jí cān jiā láo dòng 。",
-        "vi": "Ai ai cũng hăng hái tham gia lao động."
+        "vi": "Ai ai cũng hăng hái tham gia lao động.",
+        "audio": "audio/teacher-9cf9a14ecb99.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-234fe641b885.mp3"
   },
   {
     "id": "w3-084",
@@ -1423,9 +1589,11 @@
       {
         "hanzi": "你是从哪个国家来的？",
         "pinyin": "nǐ shì cóng nǎ ge guó jiā lái de ？",
-        "vi": "Bạn đến từ nước nào vậy?"
+        "vi": "Bạn đến từ nước nào vậy?",
+        "audio": "audio/teacher-a6f8e3bf64d0.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-5689970bfd55.mp3"
   },
   {
     "id": "w3-085",
@@ -1440,9 +1608,11 @@
       {
         "hanzi": "世界語只有16個語法規則。",
         "pinyin": "shì jiè yǔ zhǐ yǒu 16 gè yǔ fǎ guī zé 。",
-        "vi": "Tiếng Esperanto chỉ có 16 quy tắc ngữ pháp."
+        "vi": "Tiếng Esperanto chỉ có 16 quy tắc ngữ pháp.",
+        "audio": "audio/teacher-62be3ae15bb4.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-3174c8e323ec.mp3"
   },
   {
     "id": "w3-086",
@@ -1457,9 +1627,11 @@
       {
         "hanzi": "他在城市里一直受到噪音或者其他的干扰。",
         "pinyin": "tā zài chéng shì lǐ yì zhí shòu dào zào yīn huò zhě qí tā de gān rǎo 。",
-        "vi": "Bạn ấy luôn bị tiếng ồn và các thứ khác làm phiền ở thành phố."
+        "vi": "Bạn ấy luôn bị tiếng ồn và các thứ khác làm phiền ở thành phố.",
+        "audio": "audio/teacher-f63dd7cddac2.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-2b850219ea4a.mp3"
   },
   {
     "id": "w3-087",
@@ -1474,9 +1646,11 @@
       {
         "hanzi": "他把自己化裝成一個女人。",
         "pinyin": "tā bǎ zì jǐ huà zhuāng chéng yī gè nǚ rén 。",
-        "vi": "Anh ấy đã đóng giả làm con gái."
+        "vi": "Anh ấy đã đóng giả làm con gái.",
+        "audio": "audio/teacher-8c605d160a9b.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-da1e917ad336.mp3"
   },
   {
     "id": "w3-088",
@@ -1491,9 +1665,11 @@
       {
         "hanzi": "汤姆不能把他的真实感受告诉玛丽。",
         "pinyin": "tāng mǔ bù néng bǎ tā de zhēn shí gǎn shòu gào sù mǎ lì 。",
-        "vi": "Tom không nói được với Mary cảm xúc thực sự của anh ấy."
+        "vi": "Tom không nói được với Mary cảm xúc thực sự của anh ấy.",
+        "audio": "audio/teacher-ee4a7ceb1b85.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-4ae405baf8ad.mp3"
   },
   {
     "id": "w3-089",
@@ -1508,9 +1684,11 @@
       {
         "hanzi": "他只是责怪别人，从不自责。",
         "pinyin": "tā zhǐ shì zé guài bié rén ， cóng bù zì zé 。",
-        "vi": "Anh chỉ trách người chứ không trách mình."
+        "vi": "Anh chỉ trách người chứ không trách mình.",
+        "audio": "audio/teacher-5dba7e7ac4a0.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-a6d160f51f49.mp3"
   },
   {
     "id": "w3-090",
@@ -1525,9 +1703,11 @@
       {
         "hanzi": "可是太贵了！",
         "pinyin": "kě shì tài guì le ！",
-        "vi": "Nhưng mà nó đắt quá!"
+        "vi": "Nhưng mà nó đắt quá!",
+        "audio": "audio/teacher-3d5ccb578a62.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-0078a94a612c.mp3"
   },
   {
     "id": "w3-091",
@@ -1542,9 +1722,11 @@
       {
         "hanzi": "以后再讲。",
         "pinyin": "yǐ hòu zài jiǎng 。",
-        "vi": "Hôm sau mình nói chuyện này nhé."
+        "vi": "Hôm sau mình nói chuyện này nhé.",
+        "audio": "audio/teacher-c26255c1482e.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-db2446c397e4.mp3"
   },
   {
     "id": "w3-092",
@@ -1559,9 +1741,11 @@
       {
         "hanzi": "在企业整顿中，要坚持高标准，严要求，防止走过场。",
         "pinyin": "zài qǐ yè zhěng dùn zhōng ， yào jiān chí gāo biāo zhǔn ， yán yāo qiú ， fáng zhǐ zǒu guò chǎng 。",
-        "vi": "Trong lúc doanh nghiệp đang tổ chức lại, phải kiên trì với tiêu chuẩn cao, yêu cầu nghiêm ngặt, ngăn chặn việc làm chiếu lệ hời hợt."
+        "vi": "Trong lúc doanh nghiệp đang tổ chức lại, phải kiên trì với tiêu chuẩn cao, yêu cầu nghiêm ngặt, ngăn chặn việc làm chiếu lệ hời hợt.",
+        "audio": "audio/teacher-923f79d93851.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-5a37a661bfac.mp3"
   },
   {
     "id": "w3-093",
@@ -1576,9 +1760,11 @@
       {
         "hanzi": "我抓到了這個男人正在偷錢。",
         "pinyin": "wǒ zhuā dào le zhè gè nán rén zhèng zài tōu qián 。",
-        "vi": "Tôi đã bắt kịp thằng ăn cắp tiền này."
+        "vi": "Tôi đã bắt kịp thằng ăn cắp tiền này.",
+        "audio": "audio/teacher-5d6a1ebb8d70.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-7f8d64a43a27.mp3"
   },
   {
     "id": "w3-094",
@@ -1593,9 +1779,11 @@
       {
         "hanzi": "人人都愿意相信美梦可以成真。",
         "pinyin": "rén rén dōu yuàn yì xiāng xìn měi mèng kě yǐ chéng zhēn 。",
-        "vi": "Ai cũng muốn tin rằng mọi giấc mơ đều có thể trở thành hiện thực."
+        "vi": "Ai cũng muốn tin rằng mọi giấc mơ đều có thể trở thành hiện thực.",
+        "audio": "audio/teacher-e251b5b54a95.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-fc21e5ac7678.mp3"
   },
   {
     "id": "w3-095",
@@ -1610,9 +1798,11 @@
       {
         "hanzi": "消磨时间的最有效办法当然还是聊天吹牛侃大山。",
         "pinyin": "xiāo mó shí jiān de zuì yǒu xiào bàn fǎ dāng rán hái shì liáo tiān chuī niú kǎn dà shān 。",
-        "vi": "Biện pháp hiệu quả nhất để giết thời gian nhất đương nhiên vẫn là chuyện trò, chém gió, buôn chuyện."
+        "vi": "Biện pháp hiệu quả nhất để giết thời gian nhất đương nhiên vẫn là chuyện trò, chém gió, buôn chuyện.",
+        "audio": "audio/teacher-822b9a5ad4fb.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-b853b4729360.mp3"
   },
   {
     "id": "w3-096",
@@ -1627,9 +1817,11 @@
       {
         "hanzi": "我接种了流感疫苗。",
         "pinyin": "wǒ jiē zhǒng le liú gǎn yì miáo 。",
-        "vi": "Tôi đã tiêm vắc-xin phòng cúm."
+        "vi": "Tôi đã tiêm vắc-xin phòng cúm.",
+        "audio": "audio/teacher-e514782a85d4.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-fb9988d54803.mp3"
   },
   {
     "id": "w3-097",
@@ -1644,9 +1836,11 @@
       {
         "hanzi": "人人都愿意相信美梦可以成真。",
         "pinyin": "rén rén dōu yuàn yì xiāng xìn měi mèng kě yǐ chéng zhēn 。",
-        "vi": "Ai cũng muốn tin rằng mọi giấc mơ đều có thể trở thành hiện thực."
+        "vi": "Ai cũng muốn tin rằng mọi giấc mơ đều có thể trở thành hiện thực.",
+        "audio": "audio/teacher-e251b5b54a95.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-ba776774da9b.mp3"
   },
   {
     "id": "w3-098",
@@ -1661,9 +1855,11 @@
       {
         "hanzi": "你刚说的是什么地方？",
         "pinyin": "nǐ gāng shuō de shì shén me dì fāng ？",
-        "vi": "Chỗ anh vừa nói là đâu hả anh?"
+        "vi": "Chỗ anh vừa nói là đâu hả anh?",
+        "audio": "audio/teacher-de7ce011713f.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-79936ce30e2c.mp3"
   },
   {
     "id": "w3-099",
@@ -1678,9 +1874,11 @@
       {
         "hanzi": "你只要在这里写下你的姓名和地址就行了。",
         "pinyin": "nǐ zhǐ yào zài zhè lǐ xiě xià nǐ de xìng míng hé dì zhǐ jiù xíng le 。",
-        "vi": "Bạn chỉ cần viết tên và địa chỉ của mình vào đây là được."
+        "vi": "Bạn chỉ cần viết tên và địa chỉ của mình vào đây là được.",
+        "audio": "audio/teacher-51f9d112202f.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-6f93334cfa5c.mp3"
   },
   {
     "id": "w3-100",
@@ -1695,9 +1893,11 @@
       {
         "hanzi": "有一部分人不同意。",
         "pinyin": "yǒu yī bù fèn rén bù tóng yì 。",
-        "vi": "Có một số người không đồng ý."
+        "vi": "Có một số người không đồng ý.",
+        "audio": "audio/teacher-b4266bef67a3.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-cf667f5c2570.mp3"
   },
   {
     "id": "w3-101",
@@ -1712,9 +1912,11 @@
       {
         "hanzi": "你在干什麼啊？",
         "pinyin": "nǐ zài gàn shén me a ？",
-        "vi": "Bạn đang làm gì đây?"
+        "vi": "Bạn đang làm gì đây?",
+        "audio": "audio/teacher-90eb0c61c3c0.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-7186c0c53dcc.mp3"
   },
   {
     "id": "w3-102",
@@ -1729,9 +1931,11 @@
       {
         "hanzi": "我在找关于古罗马历史的书。",
         "pinyin": "wǒ zài zhǎo guān yú gǔ luó mǎ lì shǐ de shū 。",
-        "vi": "Mình đang tìm sách về lịch sử La Mã cổ đại."
+        "vi": "Mình đang tìm sách về lịch sử La Mã cổ đại.",
+        "audio": "audio/teacher-5ddd42c30d10.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-a8436576e527.mp3"
   },
   {
     "id": "w3-103",
@@ -1746,9 +1950,11 @@
       {
         "hanzi": "外交谈判帮助结束了冲突。",
         "pinyin": "wài jiāo tán pàn bāng zhù jié shù le chōng tū 。",
-        "vi": "Đàm phán ngoại giao đã giúp chấm dứt xung đột."
+        "vi": "Đàm phán ngoại giao đã giúp chấm dứt xung đột.",
+        "audio": "audio/teacher-f73ece600c77.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-2d61713489d6.mp3"
   },
   {
     "id": "w3-104",
@@ -1763,9 +1969,11 @@
       {
         "hanzi": "一切都不会改变。",
         "pinyin": "yī qiè dōu bú huì gǎi biàn 。",
-        "vi": "Không có gì thay đổi cả."
+        "vi": "Không có gì thay đổi cả.",
+        "audio": "audio/teacher-f8657f4f6903.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-9a54e3870fe5.mp3"
   },
   {
     "id": "w3-105",
@@ -1780,9 +1988,11 @@
       {
         "hanzi": "人人都积极参加劳动。",
         "pinyin": "rén rén dōu jī jí cān jiā láo dòng 。",
-        "vi": "Ai ai cũng hăng hái tham gia lao động."
+        "vi": "Ai ai cũng hăng hái tham gia lao động.",
+        "audio": "audio/teacher-9cf9a14ecb99.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-639dd260c040.mp3"
   },
   {
     "id": "w3-106",
@@ -1797,9 +2007,11 @@
       {
         "hanzi": "这件事情跟我们都有关。",
         "pinyin": "zhè jiàn shì qíng gēn wǒ men dōu yǒu guān 。",
-        "vi": "Việc này đều có liên quan đến chúng ta."
+        "vi": "Việc này đều có liên quan đến chúng ta.",
+        "audio": "audio/teacher-80fdabce6f5b.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-2590bf4200a9.mp3"
   },
   {
     "id": "w3-107",
@@ -1814,9 +2026,11 @@
       {
         "hanzi": "我想把日元換成美元。",
         "pinyin": "wǒ xiǎng bǎ rì yuán huàn chéng měi yuán 。",
-        "vi": "Tôi muốn đổi yên Nhật thành đô la Mỹ."
+        "vi": "Tôi muốn đổi yên Nhật thành đô la Mỹ.",
+        "audio": "audio/teacher-46ec584d2c61.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-e9027a157caa.mp3"
   },
   {
     "id": "w3-108",
@@ -1831,9 +2045,11 @@
       {
         "hanzi": "我以前在山里。",
         "pinyin": "wǒ yǐ qián zài shān lǐ 。",
-        "vi": "Tôi từ trên núi xuống."
+        "vi": "Tôi từ trên núi xuống.",
+        "audio": "audio/teacher-7c8a2518b6c7.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-5fcf353b2fc4.mp3"
   },
   {
     "id": "w3-109",
@@ -1848,9 +2064,11 @@
       {
         "hanzi": "他买了一把特别大的屠刀，拿出来不停地磨呀抢呀。",
         "pinyin": "tā mǎi le yī bǎ tè bié dà de tú dāo ， ná chū lái bù tíng dì mó ya qiǎng ya 。",
-        "vi": "Anh ta mua một con dao bầu thật to, đem ra cứ mài mài liếc liếc mãi."
+        "vi": "Anh ta mua một con dao bầu thật to, đem ra cứ mài mài liếc liếc mãi.",
+        "audio": "audio/teacher-7464c6bf7f32.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-51f210cf2982.mp3"
   },
   {
     "id": "w3-110",
@@ -1865,9 +2083,11 @@
       {
         "hanzi": "这个窝棚是个很特别的地方。",
         "pinyin": "zhè ge wō péng shì gè hěn tè bié de dì fāng 。",
-        "vi": "Cái lán này là một nơi rất đặc biệt."
+        "vi": "Cái lán này là một nơi rất đặc biệt.",
+        "audio": "audio/teacher-76ef4bbb98ec.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-0ca368e54587.mp3"
   },
   {
     "id": "w3-111",
@@ -1882,9 +2102,11 @@
       {
         "hanzi": "他的理论很难懂。",
         "pinyin": "tā de lǐ lùn hěn nán dǒng 。",
-        "vi": "Lý luận của anh ấy rất khó hiểu."
+        "vi": "Lý luận của anh ấy rất khó hiểu.",
+        "audio": "audio/teacher-bbc97446fda6.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-9b1b56a563a2.mp3"
   },
   {
     "id": "w3-112",
@@ -1899,9 +2121,11 @@
       {
         "hanzi": "尤其是要注意你吃的和喝的东西。",
         "pinyin": "yóu qí shì yào zhù yì nǐ chī de hé hē de dōng xī 。",
-        "vi": "Bạn đặc biệt phải chú ý đồ ăn thức uống của mình."
+        "vi": "Bạn đặc biệt phải chú ý đồ ăn thức uống của mình.",
+        "audio": "audio/teacher-288d95732e66.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-a667dd26b2ac.mp3"
   },
   {
     "id": "w3-113",
@@ -1916,9 +2140,11 @@
       {
         "hanzi": "我正在跟谁讲话？",
         "pinyin": "wǒ zhèng zài gēn shuí jiǎng huà ？",
-        "vi": "Tôi đang nói chuyện với ai đây?"
+        "vi": "Tôi đang nói chuyện với ai đây?",
+        "audio": "audio/teacher-6ee5bd796cf9.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-ef6f4e794585.mp3"
   },
   {
     "id": "w3-114",
@@ -1933,9 +2159,11 @@
       {
         "hanzi": "去年她离开了日本。",
         "pinyin": "qù nián tā lí kāi le rì běn 。",
-        "vi": "Năm ngoái bạn ấy đã rời Nhật Bản."
+        "vi": "Năm ngoái bạn ấy đã rời Nhật Bản.",
+        "audio": "audio/teacher-32c34f9f97da.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-e342826f9c4b.mp3"
   },
   {
     "id": "w3-115",
@@ -1950,9 +2178,11 @@
       {
         "hanzi": "她以为我是医生。",
         "pinyin": "tā yǐ wéi wǒ shì yī shēng 。",
-        "vi": "Cô ấy đã cho rằng tôi là một bác sỹ."
+        "vi": "Cô ấy đã cho rằng tôi là một bác sỹ.",
+        "audio": "audio/teacher-009a409aa539.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-1fe64b80081e.mp3"
   },
   {
     "id": "w3-116",
@@ -1967,9 +2197,11 @@
       {
         "hanzi": "越南语真的难学。",
         "pinyin": "yuè nán yǔ zhēn de nán xué 。",
-        "vi": "Tiếng Việt thật sự rất khó học."
+        "vi": "Tiếng Việt thật sự rất khó học.",
+        "audio": "audio/teacher-2680a1181e7d.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-d35dcd98abac.mp3"
   },
   {
     "id": "w3-117",
@@ -1984,9 +2216,11 @@
       {
         "hanzi": "我太阳穴处疼极了。",
         "pinyin": "wǒ tài yáng xué chù téng jí le 。",
-        "vi": "Tôi nhức thái dương quá."
+        "vi": "Tôi nhức thái dương quá.",
+        "audio": "audio/teacher-1a33266300a6.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-58df2abf4387.mp3"
   },
   {
     "id": "w3-118",
@@ -2001,9 +2235,11 @@
       {
         "hanzi": "他提出改革研究方法的意见。",
         "pinyin": "tā tí chū gǎi gé yán jiū fāng fǎ de yì jiàn 。",
-        "vi": "Nó đề xuất ý kiến cải cách phương pháp nghiên cứu."
+        "vi": "Nó đề xuất ý kiến cải cách phương pháp nghiên cứu.",
+        "audio": "audio/teacher-a8053cc2c706.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-b124472af94d.mp3"
   },
   {
     "id": "w3-119",
@@ -2018,9 +2254,11 @@
       {
         "hanzi": "停止大声说话。",
         "pinyin": "tíng zhǐ dà shēng shuō huà 。",
-        "vi": "Cấm nói lớn tiếng."
+        "vi": "Cấm nói lớn tiếng.",
+        "audio": "audio/teacher-92d27fd51259.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-a0aff48f0ec7.mp3"
   },
   {
     "id": "w3-120",
@@ -2035,9 +2273,11 @@
       {
         "hanzi": "我们没机会赢那些一流选手。",
         "pinyin": "wǒ men méi jī huì yíng nà xiē yì liú xuǎn shǒu 。",
-        "vi": "Mình không có cơ hội thắng những tay đua top đầu đâu."
+        "vi": "Mình không có cơ hội thắng những tay đua top đầu đâu.",
+        "audio": "audio/teacher-e8fb42469847.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-f367f1da9628.mp3"
   },
   {
     "id": "w3-121",
@@ -2052,9 +2292,11 @@
       {
         "hanzi": "去你的！你就会这一句。",
         "pinyin": "qù nǐ de ！ nǐ jiù huì zhè yī jù 。",
-        "vi": "Ghét anh! Anh chỉ biết nói mỗi câu ý thôi à"
+        "vi": "Ghét anh! Anh chỉ biết nói mỗi câu ý thôi à",
+        "audio": "audio/teacher-61d35667c4bc.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-988f33d0413f.mp3"
   },
   {
     "id": "w3-122",
@@ -2069,9 +2311,11 @@
       {
         "hanzi": "玩这些电脑游戏要反应灵敏。",
         "pinyin": "wán zhè xiē diàn nǎo yóu xì yào fǎn yìng líng mǐn 。",
-        "vi": "Chơi trò chơi điện tử này cần phải phản ứng nhanh nhạy."
+        "vi": "Chơi trò chơi điện tử này cần phải phản ứng nhanh nhạy.",
+        "audio": "audio/teacher-305ce7036916.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-d39f5746e547.mp3"
   },
   {
     "id": "w3-123",
@@ -2086,9 +2330,11 @@
       {
         "hanzi": "我看见了马库斯的房子。",
         "pinyin": "wǒ kàn jiàn le mǎ kù sī de fáng zi 。",
-        "vi": "Tôi đã thấy nhà của Marcus."
+        "vi": "Tôi đã thấy nhà của Marcus.",
+        "audio": "audio/teacher-f6da6f1f5142.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-6d7bccf74404.mp3"
   },
   {
     "id": "w3-124",
@@ -2103,9 +2349,11 @@
       {
         "hanzi": "北京的秋天一般地说气候比较凉爽。",
         "pinyin": "běi jīng de qiū tiān yì bān dì shuō qì hòu bǐ jiào liáng shuǎng 。",
-        "vi": "Mùa thu của Bắc Kinh nói chung khí hậu tương đối mát mẻ dễ chịu."
+        "vi": "Mùa thu của Bắc Kinh nói chung khí hậu tương đối mát mẻ dễ chịu.",
+        "audio": "audio/teacher-003ebdf56b23.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-0b0b1ecf5fe9.mp3"
   },
   {
     "id": "w3-125",
@@ -2120,9 +2368,11 @@
       {
         "hanzi": "我最近一直睡眠不足。",
         "pinyin": "wǒ zuì jìn yì zhí shuì mián bù zú 。",
-        "vi": "Dạo này tôi bị mất ngủ."
+        "vi": "Dạo này tôi bị mất ngủ.",
+        "audio": "audio/teacher-1bcc66f587d0.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-be7d1ef53aa5.mp3"
   },
   {
     "id": "w3-126",
@@ -2137,9 +2387,11 @@
       {
         "hanzi": "他没有去，换句话说，他去的这个事实无案可查。",
         "pinyin": "tā méi yǒu qù ， huàn jù huà shuō ， tā qù de zhè ge shì shí wú àn kě chá 。",
-        "vi": "Anh ấy không đi, nói cách khác, chẳng có gì chứng minh anh ấy đã đi cả."
+        "vi": "Anh ấy không đi, nói cách khác, chẳng có gì chứng minh anh ấy đã đi cả.",
+        "audio": "audio/teacher-a66bee2dd353.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-9134366e3a7d.mp3"
   },
   {
     "id": "w3-127",
@@ -2154,9 +2406,11 @@
       {
         "hanzi": "我的生意终于走上了正轨。",
         "pinyin": "wǒ de shēng yì zhōng yú zǒu shàng le zhèng guǐ 。",
-        "vi": "Công việc kinh doanh của mình cuối cùng cũng đi đúng quỹ đạo."
+        "vi": "Công việc kinh doanh của mình cuối cùng cũng đi đúng quỹ đạo.",
+        "audio": "audio/teacher-0e2a67556c3b.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-509fb73255af.mp3"
   },
   {
     "id": "w3-128",
@@ -2171,9 +2425,11 @@
       {
         "hanzi": "那是一隻有惡意的兔子。",
         "pinyin": "nà shì yī zhī yǒu è yì de tù zi 。",
-        "vi": "Đó là một con thỏ hung ác."
+        "vi": "Đó là một con thỏ hung ác.",
+        "audio": "audio/teacher-79f1ce51ce3d.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-17f19cb84ac9.mp3"
   },
   {
     "id": "w3-129",
@@ -2188,9 +2444,11 @@
       {
         "hanzi": "她无法直视我的脸。",
         "pinyin": "tā wú fǎ zhí shì wǒ de liǎn 。",
-        "vi": "Cô ấy không dám nhìn thẳng vào mặt mình."
+        "vi": "Cô ấy không dám nhìn thẳng vào mặt mình.",
+        "audio": "audio/teacher-0da400ae2bd0.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-ef0bb38c900d.mp3"
   },
   {
     "id": "w3-130",
@@ -2205,9 +2463,11 @@
       {
         "hanzi": "除了雨天，我都是骑车去上班的。",
         "pinyin": "chú le yǔ tiān ， wǒ dōu shì qí chē qù shàng bān de 。",
-        "vi": "Trừ những ngày mưa, mình toàn đạp xe đi làm."
+        "vi": "Trừ những ngày mưa, mình toàn đạp xe đi làm.",
+        "audio": "audio/teacher-60f30d91ae51.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-90fbbf1abf18.mp3"
   },
   {
     "id": "w3-131",
@@ -2222,9 +2482,11 @@
       {
         "hanzi": "威尼斯的圣马可广场在夏季总是挤满了游客。",
         "pinyin": "wēi ní sī de shèng mǎ kě guǎng chǎng zài xià jì zǒng shì jǐ mǎn le yóu kè 。",
-        "vi": "Quảng trường St. Mark ở Venice luôn đông nghẹt khách du lịch vào mùa hè."
+        "vi": "Quảng trường St. Mark ở Venice luôn đông nghẹt khách du lịch vào mùa hè.",
+        "audio": "audio/teacher-426a2dc711af.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-d80e7712c9fc.mp3"
   },
   {
     "id": "w3-132",
@@ -2239,9 +2501,11 @@
       {
         "hanzi": "他张开双臂, 似乎要拥抱这个世界。",
         "pinyin": "tā zhāng kāi shuāng bì ,  sì hū yào yōng bào zhè ge shì jiè 。",
-        "vi": "Nó mở rộng hai cánh tay như muốn ôm trọn cả thế giới này."
+        "vi": "Nó mở rộng hai cánh tay như muốn ôm trọn cả thế giới này.",
+        "audio": "audio/teacher-ad13998874bc.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-87f6a4c6cc52.mp3"
   },
   {
     "id": "w3-133",
@@ -2256,9 +2520,11 @@
       {
         "hanzi": "这位朋友来自中国北京。",
         "pinyin": "zhè wèi péng yǒu lái zì zhōng guó běi jīng 。",
-        "vi": "Người bạn này đến từ Bắc Kinh, Trung Quốc."
+        "vi": "Người bạn này đến từ Bắc Kinh, Trung Quốc.",
+        "audio": "audio/teacher-66f618150db7.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-b8fd03a69804.mp3"
   },
   {
     "id": "w3-134",
@@ -2273,9 +2539,11 @@
       {
         "hanzi": "每人读一段。",
         "pinyin": "měi rén dú yī duàn 。",
-        "vi": "Mỗi người đọc một đoạn."
+        "vi": "Mỗi người đọc một đoạn.",
+        "audio": "audio/teacher-1d56bddef8ca.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-ba3bcd048a7b.mp3"
   },
   {
     "id": "w3-135",
@@ -2290,9 +2558,11 @@
       {
         "hanzi": "米价下跌了。",
         "pinyin": "mǐ jià xià diē le 。",
-        "vi": "Giá gạo đã giảm xuống."
+        "vi": "Giá gạo đã giảm xuống.",
+        "audio": "audio/teacher-8279faddb93c.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-8f4b7467b461.mp3"
   },
   {
     "id": "w3-136",
@@ -2307,9 +2577,11 @@
       {
         "hanzi": "John 這人不容易說服。",
         "pinyin": "John  zhè rén bù róng yì shuō fú 。",
-        "vi": "Thuyết phục John là một việc khó."
+        "vi": "Thuyết phục John là một việc khó.",
+        "audio": "audio/teacher-b65f76f5d7d6.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-71e5a59b191d.mp3"
   },
   {
     "id": "w3-137",
@@ -2324,9 +2596,11 @@
       {
         "hanzi": "他移开，让卡车通过。",
         "pinyin": "tā yí kāi ， ràng kǎ chē tōng guò 。",
-        "vi": "Cậu ấy tránh sang một bên để xe tải đi qua."
+        "vi": "Cậu ấy tránh sang một bên để xe tải đi qua.",
+        "audio": "audio/teacher-10c98208ec1d.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-5a5b0369f304.mp3"
   },
   {
     "id": "w3-138",
@@ -2341,9 +2615,11 @@
       {
         "hanzi": "感到惊讶、感到惊奇就是明白的开始。",
         "pinyin": "gǎn dào jīng yà 、 gǎn dào jīng qí jiù shì míng bái de kāi shǐ 。",
-        "vi": "Cảm thấy ngạc nhiên, thấy kỳ lạ chính là khởi đầu của sự thấu hiểu."
+        "vi": "Cảm thấy ngạc nhiên, thấy kỳ lạ chính là khởi đầu của sự thấu hiểu.",
+        "audio": "audio/teacher-da684451bb3b.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-208e687ffead.mp3"
   },
   {
     "id": "w3-139",
@@ -2358,9 +2634,11 @@
       {
         "hanzi": "这是没办法的。",
         "pinyin": "zhè shì méi bàn fǎ de 。",
-        "vi": "Vụ này hết cách rồi."
+        "vi": "Vụ này hết cách rồi.",
+        "audio": "audio/teacher-856d71569f7a.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-1f7b51bb1d70.mp3"
   },
   {
     "id": "w3-140",
@@ -2375,9 +2653,11 @@
       {
         "hanzi": "许多词是根据拼写来发音的，不过有些不是。",
         "pinyin": "xǔ duō cí shì gēn jù pīn xiě lái fā yīn de ， bù guò yǒu xiē bú shì 。",
-        "vi": "Nhiều từ phát âm theo cách đánh vần, nhưng có một số thì không."
+        "vi": "Nhiều từ phát âm theo cách đánh vần, nhưng có một số thì không.",
+        "audio": "audio/teacher-f885d9696d8b.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-48bac57eb164.mp3"
   },
   {
     "id": "w3-141",
@@ -2392,9 +2672,11 @@
       {
         "hanzi": "这条路上的车辆不多。",
         "pinyin": "zhè tiáo lù shàng de chē liàng bù duō 。",
-        "vi": "Con đường này không có nhiều xe đi lại."
+        "vi": "Con đường này không có nhiều xe đi lại.",
+        "audio": "audio/teacher-3f99dac062f4.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-c1d040460310.mp3"
   },
   {
     "id": "w3-142",
@@ -2409,9 +2691,11 @@
       {
         "hanzi": "她刚刚十二岁了。",
         "pinyin": "tā gāng gāng shí èr suì le 。",
-        "vi": "Cậu ấy vừa tròn mười hai tuổi."
+        "vi": "Cậu ấy vừa tròn mười hai tuổi.",
+        "audio": "audio/teacher-fa3fb7af1611.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-4b52dfef4ef8.mp3"
   },
   {
     "id": "w3-143",
@@ -2426,9 +2710,11 @@
       {
         "hanzi": "服务生，我要点菜。",
         "pinyin": "fú wù shēng ， wǒ yào diǎn cài 。",
-        "vi": "Phục vụ ơi, mình muốn gọi món."
+        "vi": "Phục vụ ơi, mình muốn gọi món.",
+        "audio": "audio/teacher-df5a3d20abbd.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-a01b8da1d051.mp3"
   },
   {
     "id": "w3-144",
@@ -2443,9 +2729,11 @@
       {
         "hanzi": "天氣挺冷的。",
         "pinyin": "tiān qì tǐng lěng de 。",
-        "vi": "Trời khá lạnh."
+        "vi": "Trời khá lạnh.",
+        "audio": "audio/teacher-ef8dc23ee0fa.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-59725c635998.mp3"
   },
   {
     "id": "w3-145",
@@ -2460,9 +2748,11 @@
       {
         "hanzi": "好像我成电灯泡了。我该走了。",
         "pinyin": "hǎo xiàng wǒ chéng diàn dēng pào le 。 wǒ gāi zǒu le 。",
-        "vi": "Tôi là người thứ ba rùi, vậy phải đi thôi."
+        "vi": "Tôi là người thứ ba rùi, vậy phải đi thôi.",
+        "audio": "audio/teacher-e0d835452a80.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-8c64d20c894a.mp3"
   },
   {
     "id": "w3-146",
@@ -2477,9 +2767,11 @@
       {
         "hanzi": "人人都愿意相信美梦可以成真。",
         "pinyin": "rén rén dōu yuàn yì xiāng xìn měi mèng kě yǐ chéng zhēn 。",
-        "vi": "Ai cũng muốn tin rằng mọi giấc mơ đều có thể trở thành hiện thực."
+        "vi": "Ai cũng muốn tin rằng mọi giấc mơ đều có thể trở thành hiện thực.",
+        "audio": "audio/teacher-e251b5b54a95.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-00504aa8a19a.mp3"
   },
   {
     "id": "w3-147",
@@ -2494,9 +2786,11 @@
       {
         "hanzi": "在企业整顿中，要坚持高标准，严要求，防止走过场。",
         "pinyin": "zài qǐ yè zhěng dùn zhōng ， yào jiān chí gāo biāo zhǔn ， yán yāo qiú ， fáng zhǐ zǒu guò chǎng 。",
-        "vi": "Trong lúc doanh nghiệp đang tổ chức lại, phải kiên trì với tiêu chuẩn cao, yêu cầu nghiêm ngặt, ngăn chặn việc làm chiếu lệ hời hợt."
+        "vi": "Trong lúc doanh nghiệp đang tổ chức lại, phải kiên trì với tiêu chuẩn cao, yêu cầu nghiêm ngặt, ngăn chặn việc làm chiếu lệ hời hợt.",
+        "audio": "audio/teacher-923f79d93851.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-90b518e1bacc.mp3"
   },
   {
     "id": "w3-148",
@@ -2511,9 +2805,11 @@
       {
         "hanzi": "他对生活感到很无奈。",
         "pinyin": "tā duì shēng huó gǎn dào hěn wú nài 。",
-        "vi": "Anh ấy cảm thấy rất bất lực trong cuộc sống."
+        "vi": "Anh ấy cảm thấy rất bất lực trong cuộc sống.",
+        "audio": "audio/teacher-76fe1b257fbb.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-ff347476b50e.mp3"
   },
   {
     "id": "w3-149",
@@ -2528,9 +2824,11 @@
       {
         "hanzi": "罪犯们密谋抢劫银行。",
         "pinyin": "zuì fàn men mì móu qiǎng jié yín háng 。",
-        "vi": "Bọn tội phạm đang âm mưu cướp ngân hàng."
+        "vi": "Bọn tội phạm đang âm mưu cướp ngân hàng.",
+        "audio": "audio/teacher-0f2090fbc0c8.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-3b5ce4277e49.mp3"
   },
   {
     "id": "w3-150",
@@ -2545,9 +2843,11 @@
       {
         "hanzi": "她一个人看来看去，大约看了半个小时。",
         "pinyin": "tā yí gè rén kàn lái kàn qù ， dà yuē kàn le bàn gè xiǎo shí 。",
-        "vi": "Cô ngắm đi ngắm lại một mình độ nửa giờ."
+        "vi": "Cô ngắm đi ngắm lại một mình độ nửa giờ.",
+        "audio": "audio/teacher-99f5ad421b07.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-bf5e95a8732c.mp3"
   },
   {
     "id": "w3-151",
@@ -2562,9 +2862,11 @@
       {
         "hanzi": "你想再来杯酒吗？",
         "pinyin": "nǐ xiǎng zài lái bēi jiǔ ma ？",
-        "vi": "Bạn có muốn uống thêm một ly rượu nữa không?"
+        "vi": "Bạn có muốn uống thêm một ly rượu nữa không?",
+        "audio": "audio/teacher-2e2545966855.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-f48d63d8887f.mp3"
   },
   {
     "id": "w3-152",
@@ -2579,9 +2881,11 @@
       {
         "hanzi": "北京的秋天一般地说气候比较凉爽。",
         "pinyin": "běi jīng de qiū tiān yì bān dì shuō qì hòu bǐ jiào liáng shuǎng 。",
-        "vi": "Mùa thu của Bắc Kinh nói chung khí hậu tương đối mát mẻ dễ chịu."
+        "vi": "Mùa thu của Bắc Kinh nói chung khí hậu tương đối mát mẻ dễ chịu.",
+        "audio": "audio/teacher-003ebdf56b23.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-9cf1f1ec097c.mp3"
   },
   {
     "id": "w3-153",
@@ -2596,9 +2900,11 @@
       {
         "hanzi": "你听到新闻了吗？",
         "pinyin": "nǐ tīng dào xīn wén le ma ？",
-        "vi": "Bạn đã nghe tin tức gì chưa?"
+        "vi": "Bạn đã nghe tin tức gì chưa?",
+        "audio": "audio/teacher-8e861793c2b1.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-afad6b0c9920.mp3"
   },
   {
     "id": "w3-154",
@@ -2613,9 +2919,11 @@
       {
         "hanzi": "很难说明天的天气将会怎样。",
         "pinyin": "hěn nán shuō míng tiān de tiān qì jiāng huì zěn yàng 。",
-        "vi": "Thật khó để đoán trước thời tiết ngày mai thế nào."
+        "vi": "Thật khó để đoán trước thời tiết ngày mai thế nào.",
+        "audio": "audio/teacher-0990239d14d3.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-9d301411da0a.mp3"
   },
   {
     "id": "w3-155",
@@ -2630,9 +2938,11 @@
       {
         "hanzi": "时间就是金钱。",
         "pinyin": "shí jiān jiù shì jīn qián 。",
-        "vi": "Thời gian là vàng."
+        "vi": "Thời gian là vàng.",
+        "audio": "audio/teacher-dd8a5d90e464.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-cd4ccea64e17.mp3"
   },
   {
     "id": "w3-156",
@@ -2647,9 +2957,11 @@
       {
         "hanzi": "昨天，我收到一封用英语写的信。",
         "pinyin": "zuó tiān ， wǒ shōu dào yī fēng yòng yīng yǔ xiě de xìn 。",
-        "vi": "Hôm qua, tôi có nhận một bức thư viết bằng tiếng Anh."
+        "vi": "Hôm qua, tôi có nhận một bức thư viết bằng tiếng Anh.",
+        "audio": "audio/teacher-e98e090535cd.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-368b148f57f2.mp3"
   },
   {
     "id": "w3-157",
@@ -2664,9 +2976,11 @@
       {
         "hanzi": "不立即解决，那桩事会马上告吹的。",
         "pinyin": "bù lì jí jiě jué ， nà zhuāng shì huì mǎ shàng gào chuī de 。",
-        "vi": "Không giải quyết ngay thì việc đó sẽ hỏng bây giờ đây."
+        "vi": "Không giải quyết ngay thì việc đó sẽ hỏng bây giờ đây.",
+        "audio": "audio/teacher-2fc41e3c9276.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-eefc0e3d185d.mp3"
   },
   {
     "id": "w3-158",
@@ -2681,9 +2995,11 @@
       {
         "hanzi": "低温使水变成冰。",
         "pinyin": "dī wēn shǐ shuǐ biàn chéng bīng 。",
-        "vi": "Nhiệt độ thấp làm nước biến thành băng."
+        "vi": "Nhiệt độ thấp làm nước biến thành băng.",
+        "audio": "audio/teacher-48a8e33857fe.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-985784f4aacf.mp3"
   },
   {
     "id": "w3-159",
@@ -2698,9 +3014,11 @@
       {
         "hanzi": "他在城市里一直受到噪音或者其他的干扰。",
         "pinyin": "tā zài chéng shì lǐ yì zhí shòu dào zào yīn huò zhě qí tā de gān rǎo 。",
-        "vi": "Bạn ấy luôn bị tiếng ồn và các thứ khác làm phiền ở thành phố."
+        "vi": "Bạn ấy luôn bị tiếng ồn và các thứ khác làm phiền ở thành phố.",
+        "audio": "audio/teacher-f63dd7cddac2.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-3f9c1c6359ac.mp3"
   },
   {
     "id": "w3-160",
@@ -2715,9 +3033,11 @@
       {
         "hanzi": "贸易帮助国家发展。",
         "pinyin": "mào yì bāng zhù guó jiā fā zhǎn 。",
-        "vi": "Mậu dịch hỗ trợ sự phát triển của quốc gia."
+        "vi": "Mậu dịch hỗ trợ sự phát triển của quốc gia.",
+        "audio": "audio/teacher-2c855e6018f4.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-0bae79be1637.mp3"
   },
   {
     "id": "w3-161",
@@ -2732,9 +3052,11 @@
       {
         "hanzi": "我每天都从那座教堂前经过。",
         "pinyin": "wǒ měi tiān dōu cóng nà zuò jiào táng qián jīng guò 。",
-        "vi": "Ngày nào mình cũng đi qua nhà thờ đó."
+        "vi": "Ngày nào mình cũng đi qua nhà thờ đó.",
+        "audio": "audio/teacher-59b04ec57cc5.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-2083f9ae600a.mp3"
   },
   {
     "id": "w3-162",
@@ -2749,9 +3071,11 @@
       {
         "hanzi": "他只能看着。",
         "pinyin": "tā zhǐ néng kàn zhe 。",
-        "vi": "Cậu ấy chỉ có thể nhìn."
+        "vi": "Cậu ấy chỉ có thể nhìn.",
+        "audio": "audio/teacher-267175761207.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-866ef401b8f9.mp3"
   },
   {
     "id": "w3-163",
@@ -2766,9 +3090,11 @@
       {
         "hanzi": "他有很多历史书籍。",
         "pinyin": "tā yǒu hěn duō lì shǐ shū jí 。",
-        "vi": "Cậu ấy có rất nhiều sách lịch sử."
+        "vi": "Cậu ấy có rất nhiều sách lịch sử.",
+        "audio": "audio/teacher-d4f7a21c5e79.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-b6666163a81b.mp3"
   },
   {
     "id": "w3-164",
@@ -2783,9 +3109,11 @@
       {
         "hanzi": "她一整晚都在哭。",
         "pinyin": "tā yī zhěng wǎn dōu zài kū 。",
-        "vi": "Cô ấy đã khóc suốt đêm."
+        "vi": "Cô ấy đã khóc suốt đêm.",
+        "audio": "audio/teacher-05205aea7342.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-1814d90782b6.mp3"
   },
   {
     "id": "w3-165",
@@ -2800,9 +3128,11 @@
       {
         "hanzi": "赶快点，否则要错过公共汽车了。",
         "pinyin": "gǎn kuài diǎn ， fǒu zé yào cuò guò gōng gòng qì chē le 。",
-        "vi": "Nhanh lên không bạn lỡ xe buýt."
+        "vi": "Nhanh lên không bạn lỡ xe buýt.",
+        "audio": "audio/teacher-2185ac84d9df.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-18b886a4758d.mp3"
   },
   {
     "id": "w3-166",
@@ -2817,9 +3147,11 @@
       {
         "hanzi": "怕傷害了他的感情，我沒有告訴他真相。",
         "pinyin": "pà shāng hài le tā de gǎn qíng ， wǒ méi yǒu gào sù tā zhēn xiàng 。",
-        "vi": "Vì sợ làm tổn thương cảm xúc của anh ấy nên tôi đã không nói sự thật."
+        "vi": "Vì sợ làm tổn thương cảm xúc của anh ấy nên tôi đã không nói sự thật.",
+        "audio": "audio/teacher-32de28bb070f.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-815bb9da6e25.mp3"
   },
   {
     "id": "w3-167",
@@ -2834,9 +3166,11 @@
       {
         "hanzi": "他正坐在会议室里。",
         "pinyin": "tā zhèng zuò zài huì yì shì lǐ 。",
-        "vi": "Cậu ấy đang ngồi trong phòng họp."
+        "vi": "Cậu ấy đang ngồi trong phòng họp.",
+        "audio": "audio/teacher-7a65f8a04be6.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-c5f5d0b5f4bf.mp3"
   },
   {
     "id": "w3-168",
@@ -2851,9 +3185,11 @@
       {
         "hanzi": "考试前，你根本没复习，能考好吗？ – 可也是。",
         "pinyin": "kǎo shì qián ， nǐ gēn běn méi fù xí ， néng kǎo hǎo ma ？ –  kě yě shì 。",
-        "vi": "Trước kỳ thi cậu căn bản chẳng ôn tập gì, có thi tốt nổi không? – Cũng đúng"
+        "vi": "Trước kỳ thi cậu căn bản chẳng ôn tập gì, có thi tốt nổi không? – Cũng đúng",
+        "audio": "audio/teacher-cca43b6fb261.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-f38a98bd3798.mp3"
   },
   {
     "id": "w3-169",
@@ -2868,9 +3204,11 @@
       {
         "hanzi": "大好的前途摆在他面前。",
         "pinyin": "dà hǎo de qián tú bǎi zài tā miàn qián 。",
-        "vi": "Một tương lai tươi sáng đang chờ cậu ấy phía trước."
+        "vi": "Một tương lai tươi sáng đang chờ cậu ấy phía trước.",
+        "audio": "audio/teacher-aa29b85d6875.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-b53800a4d4e8.mp3"
   },
   {
     "id": "w3-170",
@@ -2885,9 +3223,11 @@
       {
         "hanzi": "他想要成功，即使是以他的健康作为代价。",
         "pinyin": "tā xiǎng yào chéng gōng ， jí shǐ shì yǐ tā de jiàn kāng zuò wéi dài jià 。",
-        "vi": "Anh ấy muốn thành công tới mức đánh đổi cả sức khỏe của mình."
+        "vi": "Anh ấy muốn thành công tới mức đánh đổi cả sức khỏe của mình.",
+        "audio": "audio/teacher-1e0ad9bee6c8.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-9e66a494190f.mp3"
   },
   {
     "id": "w3-171",
@@ -2902,9 +3242,11 @@
       {
         "hanzi": "你每天都是做一模一樣的東西，難道不會覺得悶嗎？",
         "pinyin": "nǐ měi tiān dōu shì zuò yī mó yī yàng de dōng xī ， nán dào bù huì jué dé mèn ma ？",
-        "vi": "Ngày nào bạn cũng làm điều giống hệt, lẽ nào không cảm thấy chán hay sao?"
+        "vi": "Ngày nào bạn cũng làm điều giống hệt, lẽ nào không cảm thấy chán hay sao?",
+        "audio": "audio/teacher-9967edef446b.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-4da159415f57.mp3"
   },
   {
     "id": "w3-172",
@@ -2919,9 +3261,11 @@
       {
         "hanzi": "我的英文很差。",
         "pinyin": "wǒ de yīng wén hěn chà 。",
-        "vi": "Tiếng Anh của tôi rất tệ."
+        "vi": "Tiếng Anh của tôi rất tệ.",
+        "audio": "audio/teacher-4bde03fc5b76.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-b13d2cab290f.mp3"
   },
   {
     "id": "w3-173",
@@ -2936,9 +3280,11 @@
       {
         "hanzi": "她已经能够结婚了，也就是说，她是有夫之妇。",
         "pinyin": "tā yǐ jīng néng gòu jié hūn le ， yě jiù shì shuō ， tā shì yǒu fū zhī fù 。",
-        "vi": "Cô ấy đã có thể kết hôn rồi, nói cách khác, cô ấy là người phụ nữ đã có chồng."
+        "vi": "Cô ấy đã có thể kết hôn rồi, nói cách khác, cô ấy là người phụ nữ đã có chồng.",
+        "audio": "audio/teacher-0ee3b44e0aba.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-9aebe39e06b5.mp3"
   },
   {
     "id": "w3-174",
@@ -2953,9 +3299,11 @@
       {
         "hanzi": "不要担心，我会一直在你身边。",
         "pinyin": "bú yào dān xīn ， wǒ huì yì zhí zài nǐ shēn biān 。",
-        "vi": "Đừng lo lắng, anh sẽ luôn ở bên em."
+        "vi": "Đừng lo lắng, anh sẽ luôn ở bên em.",
+        "audio": "audio/teacher-23b6223dc36c.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-ebe2d567b4ac.mp3"
   },
   {
     "id": "w3-175",
@@ -2970,9 +3318,11 @@
       {
         "hanzi": "要完成实验，三个月太短了。",
         "pinyin": "yào wán chéng shí yàn ， sān gè yuè tài duǎn le 。",
-        "vi": "Ba tháng là quá ngắn để hoàn thành thí nghiệm."
+        "vi": "Ba tháng là quá ngắn để hoàn thành thí nghiệm.",
+        "audio": "audio/teacher-b88133631b71.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-4c15cc09ee0a.mp3"
   },
   {
     "id": "w3-176",
@@ -2987,9 +3337,11 @@
       {
         "hanzi": "在明天前完成报告几乎是不可能的。",
         "pinyin": "zài míng tiān qián wán chéng bào gào jī hū shì bù kě néng de 。",
-        "vi": "Gần như không thể hoàn thành báo cáo trước ngày mai."
+        "vi": "Gần như không thể hoàn thành báo cáo trước ngày mai.",
+        "audio": "audio/teacher-066bf20f989c.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-74530310af4b.mp3"
   },
   {
     "id": "w3-177",
@@ -3004,9 +3356,11 @@
       {
         "hanzi": "他没有去，换句话说，他去的这个事实无案可查。",
         "pinyin": "tā méi yǒu qù ， huàn jù huà shuō ， tā qù de zhè ge shì shí wú àn kě chá 。",
-        "vi": "Anh ấy không đi, nói cách khác, chẳng có gì chứng minh anh ấy đã đi cả."
+        "vi": "Anh ấy không đi, nói cách khác, chẳng có gì chứng minh anh ấy đã đi cả.",
+        "audio": "audio/teacher-a66bee2dd353.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-2aed8c2eaab9.mp3"
   },
   {
     "id": "w3-178",
@@ -3021,9 +3375,11 @@
       {
         "hanzi": "不用谢。",
         "pinyin": "bù yòng xiè 。",
-        "vi": "Tôi không dám."
+        "vi": "Tôi không dám.",
+        "audio": "audio/teacher-18ae0ddf4bef.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-1f9ad68bf2a1.mp3"
   },
   {
     "id": "w3-179",
@@ -3038,9 +3394,11 @@
       {
         "hanzi": "這附近有醫院嗎？",
         "pinyin": "zhè fù jìn yǒu yī yuàn ma ？",
-        "vi": "Gần đây có bệnh viện không?"
+        "vi": "Gần đây có bệnh viện không?",
+        "audio": "audio/teacher-8565a1e0ea9d.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-f37fd50dc90d.mp3"
   },
   {
     "id": "w3-180",
@@ -3055,9 +3413,11 @@
       {
         "hanzi": "孩子们洗了他们的脚。",
         "pinyin": "hái zi men xǐ le tā men de jiǎo 。",
-        "vi": "Mấy đứa nhỏ đã rửa chân."
+        "vi": "Mấy đứa nhỏ đã rửa chân.",
+        "audio": "audio/teacher-b55b1fe9f49b.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-5eaad9fb9f5f.mp3"
   },
   {
     "id": "w3-181",
@@ -3072,9 +3432,11 @@
       {
         "hanzi": "他半夜打了个电话给我。",
         "pinyin": "tā bàn yè dǎ le gè diàn huà gěi wǒ 。",
-        "vi": "Anh ấy đã gọi cho tôi một cuộc vào lúc nửa đêm."
+        "vi": "Anh ấy đã gọi cho tôi một cuộc vào lúc nửa đêm.",
+        "audio": "audio/teacher-9a299f7de918.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-a02b062507c5.mp3"
   },
   {
     "id": "w3-182",
@@ -3089,9 +3451,11 @@
       {
         "hanzi": "他們在儲錢買房子。",
         "pinyin": "tā men zài chǔ qián mǎi fáng zi 。",
-        "vi": "Họ đang tiết kiệm tiền để mua nhà."
+        "vi": "Họ đang tiết kiệm tiền để mua nhà.",
+        "audio": "audio/teacher-ea49d2ca89d0.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-e3ef281c725f.mp3"
   },
   {
     "id": "w3-183",
@@ -3106,9 +3470,11 @@
       {
         "hanzi": "我以前在山里。",
         "pinyin": "wǒ yǐ qián zài shān lǐ 。",
-        "vi": "Tôi từ trên núi xuống."
+        "vi": "Tôi từ trên núi xuống.",
+        "audio": "audio/teacher-7c8a2518b6c7.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-bcdab72dfc54.mp3"
   },
   {
     "id": "w3-184",
@@ -3123,9 +3489,11 @@
       {
         "hanzi": "这个国家的主要产品之一是咖啡。",
         "pinyin": "zhè ge guó jiā de zhǔ yào chǎn pǐn zhī yī shì kā fēi 。",
-        "vi": "Cà phê là một trong những sản phẩm chủ lực của đất nước này."
+        "vi": "Cà phê là một trong những sản phẩm chủ lực của đất nước này.",
+        "audio": "audio/teacher-24aae8232795.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-c770a1044f83.mp3"
   },
   {
     "id": "w3-185",
@@ -3140,9 +3508,11 @@
       {
         "hanzi": "哈巴羅夫斯克是俄羅斯遠東地區最大的城市之一。",
         "pinyin": "hā bā luó fū sī kè shì é luó sī yuǎn dōng dì qū zuì dà de chéng shì zhī yī 。",
-        "vi": "Khabarovsk là một trong những thành phố lớn nhất vùng Viễn Đông nước Nga."
+        "vi": "Khabarovsk là một trong những thành phố lớn nhất vùng Viễn Đông nước Nga.",
+        "audio": "audio/teacher-ef7a4db187f3.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-5a24ff5c7cfc.mp3"
   },
   {
     "id": "w3-186",
@@ -3157,9 +3527,11 @@
       {
         "hanzi": "我喜欢花，比如说，玫瑰。",
         "pinyin": "wǒ xǐ huān huā ， bǐ rú shuō ， méi guī 。",
-        "vi": "Mình thích hoa, ví dụ như hoa hồng."
+        "vi": "Mình thích hoa, ví dụ như hoa hồng.",
+        "audio": "audio/teacher-53e807696004.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-757dcc23d394.mp3"
   },
   {
     "id": "w3-187",
@@ -3174,9 +3546,11 @@
       {
         "hanzi": "我们聊了一会儿，后来就散了。",
         "pinyin": "wǒ men liáo le yī huì er ， hòu lái jiù sàn le 。",
-        "vi": "Chúng mình trò chuyện một lúc, sau đó thì giải tán."
+        "vi": "Chúng mình trò chuyện một lúc, sau đó thì giải tán.",
+        "audio": "audio/teacher-728290a0d06f.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-eaffa2aaef09.mp3"
   },
   {
     "id": "w3-188",
@@ -3191,9 +3565,11 @@
       {
         "hanzi": "不要再把我当成“正常”人！",
         "pinyin": "bú yào zài bǎ wǒ dàng chéng “ zhèng cháng ” rén ！",
-        "vi": "Đừng coi tôi như người \"bình thường\"!"
+        "vi": "Đừng coi tôi như người \"bình thường\"!",
+        "audio": "audio/teacher-91666d541c4d.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-3d1c7d843b00.mp3"
   },
   {
     "id": "w3-189",
@@ -3208,9 +3584,11 @@
       {
         "hanzi": "我的嘴裂开了。",
         "pinyin": "wǒ de zuǐ liè kāi le 。",
-        "vi": "Môi mình bị nứt nẻ rồi."
+        "vi": "Môi mình bị nứt nẻ rồi.",
+        "audio": "audio/teacher-d0c58dcb8242.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-f5ab5737177b.mp3"
   },
   {
     "id": "w3-190",
@@ -3225,9 +3603,11 @@
       {
         "hanzi": "他在工作上遇到了麻烦。",
         "pinyin": "tā zài gōng zuò shàng yù dào le má fán 。",
-        "vi": "Nó gặp phải phiền toái khi làm việc."
+        "vi": "Nó gặp phải phiền toái khi làm việc.",
+        "audio": "audio/teacher-2fdc9f78bbf2.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-af55811269e8.mp3"
   },
   {
     "id": "w3-191",
@@ -3242,9 +3622,11 @@
       {
         "hanzi": "我在海上已经生活了好几个月。",
         "pinyin": "wǒ zài hǎi shàng yǐ jīng shēng huó le hǎo jǐ gè yuè 。",
-        "vi": "Tôi đã sống hàng tháng trên biển."
+        "vi": "Tôi đã sống hàng tháng trên biển.",
+        "audio": "audio/teacher-43719d5edc05.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-74e228341c04.mp3"
   },
   {
     "id": "w3-192",
@@ -3259,9 +3641,11 @@
       {
         "hanzi": "他心脏停止了跳动, 随即死亡。",
         "pinyin": "tā xīn zàng tíng zhǐ le tiào dòng ,  suí jí sǐ wáng 。",
-        "vi": "Tim ông ta ngừng đập và chết ngay sau đó."
+        "vi": "Tim ông ta ngừng đập và chết ngay sau đó.",
+        "audio": "audio/teacher-dac6fe9aa15b.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-83eb25cdd4dd.mp3"
   },
   {
     "id": "w3-193",
@@ -3276,9 +3660,11 @@
       {
         "hanzi": "她無法回答這個問題。",
         "pinyin": "tā wú fǎ huí dá zhè gè wèn tí 。",
-        "vi": "Cô ấy đã không thể trả lời câu hỏi đó."
+        "vi": "Cô ấy đã không thể trả lời câu hỏi đó.",
+        "audio": "audio/teacher-e5b87823d529.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-a92b98e339fa.mp3"
   },
   {
     "id": "w3-194",
@@ -3293,9 +3679,11 @@
       {
         "hanzi": "如果他年轻一点，他将很适合这个职位。",
         "pinyin": "rú guǒ tā nián qīng yì diǎn ， tā jiāng hěn shì hé zhè ge zhí wèi 。",
-        "vi": "Nếu trẻ hơn chút, cậu ấy rất hợp với vị trí này."
+        "vi": "Nếu trẻ hơn chút, cậu ấy rất hợp với vị trí này.",
+        "audio": "audio/teacher-cd14c40b06f4.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-111699c9a842.mp3"
   },
   {
     "id": "w3-195",
@@ -3310,9 +3698,11 @@
       {
         "hanzi": "公司的職員設法隱瞞，但真相不久便水落石出了。",
         "pinyin": "gōng sī de zhí yuán shè fǎ yǐn mán ， dàn zhēn xiàng bù jiǔ biàn shuǐ luò shí chū le 。",
-        "vi": "Nhân viên trong công ty đó đã cố che giấu sự thật, nhưng cái kim trong bọc lâu ngày cũng lòi ra."
+        "vi": "Nhân viên trong công ty đó đã cố che giấu sự thật, nhưng cái kim trong bọc lâu ngày cũng lòi ra.",
+        "audio": "audio/teacher-37646e13b753.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-ae2a2f361971.mp3"
   },
   {
     "id": "w3-196",
@@ -3327,9 +3717,11 @@
       {
         "hanzi": "我永远记得那件事。",
         "pinyin": "wǒ yǒng yuǎn jì de nà jiàn shì 。",
-        "vi": "Tôi nhớ mãi việc ấy."
+        "vi": "Tôi nhớ mãi việc ấy.",
+        "audio": "audio/teacher-b52d111dbe98.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-f124e1269d62.mp3"
   },
   {
     "id": "w3-197",
@@ -3344,9 +3736,11 @@
       {
         "hanzi": "只有为数不多的几个电视节目值得关注。",
         "pinyin": "zhǐ yǒu wéi shù bù duō de jǐ gè diàn shì jié mù zhí de guān zhù 。",
-        "vi": "Chỉ có một số ít chương trình truyền hình đáng xem."
+        "vi": "Chỉ có một số ít chương trình truyền hình đáng xem.",
+        "audio": "audio/teacher-ce272ed0aaf6.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-608c3c908ca7.mp3"
   },
   {
     "id": "w3-198",
@@ -3361,9 +3755,11 @@
       {
         "hanzi": "我们为表演者鼓掌。",
         "pinyin": "wǒ men wèi biǎo yǎn zhě gǔ zhǎng 。",
-        "vi": "Chúng mình đã vỗ tay tán thưởng người biểu diễn."
+        "vi": "Chúng mình đã vỗ tay tán thưởng người biểu diễn.",
+        "audio": "audio/teacher-ecdcb5f8e5d9.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-55ca7e6f6845.mp3"
   },
   {
     "id": "w3-199",
@@ -3378,9 +3774,11 @@
       {
         "hanzi": "不关我的事。",
         "pinyin": "bù guān wǒ de shì 。",
-        "vi": "Không phải chuyện của tôi."
+        "vi": "Không phải chuyện của tôi.",
+        "audio": "audio/teacher-4f12ca237ed1.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-d9e47b8b3c6c.mp3"
   },
   {
     "id": "w3-200",
@@ -3395,9 +3793,11 @@
       {
         "hanzi": "消磨时间的最有效办法当然还是聊天吹牛侃大山。",
         "pinyin": "xiāo mó shí jiān de zuì yǒu xiào bàn fǎ dāng rán hái shì liáo tiān chuī niú kǎn dà shān 。",
-        "vi": "Biện pháp hiệu quả nhất để giết thời gian nhất đương nhiên vẫn là chuyện trò, chém gió, buôn chuyện."
+        "vi": "Biện pháp hiệu quả nhất để giết thời gian nhất đương nhiên vẫn là chuyện trò, chém gió, buôn chuyện.",
+        "audio": "audio/teacher-822b9a5ad4fb.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-6bcd4f3eeb22.mp3"
   },
   {
     "id": "w3-201",
@@ -3412,9 +3812,11 @@
       {
         "hanzi": "明天在办公室见。",
         "pinyin": "míng tiān zài bàn gōng shì jiàn 。",
-        "vi": "Hẹn gặp lại bạn ở văn phòng vào ngày mai."
+        "vi": "Hẹn gặp lại bạn ở văn phòng vào ngày mai.",
+        "audio": "audio/teacher-40ddd0cacfc1.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-86968672e867.mp3"
   },
   {
     "id": "w3-202",
@@ -3429,9 +3831,11 @@
       {
         "hanzi": "那是一张近照吗？",
         "pinyin": "nà shì yī zhāng jìn zhào ma ？",
-        "vi": "Tấm hình này có mới không?"
+        "vi": "Tấm hình này có mới không?",
+        "audio": "audio/teacher-b80dbd69bbb8.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-ae3c176655cd.mp3"
   },
   {
     "id": "w3-203",
@@ -3446,9 +3850,11 @@
       {
         "hanzi": "工厂的废料导致了严重的环境污染。",
         "pinyin": "gōng chǎng de fèi liào dǎo zhì le yán zhòng de huán jìng wū rǎn 。",
-        "vi": "Chất thải nhà máy đã gây ô nhiễm môi trường nghiêm trọng."
+        "vi": "Chất thải nhà máy đã gây ô nhiễm môi trường nghiêm trọng.",
+        "audio": "audio/teacher-b644d977f7cd.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-8f9b0e15625b.mp3"
   },
   {
     "id": "w3-204",
@@ -3463,9 +3869,11 @@
       {
         "hanzi": "昨天，我收到一封用英语写的信。",
         "pinyin": "zuó tiān ， wǒ shōu dào yī fēng yòng yīng yǔ xiě de xìn 。",
-        "vi": "Hôm qua, tôi có nhận một bức thư viết bằng tiếng Anh."
+        "vi": "Hôm qua, tôi có nhận một bức thư viết bằng tiếng Anh.",
+        "audio": "audio/teacher-e98e090535cd.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-ba44305dcc4a.mp3"
   },
   {
     "id": "w3-205",
@@ -3480,9 +3888,11 @@
       {
         "hanzi": "我深信事情会往更好的方向转变。",
         "pinyin": "wǒ shēn xìn shì qíng huì wǎng gèng hǎo de fāng xiàng zhuǎn biàn 。",
-        "vi": "Mình tin chắc mọi chuyện sẽ chuyển biến theo chiều hướng tốt hơn."
+        "vi": "Mình tin chắc mọi chuyện sẽ chuyển biến theo chiều hướng tốt hơn.",
+        "audio": "audio/teacher-a25988d8e853.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-469a15bdcdcd.mp3"
   },
   {
     "id": "w3-206",
@@ -3497,9 +3907,11 @@
       {
         "hanzi": "这小女孩如果没人关心的话，就要走上歪路了。",
         "pinyin": "zhè xiǎo nǚ hái rú guǒ méi rén guān xīn de huà ， jiù yào zǒu shàng wāi lù le 。",
-        "vi": "Cô bé này nếu không được quan tâm sẽ dễ sa ngã."
+        "vi": "Cô bé này nếu không được quan tâm sẽ dễ sa ngã.",
+        "audio": "audio/teacher-623a88bf6123.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-ab3c2cb58257.mp3"
   },
   {
     "id": "w3-207",
@@ -3514,9 +3926,11 @@
       {
         "hanzi": "下一个节假日正好是周日。",
         "pinyin": "xià yí gè jié jià rì zhèng hǎo shì zhōu rì 。",
-        "vi": "Kỳ nghỉ tới rơi đúng vào ngày chủ nhật."
+        "vi": "Kỳ nghỉ tới rơi đúng vào ngày chủ nhật.",
+        "audio": "audio/teacher-a92fa19af498.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-fb5e7bfc7228.mp3"
   },
   {
     "id": "w3-208",
@@ -3531,9 +3945,11 @@
       {
         "hanzi": "大楼有20层。",
         "pinyin": "dà lóu yǒu 20 céng 。",
-        "vi": "Tòa nhà có 20 tầng."
+        "vi": "Tòa nhà có 20 tầng.",
+        "audio": "audio/teacher-e421117061c2.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-e7d6ce2b8827.mp3"
   },
   {
     "id": "w3-209",
@@ -3548,9 +3964,11 @@
       {
         "hanzi": "病人随时会死。",
         "pinyin": "bìng rén suí shí huì sǐ 。",
-        "vi": "Bệnh nhân có thể tử vong bất cứ lúc nào."
+        "vi": "Bệnh nhân có thể tử vong bất cứ lúc nào.",
+        "audio": "audio/teacher-fb30363f9fe8.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-bc9719842244.mp3"
   },
   {
     "id": "w3-210",
@@ -3565,9 +3983,11 @@
       {
         "hanzi": "听到这个好消息，我心里很高兴。",
         "pinyin": "tīng dào zhè ge hǎo xiāo xī ， wǒ xīn lǐ hěn gāo xìng 。",
-        "vi": "Nghe được tin vui này, trong lòng mình rất vui."
+        "vi": "Nghe được tin vui này, trong lòng mình rất vui.",
+        "audio": "audio/teacher-643f9b6e9c33.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-4695c955890c.mp3"
   },
   {
     "id": "w3-211",
@@ -3582,9 +4002,11 @@
       {
         "hanzi": "不要拉我的腿！",
         "pinyin": "bú yào lā wǒ de tuǐ ！",
-        "vi": "Đừng có đùa giỡn mình nữa!"
+        "vi": "Đừng có đùa giỡn mình nữa!",
+        "audio": "audio/teacher-4a3520d84936.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-070d1eafc3ea.mp3"
   },
   {
     "id": "w3-212",
@@ -3599,9 +4021,11 @@
       {
         "hanzi": "他站在街角。",
         "pinyin": "tā zhàn zài jiē jiǎo 。",
-        "vi": "Cậu ấy đang đứng ở góc phố."
+        "vi": "Cậu ấy đang đứng ở góc phố.",
+        "audio": "audio/teacher-8440372e1cd6.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-fd4067923ea8.mp3"
   },
   {
     "id": "w3-213",
@@ -3616,9 +4040,11 @@
       {
         "hanzi": "她喜欢一边听歌一边做饭。",
         "pinyin": "tā xǐ huān yī biān tīng gē yī biān zuò fàn 。",
-        "vi": "Bạn ấy thích vừa nghe nhạc vừa nấu cơm."
+        "vi": "Bạn ấy thích vừa nghe nhạc vừa nấu cơm.",
+        "audio": "audio/teacher-4b892fcac746.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-91a91ecdb80f.mp3"
   },
   {
     "id": "w3-214",
@@ -3633,9 +4059,11 @@
       {
         "hanzi": "她进屋前擦了鞋。",
         "pinyin": "tā jìn wū qián cā le xié 。",
-        "vi": "Trước khi vào nhà, cô ấy đã cọ giày của mình cho sạch."
+        "vi": "Trước khi vào nhà, cô ấy đã cọ giày của mình cho sạch.",
+        "audio": "audio/teacher-f3d365a92acf.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-e56adfb8dfff.mp3"
   },
   {
     "id": "w3-215",
@@ -3650,9 +4078,11 @@
       {
         "hanzi": "好习惯是从小养成的。",
         "pinyin": "hǎo xí guàn shì cóng xiǎo yǎng chéng de 。",
-        "vi": "Thói quen tốt được hình thành từ nhỏ."
+        "vi": "Thói quen tốt được hình thành từ nhỏ.",
+        "audio": "audio/teacher-9fbcfd93d456.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-73c30812471d.mp3"
   },
   {
     "id": "w3-216",
@@ -3667,9 +4097,11 @@
       {
         "hanzi": "我听说他打麻将很厉害。",
         "pinyin": "wǒ tīng shuō tā dǎ má jiāng hěn lì hài 。",
-        "vi": "Mình nghe nói bạn ấy chơi mạt chược rất cừ."
+        "vi": "Mình nghe nói bạn ấy chơi mạt chược rất cừ.",
+        "audio": "audio/teacher-807858e3b421.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-4eb060e7d743.mp3"
   },
   {
     "id": "w3-217",
@@ -3684,9 +4116,11 @@
       {
         "hanzi": "直到那时，他才意识到他已经上当受骗。",
         "pinyin": "zhí dào nà shí ， tā cái yì shí dào tā yǐ jīng shàng dàng shòu piàn 。",
-        "vi": "Đến lúc đó anh ta mới nhận ra mình bị lừa."
+        "vi": "Đến lúc đó anh ta mới nhận ra mình bị lừa.",
+        "audio": "audio/teacher-be0e71ab51ee.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-7ee0c9d241dd.mp3"
   },
   {
     "id": "w3-218",
@@ -3701,9 +4135,11 @@
       {
         "hanzi": "我挑不出他的毛病。",
         "pinyin": "wǒ tiāo bù chū tā de máo bìng 。",
-        "vi": "Mình không thể bắt bẻ được điểm gì ở bạn ấy."
+        "vi": "Mình không thể bắt bẻ được điểm gì ở bạn ấy.",
+        "audio": "audio/teacher-bf9e21643864.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-d429176bfc0e.mp3"
   },
   {
     "id": "w3-219",
@@ -3718,9 +4154,11 @@
       {
         "hanzi": "汽笛声响起，船开始慢慢地驶离港口。",
         "pinyin": "qì dí shēng xiǎng qǐ ， chuán kāi shǐ màn màn dì shǐ lí gǎng kǒu 。",
-        "vi": "Tiếng còi tàu vang lên, con tàu từ từ rời cảng."
+        "vi": "Tiếng còi tàu vang lên, con tàu từ từ rời cảng.",
+        "audio": "audio/teacher-eed28ca1d99f.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-94cc158c3211.mp3"
   },
   {
     "id": "w3-220",
@@ -3735,9 +4173,11 @@
       {
         "hanzi": "我要养一大家子。",
         "pinyin": "wǒ yào yǎng yī dà jiā zi 。",
-        "vi": "Tôi phải nuôi sống một gia đình đông người."
+        "vi": "Tôi phải nuôi sống một gia đình đông người.",
+        "audio": "audio/teacher-ae24573dace2.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-3788042bdf11.mp3"
   },
   {
     "id": "w3-221",
@@ -3752,9 +4192,11 @@
       {
         "hanzi": "要做蛋糕，你要用到鸡蛋，黄油和糖。",
         "pinyin": "yào zuò dàn gāo ， nǐ yào yòng dào jī dàn ， huáng yóu hé táng 。",
-        "vi": "Để làm bánh kem, bạn cần dùng trứng, bơ và đường."
+        "vi": "Để làm bánh kem, bạn cần dùng trứng, bơ và đường.",
+        "audio": "audio/teacher-c106d560db1e.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-916b3d9aad02.mp3"
   },
   {
     "id": "w3-222",
@@ -3769,9 +4211,11 @@
       {
         "hanzi": "不好意思，能请您重复一遍吗？",
         "pinyin": "bù hǎo yì sī ， néng qǐng nín chóng fù yī biàn ma ？",
-        "vi": "Xin lỗi, bạn có thể nhắc lại giúp mình được không?"
+        "vi": "Xin lỗi, bạn có thể nhắc lại giúp mình được không?",
+        "audio": "audio/teacher-7a7dc8384c23.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-7c7ef64c6f9e.mp3"
   },
   {
     "id": "w3-223",
@@ -3786,9 +4230,11 @@
       {
         "hanzi": "哪间卧室都干净。",
         "pinyin": "nǎ jiān wò shì dōu gān jìng 。",
-        "vi": "Phòng ngủ nào cũng sạch sẽ."
+        "vi": "Phòng ngủ nào cũng sạch sẽ.",
+        "audio": "audio/teacher-01279d6af038.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-51fe3edbf90d.mp3"
   },
   {
     "id": "w3-224",
@@ -3803,9 +4249,11 @@
       {
         "hanzi": "主人听到那句话，不由得哈哈大笑起来。",
         "pinyin": "zhǔ rén tīng dào nà jù huà ， bù yóu de hā hā dà xiào qǐ lái 。",
-        "vi": "Chủ nhân nghe thấy câu nói đó, không thể kìm được mà bật cười lớn."
+        "vi": "Chủ nhân nghe thấy câu nói đó, không thể kìm được mà bật cười lớn.",
+        "audio": "audio/teacher-8e6c3dba6020.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-04647e6fcb71.mp3"
   },
   {
     "id": "w3-225",
@@ -3820,9 +4268,11 @@
       {
         "hanzi": "变量的声明在C和C++中极其重要。",
         "pinyin": "biàn liàng de shēng míng zài C hé C++ zhōng jí qí zhòng yào 。",
-        "vi": "Khai báo biến trong C/C++ vô cùng quan trọng."
+        "vi": "Khai báo biến trong C/C++ vô cùng quan trọng.",
+        "audio": "audio/teacher-ebe72cea09cb.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-b2d0fb8218a6.mp3"
   },
   {
     "id": "w3-226",
@@ -3837,9 +4287,11 @@
       {
         "hanzi": "咱们吃吧！我饿死了。",
         "pinyin": "zán men chī ba ！ wǒ è sǐ le 。",
-        "vi": "Chúng ta ăn thôi. Tôi sắp chết vì đói rồi."
+        "vi": "Chúng ta ăn thôi. Tôi sắp chết vì đói rồi.",
+        "audio": "audio/teacher-fb92142708f2.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-e9d7299010c7.mp3"
   },
   {
     "id": "w3-227",
@@ -3854,9 +4306,11 @@
       {
         "hanzi": "手机没电了，现在我们怎么办？",
         "pinyin": "shǒu jī méi diàn le ， xiàn zài wǒ men zěn me bàn ？",
-        "vi": "Điện thoại hết pin rồi, bây giờ chúng ta tính sao đây?"
+        "vi": "Điện thoại hết pin rồi, bây giờ chúng ta tính sao đây?",
+        "audio": "audio/teacher-f8667f77fc0e.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-a584c3855a51.mp3"
   },
   {
     "id": "w3-228",
@@ -3871,9 +4325,11 @@
       {
         "hanzi": "不要虐待动物。",
         "pinyin": "bú yào nüè dài dòng wù 。",
-        "vi": "Đừng ngược đãi động vật."
+        "vi": "Đừng ngược đãi động vật.",
+        "audio": "audio/teacher-0851dcb7c240.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-fac76bc64b75.mp3"
   },
   {
     "id": "w3-229",
@@ -3888,9 +4344,11 @@
       {
         "hanzi": "我们女同志怎么不行？妇女能顶半边天嘛！",
         "pinyin": "wǒ men nǚ tóng zhì zěn me bù xíng ？ fù nǚ néng dǐng bàn biān tiān ma ！",
-        "vi": "Phụ nữ chúng tôi sao lại không được? Phụ nữ có thể gánh vác nửa bầu trời mà!"
+        "vi": "Phụ nữ chúng tôi sao lại không được? Phụ nữ có thể gánh vác nửa bầu trời mà!",
+        "audio": "audio/teacher-f10600b90f94.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-e2e8c5864f7d.mp3"
   },
   {
     "id": "w3-230",
@@ -3905,9 +4363,11 @@
       {
         "hanzi": "咱们吃吧！我饿死了。",
         "pinyin": "zán men chī ba ！ wǒ è sǐ le 。",
-        "vi": "Chúng ta ăn thôi. Tôi sắp chết vì đói rồi."
+        "vi": "Chúng ta ăn thôi. Tôi sắp chết vì đói rồi.",
+        "audio": "audio/teacher-fb92142708f2.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-dc09219cde44.mp3"
   },
   {
     "id": "w3-231",
@@ -3922,9 +4382,11 @@
       {
         "hanzi": "乡间有很多树。",
         "pinyin": "xiāng jiān yǒu hěn duō shù 。",
-        "vi": "Ở vùng quê có rất nhiều cây xanh."
+        "vi": "Ở vùng quê có rất nhiều cây xanh.",
+        "audio": "audio/teacher-b4c53db9101d.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-459f1f84830b.mp3"
   },
   {
     "id": "w3-232",
@@ -3939,9 +4401,11 @@
       {
         "hanzi": "通过努力，她的汉语水平提高了很多。",
         "pinyin": "tōng guò nǔ lì ， tā de hàn yǔ shuǐ píng tí gāo le hěn duō 。",
-        "vi": "Qua sự nỗ lực, trình độ tiếng Trung của bạn ấy đã nâng cao rất nhiều."
+        "vi": "Qua sự nỗ lực, trình độ tiếng Trung của bạn ấy đã nâng cao rất nhiều.",
+        "audio": "audio/teacher-5c9a3c1832ca.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-1e88b2fcad2a.mp3"
   },
   {
     "id": "w3-233",
@@ -3956,9 +4420,11 @@
       {
         "hanzi": "你把报纸借给我。",
         "pinyin": "nǐ bǎ bào zhǐ jiè gěi wǒ 。",
-        "vi": "Cậu cho mình mượn tờ báo."
+        "vi": "Cậu cho mình mượn tờ báo.",
+        "audio": "audio/teacher-a85497575c26.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-3cedbecef81a.mp3"
   },
   {
     "id": "w3-234",
@@ -3973,9 +4439,11 @@
       {
         "hanzi": "猫抓住了老鼠。",
         "pinyin": "māo zhuā zhù le lǎo shǔ 。",
-        "vi": "Con mèo đã bắt được con chuột."
+        "vi": "Con mèo đã bắt được con chuột.",
+        "audio": "audio/teacher-0b172554e33c.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-81c1eb0de9f7.mp3"
   },
   {
     "id": "w3-235",
@@ -3990,9 +4458,11 @@
       {
         "hanzi": "我朋友哪里买过什么东西！",
         "pinyin": "wǒ péng yǒu nǎ lǐ mǎi guò shén me dōng xī ！",
-        "vi": "Bạn tôi có mua gì đâu?"
+        "vi": "Bạn tôi có mua gì đâu?",
+        "audio": "audio/teacher-2b26306984a8.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-72a800a6a40f.mp3"
   },
   {
     "id": "w3-236",
@@ -4007,9 +4477,11 @@
       {
         "hanzi": "我没洗头发。",
         "pinyin": "wǒ méi xǐ tóu fā 。",
-        "vi": "Tôi chưa gội đầu."
+        "vi": "Tôi chưa gội đầu.",
+        "audio": "audio/teacher-f5d7993039eb.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-2eea0c1e43d2.mp3"
   },
   {
     "id": "w3-237",
@@ -4024,9 +4496,11 @@
       {
         "hanzi": "昨天，我收到一封用英语写的信。",
         "pinyin": "zuó tiān ， wǒ shōu dào yī fēng yòng yīng yǔ xiě de xìn 。",
-        "vi": "Hôm qua, tôi có nhận một bức thư viết bằng tiếng Anh."
+        "vi": "Hôm qua, tôi có nhận một bức thư viết bằng tiếng Anh.",
+        "audio": "audio/teacher-e98e090535cd.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-ce243810da29.mp3"
   },
   {
     "id": "w3-238",
@@ -4041,9 +4515,11 @@
       {
         "hanzi": "她不会乘飞机因为害怕坠机。",
         "pinyin": "tā bú huì chéng fēi jī yīn wèi hài pà zhuì jī 。",
-        "vi": "Bạn ấy không đi máy bay vì sợ tai nạn."
+        "vi": "Bạn ấy không đi máy bay vì sợ tai nạn.",
+        "audio": "audio/teacher-902626a67991.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-478637ce9bba.mp3"
   },
   {
     "id": "w3-239",
@@ -4058,9 +4534,11 @@
       {
         "hanzi": "生日快乐，Muiriel！",
         "pinyin": "shēng rì kuài lè ，Muiriel！",
-        "vi": "Chúc mừng sinh nhật, Muiriel!"
+        "vi": "Chúc mừng sinh nhật, Muiriel!",
+        "audio": "audio/teacher-c01bd3dde287.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-85b500b9222b.mp3"
   },
   {
     "id": "w3-240",
@@ -4075,9 +4553,11 @@
       {
         "hanzi": "事实上，事情并不是这样的。",
         "pinyin": "shì shí shàng ， shì qíng bìng bú shì zhè yàng de 。",
-        "vi": "Thực ra, sự việc không phải như thế này."
+        "vi": "Thực ra, sự việc không phải như thế này.",
+        "audio": "audio/teacher-50e07ffe853f.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-08df70345c08.mp3"
   },
   {
     "id": "w3-241",
@@ -4092,9 +4572,11 @@
       {
         "hanzi": "冬季快來了。",
         "pinyin": "dōng jì kuài lái le 。",
-        "vi": "Mùa đông đang đến."
+        "vi": "Mùa đông đang đến.",
+        "audio": "audio/teacher-f6945c4d7f7f.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-a4cc7cd79903.mp3"
   },
   {
     "id": "w3-242",
@@ -4109,9 +4591,11 @@
       {
         "hanzi": "警察大概从一个月前就开始找被偷物品了。",
         "pinyin": "jǐng chá dà gài cóng yí gè yuè qián jiù kāi shǐ zhǎo bèi tōu wù pǐn le 。",
-        "vi": "Cảnh sát đã bắt đầu tìm kiếm đồ bị trộm từ khoảng một tháng trước."
+        "vi": "Cảnh sát đã bắt đầu tìm kiếm đồ bị trộm từ khoảng một tháng trước.",
+        "audio": "audio/teacher-ba9e6e1dd035.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-d4ab92933cf9.mp3"
   },
   {
     "id": "w3-243",
@@ -4126,9 +4610,11 @@
       {
         "hanzi": "他的自行车是蓝色的。",
         "pinyin": "tā de zì xíng chē shì lán sè de 。",
-        "vi": "Xe đạp của anh ấy màu xanh dương."
+        "vi": "Xe đạp của anh ấy màu xanh dương.",
+        "audio": "audio/teacher-62bc5e0ab7f1.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-ec0b4df4ac31.mp3"
   },
   {
     "id": "w3-244",
@@ -4143,9 +4629,11 @@
       {
         "hanzi": "你把报纸借给我。",
         "pinyin": "nǐ bǎ bào zhǐ jiè gěi wǒ 。",
-        "vi": "Cậu cho mình mượn tờ báo."
+        "vi": "Cậu cho mình mượn tờ báo.",
+        "audio": "audio/teacher-a85497575c26.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-684ffa2b3ba6.mp3"
   },
   {
     "id": "w3-245",
@@ -4160,9 +4648,11 @@
       {
         "hanzi": "我爸爸对我的爱和照顾不比我妈妈少。",
         "pinyin": "wǒ bà bà duì wǒ de ài hé zhào gù bù bǐ wǒ mā mā shǎo 。",
-        "vi": "Bố yêu thương và chăm sóc mình không thua gì mẹ."
+        "vi": "Bố yêu thương và chăm sóc mình không thua gì mẹ.",
+        "audio": "audio/teacher-adb0f0fb19aa.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-0999fe899318.mp3"
   },
   {
     "id": "w3-246",
@@ -4177,9 +4667,11 @@
       {
         "hanzi": "他还没有把情况了解清楚就急忙发表意见。",
         "pinyin": "tā hái méi yǒu bǎ qíng kuàng liǎo jiě qīng chǔ jiù jí máng fā biǎo yì jiàn 。",
-        "vi": "Anh ta chưa biết rõ tình hình đã phát biểu ý kiến ngay."
+        "vi": "Anh ta chưa biết rõ tình hình đã phát biểu ý kiến ngay.",
+        "audio": "audio/teacher-3f9e992afc5a.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-f97fe4bfbbbd.mp3"
   },
   {
     "id": "w3-247",
@@ -4194,9 +4686,11 @@
       {
         "hanzi": "我丢了我的伞。",
         "pinyin": "wǒ diū le wǒ de sǎn 。",
-        "vi": "Mình mất ô rồi."
+        "vi": "Mình mất ô rồi.",
+        "audio": "audio/teacher-9b3bf926e459.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-f32a9f87b3ee.mp3"
   },
   {
     "id": "w3-248",
@@ -4211,9 +4705,11 @@
       {
         "hanzi": "他这么说很奇怪。",
         "pinyin": "tā zhè me shuō hěn qí guài 。",
-        "vi": "Bạn ấy nói vậy thật lạ."
+        "vi": "Bạn ấy nói vậy thật lạ.",
+        "audio": "audio/teacher-2ee35358055b.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-140c69b078ea.mp3"
   },
   {
     "id": "w3-249",
@@ -4228,9 +4724,11 @@
       {
         "hanzi": "汽笛声响起，船开始慢慢地驶离港口。",
         "pinyin": "qì dí shēng xiǎng qǐ ， chuán kāi shǐ màn màn dì shǐ lí gǎng kǒu 。",
-        "vi": "Tiếng còi tàu vang lên, con tàu từ từ rời cảng."
+        "vi": "Tiếng còi tàu vang lên, con tàu từ từ rời cảng.",
+        "audio": "audio/teacher-eed28ca1d99f.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-af52adcc7b09.mp3"
   },
   {
     "id": "w3-250",
@@ -4245,9 +4743,11 @@
       {
         "hanzi": "這是我聽過最好笑的笑話。",
         "pinyin": "zhè shì wǒ tīng guò zuì hǎo xiào de xiào huà 。",
-        "vi": "Đó là truyện cười vui nhất mà tôi đã từng nghe."
+        "vi": "Đó là truyện cười vui nhất mà tôi đã từng nghe.",
+        "audio": "audio/teacher-a730d8d52b7b.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-02fa030395cd.mp3"
   },
   {
     "id": "w3-251",
@@ -4262,9 +4762,11 @@
       {
         "hanzi": "越南语真的难学。",
         "pinyin": "yuè nán yǔ zhēn de nán xué 。",
-        "vi": "Tiếng Việt thật sự rất khó học."
+        "vi": "Tiếng Việt thật sự rất khó học.",
+        "audio": "audio/teacher-2680a1181e7d.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-5fd7b11ae281.mp3"
   },
   {
     "id": "w3-252",
@@ -4279,9 +4781,11 @@
       {
         "hanzi": "他们和一个导游一起出发，只是为了以防迷路。",
         "pinyin": "tā men hé yí gè dǎo yóu yì qǐ chū fā ， zhǐ shì wèi le yǐ fáng mí lù 。",
-        "vi": "Họ đi cùng một hướng dẫn viên chỉ để phòng khi lạc đường."
+        "vi": "Họ đi cùng một hướng dẫn viên chỉ để phòng khi lạc đường.",
+        "audio": "audio/teacher-8bc0fc9787d4.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-1780d8f68961.mp3"
   },
   {
     "id": "w3-253",
@@ -4296,9 +4800,11 @@
       {
         "hanzi": "他被工厂的老板解雇。",
         "pinyin": "tā bèi gōng chǎng de lǎo bǎn jiě gù 。",
-        "vi": "Anh ấy đã bị ông chủ công xưởng sa thải."
+        "vi": "Anh ấy đã bị ông chủ công xưởng sa thải.",
+        "audio": "audio/teacher-9cc1bedd983c.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-ed6e908e11cd.mp3"
   },
   {
     "id": "w3-254",
@@ -4313,9 +4819,11 @@
       {
         "hanzi": "那条新裙子让她很满意。",
         "pinyin": "nà tiáo xīn qún zi ràng tā hěn mǎn yì 。",
-        "vi": "Chiếc váy mới khiến bạn ấy rất hài lòng."
+        "vi": "Chiếc váy mới khiến bạn ấy rất hài lòng.",
+        "audio": "audio/teacher-0e981ce237b3.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-0a3eeb4d2f81.mp3"
   },
   {
     "id": "w3-255",
@@ -4330,9 +4838,11 @@
       {
         "hanzi": "他的兴趣爱好是收集旧邮票。",
         "pinyin": "tā de xìng qù ài hào shì shōu jí jiù yóu piào 。",
-        "vi": "Sở thích của bạn ấy là sưu tầm tem cũ."
+        "vi": "Sở thích của bạn ấy là sưu tầm tem cũ.",
+        "audio": "audio/teacher-78d36c81d924.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-632d18cc71ee.mp3"
   },
   {
     "id": "w3-256",
@@ -4347,9 +4857,11 @@
       {
         "hanzi": "司机应该遵守交通规则。",
         "pinyin": "sī jī yīng gāi zūn shǒu jiāo tōng guī zé 。",
-        "vi": "Lái xe phải tuân thủ luật giao thông."
+        "vi": "Lái xe phải tuân thủ luật giao thông.",
+        "audio": "audio/teacher-ab533fadb9e8.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-28d34edaeab0.mp3"
   },
   {
     "id": "w3-257",
@@ -4364,9 +4876,11 @@
       {
         "hanzi": "飞往北京的飞机就要起飞了。",
         "pinyin": "fēi wǎng běi jīng de fēi jī jiù yào qǐ fēi le 。",
-        "vi": "Máy bay đến Bắc Kinh sắp cất cánh."
+        "vi": "Máy bay đến Bắc Kinh sắp cất cánh.",
+        "audio": "audio/teacher-cf00ae5c121b.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-d947ff99f697.mp3"
   },
   {
     "id": "w3-258",
@@ -4381,9 +4895,11 @@
       {
         "hanzi": "我认识史密斯先生有好多年了。",
         "pinyin": "wǒ rèn shí shǐ mì sī xiān shēng yǒu hǎo duō nián le 。",
-        "vi": "Mình quen ông Smith đã nhiều năm rồi."
+        "vi": "Mình quen ông Smith đã nhiều năm rồi.",
+        "audio": "audio/teacher-675199bbac56.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-3c0d1dc625f3.mp3"
   },
   {
     "id": "w3-259",
@@ -4398,9 +4914,11 @@
       {
         "hanzi": "对，是我们经理。",
         "pinyin": "duì ， shì wǒ men jīng lǐ 。",
-        "vi": "Đúng vậy, là quản lý của bọn mình."
+        "vi": "Đúng vậy, là quản lý của bọn mình.",
+        "audio": "audio/teacher-0ea04d632c1e.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-5af759e1b4bb.mp3"
   },
   {
     "id": "w3-260",
@@ -4415,9 +4933,11 @@
       {
         "hanzi": "你们对外语感兴趣吗？",
         "pinyin": "nǐ men duì wài yǔ gǎn xìng qù ma ？",
-        "vi": "Các bạn có hứng thú với ngoại ngữ không?"
+        "vi": "Các bạn có hứng thú với ngoại ngữ không?",
+        "audio": "audio/teacher-7c5afec709ff.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-4a6fa6914165.mp3"
   },
   {
     "id": "w3-261",
@@ -4432,9 +4952,11 @@
       {
         "hanzi": "由此可见，她是很有前途的电影演员。",
         "pinyin": "yóu cǐ kě jiàn ， tā shì hěn yǒu qián tú de diàn yǐng yǎn yuán 。",
-        "vi": "Điều này cho thấy, anh ấy là một diễn viên điện ảnh rất có tiền đồ."
+        "vi": "Điều này cho thấy, anh ấy là một diễn viên điện ảnh rất có tiền đồ.",
+        "audio": "audio/teacher-9966c30df413.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-df5018637859.mp3"
   },
   {
     "id": "w3-262",
@@ -4449,9 +4971,11 @@
       {
         "hanzi": "每次见面都打招呼。",
         "pinyin": "měi cì jiàn miàn dōu dǎ zhāo hū 。",
-        "vi": "Mỗi lần gặp mặt đều chào hỏi."
+        "vi": "Mỗi lần gặp mặt đều chào hỏi.",
+        "audio": "audio/teacher-8eca1c415628.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-5cabd9e5b639.mp3"
   },
   {
     "id": "w3-263",
@@ -4466,9 +4990,11 @@
       {
         "hanzi": "他以优异的成绩毕业于剑桥大学。",
         "pinyin": "tā yǐ yōu yì de chéng jì bì yè yú jiàn qiáo dà xué 。",
-        "vi": "Bạn ấy tốt nghiệp Đại học Cambridge với thành tích xuất sắc."
+        "vi": "Bạn ấy tốt nghiệp Đại học Cambridge với thành tích xuất sắc.",
+        "audio": "audio/teacher-0c0fe14b1bec.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-3f479908ce51.mp3"
   },
   {
     "id": "w3-264",
@@ -4483,9 +5009,11 @@
       {
         "hanzi": "你坐在Meg和我的中间。",
         "pinyin": "nǐ zuò zài Meg hé wǒ de zhōng jiān 。",
-        "vi": "Bạn ngồi giữa Meg và mình."
+        "vi": "Bạn ngồi giữa Meg và mình.",
+        "audio": "audio/teacher-76227bbf33f2.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-89b6491255dd.mp3"
   },
   {
     "id": "w3-265",
@@ -4500,9 +5028,11 @@
       {
         "hanzi": "湯姆喜歡黃頭髮的女生。",
         "pinyin": "tāng mǔ xǐ huān huáng tóu fà de nǚ shēng 。",
-        "vi": "Tom thích những cô gái tóc vàng."
+        "vi": "Tom thích những cô gái tóc vàng.",
+        "audio": "audio/teacher-c4a3524138b0.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-7b8d794a529d.mp3"
   },
   {
     "id": "w3-266",
@@ -4517,9 +5047,11 @@
       {
         "hanzi": "我们明天的见面地点在哪里？",
         "pinyin": "wǒ men míng tiān de jiàn miàn dì diǎn zài nǎ lǐ ？",
-        "vi": "Địa điểm hẹn gặp ngày mai của chúng ta ở đâu?"
+        "vi": "Địa điểm hẹn gặp ngày mai của chúng ta ở đâu?",
+        "audio": "audio/teacher-9e5a2986cf4b.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-ed2d4ec38df2.mp3"
   },
   {
     "id": "w3-267",
@@ -4534,9 +5066,11 @@
       {
         "hanzi": "音乐是人类共通的语言。",
         "pinyin": "yīn yuè shì rén lèi gòng tōng de yǔ yán 。",
-        "vi": "Âm nhạc là ngôn ngữ chung của nhân loại."
+        "vi": "Âm nhạc là ngôn ngữ chung của nhân loại.",
+        "audio": "audio/teacher-c450a6737695.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-adcb02fe6fac.mp3"
   },
   {
     "id": "w3-268",
@@ -4551,9 +5085,11 @@
       {
         "hanzi": "我觉得这个网站的概念非常好。",
         "pinyin": "wǒ jué de zhè ge wǎng zhàn de gài niàn fēi cháng hǎo 。",
-        "vi": "Mình thấy ý tưởng của trang web này rất hay."
+        "vi": "Mình thấy ý tưởng của trang web này rất hay.",
+        "audio": "audio/teacher-52f190b93841.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-b19890399e90.mp3"
   },
   {
     "id": "w3-269",
@@ -4568,9 +5104,11 @@
       {
         "hanzi": "好像我成电灯泡了。我该走了。",
         "pinyin": "hǎo xiàng wǒ chéng diàn dēng pào le 。 wǒ gāi zǒu le 。",
-        "vi": "Tôi là người thứ ba rùi, vậy phải đi thôi."
+        "vi": "Tôi là người thứ ba rùi, vậy phải đi thôi.",
+        "audio": "audio/teacher-e0d835452a80.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-f06f38991105.mp3"
   },
   {
     "id": "w3-270",
@@ -4585,9 +5123,11 @@
       {
         "hanzi": "如果没有太阳，那所有生物都会死。",
         "pinyin": "rú guǒ méi yǒu tài yáng ， nà suǒ yǒu shēng wù dū huì sǐ 。",
-        "vi": "Nếu không có mặt trời thì tất cả động vật đều sẽ chết"
+        "vi": "Nếu không có mặt trời thì tất cả động vật đều sẽ chết",
+        "audio": "audio/teacher-7a4ce6d287ba.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-9c30e3e76d5e.mp3"
   },
   {
     "id": "w3-271",
@@ -4602,9 +5142,11 @@
       {
         "hanzi": "他们一直爬到悬崖顶上。",
         "pinyin": "tā men yì zhí pá dào xuán yá dǐng shàng 。",
-        "vi": "Họ leo tuốt lên tận đỉnh vách đá."
+        "vi": "Họ leo tuốt lên tận đỉnh vách đá.",
+        "audio": "audio/teacher-832135ffb678.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-010358a64a11.mp3"
   },
   {
     "id": "w3-272",
@@ -4619,9 +5161,11 @@
       {
         "hanzi": "差不多两周John的病才好了。",
         "pinyin": "chà bu duō liǎng zhōu John de bìng cái hǎo le 。",
-        "vi": "John mất gần hai tuần mới khỏi bệnh."
+        "vi": "John mất gần hai tuần mới khỏi bệnh.",
+        "audio": "audio/teacher-8de65263b826.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-d6b9bc2458b7.mp3"
   },
   {
     "id": "w3-273",
@@ -4636,9 +5180,11 @@
       {
         "hanzi": "要做蛋糕，你要用到鸡蛋，黄油和糖。",
         "pinyin": "yào zuò dàn gāo ， nǐ yào yòng dào jī dàn ， huáng yóu hé táng 。",
-        "vi": "Để làm bánh kem, bạn cần dùng trứng, bơ và đường."
+        "vi": "Để làm bánh kem, bạn cần dùng trứng, bơ và đường.",
+        "audio": "audio/teacher-c106d560db1e.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-d07620d89e27.mp3"
   },
   {
     "id": "w3-274",
@@ -4653,9 +5199,11 @@
       {
         "hanzi": "零度以下的氣溫持續了好幾天。",
         "pinyin": "líng dù yǐ xià de qì wēn chí xù le hǎo jǐ tiān 。",
-        "vi": "Nhiệt độ dưới 0 độ đã kéo dài mấy ngày nay."
+        "vi": "Nhiệt độ dưới 0 độ đã kéo dài mấy ngày nay.",
+        "audio": "audio/teacher-eb52b4f200f6.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-13b319ea45cd.mp3"
   },
   {
     "id": "w3-275",
@@ -4670,9 +5218,11 @@
       {
         "hanzi": "她很会打扮，所以不管穿上什么都合适。",
         "pinyin": "tā hěn huì dǎ bàn ， suǒ yǐ bù guǎn chuān shàng shén me dōu hé shì 。",
-        "vi": "Bạn ấy rất biết cách ăn mặc nên mặc gì cũng hợp."
+        "vi": "Bạn ấy rất biết cách ăn mặc nên mặc gì cũng hợp.",
+        "audio": "audio/teacher-5c2af901583a.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-c63029133756.mp3"
   },
   {
     "id": "w3-276",
@@ -4687,9 +5237,11 @@
       {
         "hanzi": "意大利的国际号码前缀是三十九(+39)。",
         "pinyin": "yì dà lì de guó jì hào mǎ qián zhuì shì sān shí jiǔ (+39)。",
-        "vi": "Mã vùng quốc tế của Ý là +39."
+        "vi": "Mã vùng quốc tế của Ý là +39.",
+        "audio": "audio/teacher-c6b3ec275a8e.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-9ddf90e2370f.mp3"
   },
   {
     "id": "w3-277",
@@ -4704,9 +5256,11 @@
       {
         "hanzi": "她是什么时候出生的？",
         "pinyin": "tā shì shén me shí hòu chū shēng de ？",
-        "vi": "Bạn ấy sinh năm nào thế?"
+        "vi": "Bạn ấy sinh năm nào thế?",
+        "audio": "audio/teacher-adc2887d9f9a.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-50a85262e3e3.mp3"
   },
   {
     "id": "w3-278",
@@ -4721,9 +5275,11 @@
       {
         "hanzi": "他还是个孩子，犯不上跟他生气。",
         "pinyin": "tā hái shì gè hái zi ， fàn bù shàng gēn tā shēng qì 。",
-        "vi": "Nó vẫn còn là đứa trẻ con, không đáng tức giận với nó."
+        "vi": "Nó vẫn còn là đứa trẻ con, không đáng tức giận với nó.",
+        "audio": "audio/teacher-30f75c265f61.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-c9b54e2c0b8e.mp3"
   },
   {
     "id": "w3-279",
@@ -4738,9 +5294,11 @@
       {
         "hanzi": "请仔细阅读以上的内容。",
         "pinyin": "qǐng zǐ xì yuè dú yǐ shàng de nèi róng 。",
-        "vi": "Xin hãy đọc kỹ nội dung trên đây."
+        "vi": "Xin hãy đọc kỹ nội dung trên đây.",
+        "audio": "audio/teacher-73f616b517ef.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-79a4157e9376.mp3"
   },
   {
     "id": "w3-280",
@@ -4755,9 +5313,11 @@
       {
         "hanzi": "你能把我的名字加到等候批准的申请人名单上吗？",
         "pinyin": "nǐ néng bǎ wǒ de míng zì jiā dào děng hòu pī zhǔn de shēn qǐng rén míng dān shàng ma ？",
-        "vi": "Bạn thêm tên mình vào danh sách chờ duyệt được không?"
+        "vi": "Bạn thêm tên mình vào danh sách chờ duyệt được không?",
+        "audio": "audio/teacher-f0468d4b1429.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-43e9981c9cd5.mp3"
   },
   {
     "id": "w3-281",
@@ -4772,9 +5332,11 @@
       {
         "hanzi": "既然你看得起我，我就一定热情帮助你。",
         "pinyin": "jì rán nǐ kàn de qǐ wǒ ， wǒ jiù yí dìng rè qíng bāng zhù nǐ 。",
-        "vi": "Nếu cậu đã coi trọng tôi, thì tôi nhất định nhiệt tình giúp đỡ cậu."
+        "vi": "Nếu cậu đã coi trọng tôi, thì tôi nhất định nhiệt tình giúp đỡ cậu.",
+        "audio": "audio/teacher-d27718d458a3.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-07072e3f969a.mp3"
   },
   {
     "id": "w3-282",
@@ -4789,9 +5351,11 @@
       {
         "hanzi": "春天到了，公园里到处都是花。",
         "pinyin": "chūn tiān dào le ， gōng yuán lǐ dào chù dōu shì huā 。",
-        "vi": "Mùa xuân đến rồi, trong công viên khắp nơi đều là hoa."
+        "vi": "Mùa xuân đến rồi, trong công viên khắp nơi đều là hoa.",
+        "audio": "audio/teacher-1e9764fd3e7b.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-7bf4593697a7.mp3"
   },
   {
     "id": "w3-283",
@@ -4806,9 +5370,11 @@
       {
         "hanzi": "如果你爱我的话，也要爱我的狗。",
         "pinyin": "rú guǒ nǐ ài wǒ de huà ， yě yào ài wǒ de gǒu 。",
-        "vi": "Thương em thương cả đường đi lối về."
+        "vi": "Thương em thương cả đường đi lối về.",
+        "audio": "audio/teacher-c79f97f61be6.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-761500f5fe79.mp3"
   },
   {
     "id": "w3-284",
@@ -4823,9 +5389,11 @@
       {
         "hanzi": "你可以骑上我的摩托车去遛一圈。",
         "pinyin": "nǐ kě yǐ qí shàng wǒ de mó tuō chē qù liú yī quān 。",
-        "vi": "Bạn có thể lấy xe máy của mình đi lượn một vòng."
+        "vi": "Bạn có thể lấy xe máy của mình đi lượn một vòng.",
+        "audio": "audio/teacher-68948aedfbbf.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-a2357f3c242a.mp3"
   },
   {
     "id": "w3-285",
@@ -4840,9 +5408,11 @@
       {
         "hanzi": "我很疑惑为什么冷的时候会寂寞得想找个人聊聊天。",
         "pinyin": "wǒ hěn yí huò wèi shén me lěng de shí hòu huì jì mò dé xiǎng zhǎo gè rén liáo liáo tiān 。",
-        "vi": "Tôi tự hỏi không biết tại sao mỗi khi trời lạnh là tôi lại cảm thấy cô đơn như thế."
+        "vi": "Tôi tự hỏi không biết tại sao mỗi khi trời lạnh là tôi lại cảm thấy cô đơn như thế.",
+        "audio": "audio/teacher-f50b0e6bb0c7.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-20dec1cecada.mp3"
   },
   {
     "id": "w3-286",
@@ -4857,9 +5427,11 @@
       {
         "hanzi": "你是绝对赢不了我的。",
         "pinyin": "nǐ shì jué duì yíng bù liǎo wǒ de 。",
-        "vi": "Mày sẽ không bao giờ có thể thắng tao."
+        "vi": "Mày sẽ không bao giờ có thể thắng tao.",
+        "audio": "audio/teacher-0e1c05201a21.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-43eb4e6aa1bb.mp3"
   },
   {
     "id": "w3-287",
@@ -4874,9 +5446,11 @@
       {
         "hanzi": "由此可见，她是很有前途的电影演员。",
         "pinyin": "yóu cǐ kě jiàn ， tā shì hěn yǒu qián tú de diàn yǐng yǎn yuán 。",
-        "vi": "Điều này cho thấy, anh ấy là một diễn viên điện ảnh rất có tiền đồ."
+        "vi": "Điều này cho thấy, anh ấy là một diễn viên điện ảnh rất có tiền đồ.",
+        "audio": "audio/teacher-9966c30df413.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-b5ce5639741a.mp3"
   },
   {
     "id": "w3-288",
@@ -4891,9 +5465,11 @@
       {
         "hanzi": "我们在下个加油站停一下。",
         "pinyin": "wǒ men zài xià gè jiā yóu zhàn tíng yī xià 。",
-        "vi": "Mình ghé trạm xăng tiếp theo một chút nhé."
+        "vi": "Mình ghé trạm xăng tiếp theo một chút nhé.",
+        "audio": "audio/teacher-8fc449b966b2.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-719b404c4684.mp3"
   },
   {
     "id": "w3-289",
@@ -4908,9 +5484,11 @@
       {
         "hanzi": "他们俩工作上联系多，经常打交道。",
         "pinyin": "tā men liǎ gōng zuò shàng lián xì duō ， jīng cháng dǎ jiāo dào 。",
-        "vi": "Hai người họ có liên hệ nhiều trong công việc, thường xuyên giao thiệp với nhau."
+        "vi": "Hai người họ có liên hệ nhiều trong công việc, thường xuyên giao thiệp với nhau.",
+        "audio": "audio/teacher-3110496fc8a1.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-2e1a53869292.mp3"
   },
   {
     "id": "w3-290",
@@ -4925,9 +5503,11 @@
       {
         "hanzi": "这个小镇不大,可是很热闹.",
         "pinyin": "zhè ge xiǎo zhèn bù dà , kě shì hěn rè nào .",
-        "vi": "Thị trấn nhỏ của mình không lớn nhưng rất náo nhiệt."
+        "vi": "Thị trấn nhỏ của mình không lớn nhưng rất náo nhiệt.",
+        "audio": "audio/teacher-84700e74e6c9.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-709efd5ab429.mp3"
   },
   {
     "id": "w3-291",
@@ -4942,8 +5522,10 @@
       {
         "hanzi": "他被很多人围着，自然变得有点紧张。",
         "pinyin": "tā bèi hěn duō rén wéi zhe ， zì rán biàn dé yǒu diǎn jǐn zhāng 。",
-        "vi": "Xung quanh bạn có nhiều người quá nên bạn hơi căng thẳng cũng phải."
+        "vi": "Xung quanh bạn có nhiều người quá nên bạn hơi căng thẳng cũng phải.",
+        "audio": "audio/teacher-24b05fe2c9d4.mp3"
       }
-    ]
+    ],
+    "audio": "audio/teacher-5a9632082cf8.mp3"
   }
 ]

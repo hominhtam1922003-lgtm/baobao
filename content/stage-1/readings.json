@@ -439,7 +439,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-87a17eb6b3b3.mp3"
       },
       {
         "hanzi": "小美是我的同学。她也是一个学生。我们是一个学校的学生。",
@@ -530,7 +531,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-4b3f201c0b3a.mp3"
       },
       {
         "hanzi": "王老师认识小明。王老师也认识小美。王老师叫我们的名字。",
@@ -597,7 +599,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-cb5206fcd16d.mp3"
       },
       {
         "hanzi": "小明和小美是好同学。他们的名字很好听。大家认识小明和小美。",
@@ -681,7 +684,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-96acac5458c4.mp3"
       }
     ],
     "questions": [
@@ -718,6 +722,13 @@
         "answer": 0,
         "explainVi": "Bài đọc viết: '我的名字是大明。' (Tên của tôi là Đại Minh, Tiểu Minh giới thiệu tên của mình.)"
       }
+    ],
+    "audioFull": "audio/story-e43b35f4ccbd.mp3",
+    "audioSentences": [
+      "audio/story-87a17eb6b3b3.mp3",
+      "audio/story-4b3f201c0b3a.mp3",
+      "audio/story-cb5206fcd16d.mp3",
+      "audio/story-96acac5458c4.mp3"
     ]
   },
   {
@@ -807,7 +818,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-f53905b83660.mp3"
       },
       {
         "hanzi": "王老师今年三十岁。小明很高兴。妈妈也知道小明今年十岁。",
@@ -887,7 +899,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-863b28c158d5.mp3"
       },
       {
         "hanzi": "妈妈买包子。小明吃包子。小美也来吃包子。",
@@ -949,7 +962,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-35e7a82124e4.mp3"
       },
       {
         "hanzi": "今天真好。小明有朋友。大家都很高兴。",
@@ -1007,7 +1021,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-ed49019979d6.mp3"
       }
     ],
     "questions": [
@@ -1046,6 +1061,13 @@
         "answer": 0,
         "explainVi": "Bài đọc viết: 妈妈买包子 (Mẹ mua bánh bao)."
       }
+    ],
+    "audioFull": "audio/story-ed0b8367ccb0.mp3",
+    "audioSentences": [
+      "audio/story-f53905b83660.mp3",
+      "audio/story-863b28c158d5.mp3",
+      "audio/story-35e7a82124e4.mp3",
+      "audio/story-ed49019979d6.mp3"
     ]
   },
   {
@@ -1129,7 +1151,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-321f512f9123.mp3"
       },
       {
         "hanzi": "哥哥是一个学生。姐姐也是一个学生。他们学习汉语。",
@@ -1205,7 +1228,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-0662f9216405.mp3"
       },
       {
         "hanzi": "小明和小美是我的好朋友。他们认识我哥哥。他们也认识我姐姐。",
@@ -1293,7 +1317,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-aaa21811de43.mp3"
       },
       {
         "hanzi": "哥哥喜欢看书。姐姐喜欢喝茶。我们在家里喝茶看书。",
@@ -1373,7 +1398,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-ae7fb09fffa6.mp3"
       }
     ],
     "questions": [
@@ -1412,6 +1438,13 @@
         "answer": 1,
         "explainVi": "Bài đọc viết: '姐姐喜欢喝茶。' (Chị gái thích uống trà.)"
       }
+    ],
+    "audioFull": "audio/story-94d897f7841d.mp3",
+    "audioSentences": [
+      "audio/story-321f512f9123.mp3",
+      "audio/story-0662f9216405.mp3",
+      "audio/story-aaa21811de43.mp3",
+      "audio/story-ae7fb09fffa6.mp3"
     ]
   },
   {
@@ -1504,7 +1537,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-9381bac349ae.mp3"
       },
       {
         "hanzi": "王老师在学校上班。王老师有一个手机。王老师在学校看书。",
@@ -1578,7 +1612,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-0cd0d8271e21.mp3"
       },
       {
         "hanzi": "小美喝了一杯水。小美买了一些苹果。小美吃了一个面包。",
@@ -1664,7 +1699,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-78ab059bcaaa.mp3"
       },
       {
         "hanzi": "我们学习汉字。我们学习几分钟汉字。我们学习二十分钟。",
@@ -1735,7 +1771,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-3777486cda91.mp3"
       }
     ],
     "questions": [
@@ -1772,6 +1809,13 @@
         "answer": 0,
         "explainVi": "Theo bài đọc: '我们学习二十分钟。'"
       }
+    ],
+    "audioFull": "audio/story-5e2bd98c71aa.mp3",
+    "audioSentences": [
+      "audio/story-9381bac349ae.mp3",
+      "audio/story-0cd0d8271e21.mp3",
+      "audio/story-78ab059bcaaa.mp3",
+      "audio/story-3777486cda91.mp3"
     ]
   },
   {
@@ -2304,7 +2348,8 @@
             "w": "？",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-2e3d14a83f94.mp3"
       },
       {
         "hanzi": "服务员说这件衣服很好看。小明觉得这件衣服太贵了。",
@@ -2378,7 +2423,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-97db9790fbc4.mp3"
       },
       {
         "hanzi": "小美也来商店买东西。她问服务员那件衣服多少钱？",
@@ -2449,7 +2495,8 @@
             "w": "？",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-4aeda70e4be5.mp3"
       },
       {
         "hanzi": "那件衣服很便宜。小美买了一件漂亮的衣服真便宜。",
@@ -2525,7 +2572,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-3df5aea93394.mp3"
       }
     ],
     "questions": [
@@ -2562,6 +2610,13 @@
         "answer": 0,
         "explainVi": "Bài đọc viết: '小明去商店买衣服。' và '小美也来商店买东西。' (Tiểu Minh đi cửa hàng mua quần áo. Tiểu Mỹ cũng đến cửa hàng mua đồ.)"
       }
+    ],
+    "audioFull": "audio/story-0f079b668918.mp3",
+    "audioSentences": [
+      "audio/story-2e3d14a83f94.mp3",
+      "audio/story-97db9790fbc4.mp3",
+      "audio/story-4aeda70e4be5.mp3",
+      "audio/story-3df5aea93394.mp3"
     ]
   },
   {
@@ -2631,7 +2686,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-f171b50ddcb2.mp3"
       },
       {
         "hanzi": "小美也在车站。小美问小明车站左边有什么。",
@@ -2692,7 +2748,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-f5e3d7889602.mp3"
       },
       {
         "hanzi": "小明说大商店左边有很多衣服。衣服很好看也很便宜。",
@@ -2767,7 +2824,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-e071012a654a.mp3"
       },
       {
         "hanzi": "小美买了一个。王老师也来到车站。王老师买了一些水果。",
@@ -2842,7 +2900,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-341cda5278d3.mp3"
       }
     ],
     "questions": [
@@ -2879,6 +2938,13 @@
         "answer": 1,
         "explainVi": "Bài đọc viết: '王老师也来到车站。王老师买了一些水果。'"
       }
+    ],
+    "audioFull": "audio/story-b8ab6ea39485.mp3",
+    "audioSentences": [
+      "audio/story-f171b50ddcb2.mp3",
+      "audio/story-f5e3d7889602.mp3",
+      "audio/story-e071012a654a.mp3",
+      "audio/story-341cda5278d3.mp3"
     ]
   },
   {
@@ -3028,7 +3094,8 @@
             "w": "。”",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-6eb23eb7348c.mp3"
       },
       {
         "hanzi": "Bao也说：“你好，我叫Bao。”小明很高兴，也叫Bao去买奶茶。他们找一家商店，里面的东西很多。",
@@ -3161,7 +3228,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-be858ddb53f7.mp3"
       },
       {
         "hanzi": "小明叫服务员：“你好，我要两杯奶茶，少糖。”Bao也想喝奶茶。他看了看，觉得这里的奶茶真好。",
@@ -3293,7 +3361,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-c8e30a5b7b3f.mp3"
       },
       {
         "hanzi": "大家坐下，喝了一点儿茶。Bao喜欢小明。小明也觉得Bao是好朋友。他们在这里休息，很高兴。",
@@ -3407,7 +3476,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-07cbcd848be7.mp3"
       }
     ],
     "questions": [
@@ -3458,6 +3528,13 @@
         "answer": 2,
         "explainVi": "Câu đầu tiên của bài là '今天天气好' (Hôm nay thời tiết tốt)."
       }
+    ],
+    "audioFull": "audio/story-fc1162c958da.mp3",
+    "audioSentences": [
+      "audio/story-6eb23eb7348c.mp3",
+      "audio/story-be858ddb53f7.mp3",
+      "audio/story-c8e30a5b7b3f.mp3",
+      "audio/story-07cbcd848be7.mp3"
     ]
   }
 ]

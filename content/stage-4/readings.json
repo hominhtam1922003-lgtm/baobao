@@ -146,7 +146,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-fefac11b34ea.mp3"
       },
       {
         "hanzi": "王老师高兴地跟小明聊聊天。王老师说今天的报纸有好看的新闻。小明听到以后觉得王老师说得对。",
@@ -262,7 +263,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-f3ad5794a58c.mp3"
       },
       {
         "hanzi": "小明有一点儿不好意思地问王老师。小明问能不能也看一下这张报纸。王老师高兴地把报纸交给了小明。",
@@ -378,7 +380,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-4e2156b4b4d4.mp3"
       },
       {
         "hanzi": "小明一边看报纸一边跟王老师聊天。他们聊了很久关于学校的事情。小明觉得这样聊天很好。",
@@ -490,7 +493,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-ca1a29914aec.mp3"
       },
       {
         "hanzi": "看完以后小明把报纸还给王老师。王老师笑着跟小明说再见。小明觉得今天跟王老师聊天真好。",
@@ -605,7 +609,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-6c1eb7646bdf.mp3"
       }
     ],
     "questions": [
@@ -644,6 +649,14 @@
         "answer": 0,
         "explainVi": "Bài đọc viết: '看完以后小明把报纸还给王老师。'"
       }
+    ],
+    "audioFull": "audio/story-8d713af834ee.mp3",
+    "audioSentences": [
+      "audio/story-fefac11b34ea.mp3",
+      "audio/story-f3ad5794a58c.mp3",
+      "audio/story-4e2156b4b4d4.mp3",
+      "audio/story-ca1a29914aec.mp3",
+      "audio/story-6c1eb7646bdf.mp3"
     ]
   },
   {
@@ -793,7 +806,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-facfb2e239f7.mp3"
       },
       {
         "hanzi": "王老师告诉大家，大人应该多关心老人。小明听了以后，觉得王老师说得对。他希望自己长大的时候，可以帮助很多老人。",
@@ -938,7 +952,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-a2d586b065f9.mp3"
       },
       {
         "hanzi": "小美也常常想以后的事情。她喜欢运动，也喜欢看体育比赛。每天放学以后，她都在学校里跑步。",
@@ -1065,7 +1080,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-30e9f130b28c.mp3"
       },
       {
         "hanzi": "大人常常问小美，长大以后想做什么工作。小美回答说，她想当一个体育老师。她希望以后能每天和学生在一起。",
@@ -1212,7 +1228,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-f75089d53356.mp3"
       },
       {
         "hanzi": "小明和小美是好朋友。他们常常一起努力学习，为了做好自己的事情。他们相信，只要努力，以后一定能好。",
@@ -1342,7 +1359,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-4513e5ca9bc9.mp3"
       }
     ],
     "questions": [
@@ -1379,6 +1397,14 @@
         "answer": 0,
         "explainVi": "Bài đọc viết: 她想当一个体育老师。"
       }
+    ],
+    "audioFull": "audio/story-77992e33579f.mp3",
+    "audioSentences": [
+      "audio/story-facfb2e239f7.mp3",
+      "audio/story-a2d586b065f9.mp3",
+      "audio/story-30e9f130b28c.mp3",
+      "audio/story-f75089d53356.mp3",
+      "audio/story-4513e5ca9bc9.mp3"
     ]
   },
   {
@@ -1584,7 +1610,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-a292d27c028c.mp3"
       },
       {
         "hanzi": "小美是一个中学生，她周末常常在网上看新闻。人工智能可以根据她的兴趣，找到很多有趣的书和电影。小美觉得有了人工智能以后，生活变得非常方便。",
@@ -1764,7 +1791,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-aadb94c473bc.mp3"
       },
       {
         "hanzi": "王老师在学校教汉语，她也常常使用人工智能来准备课文。王老师认为人工智能很好，可以帮老师们用很多时间。同学们上课的时候也常常用人工智能练习。",
@@ -1940,7 +1968,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-bc92c7660084.mp3"
       },
       {
         "hanzi": "可是有些人担心人工智能会影响人们的工作，觉得不太放心。王老师告诉大家，人工智能虽然很快，但是不能不小心。只要我们好好学习，就不用害怕人工智能。",
@@ -2102,7 +2131,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-524bc3216c63.mp3"
       },
       {
         "hanzi": "Bao觉得人工智能的发展对世界很有用，大家都应该了解它。爸爸妈妈也认为人工智能很安全，让Bao放心使用。有了人工智能的帮助，我们的生活一定会更好。",
@@ -2284,7 +2314,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-72645452e498.mp3"
       }
     ],
     "questions": [
@@ -2321,6 +2352,14 @@
         "answer": 0,
         "explainVi": "Trích dẫn câu trong bài: '可是有些人担心人工智能会影响人们的工作，觉得不太放心。'"
       }
+    ],
+    "audioFull": "audio/story-31860c8599e1.mp3",
+    "audioSentences": [
+      "audio/story-a292d27c028c.mp3",
+      "audio/story-aadb94c473bc.mp3",
+      "audio/story-bc92c7660084.mp3",
+      "audio/story-524bc3216c63.mp3",
+      "audio/story-72645452e498.mp3"
     ]
   },
   {
@@ -2488,7 +2527,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-87b1353f18a0.mp3"
       },
       {
         "hanzi": "做完作业以后，小明对王老师说感谢。王老师觉得小明很认真，他也很感谢小明努力学习。王老师希望小明以后能更努力。",
@@ -2628,7 +2668,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-e7bb933ae264.mp3"
       },
       {
         "hanzi": "这时候，小美跑进办公室里，大声说话。王老师告诉小美这里要安静。请小美一定要安静，因为别的同学还在上课。",
@@ -2760,7 +2801,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-484ed07db7a0.mp3"
       },
       {
         "hanzi": "小美听了以后不好意思，她请王老师原谅她刚才大声说话。她希望王老师能原谅她，因为她不是故意的。王老师说没关系，小美非常感谢王老师。",
@@ -2921,7 +2963,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-b7ae76661162.mp3"
       },
       {
         "hanzi": "大家都应该在一个安静的地方学习。这非常重要，因为安静可以让人学习得更好。王老师感谢小美，小美也感谢王老师。",
@@ -3067,7 +3110,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-23b6832dd5c2.mp3"
       }
     ],
     "questions": [
@@ -3104,6 +3148,14 @@
         "answer": 0,
         "explainVi": "Bài đọc viết: 她请王老师原谅她刚才大声说话。"
       }
+    ],
+    "audioFull": "audio/story-6b388dcd79d4.mp3",
+    "audioSentences": [
+      "audio/story-87b1353f18a0.mp3",
+      "audio/story-e7bb933ae264.mp3",
+      "audio/story-484ed07db7a0.mp3",
+      "audio/story-b7ae76661162.mp3",
+      "audio/story-23b6832dd5c2.mp3"
     ]
   },
   {
@@ -3341,7 +3393,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-cc9d6166c73c.mp3"
       },
       {
         "hanzi": "运动会上， Bao准备了一个关于体育的新想法。他拿着报纸，去给同学们介绍这个体育建议。 Bao认为体育运动可以帮助大家更好地学习。小明和小美也觉得Bao的体育建议非常好，大家一起看报纸。",
@@ -3576,7 +3629,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-91a8b840e21a.mp3"
       },
       {
         "hanzi": "突然，大家看到很多体育东西在地上，一些同学很着急。 Bao马上走过去帮助大家把体育东西放好。小美也在一旁帮忙，大家觉得Bao是一个好同学。王老师看了报纸，觉得这次运动会非常有意思。",
@@ -3801,7 +3855,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-4aa057c5cbac.mp3"
       },
       {
         "hanzi": "最后，大家都开心地参加了运动会。 Bao觉得体育运动可以让大家成为更好的朋友。学校报纸写到了Bao帮助大家的事情。这是一个快乐的一天，大家觉得下一次体育运动会一定非常好。",
@@ -4022,7 +4077,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-88dd052127ee.mp3"
       }
     ],
     "questions": [
@@ -4073,6 +4129,13 @@
         "answer": 1,
         "explainVi": "Đoạn cuối khẳng định báo trường đã viết về việc Bao giúp đỡ mọi người."
       }
+    ],
+    "audioFull": "audio/story-f6779478ac1c.mp3",
+    "audioSentences": [
+      "audio/story-cc9d6166c73c.mp3",
+      "audio/story-91a8b840e21a.mp3",
+      "audio/story-4aa057c5cbac.mp3",
+      "audio/story-88dd052127ee.mp3"
     ]
   }
 ]

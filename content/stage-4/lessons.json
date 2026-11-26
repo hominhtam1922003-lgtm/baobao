@@ -42,7 +42,8 @@
             }
           ],
           "answerHanzi": "搬家"
-        }
+        },
+        "audio": "audio/teacher-2ec95e00a0fb.mp3"
       },
       {
         "id": "p-t25-2",
@@ -72,7 +73,8 @@
             }
           ],
           "answerHanzi": "觉得"
-        }
+        },
+        "audio": "audio/teacher-465993da9265.mp3"
       }
     ],
     "dialogue": [
@@ -83,7 +85,8 @@
         "pinyin": "wǒ men yì qǐ qù hé biān liáo tiān ba ？",
         "vi": "Chúng ta cùng ra bờ sông trò chuyện nhé?",
         "mode": "npc",
-        "goalLabel": "Mời gọi"
+        "goalLabel": "Mời gọi",
+        "audio": "audio/female-9b751b3cc944.mp3"
       },
       {
         "speaker": "Bao",
@@ -112,7 +115,8 @@
             "vi": "Đắt quá.",
             "correct": false
           }
-        ]
+        ],
+        "audio": "audio/male-35565b4cf1cf.mp3"
       },
       {
         "speaker": "小美",
@@ -121,7 +125,8 @@
         "pinyin": "nǐ cháng cháng kàn bào zhǐ ma ？",
         "vi": "Bạn thường xem báo không?",
         "mode": "npc",
-        "goalLabel": "Hỏi han"
+        "goalLabel": "Hỏi han",
+        "audio": "audio/female-3abd64ab70f0.mp3"
       },
       {
         "speaker": "Bao",
@@ -135,7 +140,8 @@
           "我",
           "常常",
           "看"
-        ]
+        ],
+        "audio": "audio/male-a2521bdeb321.mp3"
       },
       {
         "speaker": "小美",
@@ -144,7 +150,8 @@
         "pinyin": "míng tiān wǒ men qù liàn shēn tǐ ， zěn me yàng ？",
         "vi": "Ngày mai chúng ta đi tập thể lực, thế nào?",
         "mode": "npc",
-        "goalLabel": "Rủ rê"
+        "goalLabel": "Rủ rê",
+        "audio": "audio/female-6410f3f96b94.mp3"
       },
       {
         "speaker": "Bao",
@@ -158,7 +165,8 @@
           "haoa",
           "hǎo a 。",
           "好啊"
-        ]
+        ],
+        "audio": "audio/male-3dae915769ce.mp3"
       }
     ],
     "exercises": [
@@ -211,7 +219,8 @@
             "value": "练"
           }
         ],
-        "answer": "报纸"
+        "answer": "报纸",
+        "audio": "audio/teacher-aae60b155689.mp3"
       },
       {
         "id": "ex-t25-3",
@@ -252,7 +261,9 @@
             "correct": false
           }
         ],
-        "expectedHanzi": "我觉得挺好的。"
+        "expectedHanzi": "我觉得挺好的。",
+        "npcAudio": "audio/female-c014eb791357.mp3",
+        "replyAudio": "audio/male-d5486b8bf08a.mp3"
       },
       {
         "npcHanzi": "我们去搬家吧？",
@@ -279,7 +290,9 @@
             "correct": false
           }
         ],
-        "expectedHanzi": "现在不行。"
+        "expectedHanzi": "现在不行。",
+        "npcAudio": "audio/female-688e1d5f7293.mp3",
+        "replyAudio": "audio/male-2857d4ab0bc7.mp3"
       },
       {
         "npcHanzi": "你常常聊天吗？",
@@ -306,7 +319,9 @@
             "correct": false
           }
         ],
-        "expectedHanzi": "有时候聊。"
+        "expectedHanzi": "有时候聊。",
+        "npcAudio": "audio/female-1052ddffdacb.mp3",
+        "replyAudio": "audio/male-52e529cf7a5c.mp3"
       }
     ]
   },
@@ -341,7 +356,9 @@
         "voiceRole": "male",
         "hanzi": "我们一起去河边看报纸吧。",
         "pinyin": "wǒ men yì qǐ qù hé biān kàn bào zhǐ ba 。",
-        "vi": "Chúng ta cùng ra bờ sông xem báo đi."
+        "vi": "Chúng ta cùng ra bờ sông xem báo đi.",
+        "audio": "audio/male-a94122d1b558.mp3",
+        "audioSlow": "audio/slow-ecb22696569b.mp3"
       },
       {
         "id": "lt25-2",
@@ -349,7 +366,9 @@
         "voiceRole": "female",
         "hanzi": "河边不好，我们去咖啡馆聊天吧。",
         "pinyin": "hé biān bù hǎo ， wǒ men qù kā fēi guǎn liáo tiān ba 。",
-        "vi": "Bờ sông không tốt đâu, chúng ta ra quán cà phê trò chuyện đi."
+        "vi": "Bờ sông không tốt đâu, chúng ta ra quán cà phê trò chuyện đi.",
+        "audio": "audio/female-5e0e1e68f237.mp3",
+        "audioSlow": "audio/slow-c70af80a11ae.mp3"
       },
       {
         "id": "lt25-3",
@@ -357,7 +376,9 @@
         "voiceRole": "male",
         "hanzi": "好吧，王老师也常常去那里练身体。",
         "pinyin": "hǎo ba ， wáng lǎo shī yě cháng cháng qù nà lǐ liàn shēn tǐ 。",
-        "vi": "Được thôi, thầy Vương cũng thường đến đó rèn luyện sức khỏe."
+        "vi": "Được thôi, thầy Vương cũng thường đến đó rèn luyện sức khỏe.",
+        "audio": "audio/male-21c373649675.mp3",
+        "audioSlow": "audio/slow-766b13732d13.mp3"
       },
       {
         "id": "lt25-4",
@@ -365,7 +386,9 @@
         "voiceRole": "female",
         "hanzi": "那我们明天搬家以后再去吧。",
         "pinyin": "nà wǒ men míng tiān bān jiā yǐ hòu zài qù ba 。",
-        "vi": "Vậy ngày mai sau khi chuyển nhà chúng ta hãy đi nhé."
+        "vi": "Vậy ngày mai sau khi chuyển nhà chúng ta hãy đi nhé.",
+        "audio": "audio/female-9a244611985f.mp3",
+        "audioSlow": "audio/slow-ecaf341c40cf.mp3"
       }
     ],
     "exercises": [
@@ -392,7 +415,9 @@
             "value": "Tôi đang ở nhà đọc sách."
           }
         ],
-        "answer": "Tôi muốn ra bờ sông xem báo."
+        "answer": "Tôi muốn ra bờ sông xem báo.",
+        "audio": "audio/teacher-517ff0dcbd7f.mp3",
+        "audioSlow": "audio/slow-d0a712cc4371.mp3"
       },
       {
         "id": "ng25-2",
@@ -417,7 +442,9 @@
             "value": "练习"
           }
         ],
-        "answer": "报纸"
+        "answer": "报纸",
+        "audio": "audio/teacher-aae60b155689.mp3",
+        "audioSlow": "audio/slow-a99983589e12.mp3"
       },
       {
         "id": "ng25-3",
@@ -429,7 +456,9 @@
           "在河边",
           "聊天"
         ],
-        "answer": "我们在河边聊天"
+        "answer": "我们在河边聊天",
+        "audio": "audio/teacher-7631202c9aeb.mp3",
+        "audioSlow": "audio/slow-8ef44440f6c2.mp3"
       },
       {
         "id": "ng25-4",
@@ -454,7 +483,9 @@
             "value": "买东西"
           }
         ],
-        "answer": "练身体"
+        "answer": "练身体",
+        "audio": "audio/teacher-7a0b1a96d1fb.mp3",
+        "audioSlow": "audio/slow-58f4aa7a31b2.mp3"
       },
       {
         "id": "ng25-5",
@@ -475,7 +506,9 @@
             "value": "Hôm qua tôi đã mua sách rồi."
           }
         ],
-        "answer": "Được, chúng ta đi thôi."
+        "answer": "Được, chúng ta đi thôi.",
+        "audio": "audio/teacher-4d23049c266f.mp3",
+        "audioSlow": "audio/slow-f2824d298ff7.mp3"
       },
       {
         "id": "ng25-6",
@@ -486,7 +519,9 @@
           "我们要",
           "搬家了"
         ],
-        "answer": "womenyaobanjiale"
+        "answer": "womenyaobanjiale",
+        "audio": "audio/teacher-439dbe24b095.mp3",
+        "audioSlow": "audio/slow-552c02a2bd6e.mp3"
       }
     ]
   },
@@ -637,7 +672,8 @@
             }
           ],
           "answerHanzi": "喜欢"
-        }
+        },
+        "audio": "audio/teacher-e9255a1fb106.mp3"
       },
       {
         "id": "p-t26-2",
@@ -667,7 +703,8 @@
             }
           ],
           "answerHanzi": "不"
-        }
+        },
+        "audio": "audio/teacher-5f6aa13087da.mp3"
       }
     ],
     "dialogue": [
@@ -677,7 +714,8 @@
         "hanzi": "你喜欢体育吗？",
         "pinyin": "nǐ xǐ huān tǐ yù ma ？",
         "vi": "Bạn thích thể thao không?",
-        "mode": "npc"
+        "mode": "npc",
+        "audio": "audio/female-d49c5cb130aa.mp3"
       },
       {
         "speaker": "Bao",
@@ -706,7 +744,8 @@
             "vi": "Tôi không đi.",
             "correct": false
           }
-        ]
+        ],
+        "audio": "audio/male-e556d575067f.mp3"
       },
       {
         "speaker": "王老师",
@@ -714,7 +753,8 @@
         "hanzi": "老人胖不胖？",
         "pinyin": "lǎo rén pàng bù pàng ？",
         "vi": "Người già có mập không?",
-        "mode": "npc"
+        "mode": "npc",
+        "audio": "audio/formal-ad43bc857acc.mp3"
       },
       {
         "speaker": "Bao",
@@ -728,7 +768,8 @@
           "老人",
           "不",
           "胖"
-        ]
+        ],
+        "audio": "audio/male-21e0624edf3b.mp3"
       },
       {
         "speaker": "小明",
@@ -736,7 +777,8 @@
         "hanzi": "多少钱？",
         "pinyin": "duō shǎo qián ？",
         "vi": "Bao nhiêu tiền?",
-        "mode": "npc"
+        "mode": "npc",
+        "audio": "audio/male-97b0b5dd9f25.mp3"
       },
       {
         "speaker": "Bao",
@@ -750,7 +792,8 @@
           "yijiao",
           "yī jiǎo 。",
           "一角"
-        ]
+        ],
+        "audio": "audio/male-5f9443042df7.mp3"
       }
     ],
     "exercises": [
@@ -803,7 +846,8 @@
             "value": "角"
           }
         ],
-        "answer": "大人"
+        "answer": "大人",
+        "audio": "audio/teacher-62481f4c28f6.mp3"
       },
       {
         "id": "ex-t26-3",
@@ -843,7 +887,9 @@
             "correct": false
           }
         ],
-        "expectedHanzi": "我喜欢体育。"
+        "expectedHanzi": "我喜欢体育。",
+        "npcAudio": "audio/female-6c1bb224448a.mp3",
+        "replyAudio": "audio/male-e556d575067f.mp3"
       },
       {
         "npcHanzi": "老人胖吗？",
@@ -870,7 +916,9 @@
             "correct": false
           }
         ],
-        "expectedHanzi": "老人不胖。"
+        "expectedHanzi": "老人不胖。",
+        "npcAudio": "audio/female-bdd8c5124b71.mp3",
+        "replyAudio": "audio/male-21e0624edf3b.mp3"
       },
       {
         "npcHanzi": "这是多少钱？",
@@ -897,7 +945,9 @@
             "correct": false
           }
         ],
-        "expectedHanzi": "一角。"
+        "expectedHanzi": "一角。",
+        "npcAudio": "audio/female-46e23b44c5fd.mp3",
+        "replyAudio": "audio/male-5f9443042df7.mp3"
       }
     ]
   },
@@ -932,7 +982,9 @@
         "voiceRole": "male",
         "hanzi": "我觉得以后老人会越来越多。",
         "pinyin": "wǒ jué de yǐ hòu lǎo rén huì yuè lái yuè duō 。",
-        "vi": "Tôi nghĩ sau này người già sẽ ngày càng nhiều hơn."
+        "vi": "Tôi nghĩ sau này người già sẽ ngày càng nhiều hơn.",
+        "audio": "audio/male-b730b01fe82d.mp3",
+        "audioSlow": "audio/slow-e4548930cf6e.mp3"
       },
       {
         "id": "lt26-2",
@@ -940,7 +992,9 @@
         "voiceRole": "female",
         "hanzi": "大人和老人都要多运动。",
         "pinyin": "dà rén hé lǎo rén dōu yào duō yùn dòng 。",
-        "vi": "Người lớn và người già đều phải vận động nhiều."
+        "vi": "Người lớn và người già đều phải vận động nhiều.",
+        "audio": "audio/female-ba845e18d765.mp3",
+        "audioSlow": "audio/slow-e834fb4a81b2.mp3"
       },
       {
         "id": "lt26-3",
@@ -948,7 +1002,9 @@
         "voiceRole": "formal",
         "hanzi": "体育对健康非常重要。",
         "pinyin": "tǐ yù duì jiàn kāng fēi cháng zhòng yào 。",
-        "vi": "Thể dục rất quan trọng đối với sức khỏe."
+        "vi": "Thể dục rất quan trọng đối với sức khỏe.",
+        "audio": "audio/formal-24fbd1b94371.mp3",
+        "audioSlow": "audio/slow-aa9a31136015.mp3"
       },
       {
         "id": "lt26-4",
@@ -956,7 +1012,9 @@
         "voiceRole": "male",
         "hanzi": "那个胖子喜欢在角上跑步。",
         "pinyin": "nà ge pàng zi xǐ huān zài jiǎo shàng pǎo bù 。",
-        "vi": "Người béo đó thích chạy bộ ở góc."
+        "vi": "Người béo đó thích chạy bộ ở góc.",
+        "audio": "audio/male-376a6ed005bd.mp3",
+        "audioSlow": "audio/slow-bdce3a34a6ce.mp3"
       }
     ],
     "exercises": [
@@ -983,7 +1041,9 @@
             "value": "Góc đó rất đẹp."
           }
         ],
-        "answer": "Thể dục rất quan trọng."
+        "answer": "Thể dục rất quan trọng.",
+        "audio": "audio/teacher-4ca9ad02e963.mp3",
+        "audioSlow": "audio/slow-2c4ed9b5a43c.mp3"
       },
       {
         "id": "ng26-2",
@@ -1008,7 +1068,9 @@
             "value": "体育"
           }
         ],
-        "answer": "老人"
+        "answer": "老人",
+        "audio": "audio/teacher-9fe03b1e0c6c.mp3",
+        "audioSlow": "audio/slow-2f89791e954f.mp3"
       },
       {
         "id": "ng26-3",
@@ -1020,7 +1082,9 @@
           "要",
           "多运动"
         ],
-        "answer": "大人要多运动"
+        "answer": "大人要多运动",
+        "audio": "audio/teacher-81b4462e9710.mp3",
+        "audioSlow": "audio/slow-4131992fbe04.mp3"
       },
       {
         "id": "ng26-4",
@@ -1045,7 +1109,9 @@
             "value": "大人"
           }
         ],
-        "answer": "健康"
+        "answer": "健康",
+        "audio": "audio/teacher-179eb8e91ef9.mp3",
+        "audioSlow": "audio/slow-11110d4b12b5.mp3"
       },
       {
         "id": "ng26-5",
@@ -1066,7 +1132,9 @@
             "value": "Người lớn không thích thể dục."
           }
         ],
-        "answer": "Người béo đó thích thể thao."
+        "answer": "Người béo đó thích thể thao.",
+        "audio": "audio/teacher-4b71ded85852.mp3",
+        "audioSlow": "audio/slow-ba1feae19ead.mp3"
       },
       {
         "id": "ng26-6",
@@ -1078,7 +1146,9 @@
           "健康",
           "很重要"
         ],
-        "answer": "tiyuduijiankanghenzhongyao"
+        "answer": "tiyuduijiankanghenzhongyao",
+        "audio": "audio/teacher-a2201495db03.mp3",
+        "audioSlow": "audio/slow-8d5519b1fc7a.mp3"
       }
     ]
   },
@@ -1229,7 +1299,8 @@
             }
           ],
           "answerHanzi": "太快了"
-        }
+        },
+        "audio": "audio/teacher-c26766d19d1e.mp3"
       },
       {
         "id": "p-t27-2",
@@ -1259,7 +1330,8 @@
             }
           ],
           "answerHanzi": "吧"
-        }
+        },
+        "audio": "audio/teacher-0fa893e9667e.mp3"
       }
     ],
     "dialogue": [
@@ -1270,7 +1342,8 @@
         "pinyin": "rén gōng zhì néng zhēn hǎo 。",
         "vi": "Trí tuệ nhân tạo thật tốt.",
         "mode": "npc",
-        "goalLabel": "Nói về AI"
+        "goalLabel": "Nói về AI",
+        "audio": "audio/male-c75fc964f77a.mp3"
       },
       {
         "speaker": "Bao",
@@ -1299,7 +1372,8 @@
             "vi": "Hãy yên tâm, trí tuệ nhân tạo đắt quá.",
             "correct": false
           }
-        ]
+        ],
+        "audio": "audio/male-fddefe611a58.mp3"
       },
       {
         "speaker": "小明",
@@ -1308,7 +1382,8 @@
         "pinyin": "shū bú jiàn le 。",
         "vi": "Sách không thấy đâu nữa.",
         "mode": "npc",
-        "goalLabel": "Tìm sách"
+        "goalLabel": "Tìm sách",
+        "audio": "audio/male-e1d4acfed322.mp3"
       },
       {
         "speaker": "Bao",
@@ -1323,7 +1398,8 @@
           "这",
           "一",
           "页"
-        ]
+        ],
+        "audio": "audio/male-2c4468f4f223.mp3"
       },
       {
         "speaker": "小明",
@@ -1332,7 +1408,8 @@
         "pinyin": "tài hǎo le 。",
         "vi": "Tốt quá.",
         "mode": "npc",
-        "goalLabel": "Khen ngợi"
+        "goalLabel": "Khen ngợi",
+        "audio": "audio/male-f1303e46a4de.mp3"
       },
       {
         "speaker": "Bao",
@@ -1346,7 +1423,8 @@
           "buyongkeqi",
           "bù yòng kè qì 。",
           "不用客气"
-        ]
+        ],
+        "audio": "audio/male-c98a0b1bbb5a.mp3"
       }
     ],
     "exercises": [
@@ -1399,7 +1477,8 @@
             "value": "请放心"
           }
         ],
-        "answer": "人工智能"
+        "answer": "人工智能",
+        "audio": "audio/teacher-4db39c3e89da.mp3"
       },
       {
         "id": "ex-t27-3",
@@ -1440,7 +1519,9 @@
             "correct": false
           }
         ],
-        "expectedHanzi": "人工智能很好。"
+        "expectedHanzi": "人工智能很好。",
+        "npcAudio": "audio/female-2dcad42c3b5e.mp3",
+        "replyAudio": "audio/male-15b29ef38a94.mp3"
       },
       {
         "npcHanzi": "书在哪里？",
@@ -1467,7 +1548,9 @@
             "correct": false
           }
         ],
-        "expectedHanzi": "书在这页。"
+        "expectedHanzi": "书在这页。",
+        "npcAudio": "audio/female-f22cb818d66f.mp3",
+        "replyAudio": "audio/male-9493249f8067.mp3"
       },
       {
         "npcHanzi": "能放心吗？",
@@ -1494,7 +1577,9 @@
             "correct": false
           }
         ],
-        "expectedHanzi": "请放心。"
+        "expectedHanzi": "请放心。",
+        "npcAudio": "audio/female-165ecb083d47.mp3",
+        "replyAudio": "audio/male-25267645e2e8.mp3"
       }
     ]
   },
@@ -1529,7 +1614,9 @@
         "voiceRole": "male",
         "hanzi": "人工智能对我们的生活有什么影响？",
         "pinyin": "rén gōng zhì néng duì wǒ men de shēng huó yǒu shén me yǐng xiǎng ？",
-        "vi": "Trí tuệ nhân tạo có ảnh hưởng gì đối với cuộc sống của chúng ta?"
+        "vi": "Trí tuệ nhân tạo có ảnh hưởng gì đối với cuộc sống của chúng ta?",
+        "audio": "audio/male-1b86402fc024.mp3",
+        "audioSlow": "audio/slow-7d70a290e6f4.mp3"
       },
       {
         "id": "lt27-2",
@@ -1537,7 +1624,9 @@
         "voiceRole": "female",
         "hanzi": "我觉得这本书的第二页很有意思。",
         "pinyin": "wǒ jué de zhè běn shū de dì èr yè hěn yǒu yì si 。",
-        "vi": "Tôi thấy trang thứ hai của cuốn sách này rất thú vị."
+        "vi": "Tôi thấy trang thứ hai của cuốn sách này rất thú vị.",
+        "audio": "audio/female-0fbc822a0512.mp3",
+        "audioSlow": "audio/slow-8f2e8bc1a0a6.mp3"
       },
       {
         "id": "lt27-3",
@@ -1545,7 +1634,9 @@
         "voiceRole": "formal",
         "hanzi": "你的电脑和手机都不见了。",
         "pinyin": "nǐ de diàn nǎo hé shǒu jī dōu bú jiàn le 。",
-        "vi": "Máy tính và điện thoại của bạn đều không thấy đâu nữa."
+        "vi": "Máy tính và điện thoại của bạn đều không thấy đâu nữa.",
+        "audio": "audio/formal-efc4fc832df0.mp3",
+        "audioSlow": "audio/slow-2cfdde77a555.mp3"
       },
       {
         "id": "lt27-4",
@@ -1553,7 +1644,9 @@
         "voiceRole": "male",
         "hanzi": "房间很干净，请你放心。",
         "pinyin": "fáng jiān hěn gān jìng ， qǐng nǐ fàng xīn 。",
-        "vi": "Phòng rất sạch sẽ, xin bạn cứ yên tâm."
+        "vi": "Phòng rất sạch sẽ, xin bạn cứ yên tâm.",
+        "audio": "audio/male-d56f9cda8308.mp3",
+        "audioSlow": "audio/slow-7f8b3153faf3.mp3"
       }
     ],
     "exercises": [
@@ -1580,7 +1673,9 @@
             "value": "Cuốn sách này rất đắt."
           }
         ],
-        "answer": "Trí tuệ nhân tạo rất tiện lợi."
+        "answer": "Trí tuệ nhân tạo rất tiện lợi.",
+        "audio": "audio/teacher-a1125784a773.mp3",
+        "audioSlow": "audio/slow-dfb3fbbe16da.mp3"
       },
       {
         "id": "ng27-2",
@@ -1605,7 +1700,9 @@
             "value": "页"
           }
         ],
-        "answer": "放心"
+        "answer": "放心",
+        "audio": "audio/teacher-53834dbf3ccd.mp3",
+        "audioSlow": "audio/slow-84fe0501e213.mp3"
       },
       {
         "id": "ng27-3",
@@ -1617,7 +1714,9 @@
           "非常",
           "干净"
         ],
-        "answer": "房间非常干净"
+        "answer": "房间非常干净",
+        "audio": "audio/teacher-6b7633e01e50.mp3",
+        "audioSlow": "audio/slow-ad0ac447a0ca.mp3"
       },
       {
         "id": "ng27-4",
@@ -1642,7 +1741,9 @@
             "value": "人工智能"
           }
         ],
-        "answer": "不见"
+        "answer": "不见",
+        "audio": "audio/teacher-c8cc6e0d22f5.mp3",
+        "audioSlow": "audio/slow-969f27d358be.mp3"
       },
       {
         "id": "ng27-5",
@@ -1663,7 +1764,9 @@
             "value": "Cần mua một cái máy tính mới."
           }
         ],
-        "answer": "Phòng đã sạch sẽ, hãy yên tâm."
+        "answer": "Phòng đã sạch sẽ, hãy yên tâm.",
+        "audio": "audio/teacher-43da8853a315.mp3",
+        "audioSlow": "audio/slow-7ddd04a9e748.mp3"
       },
       {
         "id": "ng27-6",
@@ -1674,7 +1777,9 @@
           "人工智能",
           "真方便"
         ],
-        "answer": "rengongzhinengzhenfangbian"
+        "answer": "rengongzhinengzhenfangbian",
+        "audio": "audio/teacher-bde82e9b6786.mp3",
+        "audioSlow": "audio/slow-11125e63c0aa.mp3"
       }
     ]
   },
@@ -1825,7 +1930,8 @@
             }
           ],
           "answerHanzi": "原谅"
-        }
+        },
+        "audio": "audio/teacher-3c3da600e3aa.mp3"
       },
       {
         "id": "p-t28-2",
@@ -1855,7 +1961,8 @@
             }
           ],
           "answerHanzi": "安静"
-        }
+        },
+        "audio": "audio/teacher-2668e501f277.mp3"
       }
     ],
     "dialogue": [
@@ -1866,7 +1973,8 @@
         "pinyin": "Bao， nǐ zěn me le ？",
         "vi": "Bao, bạn sao thế?",
         "mode": "npc",
-        "goalLabel": "Hỏi tình hình"
+        "goalLabel": "Hỏi tình hình",
+        "audio": "audio/formal-b5af38b6ffce.mp3"
       },
       {
         "speaker": "Bao",
@@ -1895,7 +2003,8 @@
             "vi": "Tôi rất yên tĩnh.",
             "correct": false
           }
-        ]
+        ],
+        "audio": "audio/male-caf9e8149185.mp3"
       },
       {
         "speaker": "小美",
@@ -1904,7 +2013,8 @@
         "pinyin": "nǐ kuài qù yī yuàn ba 。",
         "vi": "Bạn mau đi bệnh viện đi.",
         "mode": "npc",
-        "goalLabel": "Khuyên đi viện"
+        "goalLabel": "Khuyên đi viện",
+        "audio": "audio/female-6c30c029562e.mp3"
       },
       {
         "speaker": "Bao",
@@ -1920,7 +2030,8 @@
           "感谢",
           "你的",
           "帮助"
-        ]
+        ],
+        "audio": "audio/male-675367192067.mp3"
       },
       {
         "speaker": "小明",
@@ -1929,7 +2040,8 @@
         "pinyin": "bù yòng kè qì ， kuài qù ba 。",
         "vi": "Không khách khí, mau đi đi.",
         "mode": "npc",
-        "goalLabel": "Đáp lời"
+        "goalLabel": "Đáp lời",
+        "audio": "audio/formal-bc89d1970138.mp3"
       },
       {
         "speaker": "Bao",
@@ -1943,7 +2055,8 @@
           "qingyuanliangwowoxianzoule",
           "qǐng yuán liàng wǒ ， wǒ xiān zǒu le 。",
           "请原谅我，我先走了"
-        ]
+        ],
+        "audio": "audio/male-09b6ef63cc2a.mp3"
       }
     ],
     "exercises": [
@@ -1996,7 +2109,8 @@
             "value": "牙齿"
           }
         ],
-        "answer": "感谢"
+        "answer": "感谢",
+        "audio": "audio/teacher-9e7e8cef59b4.mp3"
       },
       {
         "id": "ex-t28-3",
@@ -2037,7 +2151,9 @@
             "correct": false
           }
         ],
-        "expectedHanzi": "我在看草。"
+        "expectedHanzi": "我在看草。",
+        "npcAudio": "audio/female-dc52f76c69fb.mp3",
+        "replyAudio": "audio/male-00ad624bd3ff.mp3"
       },
       {
         "npcHanzi": "这里人很多。",
@@ -2064,7 +2180,9 @@
             "correct": false
           }
         ],
-        "expectedHanzi": "这里不安静。"
+        "expectedHanzi": "这里不安静。",
+        "npcAudio": "audio/female-e46e7362fe7f.mp3",
+        "replyAudio": "audio/male-6f7ad4a35679.mp3"
       },
       {
         "npcHanzi": "对不起， I am late.",
@@ -2091,7 +2209,9 @@
             "correct": false
           }
         ],
-        "expectedHanzi": "没关系。"
+        "expectedHanzi": "没关系。",
+        "npcAudio": "audio/female-099d775bba61.mp3",
+        "replyAudio": "audio/male-bbf98735607f.mp3"
       }
     ]
   },
@@ -2126,7 +2246,9 @@
         "voiceRole": "male",
         "hanzi": "王老师，对不起，我不小心在草地。",
         "pinyin": "wáng lǎo shī ， duì bù qǐ ， wǒ bù xiǎo xīn zài cǎo dì 。",
-        "vi": "Thầy Vương, xin lỗi thầy, em lỡ làm hỏng bãi cỏ rồi."
+        "vi": "Thầy Vương, xin lỗi thầy, em lỡ làm hỏng bãi cỏ rồi.",
+        "audio": "audio/male-6c53fc56fcfa.mp3",
+        "audioSlow": "audio/slow-e65c2db5f4ee.mp3"
       },
       {
         "id": "lt28-2",
@@ -2134,7 +2256,9 @@
         "voiceRole": "formal",
         "hanzi": "没关系，请原谅，以后小心。",
         "pinyin": "méi guān xì ， qǐng yuán liàng ， yǐ hòu xiǎo xīn 。",
-        "vi": "Không sao, hãy tha lỗi, sau này cẩn thận."
+        "vi": "Không sao, hãy tha lỗi, sau này cẩn thận.",
+        "audio": "audio/formal-b69cd7cfe440.mp3",
+        "audioSlow": "audio/slow-77222f0dde55.mp3"
       },
       {
         "id": "lt28-3",
@@ -2142,7 +2266,9 @@
         "voiceRole": "male",
         "hanzi": "小美，你的牙疼吗？我帮助你。",
         "pinyin": "xiǎo měi ， nǐ de yá téng ma ？ wǒ bāng zhù nǐ 。",
-        "vi": "Tiểu Mỹ, răng cậu có đau không? Tớ giúp cậu."
+        "vi": "Tiểu Mỹ, răng cậu có đau không? Tớ giúp cậu.",
+        "audio": "audio/male-92c7352c8171.mp3",
+        "audioSlow": "audio/slow-a0563ce50b90.mp3"
       },
       {
         "id": "lt28-4",
@@ -2150,7 +2276,9 @@
         "voiceRole": "female",
         "hanzi": "感谢你，请安静。",
         "pinyin": "gǎn xiè nǐ ， qǐng ān jìng 。",
-        "vi": "Cảm ơn cậu, làm ơn yên lặng."
+        "vi": "Cảm ơn cậu, làm ơn yên lặng.",
+        "audio": "audio/female-4dffac8fcd67.mp3",
+        "audioSlow": "audio/slow-59f6938c8dc2.mp3"
       }
     ],
     "exercises": [
@@ -2177,7 +2305,9 @@
             "value": "Hãy giúp tôi."
           }
         ],
-        "answer": "Hãy tha lỗi cho tôi."
+        "answer": "Hãy tha lỗi cho tôi.",
+        "audio": "audio/teacher-3b2250e87aea.mp3",
+        "audioSlow": "audio/slow-ac654d8972d3.mp3"
       },
       {
         "id": "ng28-2",
@@ -2202,7 +2332,9 @@
             "value": "安静"
           }
         ],
-        "answer": "牙疼"
+        "answer": "牙疼",
+        "audio": "audio/teacher-ffba54286315.mp3",
+        "audioSlow": "audio/slow-e98f7150823a.mp3"
       },
       {
         "id": "ng28-3",
@@ -2214,7 +2346,9 @@
           "安静",
           "一下"
         ],
-        "answer": "请安静一下"
+        "answer": "请安静一下",
+        "audio": "audio/teacher-6c44cf5b9036.mp3",
+        "audioSlow": "audio/slow-1880c548423b.mp3"
       },
       {
         "id": "ng28-4",
@@ -2239,7 +2373,9 @@
             "value": "牙"
           }
         ],
-        "answer": "感谢"
+        "answer": "感谢",
+        "audio": "audio/teacher-1ba1b68bc4a1.mp3",
+        "audioSlow": "audio/slow-53027e3fd387.mp3"
       },
       {
         "id": "ng28-5",
@@ -2260,7 +2396,9 @@
             "value": "Người nói đang giúp đỡ."
           }
         ],
-        "answer": "Người nói đang xin lỗi."
+        "answer": "Người nói đang xin lỗi.",
+        "audio": "audio/teacher-ae2e14a3e4e5.mp3",
+        "audioSlow": "audio/slow-a0b2ae30ddf7.mp3"
       },
       {
         "id": "ng28-6",
@@ -2271,7 +2409,9 @@
           "牙很疼",
           "原谅我"
         ],
-        "answer": "yahentengyuanliangwo"
+        "answer": "yahentengyuanliangwo",
+        "audio": "audio/teacher-4e6f6bbc32cf.mp3",
+        "audioSlow": "audio/slow-af7196b165c9.mp3"
       }
     ]
   },
@@ -2415,7 +2555,8 @@
           }
         ],
         "answer": "您好",
-        "explainVi": "Khi gặp thầy giáo, chúng ta dùng '您好' để thể hiện sự lễ phép và tôn trọng."
+        "explainVi": "Khi gặp thầy giáo, chúng ta dùng '您好' để thể hiện sự lễ phép và tôn trọng.",
+        "audio": "audio/female-d09dd2c437e7.mp3"
       },
       {
         "id": "st4-q2",
@@ -2440,7 +2581,8 @@
           }
         ],
         "answer": "今天天气很冷",
-        "explainVi": "Dựa vào đoạn hội thoại, Tiểu Mỹ trả lời thời tiết hôm nay rất lạnh và có tuyết."
+        "explainVi": "Dựa vào đoạn hội thoại, Tiểu Mỹ trả lời thời tiết hôm nay rất lạnh và có tuyết.",
+        "audio": "audio/female-6b9a91de3c4f.mp3"
       },
       {
         "id": "st4-q3",
@@ -2515,7 +2657,9 @@
           }
         ],
         "answer": "Bao 喝了咖啡",
-        "explainVi": "Audio nói Bao đã uống một tách cà phê, khớp với đáp án đầu tiên."
+        "explainVi": "Audio nói Bao đã uống một tách cà phê, khớp với đáp án đầu tiên.",
+        "audio": "audio/teacher-efb3d6d5b69c.mp3",
+        "audioSlow": "audio/slow-1be2c105ea78.mp3"
       },
       {
         "id": "st4-q6",
@@ -2540,7 +2684,9 @@
           }
         ],
         "answer": "小明在看书",
-        "explainVi": "Audio nói Tiểu Minh đang đọc sách, khớp với đáp án cuối cùng."
+        "explainVi": "Audio nói Tiểu Minh đang đọc sách, khớp với đáp án cuối cùng.",
+        "audio": "audio/teacher-22ddd1291da4.mp3",
+        "audioSlow": "audio/slow-e473d1d5204b.mp3"
       },
       {
         "id": "st4-q7",

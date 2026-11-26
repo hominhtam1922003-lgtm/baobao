@@ -105,7 +105,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-3ada4acc3de4.mp3"
       },
       {
         "hanzi": "小美喜欢听音乐，小明也喜欢音乐。他们经常聊天说起喜欢的事情。因为有共同的爱好，他们认识了。",
@@ -228,7 +229,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-7c12624e721b.mp3"
       },
       {
         "hanzi": "后来小美去了别的城市学习。虽然他们不在一个地方，但是他们一直联系。他们经常用手机联系。",
@@ -344,7 +346,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-e2da1ee453b0.mp3"
       },
       {
         "hanzi": "小明给小美发了电话。小美看到手机马上回了电话。他们觉得这样联系非常方便。",
@@ -439,7 +442,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-5beef4032482.mp3"
       }
     ],
     "questions": [
@@ -478,6 +482,13 @@
         "answer": 0,
         "explainVi": "Bài đọc viết: '他们觉得这样联系非常方便。'"
       }
+    ],
+    "audioFull": "audio/story-1a42bef53e9e.mp3",
+    "audioSentences": [
+      "audio/story-3ada4acc3de4.mp3",
+      "audio/story-7c12624e721b.mp3",
+      "audio/story-e2da1ee453b0.mp3",
+      "audio/story-5beef4032482.mp3"
     ]
   },
   {
@@ -648,7 +659,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-daaf6dc42414.mp3"
       },
       {
         "hanzi": "可是，小美觉得周末应该多休息一会儿。小美告诉大家，她常常起得很晚。小美说自己可能会迟到，请大家不要生气。",
@@ -787,7 +799,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-629e4cc0925b.mp3"
       },
       {
         "hanzi": "王老师听到以后，笑着说没关系。王老师打算开车带大家去那里。王老师觉得大家一起出去玩儿非常高兴，迟到一点儿也没事儿。",
@@ -919,7 +932,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-214da65188ad.mp3"
       },
       {
         "hanzi": "最后，大家决定早上九点在公园门口见面。小明很高兴，因为大家都有时间。他们决定玩儿得开心，一路平安。",
@@ -1047,7 +1061,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-f011988b8cc1.mp3"
       }
     ],
     "questions": [
@@ -1086,6 +1101,13 @@
         "answer": 1,
         "explainVi": "Bài đọc viết: '最后，大家决定早上九点在公园门口见面。' (Cuối cùng, mọi người quyết định 9 giờ sáng gặp nhau ở cổng công viên.)"
       }
+    ],
+    "audioFull": "audio/story-c6bd325220d0.mp3",
+    "audioSentences": [
+      "audio/story-daaf6dc42414.mp3",
+      "audio/story-629e4cc0925b.mp3",
+      "audio/story-214da65188ad.mp3",
+      "audio/story-f011988b8cc1.mp3"
     ]
   },
   {
@@ -1247,7 +1269,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-f7b748097564.mp3"
       },
       {
         "hanzi": "小明和小美也喜欢这个节目。他们觉得这些演员演得非常好。每次看到他们的时候，小明和小美都特别开心。",
@@ -1383,7 +1406,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-a97828180c4d.mp3"
       },
       {
         "hanzi": "王老师觉得这个演员很有意思。他在节目里说了很多好听的话。大家听了以后都觉得非常快乐。",
@@ -1503,7 +1527,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-db39911a4b05.mp3"
       },
       {
         "hanzi": "明天还有一个新的电视节目。王老师、小明和小美都要一起看。他们希望这个节目里还有那些好演员。",
@@ -1632,7 +1657,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-fd35d25e1ece.mp3"
       }
     ],
     "questions": [
@@ -1669,6 +1695,13 @@
         "answer": 0,
         "explainVi": "Đoạn cuối viết: '明天还有一个新的电视节目。王老师、小明和小美都要一起看。'"
       }
+    ],
+    "audioFull": "audio/story-70dc72e95f3b.mp3",
+    "audioSentences": [
+      "audio/story-f7b748097564.mp3",
+      "audio/story-a97828180c4d.mp3",
+      "audio/story-db39911a4b05.mp3",
+      "audio/story-fd35d25e1ece.mp3"
     ]
   },
   {
@@ -1818,7 +1851,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-b2890b4c0de8.mp3"
       },
       {
         "hanzi": "小明有一点儿担心今天的跑步比赛。小美对他说不用担心，一定要加油。听到这些话以后，他高兴地笑了。",
@@ -1947,7 +1981,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-e3fa63c4f3de.mp3"
       },
       {
         "hanzi": "比赛开始以后，小明跑得非常快。大家在旁边大声地帮他加油。最后他拿到了第一名，大家都为他高兴。",
@@ -2082,7 +2117,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-fce229c1dfad.mp3"
       },
       {
         "hanzi": "运动可以让人更加健康。王老师希望大家每天都能去体育馆运动。小明和朋友们决定以后天天来这里跑步。",
@@ -2209,7 +2245,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-7c1e5765a34d.mp3"
       }
     ],
     "questions": [
@@ -2246,6 +2283,13 @@
         "answer": 0,
         "explainVi": "Bài đọc viết: '小明有一点儿担心今天的跑步比赛。' (Tiểu Minh hơi lo lắng về cuộc thi chạy ngày hôm nay.)"
       }
+    ],
+    "audioFull": "audio/story-6b84331cd241.mp3",
+    "audioSentences": [
+      "audio/story-b2890b4c0de8.mp3",
+      "audio/story-e3fa63c4f3de.mp3",
+      "audio/story-fce229c1dfad.mp3",
+      "audio/story-7c1e5765a34d.mp3"
     ]
   },
   {
@@ -2459,7 +2503,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-e2cdc6fcd204.mp3"
       },
       {
         "hanzi": "因为北京很大，他买了一张地图。他认真看着地图，想要知道哪儿有好玩儿的地方。有了这张地图，他觉得去北京旅游一定很方便。他把地图放在行李包里，现在他感觉很开心。",
@@ -2698,7 +2743,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-bbaee8ad000e.mp3"
       },
       {
         "hanzi": "小美也想去北京。她打电话给小明，问他要不要一起去。小明说他已经准备好了。他们两个人在电话里聊了很多，他们都觉得这次旅游一定很有意思。",
@@ -2892,7 +2938,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-1d21db0b089c.mp3"
       },
       {
         "hanzi": "他们打算坐火车去北京。他们带的行李不多。他们不需要再买地图，因为小明已经有一个了。小明和小美一起去火车站，他们对这次旅行感到非常高兴。",
@@ -3080,7 +3127,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-fdac9ea062cf.mp3"
       }
     ],
     "questions": [
@@ -3119,6 +3167,13 @@
         "answer": 1,
         "explainVi": "Bài đọc viết: '他们不需要再买地图，因为小明已经有一个了'."
       }
+    ],
+    "audioFull": "audio/story-a4dfd09f3d72.mp3",
+    "audioSentences": [
+      "audio/story-e2cdc6fcd204.mp3",
+      "audio/story-bbaee8ad000e.mp3",
+      "audio/story-1d21db0b089c.mp3",
+      "audio/story-fdac9ea062cf.mp3"
     ]
   },
   {
@@ -3281,7 +3336,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-e7727927aadf.mp3"
       },
       {
         "hanzi": "小明和小美一起去商店买东西。他们想买一些好看的衣服。商店里也有很多好玩儿的东西，真的十分热闹。",
@@ -3412,7 +3468,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-e17b8337137a.mp3"
       },
       {
         "hanzi": "王老师告诉我们春节的事情。大家可以送给朋友一些礼物。收到礼物的人都会特别开心。",
@@ -3508,7 +3565,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-6d4fbfe88440.mp3"
       },
       {
         "hanzi": "回家以后，我们一家人一起吃饭。桌子上有很好吃的饺子和鱼。这个节日给我们送来很多快乐的礼物。",
@@ -3640,7 +3698,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-b70727dbf9fe.mp3"
       }
     ],
     "questions": [
@@ -3677,6 +3736,13 @@
         "answer": 0,
         "explainVi": "Đoạn 3 viết: 王老师告诉我们春节的事情。"
       }
+    ],
+    "audioFull": "audio/story-09e8b4a9b2de.mp3",
+    "audioSentences": [
+      "audio/story-e7727927aadf.mp3",
+      "audio/story-e17b8337137a.mp3",
+      "audio/story-6d4fbfe88440.mp3",
+      "audio/story-b70727dbf9fe.mp3"
     ]
   },
   {
@@ -3805,7 +3871,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-dcab1d17be6e.mp3"
       },
       {
         "hanzi": "可是考试的时候小明总是很紧张。大家看到他紧张的样子都来帮助他。小美也告诉他不要害怕考试。",
@@ -3925,7 +3992,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-7614e733c87e.mp3"
       },
       {
         "hanzi": "小美是一个聪明而热心的女孩儿。她觉得考试一点儿也不难。小明听了小美的话以后觉得好多了。",
@@ -4040,7 +4108,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-ffd48a289a5f.mp3"
       },
       {
         "hanzi": "最后小明不再紧张了。他高高兴兴地完成了考试。老师看到他的成绩非常高兴。",
@@ -4139,7 +4208,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-497a0b9b02db.mp3"
       }
     ],
     "questions": [
@@ -4176,6 +4246,13 @@
         "answer": 0,
         "explainVi": "Bài đọc viết: 小美也告诉他不要害怕考试 (Tiểu Mỹ cũng bảo cậu ấy đừng sợ kỳ thi)."
       }
+    ],
+    "audioFull": "audio/story-981de80452ba.mp3",
+    "audioSentences": [
+      "audio/story-dcab1d17be6e.mp3",
+      "audio/story-7614e733c87e.mp3",
+      "audio/story-ffd48a289a5f.mp3",
+      "audio/story-497a0b9b02db.mp3"
     ]
   },
   {
@@ -4341,7 +4418,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-3898fd5a6c04.mp3"
       },
       {
         "hanzi": "小美心里很着急，怕王老师生气。刚才买礼物的时候，她一直在看手机。因为看手机，她忘记了买礼物的时间，这样很不好。",
@@ -4501,7 +4579,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-1d75e792fa0f.mp3"
       },
       {
         "hanzi": "小明正好走过来，看到小美站在那里。小明问她为什么不进去，小美告诉他刚才发生的事情。小明说没关系，大家都会忘记事。",
@@ -4649,7 +4728,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-a7b5751eae71.mp3"
       },
       {
         "hanzi": "后来，他们一起去学校外边的商店买了礼物。突然，王老师走出来看到了他们。王老师很高兴，大家一起回到了办公室。",
@@ -4784,7 +4864,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-9633b7b3b764.mp3"
       }
     ],
     "questions": [
@@ -4822,6 +4903,13 @@
         "answer": 0,
         "explainVi": "Bài đọc viết: '因为看手机，她忘记了买礼物的时间' (Vì nhìn điện thoại, cô ấy đã quên mất thời gian mua quà)."
       }
+    ],
+    "audioFull": "audio/story-479ea3a8457c.mp3",
+    "audioSentences": [
+      "audio/story-3898fd5a6c04.mp3",
+      "audio/story-1d75e792fa0f.mp3",
+      "audio/story-a7b5751eae71.mp3",
+      "audio/story-9633b7b3b764.mp3"
     ]
   },
   {
@@ -5034,7 +5122,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-a8849dedfa39.mp3"
       },
       {
         "hanzi": "王老师觉得他们关系很好，应该多活动。Bao 心里想：这真是个好机会。大家都准备了一些好吃的，打算在火车上吃。这一路上，大家都很开心，关系更好了。",
@@ -5235,7 +5324,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-a9d4e427208b.mp3"
       },
       {
         "hanzi": "到了车站，看到很多人。Bao 觉得有这样的朋友真好。他们关系虽然简单，但是很真。大家一定要好好照顾身体，这样旅游才会快乐。火车马上就要开走了。",
@@ -5426,7 +5516,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-ca25c79baf87.mp3"
       },
       {
         "hanzi": "王老师告诉大家：坐火车要注意安全。小明和小美一直看地图，想找最好的地方。Bao 觉得这次旅行一定会很好。大家都坐好了，准备出发，心情都很好。",
@@ -5616,7 +5707,8 @@
             "w": "。",
             "pinyin": ""
           }
-        ]
+        ],
+        "audio": "audio/story-fbad85b99aac.mp3"
       }
     ],
     "questions": [
@@ -5667,6 +5759,13 @@
         "answer": 0,
         "explainVi": "Đoạn 2 nói mọi người đã chuẩn bị đồ ăn ngon để ăn trên tàu."
       }
+    ],
+    "audioFull": "audio/story-b117ad3e6e7f.mp3",
+    "audioSentences": [
+      "audio/story-a8849dedfa39.mp3",
+      "audio/story-a9d4e427208b.mp3",
+      "audio/story-ca25c79baf87.mp3",
+      "audio/story-fbad85b99aac.mp3"
     ]
   }
 ]
