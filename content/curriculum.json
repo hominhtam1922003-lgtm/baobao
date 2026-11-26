@@ -1,0 +1,315 @@
+{
+  "stages": [
+    {
+      "id": 1,
+      "title": "Chặng 1 — Sinh tồn",
+      "subtitle": "Chào hỏi, giới thiệu, ăn uống, mua sắm và hỏi đường hằng ngày",
+      "colorToken": "comm",
+      "grammarNotes": [
+        {
+          "title": "Câu hỏi Có/Không với 吗 (ma)",
+          "pattern": "Chủ ngữ + Động từ + Tân ngữ + 吗？",
+          "explainVi": "Chỉ cần thêm 吗 vào cuối câu trần thuật để tạo câu hỏi Có/Không.",
+          "exampleHanzi": "你喝奶茶吗？",
+          "exampleVi": "Bạn uống trà sữa không?"
+        },
+        {
+          "title": "Muốn hoặc định làm gì với 想 (xiǎng)",
+          "pattern": "Chủ ngữ + 想 + Động từ + Tân ngữ",
+          "explainVi": "想 đứng trước động từ để diễn đạt mong muốn lịch sự khi gọi món hay rủ bạn.",
+          "exampleHanzi": "我想喝一杯热茶。",
+          "exampleVi": "Mình muốn uống một ly trà nóng."
+        },
+        {
+          "title": "Lượng từ 杯 (bēi) cho đồ uống",
+          "pattern": "Số từ + 杯 + (Tính từ) + Đồ uống",
+          "explainVi": "Dùng 一杯, 两杯 (không dùng 二杯) khi gọi trà sữa hoặc cà phê.",
+          "exampleHanzi": "我要两杯冰咖啡。",
+          "exampleVi": "Cho mình hai ly cà phê đá."
+        }
+      ],
+      "storyChapter": {
+        "title": "Chương 1: Ngày đầu Bao tới phố cổ",
+        "teaserVi": "Bao lần đầu tự đi quán trà sữa gọi món bằng tiếng Trung — liệu cậu có gọi đúng ly ít đường không đá?",
+        "readingId": "r-t6"
+      },
+      "topics": [
+        {
+          "id": 1,
+          "stage": 1,
+          "title": "Chào hỏi & tạm biệt",
+          "subtitle": "Làm quen, cảm ơn, xin lỗi tự nhiên",
+          "ready": true,
+          "lessonIds": [
+            "t1-giao-tiep",
+            "t1-doc",
+            "t1-nghe",
+            "t1-viet"
+          ],
+          "readingId": "r-t1"
+        },
+        {
+          "id": 2,
+          "stage": 1,
+          "title": "Giới thiệu bản thân",
+          "subtitle": "Tên, quốc tịch, bạn mới",
+          "ready": false,
+          "lessonIds": []
+        },
+        {
+          "id": 3,
+          "stage": 1,
+          "title": "Số đếm, tuổi & ngày tháng",
+          "subtitle": "Đọc số, hỏi tuổi, sinh nhật",
+          "ready": false,
+          "lessonIds": []
+        },
+        {
+          "id": 4,
+          "stage": 1,
+          "title": "Gia đình & bạn bè",
+          "subtitle": "Kể về người thân và bạn thân",
+          "ready": false,
+          "lessonIds": []
+        },
+        {
+          "id": 5,
+          "stage": 1,
+          "title": "Thời gian & hẹn gặp",
+          "subtitle": "Hỏi giờ và đặt lịch gặp",
+          "ready": false,
+          "lessonIds": []
+        },
+        {
+          "id": 6,
+          "stage": 1,
+          "title": "Ăn uống: gọi món, trà sữa & cà phê",
+          "subtitle": "Xem thực đơn, chọn ít đường/đá, tính tiền",
+          "ready": true,
+          "lessonIds": [
+            "t6-giao-tiep",
+            "t6-doc",
+            "t6-nghe",
+            "t6-viet"
+          ],
+          "readingId": "r-t6"
+        },
+        {
+          "id": 7,
+          "stage": 1,
+          "title": "Mua sắm & mặc cả",
+          "subtitle": "Hỏi giá, chọn cỡ và trả giá nhẹ",
+          "ready": false,
+          "lessonIds": []
+        },
+        {
+          "id": 8,
+          "stage": 1,
+          "title": "Hỏi đường & đi lại",
+          "subtitle": "Rẽ trái phải, tàu điện và taxi",
+          "ready": false,
+          "lessonIds": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Chặng 2 — Đời sống",
+      "subtitle": "Sở thích, thời tiết, công việc, nhà ở và mua sắm online",
+      "colorToken": "read",
+      "grammarNotes": [],
+      "storyChapter": {
+        "title": "Chương 2: Căn phòng mới của Bao",
+        "teaserVi": "Mở khoá ở Đợt 2 sau khi hoàn thành 80% Chặng 1."
+      },
+      "topics": [
+        {
+          "id": 9,
+          "stage": 2,
+          "title": "Sở thích & thời gian rảnh",
+          "subtitle": "Đợt 2",
+          "ready": false,
+          "lessonIds": []
+        },
+        {
+          "id": 10,
+          "stage": 2,
+          "title": "Thời tiết & mùa",
+          "subtitle": "Đợt 2",
+          "ready": false,
+          "lessonIds": []
+        },
+        {
+          "id": 11,
+          "stage": 2,
+          "title": "Trường học & học tập",
+          "subtitle": "Đợt 2",
+          "ready": false,
+          "lessonIds": []
+        },
+        {
+          "id": 12,
+          "stage": 2,
+          "title": "Công việc & nghề nghiệp",
+          "subtitle": "Đợt 2",
+          "ready": false,
+          "lessonIds": []
+        },
+        {
+          "id": 13,
+          "stage": 2,
+          "title": "Sức khỏe: đi khám, mua thuốc",
+          "subtitle": "Đợt 2",
+          "ready": false,
+          "lessonIds": []
+        },
+        {
+          "id": 14,
+          "stage": 2,
+          "title": "Nhà ở: thuê nhà, hỏi tiện nghi",
+          "subtitle": "Đợt 2",
+          "ready": false,
+          "lessonIds": []
+        },
+        {
+          "id": 15,
+          "stage": 2,
+          "title": "Điện thoại, mạng xã hội & internet",
+          "subtitle": "Đợt 2",
+          "ready": false,
+          "lessonIds": []
+        },
+        {
+          "id": 16,
+          "stage": 2,
+          "title": "Mua sắm online & nhận hàng",
+          "subtitle": "Đợt 2",
+          "ready": false,
+          "lessonIds": []
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Chặng 3 — Xã hội & giải trí",
+      "subtitle": "Kết bạn, hẹn đi chơi, phim nhạc, du lịch và lễ tết",
+      "colorToken": "review",
+      "grammarNotes": [],
+      "storyChapter": {
+        "title": "Chương 3: Chuyến tàu cuối tuần",
+        "teaserVi": "Mở khoá ở Đợt 2."
+      },
+      "topics": [
+        {
+          "id": 17,
+          "stage": 3,
+          "title": "Kết bạn mới & giữ liên lạc",
+          "subtitle": "Đợt 2",
+          "ready": false,
+          "lessonIds": []
+        },
+        {
+          "id": 18,
+          "stage": 3,
+          "title": "Hẹn gặp & lên kế hoạch đi chơi",
+          "subtitle": "Đợt 2",
+          "ready": false,
+          "lessonIds": []
+        },
+        {
+          "id": 19,
+          "stage": 3,
+          "title": "Phim, nhạc & thần tượng",
+          "subtitle": "Đợt 2",
+          "ready": false,
+          "lessonIds": []
+        },
+        {
+          "id": 20,
+          "stage": 3,
+          "title": "Thể thao & vận động",
+          "subtitle": "Đợt 2",
+          "ready": false,
+          "lessonIds": []
+        },
+        {
+          "id": 21,
+          "stage": 3,
+          "title": "Du lịch: khách sạn, vé, điểm tham quan",
+          "subtitle": "Đợt 2",
+          "ready": false,
+          "lessonIds": []
+        },
+        {
+          "id": 22,
+          "stage": 3,
+          "title": "Lễ tết & phong tục",
+          "subtitle": "Đợt 2",
+          "ready": false,
+          "lessonIds": []
+        },
+        {
+          "id": 23,
+          "stage": 3,
+          "title": "Cảm xúc & tính cách",
+          "subtitle": "Đợt 2",
+          "ready": false,
+          "lessonIds": []
+        },
+        {
+          "id": 24,
+          "stage": 3,
+          "title": "Kể chuyện đã qua",
+          "subtitle": "Đợt 2",
+          "ready": false,
+          "lessonIds": []
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Chặng 4 — Tự tin giao tiếp",
+      "subtitle": "Trình bày quan điểm, dự định tương lai và xử lý tình huống khó",
+      "colorToken": "write",
+      "grammarNotes": [],
+      "storyChapter": {
+        "title": "Chương 4: Hội chợ mùa thu",
+        "teaserVi": "Mở khoá ở Đợt 2."
+      },
+      "topics": [
+        {
+          "id": 25,
+          "stage": 4,
+          "title": "Bày tỏ ý kiến & đồng ý/phản đối nhẹ nhàng",
+          "subtitle": "Đợt 2",
+          "ready": false,
+          "lessonIds": []
+        },
+        {
+          "id": 26,
+          "stage": 4,
+          "title": "Dự định & ước mơ tương lai",
+          "subtitle": "Đợt 2",
+          "ready": false,
+          "lessonIds": []
+        },
+        {
+          "id": 27,
+          "stage": 4,
+          "title": "Công nghệ & AI trong đời sống",
+          "subtitle": "Đợt 2",
+          "ready": false,
+          "lessonIds": []
+        },
+        {
+          "id": 28,
+          "stage": 4,
+          "title": "Tình huống khó: nhờ giúp đỡ, khẩn cấp & xin lỗi",
+          "subtitle": "Đợt 2",
+          "ready": false,
+          "lessonIds": []
+        }
+      ]
+    }
+  ]
+}

@@ -17,7 +17,7 @@ VOICES = {
     "female": ("zh-CN-XiaoyiNeural", "+0%"),
     "male": ("zh-CN-YunxiNeural", "+0%"),
     "formal": ("zh-CN-YunyangNeural", "+0%"),
-    "story": ("zh-CN-XiaohanNeural", "-10%"),
+    "story": ("zh-CN-XiaoxiaoNeural", "-10%"),
     "slow": ("zh-CN-XiaoxiaoNeural", "-25%"),
 }
 

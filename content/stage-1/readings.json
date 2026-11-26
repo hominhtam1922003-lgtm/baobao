@@ -1,0 +1,810 @@
+[
+  {
+    "id": "r-t1",
+    "stage": 1,
+    "topicId": 1,
+    "title": "Ngày đầu ở lớp tiếng Trung",
+    "mode": "fluent",
+    "knownPercent": 96,
+    "newWords": [
+      "早上",
+      "同学"
+    ],
+    "paragraphs": [
+      {
+        "hanzi": "今天早上，我和朋友去学中文。老师说：「你们好！我叫王老师。」",
+        "vi": "Sáng nay, mình và bạn đi học tiếng Trung. Thầy/cô nói: 'Chào các em! Cô là cô Vương.'",
+        "tokens": [
+          {
+            "w": "今天",
+            "pinyin": "jīn tiān"
+          },
+          {
+            "w": "早上",
+            "pinyin": "zǎo shang",
+            "isNew": true
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "w": "和",
+            "pinyin": "hé"
+          },
+          {
+            "w": "朋友",
+            "pinyin": "péng you"
+          },
+          {
+            "w": "去",
+            "pinyin": "qù"
+          },
+          {
+            "w": "学",
+            "pinyin": "xué"
+          },
+          {
+            "w": "中文",
+            "pinyin": "zhōng wén"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "老师",
+            "pinyin": "lǎo shī"
+          },
+          {
+            "w": "说",
+            "pinyin": "shuō"
+          },
+          {
+            "w": "：「",
+            "pinyin": ""
+          },
+          {
+            "w": "你们",
+            "pinyin": "nǐ men"
+          },
+          {
+            "w": "好",
+            "pinyin": "hǎo"
+          },
+          {
+            "w": "！",
+            "pinyin": ""
+          },
+          {
+            "w": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "w": "叫",
+            "pinyin": "jiào"
+          },
+          {
+            "w": "王",
+            "pinyin": "Wáng"
+          },
+          {
+            "w": "老师",
+            "pinyin": "lǎo shī"
+          },
+          {
+            "w": "。」",
+            "pinyin": ""
+          }
+        ],
+        "audio": "audio/story-5cc04dfad84c.mp3"
+      },
+      {
+        "hanzi": "我说：「老师好！我是越南人。」新同学说：「你好，请坐！」我说谢谢，同学说不客气。",
+        "vi": "Mình nói: 'Em chào cô ạ! Em là người Việt Nam.' Bạn học mới nói: 'Xin chào, mời ngồi!' Mình nói cảm ơn, bạn ấy đáp không có gì.",
+        "tokens": [
+          {
+            "w": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "w": "说",
+            "pinyin": "shuō"
+          },
+          {
+            "w": "：「",
+            "pinyin": ""
+          },
+          {
+            "w": "老师",
+            "pinyin": "lǎo shī"
+          },
+          {
+            "w": "好",
+            "pinyin": "hǎo"
+          },
+          {
+            "w": "！",
+            "pinyin": ""
+          },
+          {
+            "w": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "w": "是",
+            "pinyin": "shì"
+          },
+          {
+            "w": "越南",
+            "pinyin": "Yuè nán"
+          },
+          {
+            "w": "人",
+            "pinyin": "rén"
+          },
+          {
+            "w": "。」",
+            "pinyin": ""
+          },
+          {
+            "w": "新",
+            "pinyin": "xīn"
+          },
+          {
+            "w": "同学",
+            "pinyin": "tóng xué",
+            "isNew": true
+          },
+          {
+            "w": "说",
+            "pinyin": "shuō"
+          },
+          {
+            "w": "：「",
+            "pinyin": ""
+          },
+          {
+            "w": "你好",
+            "pinyin": "nǐ hǎo"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "请",
+            "pinyin": "qǐng"
+          },
+          {
+            "w": "坐",
+            "pinyin": "zuò"
+          },
+          {
+            "w": "！」",
+            "pinyin": ""
+          },
+          {
+            "w": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "w": "说",
+            "pinyin": "shuō"
+          },
+          {
+            "w": "谢谢",
+            "pinyin": "xiè xie"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "同学",
+            "pinyin": "tóng xué",
+            "isNew": true
+          },
+          {
+            "w": "说",
+            "pinyin": "shuō"
+          },
+          {
+            "w": "不客气",
+            "pinyin": "bú kè qi"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ],
+        "audio": "audio/story-322b24470caa.mp3"
+      },
+      {
+        "hanzi": "早上课后，我们都很开心。我说：「老师再见，同学明天见！」",
+        "vi": "Sau buổi học sáng, chúng mình đều rất vui. Mình nói: 'Em chào cô tạm biệt, các bạn hẹn mai gặp!'",
+        "tokens": [
+          {
+            "w": "早上",
+            "pinyin": "zǎo shang",
+            "isNew": true
+          },
+          {
+            "w": "课",
+            "pinyin": "kè"
+          },
+          {
+            "w": "后",
+            "pinyin": "hòu"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "我们",
+            "pinyin": "wǒ men"
+          },
+          {
+            "w": "都",
+            "pinyin": "dōu"
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "开心",
+            "pinyin": "kāi xīn"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "w": "说",
+            "pinyin": "shuō"
+          },
+          {
+            "w": "：「",
+            "pinyin": ""
+          },
+          {
+            "w": "老师",
+            "pinyin": "lǎo shī"
+          },
+          {
+            "w": "再见",
+            "pinyin": "zài jiàn"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "同学",
+            "pinyin": "tóng xué",
+            "isNew": true
+          },
+          {
+            "w": "明天",
+            "pinyin": "míng tiān"
+          },
+          {
+            "w": "见",
+            "pinyin": "jiàn"
+          },
+          {
+            "w": "！」",
+            "pinyin": ""
+          }
+        ],
+        "audio": "audio/story-7fed400fd6e4.mp3"
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq1-1",
+        "type": "mcq",
+        "q": "Nhân vật chính đi học tiếng Trung vào lúc nào?",
+        "options": [
+          "Buổi sáng",
+          "Buổi tối",
+          "Ngày mai"
+        ],
+        "answer": 0,
+        "explainVi": "Đoạn 1 ghi rõ 「今天早上」 (sáng nay)."
+      },
+      {
+        "id": "rq1-2",
+        "type": "tf",
+        "q": "Đúng hay Sai: Bạn học mới nói '不客气' khi nhân vật chính cảm ơn.",
+        "options": [
+          "Đúng",
+          "Sai"
+        ],
+        "answer": 0,
+        "explainVi": "Đoạn 2: 「我说谢谢，同学说不客气。」"
+      },
+      {
+        "id": "rq1-3",
+        "type": "detail",
+        "q": "Cuối buổi học, nhân vật chính hẹn gặp bạn học khi nào?",
+        "options": [
+          "Ngày mai (明天见)",
+          "Buổi tối",
+          "Tuần sau"
+        ],
+        "answer": 0,
+        "explainVi": "Câu cuối bài: 「同学明天见！」"
+      }
+    ],
+    "audioFull": "audio/story-7e750b2a8c07.mp3",
+    "audioSentences": [
+      "audio/story-5cc04dfad84c.mp3",
+      "audio/story-322b24470caa.mp3",
+      "audio/story-7fed400fd6e4.mp3"
+    ]
+  },
+  {
+    "id": "r-t6",
+    "stage": 1,
+    "topicId": 6,
+    "title": "Buổi chiều ở quán trà sữa",
+    "mode": "study",
+    "knownPercent": 90,
+    "newWords": [
+      "奶茶",
+      "少糖",
+      "去冰",
+      "买单"
+    ],
+    "paragraphs": [
+      {
+        "hanzi": "今天下午，我和好朋友去一家新店。这里有很多茶，还有冰咖啡和奶茶。",
+        "vi": "Chiều nay, mình và bạn thân đến một quán mới. Ở đây có rất nhiều loại trà, còn có cà phê đá và trà sữa.",
+        "tokens": [
+          {
+            "w": "今天",
+            "pinyin": "jīn tiān"
+          },
+          {
+            "w": "下午",
+            "pinyin": "xià wǔ"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "w": "和",
+            "pinyin": "hé"
+          },
+          {
+            "w": "好",
+            "pinyin": "hǎo"
+          },
+          {
+            "w": "朋友",
+            "pinyin": "péng you"
+          },
+          {
+            "w": "去",
+            "pinyin": "qù"
+          },
+          {
+            "w": "一家",
+            "pinyin": "yì jiā"
+          },
+          {
+            "w": "新",
+            "pinyin": "xīn"
+          },
+          {
+            "w": "店",
+            "pinyin": "diàn"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "这里",
+            "pinyin": "zhè lǐ"
+          },
+          {
+            "w": "有",
+            "pinyin": "yǒu"
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "多",
+            "pinyin": "duō"
+          },
+          {
+            "w": "茶",
+            "pinyin": "chá"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "还有",
+            "pinyin": "hái yǒu"
+          },
+          {
+            "w": "冰",
+            "pinyin": "bīng"
+          },
+          {
+            "w": "咖啡",
+            "pinyin": "kā fēi"
+          },
+          {
+            "w": "和",
+            "pinyin": "hé"
+          },
+          {
+            "w": "奶茶",
+            "pinyin": "nǎi chá",
+            "isNew": true
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ],
+        "audio": "audio/story-4f8d2195b8ff.mp3"
+      },
+      {
+        "hanzi": "服务员问我想喝什么。我想喝一杯热奶茶，少糖去冰。朋友要一杯冰咖啡，也少糖去冰。",
+        "vi": "Nhân viên phục vụ hỏi mình muốn uống gì. Mình muốn một ly trà sữa nóng, ít đường không đá. Bạn mình gọi một ly cà phê đá, cũng ít đường không đá.",
+        "tokens": [
+          {
+            "w": "服务员",
+            "pinyin": "fú wù yuán"
+          },
+          {
+            "w": "问",
+            "pinyin": "wèn"
+          },
+          {
+            "w": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "w": "想",
+            "pinyin": "xiǎng"
+          },
+          {
+            "w": "喝",
+            "pinyin": "hē"
+          },
+          {
+            "w": "什么",
+            "pinyin": "shén me"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "w": "想",
+            "pinyin": "xiǎng"
+          },
+          {
+            "w": "喝",
+            "pinyin": "hē"
+          },
+          {
+            "w": "一杯",
+            "pinyin": "yì bēi"
+          },
+          {
+            "w": "热",
+            "pinyin": "rè"
+          },
+          {
+            "w": "奶茶",
+            "pinyin": "nǎi chá",
+            "isNew": true
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "少糖",
+            "pinyin": "shǎo táng",
+            "isNew": true
+          },
+          {
+            "w": "去冰",
+            "pinyin": "qù bīng",
+            "isNew": true
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "朋友",
+            "pinyin": "péng you"
+          },
+          {
+            "w": "要",
+            "pinyin": "yào"
+          },
+          {
+            "w": "一杯",
+            "pinyin": "yì bēi"
+          },
+          {
+            "w": "冰",
+            "pinyin": "bīng"
+          },
+          {
+            "w": "咖啡",
+            "pinyin": "kā fēi"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "也",
+            "pinyin": "yě"
+          },
+          {
+            "w": "少糖",
+            "pinyin": "shǎo táng",
+            "isNew": true
+          },
+          {
+            "w": "去冰",
+            "pinyin": "qù bīng",
+            "isNew": true
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ],
+        "audio": "audio/story-55b5b7f4fea6.mp3"
+      },
+      {
+        "hanzi": "我们还点了小笼包。奶茶很好喝，小笼包也好吃！最后我说：「请买单！」服务员说一共四十块，谢谢再来，我先去买单了。",
+        "vi": "Chúng mình còn gọi tiểu long bao. Trà sữa rất ngon, tiểu long bao cũng ngon! Cuối cùng mình nói: 'Tính tiền ạ!' Nhân viên nói tổng cộng 40 tệ, cảm ơn lần sau ghé nhé, mình đi thanh toán trước đây.",
+        "tokens": [
+          {
+            "w": "我们",
+            "pinyin": "wǒ men"
+          },
+          {
+            "w": "还",
+            "pinyin": "hái"
+          },
+          {
+            "w": "点",
+            "pinyin": "diǎn"
+          },
+          {
+            "w": "了",
+            "pinyin": "le"
+          },
+          {
+            "w": "小笼包",
+            "pinyin": "xiǎo lóng bāo"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "奶茶",
+            "pinyin": "nǎi chá",
+            "isNew": true
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "好喝",
+            "pinyin": "hǎo hē"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "小笼包",
+            "pinyin": "xiǎo lóng bāo"
+          },
+          {
+            "w": "也",
+            "pinyin": "yě"
+          },
+          {
+            "w": "好吃",
+            "pinyin": "hǎo chī"
+          },
+          {
+            "w": "！",
+            "pinyin": ""
+          },
+          {
+            "w": "最后",
+            "pinyin": "zuì hòu"
+          },
+          {
+            "w": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "w": "说",
+            "pinyin": "shuō"
+          },
+          {
+            "w": "：「",
+            "pinyin": ""
+          },
+          {
+            "w": "请",
+            "pinyin": "qǐng"
+          },
+          {
+            "w": "买单",
+            "pinyin": "mǎi dān",
+            "isNew": true
+          },
+          {
+            "w": "！」",
+            "pinyin": ""
+          },
+          {
+            "w": "服务员",
+            "pinyin": "fú wù yuán"
+          },
+          {
+            "w": "说",
+            "pinyin": "shuō"
+          },
+          {
+            "w": "一共",
+            "pinyin": "yí gòng"
+          },
+          {
+            "w": "四十",
+            "pinyin": "sì shí"
+          },
+          {
+            "w": "块",
+            "pinyin": "kuài"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "谢谢",
+            "pinyin": "xiè xie"
+          },
+          {
+            "w": "再",
+            "pinyin": "zài"
+          },
+          {
+            "w": "来",
+            "pinyin": "lái"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "w": "先",
+            "pinyin": "xiān"
+          },
+          {
+            "w": "去",
+            "pinyin": "qù"
+          },
+          {
+            "w": "买单",
+            "pinyin": "mǎi dān",
+            "isNew": true
+          },
+          {
+            "w": "了",
+            "pinyin": "le"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ],
+        "audio": "audio/story-cbaae76b836e.mp3"
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq6-1",
+        "type": "mcq",
+        "q": "Nhân vật 'tôi' đã gọi ly đồ uống nào?",
+        "options": [
+          "Trà sữa nóng, ít đường không đá",
+          "Cà phê đá, nhiều đường",
+          "Trà đá miễn phí"
+        ],
+        "answer": 0,
+        "explainVi": "Đoạn 2: 「我想喝一杯热奶茶，少糖去冰。」"
+      },
+      {
+        "id": "rq6-2",
+        "type": "mcq",
+        "q": "Ngoài đồ uống, hai bạn còn gọi thêm món ăn nào?",
+        "options": [
+          "Tiểu long bao (小笼包)",
+          "Mì sợi (面条)",
+          "Bánh bao chay"
+        ],
+        "answer": 0,
+        "explainVi": "Đoạn 3: 「我们还点了小笼包。」"
+      },
+      {
+        "id": "rq6-3",
+        "type": "tf",
+        "q": "Đúng hay Sai: Tổng hóa đơn là 40 tệ.",
+        "options": [
+          "Đúng",
+          "Sai"
+        ],
+        "answer": 0,
+        "explainVi": "Nhân viên nói 「一共四十块」."
+      },
+      {
+        "id": "rq6-4",
+        "type": "detail",
+        "q": "Chữ nào trong bài có nghĩa là 'tính tiền'?",
+        "options": [
+          "买单",
+          "好喝",
+          "菜单"
+        ],
+        "answer": 0,
+        "explainVi": "买单 (mǎi dān) = tính tiền / thanh toán."
+      }
+    ],
+    "audioFull": "audio/story-a36a7906c72b.mp3",
+    "audioSentences": [
+      "audio/story-4f8d2195b8ff.mp3",
+      "audio/story-55b5b7f4fea6.mp3",
+      "audio/story-cbaae76b836e.mp3"
+    ]
+  }
+]

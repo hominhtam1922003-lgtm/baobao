@@ -24,5 +24,5 @@ Quy tắc ánh xạ trong `tools/prepare_stage1.py`:
 
 ## 3. Audio tự sinh offline
 
-- Công cụ: Python `edge-tts` với các giọng `zh-CN-XiaoxiaoNeural`, `zh-CN-XiaoyiNeural`, `zh-CN-YunxiNeural`, `zh-CN-YunyangNeural`, `zh-CN-XiaohanNeural` (`-10%` cho bài đọc), và bản chậm `-25%` cho bài nghe.
+- Công cụ: Python `edge-tts` với các giọng `zh-CN-XiaoxiaoNeural` (`+0%`), `zh-CN-XiaoyiNeural`, `zh-CN-YunxiNeural`, `zh-CN-YunyangNeural`, đọc truyện `zh-CN-XiaoxiaoNeural` (`-10%`, vì `zh-CN-XiaohanNeural` không còn khả dụng trên `edge-tts`), và bản chậm `-25%` cho bài nghe.
 - Không dùng audio của Tatoeba và không gọi API TTS lúc người học sử dụng ứng dụng.

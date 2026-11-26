@@ -1,0 +1,6207 @@
+{
+  "radicals": {
+    "一": {
+      "radical": "一",
+      "meaning": "one",
+      "chars": [
+        "一",
+        "万",
+        "三",
+        "上",
+        "下",
+        "不",
+        "两"
+      ]
+    },
+    "丨": {
+      "radical": "丨",
+      "meaning": "number one",
+      "chars": [
+        "丨",
+        "个",
+        "中",
+        "临",
+        "书"
+      ]
+    },
+    "丶": {
+      "radical": "丶",
+      "meaning": "",
+      "chars": [
+        "为",
+        "丽"
+      ]
+    },
+    "丿": {
+      "radical": "丿",
+      "meaning": "",
+      "chars": [
+        "么"
+      ]
+    },
+    "乚": {
+      "radical": "乚",
+      "meaning": "secret, hidden, mysterious",
+      "chars": [
+        "乚",
+        "也"
+      ]
+    },
+    "冫": {
+      "radical": "冫",
+      "meaning": "ice",
+      "chars": [
+        "习",
+        "冫",
+        "冰",
+        "冷"
+      ]
+    },
+    "大": {
+      "radical": "大",
+      "meaning": "big, great, vast, high, deep",
+      "chars": [
+        "买",
+        "大",
+        "天",
+        "太",
+        "头"
+      ]
+    },
+    "亅": {
+      "radical": "亅",
+      "meaning": "hook",
+      "chars": [
+        "亅",
+        "了",
+        "事"
+      ]
+    },
+    "二": {
+      "radical": "二",
+      "meaning": "two",
+      "chars": [
+        "二",
+        "于",
+        "五"
+      ]
+    },
+    "亠": {
+      "radical": "亠",
+      "meaning": "",
+      "chars": [
+        "亮"
+      ]
+    },
+    "立": {
+      "radical": "立",
+      "meaning": "",
+      "chars": [
+        "亲",
+        "童"
+      ]
+    },
+    "人": {
+      "radical": "人",
+      "meaning": "man, person",
+      "chars": [
+        "人",
+        "今",
+        "从",
+        "以",
+        "会",
+        "來"
+      ]
+    },
+    "亻": {
+      "radical": "亻",
+      "meaning": "man, person",
+      "chars": [
+        "亻",
+        "什",
+        "他",
+        "们",
+        "件",
+        "份",
+        "休",
+        "位",
+        "住",
+        "作",
+        "你",
+        "侦"
+      ]
+    },
+    "儿": {
+      "radical": "儿",
+      "meaning": "son, child",
+      "chars": [
+        "儿",
+        "先",
+        "光",
+        "兔"
+      ]
+    },
+    "入": {
+      "radical": "入",
+      "meaning": "to enter, to come in",
+      "chars": [
+        "入",
+        "内"
+      ]
+    },
+    "八": {
+      "radical": "八",
+      "meaning": "eight",
+      "chars": [
+        "八",
+        "公",
+        "共"
+      ]
+    },
+    "丷": {
+      "radical": "丷",
+      "meaning": "",
+      "chars": [
+        "关",
+        "养",
+        "单"
+      ]
+    },
+    "冂": {
+      "radical": "冂",
+      "meaning": "wide",
+      "chars": [
+        "冂",
+        "册",
+        "再"
+      ]
+    },
+    "冖": {
+      "radical": "冖",
+      "meaning": "cover",
+      "chars": [
+        "冖",
+        "写"
+      ]
+    },
+    "车": {
+      "radical": "车",
+      "meaning": "cart, vehicle",
+      "chars": [
+        "军",
+        "车",
+        "辆"
+      ]
+    },
+    "几": {
+      "radical": "几",
+      "meaning": "small table",
+      "chars": [
+        "几"
+      ]
+    },
+    "凵": {
+      "radical": "凵",
+      "meaning": "",
+      "chars": [
+        "出"
+      ]
+    },
+    "刀": {
+      "radical": "刀",
+      "meaning": "",
+      "chars": [
+        "分"
+      ]
+    },
+    "刂": {
+      "radical": "刂",
+      "meaning": "",
+      "chars": [
+        "则",
+        "别",
+        "到",
+        "前"
+      ]
+    },
+    "力": {
+      "radical": "力",
+      "meaning": "strength, power",
+      "chars": [
+        "力",
+        "动",
+        "助",
+        "努"
+      ]
+    },
+    "夂": {
+      "radical": "夂",
+      "meaning": "",
+      "chars": [
+        "务"
+      ]
+    },
+    "勹": {
+      "radical": "勹",
+      "meaning": "wrap",
+      "chars": [
+        "勹",
+        "包"
+      ]
+    },
+    "十": {
+      "radical": "十",
+      "meaning": "ten, tenth",
+      "chars": [
+        "十",
+        "午",
+        "半",
+        "南",
+        "干"
+      ]
+    },
+    "厶": {
+      "radical": "厶",
+      "meaning": "private, secret",
+      "chars": [
+        "厶",
+        "去"
+      ]
+    },
+    "又": {
+      "radical": "又",
+      "meaning": "and, also, again, in addition",
+      "chars": [
+        "又",
+        "友",
+        "反",
+        "发",
+        "变",
+        "难"
+      ]
+    },
+    "口": {
+      "radical": "口",
+      "meaning": "mouth",
+      "chars": [
+        "口",
+        "只",
+        "叫",
+        "可",
+        "史",
+        "号",
+        "吃",
+        "合",
+        "同",
+        "名",
+        "后",
+        "向"
+      ]
+    },
+    "囗": {
+      "radical": "囗",
+      "meaning": "",
+      "chars": [
+        "四",
+        "回",
+        "园",
+        "国",
+        "图"
+      ]
+    },
+    "土": {
+      "radical": "土",
+      "meaning": "soil, earth",
+      "chars": [
+        "土",
+        "在",
+        "地",
+        "坐",
+        "块"
+      ]
+    },
+    "士": {
+      "radical": "士",
+      "meaning": "scholar, gentleman",
+      "chars": [
+        "士",
+        "声",
+        "壶"
+      ]
+    },
+    "夊": {
+      "radical": "夊",
+      "meaning": "",
+      "chars": [
+        "复"
+      ]
+    },
+    "夕": {
+      "radical": "夕",
+      "meaning": "evening, night, dusk",
+      "chars": [
+        "夕",
+        "外",
+        "多",
+        "夜"
+      ]
+    },
+    "女": {
+      "radical": "女",
+      "meaning": "woman, girl",
+      "chars": [
+        "女",
+        "奶",
+        "她",
+        "好",
+        "如",
+        "妈",
+        "妙",
+        "姆",
+        "姐"
+      ]
+    },
+    "子": {
+      "radical": "子",
+      "meaning": "son, child",
+      "chars": [
+        "子",
+        "字",
+        "学",
+        "孩",
+        "學"
+      ]
+    },
+    "宀": {
+      "radical": "宀",
+      "meaning": "roof",
+      "chars": [
+        "宀",
+        "它",
+        "宇",
+        "宙",
+        "定",
+        "宜",
+        "实",
+        "客",
+        "家",
+        "密",
+        "富"
+      ]
+    },
+    "寸": {
+      "radical": "寸",
+      "meaning": "inch",
+      "chars": [
+        "寸",
+        "对",
+        "封",
+        "射",
+        "對"
+      ]
+    },
+    "小": {
+      "radical": "小",
+      "meaning": "small, tiny, insignificant",
+      "chars": [
+        "小",
+        "少",
+        "尔"
+      ]
+    },
+    "尢": {
+      "radical": "尢",
+      "meaning": "",
+      "chars": [
+        "就"
+      ]
+    },
+    "尸": {
+      "radical": "尸",
+      "meaning": "",
+      "chars": [
+        "尽",
+        "屁",
+        "屋",
+        "展"
+      ]
+    },
+    "山": {
+      "radical": "山",
+      "meaning": "mountain, hill, peak",
+      "chars": [
+        "山",
+        "岁"
+      ]
+    },
+    "工": {
+      "radical": "工",
+      "meaning": "",
+      "chars": [
+        "巧"
+      ]
+    },
+    "己": {
+      "radical": "己",
+      "meaning": "self, oneself",
+      "chars": [
+        "己"
+      ]
+    },
+    "巳": {
+      "radical": "巳",
+      "meaning": "",
+      "chars": [
+        "巴"
+      ]
+    },
+    "巾": {
+      "radical": "巾",
+      "meaning": "cloth, curtain, handkerchief, towel",
+      "chars": [
+        "巾",
+        "布",
+        "师",
+        "席",
+        "帮",
+        "常",
+        "帽",
+        "幌"
+      ]
+    },
+    "干": {
+      "radical": "干",
+      "meaning": "",
+      "chars": [
+        "年",
+        "幸"
+      ]
+    },
+    "广": {
+      "radical": "广",
+      "meaning": "broad, vast, wide",
+      "chars": [
+        "广",
+        "床",
+        "应",
+        "店"
+      ]
+    },
+    "廾": {
+      "radical": "廾",
+      "meaning": "two hands",
+      "chars": [
+        "廾",
+        "开"
+      ]
+    },
+    "弓": {
+      "radical": "弓",
+      "meaning": "",
+      "chars": [
+        "弟",
+        "张"
+      ]
+    },
+    "⺌": {
+      "radical": "⺌",
+      "meaning": "",
+      "chars": [
+        "当"
+      ]
+    },
+    "彳": {
+      "radical": "彳",
+      "meaning": "to step with the left foot",
+      "chars": [
+        "彳",
+        "往",
+        "征",
+        "很",
+        "後",
+        "得"
+      ]
+    },
+    "心": {
+      "radical": "心",
+      "meaning": "heart",
+      "chars": [
+        "心",
+        "思",
+        "息",
+        "您",
+        "惡",
+        "想",
+        "意",
+        "感",
+        "愿",
+        "應"
+      ]
+    },
+    "忄": {
+      "radical": "忄",
+      "meaning": "",
+      "chars": [
+        "快",
+        "情",
+        "惜",
+        "慢"
+      ]
+    },
+    "戈": {
+      "radical": "戈",
+      "meaning": "spear, lance, halberd",
+      "chars": [
+        "戈",
+        "成",
+        "我"
+      ]
+    },
+    "户": {
+      "radical": "户",
+      "meaning": "",
+      "chars": [
+        "房",
+        "所"
+      ]
+    },
+    "手": {
+      "radical": "手",
+      "meaning": "hand",
+      "chars": [
+        "手",
+        "拿",
+        "摩"
+      ]
+    },
+    "扌": {
+      "radical": "扌",
+      "meaning": "",
+      "chars": [
+        "才",
+        "打",
+        "托",
+        "扰",
+        "把",
+        "抓",
+        "护",
+        "抱",
+        "拒",
+        "招",
+        "拥",
+        "探"
+      ]
+    },
+    "攵": {
+      "radical": "攵",
+      "meaning": "",
+      "chars": [
+        "收",
+        "改",
+        "救"
+      ]
+    },
+    "文": {
+      "radical": "文",
+      "meaning": "culture, literature, writing",
+      "chars": [
+        "文"
+      ]
+    },
+    "斤": {
+      "radical": "斤",
+      "meaning": "a catty (about 500 grams)",
+      "chars": [
+        "斤",
+        "新"
+      ]
+    },
+    "方": {
+      "radical": "方",
+      "meaning": "",
+      "chars": [
+        "於"
+      ]
+    },
+    "无": {
+      "radical": "无",
+      "meaning": "no, not",
+      "chars": [
+        "无"
+      ]
+    },
+    "旡": {
+      "radical": "旡",
+      "meaning": "",
+      "chars": [
+        "既"
+      ]
+    },
+    "日": {
+      "radical": "日",
+      "meaning": "sun",
+      "chars": [
+        "日",
+        "早",
+        "时",
+        "明",
+        "易",
+        "昨",
+        "是",
+        "時",
+        "晚",
+        "暗"
+      ]
+    },
+    "曰": {
+      "radical": "曰",
+      "meaning": "to speak",
+      "chars": [
+        "曰",
+        "最",
+        "會",
+        "电"
+      ]
+    },
+    "月": {
+      "radical": "月",
+      "meaning": "moon",
+      "chars": [
+        "月",
+        "有",
+        "朋",
+        "服"
+      ]
+    },
+    "木": {
+      "radical": "木",
+      "meaning": "tree",
+      "chars": [
+        "木",
+        "本",
+        "札",
+        "条",
+        "来",
+        "杯",
+        "果",
+        "校",
+        "样",
+        "桌",
+        "档",
+        "梦"
+      ]
+    },
+    "欠": {
+      "radical": "欠",
+      "meaning": "",
+      "chars": [
+        "次",
+        "欢",
+        "歌"
+      ]
+    },
+    "止": {
+      "radical": "止",
+      "meaning": "",
+      "chars": [
+        "正",
+        "歷"
+      ]
+    },
+    "歹": {
+      "radical": "歹",
+      "meaning": "",
+      "chars": [
+        "死"
+      ]
+    },
+    "母": {
+      "radical": "母",
+      "meaning": "mother",
+      "chars": [
+        "母",
+        "每"
+      ]
+    },
+    "毛": {
+      "radical": "毛",
+      "meaning": "",
+      "chars": [
+        "毫"
+      ]
+    },
+    "气": {
+      "radical": "气",
+      "meaning": "air, gas",
+      "chars": [
+        "气"
+      ]
+    },
+    "水": {
+      "radical": "水",
+      "meaning": "water, liquid, lotion, juice",
+      "chars": [
+        "水"
+      ]
+    },
+    "氵": {
+      "radical": "氵",
+      "meaning": "water",
+      "chars": [
+        "氵",
+        "汤",
+        "沒",
+        "没",
+        "河",
+        "法",
+        "洗",
+        "活",
+        "派",
+        "渴",
+        "溶",
+        "漂"
+      ]
+    },
+    "火": {
+      "radical": "火",
+      "meaning": "fire, flame",
+      "chars": [
+        "火"
+      ]
+    },
+    "灬": {
+      "radical": "灬",
+      "meaning": "fire",
+      "chars": [
+        "灬",
+        "点",
+        "热",
+        "然",
+        "照",
+        "熟"
+      ]
+    },
+    "彐": {
+      "radical": "彐",
+      "meaning": "",
+      "chars": [
+        "灵"
+      ]
+    },
+    "父": {
+      "radical": "父",
+      "meaning": "father, dad",
+      "chars": [
+        "父"
+      ]
+    },
+    "牛": {
+      "radical": "牛",
+      "meaning": "",
+      "chars": [
+        "物"
+      ]
+    },
+    "犭": {
+      "radical": "犭",
+      "meaning": "",
+      "chars": [
+        "犯",
+        "狗"
+      ]
+    },
+    "王": {
+      "radical": "王",
+      "meaning": "king, ruler",
+      "chars": [
+        "王",
+        "玛",
+        "现",
+        "班",
+        "理"
+      ]
+    },
+    "甘": {
+      "radical": "甘",
+      "meaning": "sweet, tasty",
+      "chars": [
+        "甘",
+        "甜"
+      ]
+    },
+    "生": {
+      "radical": "生",
+      "meaning": "life, lifetime",
+      "chars": [
+        "生"
+      ]
+    },
+    "用": {
+      "radical": "用",
+      "meaning": "to use, to employ, to apply",
+      "chars": [
+        "用"
+      ]
+    },
+    "田": {
+      "radical": "田",
+      "meaning": "field, farm, arable land",
+      "chars": [
+        "田",
+        "由"
+      ]
+    },
+    "疋": {
+      "radical": "疋",
+      "meaning": "",
+      "chars": [
+        "疑"
+      ]
+    },
+    "白": {
+      "radical": "白",
+      "meaning": "white",
+      "chars": [
+        "白",
+        "百",
+        "的"
+      ]
+    },
+    "目": {
+      "radical": "目",
+      "meaning": "eye",
+      "chars": [
+        "目",
+        "相",
+        "看",
+        "真",
+        "眼",
+        "着",
+        "睛",
+        "睡",
+        "瞎"
+      ]
+    },
+    "矢": {
+      "radical": "矢",
+      "meaning": "",
+      "chars": [
+        "知"
+      ]
+    },
+    "石": {
+      "radical": "石",
+      "meaning": "",
+      "chars": [
+        "码"
+      ]
+    },
+    "礻": {
+      "radical": "礻",
+      "meaning": "",
+      "chars": [
+        "福"
+      ]
+    },
+    "禾": {
+      "radical": "禾",
+      "meaning": "",
+      "chars": [
+        "种"
+      ]
+    },
+    "穴": {
+      "radical": "穴",
+      "meaning": "",
+      "chars": [
+        "空"
+      ]
+    },
+    "⺮": {
+      "radical": "⺮",
+      "meaning": "",
+      "chars": [
+        "第",
+        "笼",
+        "等"
+      ]
+    },
+    "米": {
+      "radical": "米",
+      "meaning": "",
+      "chars": [
+        "糕",
+        "糖"
+      ]
+    },
+    "糸": {
+      "radical": "糸",
+      "meaning": "",
+      "chars": [
+        "系"
+      ]
+    },
+    "纟": {
+      "radical": "纟",
+      "meaning": "silk",
+      "chars": [
+        "纟",
+        "红",
+        "组",
+        "结",
+        "给",
+        "绝"
+      ]
+    },
+    "羊": {
+      "radical": "羊",
+      "meaning": "sheep, goat",
+      "chars": [
+        "羊",
+        "美"
+      ]
+    },
+    "羽": {
+      "radical": "羽",
+      "meaning": "",
+      "chars": [
+        "習"
+      ]
+    },
+    "老": {
+      "radical": "老",
+      "meaning": "old, aged",
+      "chars": [
+        "老"
+      ]
+    },
+    "而": {
+      "radical": "而",
+      "meaning": "and, and then, and yet",
+      "chars": [
+        "而",
+        "耐"
+      ]
+    },
+    "⺼": {
+      "radical": "⺼",
+      "meaning": "",
+      "chars": [
+        "股",
+        "胖",
+        "能"
+      ]
+    },
+    "自": {
+      "radical": "自",
+      "meaning": "self",
+      "chars": [
+        "自"
+      ]
+    },
+    "臼": {
+      "radical": "臼",
+      "meaning": "",
+      "chars": [
+        "興"
+      ]
+    },
+    "舌": {
+      "radical": "舌",
+      "meaning": "tongue",
+      "chars": [
+        "舌"
+      ]
+    },
+    "色": {
+      "radical": "色",
+      "meaning": "color, tint, hue, shade",
+      "chars": [
+        "色"
+      ]
+    },
+    "艹": {
+      "radical": "艹",
+      "meaning": "grass, weed, plant, herb",
+      "chars": [
+        "艹",
+        "花",
+        "英",
+        "茶",
+        "草",
+        "药",
+        "菜",
+        "蔭",
+        "藏"
+      ]
+    },
+    "虫": {
+      "radical": "虫",
+      "meaning": "",
+      "chars": [
+        "蛋",
+        "蝴",
+        "蝶"
+      ]
+    },
+    "血": {
+      "radical": "血",
+      "meaning": "blood",
+      "chars": [
+        "血"
+      ]
+    },
+    "行": {
+      "radical": "行",
+      "meaning": "to go, to walk, to move",
+      "chars": [
+        "行"
+      ]
+    },
+    "衤": {
+      "radical": "衤",
+      "meaning": "",
+      "chars": [
+        "衬",
+        "裙",
+        "裡"
+      ]
+    },
+    "覀": {
+      "radical": "覀",
+      "meaning": "west, western, westward",
+      "chars": [
+        "覀",
+        "要"
+      ]
+    },
+    "見": {
+      "radical": "見",
+      "meaning": "to see, to observe, to meet, to appear",
+      "chars": [
+        "見",
+        "覺"
+      ]
+    },
+    "见": {
+      "radical": "见",
+      "meaning": "to see, to observe, to meet, to appear",
+      "chars": [
+        "见",
+        "规",
+        "视",
+        "觉"
+      ]
+    },
+    "言": {
+      "radical": "言",
+      "meaning": "",
+      "chars": [
+        "試",
+        "話",
+        "該",
+        "語",
+        "說",
+        "謝",
+        "變"
+      ]
+    },
+    "讠": {
+      "radical": "讠",
+      "meaning": "words, speech",
+      "chars": [
+        "讠",
+        "让",
+        "讲",
+        "论",
+        "诉",
+        "词",
+        "话",
+        "该",
+        "语",
+        "说",
+        "请",
+        "读"
+      ]
+    },
+    "豕": {
+      "radical": "豕",
+      "meaning": "pig, boar",
+      "chars": [
+        "豕"
+      ]
+    },
+    "貝": {
+      "radical": "貝",
+      "meaning": "",
+      "chars": [
+        "買",
+        "贏"
+      ]
+    },
+    "贝": {
+      "radical": "贝",
+      "meaning": "sea shell",
+      "chars": [
+        "贝",
+        "负",
+        "责",
+        "贵",
+        "贸",
+        "赞"
+      ]
+    },
+    "走": {
+      "radical": "走",
+      "meaning": "to walk, to run, to flee",
+      "chars": [
+        "走",
+        "赶",
+        "起",
+        "越",
+        "趣"
+      ]
+    },
+    "足": {
+      "radical": "足",
+      "meaning": "",
+      "chars": [
+        "跑",
+        "跟"
+      ]
+    },
+    "車": {
+      "radical": "車",
+      "meaning": "cart, vehicle",
+      "chars": [
+        "車",
+        "輛"
+      ]
+    },
+    "辶": {
+      "radical": "辶",
+      "meaning": "to walk",
+      "chars": [
+        "辶",
+        "过",
+        "迎",
+        "近",
+        "还",
+        "这",
+        "进",
+        "连",
+        "迟",
+        "适",
+        "這",
+        "速"
+      ]
+    },
+    "阝": {
+      "radical": "阝",
+      "meaning": "place, town, city",
+      "chars": [
+        "那",
+        "部",
+        "都",
+        "阝",
+        "阳",
+        "限",
+        "随"
+      ]
+    },
+    "里": {
+      "radical": "里",
+      "meaning": "unit of distance equal to 0.5km",
+      "chars": [
+        "里",
+        "量"
+      ]
+    },
+    "钅": {
+      "radical": "钅",
+      "meaning": "gold, metal",
+      "chars": [
+        "钅",
+        "钱"
+      ]
+    },
+    "门": {
+      "radical": "门",
+      "meaning": "gate, door, entrance, opening",
+      "chars": [
+        "门",
+        "问",
+        "闲",
+        "间",
+        "阅"
+      ]
+    },
+    "隹": {
+      "radical": "隹",
+      "meaning": "",
+      "chars": [
+        "隻"
+      ]
+    },
+    "雨": {
+      "radical": "雨",
+      "meaning": "",
+      "chars": [
+        "需"
+      ]
+    },
+    "非": {
+      "radical": "非",
+      "meaning": "not, negative, non-",
+      "chars": [
+        "非",
+        "靠"
+      ]
+    },
+    "面": {
+      "radical": "面",
+      "meaning": "face",
+      "chars": [
+        "面"
+      ]
+    },
+    "革": {
+      "radical": "革",
+      "meaning": "",
+      "chars": [
+        "鞋"
+      ]
+    },
+    "音": {
+      "radical": "音",
+      "meaning": "sound, tone, pitch, pronunciation",
+      "chars": [
+        "音"
+      ]
+    },
+    "頁": {
+      "radical": "頁",
+      "meaning": "",
+      "chars": [
+        "題"
+      ]
+    },
+    "页": {
+      "radical": "页",
+      "meaning": "",
+      "chars": [
+        "顶",
+        "项",
+        "题",
+        "颜"
+      ]
+    },
+    "风": {
+      "radical": "风",
+      "meaning": "wind",
+      "chars": [
+        "风"
+      ]
+    },
+    "食": {
+      "radical": "食",
+      "meaning": "",
+      "chars": [
+        "餐"
+      ]
+    },
+    "饣": {
+      "radical": "饣",
+      "meaning": "food",
+      "chars": [
+        "饣",
+        "饭",
+        "馆"
+      ]
+    },
+    "首": {
+      "radical": "首",
+      "meaning": "chief, head, leader",
+      "chars": [
+        "首"
+      ]
+    },
+    "高": {
+      "radical": "高",
+      "meaning": "tall, lofty",
+      "chars": [
+        "高"
+      ]
+    },
+    "麻": {
+      "radical": "麻",
+      "meaning": "",
+      "chars": [
+        "麼"
+      ]
+    },
+    "黍": {
+      "radical": "黍",
+      "meaning": "",
+      "chars": [
+        "黎"
+      ]
+    },
+    "黑": {
+      "radical": "黑",
+      "meaning": "black",
+      "chars": [
+        "黑"
+      ]
+    }
+  },
+  "characters": {
+    "一": {
+      "radical": "一",
+      "decomposition": "？",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Represents heaven (天), earth (旦), or the number 1"
+      },
+      "definition": "one; a, an; alone"
+    },
+    "万": {
+      "radical": "一",
+      "decomposition": "⿱一？",
+      "etymology": {},
+      "definition": "ten thousand; innumerable"
+    },
+    "三": {
+      "radical": "一",
+      "decomposition": "⿱一二",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Three  parallel lines; compare 一 (one) and 二 (two)"
+      },
+      "definition": "three"
+    },
+    "上": {
+      "radical": "一",
+      "decomposition": "⿱⺊一",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "One stroke on top of another; compare 下 (below)"
+      },
+      "definition": "above, on top, superior; to go up; to attend; previous"
+    },
+    "下": {
+      "radical": "一",
+      "decomposition": "⿱一卜",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "One stroke under another; compare 上 (above)"
+      },
+      "definition": "below, underneath; inferior; to bring down; next"
+    },
+    "不": {
+      "radical": "一",
+      "decomposition": "⿱一？",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A bird flying toward the sky 一"
+      },
+      "definition": "no, not, un-; negative prefix"
+    },
+    "两": {
+      "radical": "一",
+      "decomposition": "⿱一⿻冂从",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Two people 从 together in a cart"
+      },
+      "definition": "two, both, pair, couple; ounce"
+    },
+    "丨": {
+      "radical": "丨",
+      "decomposition": "？",
+      "etymology": {},
+      "definition": "number one; line"
+    },
+    "个": {
+      "radical": "丨",
+      "decomposition": "⿱人丨",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A tally 丨 of people 人"
+      },
+      "definition": "this, that; single; measure word for individuals"
+    },
+    "中": {
+      "radical": "丨",
+      "decomposition": "⿻口丨",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A line 丨 through the center of a box 口"
+      },
+      "definition": "central; center, middle; amidst; to hit (target), to attain; China; Chinese"
+    },
+    "临": {
+      "radical": "丨",
+      "decomposition": "⿰⿰？丨？",
+      "etymology": {},
+      "definition": "to draw near, to approach; to descend"
+    },
+    "为": {
+      "radical": "丶",
+      "decomposition": "⿻丶⿴力丶",
+      "etymology": {},
+      "definition": "to do, to act; to handle, to govern; to be"
+    },
+    "丽": {
+      "radical": "丶",
+      "decomposition": "⿱一⿰⿵冂丶⿵冂丶",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Simplified form of 麗; the antlers of a deer 鹿"
+      },
+      "definition": "beautiful, elegant, magnificent"
+    },
+    "么": {
+      "radical": "丿",
+      "decomposition": "⿱丿厶",
+      "etymology": {},
+      "definition": "interrogative particle"
+    },
+    "乚": {
+      "radical": "乚",
+      "decomposition": "？",
+      "etymology": {},
+      "definition": "secret, hidden, mysterious; small, minute; to conceal"
+    },
+    "也": {
+      "radical": "乚",
+      "decomposition": "⿻？乚",
+      "etymology": {},
+      "definition": "also, too"
+    },
+    "习": {
+      "radical": "冫",
+      "decomposition": "⿹？冫",
+      "etymology": {},
+      "definition": "to study, to practice; habit"
+    },
+    "书": {
+      "radical": "丨",
+      "decomposition": "⿻？丨",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A mark made by a pen ⺺"
+      },
+      "definition": "book, letter, document; writing"
+    },
+    "买": {
+      "radical": "大",
+      "decomposition": "⿱乛头",
+      "etymology": {},
+      "definition": "to buy, to purchase; to bribe, to persuade"
+    },
+    "亅": {
+      "radical": "亅",
+      "decomposition": "？",
+      "etymology": {},
+      "definition": "hook"
+    },
+    "了": {
+      "radical": "亅",
+      "decomposition": "⿱乛亅",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "A child swaddled in blanklets; compare 子"
+      },
+      "definition": "clear; to finish; particle of completed action"
+    },
+    "事": {
+      "radical": "亅",
+      "decomposition": "⿻⿳一口彐亅",
+      "etymology": {},
+      "definition": "affair, matter, business; to serve; accident, incident"
+    },
+    "二": {
+      "radical": "二",
+      "decomposition": "⿱一一",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Two  parallel lines; compare 一 (one) and 三 (three)"
+      },
+      "definition": "two; twice"
+    },
+    "于": {
+      "radical": "二",
+      "decomposition": "⿻二亅",
+      "etymology": {},
+      "definition": "at, in, on; to, from; alas!"
+    },
+    "五": {
+      "radical": "二",
+      "decomposition": "⿴二？",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Five elements (the cross with the extra stroke) between heaven 一 and earth 一 "
+      },
+      "definition": "five; surname"
+    },
+    "亮": {
+      "radical": "亠",
+      "decomposition": "⿳亠口⿱冖几",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "A lit oil lamp"
+      },
+      "definition": "bright, brilliant, radiant, light"
+    },
+    "亲": {
+      "radical": "立",
+      "decomposition": "⿱立⿻一小",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A tree 木 bearing fruit 立"
+      },
+      "definition": "relatives, parents; intimate; the hazelnut tree"
+    },
+    "人": {
+      "radical": "人",
+      "decomposition": "？",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "The legs of a human being"
+      },
+      "definition": "man, person; people"
+    },
+    "亻": {
+      "radical": "亻",
+      "decomposition": "？",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Visual abbreviation of 人"
+      },
+      "definition": "man, person; people"
+    },
+    "什": {
+      "radical": "亻",
+      "decomposition": "⿰亻十",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A file of ten 十 people 亻"
+      },
+      "definition": "what? mixed, miscellaneous"
+    },
+    "今": {
+      "radical": "人",
+      "decomposition": "⿱人？",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A mouth 亼 talking about things"
+      },
+      "definition": "modern, current; today, now"
+    },
+    "从": {
+      "radical": "人",
+      "decomposition": "⿰人人",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "One person 人 following another"
+      },
+      "definition": "from, by, since, whence, through"
+    },
+    "他": {
+      "radical": "亻",
+      "decomposition": "⿰亻也",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "An additional, \"also\" 也  person 亻"
+      },
+      "definition": "other, another; he, she, it"
+    },
+    "以": {
+      "radical": "人",
+      "decomposition": "⿰？人",
+      "etymology": {},
+      "definition": "according to; so as to; because of; then"
+    },
+    "们": {
+      "radical": "亻",
+      "decomposition": "⿰亻门",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "门",
+        "semantic": "亻",
+        "hint": "people"
+      },
+      "definition": "plural marker for pronouns and some nouns"
+    },
+    "件": {
+      "radical": "亻",
+      "decomposition": "⿰亻牛",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A man 亻 dividing up a cow 牛"
+      },
+      "definition": "item, matter; component, part; measure word for events"
+    },
+    "份": {
+      "radical": "亻",
+      "decomposition": "⿰亻分",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "The lot or portion 分 allotted to a man 亻"
+      },
+      "definition": "job, part, role; duty"
+    },
+    "休": {
+      "radical": "亻",
+      "decomposition": "⿰亻木",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A person 亻 leaning against a tree 木"
+      },
+      "definition": "to rest; to stop; to retire"
+    },
+    "会": {
+      "radical": "人",
+      "decomposition": "⿱人云",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "People 人 speaking 云"
+      },
+      "definition": "to assemble, to meet; meeting; association, group"
+    },
+    "位": {
+      "radical": "亻",
+      "decomposition": "⿰亻立",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "The place where a person 亻 stands 立"
+      },
+      "definition": "seat, throne; rank, status; position, location"
+    },
+    "住": {
+      "radical": "亻",
+      "decomposition": "⿰亻主",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A person 亻 who hosts 主; 主 also provides the pronunciation"
+      },
+      "definition": "to reside, to live at, to dwell, to lodge; to stop"
+    },
+    "作": {
+      "radical": "亻",
+      "decomposition": "⿰亻乍",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A person 亻 making something for the first time 乍; 乍 also provides the pronunciation"
+      },
+      "definition": "to make; to write, to compose; to act, to perform"
+    },
+    "你": {
+      "radical": "亻",
+      "decomposition": "⿰亻尔",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Pronoun 尔 for a person 亻"
+      },
+      "definition": "you, second person pronoun"
+    },
+    "來": {
+      "radical": "人",
+      "decomposition": "⿻木从",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A wheat plant that has just borne fruit; compare 来"
+      },
+      "definition": "to arrive, to come, to return; in the future, later on"
+    },
+    "侦": {
+      "radical": "亻",
+      "decomposition": "⿰亻贞",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "贞",
+        "semantic": "亻",
+        "hint": "person"
+      },
+      "definition": "to spy, to reconnoiter; detective"
+    },
+    "便": {
+      "radical": "亻",
+      "decomposition": "⿰亻更",
+      "etymology": {},
+      "definition": "easy, convenient; expedient"
+    },
+    "信": {
+      "radical": "亻",
+      "decomposition": "⿰亻言",
+      "etymology": {},
+      "definition": "to trust, to believe; letter, sign"
+    },
+    "個": {
+      "radical": "亻",
+      "decomposition": "⿰亻固",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "固",
+        "semantic": "亻",
+        "hint": "person"
+      },
+      "definition": "this, that; single; measure word for individuals"
+    },
+    "們": {
+      "radical": "亻",
+      "decomposition": "⿰亻門",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "門",
+        "semantic": "亻",
+        "hint": "people"
+      },
+      "definition": "plural marker for pronouns and some nouns"
+    },
+    "候": {
+      "radical": "亻",
+      "decomposition": "⿰亻矦",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "矦",
+        "semantic": "亻",
+        "hint": "person"
+      },
+      "definition": "to wait, to expect; to visit; to greet"
+    },
+    "做": {
+      "radical": "亻",
+      "decomposition": "⿰亻故",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Someone 亻 who causes things to happen 故; 故 also provides the pronuncation"
+      },
+      "definition": "to work, to make; to act"
+    },
+    "停": {
+      "radical": "亻",
+      "decomposition": "⿰亻亭",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "亭",
+        "semantic": "亻",
+        "hint": "person"
+      },
+      "definition": "to suspend, to halt, to delay; suitable"
+    },
+    "像": {
+      "radical": "亻",
+      "decomposition": "⿰亻象",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "象",
+        "semantic": "亻",
+        "hint": "person"
+      },
+      "definition": "picture, image, figure; to resemble"
+    },
+    "儿": {
+      "radical": "儿",
+      "decomposition": "⿰丿乚",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "Simplified form of 兒, a picture of a child; compare 人"
+      },
+      "definition": "son, child"
+    },
+    "先": {
+      "radical": "儿",
+      "decomposition": "⿱⿰？土儿",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Someone stepping 止 in front of another person 儿"
+      },
+      "definition": "first, former, previous"
+    },
+    "光": {
+      "radical": "儿",
+      "decomposition": "⿱⺌兀",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A person 儿 carrying a torch 火"
+      },
+      "definition": "light; bright, brilliant; only, merely"
+    },
+    "兔": {
+      "radical": "儿",
+      "decomposition": "⿸免丶",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "A rabbit"
+      },
+      "definition": "rabbit, hare"
+    },
+    "入": {
+      "radical": "入",
+      "decomposition": "？",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "An arrow indicating \"enter\""
+      },
+      "definition": "to enter, to come in; to join"
+    },
+    "八": {
+      "radical": "八",
+      "decomposition": "？",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Two bent lines meaning \"to divide\""
+      },
+      "definition": "eight; all around, all sides"
+    },
+    "公": {
+      "radical": "八",
+      "decomposition": "⿱八厶",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "To divide 八 what is private 厶"
+      },
+      "definition": "fair, equitable; public; duke"
+    },
+    "共": {
+      "radical": "八",
+      "decomposition": "⿳廾一八",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Two hands 八 holding one object 廾"
+      },
+      "definition": "all, total; together; to share"
+    },
+    "关": {
+      "radical": "丷",
+      "decomposition": "⿱丷天",
+      "etymology": {},
+      "definition": "frontier pass; to close, to shut; relation"
+    },
+    "养": {
+      "radical": "丷",
+      "decomposition": "⿱羊儿",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "羊",
+        "semantic": "儿",
+        "hint": "child"
+      },
+      "definition": "to raise, to rear, to bring up; to support"
+    },
+    "冂": {
+      "radical": "冂",
+      "decomposition": "⿰丨？",
+      "etymology": {},
+      "definition": "wide"
+    },
+    "内": {
+      "radical": "入",
+      "decomposition": "⿻冂人",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A man 人  entering a door 冂"
+      },
+      "definition": "inside"
+    },
+    "册": {
+      "radical": "冂",
+      "decomposition": "⿻⿰冂冂一",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "Bamboo strips 冂 tied together to form a book"
+      },
+      "definition": "book, volume, register, list"
+    },
+    "再": {
+      "radical": "冂",
+      "decomposition": "⿱一冉",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "Two fish 冉 caught on a line 一"
+      },
+      "definition": "again, twice, re-"
+    },
+    "冖": {
+      "radical": "冖",
+      "decomposition": "？",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "A cover-cloth"
+      },
+      "definition": "cover"
+    },
+    "写": {
+      "radical": "冖",
+      "decomposition": "⿱冖与",
+      "etymology": {},
+      "definition": "to write; to draw, to sketch; to compose"
+    },
+    "军": {
+      "radical": "车",
+      "decomposition": "⿱冖车",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Soldiers 冖 (distorted 力) in a cart 车"
+      },
+      "definition": "army, military; soldiers, troops"
+    },
+    "冫": {
+      "radical": "冫",
+      "decomposition": "⿱丶？",
+      "etymology": {},
+      "definition": "ice"
+    },
+    "冰": {
+      "radical": "冫",
+      "decomposition": "⿰冫水",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Ice-cold冫 water 水"
+      },
+      "definition": "ice; ice-cold"
+    },
+    "冷": {
+      "radical": "冫",
+      "decomposition": "⿰冫令",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "令",
+        "semantic": "冫",
+        "hint": "ice"
+      },
+      "definition": "cold, cool; lonely"
+    },
+    "几": {
+      "radical": "几",
+      "decomposition": "⿰丿乙",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "A small table; compare 丌"
+      },
+      "definition": "small table; how many; a few, some"
+    },
+    "出": {
+      "radical": "凵",
+      "decomposition": "⿱屮凵",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A sprout 屮 growing out of a container 凵"
+      },
+      "definition": "to go out, to send out; stand; produce"
+    },
+    "分": {
+      "radical": "刀",
+      "decomposition": "⿱八刀",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Pieces 八 being further subdivided with a knife 刀 "
+      },
+      "definition": "to divide, to allocate; fraction; small unit of time or other quantity"
+    },
+    "则": {
+      "radical": "刂",
+      "decomposition": "⿰贝刂",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Laws inscribed 刂 on a slate 贝"
+      },
+      "definition": "rule, law, regulation; grades"
+    },
+    "别": {
+      "radical": "刂",
+      "decomposition": "⿰另刂",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "To draw boundaries 刂 between classes 另"
+      },
+      "definition": "to separate, to distinguish, to classify; to leave; other; do not, must not"
+    },
+    "到": {
+      "radical": "刂",
+      "decomposition": "⿰至刂",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "刂",
+        "semantic": "至",
+        "hint": "arrive"
+      },
+      "definition": "to go to, to arrive"
+    },
+    "前": {
+      "radical": "刂",
+      "decomposition": "⿱⿱丷一刖",
+      "etymology": {},
+      "definition": "in front, forward; former, preceding"
+    },
+    "力": {
+      "radical": "力",
+      "decomposition": "⿻丿？",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A plow's head representing strength"
+      },
+      "definition": "strength, power; capability, influence"
+    },
+    "务": {
+      "radical": "夂",
+      "decomposition": "⿱夂力",
+      "etymology": {},
+      "definition": "affairs, business; should; must"
+    },
+    "动": {
+      "radical": "力",
+      "decomposition": "⿰云力",
+      "etymology": {
+        "type": "pictophonetic",
+        "semantic": "力",
+        "hint": "strength"
+      },
+      "definition": "to move, to happen; movement, action"
+    },
+    "助": {
+      "radical": "力",
+      "decomposition": "⿰且力",
+      "etymology": {
+        "type": "pictophonetic",
+        "semantic": "力",
+        "hint": "strength",
+        "phonetic": "且"
+      },
+      "definition": "to help, to aid, to assist"
+    },
+    "努": {
+      "radical": "力",
+      "decomposition": "⿱奴力",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "奴",
+        "semantic": "力",
+        "hint": "strength"
+      },
+      "definition": "to exert, to strive, to make an effort; to pout"
+    },
+    "勹": {
+      "radical": "勹",
+      "decomposition": "⿰丿？",
+      "etymology": {},
+      "definition": "wrap"
+    },
+    "包": {
+      "radical": "勹",
+      "decomposition": "⿹勹巳",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "To swaddle 勹 a baby 巳; 勹 also provides the pronunciation"
+      },
+      "definition": "wrap, pack, bundle; package"
+    },
+    "十": {
+      "radical": "十",
+      "decomposition": "⿻一丨",
+      "etymology": {},
+      "definition": "ten, tenth; complete; perfect"
+    },
+    "午": {
+      "radical": "十",
+      "decomposition": "⿻丿干",
+      "etymology": {},
+      "definition": "noon; 7th terrestrial branch"
+    },
+    "半": {
+      "radical": "十",
+      "decomposition": "⿻丷牛",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A cow 牛 splitting 丷 wood in half"
+      },
+      "definition": "half; semi-, incomplete"
+    },
+    "单": {
+      "radical": "丷",
+      "decomposition": "⿱丷？",
+      "etymology": {},
+      "definition": "single, individual, only; lone"
+    },
+    "南": {
+      "radical": "十",
+      "decomposition": "⿱十⿵冂⿱丷干",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "A musical bell"
+      },
+      "definition": "south; southern; southward"
+    },
+    "厶": {
+      "radical": "厶",
+      "decomposition": "？",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "A silk cocoon"
+      },
+      "definition": "private, secret"
+    },
+    "去": {
+      "radical": "厶",
+      "decomposition": "⿱土厶",
+      "etymology": {},
+      "definition": "to go away, to leave, to depart"
+    },
+    "又": {
+      "radical": "又",
+      "decomposition": "？",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "A right hand, representing a pair; compare 左"
+      },
+      "definition": "and, also, again, in addition"
+    },
+    "友": {
+      "radical": "又",
+      "decomposition": "⿸？又",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Two hands 又 joined, representing friendship; 又 also provides the pronunciation"
+      },
+      "definition": "friend, companion; fraternity"
+    },
+    "反": {
+      "radical": "又",
+      "decomposition": "⿸厂又",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A hand 又 held up against a cliff 厂"
+      },
+      "definition": "reverse, opposite; contrary, anti-"
+    },
+    "发": {
+      "radical": "又",
+      "decomposition": "⿸？又",
+      "etymology": {},
+      "definition": "to issue, to dispatch, to send out; hair"
+    },
+    "变": {
+      "radical": "又",
+      "decomposition": "⿱亦又",
+      "etymology": {},
+      "definition": "to change, to transform, to alter; rebel"
+    },
+    "口": {
+      "radical": "口",
+      "decomposition": "⿱冂一",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "An open mouth"
+      },
+      "definition": "mouth; entrance, gate, opening"
+    },
+    "只": {
+      "radical": "口",
+      "decomposition": "⿱口八",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Simple words 八 coming from the mouth 口"
+      },
+      "definition": "only, merely, just"
+    },
+    "叫": {
+      "radical": "口",
+      "decomposition": "⿰口丩",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "丩",
+        "semantic": "口",
+        "hint": "mouth"
+      },
+      "definition": "cry, shout; to call, to greet, to hail"
+    },
+    "可": {
+      "radical": "口",
+      "decomposition": "⿻丁口",
+      "etymology": {
+        "type": "pictophonetic",
+        "semantic": "丁",
+        "hint": "vigorous",
+        "phonetic": "口"
+      },
+      "definition": "may, can, -able; possibly"
+    },
+    "史": {
+      "radical": "口",
+      "decomposition": "⿻口乂",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A hand 乂 using a pen to record a history"
+      },
+      "definition": "history, chronicle, annals"
+    },
+    "号": {
+      "radical": "口",
+      "decomposition": "⿱口丂",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "丂",
+        "semantic": "口",
+        "hint": "mouth"
+      },
+      "definition": "mark, sign; symbol; number; to call, to cry, to roar"
+    },
+    "吃": {
+      "radical": "口",
+      "decomposition": "⿰口乞",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "乞",
+        "semantic": "口",
+        "hint": "mouth"
+      },
+      "definition": "to eat; to drink; to suffer, to endure, to bear"
+    },
+    "合": {
+      "radical": "口",
+      "decomposition": "⿱亼口",
+      "etymology": {},
+      "definition": "to combine, to join, to unite; to gather"
+    },
+    "同": {
+      "radical": "口",
+      "decomposition": "⿵凡口",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Sharing a common 凡 tongue 口"
+      },
+      "definition": "same, similar; together with, alike"
+    },
+    "名": {
+      "radical": "口",
+      "decomposition": "⿸夕口",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A name called out 口 to hail someone at night 夕"
+      },
+      "definition": "name; position, rank, title"
+    },
+    "后": {
+      "radical": "口",
+      "decomposition": "⿸？口",
+      "etymology": {},
+      "definition": "after; behind, rear; descendants"
+    },
+    "向": {
+      "radical": "口",
+      "decomposition": "⿵？口",
+      "etymology": {},
+      "definition": "towards; direction, trend"
+    },
+    "吗": {
+      "radical": "口",
+      "decomposition": "⿰口马",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "马",
+        "semantic": "口",
+        "hint": "mouth"
+      },
+      "definition": "final interrogative particle"
+    },
+    "吧": {
+      "radical": "口",
+      "decomposition": "⿰口巴",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "巴",
+        "semantic": "口",
+        "hint": "mouth"
+      },
+      "definition": "emphatic final particle"
+    },
+    "听": {
+      "radical": "口",
+      "decomposition": "⿰口斤",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Words 口 reaching an ear 斤"
+      },
+      "definition": "to hear, to listen; to understand; to obey"
+    },
+    "呀": {
+      "radical": "口",
+      "decomposition": "⿰口牙",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "牙",
+        "semantic": "口",
+        "hint": "mouth"
+      },
+      "definition": "particle used to express surprise"
+    },
+    "告": {
+      "radical": "口",
+      "decomposition": "⿱牛口",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "To speak 口 with the force of an ox 牛"
+      },
+      "definition": "to tell, to inform, to announce; to accuse"
+    },
+    "员": {
+      "radical": "口",
+      "decomposition": "⿱口贝",
+      "etymology": {
+        "type": "pictophonetic",
+        "semantic": "贝",
+        "hint": "money"
+      },
+      "definition": "employee; member; personnel, staff"
+    },
+    "呢": {
+      "radical": "口",
+      "decomposition": "⿰口尼",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "尼",
+        "semantic": "口",
+        "hint": "mouth"
+      },
+      "definition": "wool; interrogative or emphatic final particle"
+    },
+    "周": {
+      "radical": "口",
+      "decomposition": "⿵冂⿱土口",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Border 冂 around land 土 with a well 口"
+      },
+      "definition": "Zhou dynasty; circumference"
+    },
+    "呼": {
+      "radical": "口",
+      "decomposition": "⿰口乎",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "乎",
+        "semantic": "口",
+        "hint": "mouth"
+      },
+      "definition": "to breathe, to exhale, to sigh; to call, to shout"
+    },
+    "和": {
+      "radical": "口",
+      "decomposition": "⿰禾口",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "禾",
+        "semantic": "口",
+        "hint": "mouth"
+      },
+      "definition": "harmony, peace; calm, peaceful"
+    },
+    "咖": {
+      "radical": "口",
+      "decomposition": "⿰口加",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "加",
+        "semantic": "口",
+        "hint": "mouth"
+      },
+      "definition": "coffee; used in transliterations"
+    },
+    "哦": {
+      "radical": "口",
+      "decomposition": "⿰口我",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "我",
+        "semantic": "口",
+        "hint": "mouth"
+      },
+      "definition": "oh? really? is that so?"
+    },
+    "哪": {
+      "radical": "口",
+      "decomposition": "⿰口那",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "那",
+        "semantic": "口",
+        "hint": "mouth"
+      },
+      "definition": "which? where? how?"
+    },
+    "哭": {
+      "radical": "口",
+      "decomposition": "⿱⿰口口犬",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "To shed a tear from your eyes 口 over a person 犬"
+      },
+      "definition": "to weep, to cry, to wail"
+    },
+    "唱": {
+      "radical": "口",
+      "decomposition": "⿰口昌",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "昌",
+        "semantic": "口",
+        "hint": "mouth"
+      },
+      "definition": "to sing, to chant, to call; ditty, song"
+    },
+    "啊": {
+      "radical": "口",
+      "decomposition": "⿰口阿",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "阿",
+        "semantic": "口",
+        "hint": "mouth"
+      },
+      "definition": "ah, exclamatory particle"
+    },
+    "問": {
+      "radical": "口",
+      "decomposition": "⿵門口",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "門",
+        "semantic": "口",
+        "hint": "mouth"
+      },
+      "definition": "to ask about, to inquire after"
+    },
+    "啡": {
+      "radical": "口",
+      "decomposition": "⿰口非",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "非",
+        "semantic": "口",
+        "hint": "mouth"
+      },
+      "definition": "coffee; morphine"
+    },
+    "善": {
+      "radical": "口",
+      "decomposition": "⿱羊⿱⿱丷一口",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "To give someone food 羊 and conversation 口"
+      },
+      "definition": "good, virtuous, charitable, kind"
+    },
+    "喜": {
+      "radical": "口",
+      "decomposition": "⿱壴口",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Singing 口 and beating drums 壴"
+      },
+      "definition": "to love; to enjoy, to be happy; joyful, glad"
+    },
+    "喝": {
+      "radical": "口",
+      "decomposition": "⿰口曷",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "曷",
+        "semantic": "口",
+        "hint": "mouth"
+      },
+      "definition": "to drink; to shout, to call out"
+    },
+    "噪": {
+      "radical": "口",
+      "decomposition": "⿰口喿",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "The sound 口 of birds chirping 喿; 喿 also provides the pronunciation"
+      },
+      "definition": "to be noisy; to chirp loudly"
+    },
+    "四": {
+      "radical": "囗",
+      "decomposition": "⿴囗儿",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A child 儿 in a room with four walls 囗"
+      },
+      "definition": "four"
+    },
+    "回": {
+      "radical": "囗",
+      "decomposition": "⿴囗口",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Originally, a spiral signifying return"
+      },
+      "definition": "to return, to turn around; a time"
+    },
+    "园": {
+      "radical": "囗",
+      "decomposition": "⿴囗元",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "元",
+        "semantic": "囗",
+        "hint": "enclosure"
+      },
+      "definition": "garden, park; orchard"
+    },
+    "国": {
+      "radical": "囗",
+      "decomposition": "⿴囗玉",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Treasure 玉 within a country's borders 囗"
+      },
+      "definition": "country, nation, state; national"
+    },
+    "图": {
+      "radical": "囗",
+      "decomposition": "⿴囗冬",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Simplified form of 圖; a map of a district's 啚 borders 囗"
+      },
+      "definition": "diagram, chart, map, picture; to plan"
+    },
+    "土": {
+      "radical": "土",
+      "decomposition": "⿱十一",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "A lump of clay on a potter's wheel"
+      },
+      "definition": "soil, earth; items made of earth"
+    },
+    "在": {
+      "radical": "土",
+      "decomposition": "⿸才土",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "才",
+        "semantic": "土",
+        "hint": "earth"
+      },
+      "definition": "at, in, on; to exist; used to indicate the present progressive tense"
+    },
+    "地": {
+      "radical": "土",
+      "decomposition": "⿰土也",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "也",
+        "semantic": "土",
+        "hint": "earth"
+      },
+      "definition": "earth, ground, soil; land, region; structural particle used before a verb"
+    },
+    "坐": {
+      "radical": "土",
+      "decomposition": "⿻从土",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Two people 从 sitting on the ground 土"
+      },
+      "definition": "seat; to sit; to ride, to travel by"
+    },
+    "块": {
+      "radical": "土",
+      "decomposition": "⿰土夬",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "夬",
+        "semantic": "土",
+        "hint": "earth"
+      },
+      "definition": "piece, lump, chunk; dollar; measure word for currency"
+    },
+    "士": {
+      "radical": "士",
+      "decomposition": "？",
+      "etymology": {},
+      "definition": "scholar, gentleman; soldier"
+    },
+    "声": {
+      "radical": "士",
+      "decomposition": "⿱士？",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Simplified form of 聲; see that character for the etymology"
+      },
+      "definition": "sound, noise; voice, tone, music"
+    },
+    "壶": {
+      "radical": "士",
+      "decomposition": "⿱士⿱冖业",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "A jar of wine"
+      },
+      "definition": "jar, pot, jug, vase; surname"
+    },
+    "复": {
+      "radical": "夊",
+      "decomposition": "⿱亻⿱日夂",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A person 亻 who goes  somewhere 夂 every day 日"
+      },
+      "definition": "again, repeatedly; copy, duplicate; to restore, to return"
+    },
+    "夕": {
+      "radical": "夕",
+      "decomposition": "⿻勹丶",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "A crescent moon"
+      },
+      "definition": "evening, night, dusk; slanted"
+    },
+    "外": {
+      "radical": "夕",
+      "decomposition": "⿰夕卜",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Night-time 夕 divinations 卜; the supernatural, the foreign"
+      },
+      "definition": "out, outside, external; foreign; in addition"
+    },
+    "多": {
+      "radical": "夕",
+      "decomposition": "⿱夕夕",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Two nights 夕, suggesting many"
+      },
+      "definition": "much, many, multi-; more than, over"
+    },
+    "夜": {
+      "radical": "夕",
+      "decomposition": "⿱亠⿰亻夕",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A person 亻 sneaking by under cover 亠 of night 夕"
+      },
+      "definition": "night, dark; under cover of night"
+    },
+    "大": {
+      "radical": "大",
+      "decomposition": "⿻一人",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A man 人 with outstretched arms"
+      },
+      "definition": "big, great, vast, high, deep"
+    },
+    "天": {
+      "radical": "大",
+      "decomposition": "⿱一大",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "The heavens 一 above a man 大"
+      },
+      "definition": "sky, heaven; god, celestial"
+    },
+    "太": {
+      "radical": "大",
+      "decomposition": "⿵大丶",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A giant 大 with a normal-sized man 丶 for scale"
+      },
+      "definition": "very, too much; big; extreme"
+    },
+    "头": {
+      "radical": "大",
+      "decomposition": "⿻⺀大",
+      "etymology": {
+        "type": "pictophonetic",
+        "semantic": "大",
+        "hint": "high"
+      },
+      "definition": "head; chief, boss; first, top"
+    },
+    "女": {
+      "radical": "女",
+      "decomposition": "？",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "A woman turned to the side"
+      },
+      "definition": "woman, girl; female"
+    },
+    "奶": {
+      "radical": "女",
+      "decomposition": "⿰女乃",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "乃",
+        "semantic": "女",
+        "hint": "woman"
+      },
+      "definition": "milk; breasts; nurse, grandmother"
+    },
+    "她": {
+      "radical": "女",
+      "decomposition": "⿰女也",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A woman 女 beside you 也"
+      },
+      "definition": "she, her"
+    },
+    "好": {
+      "radical": "女",
+      "decomposition": "⿰女子",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A woman 女 with a son 子"
+      },
+      "definition": "good, excellent, fine; proper, suitable; well"
+    },
+    "如": {
+      "radical": "女",
+      "decomposition": "⿰女口",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A wife 女 following her husband's words 口"
+      },
+      "definition": "as, as if, like, such as, supposing"
+    },
+    "妈": {
+      "radical": "女",
+      "decomposition": "⿰女马",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "马",
+        "semantic": "女",
+        "hint": "woman"
+      },
+      "definition": "mother, mama"
+    },
+    "妙": {
+      "radical": "女",
+      "decomposition": "⿰女少",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "少",
+        "semantic": "女",
+        "hint": "woman"
+      },
+      "definition": "mysterious, subtle; clever, exquisite, wonderful"
+    },
+    "姆": {
+      "radical": "女",
+      "decomposition": "⿰女母",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "母",
+        "semantic": "女",
+        "hint": "woman"
+      },
+      "definition": "governess, matron, nanny"
+    },
+    "姐": {
+      "radical": "女",
+      "decomposition": "⿰女且",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "且",
+        "semantic": "女",
+        "hint": "woman"
+      },
+      "definition": "elder sister; miss, young lady"
+    },
+    "子": {
+      "radical": "子",
+      "decomposition": "⿻了一",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "A child in a wrap, with outstretched arms but bundled legs"
+      },
+      "definition": "son, child; seed, egg; fruit; small thing"
+    },
+    "字": {
+      "radical": "子",
+      "decomposition": "⿱宀子",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A child 子 in a house 宀; 子 also provides the pronunciation"
+      },
+      "definition": "character, letter, symbol, word"
+    },
+    "学": {
+      "radical": "子",
+      "decomposition": "⿱⿱⺍冖子",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A building 冖 where children 子 study; ⺍ provides the pronunciation"
+      },
+      "definition": "learning, knowledge, science; to study, to go to school; -ology"
+    },
+    "孩": {
+      "radical": "子",
+      "decomposition": "⿰子亥",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "亥",
+        "semantic": "子",
+        "hint": "child"
+      },
+      "definition": "baby, child; children"
+    },
+    "學": {
+      "radical": "子",
+      "decomposition": "⿳？冖子",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A building 冖 where children 子 study"
+      },
+      "definition": "learning, knowledge, science; to study, to go to school; -ology"
+    },
+    "宀": {
+      "radical": "宀",
+      "decomposition": "⿱丶冖",
+      "etymology": {},
+      "definition": "roof; house"
+    },
+    "它": {
+      "radical": "宀",
+      "decomposition": "⿱宀匕",
+      "etymology": {},
+      "definition": "it; other"
+    },
+    "宇": {
+      "radical": "宀",
+      "decomposition": "⿱宀于",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "于",
+        "semantic": "宀",
+        "hint": "building"
+      },
+      "definition": "building, house, room, structure; space, the universe"
+    },
+    "宙": {
+      "radical": "宀",
+      "decomposition": "⿱宀由",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "由",
+        "semantic": "宀",
+        "hint": "roof - the sky"
+      },
+      "definition": "space, time, space-time"
+    },
+    "定": {
+      "radical": "宀",
+      "decomposition": "⿱宀疋",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A person 疋 settling under a roof 宀"
+      },
+      "definition": "to decide, to fix, to settle; to order; definite, fixed, sure"
+    },
+    "宜": {
+      "radical": "宀",
+      "decomposition": "⿱宀且",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A memorial service 且 held in a house 宀"
+      },
+      "definition": "fitting, proper, right; what one should do"
+    },
+    "实": {
+      "radical": "宀",
+      "decomposition": "⿱宀头",
+      "etymology": {},
+      "definition": "real, true; honest, sincere"
+    },
+    "客": {
+      "radical": "宀",
+      "decomposition": "⿱宀各",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A person 各 welcomed under one's roof 宀; 各 also provides the pronunciation"
+      },
+      "definition": "guest, traveller; customer"
+    },
+    "家": {
+      "radical": "宀",
+      "decomposition": "⿱宀豕",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "豕",
+        "semantic": "宀",
+        "hint": "roof"
+      },
+      "definition": "house, home, residence; family"
+    },
+    "密": {
+      "radical": "宀",
+      "decomposition": "⿱宓山",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A silent 宓 mountain 山; 宓 also provides the pronunciation"
+      },
+      "definition": "secret, confidential; intimate, close; dense, thick"
+    },
+    "富": {
+      "radical": "宀",
+      "decomposition": "⿱宀畐",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "畐",
+        "semantic": "宀",
+        "hint": "roof"
+      },
+      "definition": "abundant, ample; rich, wealthy"
+    },
+    "寸": {
+      "radical": "寸",
+      "decomposition": "？",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A hand with a dot indicating where the pulse can be felt, about an inch up the wrist"
+      },
+      "definition": "inch; small, tiny"
+    },
+    "对": {
+      "radical": "寸",
+      "decomposition": "⿰又寸",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A pair 又 of hands 寸"
+      },
+      "definition": "correct, right; facing, opposed"
+    },
+    "封": {
+      "radical": "寸",
+      "decomposition": "⿰圭寸",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "To seal 寸 something with a handful of mortar 土"
+      },
+      "definition": "envelope, letter; to confer, to grant; feudal"
+    },
+    "射": {
+      "radical": "寸",
+      "decomposition": "⿰身寸",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "A bow 身 being drawn by a hand 寸"
+      },
+      "definition": "to shoot, to eject, to emit"
+    },
+    "對": {
+      "radical": "寸",
+      "decomposition": "⿰⿱业羊寸",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A hand 寸 holding a lit 业 candelabrum 羊"
+      },
+      "definition": "correct, right; facing, opposed"
+    },
+    "小": {
+      "radical": "小",
+      "decomposition": "⿻亅八",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Dividing 八 by a line 亅"
+      },
+      "definition": "small, tiny, insignificant"
+    },
+    "少": {
+      "radical": "小",
+      "decomposition": "⿱小丿",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "Grains of sand; 小 provides the pronunciation and meaning"
+      },
+      "definition": "few, little; less; inadequate"
+    },
+    "尔": {
+      "radical": "小",
+      "decomposition": "⿱⺈小",
+      "etymology": {},
+      "definition": "you; that, those; final particle"
+    },
+    "就": {
+      "radical": "尢",
+      "decomposition": "⿰京尤",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "京",
+        "semantic": "尤",
+        "hint": "specialty"
+      },
+      "definition": "just, simply; to go to; to approach, near"
+    },
+    "尽": {
+      "radical": "尸",
+      "decomposition": "⿵尺⺀",
+      "etymology": {},
+      "definition": "to exhaust, to use up, to deplete"
+    },
+    "屁": {
+      "radical": "尸",
+      "decomposition": "⿸尸比",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "比",
+        "semantic": "尸",
+        "hint": "body"
+      },
+      "definition": "to break wind, to fart; the buttocks"
+    },
+    "屋": {
+      "radical": "尸",
+      "decomposition": "⿸尸至",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "To stop 至 under a roof 尸 (variant of 厂)"
+      },
+      "definition": "building, house, shelter; room"
+    },
+    "展": {
+      "radical": "尸",
+      "decomposition": "⿸尸⿻？衣",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Laying out clothes 㠭 for sale in a market 尸; compare 㠭"
+      },
+      "definition": "to open, to unfold; to extend, to stretch"
+    },
+    "山": {
+      "radical": "山",
+      "decomposition": "⿶凵丨",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "Three mountain peaks"
+      },
+      "definition": "mountain, hill, peak"
+    },
+    "岁": {
+      "radical": "山",
+      "decomposition": "⿱山夕",
+      "etymology": {},
+      "definition": "year; years old, age; harvest"
+    },
+    "巧": {
+      "radical": "工",
+      "decomposition": "⿰工丂",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "丂",
+        "semantic": "工",
+        "hint": "work"
+      },
+      "definition": "skillful, ingenious, clever"
+    },
+    "己": {
+      "radical": "己",
+      "decomposition": "⿱？乚",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "A loom woven with thread"
+      },
+      "definition": "self, oneself; personal, private; 6th heavenly stem"
+    },
+    "巴": {
+      "radical": "巳",
+      "decomposition": "⿻巳？",
+      "etymology": {},
+      "definition": "to desire, to wish for"
+    },
+    "巾": {
+      "radical": "巾",
+      "decomposition": "⿻冂丨",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "A curtain or towel hanging from a rack"
+      },
+      "definition": "cloth, curtain, handkerchief, towel"
+    },
+    "布": {
+      "radical": "巾",
+      "decomposition": "⿸？巾",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Cloth 巾 held in a hand"
+      },
+      "definition": "cotton, linen, textiles; to announce, to declare; to spread"
+    },
+    "师": {
+      "radical": "巾",
+      "decomposition": "⿰刂帀",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "To skillfully wield 帀 a knife 刂"
+      },
+      "definition": "teacher, professional, master"
+    },
+    "席": {
+      "radical": "巾",
+      "decomposition": "⿸广⿱廿巾",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A cloth 巾 or straw 艹 mat in the house 广"
+      },
+      "definition": "seat, place; mat; banquet; to take a seat"
+    },
+    "帮": {
+      "radical": "巾",
+      "decomposition": "⿱邦巾",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A nation's 邦 flag 巾; 邦 also provides the pronunciation"
+      },
+      "definition": "to help, to assist; to support, to defend; party; gang"
+    },
+    "常": {
+      "radical": "巾",
+      "decomposition": "⿱尚巾",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "尚",
+        "semantic": "巾",
+        "hint": "cloth"
+      },
+      "definition": "common, general, normal; always, frequently, regularly"
+    },
+    "帽": {
+      "radical": "巾",
+      "decomposition": "⿰巾冒",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "冒",
+        "semantic": "巾",
+        "hint": "towel"
+      },
+      "definition": "hat, cap"
+    },
+    "幌": {
+      "radical": "巾",
+      "decomposition": "⿰巾晃",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "晃",
+        "semantic": "巾",
+        "hint": "curtain"
+      },
+      "definition": "curtain, cloth screen, signboard"
+    },
+    "干": {
+      "radical": "十",
+      "decomposition": "⿱一十",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "A club or axe"
+      },
+      "definition": "arid, dry; to oppose; to offend; to invade"
+    },
+    "年": {
+      "radical": "干",
+      "decomposition": "⿻干？",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A man 干 carrying grain, representing the annual harvest"
+      },
+      "definition": "year; anniversary; a person's age"
+    },
+    "幸": {
+      "radical": "干",
+      "decomposition": "⿱土⿱丷干",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Two men, one alive 土 and one dead 干; the living one is lucky"
+      },
+      "definition": "favor, fortune, luck; surname"
+    },
+    "广": {
+      "radical": "广",
+      "decomposition": "⿱丶厂",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A lean-to 厂, suggesting a building"
+      },
+      "definition": "broad, vast, wide; building, house"
+    },
+    "床": {
+      "radical": "广",
+      "decomposition": "⿸广木",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A house 广 made out of wood 木; 广 also provides the pronunciation"
+      },
+      "definition": "bed, couch; framework, chassis"
+    },
+    "应": {
+      "radical": "广",
+      "decomposition": "⿸广⿱⺍一",
+      "etymology": {},
+      "definition": "should, must; to respond, to handle; to deal with, to cope"
+    },
+    "店": {
+      "radical": "广",
+      "decomposition": "⿸广占",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "占",
+        "semantic": "广",
+        "hint": "building"
+      },
+      "definition": "shop, store; inn, hotel"
+    },
+    "廾": {
+      "radical": "廾",
+      "decomposition": "？",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Two hands 十 side by side"
+      },
+      "definition": "two hands"
+    },
+    "开": {
+      "radical": "廾",
+      "decomposition": "⿱一廾",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Simplified form of 開; hands 廾 lifting the latch 一 of a door"
+      },
+      "definition": "to open; to start, to initiate, to begin"
+    },
+    "弟": {
+      "radical": "弓",
+      "decomposition": "⿱丷⿻弓？",
+      "etymology": {},
+      "definition": "young brother, junior"
+    },
+    "张": {
+      "radical": "弓",
+      "decomposition": "⿰弓长",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "长",
+        "semantic": "弓",
+        "hint": "bow"
+      },
+      "definition": "to display; to expand, to open; to stretch; a sheet of paper"
+    },
+    "当": {
+      "radical": "⺌",
+      "decomposition": "⿱⺌彐",
+      "etymology": {},
+      "definition": "appropriate, timely; to act, to serve; the sound of bells"
+    },
+    "彳": {
+      "radical": "彳",
+      "decomposition": "⿱？丨",
+      "etymology": {},
+      "definition": "to step with the left foot"
+    },
+    "往": {
+      "radical": "彳",
+      "decomposition": "⿰彳⿱？王",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "王",
+        "semantic": "彳",
+        "hint": "step"
+      },
+      "definition": "to go, to depart; past, former"
+    },
+    "征": {
+      "radical": "彳",
+      "decomposition": "⿰彳正",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "正",
+        "semantic": "彳",
+        "hint": "step"
+      },
+      "definition": "to summon, to recruit; levy, tax; journey; invasion"
+    },
+    "很": {
+      "radical": "彳",
+      "decomposition": "⿰彳艮",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "艮",
+        "semantic": "彳",
+        "hint": "step"
+      },
+      "definition": "very, quite, much"
+    },
+    "後": {
+      "radical": "彳",
+      "decomposition": "⿰彳⿱幺夂",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "One step 彳 coming behind another 夂; 幺 provides the pronunciation"
+      },
+      "definition": "after; behind, rear; descendants"
+    },
+    "得": {
+      "radical": "彳",
+      "decomposition": "⿰彳⿱旦寸",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A hand 寸 grabbing a shell 旦"
+      },
+      "definition": "to obtain, to get, to acquire; suitable, proper; ready"
+    },
+    "心": {
+      "radical": "心",
+      "decomposition": "？",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "A heart"
+      },
+      "definition": "heart; mind; soul"
+    },
+    "快": {
+      "radical": "忄",
+      "decomposition": "⿰忄夬",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A decisive 夬 will 忄; 夬 also provides the pronunciation"
+      },
+      "definition": "speedy, rapid, quick; soon"
+    },
+    "思": {
+      "radical": "心",
+      "decomposition": "⿱田心",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Weighing something with your mind 囟 (altered) and heart 心"
+      },
+      "definition": "to think, to ponder, to consider; final particle"
+    },
+    "息": {
+      "radical": "心",
+      "decomposition": "⿱自心",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "To breathe (life, 心) through one's nose 自; 心 also provides the pronunciation"
+      },
+      "definition": "to end, to cease, to put a stop to; pause, breath, rest; news"
+    },
+    "您": {
+      "radical": "心",
+      "decomposition": "⿱你心",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "You 你 said with affection 心"
+      },
+      "definition": "honorific for 'you'"
+    },
+    "情": {
+      "radical": "忄",
+      "decomposition": "⿰忄青",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "青",
+        "semantic": "忄",
+        "hint": "heart"
+      },
+      "definition": "emotion, feeling, sentiment"
+    },
+    "惜": {
+      "radical": "忄",
+      "decomposition": "⿰忄昔",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "To feel 忄 for the past 昔; 昔 also provides the pronunciation"
+      },
+      "definition": "pity, regret; to rue; to begrudge"
+    },
+    "惡": {
+      "radical": "心",
+      "decomposition": "⿱亞心",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "亞",
+        "semantic": "心",
+        "hint": "heart"
+      },
+      "definition": "bad, evil, wicked; to hate, to loathe; foul, nauseating"
+    },
+    "想": {
+      "radical": "心",
+      "decomposition": "⿱相心",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "相",
+        "semantic": "心",
+        "hint": "mind"
+      },
+      "definition": "to believe, to wish for; to consider, to plan, to think"
+    },
+    "意": {
+      "radical": "心",
+      "decomposition": "⿱音心",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "音",
+        "semantic": "心",
+        "hint": "heart"
+      },
+      "definition": "thought, idea, opinion; desire, wish; meaning, intention"
+    },
+    "感": {
+      "radical": "心",
+      "decomposition": "⿱咸心",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Two hearts 心 beating together 咸"
+      },
+      "definition": "to affect, to move, to touch; to perceive, to sense"
+    },
+    "愿": {
+      "radical": "心",
+      "decomposition": "⿸原心",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "原",
+        "semantic": "心",
+        "hint": "heart"
+      },
+      "definition": "desire, wish; honest, virtuous; ready, willing"
+    },
+    "慢": {
+      "radical": "忄",
+      "decomposition": "⿰忄曼",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "曼",
+        "semantic": "忄",
+        "hint": "heart"
+      },
+      "definition": "slowly, leisurely; sluggish"
+    },
+    "應": {
+      "radical": "心",
+      "decomposition": "⿸⿸广倠心",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "倠",
+        "semantic": "心",
+        "hint": "heart"
+      },
+      "definition": "should, must; to respond, to handle; to deal with, to cope"
+    },
+    "戈": {
+      "radical": "戈",
+      "decomposition": "？",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "A spear pointing to the bottom-right"
+      },
+      "definition": "spear, lance, halberd"
+    },
+    "成": {
+      "radical": "戈",
+      "decomposition": "⿰丁戈",
+      "etymology": {},
+      "definition": "to accomplish; to become; to complete, to finish; to succeed"
+    },
+    "我": {
+      "radical": "戈",
+      "decomposition": "⿰扌戈",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A hand 扌 holding a weapon 戈"
+      },
+      "definition": "I, me, my; our, us"
+    },
+    "房": {
+      "radical": "户",
+      "decomposition": "⿸户方",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "方",
+        "semantic": "户",
+        "hint": "door"
+      },
+      "definition": "building, house, room"
+    },
+    "所": {
+      "radical": "户",
+      "decomposition": "⿰户斤",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "An axe 斤 swung at a door 户"
+      },
+      "definition": "place, location; \"that which\", a particle introducing a passive clause"
+    },
+    "手": {
+      "radical": "手",
+      "decomposition": "？",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "A hand with the fingers splayed"
+      },
+      "definition": "hand"
+    },
+    "才": {
+      "radical": "扌",
+      "decomposition": "⿻扌？",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A sprout growing in the ground, representing a budding talent"
+      },
+      "definition": "ability, talent, gift; just, only"
+    },
+    "打": {
+      "radical": "扌",
+      "decomposition": "⿰扌丁",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "丁",
+        "semantic": "扌",
+        "hint": "hand"
+      },
+      "definition": "to attack, to beat, to hit, to strike"
+    },
+    "托": {
+      "radical": "扌",
+      "decomposition": "⿰扌乇",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Using one's hands 扌 for support 乇; 乇 also provides the pronunciation"
+      },
+      "definition": "to raise, to support; to entrust, to rely on"
+    },
+    "扰": {
+      "radical": "扌",
+      "decomposition": "⿰扌尤",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "尤",
+        "semantic": "扌",
+        "hint": "hand"
+      },
+      "definition": "to poke, to disturb, to annoy, to agitate"
+    },
+    "把": {
+      "radical": "扌",
+      "decomposition": "⿰扌巴",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "巴",
+        "semantic": "扌",
+        "hint": "hand"
+      },
+      "definition": "to grasp, to hold; to guard, to take; handle"
+    },
+    "抓": {
+      "radical": "扌",
+      "decomposition": "⿰扌爪",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A hand 扌 with claws 爪; 爪 also provides the pronunciation"
+      },
+      "definition": "to clutch, to grab, to seize"
+    },
+    "护": {
+      "radical": "扌",
+      "decomposition": "⿰扌户",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Guarding 扌 a home 户; 户 also provides the pronunciation"
+      },
+      "definition": "to defend, to guard, to protect; shelter; endorse"
+    },
+    "抱": {
+      "radical": "扌",
+      "decomposition": "⿰扌包",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "To wrap 包 in one's arms 扌; 包 also provides the pronunciation"
+      },
+      "definition": "to embrace, to hold in one's arms; to enfold"
+    },
+    "拒": {
+      "radical": "扌",
+      "decomposition": "⿰扌巨",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "巨",
+        "semantic": "扌",
+        "hint": "hand"
+      },
+      "definition": "to defend, to ward off; to refuse"
+    },
+    "招": {
+      "radical": "扌",
+      "decomposition": "⿰扌召",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A call 召 to arms 扌; 召 also provides the pronunciation"
+      },
+      "definition": "to summon; to recruit; to levy"
+    },
+    "拥": {
+      "radical": "扌",
+      "decomposition": "⿰扌用",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "用",
+        "semantic": "扌",
+        "hint": "hand"
+      },
+      "definition": "to have, to hold; to embrace, to hug; to flock, to throng"
+    },
+    "拿": {
+      "radical": "手",
+      "decomposition": "⿱合手",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "合",
+        "semantic": "手",
+        "hint": "hand"
+      },
+      "definition": "to bring, to grasp, to hold, to take"
+    },
+    "探": {
+      "radical": "扌",
+      "decomposition": "⿰扌⿱？木",
+      "etymology": {
+        "type": "pictophonetic",
+        "semantic": "扌",
+        "hint": "hand"
+      },
+      "definition": "to find, to locate; to grope for, to search for"
+    },
+    "搭": {
+      "radical": "扌",
+      "decomposition": "⿰扌荅",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "荅",
+        "semantic": "扌",
+        "hint": "hand"
+      },
+      "definition": "to attach, to build, to join"
+    },
+    "摩": {
+      "radical": "手",
+      "decomposition": "⿸麻手",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "麻",
+        "semantic": "手",
+        "hint": "hand"
+      },
+      "definition": "to scour, to rub, to grind; friction"
+    },
+    "擔": {
+      "radical": "扌",
+      "decomposition": "⿰扌詹",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "詹",
+        "semantic": "扌",
+        "hint": "hand"
+      },
+      "definition": "to bear, to carry; burden, responsibility"
+    },
+    "擦": {
+      "radical": "扌",
+      "decomposition": "⿰扌察",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "察",
+        "semantic": "扌",
+        "hint": "hand"
+      },
+      "definition": "to clean, to erase, to polish; a brush"
+    },
+    "收": {
+      "radical": "攵",
+      "decomposition": "⿰丩攵",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "丩",
+        "semantic": "攵",
+        "hint": "hand"
+      },
+      "definition": "to collect, to gather, to harvest"
+    },
+    "改": {
+      "radical": "攵",
+      "decomposition": "⿰己攵",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A hand with a stick 攵 disciplining a kneeling child 己"
+      },
+      "definition": "to alter, to change, to improve, to remodel"
+    },
+    "救": {
+      "radical": "攵",
+      "decomposition": "⿰求攵",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "求",
+        "semantic": "攵",
+        "hint": "hand"
+      },
+      "definition": "aid, help; to rescue, to save"
+    },
+    "文": {
+      "radical": "文",
+      "decomposition": "⿱亠乂",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "A tattooed chest, representing writing"
+      },
+      "definition": "culture, literature, writing"
+    },
+    "斤": {
+      "radical": "斤",
+      "decomposition": "⿸厂下",
+      "etymology": {},
+      "definition": "a catty (about 500 grams); an axe; keen, shrewd"
+    },
+    "新": {
+      "radical": "斤",
+      "decomposition": "⿰亲斤",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A freshly chopped 斤 tree 亲"
+      },
+      "definition": "new, recent, fresh, modern"
+    },
+    "於": {
+      "radical": "方",
+      "decomposition": "⿰方？",
+      "etymology": {},
+      "definition": "at, in, on; to, from; alas!"
+    },
+    "无": {
+      "radical": "无",
+      "decomposition": "⿱一尢",
+      "etymology": {},
+      "definition": "no, not; lacking, -less"
+    },
+    "既": {
+      "radical": "旡",
+      "decomposition": "⿰？旡",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A person 旡 turning away from food 皀; compare 即"
+      },
+      "definition": "already, since, then; both; de facto"
+    },
+    "日": {
+      "radical": "日",
+      "decomposition": "⿴口一",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "The sun"
+      },
+      "definition": "sun; day; daytime"
+    },
+    "早": {
+      "radical": "日",
+      "decomposition": "⿱日十",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "The first rays 十 of the sun 日"
+      },
+      "definition": "early; soon; morning"
+    },
+    "时": {
+      "radical": "日",
+      "decomposition": "⿰日寸",
+      "etymology": {
+        "type": "pictophonetic",
+        "semantic": "日",
+        "hint": "day"
+      },
+      "definition": "time, season; period, era, age"
+    },
+    "明": {
+      "radical": "日",
+      "decomposition": "⿰日月",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "The light of the sun 日 and moon 月"
+      },
+      "definition": "bright, clear; to explain, to understand, to shed light"
+    },
+    "易": {
+      "radical": "日",
+      "decomposition": "⿱日勿",
+      "etymology": {},
+      "definition": "to change; to exchange, to trade; simple, easy"
+    },
+    "昨": {
+      "radical": "日",
+      "decomposition": "⿰日乍",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "乍",
+        "semantic": "日",
+        "hint": "day"
+      },
+      "definition": "yesterday; formerly, in the past"
+    },
+    "是": {
+      "radical": "日",
+      "decomposition": "⿱日疋",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "To speak 日 directly 疋"
+      },
+      "definition": "to be; indeed, right, yes; okay"
+    },
+    "時": {
+      "radical": "日",
+      "decomposition": "⿰日寺",
+      "etymology": {
+        "type": "pictophonetic",
+        "semantic": "日",
+        "hint": "day",
+        "phonetic": "寺"
+      },
+      "definition": "time, season; period, era, age"
+    },
+    "晚": {
+      "radical": "日",
+      "decomposition": "⿰日免",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Avoiding 免 the sun 日; 免 also provides the pronunciation"
+      },
+      "definition": "night, evening; late"
+    },
+    "暗": {
+      "radical": "日",
+      "decomposition": "⿰日音",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "音",
+        "semantic": "日",
+        "hint": "sun"
+      },
+      "definition": "dark, gloomy; obscure; secret, covert"
+    },
+    "曰": {
+      "radical": "曰",
+      "decomposition": "⿴口一",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Picture of an open 一 mouth 口"
+      },
+      "definition": "to speak; to say"
+    },
+    "最": {
+      "radical": "曰",
+      "decomposition": "⿱日取",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "To take place 取 under the sun 日 (that is, everywhere)"
+      },
+      "definition": "most, extremely, exceedingly; superlative"
+    },
+    "會": {
+      "radical": "曰",
+      "decomposition": "⿱⿱亼？日",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "People 人 speaking 日"
+      },
+      "definition": "to assemble, to meet; meeting; association, group"
+    },
+    "月": {
+      "radical": "月",
+      "decomposition": "⿵冂二",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "A crescent moon"
+      },
+      "definition": "moon; month"
+    },
+    "有": {
+      "radical": "月",
+      "decomposition": "⿸？月",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "月"
+      },
+      "definition": "to have, to own, to possess; to exist"
+    },
+    "朋": {
+      "radical": "月",
+      "decomposition": "⿰月月",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Two people 月 walking together"
+      },
+      "definition": "friend, pal, acquaintance"
+    },
+    "服": {
+      "radical": "月",
+      "decomposition": "⿰月⿸卩又",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A person 卩 putting on 又 a coat 月"
+      },
+      "definition": "clothes; to dress, to wear; to take medicine"
+    },
+    "木": {
+      "radical": "木",
+      "decomposition": "⿻十八",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "A tree"
+      },
+      "definition": "tree; wood, lumber; wooden"
+    },
+    "本": {
+      "radical": "木",
+      "decomposition": "⿻木一",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A tree 木 with its roots highlighted"
+      },
+      "definition": "root, origin, source; basis"
+    },
+    "札": {
+      "radical": "木",
+      "decomposition": "⿰木乚",
+      "etymology": {},
+      "definition": "letter, note; correspondence"
+    },
+    "条": {
+      "radical": "木",
+      "decomposition": "⿱夂木",
+      "etymology": {},
+      "definition": "clause, condition; string, stripe"
+    },
+    "来": {
+      "radical": "木",
+      "decomposition": "⿻未丷",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A wheat plant that has not yet borne fruit; compare 來"
+      },
+      "definition": "to arrive, to come, to return; in the future, later on"
+    },
+    "杯": {
+      "radical": "木",
+      "decomposition": "⿰木不",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "不",
+        "semantic": "木",
+        "hint": "tree"
+      },
+      "definition": "cup, glass; measure word for liquids"
+    },
+    "果": {
+      "radical": "木",
+      "decomposition": "⿱田木",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Fruit 田 growing on a tree 木"
+      },
+      "definition": "fruit, nut; result"
+    },
+    "校": {
+      "radical": "木",
+      "decomposition": "⿰木交",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "交",
+        "semantic": "木",
+        "hint": "wood"
+      },
+      "definition": "school; military field officer"
+    },
+    "样": {
+      "radical": "木",
+      "decomposition": "⿰木羊",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "羊",
+        "semantic": "木",
+        "hint": "tree"
+      },
+      "definition": "form, pattern, shape, style"
+    },
+    "桌": {
+      "radical": "木",
+      "decomposition": "⿱卓木",
+      "etymology": {},
+      "definition": "table, stand, desk, counter"
+    },
+    "档": {
+      "radical": "木",
+      "decomposition": "⿰木当",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "当",
+        "semantic": "木",
+        "hint": "wood"
+      },
+      "definition": "shelve, frame; files, records; grade, level"
+    },
+    "梦": {
+      "radical": "木",
+      "decomposition": "⿱林夕",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Two eyes shut 林 at night 夕"
+      },
+      "definition": "dream"
+    },
+    "棵": {
+      "radical": "木",
+      "decomposition": "⿰木果",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "果",
+        "semantic": "木",
+        "hint": "tree"
+      },
+      "definition": "measure word for trees"
+    },
+    "樂": {
+      "radical": "木",
+      "decomposition": "⿱⿲幺白幺木",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A musical instrument with wood 木, strings 幺, and a pick 白"
+      },
+      "definition": "cheerful, happy, laughing; music"
+    },
+    "樣": {
+      "radical": "木",
+      "decomposition": "⿰木羕",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "羕",
+        "semantic": "木",
+        "hint": "tree"
+      },
+      "definition": "form, pattern, shape, style"
+    },
+    "樹": {
+      "radical": "木",
+      "decomposition": "⿰木尌",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "尌",
+        "semantic": "木",
+        "hint": "tree"
+      },
+      "definition": "tree; to plant; to set up, to establish"
+    },
+    "次": {
+      "radical": "欠",
+      "decomposition": "⿰冫欠",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A person 欠 yawning multiple times 冫"
+      },
+      "definition": "order, sequence; second, next; one after the other"
+    },
+    "欢": {
+      "radical": "欠",
+      "decomposition": "⿰又欠",
+      "etymology": {},
+      "definition": "happy, glad, joyful"
+    },
+    "歌": {
+      "radical": "欠",
+      "decomposition": "⿰哥欠",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "哥",
+        "semantic": "欠",
+        "hint": "breath"
+      },
+      "definition": "song, lyrics; to sing, to chant"
+    },
+    "正": {
+      "radical": "止",
+      "decomposition": "⿱一止",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A foot 止 stopping in the right place 一"
+      },
+      "definition": "straight, right, proper, correct, just, true"
+    },
+    "歷": {
+      "radical": "止",
+      "decomposition": "⿸厤止",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "止",
+        "semantic": "厤",
+        "hint": "calendar"
+      },
+      "definition": "history; calendar"
+    },
+    "死": {
+      "radical": "歹",
+      "decomposition": "⿸歹匕",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A person kneeling 匕 before a corpse 歹"
+      },
+      "definition": "dead; death; impassable, inflexible"
+    },
+    "母": {
+      "radical": "母",
+      "decomposition": "？",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A mother's breasts"
+      },
+      "definition": "mother; female elders; female"
+    },
+    "每": {
+      "radical": "母",
+      "decomposition": "⿱？母",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "母"
+      },
+      "definition": "each, every"
+    },
+    "毫": {
+      "radical": "毛",
+      "decomposition": "⿱⿳亠口冖毛",
+      "etymology": {
+        "type": "pictophonetic",
+        "semantic": "毛",
+        "hint": "hair"
+      },
+      "definition": "fine hair; measure of length; one-thousandth"
+    },
+    "气": {
+      "radical": "气",
+      "decomposition": "⿱亻？",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A person 亻 breathing air"
+      },
+      "definition": "air, gas; steam, vapor; anger"
+    },
+    "水": {
+      "radical": "水",
+      "decomposition": "⿻亅？",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "A river running between two banks; compare 川"
+      },
+      "definition": "water, liquid, lotion, juice"
+    },
+    "氵": {
+      "radical": "氵",
+      "decomposition": "⿱？？",
+      "etymology": {},
+      "definition": "water"
+    },
+    "汤": {
+      "radical": "氵",
+      "decomposition": "⿰氵昜",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "昜",
+        "semantic": "氵",
+        "hint": "water"
+      },
+      "definition": "soup, gravy, broth; hot water"
+    },
+    "沒": {
+      "radical": "氵",
+      "decomposition": "⿰氵⿱？又",
+      "etymology": {
+        "type": "pictophonetic",
+        "semantic": "氵",
+        "hint": "water"
+      },
+      "definition": "not, none, gone; to bury; to sink, to drown"
+    },
+    "没": {
+      "radical": "氵",
+      "decomposition": "⿰氵殳",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "殳",
+        "semantic": "氵",
+        "hint": "water"
+      },
+      "definition": "not, none, gone; to bury; to sink, to drown"
+    },
+    "河": {
+      "radical": "氵",
+      "decomposition": "⿰氵可",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "可",
+        "semantic": "氵",
+        "hint": "water"
+      },
+      "definition": "river, stream; the Yellow river"
+    },
+    "法": {
+      "radical": "氵",
+      "decomposition": "⿰氵去",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "The course 去 followed by a stream 氵"
+      },
+      "definition": "law, rule, statute; method, way; French"
+    },
+    "洗": {
+      "radical": "氵",
+      "decomposition": "⿰氵先",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "先",
+        "semantic": "氵",
+        "hint": "water"
+      },
+      "definition": "to bathe, to rinse, to wash"
+    },
+    "活": {
+      "radical": "氵",
+      "decomposition": "⿰氵舌",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "舌",
+        "semantic": "氵",
+        "hint": "water"
+      },
+      "definition": "to exist, to live, to survive; living, working"
+    },
+    "派": {
+      "radical": "氵",
+      "decomposition": "⿰氵⿸？氏",
+      "etymology": {},
+      "definition": "clique, faction, group, sect"
+    },
+    "渴": {
+      "radical": "氵",
+      "decomposition": "⿰氵曷",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "曷",
+        "semantic": "氵",
+        "hint": "water"
+      },
+      "definition": "thirsty, parched; to yearn, to pine for"
+    },
+    "溶": {
+      "radical": "氵",
+      "decomposition": "⿰氵容",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "容",
+        "semantic": "氵",
+        "hint": "water"
+      },
+      "definition": "to melt, to dissolve"
+    },
+    "漂": {
+      "radical": "氵",
+      "decomposition": "⿰氵票",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "票",
+        "semantic": "氵",
+        "hint": "water"
+      },
+      "definition": "to drift, to float; to be tossed about; bleach"
+    },
+    "濃": {
+      "radical": "氵",
+      "decomposition": "⿰氵農",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "農",
+        "semantic": "氵",
+        "hint": "water"
+      },
+      "definition": "concentrated, dense, strong, thick"
+    },
+    "火": {
+      "radical": "火",
+      "decomposition": "⿻丷人",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "Flames"
+      },
+      "definition": "fire, flame; to burn; anger, rage"
+    },
+    "灬": {
+      "radical": "灬",
+      "decomposition": "？",
+      "etymology": {},
+      "definition": "fire"
+    },
+    "灵": {
+      "radical": "彐",
+      "decomposition": "⿱彐火",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "彐",
+        "semantic": "火",
+        "hint": "fire"
+      },
+      "definition": "spirit, soul; spiritual world"
+    },
+    "点": {
+      "radical": "灬",
+      "decomposition": "⿱占灬",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "占",
+        "semantic": "灬",
+        "hint": "fire"
+      },
+      "definition": "dot, point, speck"
+    },
+    "热": {
+      "radical": "灬",
+      "decomposition": "⿱执灬",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "执",
+        "semantic": "灬",
+        "hint": "fire"
+      },
+      "definition": "heat, fever, zeal"
+    },
+    "然": {
+      "radical": "灬",
+      "decomposition": "⿱肰灬",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "肰",
+        "semantic": "灬",
+        "hint": "fire"
+      },
+      "definition": "certainly; naturally; suddenly"
+    },
+    "照": {
+      "radical": "灬",
+      "decomposition": "⿱昭灬",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "昭",
+        "semantic": "灬",
+        "hint": "fire"
+      },
+      "definition": "to shine, to reflect, to illuminate"
+    },
+    "熟": {
+      "radical": "灬",
+      "decomposition": "⿱孰灬",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "孰",
+        "semantic": "灬",
+        "hint": "fire"
+      },
+      "definition": "well-cooked; ripe, mature; familiar with"
+    },
+    "父": {
+      "radical": "父",
+      "decomposition": "⿱八乂",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A hand 乂 holding an axe 八"
+      },
+      "definition": "father, dad"
+    },
+    "物": {
+      "radical": "牛",
+      "decomposition": "⿰牛勿",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "勿",
+        "semantic": "牛",
+        "hint": "ox"
+      },
+      "definition": "thing, substance, matter; creature"
+    },
+    "犯": {
+      "radical": "犭",
+      "decomposition": "⿰犭㔾",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "㔾",
+        "semantic": "犭",
+        "hint": "dog"
+      },
+      "definition": "criminal; to violate, to commit a crime"
+    },
+    "狗": {
+      "radical": "犭",
+      "decomposition": "⿰犭句",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "句",
+        "semantic": "犭",
+        "hint": "dog"
+      },
+      "definition": "dog"
+    },
+    "王": {
+      "radical": "王",
+      "decomposition": "⿱一土",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A man 十 bridging heaven and earth (both 一)"
+      },
+      "definition": "king, ruler; royal; surname"
+    },
+    "玛": {
+      "radical": "王",
+      "decomposition": "⿰王马",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "马",
+        "semantic": "王",
+        "hint": "jade"
+      },
+      "definition": "agate, cornelian"
+    },
+    "现": {
+      "radical": "王",
+      "decomposition": "⿰王见",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "To see 见 jade 王; 见 also provides the pronunciation"
+      },
+      "definition": "to appear, to manifest; current, now"
+    },
+    "班": {
+      "radical": "王",
+      "decomposition": "⿲王刂王",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Cutting 刂 a piece of jade 王 in two, symbolizing two classes"
+      },
+      "definition": "class, squad, team, work shift"
+    },
+    "理": {
+      "radical": "王",
+      "decomposition": "⿰王里",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "里",
+        "semantic": "王",
+        "hint": "king"
+      },
+      "definition": "science, reason, logic; to manage"
+    },
+    "甘": {
+      "radical": "甘",
+      "decomposition": "⿵卄二",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Picture of a tongue with 一 marking the sweet spot"
+      },
+      "definition": "sweet, tasty; willing"
+    },
+    "甜": {
+      "radical": "甘",
+      "decomposition": "⿰舌甘",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Something tasty 甘 to the tongue 舌"
+      },
+      "definition": "sweet, sweetness"
+    },
+    "生": {
+      "radical": "生",
+      "decomposition": "⿻一土",
+      "etymology": {
+        "type": "ideographic",
+        "hint": " A shoot 屮 growing in the soil 土"
+      },
+      "definition": "life, lifetime; birth; growth"
+    },
+    "用": {
+      "radical": "用",
+      "decomposition": "⿵冂？",
+      "etymology": {},
+      "definition": "to use, to employ, to apply; use"
+    },
+    "田": {
+      "radical": "田",
+      "decomposition": "⿵冂土",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "The plots of a rice paddy"
+      },
+      "definition": "field, farm, arable land; cultivated"
+    },
+    "由": {
+      "radical": "田",
+      "decomposition": "田",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Road 丨 leading to the farm 田"
+      },
+      "definition": "cause, reason; from"
+    },
+    "电": {
+      "radical": "曰",
+      "decomposition": "⿻曰乚",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Simplified form of 電; lightning 申 from a storm cloud 雨"
+      },
+      "definition": "electricity; electric; lightning"
+    },
+    "疑": {
+      "radical": "疋",
+      "decomposition": "⿰⿱匕矢⿱？疋",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "An old man walking 疋 while holding 匕 a cane 矢"
+      },
+      "definition": "to doubt, to question, to suspect"
+    },
+    "白": {
+      "radical": "白",
+      "decomposition": "⿻？日",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A burning candle; the rays of the sun"
+      },
+      "definition": "white; clear, pure, unblemished; bright"
+    },
+    "百": {
+      "radical": "白",
+      "decomposition": "⿱一白",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "白",
+        "semantic": "一",
+        "hint": "one"
+      },
+      "definition": "one hundred; numerous, many"
+    },
+    "的": {
+      "radical": "白",
+      "decomposition": "⿰白勺",
+      "etymology": {},
+      "definition": "aim, goal; of; possessive particle; -self suffix"
+    },
+    "目": {
+      "radical": "目",
+      "decomposition": "⿴口二",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "An eye drawn on its side"
+      },
+      "definition": "eye; to look, to see; division, topic"
+    },
+    "相": {
+      "radical": "目",
+      "decomposition": "⿰木目",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "To stare 目 at a tree 木, meaning to observe"
+      },
+      "definition": "mutual, reciprocal; equal; each other"
+    },
+    "看": {
+      "radical": "目",
+      "decomposition": "⿱手目",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Shielding one's eyes 目 with a hand 手 to look to the distance"
+      },
+      "definition": "to look, to see; to examine, to scrutinize"
+    },
+    "真": {
+      "radical": "目",
+      "decomposition": "⿱直几",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A straight 直 (that is, level) table 几"
+      },
+      "definition": "real, actual, true, genuine"
+    },
+    "眼": {
+      "radical": "目",
+      "decomposition": "⿰目艮",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "艮",
+        "semantic": "目",
+        "hint": "eye"
+      },
+      "definition": "eyelet, hole, opening"
+    },
+    "着": {
+      "radical": "目",
+      "decomposition": "⿸羊目",
+      "etymology": {},
+      "definition": "to make a move, to take action"
+    },
+    "睛": {
+      "radical": "目",
+      "decomposition": "⿰目青",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "青",
+        "semantic": "目",
+        "hint": "eye"
+      },
+      "definition": "eyeball; pupil"
+    },
+    "睡": {
+      "radical": "目",
+      "decomposition": "⿰目垂",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "垂",
+        "semantic": "目",
+        "hint": "eye"
+      },
+      "definition": "to sleep, to doze"
+    },
+    "瞎": {
+      "radical": "目",
+      "decomposition": "⿰目害",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "To damage 害 one's eyes 目; 害 also provides the pronunciation"
+      },
+      "definition": "blind, reckless; rash"
+    },
+    "知": {
+      "radical": "矢",
+      "decomposition": "⿰矢口",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "矢",
+        "semantic": "口",
+        "hint": "mouth"
+      },
+      "definition": "to know, to perceive, to comprehend"
+    },
+    "码": {
+      "radical": "石",
+      "decomposition": "⿰石马",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "马",
+        "semantic": "石",
+        "hint": "stone"
+      },
+      "definition": "number, numeral, symbol; yard"
+    },
+    "福": {
+      "radical": "礻",
+      "decomposition": "⿰礻畐",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "畐",
+        "semantic": "礻",
+        "hint": "spirit"
+      },
+      "definition": "happiness, good fortune, blessings"
+    },
+    "种": {
+      "radical": "禾",
+      "decomposition": "⿰禾中",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "中",
+        "semantic": "禾",
+        "hint": "grain"
+      },
+      "definition": "race, kind, breed; seed; to plant"
+    },
+    "空": {
+      "radical": "穴",
+      "decomposition": "⿱穴工",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "工",
+        "semantic": "穴",
+        "hint": "cave"
+      },
+      "definition": "hollow, empty, deserted, bare"
+    },
+    "童": {
+      "radical": "立",
+      "decomposition": "⿱立里",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A child standing 立 in the village 里"
+      },
+      "definition": "child, boy; servant boy; virgin"
+    },
+    "第": {
+      "radical": "⺮",
+      "decomposition": "⿱⺮弟",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Bamboo strips ⺮ arrayed in sequence; 弟 provides the pronunciation"
+      },
+      "definition": "sequence, number; grade, degree; particle prefacing an ordinal"
+    },
+    "笼": {
+      "radical": "⺮",
+      "decomposition": "⿱⺮龙",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "龙",
+        "semantic": "⺮",
+        "hint": "bamboo"
+      },
+      "definition": "basket; cage; bamboo basket used to serve dimsum"
+    },
+    "等": {
+      "radical": "⺮",
+      "decomposition": "⿱⺮寺",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Bamboo strips ⺮ laid before a court 寺"
+      },
+      "definition": "rank, grade; same, equal; to wait"
+    },
+    "糕": {
+      "radical": "米",
+      "decomposition": "⿰米羔",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "羔",
+        "semantic": "米",
+        "hint": "rice"
+      },
+      "definition": "cake, pastry"
+    },
+    "糖": {
+      "radical": "米",
+      "decomposition": "⿰米唐",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "唐",
+        "semantic": "米",
+        "hint": "rice"
+      },
+      "definition": "candy, sugar, sweets"
+    },
+    "系": {
+      "radical": "糸",
+      "decomposition": "⿱丿糸",
+      "etymology": {
+        "type": "pictophonetic",
+        "semantic": "糸",
+        "hint": "thread"
+      },
+      "definition": "system; line, link, connection"
+    },
+    "纟": {
+      "radical": "纟",
+      "decomposition": "⿱？一",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "A twisted strand of silk; see 糸"
+      },
+      "definition": "silk; thread"
+    },
+    "红": {
+      "radical": "纟",
+      "decomposition": "⿰纟工",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "工",
+        "semantic": "纟",
+        "hint": "silk"
+      },
+      "definition": "red, vermillion; to blush, to flush; popular"
+    },
+    "组": {
+      "radical": "纟",
+      "decomposition": "⿰纟且",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "且",
+        "semantic": "纟",
+        "hint": "thread"
+      },
+      "definition": "to form, to assemble; section, department"
+    },
+    "结": {
+      "radical": "纟",
+      "decomposition": "⿰纟吉",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "吉",
+        "semantic": "纟",
+        "hint": "thread"
+      },
+      "definition": "knot, tie; to connect, to join"
+    },
+    "给": {
+      "radical": "纟",
+      "decomposition": "⿰纟合",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "合",
+        "semantic": "纟",
+        "hint": "thread"
+      },
+      "definition": "to give, to lend; for, by"
+    },
+    "绝": {
+      "radical": "纟",
+      "decomposition": "⿰纟色",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "色",
+        "semantic": "纟",
+        "hint": "thread"
+      },
+      "definition": "to cut, to sever; to break off, to terminate"
+    },
+    "羊": {
+      "radical": "羊",
+      "decomposition": "⿱丷？",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "A sheep's head with horns"
+      },
+      "definition": "sheep, goat"
+    },
+    "美": {
+      "radical": "羊",
+      "decomposition": "⿱羊大",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A person 大 wearing an elegant crown 羊"
+      },
+      "definition": "beautiful, pretty; pleasing"
+    },
+    "習": {
+      "radical": "羽",
+      "decomposition": "⿱羽白",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Birds flying 羽 in the daytime 白"
+      },
+      "definition": "to study, to practice; habit"
+    },
+    "老": {
+      "radical": "老",
+      "decomposition": "⿱耂匕",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "A person bent over with long hair 匕 and a crutch; compare 耂"
+      },
+      "definition": "old, aged; experienced"
+    },
+    "而": {
+      "radical": "而",
+      "decomposition": "？",
+      "etymology": {},
+      "definition": "and, and then, and yet; but"
+    },
+    "耐": {
+      "radical": "而",
+      "decomposition": "⿰而寸",
+      "etymology": {},
+      "definition": "to resist, to bear; patient, enduring"
+    },
+    "股": {
+      "radical": "⺼",
+      "decomposition": "⿰⺼殳",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "殳",
+        "semantic": "⺼",
+        "hint": "flesh"
+      },
+      "definition": "share, portion; thighs, haunches, rump"
+    },
+    "胖": {
+      "radical": "⺼",
+      "decomposition": "⿰⺼半",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "半",
+        "semantic": "⺼",
+        "hint": "flesh"
+      },
+      "definition": "fat, plump, obese; a fat person"
+    },
+    "能": {
+      "radical": "⺼",
+      "decomposition": "⿰⿱厶⺼⿱匕匕",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "A bear's head 厶, body ⺼, and claws 匕"
+      },
+      "definition": "can, may; capable, full of energy"
+    },
+    "自": {
+      "radical": "自",
+      "decomposition": "⿻目？",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "A nose; in China, people refer to themselves by pointing to their noses"
+      },
+      "definition": "self; private, personal; from"
+    },
+    "興": {
+      "radical": "臼",
+      "decomposition": "⿱⿻臼？八",
+      "etymology": {},
+      "definition": "to thrive, to prosper, to flourish"
+    },
+    "舌": {
+      "radical": "舌",
+      "decomposition": "⿱千口",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "A tongue 千 sticking out of a mouth 口"
+      },
+      "definition": "tongue; bell clapper"
+    },
+    "色": {
+      "radical": "色",
+      "decomposition": "⿱⺈巴",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "What a person ⺈ desires 巴"
+      },
+      "definition": "color, tint, hue, shade; beauty, form; sex"
+    },
+    "艹": {
+      "radical": "艹",
+      "decomposition": "？",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "Simplified form of 艸; grass sprouting"
+      },
+      "definition": "grass, weed, plant, herb"
+    },
+    "花": {
+      "radical": "艹",
+      "decomposition": "⿱艹化",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A flower 艹 in bloom 化; 化 also provides the pronunciation"
+      },
+      "definition": "flower, blossom; to spend (time or money)"
+    },
+    "英": {
+      "radical": "艹",
+      "decomposition": "⿱艹央",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "央",
+        "semantic": "艹",
+        "hint": "flower"
+      },
+      "definition": "petal, flower, leaf; brave, heroic; English"
+    },
+    "茶": {
+      "radical": "艹",
+      "decomposition": "⿱艹⿱人木",
+      "etymology": {
+        "type": "pictophonetic",
+        "semantic": "艹",
+        "hint": "plant"
+      },
+      "definition": "tea; tea leaves; tea plant"
+    },
+    "草": {
+      "radical": "艹",
+      "decomposition": "⿱艹早",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "早",
+        "semantic": "艹",
+        "hint": "grass"
+      },
+      "definition": "grass, herbs; straw, thatch"
+    },
+    "药": {
+      "radical": "艹",
+      "decomposition": "⿱艹约",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "约",
+        "semantic": "艹",
+        "hint": "plant"
+      },
+      "definition": "drugs, medicine; the leaf of the Dahurian angelica plant"
+    },
+    "菜": {
+      "radical": "艹",
+      "decomposition": "⿱艹采",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "采",
+        "semantic": "艹",
+        "hint": "plant"
+      },
+      "definition": "vegetables; order, dish; food"
+    },
+    "蔭": {
+      "radical": "艹",
+      "decomposition": "⿱艹陰",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Shade 陰 provided by a tree 艹; 陰 also provides the pronunciation"
+      },
+      "definition": "shade, shelter; to protect"
+    },
+    "藏": {
+      "radical": "艹",
+      "decomposition": "⿱艹臧",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "臧",
+        "semantic": "艹",
+        "hint": "grass"
+      },
+      "definition": "to conceal, to hide; to hoard, to store"
+    },
+    "蛋": {
+      "radical": "虫",
+      "decomposition": "⿱疋虫",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "延",
+        "semantic": "虫",
+        "hint": "insect"
+      },
+      "definition": "egg"
+    },
+    "蝴": {
+      "radical": "虫",
+      "decomposition": "⿰虫胡",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "胡",
+        "semantic": "虫",
+        "hint": "insect"
+      },
+      "definition": "butterfly"
+    },
+    "蝶": {
+      "radical": "虫",
+      "decomposition": "⿰虫枼",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "枼",
+        "semantic": "虫",
+        "hint": "insect"
+      },
+      "definition": "butterfly"
+    },
+    "血": {
+      "radical": "血",
+      "decomposition": "⿱丿皿",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A chalice 皿 filled with blood 丿"
+      },
+      "definition": "blood"
+    },
+    "行": {
+      "radical": "行",
+      "decomposition": "⿰彳亍",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "To take small steps 亍 with one's feet 彳"
+      },
+      "definition": "to go, to walk, to move; professional"
+    },
+    "衬": {
+      "radical": "衤",
+      "decomposition": "⿰衤寸",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "寸",
+        "semantic": "衤",
+        "hint": "clothes"
+      },
+      "definition": "underwear, lining; in contrast"
+    },
+    "裙": {
+      "radical": "衤",
+      "decomposition": "⿰衤君",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "君",
+        "semantic": "衤",
+        "hint": "clothes"
+      },
+      "definition": "skirt, petticoat, apron"
+    },
+    "裡": {
+      "radical": "衤",
+      "decomposition": "⿰衤里",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Unit of measure for farm 田 land 土; 衤 provides the pronunciation"
+      },
+      "definition": "unit of distance equal to 0.5km; village; lane"
+    },
+    "覀": {
+      "radical": "覀",
+      "decomposition": "？",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A bird settling into its nest, representing sunset; compare 東"
+      },
+      "definition": "west, western, westward"
+    },
+    "要": {
+      "radical": "覀",
+      "decomposition": "⿱覀女",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A woman 女 with hands on her waist 覀"
+      },
+      "definition": "essential, necessary; to ask for; to coerce; to demand"
+    },
+    "見": {
+      "radical": "見",
+      "decomposition": "⿱目儿",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A man 儿 with the eye 目 emphasized"
+      },
+      "definition": "to see, to observe, to meet, to appear"
+    },
+    "覺": {
+      "radical": "見",
+      "decomposition": "⿱？見",
+      "etymology": {},
+      "definition": "conscious; to nap, to sleep; to wake up"
+    },
+    "见": {
+      "radical": "见",
+      "decomposition": "⿵冂儿",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Simplified form of 見; a man 儿 with the eye 目 emphasized"
+      },
+      "definition": "to see, to observe, to meet, to appear"
+    },
+    "规": {
+      "radical": "见",
+      "decomposition": "⿰夫见",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "夫",
+        "semantic": "见",
+        "hint": "observe"
+      },
+      "definition": "rules, regulations, customs, law"
+    },
+    "视": {
+      "radical": "见",
+      "decomposition": "⿰礻见",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "礻",
+        "semantic": "见",
+        "hint": "see"
+      },
+      "definition": "to look at, to inspect, to observe, to regard"
+    },
+    "觉": {
+      "radical": "见",
+      "decomposition": "⿳⺍冖见",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "⺍",
+        "semantic": "见",
+        "hint": "see"
+      },
+      "definition": "conscious; to nap, to sleep; to wake up"
+    },
+    "試": {
+      "radical": "言",
+      "decomposition": "⿰言式",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "式",
+        "semantic": "言",
+        "hint": "speech"
+      },
+      "definition": "to try, to experiment; exam, test"
+    },
+    "話": {
+      "radical": "言",
+      "decomposition": "⿰言舌",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A spoken 言 tongue 舌; 舌 also provides the pronunciation"
+      },
+      "definition": "talk, speech; language, dialect"
+    },
+    "該": {
+      "radical": "言",
+      "decomposition": "⿰言亥",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "亥",
+        "semantic": "言",
+        "hint": "speech"
+      },
+      "definition": "should, ought to, must"
+    },
+    "語": {
+      "radical": "言",
+      "decomposition": "⿰言吾",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "吾",
+        "semantic": "言",
+        "hint": "words"
+      },
+      "definition": "words, language; saying, expression"
+    },
+    "說": {
+      "radical": "言",
+      "decomposition": "⿰言兌",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "兌",
+        "semantic": "言",
+        "hint": "speech"
+      },
+      "definition": "to speak, to say; to scold, to upbraid"
+    },
+    "謝": {
+      "radical": "言",
+      "decomposition": "⿰言射",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "射",
+        "semantic": "言",
+        "hint": "speech"
+      },
+      "definition": "to thank; to refuse politely"
+    },
+    "變": {
+      "radical": "言",
+      "decomposition": "⿱䜌攵",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "To foment 攵 rebellion 䜌"
+      },
+      "definition": "to change, to transform, to alter; rebel"
+    },
+    "讠": {
+      "radical": "讠",
+      "decomposition": "⿻？？",
+      "etymology": {},
+      "definition": "words, speech; to speak, to say"
+    },
+    "让": {
+      "radical": "讠",
+      "decomposition": "⿰讠上",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "上",
+        "semantic": "讠",
+        "hint": "speech"
+      },
+      "definition": "to allow, to permit, to yield"
+    },
+    "讲": {
+      "radical": "讠",
+      "decomposition": "⿰讠井",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "井",
+        "semantic": "讠",
+        "hint": "speech"
+      },
+      "definition": "talk, speech, lecture; to speak, to explain"
+    },
+    "论": {
+      "radical": "讠",
+      "decomposition": "⿰讠仑",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Speech 讠 that explains the logic 仑; 仑 also provides the pronunciation"
+      },
+      "definition": "debate; discussion"
+    },
+    "诉": {
+      "radical": "讠",
+      "decomposition": "⿰讠斥",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Words 讠 of blame 斥; 斥 also provides the pronunciation"
+      },
+      "definition": "to accuse, to sue; to inform; to narrate"
+    },
+    "词": {
+      "radical": "讠",
+      "decomposition": "⿰讠司",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "司",
+        "semantic": "讠",
+        "hint": "words"
+      },
+      "definition": "phrase, expression; words, speech"
+    },
+    "话": {
+      "radical": "讠",
+      "decomposition": "⿰讠舌",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A spoken 讠 tongue 舌; 舌 also provides the pronunciation"
+      },
+      "definition": "talk, speech; language, dialect"
+    },
+    "该": {
+      "radical": "讠",
+      "decomposition": "⿰讠亥",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "亥",
+        "semantic": "讠",
+        "hint": "speech"
+      },
+      "definition": "should, ought to, must"
+    },
+    "语": {
+      "radical": "讠",
+      "decomposition": "⿰讠吾",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "吾",
+        "semantic": "讠",
+        "hint": "words"
+      },
+      "definition": "words, language; saying, expression"
+    },
+    "说": {
+      "radical": "讠",
+      "decomposition": "⿰讠兑",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "兑",
+        "semantic": "讠",
+        "hint": "speech"
+      },
+      "definition": "to speak, to say; to scold, to upbraid"
+    },
+    "请": {
+      "radical": "讠",
+      "decomposition": "⿰讠青",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "青",
+        "semantic": "讠",
+        "hint": "speech"
+      },
+      "definition": "to ask, to request; to invite; please"
+    },
+    "读": {
+      "radical": "讠",
+      "decomposition": "⿰讠卖",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "To show off 卖 one's literacy 讠"
+      },
+      "definition": "to study, to learn; to read, to pronounce"
+    },
+    "课": {
+      "radical": "讠",
+      "decomposition": "⿰讠果",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "果",
+        "semantic": "讠",
+        "hint": "speech"
+      },
+      "definition": "subject, lesson, course; classwork"
+    },
+    "谁": {
+      "radical": "讠",
+      "decomposition": "⿰讠隹",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "隹",
+        "semantic": "讠",
+        "hint": "speech"
+      },
+      "definition": "who? whom? whose? anyone?"
+    },
+    "调": {
+      "radical": "讠",
+      "decomposition": "⿰讠周",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "周",
+        "semantic": "讠",
+        "hint": "speech"
+      },
+      "definition": "tune, melody, key; to transfer, to exchange"
+    },
+    "谢": {
+      "radical": "讠",
+      "decomposition": "⿰讠射",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "射",
+        "semantic": "讠",
+        "hint": "speech"
+      },
+      "definition": "to thank; to refuse politely"
+    },
+    "豕": {
+      "radical": "豕",
+      "decomposition": "⿱一⿰勿？",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "A pig drawn on its side"
+      },
+      "definition": "pig, boar"
+    },
+    "買": {
+      "radical": "貝",
+      "decomposition": "⿱罒貝",
+      "etymology": {
+        "type": "pictophonetic",
+        "semantic": "貝",
+        "hint": "money"
+      },
+      "definition": "to buy, to purchase; to bribe, to persuade"
+    },
+    "贏": {
+      "radical": "貝",
+      "decomposition": "⿵吂⿲⺼貝？",
+      "etymology": {
+        "type": "pictophonetic",
+        "semantic": "貝",
+        "hint": "money"
+      },
+      "definition": "to win, to gain; surplus, profit"
+    },
+    "贝": {
+      "radical": "贝",
+      "decomposition": "⿵冂人",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "A sea shell, once used as currency"
+      },
+      "definition": "sea shell; money, currency"
+    },
+    "负": {
+      "radical": "贝",
+      "decomposition": "⿱⺈贝",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A person 人 carrying a lot of money 贝"
+      },
+      "definition": "load, burden; to carry, to bear"
+    },
+    "责": {
+      "radical": "贝",
+      "decomposition": "⿱龶贝",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Money 贝 that must be repaid"
+      },
+      "definition": "one's responsibility, duty"
+    },
+    "贵": {
+      "radical": "贝",
+      "decomposition": "⿱⿱中一贝",
+      "etymology": {
+        "type": "pictophonetic",
+        "semantic": "贝",
+        "hint": "money"
+      },
+      "definition": "expensive, costly; valuable, precious"
+    },
+    "贸": {
+      "radical": "贝",
+      "decomposition": "⿱卯贝",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "卯",
+        "semantic": "贝",
+        "hint": "money"
+      },
+      "definition": "commerce, trade"
+    },
+    "赞": {
+      "radical": "贝",
+      "decomposition": "⿱兟贝",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "兟",
+        "semantic": "贝",
+        "hint": "money"
+      },
+      "definition": "to help, to support; to laud, to praise"
+    },
+    "走": {
+      "radical": "走",
+      "decomposition": "⿱土止",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Someone 土 stepping with their foot 止"
+      },
+      "definition": "to walk, to run, to flee"
+    },
+    "赶": {
+      "radical": "走",
+      "decomposition": "⿺走干",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "干",
+        "semantic": "走",
+        "hint": "run"
+      },
+      "definition": "to pursue, to overtake; to hurry; to expel"
+    },
+    "起": {
+      "radical": "走",
+      "decomposition": "⿺走己",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "己",
+        "semantic": "走",
+        "hint": "walk"
+      },
+      "definition": "to begin, to initiate; to rise, to stand up"
+    },
+    "越": {
+      "radical": "走",
+      "decomposition": "⿺走戉",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "戉",
+        "semantic": "走",
+        "hint": "run"
+      },
+      "definition": "to exceed, to surpass, to transcend"
+    },
+    "趣": {
+      "radical": "走",
+      "decomposition": "⿺走取",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "取",
+        "semantic": "走",
+        "hint": "walk"
+      },
+      "definition": "interest; interesting; what attracts one's attention"
+    },
+    "跑": {
+      "radical": "足",
+      "decomposition": "⿰足包",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "包",
+        "semantic": "足",
+        "hint": "foot"
+      },
+      "definition": "to run, to flee, to escape"
+    },
+    "跟": {
+      "radical": "足",
+      "decomposition": "⿰足艮",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "艮",
+        "semantic": "足",
+        "hint": "foot"
+      },
+      "definition": "heel; to accompany, to follow; with"
+    },
+    "車": {
+      "radical": "車",
+      "decomposition": "⿻？日",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "A cart with two wheels, seen from above"
+      },
+      "definition": "cart, vehicle; to move in a cart"
+    },
+    "輛": {
+      "radical": "車",
+      "decomposition": "⿰車兩",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Two 兩 carts 車; 兩 also provides the pronunciation"
+      },
+      "definition": "measure word for vehicles"
+    },
+    "车": {
+      "radical": "车",
+      "decomposition": "⿻七十",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "Simplified form of 車, a cart with two wheels, seen from above"
+      },
+      "definition": "cart, vehicle; to move in a cart"
+    },
+    "辆": {
+      "radical": "车",
+      "decomposition": "⿰车两",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Two 两 carts 车; 两 also provides the pronunciation"
+      },
+      "definition": "measure word for vehicles"
+    },
+    "辶": {
+      "radical": "辶",
+      "decomposition": "？",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "A foot stepping"
+      },
+      "definition": "to walk; walking"
+    },
+    "过": {
+      "radical": "辶",
+      "decomposition": "⿺辶寸",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "咼",
+        "semantic": "辶",
+        "hint": "walk"
+      },
+      "definition": "pass; to go across, to pass through"
+    },
+    "迎": {
+      "radical": "辶",
+      "decomposition": "⿺辶卬",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "卬",
+        "semantic": "辶",
+        "hint": "walk"
+      },
+      "definition": "to welcome, to receive, to greet"
+    },
+    "近": {
+      "radical": "辶",
+      "decomposition": "⿺辶斤",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "斤",
+        "semantic": "辶",
+        "hint": "walk"
+      },
+      "definition": "to approach; near, close; intimate"
+    },
+    "还": {
+      "radical": "辶",
+      "decomposition": "⿺辶不",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Not 不 moving 辶"
+      },
+      "definition": "also, besides; still, yet; to return"
+    },
+    "这": {
+      "radical": "辶",
+      "decomposition": "⿺辶文",
+      "etymology": {},
+      "definition": "this, these; such; here"
+    },
+    "进": {
+      "radical": "辶",
+      "decomposition": "⿺辶井",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "井",
+        "semantic": "辶",
+        "hint": "walk"
+      },
+      "definition": "to advance, to make progress; to come in, to enter"
+    },
+    "连": {
+      "radical": "辶",
+      "decomposition": "⿺辶车",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A cart 车 moving 辶 goods between cities"
+      },
+      "definition": "to join, to connect; continuous; even"
+    },
+    "迟": {
+      "radical": "辶",
+      "decomposition": "⿺辶尺",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "尺",
+        "semantic": "辶",
+        "hint": "walk"
+      },
+      "definition": "tardy, slow, late; to delay"
+    },
+    "适": {
+      "radical": "辶",
+      "decomposition": "⿺辶舌",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "舌",
+        "semantic": "辶",
+        "hint": "walk"
+      },
+      "definition": "match, comfortable; just"
+    },
+    "這": {
+      "radical": "辶",
+      "decomposition": "⿺辶言",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "辶",
+        "semantic": "言",
+        "hint": "words"
+      },
+      "definition": "this, these; such; here"
+    },
+    "速": {
+      "radical": "辶",
+      "decomposition": "⿺辶束",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "束",
+        "semantic": "辶",
+        "hint": "walk"
+      },
+      "definition": "prompt, quick, speedy"
+    },
+    "過": {
+      "radical": "辶",
+      "decomposition": "⿺辶咼",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "咼",
+        "semantic": "辶",
+        "hint": "walk"
+      },
+      "definition": "pass; to go across, to pass through"
+    },
+    "道": {
+      "radical": "辶",
+      "decomposition": "⿺辶首",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "首",
+        "semantic": "辶",
+        "hint": "walk"
+      },
+      "definition": "method, way; path, road"
+    },
+    "遛": {
+      "radical": "辶",
+      "decomposition": "⿺辶留",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "留",
+        "semantic": "辶",
+        "hint": "walk"
+      },
+      "definition": "to walk, to stroll"
+    },
+    "邀": {
+      "radical": "辶",
+      "decomposition": "⿺辶敫",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "敫",
+        "semantic": "辶",
+        "hint": "foot"
+      },
+      "definition": "to invite, to welcome; to intercept, to meet"
+    },
+    "那": {
+      "radical": "阝",
+      "decomposition": "⿰⿹？？阝",
+      "etymology": {},
+      "definition": "that, that one, those"
+    },
+    "部": {
+      "radical": "阝",
+      "decomposition": "⿰咅阝",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "咅",
+        "semantic": "阝",
+        "hint": "place"
+      },
+      "definition": "department, ministry; division, unit; part, section"
+    },
+    "都": {
+      "radical": "阝",
+      "decomposition": "⿰者阝",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "者",
+        "semantic": "阝",
+        "hint": "city"
+      },
+      "definition": "all, each, entirely, whole; metropolis; capital"
+    },
+    "里": {
+      "radical": "里",
+      "decomposition": "⿱田土",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Unit of measure for farm 田 land 土"
+      },
+      "definition": "unit of distance equal to 0.5km; village; lane"
+    },
+    "量": {
+      "radical": "里",
+      "decomposition": "⿱旦里",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "旦",
+        "semantic": "里",
+        "hint": "unit"
+      },
+      "definition": "measure, volume; amount, quantity"
+    },
+    "钅": {
+      "radical": "钅",
+      "decomposition": "⿱？？",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "A cast-iron bell; compare 金"
+      },
+      "definition": "gold, metal; money"
+    },
+    "钱": {
+      "radical": "钅",
+      "decomposition": "⿰钅戋",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "戋",
+        "semantic": "钅",
+        "hint": "money"
+      },
+      "definition": "money, currency, coins"
+    },
+    "门": {
+      "radical": "门",
+      "decomposition": "⿰⿱丶丨？",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "An open doorway or gate"
+      },
+      "definition": "gate, door, entrance, opening"
+    },
+    "问": {
+      "radical": "门",
+      "decomposition": "⿵门口",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "门",
+        "semantic": "口",
+        "hint": "mouth"
+      },
+      "definition": "to ask about, to inquire after"
+    },
+    "闲": {
+      "radical": "门",
+      "decomposition": "⿵门木",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A wooden fence 木 with a door 门"
+      },
+      "definition": "fence, guard; to defend; idle time"
+    },
+    "间": {
+      "radical": "门",
+      "decomposition": "⿵门日",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "The sun 日 shining through a doorway 门"
+      },
+      "definition": "between, among; midpoint; space, place, locality"
+    },
+    "阅": {
+      "radical": "门",
+      "decomposition": "⿵门兑",
+      "etymology": {},
+      "definition": "to examine, to inspect; to read, to review"
+    },
+    "阝": {
+      "radical": "阝",
+      "decomposition": "⿻丨？",
+      "etymology": {},
+      "definition": "place, town, city"
+    },
+    "阳": {
+      "radical": "阝",
+      "decomposition": "⿰阝日",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "The place 阝 of the sun 日; compare 阴"
+      },
+      "definition": "the male principle; bright, sunny; clear, lit, open"
+    },
+    "限": {
+      "radical": "阝",
+      "decomposition": "⿰阝艮",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "艮",
+        "semantic": "阝",
+        "hint": "place"
+      },
+      "definition": "boundary, limit, line"
+    },
+    "随": {
+      "radical": "阝",
+      "decomposition": "⿰阝迶",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "To walk 迶 to the city 阝; to follow a path"
+      },
+      "definition": "to follow, to listen to, to submit to"
+    },
+    "隻": {
+      "radical": "隹",
+      "decomposition": "⿱隹又",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "隹",
+        "semantic": "又",
+        "hint": "again"
+      },
+      "definition": "only, merely, just"
+    },
+    "难": {
+      "radical": "又",
+      "decomposition": "⿰又隹",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A hand 又 trying to grasp at a bird 隹"
+      },
+      "definition": "hard, difficult, arduous; unable"
+    },
+    "需": {
+      "radical": "雨",
+      "decomposition": "⿱雨而",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Rain 雨 needed for crops to grow"
+      },
+      "definition": "to need, to require; must"
+    },
+    "非": {
+      "radical": "非",
+      "decomposition": "⿰？？",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "Two bird's wings opposed; two people back-to-back"
+      },
+      "definition": "not, negative, non-; to oppose"
+    },
+    "靠": {
+      "radical": "非",
+      "decomposition": "⿱告非",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "告",
+        "semantic": "非",
+        "hint": "people back-to-back"
+      },
+      "definition": "nearby; to depend on, to lean on, to trust"
+    },
+    "面": {
+      "radical": "面",
+      "decomposition": "⿱？？",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "A person's face"
+      },
+      "definition": "face; surface, side; plane, dimension"
+    },
+    "鞋": {
+      "radical": "革",
+      "decomposition": "⿰革圭",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "圭",
+        "semantic": "革",
+        "hint": "leather"
+      },
+      "definition": "shoes, footwear in general"
+    },
+    "音": {
+      "radical": "音",
+      "decomposition": "⿱立日",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A tongue 立 forming a sound in the mouth 日"
+      },
+      "definition": "sound, tone, pitch, pronunciation"
+    },
+    "題": {
+      "radical": "頁",
+      "decomposition": "⿺是頁",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "是",
+        "semantic": "頁",
+        "hint": "head"
+      },
+      "definition": "forehead; headline, title; theme"
+    },
+    "顶": {
+      "radical": "页",
+      "decomposition": "⿰丁页",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "丁",
+        "semantic": "页",
+        "hint": "head"
+      },
+      "definition": "top, summit, peak; to carry on the head"
+    },
+    "项": {
+      "radical": "页",
+      "decomposition": "⿰工页",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "工",
+        "semantic": "页",
+        "hint": "head"
+      },
+      "definition": "neck, nape; item; a term in an equation"
+    },
+    "题": {
+      "radical": "页",
+      "decomposition": "⿺是页",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "是",
+        "semantic": "页",
+        "hint": "head"
+      },
+      "definition": "forehead; headline, title; theme"
+    },
+    "颜": {
+      "radical": "页",
+      "decomposition": "⿰彦页",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "彦",
+        "semantic": "页",
+        "hint": "head"
+      },
+      "definition": "face, facial appearance"
+    },
+    "风": {
+      "radical": "风",
+      "decomposition": "⿵几乂",
+      "etymology": {},
+      "definition": "wind; air; customs, manners; news"
+    },
+    "餐": {
+      "radical": "食",
+      "decomposition": "⿱⿰歺又食",
+      "etymology": {
+        "type": "pictophonetic",
+        "semantic": "食",
+        "hint": "food"
+      },
+      "definition": "to eat, to dine; meal, food"
+    },
+    "饣": {
+      "radical": "饣",
+      "decomposition": "⿱？乚",
+      "etymology": {},
+      "definition": "food; to eat"
+    },
+    "饭": {
+      "radical": "饣",
+      "decomposition": "⿰饣反",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "反",
+        "semantic": "饣",
+        "hint": "food"
+      },
+      "definition": "meal, food; cooked rice"
+    },
+    "馆": {
+      "radical": "饣",
+      "decomposition": "⿰饣官",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A public 官 building where food 饣 is served; 官 also provides the pronunciation"
+      },
+      "definition": "public building; shop, house, establishment"
+    },
+    "首": {
+      "radical": "首",
+      "decomposition": "⿱丷自",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A deer's head 自 adorned with antlers 丷"
+      },
+      "definition": "chief, head, leader"
+    },
+    "高": {
+      "radical": "高",
+      "decomposition": "⿳亠口冋",
+      "etymology": {
+        "type": "pictographic",
+        "hint": "A tall palace"
+      },
+      "definition": "tall, lofty; high, elevated"
+    },
+    "麼": {
+      "radical": "麻",
+      "decomposition": "⿸麻幺",
+      "etymology": {
+        "type": "pictophonetic",
+        "phonetic": "麻",
+        "semantic": "幺",
+        "hint": "one"
+      },
+      "definition": "interrogative particle"
+    },
+    "黎": {
+      "radical": "黍",
+      "decomposition": "⿰黍？",
+      "etymology": {},
+      "definition": "many, numerous; black; surname"
+    },
+    "黑": {
+      "radical": "黑",
+      "decomposition": "⿱？灬",
+      "etymology": {
+        "type": "ideographic",
+        "hint": "A man's face blacked by soot from a fire 灬"
+      },
+      "definition": "black; dark; evil, sinister"
+    }
+  }
+}

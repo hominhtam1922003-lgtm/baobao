@@ -1,0 +1,1264 @@
+[
+  {
+    "id": "t1-giao-tiep",
+    "stage": 1,
+    "topicId": 1,
+    "title": "Chào hỏi & tạm biệt",
+    "type": "giao-tiep",
+    "xp": 30,
+    "newWords": [
+      "w-001",
+      "w-007",
+      "w-004",
+      "w-005",
+      "w-006"
+    ],
+    "patterns": [
+      {
+        "id": "p-t1-1",
+        "frame": "___好！",
+        "pinyin": "___ hǎo!",
+        "meaningVi": "Chào [ai đó / buổi trong ngày]!",
+        "exampleHanzi": "老师好！",
+        "examplePinyin": "lǎo shī hǎo!",
+        "exampleVi": "Em chào thầy/cô ạ!",
+        "slots": {
+          "promptVi": "Chọn từ để nói 'Chào buổi sáng!'",
+          "choices": [
+            {
+              "hanzi": "早上",
+              "pinyin": "zǎo shang",
+              "vi": "buổi sáng"
+            },
+            {
+              "hanzi": "谢谢",
+              "pinyin": "xiè xie",
+              "vi": "cảm ơn"
+            },
+            {
+              "hanzi": "再见",
+              "pinyin": "zài jiàn",
+              "vi": "tạm biệt"
+            }
+          ],
+          "answerHanzi": "早上"
+        },
+        "audio": "audio/teacher-d5c62bd13b3e.mp3"
+      },
+      {
+        "id": "p-t1-2",
+        "frame": "谢谢你！— ___。",
+        "pinyin": "xiè xie nǐ! — ___.",
+        "meaningVi": "Cảm ơn bạn! — Không có gì.",
+        "exampleHanzi": "谢谢你，不客气。",
+        "examplePinyin": "xiè xie nǐ, bú kè qi.",
+        "exampleVi": "Cảm ơn bạn — Không có gì đâu.",
+        "slots": {
+          "promptVi": "Đáp lại lời cảm ơn một cách lịch sự",
+          "choices": [
+            {
+              "hanzi": "不客气",
+              "pinyin": "bú kè qi",
+              "vi": "không có gì"
+            },
+            {
+              "hanzi": "对不起",
+              "pinyin": "duì bu qǐ",
+              "vi": "xin lỗi"
+            },
+            {
+              "hanzi": "你好",
+              "pinyin": "nǐ hǎo",
+              "vi": "xin chào"
+            }
+          ],
+          "answerHanzi": "不客气"
+        },
+        "audio": "audio/teacher-b7596e2e959f.mp3"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Linh",
+        "voiceRole": "female",
+        "hanzi": "早上好！你是新同学吗？",
+        "pinyin": "zǎo shang hǎo! nǐ shì xīn tóng xué ma?",
+        "vi": "Chào buổi sáng! Bạn là bạn học mới à?",
+        "mode": "npc",
+        "goalLabel": "Chào buổi sáng",
+        "audio": "audio/female-cbb19d2a1e26.mp3"
+      },
+      {
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "早上好！对，我是Bao。",
+        "pinyin": "zǎo shang hǎo! duì, wǒ shì Bao.",
+        "vi": "Chào buổi sáng! Đúng rồi, mình là Bao.",
+        "mode": "choice",
+        "goalLabel": "Đáp lời chào & giới thiệu",
+        "choices": [
+          {
+            "hanzi": "早上好！对，我是Bao。",
+            "pinyin": "zǎo shang hǎo! duì, wǒ shì Bao.",
+            "vi": "Chào buổi sáng! Đúng rồi, mình là Bao.",
+            "correct": true
+          },
+          {
+            "hanzi": "再见！我是咖啡。",
+            "pinyin": "zài jiàn! wǒ shì kā fēi.",
+            "vi": "Tạm biệt! Mình là cà phê.",
+            "correct": false
+          },
+          {
+            "hanzi": "不客气，谢谢。",
+            "pinyin": "bú kè qi, xiè xie.",
+            "vi": "Không có gì, cảm ơn.",
+            "correct": false
+          }
+        ],
+        "audio": "audio/male-156f1f9e8975.mp3"
+      },
+      {
+        "speaker": "Linh",
+        "voiceRole": "female",
+        "hanzi": "你好！请坐。",
+        "pinyin": "nǐ hǎo! qǐng zuò.",
+        "vi": "Xin chào! Mời ngồi.",
+        "mode": "npc",
+        "audio": "audio/female-ef4cd15812ba.mp3"
+      },
+      {
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "谢谢你！",
+        "pinyin": "xiè xie nǐ!",
+        "vi": "Cảm ơn bạn!",
+        "mode": "tiles",
+        "goalLabel": "Nói lời cảm ơn",
+        "tilePrompt": [
+          "谢谢",
+          "你"
+        ],
+        "audio": "audio/male-b1148faa16e2.mp3"
+      },
+      {
+        "speaker": "Linh",
+        "voiceRole": "female",
+        "hanzi": "不客气！明天见。",
+        "pinyin": "bú kè qi! míng tiān jiàn.",
+        "vi": "Không có gì! Hẹn gặp ngày mai nhé.",
+        "mode": "npc",
+        "audio": "audio/female-db8e811d9f56.mp3"
+      },
+      {
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "再见！",
+        "pinyin": "zài jiàn!",
+        "vi": "Tạm biệt!",
+        "mode": "pinyin",
+        "goalLabel": "Chào tạm biệt",
+        "acceptedPinyin": [
+          "zaijian",
+          "zàijiàn",
+          "zai jian",
+          "再见"
+        ],
+        "audio": "audio/male-713803f061bb.mp3"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "ex-t1-1",
+        "kind": "meaning-choice",
+        "promptVi": "Cụm 「谢谢」 có nghĩa là gì?",
+        "hanziPrompt": "谢谢",
+        "pinyinPrompt": "xiè xie",
+        "options": [
+          {
+            "label": "Cảm ơn",
+            "value": "Cảm ơn"
+          },
+          {
+            "label": "Tạm biệt",
+            "value": "Tạm biệt"
+          },
+          {
+            "label": "Xin lỗi",
+            "value": "Xin lỗi"
+          },
+          {
+            "label": "Chào buổi sáng",
+            "value": "Chào buổi sáng"
+          }
+        ],
+        "answer": "Cảm ơn"
+      },
+      {
+        "id": "ex-t1-2",
+        "kind": "hanzi-choice",
+        "promptVi": "Nghe và chọn chữ Hán đúng với nghĩa 'Không có gì'",
+        "audioText": "不客气",
+        "options": [
+          {
+            "label": "不客气",
+            "value": "不客气"
+          },
+          {
+            "label": "对不起",
+            "value": "对不起"
+          },
+          {
+            "label": "没关系",
+            "value": "没关系"
+          },
+          {
+            "label": "早上好",
+            "value": "早上好"
+          }
+        ],
+        "answer": "不客气",
+        "audio": "audio/teacher-68ea9a6c3a65.mp3"
+      },
+      {
+        "id": "ex-t1-3",
+        "kind": "sentence-tiles",
+        "promptVi": "Ghép câu: 'Chào buổi sáng, thầy/cô giáo!'",
+        "tiles": [
+          "老师",
+          "早上",
+          "好"
+        ],
+        "answer": "早上好老师",
+        "explainVi": "Nói '老师，早上好！' hoặc '早上好老师' đều tự nhiên; đặt 早上好 lên trước để chào buổi sáng."
+      }
+    ],
+    "roleplay": [
+      {
+        "npcHanzi": "你好！请问你叫什么名字？",
+        "npcPinyin": "nǐ hǎo! qǐng wèn nǐ jiào shén me míng zi?",
+        "npcVi": "Xin chào! Xin hỏi bạn tên gì?",
+        "promptVi": "Chào lại và nói tên của bạn",
+        "options": [
+          {
+            "hanzi": "你好！我叫小明。",
+            "pinyin": "nǐ hǎo! wǒ jiào Xiǎo Míng.",
+            "vi": "Xin chào! Mình tên là Tiểu Minh.",
+            "correct": true
+          },
+          {
+            "hanzi": "再见！老师好。",
+            "pinyin": "zài jiàn! lǎo shī hǎo.",
+            "vi": "Tạm biệt! Chào thầy cô.",
+            "correct": false
+          },
+          {
+            "hanzi": "不客气。",
+            "pinyin": "bú kè qi.",
+            "vi": "Không có gì.",
+            "correct": false
+          }
+        ],
+        "expectedHanzi": "你好！我叫小明。",
+        "npcAudio": "audio/female-e713a8fa67d2.mp3",
+        "replyAudio": "audio/male-1dc4d06fb946.mp3"
+      },
+      {
+        "npcHanzi": "请进，请坐！",
+        "npcPinyin": "qǐng jìn, qǐng zuò!",
+        "npcVi": "Mời vào, mời ngồi!",
+        "promptVi": "Đáp lại lời mời lịch sự",
+        "options": [
+          {
+            "hanzi": "谢谢你！",
+            "pinyin": "xiè xie nǐ!",
+            "vi": "Cảm ơn bạn!",
+            "correct": true
+          },
+          {
+            "hanzi": "对不起！",
+            "pinyin": "duì bu qǐ!",
+            "vi": "Xin lỗi!",
+            "correct": false
+          },
+          {
+            "hanzi": "早上好。",
+            "pinyin": "zǎo shang hǎo.",
+            "vi": "Chào buổi sáng.",
+            "correct": false
+          }
+        ],
+        "expectedHanzi": "谢谢你！",
+        "npcAudio": "audio/female-e3137af08c69.mp3",
+        "replyAudio": "audio/male-b1148faa16e2.mp3"
+      },
+      {
+        "npcHanzi": "不客气！明天见！",
+        "npcPinyin": "bú kè qi! míng tiān jiàn!",
+        "npcVi": "Không có gì! Hẹn gặp ngày mai!",
+        "promptVi": "Chào tạm biệt để kết thúc cuộc trò chuyện",
+        "options": [
+          {
+            "hanzi": "明天见，再见！",
+            "pinyin": "míng tiān jiàn, zài jiàn!",
+            "vi": "Ngày mai gặp, tạm biệt!",
+            "correct": true
+          },
+          {
+            "hanzi": "你好！",
+            "pinyin": "nǐ hǎo!",
+            "vi": "Xin chào!",
+            "correct": false
+          },
+          {
+            "hanzi": "请坐！",
+            "pinyin": "qǐng zuò!",
+            "vi": "Mời ngồi!",
+            "correct": false
+          }
+        ],
+        "expectedHanzi": "明天见，再见！",
+        "npcAudio": "audio/female-8ab13883354c.mp3",
+        "replyAudio": "audio/male-597a9e98ad31.mp3"
+      }
+    ]
+  },
+  {
+    "id": "t1-doc",
+    "stage": 1,
+    "topicId": 1,
+    "title": "Đọc: Ngày đầu ở lớp tiếng Trung",
+    "type": "doc",
+    "xp": 25,
+    "newWords": [],
+    "readingId": "r-t1"
+  },
+  {
+    "id": "t1-nghe",
+    "stage": 1,
+    "topicId": 1,
+    "title": "Nghe: Chào hỏi buổi sáng",
+    "type": "nghe",
+    "xp": 25,
+    "newWords": [
+      "w-001",
+      "w-007",
+      "w-004",
+      "w-005",
+      "w-006"
+    ],
+    "listeningTracks": [
+      {
+        "id": "lt1-1",
+        "speaker": "Linh",
+        "voiceRole": "female",
+        "hanzi": "早上好，老师！",
+        "pinyin": "zǎo shang hǎo, lǎo shī!",
+        "vi": "Chào buổi sáng thầy/cô!",
+        "audio": "audio/female-2cdff6cef1e6.mp3",
+        "audioSlow": "audio/slow-b2d8a6bad78c.mp3"
+      },
+      {
+        "id": "lt1-2",
+        "speaker": "Thầy Minh",
+        "voiceRole": "formal",
+        "hanzi": "你好！请坐。",
+        "pinyin": "nǐ hǎo! qǐng zuò.",
+        "vi": "Chào em! Mời ngồi.",
+        "audio": "audio/formal-8058d96852c9.mp3",
+        "audioSlow": "audio/slow-b839eff15686.mp3"
+      },
+      {
+        "id": "lt1-3",
+        "speaker": "Linh",
+        "voiceRole": "female",
+        "hanzi": "谢谢老师！",
+        "pinyin": "xiè xie lǎo shī!",
+        "vi": "Em cảm ơn thầy/cô!",
+        "audio": "audio/female-9f1f5d675afd.mp3",
+        "audioSlow": "audio/slow-37d5ac442e84.mp3"
+      },
+      {
+        "id": "lt1-4",
+        "speaker": "Thầy Minh",
+        "voiceRole": "formal",
+        "hanzi": "不客气，再见！",
+        "pinyin": "bú kè qi, zài jiàn!",
+        "vi": "Không có gì, tạm biệt!",
+        "audio": "audio/formal-e7a9cf513865.mp3",
+        "audioSlow": "audio/slow-28a3180357a8.mp3"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "ng1-1",
+        "kind": "listen-meaning",
+        "promptVi": "Nghe câu và chọn nghĩa đúng",
+        "audioText": "早上好！",
+        "options": [
+          {
+            "label": "Chào buổi sáng!",
+            "value": "Chào buổi sáng!"
+          },
+          {
+            "label": "Chúc ngủ ngon!",
+            "value": "Chúc ngủ ngon!"
+          },
+          {
+            "label": "Tạm biệt!",
+            "value": "Tạm biệt!"
+          },
+          {
+            "label": "Xin lỗi!",
+            "value": "Xin lỗi!"
+          }
+        ],
+        "answer": "Chào buổi sáng!",
+        "audio": "audio/teacher-850b47ae0158.mp3",
+        "audioSlow": "audio/slow-f0d096f45926.mp3"
+      },
+      {
+        "id": "ng1-2",
+        "kind": "listen-hanzi",
+        "promptVi": "Nghe và chọn chữ Hán khớp với âm thanh",
+        "audioText": "谢谢你",
+        "options": [
+          {
+            "label": "谢谢你",
+            "value": "谢谢你"
+          },
+          {
+            "label": "对不起",
+            "value": "对不起"
+          },
+          {
+            "label": "不客气",
+            "value": "不客气"
+          },
+          {
+            "label": "没关系",
+            "value": "没关系"
+          }
+        ],
+        "answer": "谢谢你",
+        "audio": "audio/teacher-046e87a3bcdd.mp3",
+        "audioSlow": "audio/slow-fd5416fff6a5.mp3"
+      },
+      {
+        "id": "ng1-3",
+        "kind": "listen-tiles",
+        "promptVi": "Chạm vào các thẻ từ theo đúng thứ tự bạn nghe được",
+        "audioText": "老师早上好",
+        "tiles": [
+          "好",
+          "老师",
+          "早上"
+        ],
+        "answer": "老师早上好",
+        "audio": "audio/teacher-02c9eb746f86.mp3",
+        "audioSlow": "audio/slow-0c4636e50070.mp3"
+      },
+      {
+        "id": "ng1-4",
+        "kind": "listen-blank",
+        "promptVi": "Nghe và điền từ còn thiếu vào chỗ trống: 「不客气，___！」",
+        "audioText": "不客气，再见！",
+        "options": [
+          {
+            "label": "再见",
+            "value": "再见"
+          },
+          {
+            "label": "你好",
+            "value": "你好"
+          },
+          {
+            "label": "请坐",
+            "value": "请坐"
+          },
+          {
+            "label": "早上",
+            "value": "早上"
+          }
+        ],
+        "answer": "再见",
+        "audio": "audio/teacher-a10dcff4b901.mp3",
+        "audioSlow": "audio/slow-28a3180357a8.mp3"
+      },
+      {
+        "id": "ng1-5",
+        "kind": "listen-dialogue",
+        "promptVi": "Nghe câu đáp lại: Người nói đã mời bạn làm gì?",
+        "audioText": "请进，请坐！",
+        "options": [
+          {
+            "label": "Mời vào và mời ngồi",
+            "value": "Mời vào và mời ngồi"
+          },
+          {
+            "label": "Hẹn gặp ngày mai",
+            "value": "Hẹn gặp ngày mai"
+          },
+          {
+            "label": "Hỏi tên bạn",
+            "value": "Hỏi tên bạn"
+          }
+        ],
+        "answer": "Mời vào và mời ngồi",
+        "audio": "audio/teacher-c00fed586b2c.mp3",
+        "audioSlow": "audio/slow-7d830e652286.mp3"
+      },
+      {
+        "id": "ng1-6",
+        "kind": "dictation",
+        "promptVi": "Chép chính tả rút gọn: gõ pinyin (hoặc chữ Hán) của câu ngắn bạn nghe",
+        "audioText": "你好，再见！",
+        "tiles": [
+          "你好",
+          "再见"
+        ],
+        "answer": "nihao zaijian",
+        "audio": "audio/teacher-58dec03d37cc.mp3",
+        "audioSlow": "audio/slow-f7cfa7bc0553.mp3"
+      }
+    ]
+  },
+  {
+    "id": "t1-viet",
+    "stage": 1,
+    "topicId": 1,
+    "title": "Viết: Chữ chào hỏi căn bản",
+    "type": "viet",
+    "xp": 25,
+    "newWords": [
+      "w-001",
+      "w-007",
+      "w-004",
+      "w-005",
+      "w-006"
+    ],
+    "writingChars": [
+      {
+        "char": "你",
+        "pinyin": "nǐ",
+        "meaningVi": "bạn",
+        "radical": "亻",
+        "radicalNoteVi": "Bộ nhân đứng (亻) — hình dáng một người đứng nghiêng, xuất hiện ở nhiều chữ chỉ người như 他, 们.",
+        "lookalikes": [
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ",
+            "vi": "bạn"
+          },
+          {
+            "hanzi": "他",
+            "pinyin": "tā",
+            "vi": "anh ấy"
+          },
+          {
+            "hanzi": "们",
+            "pinyin": "men",
+            "vi": "các (số nhiều)"
+          },
+          {
+            "hanzi": "作",
+            "pinyin": "zuò",
+            "vi": "làm"
+          }
+        ]
+      },
+      {
+        "char": "好",
+        "pinyin": "hǎo",
+        "meaningVi": "tốt, khỏe",
+        "radical": "女",
+        "radicalNoteVi": "Bộ nữ (女) ghép với bộ tử (子) — người mẹ bế con là hình ảnh tốt đẹp, an lành.",
+        "lookalikes": [
+          {
+            "hanzi": "好",
+            "pinyin": "hǎo",
+            "vi": "tốt, khỏe"
+          },
+          {
+            "hanzi": "她",
+            "pinyin": "tā",
+            "vi": "cô ấy"
+          },
+          {
+            "hanzi": "妈",
+            "pinyin": "mā",
+            "vi": "mẹ"
+          },
+          {
+            "hanzi": "子",
+            "pinyin": "zǐ",
+            "vi": "con"
+          }
+        ]
+      },
+      {
+        "char": "见",
+        "pinyin": "jiàn",
+        "meaningVi": "gặp, thấy",
+        "radical": "见",
+        "radicalNoteVi": "Bộ kiến (见) — con mắt (目) đặt trên đôi chân bước tới: nhìn thấy, gặp gỡ.",
+        "lookalikes": [
+          {
+            "hanzi": "见",
+            "pinyin": "jiàn",
+            "vi": "gặp"
+          },
+          {
+            "hanzi": "贝",
+            "pinyin": "bèi",
+            "vi": "vỏ sò / tiền"
+          },
+          {
+            "hanzi": "风",
+            "pinyin": "fēng",
+            "vi": "gió"
+          },
+          {
+            "hanzi": "几",
+            "pinyin": "jǐ",
+            "vi": "mấy"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "t6-giao-tiep",
+    "stage": 1,
+    "topicId": 6,
+    "title": "Ăn uống: gọi món, trà sữa & cà phê",
+    "type": "giao-tiep",
+    "xp": 35,
+    "newWords": [
+      "w-103",
+      "w-106",
+      "w-107",
+      "w-112",
+      "w-128",
+      "w-117"
+    ],
+    "patterns": [
+      {
+        "id": "p-t6-1",
+        "frame": "我想喝一杯___。",
+        "pinyin": "wǒ xiǎng hē yì bēi ___.",
+        "meaningVi": "Mình muốn uống một ly [đồ uống].",
+        "exampleHanzi": "我想喝一杯冰奶茶。",
+        "examplePinyin": "wǒ xiǎng hē yì bēi bīng nǎi chá.",
+        "exampleVi": "Mình muốn uống một ly trà sữa đá.",
+        "slots": {
+          "promptVi": "Điền món để gọi 'một ly cà phê'",
+          "choices": [
+            {
+              "hanzi": "咖啡",
+              "pinyin": "kā fēi",
+              "vi": "cà phê"
+            },
+            {
+              "hanzi": "菜单",
+              "pinyin": "cài dān",
+              "vi": "thực đơn"
+            },
+            {
+              "hanzi": "买单",
+              "pinyin": "mǎi dān",
+              "vi": "tính tiền"
+            }
+          ],
+          "answerHanzi": "咖啡"
+        },
+        "audio": "audio/teacher-27ccea00a442.mp3"
+      },
+      {
+        "id": "p-t6-2",
+        "frame": "这杯请给我___。",
+        "pinyin": "zhè bēi qǐng gěi wǒ ___.",
+        "meaningVi": "Ly này làm ơn cho mình [ít đường / không đá].",
+        "exampleHanzi": "这杯请给我少糖。",
+        "examplePinyin": "zhè bēi qǐng gěi wǒ shǎo táng.",
+        "exampleVi": "Ly này cho mình ít đường nhé.",
+        "slots": {
+          "promptVi": "Chọn yêu cầu 'ít đường'",
+          "choices": [
+            {
+              "hanzi": "少糖",
+              "pinyin": "shǎo táng",
+              "vi": "ít đường"
+            },
+            {
+              "hanzi": "小笼包",
+              "pinyin": "xiǎo lóng bāo",
+              "vi": "tiểu long bao"
+            },
+            {
+              "hanzi": "老师",
+              "pinyin": "lǎo shī",
+              "vi": "giáo viên"
+            }
+          ],
+          "answerHanzi": "少糖"
+        },
+        "audio": "audio/teacher-25f2eb165d5e.mp3"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Nhân viên",
+        "voiceRole": "female",
+        "hanzi": "你好，请问要喝什么？",
+        "pinyin": "nǐ hǎo, qǐng wèn yào hē shén me?",
+        "vi": "Xin chào, bạn muốn uống gì ạ?",
+        "mode": "npc",
+        "goalLabel": "Vào quán",
+        "audio": "audio/female-e08f8acff556.mp3"
+      },
+      {
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "我想喝一杯奶茶。",
+        "pinyin": "wǒ xiǎng hē yì bēi nǎi chá.",
+        "vi": "Mình muốn uống một ly trà sữa.",
+        "mode": "choice",
+        "goalLabel": "Gọi trà sữa",
+        "choices": [
+          {
+            "hanzi": "我想喝一杯奶茶。",
+            "pinyin": "wǒ xiǎng hē yì bēi nǎi chá.",
+            "vi": "Mình muốn uống một ly trà sữa.",
+            "correct": true
+          },
+          {
+            "hanzi": "我想喝一杯菜单。",
+            "pinyin": "wǒ xiǎng hē yì bēi cài dān.",
+            "vi": "Mình muốn uống một ly thực đơn.",
+            "correct": false
+          },
+          {
+            "hanzi": "再见，明天见。",
+            "pinyin": "zài jiàn, míng tiān jiàn.",
+            "vi": "Tạm biệt, hẹn mai gặp.",
+            "correct": false
+          }
+        ],
+        "audio": "audio/male-dc4966954a94.mp3"
+      },
+      {
+        "speaker": "Nhân viên",
+        "voiceRole": "female",
+        "hanzi": "好的，要少糖还是去冰？",
+        "pinyin": "hǎo de, yào shǎo táng hái shi qù bīng?",
+        "vi": "Vâng, bạn muốn ít đường hay không đá ạ?",
+        "mode": "npc",
+        "audio": "audio/female-9468ea132b31.mp3"
+      },
+      {
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "少糖去冰，谢谢！",
+        "pinyin": "shǎo táng qù bīng, xiè xie!",
+        "vi": "Ít đường không đá, cảm ơn!",
+        "mode": "tiles",
+        "goalLabel": "Chọn ít đường & không đá",
+        "tilePrompt": [
+          "少糖",
+          "去冰",
+          "谢谢"
+        ],
+        "audio": "audio/male-5511e6237daa.mp3"
+      },
+      {
+        "speaker": "Nhân viên",
+        "voiceRole": "female",
+        "hanzi": "一共二十块，请问买单吗？",
+        "pinyin": "yí gòng èr shí kuài, qǐng wèn mǎi dān ma?",
+        "vi": "Tổng cộng 20 tệ, bạn thanh toán luôn không ạ?",
+        "mode": "npc",
+        "audio": "audio/female-ae072e2cec25.mp3"
+      },
+      {
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "好的，买单！",
+        "pinyin": "hǎo de, mǎi dān!",
+        "vi": "Vâng, tính tiền ạ!",
+        "mode": "pinyin",
+        "goalLabel": "Tính tiền",
+        "acceptedPinyin": [
+          "haode maidan",
+          "hǎo de mǎi dān",
+          "maidan",
+          "mǎidān",
+          "买单"
+        ],
+        "audio": "audio/male-c98371db8efd.mp3"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "ex-t6-1",
+        "kind": "meaning-choice",
+        "promptVi": "Khi muốn nói 'ít đường', bạn dùng từ nào?",
+        "hanziPrompt": "少糖",
+        "pinyinPrompt": "shǎo táng",
+        "options": [
+          {
+            "label": "Ít đường",
+            "value": "Ít đường"
+          },
+          {
+            "label": "Nhiều đá",
+            "value": "Nhiều đá"
+          },
+          {
+            "label": "Tính tiền",
+            "value": "Tính tiền"
+          },
+          {
+            "label": "Trà nóng",
+            "value": "Trà nóng"
+          }
+        ],
+        "answer": "Ít đường"
+      },
+      {
+        "id": "ex-t6-2",
+        "kind": "hanzi-choice",
+        "promptVi": "Nghe và chọn chữ Hán đúng cho 'cà phê'",
+        "audioText": "咖啡",
+        "options": [
+          {
+            "label": "咖啡",
+            "value": "咖啡"
+          },
+          {
+            "label": "奶茶",
+            "value": "奶茶"
+          },
+          {
+            "label": "菜单",
+            "value": "菜单"
+          },
+          {
+            "label": "买单",
+            "value": "买单"
+          }
+        ],
+        "answer": "咖啡",
+        "audio": "audio/teacher-707d66388b3d.mp3"
+      },
+      {
+        "id": "ex-t6-3",
+        "kind": "sentence-tiles",
+        "promptVi": "Ghép câu: 'Mình muốn uống một ly trà sữa'",
+        "tiles": [
+          "喝",
+          "我想",
+          "奶茶",
+          "一杯"
+        ],
+        "answer": "我想喝一杯奶茶"
+      }
+    ],
+    "roleplay": [
+      {
+        "npcHanzi": "欢迎光临！请问您想喝点什么？",
+        "npcPinyin": "huān yíng guāng lín! qǐng wèn nín xiǎng hē diǎn shén me?",
+        "npcVi": "Chào mừng quý khách! Bạn muốn uống gì ạ?",
+        "promptVi": "Gọi một ly cà phê đá",
+        "options": [
+          {
+            "hanzi": "我想喝一杯冰咖啡。",
+            "pinyin": "wǒ xiǎng hē yì bēi bīng kā fēi.",
+            "vi": "Mình muốn uống một ly cà phê đá.",
+            "correct": true
+          },
+          {
+            "hanzi": "我是新同学。",
+            "pinyin": "wǒ shì xīn tóng xué.",
+            "vi": "Mình là bạn học mới.",
+            "correct": false
+          },
+          {
+            "hanzi": "老师早上好。",
+            "pinyin": "lǎo shī zǎo shang hǎo.",
+            "vi": "Chào buổi sáng thầy cô.",
+            "correct": false
+          }
+        ],
+        "expectedHanzi": "我想喝一杯冰咖啡。",
+        "npcAudio": "audio/female-33829e9afdd4.mp3",
+        "replyAudio": "audio/male-45afb53758d7.mp3"
+      },
+      {
+        "npcHanzi": "好的，需要少糖吗？",
+        "npcPinyin": "hǎo de, xū yào shǎo táng ma?",
+        "npcVi": "Vâng, có cần ít đường không ạ?",
+        "promptVi": "Xác nhận lấy ít đường",
+        "options": [
+          {
+            "hanzi": "对，请给我少糖，谢谢。",
+            "pinyin": "duì, qǐng gěi wǒ shǎo táng, xiè xie.",
+            "vi": "Đúng rồi, cho mình ít đường, cảm ơn.",
+            "correct": true
+          },
+          {
+            "hanzi": "不要咖啡，我要再见。",
+            "pinyin": "bú yào kā fēi, wǒ yào zài jiàn.",
+            "vi": "Không cần cà phê, mình cần tạm biệt.",
+            "correct": false
+          },
+          {
+            "hanzi": "对不起。",
+            "pinyin": "duì bu qǐ.",
+            "vi": "Xin lỗi.",
+            "correct": false
+          }
+        ],
+        "expectedHanzi": "对，请给我少糖，谢谢。",
+        "npcAudio": "audio/female-1c55264b1460.mp3",
+        "replyAudio": "audio/male-0e5a624b9ef4.mp3"
+      },
+      {
+        "npcHanzi": "您的咖啡好了，请慢用！",
+        "npcPinyin": "nín de kā fēi hǎo le, qǐng màn yòng!",
+        "npcVi": "Cà phê của bạn xong rồi, chúc ngon miệng!",
+        "promptVi": "Cảm ơn và hỏi tính tiền",
+        "options": [
+          {
+            "hanzi": "谢谢！请问可以买单吗？",
+            "pinyin": "xiè xie! qǐng wèn kě yǐ mǎi dān ma?",
+            "vi": "Cảm ơn! Xin hỏi tính tiền được chưa ạ?",
+            "correct": true
+          },
+          {
+            "hanzi": "不客气，请问你叫什么？",
+            "pinyin": "bú kè qi, qǐng wèn nǐ jiào shén me?",
+            "vi": "Không có gì, bạn tên gì?",
+            "correct": false
+          },
+          {
+            "hanzi": "我不喝水。",
+            "pinyin": "wǒ bù hē shuǐ.",
+            "vi": "Mình không uống nước.",
+            "correct": false
+          }
+        ],
+        "expectedHanzi": "谢谢！请问可以买单吗？",
+        "npcAudio": "audio/female-46bfbaa38bfc.mp3",
+        "replyAudio": "audio/male-4684b5e94a5b.mp3"
+      }
+    ]
+  },
+  {
+    "id": "t6-doc",
+    "stage": 1,
+    "topicId": 6,
+    "title": "Đọc: Buổi chiều ở quán trà sữa",
+    "type": "doc",
+    "xp": 30,
+    "newWords": [],
+    "readingId": "r-t6"
+  },
+  {
+    "id": "t6-nghe",
+    "stage": 1,
+    "topicId": 6,
+    "title": "Nghe: Gọi cà phê & trà sữa",
+    "type": "nghe",
+    "xp": 30,
+    "newWords": [
+      "w-103",
+      "w-106",
+      "w-107",
+      "w-112",
+      "w-128",
+      "w-117"
+    ],
+    "listeningTracks": [
+      {
+        "id": "lt6-1",
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "你好，请问有菜单吗？",
+        "pinyin": "nǐ hǎo, qǐng wèn yǒu cài dān ma?",
+        "vi": "Xin chào, cho hỏi có thực đơn không?",
+        "audio": "audio/male-0a7b7d0b58cc.mp3",
+        "audioSlow": "audio/slow-2930b21dd90e.mp3"
+      },
+      {
+        "id": "lt6-2",
+        "speaker": "Linh",
+        "voiceRole": "female",
+        "hanzi": "给你！你喝奶茶还是咖啡？",
+        "pinyin": "gěi nǐ! nǐ hē nǎi chá hái shi kā fēi?",
+        "vi": "Gửi bạn! Bạn uống trà sữa hay cà phê?",
+        "audio": "audio/female-63c4dca7e2ab.mp3",
+        "audioSlow": "audio/slow-a68c198e33af.mp3"
+      },
+      {
+        "id": "lt6-3",
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "我要一杯热奶茶，少糖。",
+        "pinyin": "wǒ yào yì bēi rè nǎi chá, shǎo táng.",
+        "vi": "Mình lấy một ly trà sữa nóng, ít đường.",
+        "audio": "audio/male-b87696f965bc.mp3",
+        "audioSlow": "audio/slow-4a6eeae805c1.mp3"
+      },
+      {
+        "id": "lt6-4",
+        "speaker": "Linh",
+        "voiceRole": "female",
+        "hanzi": "这家的奶茶很好喝，小笼包也好吃。",
+        "pinyin": "zhè jiā de nǎi chá hěn hǎo hē, xiǎo lóng bāo yě hǎo chī.",
+        "vi": "Trà sữa quán này ngon lắm, tiểu long bao cũng ngon nữa.",
+        "audio": "audio/female-16dc65ee2528.mp3",
+        "audioSlow": "audio/slow-c3391345d0a3.mp3"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "ng6-1",
+        "kind": "listen-meaning",
+        "promptVi": "Nghe và chọn đồ uống người nói muốn gọi",
+        "audioText": "我想喝一杯冰咖啡。",
+        "options": [
+          {
+            "label": "Một ly cà phê đá",
+            "value": "Một ly cà phê đá"
+          },
+          {
+            "label": "Một ly trà nóng",
+            "value": "Một ly trà nóng"
+          },
+          {
+            "label": "Hai ly trà sữa",
+            "value": "Hai ly trà sữa"
+          },
+          {
+            "label": "Một đĩa mì sợi",
+            "value": "Một đĩa mì sợi"
+          }
+        ],
+        "answer": "Một ly cà phê đá",
+        "audio": "audio/teacher-6b0cfad88e2e.mp3",
+        "audioSlow": "audio/slow-1cd1f5b78527.mp3"
+      },
+      {
+        "id": "ng6-2",
+        "kind": "listen-hanzi",
+        "promptVi": "Nghe và chọn cụm chữ Hán đúng",
+        "audioText": "少糖去冰",
+        "options": [
+          {
+            "label": "少糖去冰",
+            "value": "少糖去冰"
+          },
+          {
+            "label": "热茶买单",
+            "value": "热茶买单"
+          },
+          {
+            "label": "咖啡好吃",
+            "value": "咖啡好吃"
+          },
+          {
+            "label": "菜单谢谢",
+            "value": "菜单谢谢"
+          }
+        ],
+        "answer": "少糖去冰",
+        "audio": "audio/teacher-109c0a7eb6c4.mp3",
+        "audioSlow": "audio/slow-9afd3f80f1e8.mp3"
+      },
+      {
+        "id": "ng6-3",
+        "kind": "listen-tiles",
+        "promptVi": "Nghe audio và chạm ghép đúng thứ tự thẻ từ",
+        "audioText": "我要一杯热茶",
+        "tiles": [
+          "茶",
+          "热",
+          "我要",
+          "一杯"
+        ],
+        "answer": "我要一杯热茶",
+        "audio": "audio/teacher-168daf3102d8.mp3",
+        "audioSlow": "audio/slow-cb82cebbe9c6.mp3"
+      },
+      {
+        "id": "ng6-4",
+        "kind": "listen-blank",
+        "promptVi": "Nghe và điền từ còn thiếu: 「这家店的奶茶很___！」",
+        "audioText": "这家店的奶茶很好喝！",
+        "options": [
+          {
+            "label": "好喝",
+            "value": "好喝"
+          },
+          {
+            "label": "好吃",
+            "value": "好吃"
+          },
+          {
+            "label": "买单",
+            "value": "买单"
+          },
+          {
+            "label": "少糖",
+            "value": "少糖"
+          }
+        ],
+        "answer": "好喝",
+        "audio": "audio/teacher-39b2c5bee1c3.mp3",
+        "audioSlow": "audio/slow-e913272ddd84.mp3"
+      },
+      {
+        "id": "ng6-5",
+        "kind": "listen-dialogue",
+        "promptVi": "Nghe hội thoại: Khách muốn thanh toán câu nào?",
+        "audioText": "服务员，请帮我买单！",
+        "options": [
+          {
+            "label": "Gọi phục vụ tính tiền",
+            "value": "Gọi phục vụ tính tiền"
+          },
+          {
+            "label": "Xin thêm đá lạnh",
+            "value": "Xin thêm đá lạnh"
+          },
+          {
+            "label": "Hỏi đường ra quán",
+            "value": "Hỏi đường ra quán"
+          }
+        ],
+        "answer": "Gọi phục vụ tính tiền",
+        "audio": "audio/teacher-90193588393d.mp3",
+        "audioSlow": "audio/slow-d47fa45e46e7.mp3"
+      },
+      {
+        "id": "ng6-6",
+        "kind": "dictation",
+        "promptVi": "Chép chính tả rút gọn: gõ pinyin (hoặc chọn thẻ) câu vừa nghe",
+        "audioText": "谢谢，买单！",
+        "tiles": [
+          "谢谢",
+          "买单"
+        ],
+        "answer": "xiexie maidan",
+        "audio": "audio/teacher-73276fec55f3.mp3",
+        "audioSlow": "audio/slow-81a27d23f910.mp3"
+      }
+    ]
+  },
+  {
+    "id": "t6-viet",
+    "stage": 1,
+    "topicId": 6,
+    "title": "Viết: Bộ khẩu & đồ uống",
+    "type": "viet",
+    "xp": 30,
+    "newWords": [
+      "w-103",
+      "w-106",
+      "w-107",
+      "w-112",
+      "w-128",
+      "w-117"
+    ],
+    "writingChars": [
+      {
+        "char": "喝",
+        "pinyin": "hē",
+        "meaningVi": "uống",
+        "radical": "口",
+        "radicalNoteVi": "Bộ khẩu (口) nằm bên trái như cái miệng — hầu hết chữ liên quan đến ăn, uống, nói đều mang bộ 口 (喝, 吃, 咖啡).",
+        "lookalikes": [
+          {
+            "hanzi": "喝",
+            "pinyin": "hē",
+            "vi": "uống"
+          },
+          {
+            "hanzi": "渴",
+            "pinyin": "kě",
+            "vi": "khát"
+          },
+          {
+            "hanzi": "吃",
+            "pinyin": "chī",
+            "vi": "ăn"
+          },
+          {
+            "hanzi": "叫",
+            "pinyin": "jiào",
+            "vi": "gọi"
+          }
+        ]
+      },
+      {
+        "char": "茶",
+        "pinyin": "chá",
+        "meaningVi": "trà",
+        "radical": "艹",
+        "radicalNoteVi": "Bộ thảo đầu (艹) ở trên tượng trưng hai ngọn cỏ non — gợi nhắc trà làm từ lá cây tự nhiên.",
+        "lookalikes": [
+          {
+            "hanzi": "茶",
+            "pinyin": "chá",
+            "vi": "trà"
+          },
+          {
+            "hanzi": "菜",
+            "pinyin": "cài",
+            "vi": "món ăn / rau"
+          },
+          {
+            "hanzi": "花",
+            "pinyin": "huā",
+            "vi": "hoa"
+          },
+          {
+            "hanzi": "草",
+            "pinyin": "cǎo",
+            "vi": "cỏ"
+          }
+        ]
+      },
+      {
+        "char": "杯",
+        "pinyin": "bēi",
+        "meaningVi": "cốc, ly",
+        "radical": "木",
+        "radicalNoteVi": "Bộ mộc (木) bên trái — chiếc cốc thuở xưa được tiện từ gỗ.",
+        "lookalikes": [
+          {
+            "hanzi": "杯",
+            "pinyin": "bēi",
+            "vi": "cốc, ly"
+          },
+          {
+            "hanzi": "果",
+            "pinyin": "guǒ",
+            "vi": "quả"
+          },
+          {
+            "hanzi": "桌",
+            "pinyin": "zhuō",
+            "vi": "cái bàn"
+          },
+          {
+            "hanzi": "不",
+            "pinyin": "bù",
+            "vi": "không"
+          }
+        ]
+      }
+    ]
+  }
+]

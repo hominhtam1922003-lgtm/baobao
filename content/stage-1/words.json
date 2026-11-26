@@ -1,0 +1,2987 @@
+[
+  {
+    "id": "w-001",
+    "hanzi": "你好",
+    "pinyin": "nǐ hǎo",
+    "meaningVi": "xin chào",
+    "radical": "",
+    "level": 1,
+    "frequency": 10,
+    "mnemonic": "Hai người (亻 + 尔) gặp nhau chúc điều tốt lành (好 = 女 mẹ + 子 con)",
+    "examples": [
+      {
+        "hanzi": "你好，请问你叫什么名字？",
+        "pinyin": "nǐ hǎo, qǐng wèn nǐ jiào shén me míng zi?",
+        "vi": "Xin chào, xin hỏi bạn tên gì?",
+        "audio": "audio/teacher-a68623d334d9.mp3"
+      }
+    ],
+    "audio": "audio/teacher-d14638e97f7e.mp3"
+  },
+  {
+    "id": "w-002",
+    "hanzi": "你们",
+    "pinyin": "nǐ men",
+    "meaningVi": "các bạn",
+    "radical": "亻",
+    "level": 1,
+    "frequency": 127,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "既然你们这么说，那让我再想想。",
+        "pinyin": "jì rán nǐ men zhè me shuō ， nà ràng wǒ zài xiǎng xiǎng 。",
+        "vi": "Các cậu đã nói thế, để tớ nghĩ xem đã.",
+        "audio": "audio/teacher-8959360c40f8.mp3"
+      },
+      {
+        "hanzi": "我们努力向你们学习。",
+        "pinyin": "wǒ men nǔ lì xiàng nǐ men xué xí 。",
+        "vi": "Chúng tôi cố gắng học tập các đồng chí.",
+        "audio": "audio/teacher-817743a52505.mp3"
+      }
+    ],
+    "audio": "audio/teacher-a724614bedb6.mp3"
+  },
+  {
+    "id": "w-003",
+    "hanzi": "老师",
+    "pinyin": "lǎo shī",
+    "meaningVi": "thầy / cô giáo",
+    "radical": "老",
+    "level": 1,
+    "frequency": 799,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我学「老师」。",
+        "pinyin": "wǒ xué lǎo shī.",
+        "vi": "Mình học từ \"thầy / cô giáo\".",
+        "audio": "audio/teacher-b9abee779bb7.mp3"
+      }
+    ],
+    "audio": "audio/teacher-08d8cd76e0fa.mp3"
+  },
+  {
+    "id": "w-004",
+    "hanzi": "谢谢",
+    "pinyin": "xiè xie",
+    "meaningVi": "cảm ơn",
+    "radical": "讠",
+    "level": 1,
+    "frequency": 520,
+    "mnemonic": "Bộ ngôn (讠) — lời nói cảm tạ",
+    "examples": [
+      {
+        "hanzi": "不用了，谢谢。",
+        "pinyin": "bù yòng le ， xiè xiè 。",
+        "vi": "Không, cám ơn.",
+        "audio": "audio/teacher-c8e550c9b490.mp3"
+      }
+    ],
+    "audio": "audio/teacher-c556c01ed743.mp3"
+  },
+  {
+    "id": "w-005",
+    "hanzi": "不客气",
+    "pinyin": "bù kè qi",
+    "meaningVi": "không có gì, đừng khách sáo",
+    "radical": "一",
+    "level": 1,
+    "frequency": 16723,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "不客气",
+        "pinyin": "bú kè qì",
+        "vi": "Tôi không dám.",
+        "audio": "audio/teacher-68ea9a6c3a65.mp3"
+      }
+    ],
+    "audio": "audio/teacher-68ea9a6c3a65.mp3"
+  },
+  {
+    "id": "w-006",
+    "hanzi": "再见",
+    "pinyin": "zài jiàn",
+    "meaningVi": "tạm biệt",
+    "radical": "冂",
+    "level": 1,
+    "frequency": 2487,
+    "mnemonic": "再 (lại) + 见 (gặp) = hẹn gặp lại",
+    "examples": [
+      {
+        "hanzi": "明天见，再见！",
+        "pinyin": "míng tiān jiàn, zài jiàn!",
+        "vi": "Hẹn gặp ngày mai, tạm biệt!",
+        "audio": "audio/teacher-7b099cd3e84f.mp3"
+      }
+    ],
+    "audio": "audio/teacher-06be779fdfa9.mp3"
+  },
+  {
+    "id": "w-007",
+    "hanzi": "早上",
+    "pinyin": "zǎo shang",
+    "meaningVi": "buổi sáng",
+    "radical": "日",
+    "level": 1,
+    "frequency": 1092,
+    "mnemonic": "Hình mặt trời (日) mọc lên trên đường chân trời (早)",
+    "examples": [
+      {
+        "hanzi": "我每天早上到公园里遛狗。",
+        "pinyin": "wǒ měi tiān zǎo shàng dào gōng yuán lǐ liú gǒu 。",
+        "vi": "Sáng nào tôi cũng dắt chó đi dạo tại công viên.",
+        "audio": "audio/teacher-3553ccbe450f.mp3"
+      },
+      {
+        "hanzi": "他每天早上八点起床。",
+        "pinyin": "tā měi tiān zǎo shàng bā diǎn qǐ chuáng 。",
+        "vi": "Anh ấy thức dậy lúc tám giờ sáng hàng ngày.",
+        "audio": "audio/teacher-e83618728fea.mp3"
+      }
+    ],
+    "audio": "audio/teacher-5b97e572968f.mp3"
+  },
+  {
+    "id": "w-008",
+    "hanzi": "晚上",
+    "pinyin": "wǎn shang",
+    "meaningVi": "buổi tối",
+    "radical": "日",
+    "level": 1,
+    "frequency": 502,
+    "mnemonic": "Bộ nhật (日) chỉ thời gian lúc trời tối",
+    "examples": [
+      {
+        "hanzi": "晚上我们一起喝茶吧。",
+        "pinyin": "wǎn shang wǒ men yì qǐ hē chá ba.",
+        "vi": "Tối nay chúng mình cùng uống trà nhé.",
+        "audio": "audio/teacher-0167ec4c395d.mp3"
+      }
+    ],
+    "audio": "audio/teacher-16251322521c.mp3"
+  },
+  {
+    "id": "w-009",
+    "hanzi": "我",
+    "pinyin": "wǒ",
+    "meaningVi": "tôi, mình",
+    "radical": "戈",
+    "level": 1,
+    "frequency": 3,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我們試試看！",
+        "pinyin": "wǒ men shì shì kàn ！",
+        "vi": "Chúng ta hãy thử một vài thứ.",
+        "audio": "audio/teacher-ced5b3501eff.mp3"
+      },
+      {
+        "hanzi": "我该去睡觉了。",
+        "pinyin": "wǒ gāi qù shuì jiào le 。",
+        "vi": "Tôi phải đi ngủ.",
+        "audio": "audio/teacher-326d68e1d642.mp3"
+      }
+    ],
+    "audio": "audio/teacher-5579236387ff.mp3"
+  },
+  {
+    "id": "w-010",
+    "hanzi": "你",
+    "pinyin": "nǐ",
+    "meaningVi": "bạn",
+    "radical": "亻",
+    "level": 1,
+    "frequency": 5,
+    "mnemonic": "Bộ nhân đứng (亻) chỉ người đối diện",
+    "examples": [
+      {
+        "hanzi": "你在干什麼啊？",
+        "pinyin": "nǐ zài gàn shén me a ？",
+        "vi": "Bạn đang làm gì đây?",
+        "audio": "audio/teacher-90eb0c61c3c0.mp3"
+      },
+      {
+        "hanzi": "我会尽量不打扰你复习。",
+        "pinyin": "wǒ huì jǐn liàng bù dǎ rǎo nǐ fù xí 。",
+        "vi": "Tôi sẽ cố không quấy rầy bạn học hành.",
+        "audio": "audio/teacher-afe6efb4148a.mp3"
+      }
+    ],
+    "audio": "audio/teacher-7b4ffc5cd2e1.mp3"
+  },
+  {
+    "id": "w-011",
+    "hanzi": "他",
+    "pinyin": "tā",
+    "meaningVi": "anh ấy",
+    "radical": "亻",
+    "level": 1,
+    "frequency": 10,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我要把他射下來。",
+        "pinyin": "wǒ yào bǎ tā shè xià lái 。",
+        "vi": "Tao sẽ bắn hạ nó.",
+        "audio": "audio/teacher-0d4f2056a419.mp3"
+      },
+      {
+        "hanzi": "他们生活得很幸福。",
+        "pinyin": "tā men shēng huó dé hěn xìng fú 。",
+        "vi": "Họ đã có một cuộc sống hạnh phúc.",
+        "audio": "audio/teacher-5be6b7b1d226.mp3"
+      }
+    ],
+    "audio": "audio/teacher-73809ac0387c.mp3"
+  },
+  {
+    "id": "w-012",
+    "hanzi": "她",
+    "pinyin": "tā",
+    "meaningVi": "cô ấy",
+    "radical": "女",
+    "level": 1,
+    "frequency": 38,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "她非常周到和耐心。",
+        "pinyin": "tā fēi cháng zhōu dào hé nài xīn 。",
+        "vi": "Cô ấy rất kiên nhẫn và suy nghĩ vô cùng thấu đáo.",
+        "audio": "audio/teacher-868b32d136e2.mp3"
+      },
+      {
+        "hanzi": "她邀请我们去她的生日派对。",
+        "pinyin": "tā yāo qǐng wǒ men qù tā de shēng rì pài duì 。",
+        "vi": "Cô ấy mời chúng tôi đến dự buổi tiệc sinh nhật của cô ấy.",
+        "audio": "audio/teacher-6623f89e6e24.mp3"
+      }
+    ],
+    "audio": "audio/teacher-c340b7f26516.mp3"
+  },
+  {
+    "id": "w-013",
+    "hanzi": "我们",
+    "pinyin": "wǒ men",
+    "meaningVi": "chúng tôi, chúng mình",
+    "radical": "戈",
+    "level": 1,
+    "frequency": 19,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "她邀请我们去她的生日派对。",
+        "pinyin": "tā yāo qǐng wǒ men qù tā de shēng rì pài duì 。",
+        "vi": "Cô ấy mời chúng tôi đến dự buổi tiệc sinh nhật của cô ấy.",
+        "audio": "audio/teacher-6623f89e6e24.mp3"
+      },
+      {
+        "hanzi": "由于噪音，我们无法入睡。",
+        "pinyin": "yóu yú zào yīn ， wǒ men wú fǎ rù shuì 。",
+        "vi": "Chúng tôi không ngủ được vì ồn quá.",
+        "audio": "audio/teacher-5780383b2550.mp3"
+      }
+    ],
+    "audio": "audio/teacher-340883e5b609.mp3"
+  },
+  {
+    "id": "w-014",
+    "hanzi": "好",
+    "pinyin": "hǎo",
+    "meaningVi": "tốt, khỏe",
+    "radical": "女",
+    "level": 1,
+    "frequency": 20,
+    "mnemonic": "Chữ 女 (nữ) cạnh 子 (tử): mẹ ôm con tượng trưng điều tốt lành",
+    "examples": [
+      {
+        "hanzi": "我不知道應該說什麼才好。",
+        "pinyin": "wǒ bù zhī dào yīng gāi shuō shén me cái hǎo 。",
+        "vi": "Tôi hết lời để nói.",
+        "audio": "audio/teacher-61150fc96947.mp3"
+      },
+      {
+        "hanzi": "我好胖哦。",
+        "pinyin": "wǒ hǎo pàng ó 。",
+        "vi": "Tôi mập quá.",
+        "audio": "audio/teacher-c1cd7bebcd38.mp3"
+      }
+    ],
+    "audio": "audio/teacher-a461f81f363c.mp3"
+  },
+  {
+    "id": "w-015",
+    "hanzi": "很",
+    "pinyin": "hěn",
+    "meaningVi": "rất",
+    "radical": "彳",
+    "level": 1,
+    "frequency": 35,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我很快就會回來。",
+        "pinyin": "wǒ hěn kuài jiù huì huí lái 。",
+        "vi": "Con sẽ trở về sớm.",
+        "audio": "audio/teacher-1b1736c4d10e.mp3"
+      },
+      {
+        "hanzi": "他们生活得很幸福。",
+        "pinyin": "tā men shēng huó dé hěn xìng fú 。",
+        "vi": "Họ đã có một cuộc sống hạnh phúc.",
+        "audio": "audio/teacher-5be6b7b1d226.mp3"
+      }
+    ],
+    "audio": "audio/teacher-1e470552c5df.mp3"
+  },
+  {
+    "id": "w-016",
+    "hanzi": "吗",
+    "pinyin": "má",
+    "meaningVi": "không? (trợ từ nghi vấn)",
+    "radical": "口",
+    "level": 1,
+    "frequency": 83,
+    "mnemonic": "Bộ khẩu (口) ở trước để hỏi",
+    "examples": [
+      {
+        "hanzi": "那是一张近照吗？",
+        "pinyin": "nà shì yī zhāng jìn zhào ma ？",
+        "vi": "Tấm hình này có mới không?",
+        "audio": "audio/teacher-b80dbd69bbb8.mp3"
+      },
+      {
+        "hanzi": "你会说法语吗？",
+        "pinyin": "nǐ huì shuō fǎ yǔ ma ？",
+        "vi": "Cậu có biết nói tiếng Pháp không?",
+        "audio": "audio/teacher-e929efdabd43.mp3"
+      }
+    ],
+    "audio": "audio/teacher-cbe98e9ab553.mp3"
+  },
+  {
+    "id": "w-017",
+    "hanzi": "呢",
+    "pinyin": "ne",
+    "meaningVi": "thế còn...? (trợ từ)",
+    "radical": "口",
+    "level": 1,
+    "frequency": 96,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "你呢？",
+        "pinyin": "nǐ ne ？",
+        "vi": "Bạn thì sao?",
+        "audio": "audio/teacher-767c6e61cf79.mp3"
+      },
+      {
+        "hanzi": "这几条狗，它们灵着呢。",
+        "pinyin": "zhè jǐ tiáo gǒu ， tā men líng zhe ne 。",
+        "vi": "Mấy con chó này chúng nó khôn lắm.",
+        "audio": "audio/teacher-f93341d14ab1.mp3"
+      }
+    ],
+    "audio": "audio/teacher-64624775755b.mp3"
+  },
+  {
+    "id": "w-018",
+    "hanzi": "也",
+    "pinyin": "Yě",
+    "meaningVi": "cũng",
+    "radical": "乚",
+    "level": 1,
+    "frequency": 23,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "然而，相反的理论往往也是真的。",
+        "pinyin": "rán ér ， xiāng fǎn de lǐ lùn wǎng wǎng yě shì zhēn de 。",
+        "vi": "Nhưng, sự trái ngược cũng luôn luôn có lý.",
+        "audio": "audio/teacher-1df21a813816.mp3"
+      },
+      {
+        "hanzi": "一点也不便宜，贵得不得了。",
+        "pinyin": "yì diǎn yě bù biàn yí ， guì dé bù dé le 。",
+        "vi": "Không rẻ 1 tí nào, đắt khủng khiếp.",
+        "audio": "audio/teacher-de885f72c079.mp3"
+      }
+    ],
+    "audio": "audio/teacher-9879345656c9.mp3"
+  },
+  {
+    "id": "w-019",
+    "hanzi": "是",
+    "pinyin": "shì",
+    "meaningVi": "là",
+    "radical": "日",
+    "level": 1,
+    "frequency": 4,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "這是什麼啊？",
+        "pinyin": "zhè shì shén me a ？",
+        "vi": "Cái này là gì?",
+        "audio": "audio/teacher-4572d3af21e3.mp3"
+      },
+      {
+        "hanzi": "密码是\"Muiriel\"。",
+        "pinyin": "mì mǎ shì \"Muiriel\"。",
+        "vi": "Mật mã là \"Muiriel\".",
+        "audio": "audio/teacher-307d17ff390f.mp3"
+      }
+    ],
+    "audio": "audio/teacher-a8677e6d6fb5.mp3"
+  },
+  {
+    "id": "w-020",
+    "hanzi": "不",
+    "pinyin": "bù",
+    "meaningVi": "không",
+    "radical": "一",
+    "level": 1,
+    "frequency": 9,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我不知道。",
+        "pinyin": "wǒ bù zhī dào 。",
+        "vi": "Tôi không biết.",
+        "audio": "audio/teacher-5a80afc6402a.mp3"
+      },
+      {
+        "hanzi": "我不知道應該說什麼才好。",
+        "pinyin": "wǒ bù zhī dào yīng gāi shuō shén me cái hǎo 。",
+        "vi": "Tôi hết lời để nói.",
+        "audio": "audio/teacher-61150fc96947.mp3"
+      }
+    ],
+    "audio": "audio/teacher-064589db204e.mp3"
+  },
+  {
+    "id": "w-021",
+    "hanzi": "没关系",
+    "pinyin": "méi guān xi",
+    "meaningVi": "không sao đâu",
+    "radical": "氵",
+    "level": 1,
+    "frequency": 3541,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我学「没关系」。",
+        "pinyin": "wǒ xué méi guān xi.",
+        "vi": "Mình học từ \"không sao đâu\".",
+        "audio": "audio/teacher-7962c3168bdb.mp3"
+      }
+    ],
+    "audio": "audio/teacher-af76467120dc.mp3"
+  },
+  {
+    "id": "w-022",
+    "hanzi": "对不起",
+    "pinyin": "duì bu qǐ",
+    "meaningVi": "xin lỗi",
+    "radical": "寸",
+    "level": 1,
+    "frequency": 1577,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我学「对不起」。",
+        "pinyin": "wǒ xué duì bu qǐ.",
+        "vi": "Mình học từ \"xin lỗi\".",
+        "audio": "audio/teacher-702d87c3b7cb.mp3"
+      }
+    ],
+    "audio": "audio/teacher-ac26cfed72a0.mp3"
+  },
+  {
+    "id": "w-023",
+    "hanzi": "请",
+    "pinyin": "qǐng",
+    "meaningVi": "xin mời",
+    "radical": "讠",
+    "level": 1,
+    "frequency": 216,
+    "mnemonic": "Bộ ngôn (讠) — lời nói lịch sự",
+    "examples": [
+      {
+        "hanzi": "她邀请我们去她的生日派对。",
+        "pinyin": "tā yāo qǐng wǒ men qù tā de shēng rì pài duì 。",
+        "vi": "Cô ấy mời chúng tôi đến dự buổi tiệc sinh nhật của cô ấy.",
+        "audio": "audio/teacher-6623f89e6e24.mp3"
+      },
+      {
+        "hanzi": "请你给我一杯水。",
+        "pinyin": "qǐng nǐ gěi wǒ yī bēi shuǐ 。",
+        "vi": "Làm ơn cho tôi một cốc nước.",
+        "audio": "audio/teacher-dccda18c5a60.mp3"
+      }
+    ],
+    "audio": "audio/teacher-a14b91137ea5.mp3"
+  },
+  {
+    "id": "w-024",
+    "hanzi": "进",
+    "pinyin": "jìn",
+    "meaningVi": "vào",
+    "radical": "辶",
+    "level": 2,
+    "frequency": 338,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "她进屋前擦了鞋。",
+        "pinyin": "tā jìn wū qián cā le xié 。",
+        "vi": "Trước khi vào nhà, cô ấy đã cọ giày của mình cho sạch.",
+        "audio": "audio/teacher-f3d365a92acf.mp3"
+      },
+      {
+        "hanzi": "别让狗进来。",
+        "pinyin": "bié ràng gǒu jìn lái 。",
+        "vi": "Đừng cho chó vào trong.",
+        "audio": "audio/teacher-a5923288191b.mp3"
+      }
+    ],
+    "audio": "audio/teacher-3e82c4e6bcfa.mp3"
+  },
+  {
+    "id": "w-025",
+    "hanzi": "坐",
+    "pinyin": "Zuò",
+    "meaningVi": "ngồi",
+    "radical": "土",
+    "level": 1,
+    "frequency": 435,
+    "mnemonic": "Hai người (人) ngồi trên đất (土)",
+    "examples": [
+      {
+        "hanzi": "他們在那棵大樹的樹蔭下坐了下來。",
+        "pinyin": "tā men zài nà kē dà shù de shù yīn xià zuò le xià lái 。",
+        "vi": "Họ ngồi dưới bóng râm của cái cây to kia.",
+        "audio": "audio/teacher-97ee3ac14326.mp3"
+      },
+      {
+        "hanzi": "他常常坐着看书一连好几个小时。",
+        "pinyin": "tā cháng cháng zuò zhe kàn shū yī lián hǎo jǐ gè xiǎo shí 。",
+        "vi": "Cô ấy thường ngồi xem sách vài tiếng liền.",
+        "audio": "audio/teacher-8744b2b95a9e.mp3"
+      }
+    ],
+    "audio": "audio/teacher-e70a08885e56.mp3"
+  },
+  {
+    "id": "w-026",
+    "hanzi": "请坐",
+    "pinyin": "qǐng zuò",
+    "meaningVi": "mời ngồi",
+    "radical": "讠",
+    "level": 1,
+    "frequency": 37277,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我学「请坐」。",
+        "pinyin": "wǒ xué qǐng zuò.",
+        "vi": "Mình học từ \"mời ngồi\".",
+        "audio": "audio/teacher-043e2ad08837.mp3"
+      }
+    ],
+    "audio": "audio/teacher-f2271f09162b.mp3"
+  },
+  {
+    "id": "w-027",
+    "hanzi": "见",
+    "pinyin": "jiàn",
+    "meaningVi": "gặp, thấy",
+    "radical": "见",
+    "level": 1,
+    "frequency": 178,
+    "mnemonic": "Con mắt (目) bước đi để nhìn thấy và gặp mặt",
+    "examples": [
+      {
+        "hanzi": "我见到了王子真人。",
+        "pinyin": "wǒ jiàn dào le wáng zǐ zhēn rén 。",
+        "vi": "Tôi đã gặp Vương tử ngoài đời thật.",
+        "audio": "audio/teacher-ccff5fe0006e.mp3"
+      },
+      {
+        "hanzi": "我来，我见，我征服。",
+        "pinyin": "wǒ lái ， wǒ jiàn ， wǒ zhēng fú 。",
+        "vi": "Ta đến, ta thấy, ta chinh phục.",
+        "audio": "audio/teacher-5f210e3d17c7.mp3"
+      }
+    ],
+    "audio": "audio/teacher-c3bafa9a0870.mp3"
+  },
+  {
+    "id": "w-028",
+    "hanzi": "新",
+    "pinyin": "Xīn",
+    "meaningVi": "mới",
+    "radical": "斤",
+    "level": 1,
+    "frequency": 150,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "你該買輛新車了。",
+        "pinyin": "nǐ gāi mǎi liàng xīn chē le 。",
+        "vi": "Bạn nên mua một chiếc xe mới rồi.",
+        "audio": "audio/teacher-450a76a4d0d6.mp3"
+      },
+      {
+        "hanzi": "我买到了一辆新摩托车。",
+        "pinyin": "wǒ mǎi dào le yī liàng xīn mó tuō chē 。",
+        "vi": "Tôi mua được một cái mô-tô mới.",
+        "audio": "audio/teacher-7ff16467b069.mp3"
+      }
+    ],
+    "audio": "audio/teacher-e678d6b403e2.mp3"
+  },
+  {
+    "id": "w-029",
+    "hanzi": "对",
+    "pinyin": "duì",
+    "meaningVi": "đúng, đối diện",
+    "radical": "寸",
+    "level": 1,
+    "frequency": 28,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "她邀请我们去她的生日派对。",
+        "pinyin": "tā yāo qǐng wǒ men qù tā de shēng rì pài duì 。",
+        "vi": "Cô ấy mời chúng tôi đến dự buổi tiệc sinh nhật của cô ấy.",
+        "audio": "audio/teacher-6623f89e6e24.mp3"
+      },
+      {
+        "hanzi": "我十分反对这个项目。",
+        "pinyin": "wǒ shí fēn fǎn duì zhè ge xiàng mù 。",
+        "vi": "Tôi hoàn toàn phản đối kế hoạch.",
+        "audio": "audio/teacher-177fbd4e5aae.mp3"
+      }
+    ],
+    "audio": "audio/teacher-c9c4a716a41b.mp3"
+  },
+  {
+    "id": "w-030",
+    "hanzi": "开心",
+    "pinyin": "kāi xīn",
+    "meaningVi": "vui vẻ",
+    "radical": "廾",
+    "level": 3,
+    "frequency": 667,
+    "mnemonic": "Mở (开) lòng (心) ra là vui vẻ",
+    "examples": [
+      {
+        "hanzi": "又来了，又来了。你真能拿我开心。",
+        "pinyin": "yòu lái le ， yòu lái le 。 nǐ zhēn néng ná wǒ kāi xīn 。",
+        "vi": "Lại thế rồi, lại thế rồi. Cậu thật là biết lấy tớ ra làm trò cười đấy.",
+        "audio": "audio/teacher-67b4c87e29cf.mp3"
+      }
+    ],
+    "audio": "audio/teacher-c9b79ac7813f.mp3"
+  },
+  {
+    "id": "w-031",
+    "hanzi": "课",
+    "pinyin": "kè",
+    "meaningVi": "tiết học, bài học",
+    "radical": "讠",
+    "level": 1,
+    "frequency": 1517,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我学「课」。",
+        "pinyin": "wǒ xué kè.",
+        "vi": "Mình học từ \"tiết học, bài học\".",
+        "audio": "audio/teacher-af50a4ee00ed.mp3"
+      }
+    ],
+    "audio": "audio/teacher-6a975d08788f.mp3"
+  },
+  {
+    "id": "w-032",
+    "hanzi": "后",
+    "pinyin": "Hòu",
+    "meaningVi": "sau",
+    "radical": "口",
+    "level": 1,
+    "frequency": 115,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我正好赶上了最后一班火车。",
+        "pinyin": "wǒ zhèng hǎo gǎn shàng le zuì hòu yī bān huǒ chē 。",
+        "vi": "Tôi vừa kịp lúc bắt chuyến xe lửa cuối cùng.",
+        "audio": "audio/teacher-a0ba93ef0697.mp3"
+      },
+      {
+        "hanzi": "她拥抱了一下儿子，然后让他上床睡觉。",
+        "pinyin": "tā yōng bào le yī xià ér zi ， rán hòu ràng tā shàng chuáng shuì jiào 。",
+        "vi": "Cô ấy ôm con vào lòng, sau đó để nó ngủ trên giường.",
+        "audio": "audio/teacher-0b3dd4fa70dc.mp3"
+      }
+    ],
+    "audio": "audio/teacher-78983ca45765.mp3"
+  },
+  {
+    "id": "w-033",
+    "hanzi": "下午",
+    "pinyin": "xià wǔ",
+    "meaningVi": "buổi chiều",
+    "radical": "一",
+    "level": 1,
+    "frequency": 782,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我学「下午」。",
+        "pinyin": "wǒ xué xià wǔ.",
+        "vi": "Mình học từ \"buổi chiều\".",
+        "audio": "audio/teacher-86c1b2eaadd5.mp3"
+      }
+    ],
+    "audio": "audio/teacher-dca9cca9a0b7.mp3"
+  },
+  {
+    "id": "w-034",
+    "hanzi": "店",
+    "pinyin": "diàn",
+    "meaningVi": "quán, cửa hàng",
+    "radical": "广",
+    "level": 1,
+    "frequency": 732,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我学「店」。",
+        "pinyin": "wǒ xué diàn.",
+        "vi": "Mình học từ \"quán, cửa hàng\".",
+        "audio": "audio/teacher-7f6aa04b44ca.mp3"
+      }
+    ],
+    "audio": "audio/teacher-4c012dc93e19.mp3"
+  },
+  {
+    "id": "w-035",
+    "hanzi": "一家",
+    "pinyin": "yī jiā",
+    "meaningVi": "một quán / nhà",
+    "radical": "",
+    "level": 1,
+    "frequency": 350,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我学「一家」。",
+        "pinyin": "wǒ xué yī jiā.",
+        "vi": "Mình học từ \"một quán / nhà\".",
+        "audio": "audio/teacher-2c5fcac74df5.mp3"
+      }
+    ],
+    "audio": "audio/teacher-6d17d7b75058.mp3"
+  },
+  {
+    "id": "w-036",
+    "hanzi": "这里",
+    "pinyin": "zhè lǐ",
+    "meaningVi": "ở đây",
+    "radical": "辶",
+    "level": 1,
+    "frequency": 209,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他来这里的目的是什么？",
+        "pinyin": "tā lái zhè lǐ de mù dì shì shén me ？",
+        "vi": "Anh ta đến đây vì mục đích gì?",
+        "audio": "audio/teacher-f21850c9ac77.mp3"
+      },
+      {
+        "hanzi": "这里你可以看到漂亮的颜色组合。",
+        "pinyin": "zhè lǐ nǐ kě yǐ kàn dào piào liàng de yán sè zǔ hé 。",
+        "vi": "Bạn có thể thấy một tổ hợp màu rất đẹp ở đây.",
+        "audio": "audio/teacher-1e27f2c61ca8.mp3"
+      }
+    ],
+    "audio": "audio/teacher-f9324e123499.mp3"
+  },
+  {
+    "id": "w-037",
+    "hanzi": "还有",
+    "pinyin": "hái yǒu",
+    "meaningVi": "còn có",
+    "radical": "辶",
+    "level": 1,
+    "frequency": 153,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "羊屁股先生可没告诉我还有搭档。",
+        "pinyin": "yáng pì gǔ xiān shēng kě méi gào sù wǒ hái yǒu dā dàng 。",
+        "vi": "Ông Ramsbottom chẳng nói cho tôi biết còn có đối tác.",
+        "audio": "audio/teacher-070e2108a45e.mp3"
+      }
+    ],
+    "audio": "audio/teacher-e954d5928d34.mp3"
+  },
+  {
+    "id": "w-038",
+    "hanzi": "问",
+    "pinyin": "wèn",
+    "meaningVi": "hỏi",
+    "radical": "门",
+    "level": 1,
+    "frequency": 246,
+    "mnemonic": "Cái miệng (口) đặt trong cánh cửa (门) để hỏi",
+    "examples": [
+      {
+        "hanzi": "宇宙毫无疑问是无限的。",
+        "pinyin": "yǔ zhòu háo wú yí wèn shì wú xiàn de 。",
+        "vi": "Không còn nghi ngờ gì nữa: vũ trụ là vô tận.",
+        "audio": "audio/teacher-2f6a90152d95.mp3"
+      },
+      {
+        "hanzi": "我想问你一个问题。",
+        "pinyin": "wǒ xiǎng wèn nǐ yí gè wèn tí 。",
+        "vi": "Tôi muốn hỏi bạn một vấn đề.",
+        "audio": "audio/teacher-2ce5634f7ac5.mp3"
+      }
+    ],
+    "audio": "audio/teacher-3162b17e0fb0.mp3"
+  },
+  {
+    "id": "w-039",
+    "hanzi": "一共",
+    "pinyin": "yī gòng",
+    "meaningVi": "tổng cộng",
+    "radical": "一",
+    "level": 3,
+    "frequency": 4765,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我学「一共」。",
+        "pinyin": "wǒ xué yī gòng.",
+        "vi": "Mình học từ \"tổng cộng\".",
+        "audio": "audio/teacher-b923efe93841.mp3"
+      }
+    ],
+    "audio": "audio/teacher-6705af540364.mp3"
+  },
+  {
+    "id": "w-040",
+    "hanzi": "四十",
+    "pinyin": "sì shí",
+    "meaningVi": "bốn mươi",
+    "radical": "",
+    "level": 1,
+    "frequency": 400,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我学「四十」。",
+        "pinyin": "wǒ xué sì shí.",
+        "vi": "Mình học từ \"bốn mươi\".",
+        "audio": "audio/teacher-c180e245bed4.mp3"
+      }
+    ],
+    "audio": "audio/teacher-842286a4e213.mp3"
+  },
+  {
+    "id": "w-041",
+    "hanzi": "十",
+    "pinyin": "shí",
+    "meaningVi": "mười",
+    "radical": "十",
+    "level": 1,
+    "frequency": 865,
+    "mnemonic": "Hình chữ thập (+) tượng trưng số mười",
+    "examples": [
+      {
+        "hanzi": "我十分反对这个项目。",
+        "pinyin": "wǒ shí fēn fǎn duì zhè ge xiàng mù 。",
+        "vi": "Tôi hoàn toàn phản đối kế hoạch.",
+        "audio": "audio/teacher-177fbd4e5aae.mp3"
+      },
+      {
+        "hanzi": "他對日本的歷史十分有興趣。",
+        "pinyin": "tā duì rì běn de lì shǐ shí fēn yǒu xìng qù 。",
+        "vi": "Anh ấy cực kì quan tâm tới lịch sử Nhật Bản.",
+        "audio": "audio/teacher-772a6a5ffc8c.mp3"
+      }
+    ],
+    "audio": "audio/teacher-9606465b5b43.mp3"
+  },
+  {
+    "id": "w-042",
+    "hanzi": "请问",
+    "pinyin": "qǐng wèn",
+    "meaningVi": "xin hỏi",
+    "radical": "讠",
+    "level": 1,
+    "frequency": 3689,
+    "mnemonic": "请 (xin mời) + 问 (hỏi) = xin phép hỏi",
+    "examples": [
+      {
+        "hanzi": "我学「请问」。",
+        "pinyin": "wǒ xué qǐng wèn.",
+        "vi": "Mình học từ \"xin hỏi\".",
+        "audio": "audio/teacher-9da1738c8539.mp3"
+      }
+    ],
+    "audio": "audio/teacher-e0c4eb83b1a0.mp3"
+  },
+  {
+    "id": "w-043",
+    "hanzi": "还是",
+    "pinyin": "hái shi",
+    "meaningVi": "hay là (trong câu hỏi lựa chọn)",
+    "radical": "辶",
+    "level": 2,
+    "frequency": 160,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他还是个孩子，犯不上跟他生气。",
+        "pinyin": "tā hái shì gè hái zi ， fàn bù shàng gēn tā shēng qì 。",
+        "vi": "Nó vẫn còn là đứa trẻ con, không đáng tức giận với nó.",
+        "audio": "audio/teacher-30f75c265f61.mp3"
+      },
+      {
+        "hanzi": "您赞成还是反对他的想法？",
+        "pinyin": "nín zàn chéng hái shì fǎn duì tā de xiǎng fǎ ？",
+        "vi": "Ông tán thành hay phản đối ý kiến của nó?",
+        "audio": "audio/teacher-0ae8a84bb88e.mp3"
+      }
+    ],
+    "audio": "audio/teacher-48c346e6af5b.mp3"
+  },
+  {
+    "id": "w-044",
+    "hanzi": "给",
+    "pinyin": "gěi",
+    "meaningVi": "cho, đưa cho",
+    "radical": "纟",
+    "level": 1,
+    "frequency": 46,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他半夜打了个电话给我。",
+        "pinyin": "tā bàn yè dǎ le gè diàn huà gěi wǒ 。",
+        "vi": "Anh ấy đã gọi cho tôi một cuộc vào lúc nửa đêm.",
+        "audio": "audio/teacher-9a299f7de918.mp3"
+      },
+      {
+        "hanzi": "请你给我一杯水。",
+        "pinyin": "qǐng nǐ gěi wǒ yī bēi shuǐ 。",
+        "vi": "Làm ơn cho tôi một cốc nước.",
+        "audio": "audio/teacher-dccda18c5a60.mp3"
+      }
+    ],
+    "audio": "audio/teacher-052318fa4739.mp3"
+  },
+  {
+    "id": "w-045",
+    "hanzi": "还",
+    "pinyin": "Huán",
+    "meaningVi": "còn, vẫn",
+    "radical": "辶",
+    "level": 1,
+    "frequency": 37,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我还没有洗头。",
+        "pinyin": "wǒ hái méi yǒu xǐ tóu 。",
+        "vi": "Tôi chưa gội đầu.",
+        "audio": "audio/teacher-b453d472530e.mp3"
+      },
+      {
+        "hanzi": "那件事我们还不知道。",
+        "pinyin": "nà jiàn shì wǒ men hái bù zhī dào 。",
+        "vi": "Việc đó, chúng tôi chưa biết.",
+        "audio": "audio/teacher-013a3490410f.mp3"
+      }
+    ],
+    "audio": "audio/teacher-9808336130d8.mp3"
+  },
+  {
+    "id": "w-046",
+    "hanzi": "帮",
+    "pinyin": "bāng",
+    "meaningVi": "giúp, giúp đỡ",
+    "radical": "巾",
+    "level": 2,
+    "frequency": 395,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "贸易帮助国家发展。",
+        "pinyin": "mào yì bāng zhù guó jiā fā zhǎn 。",
+        "vi": "Mậu dịch hỗ trợ sự phát triển của quốc gia.",
+        "audio": "audio/teacher-2c855e6018f4.mp3"
+      },
+      {
+        "hanzi": "你需要我们的帮助吗？",
+        "pinyin": "nǐ xū yào wǒ men de bāng zhù ma ？",
+        "vi": "Bạn có cần sự giúp đỡ của chúng tôi không?",
+        "audio": "audio/teacher-c1f4a9ec65df.mp3"
+      }
+    ],
+    "audio": "audio/teacher-c61b17768108.mp3"
+  },
+  {
+    "id": "w-047",
+    "hanzi": "您",
+    "pinyin": "nín",
+    "meaningVi": "ngài, bạn (kính ngữ)",
+    "radical": "心",
+    "level": 1,
+    "frequency": 357,
+    "mnemonic": "你 (bạn) đặt trên 心 (lòng) = kính trọng",
+    "examples": [
+      {
+        "hanzi": "您可以随便去哪儿。",
+        "pinyin": "nín kě yǐ suí biàn qù nǎ ér 。",
+        "vi": "Bạn có thể tùy ý đi bất cứ đâu.",
+        "audio": "audio/teacher-5bc70933c129.mp3"
+      },
+      {
+        "hanzi": "非常感謝您昨晚美妙的晚餐。",
+        "pinyin": "fēi cháng gǎn xiè nín zuó wǎn měi miào de wǎn cān 。",
+        "vi": "Vô cùng cảm ơn ngài về bữa tối tuyệt vời tối qua.",
+        "audio": "audio/teacher-1fc7b66f108c.mp3"
+      }
+    ],
+    "audio": "audio/teacher-d675eae4f101.mp3"
+  },
+  {
+    "id": "w-048",
+    "hanzi": "可以",
+    "pinyin": "kě yǐ",
+    "meaningVi": "có thể, được",
+    "radical": "口",
+    "level": 1,
+    "frequency": 58,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "如果我可以像那樣的話...",
+        "pinyin": "rú guǒ wǒ kě yǐ xiàng nà yàng de huà ...",
+        "vi": "Giá mà tôi cũng như vậy...",
+        "audio": "audio/teacher-875747315981.mp3"
+      },
+      {
+        "hanzi": "人人都愿意相信美梦可以成真。",
+        "pinyin": "rén rén dōu yuàn yì xiāng xìn měi mèng kě yǐ chéng zhēn 。",
+        "vi": "Ai cũng muốn tin rằng mọi giấc mơ đều có thể trở thành hiện thực.",
+        "audio": "audio/teacher-e251b5b54a95.mp3"
+      }
+    ],
+    "audio": "audio/teacher-d5dc55643780.mp3"
+  },
+  {
+    "id": "w-049",
+    "hanzi": "真",
+    "pinyin": "zhēn",
+    "meaningVi": "thật là",
+    "radical": "目",
+    "level": 1,
+    "frequency": 76,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "可惜这是真的。",
+        "pinyin": "kě xī zhè shì zhēn de 。",
+        "vi": "Tiếc rằng cái đó là sự thật.",
+        "audio": "audio/teacher-816a351e0734.mp3"
+      },
+      {
+        "hanzi": "然而，相反的理论往往也是真的。",
+        "pinyin": "rán ér ， xiāng fǎn de lǐ lùn wǎng wǎng yě shì zhēn de 。",
+        "vi": "Nhưng, sự trái ngược cũng luôn luôn có lý.",
+        "audio": "audio/teacher-1df21a813816.mp3"
+      }
+    ],
+    "audio": "audio/teacher-916511e0d0f0.mp3"
+  },
+  {
+    "id": "w-050",
+    "hanzi": "红茶",
+    "pinyin": "hóng chá",
+    "meaningVi": "hồng trà, trà đen",
+    "radical": "纟",
+    "level": 2,
+    "frequency": 21109,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我学「红茶」。",
+        "pinyin": "wǒ xué hóng chá.",
+        "vi": "Mình học từ \"hồng trà, trà đen\".",
+        "audio": "audio/teacher-70e5e6ded259.mp3"
+      }
+    ],
+    "audio": "audio/teacher-d046c063e5df.mp3"
+  },
+  {
+    "id": "w-051",
+    "hanzi": "再",
+    "pinyin": "zài",
+    "meaningVi": "lại, nữa",
+    "radical": "冂",
+    "level": 1,
+    "frequency": 91,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "不要再把我当成“正常”人！",
+        "pinyin": "bú yào zài bǎ wǒ dàng chéng “ zhèng cháng ” rén ！",
+        "vi": "Đừng coi tôi như người \"bình thường\"!",
+        "audio": "audio/teacher-91666d541c4d.mp3"
+      },
+      {
+        "hanzi": "不要再调大电视的声音了。",
+        "pinyin": "bú yào zài diào dà diàn shì de shēng yīn le 。",
+        "vi": "Đừng bật to tiếng ti vi thêm nữa.",
+        "audio": "audio/teacher-b2bce3f0cade.mp3"
+      }
+    ],
+    "audio": "audio/teacher-cab9e5f790b5.mp3"
+  },
+  {
+    "id": "w-052",
+    "hanzi": "先",
+    "pinyin": "xiān",
+    "meaningVi": "trước",
+    "radical": "儿",
+    "level": 3,
+    "frequency": 306,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "这个国家的军事力量很先进。",
+        "pinyin": "zhè ge guó jiā de jūn shì lì liàng hěn xiān jìn 。",
+        "vi": "Lực lượng quân sự nước này rất hiện đại.",
+        "audio": "audio/teacher-63bbcdbf7e8b.mp3"
+      },
+      {
+        "hanzi": "事先打个招呼，别叫我临时抓瞎。",
+        "pinyin": "shì xiān dǎ gè zhāo hū ， bié jiào wǒ lín shí zhuā xiā 。",
+        "vi": "Cứ chào hỏi một câu trước đã, không đến lúc lại vội vội vàng vàng.",
+        "audio": "audio/teacher-bcea6fb72dfa.mp3"
+      }
+    ],
+    "audio": "audio/teacher-2d44078863e0.mp3"
+  },
+  {
+    "id": "w-053",
+    "hanzi": "最后",
+    "pinyin": "zuì hòu",
+    "meaningVi": "cuối cùng",
+    "radical": "曰",
+    "level": 3,
+    "frequency": 261,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我正好赶上了最后一班火车。",
+        "pinyin": "wǒ zhèng hǎo gǎn shàng le zuì hòu yī bān huǒ chē 。",
+        "vi": "Tôi vừa kịp lúc bắt chuyến xe lửa cuối cùng.",
+        "audio": "audio/teacher-a0ba93ef0697.mp3"
+      }
+    ],
+    "audio": "audio/teacher-a49625a74ece.mp3"
+  },
+  {
+    "id": "w-054",
+    "hanzi": "叫",
+    "pinyin": "jiào",
+    "meaningVi": "tên là, gọi",
+    "radical": "口",
+    "level": 1,
+    "frequency": 200,
+    "mnemonic": "Bộ khẩu (口) — cất tiếng gọi",
+    "examples": [
+      {
+        "hanzi": "叫救护车。",
+        "pinyin": "jiào jiù hù chē 。",
+        "vi": "Gọi xe cứu thương đi.",
+        "audio": "audio/teacher-c93db10ee2e4.mp3"
+      },
+      {
+        "hanzi": "我叫山田。",
+        "pinyin": "wǒ jiào shān tián 。",
+        "vi": "Tôi tên là Yamada.",
+        "audio": "audio/teacher-3691f13186f3.mp3"
+      }
+    ],
+    "audio": "audio/teacher-8777bef8f5d2.mp3"
+  },
+  {
+    "id": "w-055",
+    "hanzi": "什么",
+    "pinyin": "shén me",
+    "meaningVi": "cái gì",
+    "radical": "亻",
+    "level": 1,
+    "frequency": 55,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他来这里的目的是什么？",
+        "pinyin": "tā lái zhè lǐ de mù dì shì shén me ？",
+        "vi": "Anh ta đến đây vì mục đích gì?",
+        "audio": "audio/teacher-f21850c9ac77.mp3"
+      },
+      {
+        "hanzi": "什么都不会改变。",
+        "pinyin": "shén me dōu bú huì gǎi biàn 。",
+        "vi": "Không có gì thay đổi cả.",
+        "audio": "audio/teacher-ec2ccf12f420.mp3"
+      }
+    ],
+    "audio": "audio/teacher-08ed3e07d546.mp3"
+  },
+  {
+    "id": "w-056",
+    "hanzi": "名字",
+    "pinyin": "míng zi",
+    "meaningVi": "tên",
+    "radical": "口",
+    "level": 1,
+    "frequency": 829,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我学「名字」。",
+        "pinyin": "wǒ xué míng zi.",
+        "vi": "Mình học từ \"tên\".",
+        "audio": "audio/teacher-5d070e58a4c4.mp3"
+      }
+    ],
+    "audio": "audio/teacher-ac2a92af0a46.mp3"
+  },
+  {
+    "id": "w-057",
+    "hanzi": "这",
+    "pinyin": "zhè",
+    "meaningVi": "đây, này",
+    "radical": "辶",
+    "level": 1,
+    "frequency": 11,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "可惜这是真的。",
+        "pinyin": "kě xī zhè shì zhēn de 。",
+        "vi": "Tiếc rằng cái đó là sự thật.",
+        "audio": "audio/teacher-816a351e0734.mp3"
+      },
+      {
+        "hanzi": "这顶红帽子很衬她的裙子。",
+        "pinyin": "zhè dǐng hóng mào zi hěn chèn tā de qún zi 。",
+        "vi": "Chiếc mũ đỏ này rất hợp với chiếc váy của cô ấy.",
+        "audio": "audio/teacher-b8100e1f4f3a.mp3"
+      }
+    ],
+    "audio": "audio/teacher-6a03f1a3c38e.mp3"
+  },
+  {
+    "id": "w-058",
+    "hanzi": "那",
+    "pinyin": "Nā",
+    "meaningVi": "đó, kia",
+    "radical": "阝",
+    "level": 1,
+    "frequency": 48,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "那是一隻有惡意的兔子。",
+        "pinyin": "nà shì yī zhī yǒu è yì de tù zi 。",
+        "vi": "Đó là một con thỏ hung ác.",
+        "audio": "audio/teacher-79f1ce51ce3d.mp3"
+      },
+      {
+        "hanzi": "那是一张近照吗？",
+        "pinyin": "nà shì yī zhāng jìn zhào ma ？",
+        "vi": "Tấm hình này có mới không?",
+        "audio": "audio/teacher-b80dbd69bbb8.mp3"
+      }
+    ],
+    "audio": "audio/teacher-672287ba265d.mp3"
+  },
+  {
+    "id": "w-059",
+    "hanzi": "谁",
+    "pinyin": "shéi",
+    "meaningVi": "ai",
+    "radical": "讠",
+    "level": 1,
+    "frequency": 142,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我正在跟谁讲话？",
+        "pinyin": "wǒ zhèng zài gēn shuí jiǎng huà ？",
+        "vi": "Tôi đang nói chuyện với ai đây?",
+        "audio": "audio/teacher-6ee5bd796cf9.mp3"
+      },
+      {
+        "hanzi": "谁负责这个部门？",
+        "pinyin": "shuí fù zé zhè ge bù mén ？",
+        "vi": "Ai phụ trách khâu này?",
+        "audio": "audio/teacher-7de472610420.mp3"
+      }
+    ],
+    "audio": "audio/teacher-5244d0b2538e.mp3"
+  },
+  {
+    "id": "w-060",
+    "hanzi": "哪",
+    "pinyin": "nǎ",
+    "meaningVi": "nào",
+    "radical": "口",
+    "level": 1,
+    "frequency": 547,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "哪裡有問題?",
+        "pinyin": "nǎ lǐ yǒu wèn tí ?",
+        "vi": "Vấn đề ở đâu?",
+        "audio": "audio/teacher-2df715b414b8.mp3"
+      },
+      {
+        "hanzi": "你是从哪个国家来的？",
+        "pinyin": "nǐ shì cóng nǎ ge guó jiā lái de ？",
+        "vi": "Bạn đến từ nước nào vậy?",
+        "audio": "audio/teacher-a6f8e3bf64d0.mp3"
+      }
+    ],
+    "audio": "audio/teacher-2ed61fa42ec7.mp3"
+  },
+  {
+    "id": "w-061",
+    "hanzi": "人",
+    "pinyin": "rén",
+    "meaningVi": "người",
+    "radical": "人",
+    "level": 1,
+    "frequency": 19,
+    "mnemonic": "Dáng người đang bước đi",
+    "examples": [
+      {
+        "hanzi": "不要再把我当成“正常”人！",
+        "pinyin": "bú yào zài bǎ wǒ dàng chéng “ zhèng cháng ” rén ！",
+        "vi": "Đừng coi tôi như người \"bình thường\"!",
+        "audio": "audio/teacher-91666d541c4d.mp3"
+      },
+      {
+        "hanzi": "人人都愿意相信美梦可以成真。",
+        "pinyin": "rén rén dōu yuàn yì xiāng xìn měi mèng kě yǐ chéng zhēn 。",
+        "vi": "Ai cũng muốn tin rằng mọi giấc mơ đều có thể trở thành hiện thực.",
+        "audio": "audio/teacher-e251b5b54a95.mp3"
+      }
+    ],
+    "audio": "audio/teacher-cf5b7092ca81.mp3"
+  },
+  {
+    "id": "w-062",
+    "hanzi": "越南",
+    "pinyin": "yuè nán",
+    "meaningVi": "Việt Nam",
+    "radical": "",
+    "level": 1,
+    "frequency": 620,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "越南语真的难学。",
+        "pinyin": "yuè nán yǔ zhēn de nán xué 。",
+        "vi": "Tiếng Việt thật sự rất khó học.",
+        "audio": "audio/teacher-2680a1181e7d.mp3"
+      },
+      {
+        "hanzi": "河内是越南的首都。",
+        "pinyin": "hé nèi shì yuè nán de shǒu dū 。",
+        "vi": "Hà Nội là thủ đô của nước Việt Nam.",
+        "audio": "audio/teacher-0be11d49119c.mp3"
+      }
+    ],
+    "audio": "audio/teacher-cce32e8a001f.mp3"
+  },
+  {
+    "id": "w-063",
+    "hanzi": "中国",
+    "pinyin": "Zhōng guó",
+    "meaningVi": "Trung Quốc",
+    "radical": "丨",
+    "level": 1,
+    "frequency": 729,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "中国发展得很快。",
+        "pinyin": "zhōng guó fā zhǎn dé hěn kuài 。",
+        "vi": "Trung Quốc phát triển rất nhanh.",
+        "audio": "audio/teacher-2fdac068cbf7.mp3"
+      },
+      {
+        "hanzi": "中国很快地发展。",
+        "pinyin": "zhōng guó hěn kuài dì fā zhǎn 。",
+        "vi": "Trung Quốc phát triển nhanh chóng.",
+        "audio": "audio/teacher-99e68760ad68.mp3"
+      }
+    ],
+    "audio": "audio/teacher-9a085336e7af.mp3"
+  },
+  {
+    "id": "w-064",
+    "hanzi": "朋友",
+    "pinyin": "péng you",
+    "meaningVi": "bạn bè",
+    "radical": "月",
+    "level": 1,
+    "frequency": 280,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我有个朋友住在札幌。",
+        "pinyin": "wǒ yǒu gè péng yǒu zhù zài zhá huǎng 。",
+        "vi": "Tôi có một người bạn sống ở Sapporo.",
+        "audio": "audio/teacher-4946ffc408bf.mp3"
+      },
+      {
+        "hanzi": "這位朋友沒有出席。",
+        "pinyin": "zhè wèi péng yǒu méi yǒu chū xí 。",
+        "vi": "Bạn này không có mặt.",
+        "audio": "audio/teacher-7c9d94eae307.mp3"
+      }
+    ],
+    "audio": "audio/teacher-3ec5da09902a.mp3"
+  },
+  {
+    "id": "w-065",
+    "hanzi": "同学",
+    "pinyin": "tóng xué",
+    "meaningVi": "bạn học",
+    "radical": "口",
+    "level": 1,
+    "frequency": 1828,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我们都是汤姆的同学。",
+        "pinyin": "wǒ men dōu shì tāng mǔ de tóng xué 。",
+        "vi": "Chúng tôi đều là bạn học của Tom.",
+        "audio": "audio/teacher-a88f50bc16e2.mp3"
+      }
+    ],
+    "audio": "audio/teacher-00db7e4e5ad7.mp3"
+  },
+  {
+    "id": "w-066",
+    "hanzi": "家",
+    "pinyin": "jiā",
+    "meaningVi": "nhà, gia đình",
+    "radical": "宀",
+    "level": 1,
+    "frequency": 124,
+    "mnemonic": "Mái nhà (宀) che chở cho cuộc sống bên dưới (豕)",
+    "examples": [
+      {
+        "hanzi": "到了最後，大家一定要靠自己學習。",
+        "pinyin": "dào le zuì hòu ， dà jiā yí dìng yào kào zì jǐ xué xí 。",
+        "vi": "Rốt cuộc, ai cũng phải tự học thôi.",
+        "audio": "audio/teacher-484947606990.mp3"
+      },
+      {
+        "hanzi": "你是从哪个国家来的？",
+        "pinyin": "nǐ shì cóng nǎ ge guó jiā lái de ？",
+        "vi": "Bạn đến từ nước nào vậy?",
+        "audio": "audio/teacher-a6f8e3bf64d0.mp3"
+      }
+    ],
+    "audio": "audio/teacher-ef37ac554ee2.mp3"
+  },
+  {
+    "id": "w-067",
+    "hanzi": "今天",
+    "pinyin": "jīn tiān",
+    "meaningVi": "hôm nay",
+    "radical": "人",
+    "level": 1,
+    "frequency": 155,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "今天有点冷。",
+        "pinyin": "jīn tiān yǒu diǎn lěng 。",
+        "vi": "Hôm nay trời hơi lạnh.",
+        "audio": "audio/teacher-86ac0105f286.mp3"
+      },
+      {
+        "hanzi": "今天很热。",
+        "pinyin": "jīn tiān hěn rè 。",
+        "vi": "Hôm nay cực nóng.",
+        "audio": "audio/teacher-cbc0a039f050.mp3"
+      }
+    ],
+    "audio": "audio/teacher-021e7483827a.mp3"
+  },
+  {
+    "id": "w-068",
+    "hanzi": "明天",
+    "pinyin": "míng tiān",
+    "meaningVi": "ngày mai",
+    "radical": "日",
+    "level": 1,
+    "frequency": 469,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "明天我能去你家。",
+        "pinyin": "míng tiān wǒ néng qù nǐ jiā 。",
+        "vi": "Ngày mai tôi đến nhà anh được.",
+        "audio": "audio/teacher-19dc34d0e4ed.mp3"
+      },
+      {
+        "hanzi": "明天，我们还来。",
+        "pinyin": "míng tiān ， wǒ men hái lái 。",
+        "vi": "Ngày mai, chúng tôi còn đến đây.",
+        "audio": "audio/teacher-9ff323bc83de.mp3"
+      }
+    ],
+    "audio": "audio/teacher-9453f4a43315.mp3"
+  },
+  {
+    "id": "w-069",
+    "hanzi": "现在",
+    "pinyin": "xiàn zài",
+    "meaningVi": "bây giờ",
+    "radical": "王",
+    "level": 1,
+    "frequency": 77,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "Muiriel现在20岁了。",
+        "pinyin": "Muiriel xiàn zài 20 suì le 。",
+        "vi": "Bây giờ Muiriel được 20 tuổi.",
+        "audio": "audio/teacher-22adca5a83d6.mp3"
+      },
+      {
+        "hanzi": "现在我想起来了。",
+        "pinyin": "xiàn zài wǒ xiǎng qǐ lái le 。",
+        "vi": "Hiện tại tôi nhớ ra rồi.",
+        "audio": "audio/teacher-2d82c37795db.mp3"
+      }
+    ],
+    "audio": "audio/teacher-8e5e612ff0d8.mp3"
+  },
+  {
+    "id": "w-070",
+    "hanzi": "点",
+    "pinyin": "diǎn",
+    "meaningVi": "giờ / gọi món",
+    "radical": "灬",
+    "level": 1,
+    "frequency": 58,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "今天有点冷。",
+        "pinyin": "jīn tiān yǒu diǎn lěng 。",
+        "vi": "Hôm nay trời hơi lạnh.",
+        "audio": "audio/teacher-86ac0105f286.mp3"
+      },
+      {
+        "hanzi": "一点也不便宜，贵得不得了。",
+        "pinyin": "yì diǎn yě bù biàn yí ， guì dé bù dé le 。",
+        "vi": "Không rẻ 1 tí nào, đắt khủng khiếp.",
+        "audio": "audio/teacher-de885f72c079.mp3"
+      }
+    ],
+    "audio": "audio/teacher-b5124ac6ba4d.mp3"
+  },
+  {
+    "id": "w-071",
+    "hanzi": "去",
+    "pinyin": "qù",
+    "meaningVi": "đi",
+    "radical": "厶",
+    "level": 1,
+    "frequency": 38,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我该去睡觉了。",
+        "pinyin": "wǒ gāi qù shuì jiào le 。",
+        "vi": "Tôi phải đi ngủ.",
+        "audio": "audio/teacher-326d68e1d642.mp3"
+      },
+      {
+        "hanzi": "你應該去睡覺了吧。",
+        "pinyin": "nǐ yīng gāi qù shuì jué le ba 。",
+        "vi": "Bạn nên đi ngủ đi.",
+        "audio": "audio/teacher-e9ebfb777418.mp3"
+      }
+    ],
+    "audio": "audio/teacher-7292872e1416.mp3"
+  },
+  {
+    "id": "w-072",
+    "hanzi": "来",
+    "pinyin": "lái",
+    "meaningVi": "đến",
+    "radical": "木",
+    "level": 1,
+    "frequency": 31,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "你是从哪个国家来的？",
+        "pinyin": "nǐ shì cóng nǎ ge guó jiā lái de ？",
+        "vi": "Bạn đến từ nước nào vậy?",
+        "audio": "audio/teacher-a6f8e3bf64d0.mp3"
+      },
+      {
+        "hanzi": "我们的眼睛需要时间来适应黑暗。",
+        "pinyin": "wǒ men de yǎn jīng xū yào shí jiān lái shì yìng hēi àn 。",
+        "vi": "Mắt của chúng ta cần thời gian để điều chỉnh với bóng tối.",
+        "audio": "audio/teacher-45e9e1300344.mp3"
+      }
+    ],
+    "audio": "audio/teacher-a4d4d1591d50.mp3"
+  },
+  {
+    "id": "w-073",
+    "hanzi": "在",
+    "pinyin": "zài",
+    "meaningVi": "ở, đang",
+    "radical": "土",
+    "level": 1,
+    "frequency": 5,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "你在干什麼啊？",
+        "pinyin": "nǐ zài gàn shén me a ？",
+        "vi": "Bạn đang làm gì đây?",
+        "audio": "audio/teacher-90eb0c61c3c0.mp3"
+      },
+      {
+        "hanzi": "Muiriel现在20岁了。",
+        "pinyin": "Muiriel xiàn zài 20 suì le 。",
+        "vi": "Bây giờ Muiriel được 20 tuổi.",
+        "audio": "audio/teacher-22adca5a83d6.mp3"
+      }
+    ],
+    "audio": "audio/teacher-7ee22dbf62c4.mp3"
+  },
+  {
+    "id": "w-074",
+    "hanzi": "有",
+    "pinyin": "yǒu",
+    "meaningVi": "có",
+    "radical": "月",
+    "level": 1,
+    "frequency": 9,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "那是一隻有惡意的兔子。",
+        "pinyin": "nà shì yī zhī yǒu è yì de tù zi 。",
+        "vi": "Đó là một con thỏ hung ác.",
+        "audio": "audio/teacher-79f1ce51ce3d.mp3"
+      },
+      {
+        "hanzi": "哦！有一隻蝴蝶！",
+        "pinyin": "ó ！ yǒu yī zhī hú dié ！",
+        "vi": "Ô kìa, con bươm bướm!",
+        "audio": "audio/teacher-1855b69e5877.mp3"
+      }
+    ],
+    "audio": "audio/teacher-c62c20ac9918.mp3"
+  },
+  {
+    "id": "w-075",
+    "hanzi": "没有",
+    "pinyin": "méi yǒu",
+    "meaningVi": "không có",
+    "radical": "氵",
+    "level": 1,
+    "frequency": 46,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "这个班里没有人像Bill一样高。",
+        "pinyin": "zhè ge bān lǐ méi yǒu rén xiàng Bill yī yàng gāo 。",
+        "vi": "Trong lớp này không có người cao như Bill.",
+        "audio": "audio/teacher-74e4c89a2c5a.mp3"
+      },
+      {
+        "hanzi": "如果没有太阳，那所有生物都会死。",
+        "pinyin": "rú guǒ méi yǒu tài yáng ， nà suǒ yǒu shēng wù dū huì sǐ 。",
+        "vi": "Nếu không có mặt trời thì tất cả động vật đều sẽ chết",
+        "audio": "audio/teacher-7a4ce6d287ba.mp3"
+      }
+    ],
+    "audio": "audio/teacher-aacafd302b08.mp3"
+  },
+  {
+    "id": "w-076",
+    "hanzi": "看",
+    "pinyin": "kān",
+    "meaningVi": "nhìn, xem",
+    "radical": "目",
+    "level": 1,
+    "frequency": 52,
+    "mnemonic": "Tay (手) che trên mắt (目) để nhìn xa",
+    "examples": [
+      {
+        "hanzi": "我們試試看！",
+        "pinyin": "wǒ men shì shì kàn ！",
+        "vi": "Chúng ta hãy thử một vài thứ.",
+        "audio": "audio/teacher-ced5b3501eff.mp3"
+      },
+      {
+        "hanzi": "睛天的時候，就可以看見富士山了。",
+        "pinyin": "jīng tiān de shí hòu ， jiù kě yǐ kàn jiàn fù shì shān le 。",
+        "vi": "Vào những ngày quang mây, người ta có thể trông thấy núi Phũ Sĩ.",
+        "audio": "audio/teacher-dc1d32045a4a.mp3"
+      }
+    ],
+    "audio": "audio/teacher-515114a809b4.mp3"
+  },
+  {
+    "id": "w-077",
+    "hanzi": "听",
+    "pinyin": "yǐn",
+    "meaningVi": "nghe",
+    "radical": "口",
+    "level": 1,
+    "frequency": 190,
+    "mnemonic": "Bộ khẩu (口) và tai lắng nghe",
+    "examples": [
+      {
+        "hanzi": "你该听你父母的话。",
+        "pinyin": "nǐ gāi tīng nǐ fù mǔ de huà 。",
+        "vi": "Bạn nên nghe lời cha mẹ.",
+        "audio": "audio/teacher-5c2ca37e8c68.mp3"
+      },
+      {
+        "hanzi": "孩子，你为什么哭呀？说给我听听。",
+        "pinyin": "hái zi ， nǐ wèi shén me kū ya ？ shuō gěi wǒ tīng tīng 。",
+        "vi": "Làm sao con khóc? Nói cho ta nghe.",
+        "audio": "audio/teacher-2a9a3240c087.mp3"
+      }
+    ],
+    "audio": "audio/teacher-bc9d16d1e146.mp3"
+  },
+  {
+    "id": "w-078",
+    "hanzi": "说",
+    "pinyin": "shuì",
+    "meaningVi": "nói",
+    "radical": "讠",
+    "level": 1,
+    "frequency": 19,
+    "mnemonic": "Bộ ngôn (讠) — phát ra lời nói",
+    "examples": [
+      {
+        "hanzi": "我会说法语。",
+        "pinyin": "wǒ huì shuō fǎ yǔ 。",
+        "vi": "Tôi biết nói tiếng Pháp.",
+        "audio": "audio/teacher-6ceb17ed791e.mp3"
+      },
+      {
+        "hanzi": "父亲常常在空闲时间读侦探小说。",
+        "pinyin": "fù qīn cháng cháng zài kòng xián shí jiān dú zhēn tàn xiǎo shuō 。",
+        "vi": "Bố thường đọc tiểu thuyết trinh thám vào lúc rảnh.",
+        "audio": "audio/teacher-262b530292ba.mp3"
+      }
+    ],
+    "audio": "audio/teacher-2a0be10072aa.mp3"
+  },
+  {
+    "id": "w-079",
+    "hanzi": "读",
+    "pinyin": "dòu",
+    "meaningVi": "đọc",
+    "radical": "讠",
+    "level": 1,
+    "frequency": 1013,
+    "mnemonic": "Bộ ngôn (讠) — đọc thành tiếng",
+    "examples": [
+      {
+        "hanzi": "父亲常常在空闲时间读侦探小说。",
+        "pinyin": "fù qīn cháng cháng zài kòng xián shí jiān dú zhēn tàn xiǎo shuō 。",
+        "vi": "Bố thường đọc tiểu thuyết trinh thám vào lúc rảnh.",
+        "audio": "audio/teacher-262b530292ba.mp3"
+      },
+      {
+        "hanzi": "阅读改善思想。",
+        "pinyin": "yuè dú gǎi shàn sī xiǎng 。",
+        "vi": "Đọc sách sẽ cải thiện suy nghĩ.",
+        "audio": "audio/teacher-013685a599c4.mp3"
+      }
+    ],
+    "audio": "audio/teacher-a71be8eb1a7a.mp3"
+  },
+  {
+    "id": "w-080",
+    "hanzi": "写",
+    "pinyin": "xiě",
+    "meaningVi": "viết",
+    "radical": "冖",
+    "level": 1,
+    "frequency": 352,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "昨天，我收到一封用英语写的信。",
+        "pinyin": "zuó tiān ， wǒ shōu dào yī fēng yòng yīng yǔ xiě de xìn 。",
+        "vi": "Hôm qua, tôi có nhận một bức thư viết bằng tiếng Anh.",
+        "audio": "audio/teacher-e98e090535cd.mp3"
+      },
+      {
+        "hanzi": "我只写了两行。",
+        "pinyin": "wǒ zhǐ xiě le liǎng xíng 。",
+        "vi": "Tôi viết có hai dòng thôi.",
+        "audio": "audio/teacher-458ad9773102.mp3"
+      }
+    ],
+    "audio": "audio/teacher-529dd3e0d2eb.mp3"
+  },
+  {
+    "id": "w-081",
+    "hanzi": "学",
+    "pinyin": "xué",
+    "meaningVi": "học",
+    "radical": "子",
+    "level": 1,
+    "frequency": 524,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "学学你姐姐。",
+        "pinyin": "xué xué nǐ jiě jiě 。",
+        "vi": "Con học chị con đi.",
+        "audio": "audio/teacher-bbba763c2fce.mp3"
+      },
+      {
+        "hanzi": "我不喜欢学习不规则动词。",
+        "pinyin": "wǒ bù xǐ huān xué xí bù guī zé dòng cí 。",
+        "vi": "Tôi không thích học các động từ bất quy tắc.",
+        "audio": "audio/teacher-0d532f073137.mp3"
+      }
+    ],
+    "audio": "audio/teacher-7fff09f5dda0.mp3"
+  },
+  {
+    "id": "w-082",
+    "hanzi": "中文",
+    "pinyin": "Zhōng wén",
+    "meaningVi": "tiếng Trung",
+    "radical": "丨",
+    "level": 1,
+    "frequency": 6459,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我学「中文」。",
+        "pinyin": "wǒ xué Zhōng wén.",
+        "vi": "Mình học từ \"tiếng Trung\".",
+        "audio": "audio/teacher-438e92f951b1.mp3"
+      }
+    ],
+    "audio": "audio/teacher-74ca33ad3053.mp3"
+  },
+  {
+    "id": "w-083",
+    "hanzi": "喜欢",
+    "pinyin": "xǐ huan",
+    "meaningVi": "thích",
+    "radical": "口",
+    "level": 1,
+    "frequency": 139,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "你喜欢唱歌吗？",
+        "pinyin": "nǐ xǐ huān chàng gē ma ？",
+        "vi": "Bạn có thích hát không?",
+        "audio": "audio/teacher-2cef3aabef66.mp3"
+      },
+      {
+        "hanzi": "我不喜欢学习不规则动词。",
+        "pinyin": "wǒ bù xǐ huān xué xí bù guī zé dòng cí 。",
+        "vi": "Tôi không thích học các động từ bất quy tắc.",
+        "audio": "audio/teacher-0d532f073137.mp3"
+      }
+    ],
+    "audio": "audio/teacher-36caa077a121.mp3"
+  },
+  {
+    "id": "w-084",
+    "hanzi": "想",
+    "pinyin": "xiǎng",
+    "meaningVi": "muốn, nhớ",
+    "radical": "心",
+    "level": 1,
+    "frequency": 44,
+    "mnemonic": "Bộ tâm (心) ở dưới — suy nghĩ trong lòng",
+    "examples": [
+      {
+        "hanzi": "你想我了？",
+        "pinyin": "nǐ xiǎng wǒ le ？",
+        "vi": "Bạn có nhớ tôi không?",
+        "audio": "audio/teacher-8adbd1595e63.mp3"
+      },
+      {
+        "hanzi": "我想和你一起去。",
+        "pinyin": "wǒ xiǎng hé nǐ yì qǐ qù 。",
+        "vi": "Tôi muốn đi cùng với bạn.",
+        "audio": "audio/teacher-0f69bb5c6332.mp3"
+      }
+    ],
+    "audio": "audio/teacher-d40afdb42b1e.mp3"
+  },
+  {
+    "id": "w-085",
+    "hanzi": "要",
+    "pinyin": "yāo",
+    "meaningVi": "muốn, cần",
+    "radical": "覀",
+    "level": 1,
+    "frequency": 19,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "到了最後，大家一定要靠自己學習。",
+        "pinyin": "dào le zuì hòu ， dà jiā yí dìng yào kào zì jǐ xué xí 。",
+        "vi": "Rốt cuộc, ai cũng phải tự học thôi.",
+        "audio": "audio/teacher-484947606990.mp3"
+      },
+      {
+        "hanzi": "不要擔心。",
+        "pinyin": "bú yào dān xīn 。",
+        "vi": "Đừng lo.",
+        "audio": "audio/teacher-254d4fd4dddc.mp3"
+      }
+    ],
+    "audio": "audio/teacher-4cf1cf08d963.mp3"
+  },
+  {
+    "id": "w-086",
+    "hanzi": "会",
+    "pinyin": "huì",
+    "meaningVi": "biết, sẽ",
+    "radical": "人",
+    "level": 1,
+    "frequency": 23,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我会尽量不打扰你复习。",
+        "pinyin": "wǒ huì jǐn liàng bù dǎ rǎo nǐ fù xí 。",
+        "vi": "Tôi sẽ cố không quấy rầy bạn học hành.",
+        "audio": "audio/teacher-afe6efb4148a.mp3"
+      },
+      {
+        "hanzi": "我会说法语。",
+        "pinyin": "wǒ huì shuō fǎ yǔ 。",
+        "vi": "Tôi biết nói tiếng Pháp.",
+        "audio": "audio/teacher-6ceb17ed791e.mp3"
+      }
+    ],
+    "audio": "audio/teacher-96e927f8dcdf.mp3"
+  },
+  {
+    "id": "w-087",
+    "hanzi": "能",
+    "pinyin": "Néng",
+    "meaningVi": "có thể",
+    "radical": "⺼",
+    "level": 1,
+    "frequency": 46,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他跑得能有多快就有多快。",
+        "pinyin": "tā pǎo dé néng yǒu duō kuài jiù yǒu duō kuài 。",
+        "vi": "Nó chạy nhanh nhất mà nó có thể.",
+        "audio": "audio/teacher-53859f44f3bc.mp3"
+      },
+      {
+        "hanzi": "熟能生巧。",
+        "pinyin": "shú néng shēng qiǎo 。",
+        "vi": "Có công mài sắt có ngày nên kim.",
+        "audio": "audio/teacher-4f3487553429.mp3"
+      }
+    ],
+    "audio": "audio/teacher-8d96658f1b72.mp3"
+  },
+  {
+    "id": "w-088",
+    "hanzi": "都",
+    "pinyin": "Dū",
+    "meaningVi": "đều",
+    "radical": "阝",
+    "level": 1,
+    "frequency": 25,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "這樣做的話什麼都不會改變的。",
+        "pinyin": "zhè yàng zuò de huà shén me dōu bù huì gǎi biàn de 。",
+        "vi": "Không có gì thay đổi cả.",
+        "audio": "audio/teacher-639e1b1250c6.mp3"
+      },
+      {
+        "hanzi": "人人都愿意相信美梦可以成真。",
+        "pinyin": "rén rén dōu yuàn yì xiāng xìn měi mèng kě yǐ chéng zhēn 。",
+        "vi": "Ai cũng muốn tin rằng mọi giấc mơ đều có thể trở thành hiện thực.",
+        "audio": "audio/teacher-e251b5b54a95.mp3"
+      }
+    ],
+    "audio": "audio/teacher-41c93bc38e2e.mp3"
+  },
+  {
+    "id": "w-089",
+    "hanzi": "和",
+    "pinyin": "hé",
+    "meaningVi": "và",
+    "radical": "口",
+    "level": 1,
+    "frequency": 19,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "她非常周到和耐心。",
+        "pinyin": "tā fēi cháng zhōu dào hé nài xīn 。",
+        "vi": "Cô ấy rất kiên nhẫn và suy nghĩ vô cùng thấu đáo.",
+        "audio": "audio/teacher-868b32d136e2.mp3"
+      },
+      {
+        "hanzi": "弟弟對英語和音樂很有興趣。",
+        "pinyin": "dì di duì yīng yǔ hé yīn lè hěn yǒu xìng qù 。",
+        "vi": "Anh trai tôi có hứng thú với tiếng Anh và âm nhạc.",
+        "audio": "audio/teacher-f5dee1fc28dc.mp3"
+      }
+    ],
+    "audio": "audio/teacher-1fdd99f3310a.mp3"
+  },
+  {
+    "id": "w-090",
+    "hanzi": "的",
+    "pinyin": "de",
+    "meaningVi": "của",
+    "radical": "白",
+    "level": 1,
+    "frequency": 1,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "那是一隻有惡意的兔子。",
+        "pinyin": "nà shì yī zhī yǒu è yì de tù zi 。",
+        "vi": "Đó là một con thỏ hung ác.",
+        "audio": "audio/teacher-79f1ce51ce3d.mp3"
+      },
+      {
+        "hanzi": "這樣做的話什麼都不會改變的。",
+        "pinyin": "zhè yàng zuò de huà shén me dōu bù huì gǎi biàn de 。",
+        "vi": "Không có gì thay đổi cả.",
+        "audio": "audio/teacher-639e1b1250c6.mp3"
+      }
+    ],
+    "audio": "audio/teacher-460407ad6952.mp3"
+  },
+  {
+    "id": "w-091",
+    "hanzi": "了",
+    "pinyin": "le",
+    "meaningVi": "rồi (trợ từ)",
+    "radical": "亅",
+    "level": 1,
+    "frequency": 3,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我该去睡觉了。",
+        "pinyin": "wǒ gāi qù shuì jiào le 。",
+        "vi": "Tôi phải đi ngủ.",
+        "audio": "audio/teacher-326d68e1d642.mp3"
+      },
+      {
+        "hanzi": "Muiriel现在20岁了。",
+        "pinyin": "Muiriel xiàn zài 20 suì le 。",
+        "vi": "Bây giờ Muiriel được 20 tuổi.",
+        "audio": "audio/teacher-22adca5a83d6.mp3"
+      }
+    ],
+    "audio": "audio/teacher-26f636b0f609.mp3"
+  },
+  {
+    "id": "w-092",
+    "hanzi": "一",
+    "pinyin": "yī",
+    "meaningVi": "một",
+    "radical": "一",
+    "level": 1,
+    "frequency": 21,
+    "mnemonic": "Một nét ngang đơn",
+    "examples": [
+      {
+        "hanzi": "那是一隻有惡意的兔子。",
+        "pinyin": "nà shì yī zhī yǒu è yì de tù zi 。",
+        "vi": "Đó là một con thỏ hung ác.",
+        "audio": "audio/teacher-79f1ce51ce3d.mp3"
+      },
+      {
+        "hanzi": "那是一张近照吗？",
+        "pinyin": "nà shì yī zhāng jìn zhào ma ？",
+        "vi": "Tấm hình này có mới không?",
+        "audio": "audio/teacher-b80dbd69bbb8.mp3"
+      }
+    ],
+    "audio": "audio/teacher-f62cfe40ad44.mp3"
+  },
+  {
+    "id": "w-093",
+    "hanzi": "二",
+    "pinyin": "èr",
+    "meaningVi": "hai",
+    "radical": "二",
+    "level": 1,
+    "frequency": 664,
+    "mnemonic": "Hai nét ngang",
+    "examples": [
+      {
+        "hanzi": "现在我来讲第二个问题。",
+        "pinyin": "xiàn zài wǒ lái jiǎng dì èr gè wèn tí 。",
+        "vi": "Bây giờ tôi sẽ trình bày vấn đề thứ hai.",
+        "audio": "audio/teacher-012567cbe68c.mp3"
+      },
+      {
+        "hanzi": "我校图书馆藏书二百五十万册。",
+        "pinyin": "wǒ xiào tú shū guǎn cáng shū èr bǎi wǔ shí wàn cè 。",
+        "vi": "Thư viện trường chúng tôi có hai triệu rưởi quyển sách.",
+        "audio": "audio/teacher-7076271c68fb.mp3"
+      }
+    ],
+    "audio": "audio/teacher-4089c1e626c9.mp3"
+  },
+  {
+    "id": "w-094",
+    "hanzi": "三",
+    "pinyin": "Sān",
+    "meaningVi": "ba",
+    "radical": "一",
+    "level": 1,
+    "frequency": 233,
+    "mnemonic": "Ba nét ngang",
+    "examples": [
+      {
+        "hanzi": "他贏了三等奬。",
+        "pinyin": "tā yíng le sān děng jiǎng 。",
+        "vi": "Anh ấy đã giành được giải ba.",
+        "audio": "audio/teacher-6796cff2e713.mp3"
+      },
+      {
+        "hanzi": "他童年時去過巴黎三次。",
+        "pinyin": "tā tóng nián shí qù guò bā lí sān cì 。",
+        "vi": "Hồi nhỏ, anh ta đã đi Paris ba lần.",
+        "audio": "audio/teacher-df88749e11d3.mp3"
+      }
+    ],
+    "audio": "audio/teacher-04d597ccb4ea.mp3"
+  },
+  {
+    "id": "w-095",
+    "hanzi": "两",
+    "pinyin": "liǎng",
+    "meaningVi": "hai (số lượng)",
+    "radical": "一",
+    "level": 1,
+    "frequency": 81,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我在两年前吃过一次。",
+        "pinyin": "wǒ zài liǎng nián qián chī guò yī cì 。",
+        "vi": "Tôi đã ăn một lần vào khoảng hai năm trước.",
+        "audio": "audio/teacher-55e591ecff13.mp3"
+      },
+      {
+        "hanzi": "把那两本书拿出来！",
+        "pinyin": "bǎ nà liǎng běn shū ná chū lái ！",
+        "vi": "Lấy hai quyển sách ấy ra!",
+        "audio": "audio/teacher-59e8fa77bd5e.mp3"
+      }
+    ],
+    "audio": "audio/teacher-0c91895ab24e.mp3"
+  },
+  {
+    "id": "w-096",
+    "hanzi": "几",
+    "pinyin": "jī",
+    "meaningVi": "mấy",
+    "radical": "几",
+    "level": 1,
+    "frequency": 178,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他常常坐着看书一连好几个小时。",
+        "pinyin": "tā cháng cháng zuò zhe kàn shū yī lián hǎo jǐ gè xiǎo shí 。",
+        "vi": "Cô ấy thường ngồi xem sách vài tiếng liền.",
+        "audio": "audio/teacher-8744b2b95a9e.mp3"
+      },
+      {
+        "hanzi": "有几个人来迟了。",
+        "pinyin": "yǒu jǐ gè rén lái chí le 。",
+        "vi": "Một vài người đã tới muộn.",
+        "audio": "audio/teacher-88ef31b8c3ea.mp3"
+      }
+    ],
+    "audio": "audio/teacher-643f5a9e2b40.mp3"
+  },
+  {
+    "id": "w-097",
+    "hanzi": "多少",
+    "pinyin": "duō shǎo",
+    "meaningVi": "bao nhiêu",
+    "radical": "夕",
+    "level": 1,
+    "frequency": 526,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我的房间号是多少？",
+        "pinyin": "wǒ de fáng jiān hào shì duō shǎo ？",
+        "vi": "Số phòng của tôi là số nào?",
+        "audio": "audio/teacher-f93b8dc4d226.mp3"
+      },
+      {
+        "hanzi": "你有多少部車？",
+        "pinyin": "nǐ yǒu duō shǎo bù chē ？",
+        "vi": "Ngài có mấy chiếc xe ô tô?",
+        "audio": "audio/teacher-7980e04bd424.mp3"
+      }
+    ],
+    "audio": "audio/teacher-fc5862f08bba.mp3"
+  },
+  {
+    "id": "w-098",
+    "hanzi": "个",
+    "pinyin": "gě",
+    "meaningVi": "cái (lượng từ chung)",
+    "radical": "丨",
+    "level": 1,
+    "frequency": 19,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "你是从哪个国家来的？",
+        "pinyin": "nǐ shì cóng nǎ ge guó jiā lái de ？",
+        "vi": "Bạn đến từ nước nào vậy?",
+        "audio": "audio/teacher-a6f8e3bf64d0.mp3"
+      },
+      {
+        "hanzi": "一个人要为他的行为负责。",
+        "pinyin": "yí gè rén yào wèi tā de xíng wéi fù zé 。",
+        "vi": "Một người phải có trách nhiệm với những hành động của mình.",
+        "audio": "audio/teacher-cb87bf5b17cb.mp3"
+      }
+    ],
+    "audio": "audio/teacher-b1c16c9c6288.mp3"
+  },
+  {
+    "id": "w-099",
+    "hanzi": "大",
+    "pinyin": "dà",
+    "meaningVi": "to, lớn",
+    "radical": "大",
+    "level": 1,
+    "frequency": 66,
+    "mnemonic": "Người dang rộng hai tay",
+    "examples": [
+      {
+        "hanzi": "到了最後，大家一定要靠自己學習。",
+        "pinyin": "dào le zuì hòu ， dà jiā yí dìng yào kào zì jǐ xué xí 。",
+        "vi": "Rốt cuộc, ai cũng phải tự học thôi.",
+        "audio": "audio/teacher-484947606990.mp3"
+      },
+      {
+        "hanzi": "我要养一大家子。",
+        "pinyin": "wǒ yào yǎng yī dà jiā zi 。",
+        "vi": "Tôi phải nuôi sống một gia đình đông người.",
+        "audio": "audio/teacher-ae24573dace2.mp3"
+      }
+    ],
+    "audio": "audio/teacher-8874df30f68b.mp3"
+  },
+  {
+    "id": "w-100",
+    "hanzi": "小",
+    "pinyin": "xiǎo",
+    "meaningVi": "nhỏ, bé",
+    "radical": "小",
+    "level": 1,
+    "frequency": 100,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "父亲常常在空闲时间读侦探小说。",
+        "pinyin": "fù qīn cháng cháng zài kòng xián shí jiān dú zhēn tàn xiǎo shuō 。",
+        "vi": "Bố thường đọc tiểu thuyết trinh thám vào lúc rảnh.",
+        "audio": "audio/teacher-262b530292ba.mp3"
+      },
+      {
+        "hanzi": "走了一個小時後，我們停下來休息。",
+        "pinyin": "zǒu le yī gè xiǎo shí hòu ， wǒ men tíng xià lái xiū xī 。",
+        "vi": "Sau khi đi một tiếng đồng hồ, chúng tôi dừng lại nghỉ ngơi.",
+        "audio": "audio/teacher-541d1d19d827.mp3"
+      }
+    ],
+    "audio": "audio/teacher-c15881476c6a.mp3"
+  },
+  {
+    "id": "w-101",
+    "hanzi": "多",
+    "pinyin": "duō",
+    "meaningVi": "nhiều",
+    "radical": "夕",
+    "level": 1,
+    "frequency": 80,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我的房间号是多少？",
+        "pinyin": "wǒ de fáng jiān hào shì duō shǎo ？",
+        "vi": "Số phòng của tôi là số nào?",
+        "audio": "audio/teacher-f93b8dc4d226.mp3"
+      },
+      {
+        "hanzi": "他跑得能有多快就有多快。",
+        "pinyin": "tā pǎo dé néng yǒu duō kuài jiù yǒu duō kuài 。",
+        "vi": "Nó chạy nhanh nhất mà nó có thể.",
+        "audio": "audio/teacher-53859f44f3bc.mp3"
+      }
+    ],
+    "audio": "audio/teacher-d023f3047f46.mp3"
+  },
+  {
+    "id": "w-102",
+    "hanzi": "少",
+    "pinyin": "shǎo",
+    "meaningVi": "ít",
+    "radical": "小",
+    "level": 1,
+    "frequency": 538,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我的房间号是多少？",
+        "pinyin": "wǒ de fáng jiān hào shì duō shǎo ？",
+        "vi": "Số phòng của tôi là số nào?",
+        "audio": "audio/teacher-f93b8dc4d226.mp3"
+      },
+      {
+        "hanzi": "你有多少部車？",
+        "pinyin": "nǐ yǒu duō shǎo bù chē ？",
+        "vi": "Ngài có mấy chiếc xe ô tô?",
+        "audio": "audio/teacher-7980e04bd424.mp3"
+      }
+    ],
+    "audio": "audio/teacher-7d82d1b2d0e3.mp3"
+  },
+  {
+    "id": "w-103",
+    "hanzi": "喝",
+    "pinyin": "hē",
+    "meaningVi": "uống",
+    "radical": "口",
+    "level": 1,
+    "frequency": 428,
+    "mnemonic": "Bộ khẩu (口) — đưa đồ uống vào miệng",
+    "examples": [
+      {
+        "hanzi": "为什么喝那么多药？",
+        "pinyin": "wèi shén me hē nà me duō yào ？",
+        "vi": "Sao uống lắm thuốc thế?",
+        "audio": "audio/teacher-2503efe26287.mp3"
+      },
+      {
+        "hanzi": "如果你喝速溶咖啡，就不需要咖啡壶了。",
+        "pinyin": "rú guǒ nǐ hē sù róng kā fēi ， jiù bù xū yào kā fēi hú le 。",
+        "vi": "Nếu bạn uống cà phê uống liền, thì không cần đến bình cà phê.",
+        "audio": "audio/teacher-6faba01c5630.mp3"
+      }
+    ],
+    "audio": "audio/teacher-9377fc0625af.mp3"
+  },
+  {
+    "id": "w-104",
+    "hanzi": "吃",
+    "pinyin": "chī",
+    "meaningVi": "ăn",
+    "radical": "口",
+    "level": 1,
+    "frequency": 142,
+    "mnemonic": "Bộ khẩu (口) — ăn bằng miệng",
+    "examples": [
+      {
+        "hanzi": "我们今晚在外面吃饭吧。",
+        "pinyin": "wǒ men jīn wǎn zài wài miàn chī fàn ba 。",
+        "vi": "Chúng ta tối nay đi ăn nhé.",
+        "audio": "audio/teacher-0cd276d9f7fe.mp3"
+      },
+      {
+        "hanzi": "我在两年前吃过一次。",
+        "pinyin": "wǒ zài liǎng nián qián chī guò yī cì 。",
+        "vi": "Tôi đã ăn một lần vào khoảng hai năm trước.",
+        "audio": "audio/teacher-55e591ecff13.mp3"
+      }
+    ],
+    "audio": "audio/teacher-d25fe5a7723f.mp3"
+  },
+  {
+    "id": "w-105",
+    "hanzi": "茶",
+    "pinyin": "chá",
+    "meaningVi": "trà",
+    "radical": "艹",
+    "level": 1,
+    "frequency": 1910,
+    "mnemonic": "Bộ thảo (艹) chỉ lá cây trà",
+    "examples": [
+      {
+        "hanzi": "我学「茶」。",
+        "pinyin": "wǒ xué chá.",
+        "vi": "Mình học từ \"trà\".",
+        "audio": "audio/teacher-2d6cad1dc46c.mp3"
+      }
+    ],
+    "audio": "audio/teacher-5b0920b9b0fe.mp3"
+  },
+  {
+    "id": "w-106",
+    "hanzi": "奶茶",
+    "pinyin": "nǎi chá",
+    "meaningVi": "trà sữa",
+    "radical": "女",
+    "level": 2,
+    "frequency": 20075,
+    "mnemonic": "奶 (sữa) + 茶 (trà)",
+    "examples": [
+      {
+        "hanzi": "我想喝一杯冰奶茶。",
+        "pinyin": "wǒ xiǎng hē yì bēi bīng nǎi chá.",
+        "vi": "Mình muốn uống một ly trà sữa đá.",
+        "audio": "audio/teacher-27ccea00a442.mp3"
+      }
+    ],
+    "audio": "audio/teacher-7b8e4ec6f31a.mp3"
+  },
+  {
+    "id": "w-107",
+    "hanzi": "咖啡",
+    "pinyin": "kā fēi",
+    "meaningVi": "cà phê",
+    "radical": "口",
+    "level": 2,
+    "frequency": 1698,
+    "mnemonic": "Cả hai chữ đều có bộ khẩu (口)",
+    "examples": [
+      {
+        "hanzi": "如果你喝速溶咖啡，就不需要咖啡壶了。",
+        "pinyin": "rú guǒ nǐ hē sù róng kā fēi ， jiù bù xū yào kā fēi hú le 。",
+        "vi": "Nếu bạn uống cà phê uống liền, thì không cần đến bình cà phê.",
+        "audio": "audio/teacher-6faba01c5630.mp3"
+      },
+      {
+        "hanzi": "来杯咖啡吗？",
+        "pinyin": "lái bēi kā fēi ma ？",
+        "vi": "Anh dùng thêm một cốc cà phê nhé?",
+        "audio": "audio/teacher-6e93ef7d5a61.mp3"
+      }
+    ],
+    "audio": "audio/teacher-707d66388b3d.mp3"
+  },
+  {
+    "id": "w-108",
+    "hanzi": "水",
+    "pinyin": "Shuǐ",
+    "meaningVi": "nước",
+    "radical": "水",
+    "level": 1,
+    "frequency": 335,
+    "mnemonic": "Dòng nước chảy uốn lượn",
+    "examples": [
+      {
+        "hanzi": "请你给我一杯水。",
+        "pinyin": "qǐng nǐ gěi wǒ yī bēi shuǐ 。",
+        "vi": "Làm ơn cho tôi một cốc nước.",
+        "audio": "audio/teacher-dccda18c5a60.mp3"
+      },
+      {
+        "hanzi": "血濃於水。",
+        "pinyin": "xuè nóng yú shuǐ 。",
+        "vi": "Một giọt máu đào hơn ao nước lã.",
+        "audio": "audio/teacher-7e24ed8a9af1.mp3"
+      }
+    ],
+    "audio": "audio/teacher-d84ba48d5355.mp3"
+  },
+  {
+    "id": "w-109",
+    "hanzi": "冰",
+    "pinyin": "bīng",
+    "meaningVi": "đá lạnh",
+    "radical": "冫",
+    "level": 3,
+    "frequency": 2036,
+    "mnemonic": "Bộ băng (冫) hai giọt nước đóng băng",
+    "examples": [
+      {
+        "hanzi": "我学「冰」。",
+        "pinyin": "wǒ xué bīng.",
+        "vi": "Mình học từ \"đá lạnh\".",
+        "audio": "audio/teacher-95702721de28.mp3"
+      }
+    ],
+    "audio": "audio/teacher-0791cb8cd27b.mp3"
+  },
+  {
+    "id": "w-110",
+    "hanzi": "热",
+    "pinyin": "rè",
+    "meaningVi": "nóng",
+    "radical": "灬",
+    "level": 1,
+    "frequency": 938,
+    "mnemonic": "Bộ hỏa chấm (灬) ở dưới — hơi nóng bốc lên",
+    "examples": [
+      {
+        "hanzi": "今天很热。",
+        "pinyin": "jīn tiān hěn rè 。",
+        "vi": "Hôm nay cực nóng.",
+        "audio": "audio/teacher-cbc0a039f050.mp3"
+      },
+      {
+        "hanzi": "既然你看得起我，我就一定热情帮助你。",
+        "pinyin": "jì rán nǐ kàn de qǐ wǒ ， wǒ jiù yí dìng rè qíng bāng zhù nǐ 。",
+        "vi": "Nếu cậu đã coi trọng tôi, thì tôi nhất định nhiệt tình giúp đỡ cậu.",
+        "audio": "audio/teacher-d27718d458a3.mp3"
+      }
+    ],
+    "audio": "audio/teacher-4771476d77b9.mp3"
+  },
+  {
+    "id": "w-111",
+    "hanzi": "甜",
+    "pinyin": "tián",
+    "meaningVi": "ngọt",
+    "radical": "甘",
+    "level": 3,
+    "frequency": 2472,
+    "mnemonic": "Bộ thiệt (舌 cái lưỡi) + 甘 (ngọt)",
+    "examples": [
+      {
+        "hanzi": "我学「甜」。",
+        "pinyin": "wǒ xué tián.",
+        "vi": "Mình học từ \"ngọt\".",
+        "audio": "audio/teacher-e5cf7586ffc2.mp3"
+      }
+    ],
+    "audio": "audio/teacher-97542b4309d2.mp3"
+  },
+  {
+    "id": "w-112",
+    "hanzi": "杯",
+    "pinyin": "bēi",
+    "meaningVi": "cốc, ly",
+    "radical": "木",
+    "level": 1,
+    "frequency": 684,
+    "mnemonic": "Bộ mộc (木) — cốc gỗ ngày xưa",
+    "examples": [
+      {
+        "hanzi": "请你给我一杯水。",
+        "pinyin": "qǐng nǐ gěi wǒ yī bēi shuǐ 。",
+        "vi": "Làm ơn cho tôi một cốc nước.",
+        "audio": "audio/teacher-dccda18c5a60.mp3"
+      },
+      {
+        "hanzi": "来杯咖啡吗？",
+        "pinyin": "lái bēi kā fēi ma ？",
+        "vi": "Anh dùng thêm một cốc cà phê nhé?",
+        "audio": "audio/teacher-6e93ef7d5a61.mp3"
+      }
+    ],
+    "audio": "audio/teacher-f6083ee5efc3.mp3"
+  },
+  {
+    "id": "w-113",
+    "hanzi": "菜单",
+    "pinyin": "cài dān",
+    "meaningVi": "thực đơn",
+    "radical": "艹",
+    "level": 3,
+    "frequency": 7509,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "请问，可以看看菜单吗？",
+        "pinyin": "qǐng wèn, kě yǐ kàn kan cài dān ma?",
+        "vi": "Xin hỏi, mình xem thực đơn được không?",
+        "audio": "audio/teacher-dd7f1a89ca82.mp3"
+      }
+    ],
+    "audio": "audio/teacher-462a88414880.mp3"
+  },
+  {
+    "id": "w-114",
+    "hanzi": "点菜",
+    "pinyin": "diǎn cài",
+    "meaningVi": "gọi món",
+    "radical": "",
+    "level": 1,
+    "frequency": 1140,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我学「点菜」。",
+        "pinyin": "wǒ xué diǎn cài.",
+        "vi": "Mình học từ \"gọi món\".",
+        "audio": "audio/teacher-104b8471835b.mp3"
+      }
+    ],
+    "audio": "audio/teacher-19ac8a9e24fc.mp3"
+  },
+  {
+    "id": "w-115",
+    "hanzi": "好吃",
+    "pinyin": "hǎo chī",
+    "meaningVi": "ngon (đồ ăn)",
+    "radical": "女",
+    "level": 1,
+    "frequency": 2484,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "今天的小笼包真好吃。",
+        "pinyin": "jīn tiān de xiǎo lóng bāo zhēn hǎo chī.",
+        "vi": "Tiểu long bao hôm nay ngon thật.",
+        "audio": "audio/teacher-00bb68fbdbf3.mp3"
+      }
+    ],
+    "audio": "audio/teacher-05b9dd38c8cb.mp3"
+  },
+  {
+    "id": "w-116",
+    "hanzi": "好喝",
+    "pinyin": "hǎo hē",
+    "meaningVi": "ngon (đồ uống)",
+    "radical": "",
+    "level": 1,
+    "frequency": 1160,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "这家店的奶茶很好喝！",
+        "pinyin": "zhè jiā diàn de nǎi chá hěn hǎo hē!",
+        "vi": "Trà sữa quán này ngon lắm!",
+        "audio": "audio/teacher-39b2c5bee1c3.mp3"
+      }
+    ],
+    "audio": "audio/teacher-60a6927a2e6f.mp3"
+  },
+  {
+    "id": "w-117",
+    "hanzi": "买单",
+    "pinyin": "mǎi dān",
+    "meaningVi": "tính tiền",
+    "radical": "",
+    "level": 1,
+    "frequency": 1170,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "服务员，请帮我买单。",
+        "pinyin": "fú wù yuán, qǐng bāng wǒ mǎi dān.",
+        "vi": "Phục vụ ơi, làm ơn tính tiền giúp mình.",
+        "audio": "audio/teacher-752ddfb71bc9.mp3"
+      }
+    ],
+    "audio": "audio/teacher-fe63a8d5070a.mp3"
+  },
+  {
+    "id": "w-118",
+    "hanzi": "钱",
+    "pinyin": "Qián",
+    "meaningVi": "tiền",
+    "radical": "钅",
+    "level": 1,
+    "frequency": 218,
+    "mnemonic": "Bộ kim (钅) — đồng tiền kim loại",
+    "examples": [
+      {
+        "hanzi": "我不要钱。",
+        "pinyin": "wǒ bú yào qián 。",
+        "vi": "Tôi không cần tiền.",
+        "audio": "audio/teacher-68835baefb75.mp3"
+      },
+      {
+        "hanzi": "汤姆把他的所有钱都给了玛丽。",
+        "pinyin": "tāng mǔ bǎ tā de suǒ yǒu qián dōu gěi le mǎ lì 。",
+        "vi": "Tom đã đưa Mary toàn bộ số tiền anh ấy có.",
+        "audio": "audio/teacher-5d5172e4aca4.mp3"
+      }
+    ],
+    "audio": "audio/teacher-712943578810.mp3"
+  },
+  {
+    "id": "w-119",
+    "hanzi": "块",
+    "pinyin": "kuài",
+    "meaningVi": "đồng / tệ (đơn vị tiền nói)",
+    "radical": "土",
+    "level": 1,
+    "frequency": 483,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "你要再来一块蛋糕吗？",
+        "pinyin": "nǐ yào zài lái yī kuài dàn gāo ma ？",
+        "vi": "Anh có muốn miếng bánh ngọt khác không?",
+        "audio": "audio/teacher-50f9a349c09c.mp3"
+      }
+    ],
+    "audio": "audio/teacher-5793232d82af.mp3"
+  },
+  {
+    "id": "w-120",
+    "hanzi": "便宜",
+    "pinyin": "biàn yí",
+    "meaningVi": "rẻ",
+    "radical": "亻",
+    "level": 1,
+    "frequency": 2814,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "一点也不便宜，贵得不得了。",
+        "pinyin": "yì diǎn yě bù biàn yí ， guì dé bù dé le 。",
+        "vi": "Không rẻ 1 tí nào, đắt khủng khiếp.",
+        "audio": "audio/teacher-de885f72c079.mp3"
+      },
+      {
+        "hanzi": "这种布既便宜又结实。",
+        "pinyin": "zhè zhǒng bù jì pián yi yòu jiē shí 。",
+        "vi": "Thứ vải này đã rẽ lại bền.",
+        "audio": "audio/teacher-76fb661eaee2.mp3"
+      }
+    ],
+    "audio": "audio/teacher-8d9ea8787f21.mp3"
+  },
+  {
+    "id": "w-121",
+    "hanzi": "贵",
+    "pinyin": "guì",
+    "meaningVi": "đắt",
+    "radical": "贝",
+    "level": 1,
+    "frequency": 2239,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "一点也不便宜，贵得不得了。",
+        "pinyin": "yì diǎn yě bù biàn yí ， guì dé bù dé le 。",
+        "vi": "Không rẻ 1 tí nào, đắt khủng khiếp.",
+        "audio": "audio/teacher-de885f72c079.mp3"
+      },
+      {
+        "hanzi": "可是太贵了！",
+        "pinyin": "kě shì tài guì le ！",
+        "vi": "Nhưng mà nó đắt quá!",
+        "audio": "audio/teacher-3d5ccb578a62.mp3"
+      }
+    ],
+    "audio": "audio/teacher-954f845b1383.mp3"
+  },
+  {
+    "id": "w-122",
+    "hanzi": "服务员",
+    "pinyin": "fú wù yuán",
+    "meaningVi": "nhân viên phục vụ",
+    "radical": "月",
+    "level": 3,
+    "frequency": 5531,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我学「服务员」。",
+        "pinyin": "wǒ xué fú wù yuán.",
+        "vi": "Mình học từ \"nhân viên phục vụ\".",
+        "audio": "audio/teacher-7eb6ec2cc19b.mp3"
+      }
+    ],
+    "audio": "audio/teacher-ff0cd67503a9.mp3"
+  },
+  {
+    "id": "w-123",
+    "hanzi": "饭",
+    "pinyin": "fàn",
+    "meaningVi": "cơm, bữa ăn",
+    "radical": "饣",
+    "level": 1,
+    "frequency": 1529,
+    "mnemonic": "Bộ thực (饣) liên quan tới thức ăn",
+    "examples": [
+      {
+        "hanzi": "我们今晚在外面吃饭吧。",
+        "pinyin": "wǒ men jīn wǎn zài wài miàn chī fàn ba 。",
+        "vi": "Chúng ta tối nay đi ăn nhé.",
+        "audio": "audio/teacher-0cd276d9f7fe.mp3"
+      },
+      {
+        "hanzi": "我会拒绝他吃晚饭的邀请。",
+        "pinyin": "wǒ huì jù jué tā chī wǎn fàn de yāo qǐng 。",
+        "vi": "Tôi từ chối lời mời cơm tối của anh ấy.",
+        "audio": "audio/teacher-2584372a5a79.mp3"
+      }
+    ],
+    "audio": "audio/teacher-4ff2dd21f099.mp3"
+  },
+  {
+    "id": "w-124",
+    "hanzi": "面条",
+    "pinyin": "miàn tiáo",
+    "meaningVi": "mì sợi",
+    "radical": "",
+    "level": 1,
+    "frequency": 1240,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我学「面条」。",
+        "pinyin": "wǒ xué miàn tiáo.",
+        "vi": "Mình học từ \"mì sợi\".",
+        "audio": "audio/teacher-d7491836fda1.mp3"
+      }
+    ],
+    "audio": "audio/teacher-d16cbc1d3d09.mp3"
+  },
+  {
+    "id": "w-125",
+    "hanzi": "包子",
+    "pinyin": "bāo zi",
+    "meaningVi": "bánh bao",
+    "radical": "勹",
+    "level": 1,
+    "frequency": 16315,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我学「包子」。",
+        "pinyin": "wǒ xué bāo zi.",
+        "vi": "Mình học từ \"bánh bao\".",
+        "audio": "audio/teacher-6bdfc4712189.mp3"
+      }
+    ],
+    "audio": "audio/teacher-f0d67f314741.mp3"
+  },
+  {
+    "id": "w-126",
+    "hanzi": "水果",
+    "pinyin": "shuǐ guǒ",
+    "meaningVi": "trái cây",
+    "radical": "水",
+    "level": 1,
+    "frequency": 3271,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我学「水果」。",
+        "pinyin": "wǒ xué shuǐ guǒ.",
+        "vi": "Mình học từ \"trái cây\".",
+        "audio": "audio/teacher-9c0c62724b7c.mp3"
+      }
+    ],
+    "audio": "audio/teacher-743734c3a5ef.mp3"
+  },
+  {
+    "id": "w-127",
+    "hanzi": "小笼包",
+    "pinyin": "xiǎo lóng bāo",
+    "meaningVi": "tiểu long bao",
+    "radical": "",
+    "level": 1,
+    "frequency": 1270,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我想点一份小笼包。",
+        "pinyin": "wǒ xiǎng diǎn yí fèn xiǎo lóng bāo.",
+        "vi": "Mình muốn gọi một phần tiểu long bao.",
+        "audio": "audio/teacher-36b7b160daf3.mp3"
+      }
+    ],
+    "audio": "audio/teacher-86c96a259d71.mp3"
+  },
+  {
+    "id": "w-128",
+    "hanzi": "少糖",
+    "pinyin": "shǎo táng",
+    "meaningVi": "ít đường",
+    "radical": "",
+    "level": 1,
+    "frequency": 1280,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "这杯奶茶请给我少糖。",
+        "pinyin": "zhè bēi nǎi chá qǐng gěi wǒ shǎo táng.",
+        "vi": "Ly trà sữa này cho mình ít đường nhé.",
+        "audio": "audio/teacher-3fbbbf6cf7af.mp3"
+      }
+    ],
+    "audio": "audio/teacher-c6a6345ff9b7.mp3"
+  },
+  {
+    "id": "w-129",
+    "hanzi": "去冰",
+    "pinyin": "qù bīng",
+    "meaningVi": "không đá",
+    "radical": "",
+    "level": 1,
+    "frequency": 1290,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我要一杯红茶，去冰。",
+        "pinyin": "wǒ yào yì bēi hóng chá, qù bīng.",
+        "vi": "Cho mình một ly hồng trà, không đá.",
+        "audio": "audio/teacher-fe5b3c623890.mp3"
+      }
+    ],
+    "audio": "audio/teacher-65f28ca2077b.mp3"
+  }
+]
