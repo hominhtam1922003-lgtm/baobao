@@ -9,9 +9,12 @@ import '@fontsource/noto-sans-sc/chinese-simplified-700.css';
 
 import './styles/tokens.css';
 import './styles/base.css';
-import { renderDesignScreen } from './screens/DesignScreen';
+import { registerPwa } from './services/pwa';
+import { startRouter } from './router';
+
+registerPwa();
 
 const app = document.getElementById('app');
 if (app) {
-  renderDesignScreen(app);
+  startRouter(app);
 }
