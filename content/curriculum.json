@@ -26,13 +26,21 @@
           "explainVi": "Dùng 一杯, 两杯 (không dùng 二杯) khi gọi trà sữa hoặc cà phê.",
           "exampleHanzi": "我要两杯冰咖啡。",
           "exampleVi": "Cho mình hai ly cà phê đá."
+        },
+        {
+          "title": "Hỏi vị trí với 在哪儿 / 在哪里",
+          "pattern": "Danh từ + 在哪里 / 在哪儿？",
+          "explainVi": "Dùng để hỏi đường tới nhà ga, cửa hàng hoặc hỏi người thân đang ở đâu.",
+          "exampleHanzi": "请问，地铁站在哪里？",
+          "exampleVi": "Xin hỏi, ga tàu điện ngầm ở đâu ạ?"
         }
       ],
       "storyChapter": {
         "title": "Chương 1: Ngày đầu Bao tới phố cổ",
-        "teaserVi": "Bao lần đầu tự đi quán trà sữa gọi món bằng tiếng Trung — liệu cậu có gọi đúng ly ít đường không đá?",
-        "readingId": "r-t6"
+        "teaserVi": "Bao lần đầu tự đi phố cổ làm quen bạn mới và gọi ly trà sữa đúng gu — cậu sẽ xoay xở ra sao?",
+        "readingId": "story-c1"
       },
+      "stageTestId": "stage-1-test",
       "topics": [
         {
           "id": 1,
@@ -52,33 +60,57 @@
           "id": 2,
           "stage": 1,
           "title": "Giới thiệu bản thân",
-          "subtitle": "Tên, quốc tịch, bạn mới",
-          "ready": false,
-          "lessonIds": []
+          "subtitle": "Tên tuổi, quốc tịch và bạn mới",
+          "ready": true,
+          "lessonIds": [
+            "t2-giao-tiep",
+            "t2-doc",
+            "t2-nghe",
+            "t2-viet"
+          ],
+          "readingId": "r-t2"
         },
         {
           "id": 3,
           "stage": 1,
           "title": "Số đếm, tuổi & ngày tháng",
-          "subtitle": "Đọc số, hỏi tuổi, sinh nhật",
-          "ready": false,
-          "lessonIds": []
+          "subtitle": "Đếm số, hỏi tuổi, ngày sinh nhật",
+          "ready": true,
+          "lessonIds": [
+            "t3-giao-tiep",
+            "t3-doc",
+            "t3-nghe",
+            "t3-viet"
+          ],
+          "readingId": "r-t3"
         },
         {
           "id": 4,
           "stage": 1,
           "title": "Gia đình & bạn bè",
           "subtitle": "Kể về người thân và bạn thân",
-          "ready": false,
-          "lessonIds": []
+          "ready": true,
+          "lessonIds": [
+            "t4-giao-tiep",
+            "t4-doc",
+            "t4-nghe",
+            "t4-viet"
+          ],
+          "readingId": "r-t4"
         },
         {
           "id": 5,
           "stage": 1,
           "title": "Thời gian & hẹn gặp",
-          "subtitle": "Hỏi giờ và đặt lịch gặp",
-          "ready": false,
-          "lessonIds": []
+          "subtitle": "Hỏi giờ và đặt lịch gặp mặt",
+          "ready": true,
+          "lessonIds": [
+            "t5-giao-tiep",
+            "t5-doc",
+            "t5-nghe",
+            "t5-viet"
+          ],
+          "readingId": "r-t5"
         },
         {
           "id": 6,
@@ -98,17 +130,29 @@
           "id": 7,
           "stage": 1,
           "title": "Mua sắm & mặc cả",
-          "subtitle": "Hỏi giá, chọn cỡ và trả giá nhẹ",
-          "ready": false,
-          "lessonIds": []
+          "subtitle": "Hỏi giá, chọn món và trả giá nhẹ",
+          "ready": true,
+          "lessonIds": [
+            "t7-giao-tiep",
+            "t7-doc",
+            "t7-nghe",
+            "t7-viet"
+          ],
+          "readingId": "r-t7"
         },
         {
           "id": 8,
           "stage": 1,
           "title": "Hỏi đường & đi lại",
-          "subtitle": "Rẽ trái phải, tàu điện và taxi",
-          "ready": false,
-          "lessonIds": []
+          "subtitle": "Chỉ hướng, ga tàu và bắt xe",
+          "ready": true,
+          "lessonIds": [
+            "t8-giao-tiep",
+            "t8-doc",
+            "t8-nghe",
+            "t8-viet"
+          ],
+          "readingId": "r-t8"
         }
       ]
     },
@@ -117,75 +161,147 @@
       "title": "Chặng 2 — Đời sống",
       "subtitle": "Sở thích, thời tiết, công việc, nhà ở và mua sắm online",
       "colorToken": "read",
-      "grammarNotes": [],
+      "grammarNotes": [
+        {
+          "title": "So sánh hơn với 比 (bǐ)",
+          "pattern": "A + 比 + B + Tính từ",
+          "explainVi": "Đặt 比 giữa hai đối tượng để so sánh (nóng hơn, đắt hơn, nhanh hơn).",
+          "exampleHanzi": "今天比昨天热得多。",
+          "exampleVi": "Hôm nay nóng hơn hôm qua nhiều."
+        },
+        {
+          "title": "Nhấn mạnh cặp tương phản 虽然……但是……",
+          "pattern": "虽然 + Vế 1，但是 + Vế 2",
+          "explainVi": "Nghĩa là 'Tuy... nhưng...' dùng để diễn tả hai ý trái ngược tự nhiên.",
+          "exampleHanzi": "虽然有点儿累，但是我很开心。",
+          "exampleVi": "Tuy hơi mệt một chút nhưng mình rất vui."
+        },
+        {
+          "title": "Diễn tả hành động đang diễn ra với 正在 / 着",
+          "pattern": "Chủ ngữ + 正在 + Động từ / Động từ + 着",
+          "explainVi": "正在 nhấn mạnh đang làm gì lúc này; 着 gắn sau động từ chỉ trạng thái duy trì.",
+          "exampleHanzi": "外面正在下着小雨。",
+          "exampleVi": "Bên ngoài trời đang mưa nhỏ."
+        }
+      ],
       "storyChapter": {
         "title": "Chương 2: Căn phòng mới của Bao",
-        "teaserVi": "Mở khoá ở Đợt 2 sau khi hoàn thành 80% Chặng 1."
+        "teaserVi": "Bao chuyển vào phòng trọ mới, tự đặt đồ online và trải qua cơn mưa đầu mùa cùng hàng xóm mới.",
+        "readingId": "story-c2"
       },
+      "stageTestId": "stage-2-test",
       "topics": [
         {
           "id": 9,
           "stage": 2,
           "title": "Sở thích & thời gian rảnh",
-          "subtitle": "Đợt 2",
-          "ready": false,
-          "lessonIds": []
+          "subtitle": "Nghe nhạc, đọc sách, vận động cuối tuần",
+          "ready": true,
+          "lessonIds": [
+            "t9-giao-tiep",
+            "t9-doc",
+            "t9-nghe",
+            "t9-viet"
+          ],
+          "readingId": "r-t9"
         },
         {
           "id": 10,
           "stage": 2,
           "title": "Thời tiết & mùa",
-          "subtitle": "Đợt 2",
-          "ready": false,
-          "lessonIds": []
+          "subtitle": "Nắng mưa, nóng lạnh và bốn mùa",
+          "ready": true,
+          "lessonIds": [
+            "t10-giao-tiep",
+            "t10-doc",
+            "t10-nghe",
+            "t10-viet"
+          ],
+          "readingId": "r-t10"
         },
         {
           "id": 11,
           "stage": 2,
           "title": "Trường học & học tập",
-          "subtitle": "Đợt 2",
-          "ready": false,
-          "lessonIds": []
+          "subtitle": "Lớp học, bài tập, kỳ thi",
+          "ready": true,
+          "lessonIds": [
+            "t11-giao-tiep",
+            "t11-doc",
+            "t11-nghe",
+            "t11-viet"
+          ],
+          "readingId": "r-t11"
         },
         {
           "id": 12,
           "stage": 2,
           "title": "Công việc & nghề nghiệp",
-          "subtitle": "Đợt 2",
-          "ready": false,
-          "lessonIds": []
+          "subtitle": "Công ty, đồng nghiệp và giờ làm",
+          "ready": true,
+          "lessonIds": [
+            "t12-giao-tiep",
+            "t12-doc",
+            "t12-nghe",
+            "t12-viet"
+          ],
+          "readingId": "r-t12"
         },
         {
           "id": 13,
           "stage": 2,
           "title": "Sức khỏe: đi khám, mua thuốc",
-          "subtitle": "Đợt 2",
-          "ready": false,
-          "lessonIds": []
+          "subtitle": "Hỏi thăm khi ốm, khám bác sĩ",
+          "ready": true,
+          "lessonIds": [
+            "t13-giao-tiep",
+            "t13-doc",
+            "t13-nghe",
+            "t13-viet"
+          ],
+          "readingId": "r-t13"
         },
         {
           "id": 14,
           "stage": 2,
           "title": "Nhà ở: thuê nhà, hỏi tiện nghi",
-          "subtitle": "Đợt 2",
-          "ready": false,
-          "lessonIds": []
+          "subtitle": "Tìm phòng trọ, bàn ghế và phòng tắm",
+          "ready": true,
+          "lessonIds": [
+            "t14-giao-tiep",
+            "t14-doc",
+            "t14-nghe",
+            "t14-viet"
+          ],
+          "readingId": "r-t14"
         },
         {
           "id": 15,
           "stage": 2,
           "title": "Điện thoại, mạng xã hội & internet",
-          "subtitle": "Đợt 2",
-          "ready": false,
-          "lessonIds": []
+          "subtitle": "Gọi điện, nhắn tin và Wi-Fi",
+          "ready": true,
+          "lessonIds": [
+            "t15-giao-tiep",
+            "t15-doc",
+            "t15-nghe",
+            "t15-viet"
+          ],
+          "readingId": "r-t15"
         },
         {
           "id": 16,
           "stage": 2,
           "title": "Mua sắm online & nhận hàng",
-          "subtitle": "Đợt 2",
-          "ready": false,
-          "lessonIds": []
+          "subtitle": "Đặt đơn, giao hàng nhanh và kiểm hàng",
+          "ready": true,
+          "lessonIds": [
+            "t16-giao-tiep",
+            "t16-doc",
+            "t16-nghe",
+            "t16-viet"
+          ],
+          "readingId": "r-t16"
         }
       ]
     },
@@ -194,120 +310,240 @@
       "title": "Chặng 3 — Xã hội & giải trí",
       "subtitle": "Kết bạn, hẹn đi chơi, phim nhạc, du lịch và lễ tết",
       "colorToken": "review",
-      "grammarNotes": [],
+      "grammarNotes": [
+        {
+          "title": "Trải nghiệm đã từng với 过 (guo)",
+          "pattern": "Chủ ngữ + Động từ + 过 + Tân ngữ",
+          "explainVi": "Đặt 过 ngay sau động từ để nói mình từng trải nghiệm một món ăn, bộ phim hay chuyến đi.",
+          "exampleHanzi": "我看过这部中国电影。",
+          "exampleVi": "Mình đã từng xem bộ phim Trung Quốc này rồi."
+        },
+        {
+          "title": "Mức độ ngày càng tăng với 越来越",
+          "pattern": "Chủ ngữ + 越来越 + Tính từ / Động từ tâm lý",
+          "explainVi": "Diễn tả sự thay đổi tăng tiến theo thời gian ('ngày càng...').",
+          "exampleHanzi": "我们的关系越来越好了。",
+          "exampleVi": "Mối quan hệ của chúng mình ngày càng tốt hơn."
+        },
+        {
+          "title": "Ngoại trừ / Ngoài ra với 除了……以外",
+          "pattern": "除了 + A + 以外，……都 / 还……",
+          "explainVi": "Dùng kèm 都 để loại trừ A, hoặc kèm 还 để bổ sung thêm ý ngoài A.",
+          "exampleHanzi": "除了唱歌以外，他还喜欢踢足球。",
+          "exampleVi": "Ngoài ca hát ra, bạn ấy còn thích đá bóng nữa."
+        }
+      ],
       "storyChapter": {
         "title": "Chương 3: Chuyến tàu cuối tuần",
-        "teaserVi": "Mở khoá ở Đợt 2."
+        "teaserVi": "Nhóm bạn rủ Bao bắt chuyến tàu sớm đi du lịch cuối tuần và đón lễ hội đèn lồng rực rỡ.",
+        "readingId": "story-c3"
       },
+      "stageTestId": "stage-3-test",
       "topics": [
         {
           "id": 17,
           "stage": 3,
           "title": "Kết bạn mới & giữ liên lạc",
-          "subtitle": "Đợt 2",
-          "ready": false,
-          "lessonIds": []
+          "subtitle": "Làm quen sâu hơn và trò chuyện thân thiết",
+          "ready": true,
+          "lessonIds": [
+            "t17-giao-tiep",
+            "t17-doc",
+            "t17-nghe",
+            "t17-viet"
+          ],
+          "readingId": "r-t17"
         },
         {
           "id": 18,
           "stage": 3,
           "title": "Hẹn gặp & lên kế hoạch đi chơi",
-          "subtitle": "Đợt 2",
-          "ready": false,
-          "lessonIds": []
+          "subtitle": "Sắp xếp lịch, rủ bạn cuối tuần",
+          "ready": true,
+          "lessonIds": [
+            "t18-giao-tiep",
+            "t18-doc",
+            "t18-nghe",
+            "t18-viet"
+          ],
+          "readingId": "r-t18"
         },
         {
           "id": 19,
           "stage": 3,
           "title": "Phim, nhạc & thần tượng",
-          "subtitle": "Đợt 2",
-          "ready": false,
-          "lessonIds": []
+          "subtitle": "Bình luận phim hay và bài hát yêu thích",
+          "ready": true,
+          "lessonIds": [
+            "t19-giao-tiep",
+            "t19-doc",
+            "t19-nghe",
+            "t19-viet"
+          ],
+          "readingId": "r-t19"
         },
         {
           "id": 20,
           "stage": 3,
           "title": "Thể thao & vận động",
-          "subtitle": "Đợt 2",
-          "ready": false,
-          "lessonIds": []
+          "subtitle": "Chạy bộ, đá bóng và cổ vũ thi đấu",
+          "ready": true,
+          "lessonIds": [
+            "t20-giao-tiep",
+            "t20-doc",
+            "t20-nghe",
+            "t20-viet"
+          ],
+          "readingId": "r-t20"
         },
         {
           "id": 21,
           "stage": 3,
           "title": "Du lịch: khách sạn, vé, điểm tham quan",
-          "subtitle": "Đợt 2",
-          "ready": false,
-          "lessonIds": []
+          "subtitle": "Đặt phòng, mua vé tàu và tham quan",
+          "ready": true,
+          "lessonIds": [
+            "t21-giao-tiep",
+            "t21-doc",
+            "t21-nghe",
+            "t21-viet"
+          ],
+          "readingId": "r-t21"
         },
         {
           "id": 22,
           "stage": 3,
           "title": "Lễ tết & phong tục",
-          "subtitle": "Đợt 2",
-          "ready": false,
-          "lessonIds": []
+          "subtitle": "Đón Tết, quà tặng và món truyền thống",
+          "ready": true,
+          "lessonIds": [
+            "t22-giao-tiep",
+            "t22-doc",
+            "t22-nghe",
+            "t22-viet"
+          ],
+          "readingId": "r-t22"
         },
         {
           "id": 23,
           "stage": 3,
           "title": "Cảm xúc & tính cách",
-          "subtitle": "Đợt 2",
-          "ready": false,
-          "lessonIds": []
+          "subtitle": "Diễn đạt tâm trạng, lo lắng, tự tin",
+          "ready": true,
+          "lessonIds": [
+            "t23-giao-tiep",
+            "t23-doc",
+            "t23-nghe",
+            "t23-viet"
+          ],
+          "readingId": "r-t23"
         },
         {
           "id": 24,
           "stage": 3,
           "title": "Kể chuyện đã qua",
-          "subtitle": "Đợt 2",
-          "ready": false,
-          "lessonIds": []
+          "subtitle": "Thuật lại kỷ niệm đáng nhớ",
+          "ready": true,
+          "lessonIds": [
+            "t24-giao-tiep",
+            "t24-doc",
+            "t24-nghe",
+            "t24-viet"
+          ],
+          "readingId": "r-t24"
         }
       ]
     },
     {
       "id": 4,
       "title": "Chặng 4 — Tự tin giao tiếp",
-      "subtitle": "Trình bày quan điểm, dự định tương lai và xử lý tình huống khó",
+      "subtitle": "Bày tỏ quan điểm, dự định tương lai, công nghệ & tình huống khó",
       "colorToken": "write",
-      "grammarNotes": [],
+      "grammarNotes": [
+        {
+          "title": "Câu chữ 把 (bǎ) nhấn mạnh tác động",
+          "pattern": "Chủ ngữ + 把 + Tân ngữ + Động từ + Bổ ngữ",
+          "explainVi": "Đưa đối tượng chịu tác động lên trước động từ để nêu rõ kết quả xử lý sự việc.",
+          "exampleHanzi": "请把你的问题写下来。",
+          "exampleVi": "Xin hãy viết vấn đề của bạn xuống giấy."
+        },
+        {
+          "title": "Nêu quan điểm nhẹ nhàng với 在我看来 / 我认为",
+          "pattern": "我认为 / 对我来说 + Mệnh đề",
+          "explainVi": "Giúp bày tỏ ý kiến cá nhân lịch sự khi thảo luận công việc hay đời sống.",
+          "exampleHanzi": "我认为这个办法既简单又安全。",
+          "exampleVi": "Mình cho rằng cách này vừa đơn giản vừa an toàn."
+        },
+        {
+          "title": "Điều kiện & mục đích với 只要……就…… / 为了",
+          "pattern": "只要 + Điều kiện + 就 + Kết quả",
+          "explainVi": "只要...就... = 'Chỉ cần... thì...'; 为了... = 'Vì để...' giúp câu lập luận mạch lạc.",
+          "exampleHanzi": "只要坚持练习，就一定能做到。",
+          "exampleVi": "Chỉ cần kiên trì luyện tập thì nhất định làm được."
+        }
+      ],
       "storyChapter": {
         "title": "Chương 4: Hội chợ mùa thu",
-        "teaserVi": "Mở khoá ở Đợt 2."
+        "teaserVi": "Ngày hội lớn cuối hành trình: Bao tự tin thuyết trình ý tưởng và giúp khách xử lý sự cố bất ngờ.",
+        "readingId": "story-c4"
       },
+      "stageTestId": "stage-4-test",
       "topics": [
         {
           "id": 25,
           "stage": 4,
           "title": "Bày tỏ ý kiến & đồng ý/phản đối nhẹ nhàng",
-          "subtitle": "Đợt 2",
-          "ready": false,
-          "lessonIds": []
+          "subtitle": "Thảo luận, nêu lý do và đồng thuận",
+          "ready": true,
+          "lessonIds": [
+            "t25-giao-tiep",
+            "t25-doc",
+            "t25-nghe",
+            "t25-viet"
+          ],
+          "readingId": "r-t25"
         },
         {
           "id": 26,
           "stage": 4,
           "title": "Dự định & ước mơ tương lai",
-          "subtitle": "Đợt 2",
-          "ready": false,
-          "lessonIds": []
+          "subtitle": "Mục tiêu nghề nghiệp và kế hoạch dài hạn",
+          "ready": true,
+          "lessonIds": [
+            "t26-giao-tiep",
+            "t26-doc",
+            "t26-nghe",
+            "t26-viet"
+          ],
+          "readingId": "r-t26"
         },
         {
           "id": 27,
           "stage": 4,
           "title": "Công nghệ & AI trong đời sống",
-          "subtitle": "Đợt 2",
-          "ready": false,
-          "lessonIds": []
+          "subtitle": "Trí tuệ nhân tạo, ứng dụng thông minh",
+          "ready": true,
+          "lessonIds": [
+            "t27-giao-tiep",
+            "t27-doc",
+            "t27-nghe",
+            "t27-viet"
+          ],
+          "readingId": "r-t27"
         },
         {
           "id": 28,
           "stage": 4,
           "title": "Tình huống khó: nhờ giúp đỡ, khẩn cấp & xin lỗi",
-          "subtitle": "Đợt 2",
-          "ready": false,
-          "lessonIds": []
+          "subtitle": "Xử lý sự cố, xin lỗi và hỗ trợ kịp thời",
+          "ready": true,
+          "lessonIds": [
+            "t28-giao-tiep",
+            "t28-doc",
+            "t28-nghe",
+            "t28-viet"
+          ],
+          "readingId": "r-t28"
         }
       ]
     }

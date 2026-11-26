@@ -96,12 +96,28 @@ export interface WritingCharSpec {
   lookalikes: { hanzi: string; pinyin: string; vi: string }[];
 }
 
+export interface StageTestItem {
+  id: string;
+  skill: 'giao-tiep' | 'doc' | 'nghe' | 'viet';
+  promptVi: string;
+  passageHanzi?: string;
+  passagePinyin?: string;
+  passageVi?: string;
+  audioText?: string;
+  audio?: string;
+  audioSlow?: string;
+  writingChar?: WritingCharSpec;
+  options?: { label: string; value: string }[];
+  answer: string;
+  explainVi?: string;
+}
+
 export interface LessonItem {
   id: string;
   stage: number;
   topicId: number;
   title: string;
-  type: 'giao-tiep' | 'doc' | 'nghe' | 'viet';
+  type: 'giao-tiep' | 'doc' | 'nghe' | 'viet' | 'stage-test';
   xp: number;
   newWords: string[];
   patterns?: PatternItem[];
@@ -110,6 +126,7 @@ export interface LessonItem {
   roleplay?: RoleplayTurn[];
   listeningTracks?: { id: string; speaker: string; hanzi: string; pinyin: string; vi: string; audio?: string; audioSlow?: string; voiceRole?: string }[];
   writingChars?: WritingCharSpec[];
+  stageTestItems?: StageTestItem[];
   readingId?: string;
 }
 
@@ -147,6 +164,9 @@ export interface ReadingItem {
   questions: ReadingQuestion[];
   audioFull?: string;
   audioSentences?: string[];
+  isStoryChapter?: boolean;
+  chapterNumber?: number;
+  cliffhangerVi?: string;
 }
 
 export interface TopicMeta {
@@ -166,6 +186,7 @@ export interface StageMeta {
   colorToken: string;
   grammarNotes: { title: string; pattern: string; explainVi: string; exampleHanzi: string; exampleVi: string }[];
   storyChapter: { title: string; teaserVi: string; readingId?: string };
+  stageTestId?: string;
   topics: TopicMeta[];
 }
 

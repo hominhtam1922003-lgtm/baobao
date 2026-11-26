@@ -1,0 +1,4949 @@
+[
+  {
+    "id": "w3-001",
+    "hanzi": "认为",
+    "pinyin": "rèn wéi",
+    "meaningVi": "cho rằng, nghĩ rằng",
+    "radical": "讠",
+    "level": 3,
+    "frequency": 168,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他把我错认为我妈妈了。",
+        "pinyin": "tā bǎ wǒ cuò rèn wéi wǒ mā mā le 。",
+        "vi": "Anh ta đã nhận nhầm tôi thành mẹ tôi."
+      }
+    ]
+  },
+  {
+    "id": "w3-002",
+    "hanzi": "世界",
+    "pinyin": "shì jiè",
+    "meaningVi": "thế giới",
+    "radical": "一",
+    "level": 3,
+    "frequency": 238,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我要環遊世界。",
+        "pinyin": "wǒ yào huán yóu shì jiè 。",
+        "vi": "Tôi muốn đi vòng quanh thế giới."
+      }
+    ]
+  },
+  {
+    "id": "w3-003",
+    "hanzi": "重要",
+    "pinyin": "zhòng yào",
+    "meaningVi": "quan trọng",
+    "radical": "里",
+    "level": 3,
+    "frequency": 240,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "变量的声明在C和C++中极其重要。",
+        "pinyin": "biàn liàng de shēng míng zài C hé C++ zhōng jí qí zhòng yào 。",
+        "vi": "Khai báo biến trong C/C++ vô cùng quan trọng."
+      }
+    ]
+  },
+  {
+    "id": "w3-004",
+    "hanzi": "比赛",
+    "pinyin": "bǐ sài",
+    "meaningVi": "thi đấu, cuộc thi",
+    "radical": "比",
+    "level": 3,
+    "frequency": 275,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他有可能赢得比赛。",
+        "pinyin": "tā yǒu kě néng yíng dé bǐ sài 。",
+        "vi": "Cậu ấy có khả năng thắng trận đấu."
+      }
+    ]
+  },
+  {
+    "id": "w3-005",
+    "hanzi": "担心",
+    "pinyin": "dān xīn",
+    "meaningVi": "lo lắng, bận tâm",
+    "radical": "扌",
+    "level": 3,
+    "frequency": 277,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "不要担心，我会一直在你身边。",
+        "pinyin": "bú yào dān xīn ， wǒ huì yì zhí zài nǐ shēn biān 。",
+        "vi": "Đừng lo lắng, anh sẽ luôn ở bên em."
+      }
+    ]
+  },
+  {
+    "id": "w3-006",
+    "hanzi": "关系",
+    "pinyin": "guān xi",
+    "meaningVi": "mối quan hệ, liên quan",
+    "radical": "丷",
+    "level": 3,
+    "frequency": 318,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "没关系。",
+        "pinyin": "méi guān xì 。",
+        "vi": "Không sao đâu."
+      }
+    ]
+  },
+  {
+    "id": "w3-007",
+    "hanzi": "安全",
+    "pinyin": "ān quán",
+    "meaningVi": "an toàn, bảo mật",
+    "radical": "宀",
+    "level": 3,
+    "frequency": 364,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "司機應該繫安全帶。",
+        "pinyin": "sī jī yīng gāi xì ān quán dài 。",
+        "vi": "Những người lái xe phải thắt dây an toàn."
+      }
+    ]
+  },
+  {
+    "id": "w3-008",
+    "hanzi": "决定",
+    "pinyin": "jué dìng",
+    "meaningVi": "quyết định",
+    "radical": "冫",
+    "level": 3,
+    "frequency": 366,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "这件事你自己决定就是了。",
+        "pinyin": "zhè jiàn shì nǐ zì jǐ jué dìng jiù shì le 。",
+        "vi": "Việc này cậu tự quyết định là được rồi."
+      }
+    ]
+  },
+  {
+    "id": "w3-009",
+    "hanzi": "选择",
+    "pinyin": "xuǎn zé",
+    "meaningVi": "lựa chọn, chọn lựa",
+    "radical": "辶",
+    "level": 3,
+    "frequency": 373,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "你可以选择红茶，咖啡或牛奶。",
+        "pinyin": "nǐ kě yǐ xuǎn zé hóng chá ， kā fēi huò niú nǎi 。",
+        "vi": "Bạn có thể chọn hồng trà, cà phê hoặc sữa."
+      }
+    ]
+  },
+  {
+    "id": "w3-010",
+    "hanzi": "机会",
+    "pinyin": "jī huì",
+    "meaningVi": "cơ hội",
+    "radical": "木",
+    "level": 3,
+    "frequency": 393,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我们没机会赢那些一流选手。",
+        "pinyin": "wǒ men méi jī huì yíng nà xiē yì liú xuǎn shǒu 。",
+        "vi": "Mình không có cơ hội thắng những tay đua top đầu đâu."
+      }
+    ]
+  },
+  {
+    "id": "w3-011",
+    "hanzi": "其实",
+    "pinyin": "qí shí",
+    "meaningVi": "thực ra, kỳ thực",
+    "radical": "八",
+    "level": 3,
+    "frequency": 405,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "你其实没必要带伞。",
+        "pinyin": "nǐ qí shí méi bì yào dài sǎn 。",
+        "vi": "Thực ra bạn không cần mang ô đâu."
+      }
+    ]
+  },
+  {
+    "id": "w3-012",
+    "hanzi": "解决",
+    "pinyin": "jiě jué",
+    "meaningVi": "giải quyết",
+    "radical": "角",
+    "level": 3,
+    "frequency": 458,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "不立即解决，那桩事会马上告吹的。",
+        "pinyin": "bù lì jí jiě jué ， nà zhuāng shì huì mǎ shàng gào chuī de 。",
+        "vi": "Không giải quyết ngay thì việc đó sẽ hỏng bây giờ đây."
+      }
+    ]
+  },
+  {
+    "id": "w3-013",
+    "hanzi": "完成",
+    "pinyin": "wán chéng",
+    "meaningVi": "hoàn thành",
+    "radical": "宀",
+    "level": 3,
+    "frequency": 486,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "要努力完成计划。",
+        "pinyin": "yào nǔ lì wán chéng jì huà 。",
+        "vi": "Hãy ra sức hoàn thành kế hoạch."
+      }
+    ]
+  },
+  {
+    "id": "w3-014",
+    "hanzi": "帮助",
+    "pinyin": "bāng zhù",
+    "meaningVi": "giúp đỡ, sự giúp đỡ",
+    "radical": "巾",
+    "level": 3,
+    "frequency": 499,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "贸易帮助国家发展。",
+        "pinyin": "mào yì bāng zhù guó jiā fā zhǎn 。",
+        "vi": "Mậu dịch hỗ trợ sự phát triển của quốc gia."
+      }
+    ]
+  },
+  {
+    "id": "w3-015",
+    "hanzi": "努力",
+    "pinyin": "nǔ lì",
+    "meaningVi": "nỗ lực, cố gắng",
+    "radical": "力",
+    "level": 3,
+    "frequency": 505,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我努力地改善我的成績。",
+        "pinyin": "wǒ nǔ lì dì gǎi shàn wǒ de chéng jī 。",
+        "vi": "Tôi nổ lực cải thiện thành tích của tôi."
+      }
+    ]
+  },
+  {
+    "id": "w3-016",
+    "hanzi": "办法",
+    "pinyin": "bàn fǎ",
+    "meaningVi": "biện pháp, cách giải quyết",
+    "radical": "力",
+    "level": 3,
+    "frequency": 538,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "这是没办法的。",
+        "pinyin": "zhè shì méi bàn fǎ de 。",
+        "vi": "Vụ này hết cách rồi."
+      }
+    ]
+  },
+  {
+    "id": "w3-017",
+    "hanzi": "城市",
+    "pinyin": "chéng shì",
+    "meaningVi": "thành phố",
+    "radical": "土",
+    "level": 3,
+    "frequency": 593,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "哈巴羅夫斯克是俄羅斯遠東地區最大的城市之一。",
+        "pinyin": "hā bā luó fū sī kè shì é luó sī yuǎn dōng dì qū zuì dà de chéng shì zhī yī 。",
+        "vi": "Khabarovsk là một trong những thành phố lớn nhất vùng Viễn Đông nước Nga."
+      }
+    ]
+  },
+  {
+    "id": "w3-018",
+    "hanzi": "影响",
+    "pinyin": "yǐng xiǎng",
+    "meaningVi": "ảnh hưởng",
+    "radical": "彡",
+    "level": 3,
+    "frequency": 598,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "这对他没有影响。",
+        "pinyin": "zhè duì tā méi yǒu yǐng xiǎng 。",
+        "vi": "Việc này không ảnh hưởng gì đến cậu ấy."
+      }
+    ]
+  },
+  {
+    "id": "w3-019",
+    "hanzi": "突然",
+    "pinyin": "tū rán",
+    "meaningVi": "đột nhiên, bất ngờ",
+    "radical": "穴",
+    "level": 3,
+    "frequency": 644,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "突然天下起雨来。",
+        "pinyin": "tū rán tiān xià qǐ yǔ lái 。",
+        "vi": "Bỗng nhiên trời mưa."
+      }
+    ]
+  },
+  {
+    "id": "w3-020",
+    "hanzi": "检查",
+    "pinyin": "jiǎn chá",
+    "meaningVi": "kiểm tra",
+    "radical": "木",
+    "level": 3,
+    "frequency": 659,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我在检查这里有没有激光警报装置。",
+        "pinyin": "wǒ zài jiǎn chá zhè lǐ yǒu méi yǒu jī guāng jǐng bào zhuāng zhì 。",
+        "vi": "Tôi đang kiểm tra xem ở đây có thiết bị báo động laser hay không."
+      }
+    ]
+  },
+  {
+    "id": "w3-021",
+    "hanzi": "简单",
+    "pinyin": "jiǎn dān",
+    "meaningVi": "đơn giản",
+    "radical": "⺮",
+    "level": 3,
+    "frequency": 726,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "开车真的非常简单。",
+        "pinyin": "kāi chē zhēn de fēi cháng jiǎn dān 。",
+        "vi": "Lái xe thực ra rất đơn giản."
+      }
+    ]
+  },
+  {
+    "id": "w3-022",
+    "hanzi": "音乐",
+    "pinyin": "yīn yuè",
+    "meaningVi": "âm nhạc",
+    "radical": "音",
+    "level": 3,
+    "frequency": 742,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "这音乐值得听许多次。",
+        "pinyin": "zhè yīn yuè zhí de tīng xǔ duō cì 。",
+        "vi": "Bản nhạc này đáng nghe lại nhiều lần."
+      }
+    ]
+  },
+  {
+    "id": "w3-023",
+    "hanzi": "清楚",
+    "pinyin": "qīng chu",
+    "meaningVi": "rõ ràng, hiểu rõ",
+    "radical": "氵",
+    "level": 3,
+    "frequency": 766,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他还没有把情况了解清楚就急忙发表意见。",
+        "pinyin": "tā hái méi yǒu bǎ qíng kuàng liǎo jiě qīng chǔ jiù jí máng fā biǎo yì jiàn 。",
+        "vi": "Anh ta chưa biết rõ tình hình đã phát biểu ý kiến ngay."
+      }
+    ]
+  },
+  {
+    "id": "w3-024",
+    "hanzi": "故事",
+    "pinyin": "gù shì",
+    "meaningVi": "câu chuyện, chuyện cũ",
+    "radical": "攵",
+    "level": 3,
+    "frequency": 772,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他给我们讲了一个有趣的故事，我们都笑了起来。",
+        "pinyin": "tā gěi wǒ men jiǎng le yí gè yǒu qù de gù shì ， wǒ men dōu xiào le qǐ lái 。",
+        "vi": "Cậu ấy kể một câu chuyện cười khiến tất cả chúng mình đều bật cười."
+      }
+    ]
+  },
+  {
+    "id": "w3-025",
+    "hanzi": "欢迎",
+    "pinyin": "huān yíng",
+    "meaningVi": "hoan nghênh, chào đón",
+    "radical": "欠",
+    "level": 3,
+    "frequency": 796,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "欢迎回家。",
+        "pinyin": "huān yíng huí jiā 。",
+        "vi": "Chào mừng bạn đã về nhà."
+      }
+    ]
+  },
+  {
+    "id": "w3-026",
+    "hanzi": "可爱",
+    "pinyin": "kě ài",
+    "meaningVi": "đáng yêu, dễ thương",
+    "radical": "口",
+    "level": 3,
+    "frequency": 799,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "猫是很可爱的。",
+        "pinyin": "māo shì hěn kě ài de 。",
+        "vi": "Mèo rất dễ thương."
+      }
+    ]
+  },
+  {
+    "id": "w3-027",
+    "hanzi": "声音",
+    "pinyin": "shēng yīn",
+    "meaningVi": "âm thanh, tiếng",
+    "radical": "士",
+    "level": 3,
+    "frequency": 841,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "不要发出声音。",
+        "pinyin": "bú yào fā chū shēng yīn 。",
+        "vi": "Đừng tạo tiếng động."
+      }
+    ]
+  },
+  {
+    "id": "w3-028",
+    "hanzi": "节目",
+    "pinyin": "jié mù",
+    "meaningVi": "chương trình, tiết mục",
+    "radical": "艹",
+    "level": 3,
+    "frequency": 951,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "只有为数不多的几个电视节目值得关注。",
+        "pinyin": "zhǐ yǒu wéi shù bù duō de jǐ gè diàn shì jié mù zhí de guān zhù 。",
+        "vi": "Chỉ có một số ít chương trình truyền hình đáng xem."
+      }
+    ]
+  },
+  {
+    "id": "w3-029",
+    "hanzi": "同意",
+    "pinyin": "tóng yì",
+    "meaningVi": "đồng ý, tán thành",
+    "radical": "口",
+    "level": 3,
+    "frequency": 985,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我们也同意。",
+        "pinyin": "wǒ men yě tóng yì 。",
+        "vi": "Chúng tôi cũng đồng ý."
+      }
+    ]
+  },
+  {
+    "id": "w3-030",
+    "hanzi": "认真",
+    "pinyin": "rèn zhēn",
+    "meaningVi": "nghiêm túc, chăm chỉ",
+    "radical": "讠",
+    "level": 3,
+    "frequency": 1020,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "她哥哥很认真学习。",
+        "pinyin": "tā gē gē hěn rèn zhēn xué xí 。",
+        "vi": "Anh trai của cô ấy học rất nghiêm túc."
+      }
+    ]
+  },
+  {
+    "id": "w3-031",
+    "hanzi": "刚才",
+    "pinyin": "gāng cái",
+    "meaningVi": "vừa nãy, lúc nãy",
+    "radical": "刂",
+    "level": 3,
+    "frequency": 1149,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "刚才是和你闹着玩儿的，你别当真。",
+        "pinyin": "gāng cái shì hé nǐ nào zhe wán ér de ， nǐ bié dàng zhēn 。",
+        "vi": "Vừa nãy là đùa với cậu thôi, cậu đừng tưởng thật."
+      }
+    ]
+  },
+  {
+    "id": "w3-032",
+    "hanzi": "变化",
+    "pinyin": "biàn huà",
+    "meaningVi": "thay đổi, biến hóa",
+    "radical": "又",
+    "level": 3,
+    "frequency": 1262,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "据说山上的天气变化很快。",
+        "pinyin": "jù shuō shān shàng de tiān qì biàn huà hěn kuài 。",
+        "vi": "Nghe nói thời tiết trên núi thay đổi rất nhanh."
+      }
+    ]
+  },
+  {
+    "id": "w3-033",
+    "hanzi": "忘记",
+    "pinyin": "wàng jì",
+    "meaningVi": "quên",
+    "radical": "心",
+    "level": 3,
+    "frequency": 1335,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "不要忘记吸烟对你的健康有害。",
+        "pinyin": "bú yào wàng jì xī yān duì nǐ de jiàn kāng yǒu hài 。",
+        "vi": "Đừng quên hút thuốc có hại cho sức khỏe của bạn."
+      }
+    ]
+  },
+  {
+    "id": "w3-034",
+    "hanzi": "打算",
+    "pinyin": "dǎ suàn",
+    "meaningVi": "dự định, tính toán",
+    "radical": "扌",
+    "level": 3,
+    "frequency": 1374,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "迪克打算自己去。",
+        "pinyin": "dí kè dǎ suàn zì jǐ qù 。",
+        "vi": "Dick dự tính tự đi một mình."
+      }
+    ]
+  },
+  {
+    "id": "w3-035",
+    "hanzi": "小心",
+    "pinyin": "xiǎo xīn",
+    "meaningVi": "cẩn thận",
+    "radical": "小",
+    "level": 3,
+    "frequency": 1411,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "你自己小心，玩得开心点！",
+        "pinyin": "nǐ zì jǐ xiǎo xīn ， wán dé kāi xīn diǎn ！",
+        "vi": "Cẩn thận nhé, chúc bạn chơi vui vẻ!"
+      }
+    ]
+  },
+  {
+    "id": "w3-036",
+    "hanzi": "文化",
+    "pinyin": "wén huà",
+    "meaningVi": "văn hóa",
+    "radical": "文",
+    "level": 3,
+    "frequency": 1632,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他们有他们自己的文化。",
+        "pinyin": "tā men yǒu tā men zì jǐ de wén huà 。",
+        "vi": "Họ có nền văn hóa riêng của mình."
+      }
+    ]
+  },
+  {
+    "id": "w3-037",
+    "hanzi": "礼物",
+    "pinyin": "lǐ wù",
+    "meaningVi": "quà, quà tặng",
+    "radical": "礻",
+    "level": 3,
+    "frequency": 1673,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "送你一点礼物。",
+        "pinyin": "sòng nǐ yì diǎn lǐ wù 。",
+        "vi": "Biếu chị một chút quà."
+      }
+    ]
+  },
+  {
+    "id": "w3-038",
+    "hanzi": "提高",
+    "pinyin": "tí gāo",
+    "meaningVi": "nâng cao, cải thiện",
+    "radical": "扌",
+    "level": 3,
+    "frequency": 1724,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "她提高了她的嗓音。",
+        "pinyin": "tā tí gāo le tā de sǎng yīn 。",
+        "vi": "Bạn ấy đã tăng giọng mình lên."
+      }
+    ]
+  },
+  {
+    "id": "w3-039",
+    "hanzi": "聪明",
+    "pinyin": "cōng ming",
+    "meaningVi": "thông minh, lanh lợi",
+    "radical": "耳",
+    "level": 3,
+    "frequency": 1918,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他和班上其他男生一样聪明。",
+        "pinyin": "tā hé bān shàng qí tā nán shēng yī yàng cōng míng 。",
+        "vi": "Bạn ấy thông minh không kém gì mấy bạn nam khác trong lớp."
+      }
+    ]
+  },
+  {
+    "id": "w3-040",
+    "hanzi": "节日",
+    "pinyin": "jié rì",
+    "meaningVi": "lễ hội, ngày lễ",
+    "radical": "艹",
+    "level": 3,
+    "frequency": 3477,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "节日和考试碰巧在同一天。",
+        "pinyin": "jié rì hé kǎo shì pèng qiǎo zài tóng yī tiān 。",
+        "vi": "Ngày lễ và kỳ thi lại trùng vào cùng một ngày."
+      }
+    ]
+  },
+  {
+    "id": "w3-041",
+    "hanzi": "地图",
+    "pinyin": "dì tú",
+    "meaningVi": "bản đồ",
+    "radical": "土",
+    "level": 3,
+    "frequency": 3548,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我在旅行中用了地图。",
+        "pinyin": "wǒ zài lǚ xíng zhōng yòng le dì tú 。",
+        "vi": "Mình đã dùng bản đồ trong chuyến đi."
+      }
+    ]
+  },
+  {
+    "id": "w3-042",
+    "hanzi": "迟到",
+    "pinyin": "chí dào",
+    "meaningVi": "đến muộn, trễ giờ",
+    "radical": "辶",
+    "level": 3,
+    "frequency": 3667,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "由于火车延误，我迟到了。",
+        "pinyin": "yóu yú huǒ chē yán wù ， wǒ chí dào le 。",
+        "vi": "Mình đến muộn vì tàu bị hoãn."
+      }
+    ]
+  },
+  {
+    "id": "w3-043",
+    "hanzi": "行李",
+    "pinyin": "xíng li",
+    "meaningVi": "hành lý",
+    "radical": "行",
+    "level": 3,
+    "frequency": 4886,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "你的行李多重？",
+        "pinyin": "nǐ de xíng lǐ duō zhòng ？",
+        "vi": "Hành lý của bạn nặng bao nhiêu?"
+      }
+    ]
+  },
+  {
+    "id": "w3-044",
+    "hanzi": "体育馆",
+    "pinyin": "tǐ yù guǎn",
+    "meaningVi": "nhà thi đấu, nhà thể thao",
+    "radical": "亻",
+    "level": 3,
+    "frequency": 7477,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我们在体育馆打篮球。",
+        "pinyin": "wǒ men zài tǐ yù guǎn dǎ lán qiú 。",
+        "vi": "Chúng mình chơi bóng rổ ở nhà thi đấu."
+      }
+    ]
+  },
+  {
+    "id": "w3-045",
+    "hanzi": "把",
+    "pinyin": "bǎ",
+    "meaningVi": "cầm, nắm, câu chữ bả",
+    "radical": "扌",
+    "level": 3,
+    "frequency": 50,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我要把他射下來。",
+        "pinyin": "wǒ yào bǎ tā shè xià lái 。",
+        "vi": "Tao sẽ bắn hạ nó."
+      }
+    ]
+  },
+  {
+    "id": "w3-046",
+    "hanzi": "被",
+    "pinyin": "bèi",
+    "meaningVi": "bị, được, chăn",
+    "radical": "衤",
+    "level": 3,
+    "frequency": 54,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我的表被偷了。",
+        "pinyin": "wǒ de biǎo bèi tōu le 。",
+        "vi": "Đồng hồ của tôi bị trộm mất rồi."
+      }
+    ]
+  },
+  {
+    "id": "w3-047",
+    "hanzi": "为",
+    "pinyin": "wèi",
+    "meaningVi": "là, vì, để làm",
+    "radical": "丶",
+    "level": 3,
+    "frequency": 58,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "一个人要为他的行为负责。",
+        "pinyin": "yí gè rén yào wèi tā de xíng wéi fù zé 。",
+        "vi": "Một người phải có trách nhiệm với những hành động của mình."
+      }
+    ]
+  },
+  {
+    "id": "w3-048",
+    "hanzi": "中",
+    "pinyin": "zhōng",
+    "meaningVi": "trung, trong, Trung Quốc",
+    "radical": "丨",
+    "level": 3,
+    "frequency": 71,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "变量的声明在C和C++中极其重要。",
+        "pinyin": "biàn liàng de shēng míng zài C hé C++ zhōng jí qí zhòng yào 。",
+        "vi": "Khai báo biến trong C/C++ vô cùng quan trọng."
+      }
+    ]
+  },
+  {
+    "id": "w3-049",
+    "hanzi": "如果",
+    "pinyin": "rú guǒ",
+    "meaningVi": "nếu, giả sử",
+    "radical": "女",
+    "level": 3,
+    "frequency": 89,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "如果我可以像那樣的話...",
+        "pinyin": "rú guǒ wǒ kě yǐ xiàng nà yàng de huà ...",
+        "vi": "Giá mà tôi cũng như vậy..."
+      }
+    ]
+  },
+  {
+    "id": "w3-050",
+    "hanzi": "又",
+    "pinyin": "yòu",
+    "meaningVi": "lại, vừa... vừa...",
+    "radical": "又",
+    "level": 3,
+    "frequency": 91,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "那又怎樣?",
+        "pinyin": "nà yòu zěn yàng ?",
+        "vi": "Thì sao?"
+      }
+    ]
+  },
+  {
+    "id": "w3-051",
+    "hanzi": "可",
+    "pinyin": "kě",
+    "meaningVi": "có thể, đáng, nhưng",
+    "radical": "口",
+    "level": 3,
+    "frequency": 96,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "可惜这是真的。",
+        "pinyin": "kě xī zhè shì zhēn de 。",
+        "vi": "Tiếc rằng cái đó là sự thật."
+      }
+    ]
+  },
+  {
+    "id": "w3-052",
+    "hanzi": "该",
+    "pinyin": "gāi",
+    "meaningVi": "nên, phải",
+    "radical": "讠",
+    "level": 3,
+    "frequency": 116,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我该去睡觉了。",
+        "pinyin": "wǒ gāi qù shuì jiào le 。",
+        "vi": "Tôi phải đi ngủ."
+      }
+    ]
+  },
+  {
+    "id": "w3-053",
+    "hanzi": "更",
+    "pinyin": "gèng",
+    "meaningVi": "hơn, càng",
+    "radical": "曰",
+    "level": 3,
+    "frequency": 127,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "你的车很快，但是我的更快。",
+        "pinyin": "nǐ de chē hěn kuài ， dàn shì wǒ de gèng kuài 。",
+        "vi": "Xe của mày rất nhanh, nhưng xe của tao nhanh hơn."
+      }
+    ]
+  },
+  {
+    "id": "w3-054",
+    "hanzi": "需要",
+    "pinyin": "xū yào",
+    "meaningVi": "cần, nhu cầu",
+    "radical": "雨",
+    "level": 3,
+    "frequency": 131,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我们的眼睛需要时间来适应黑暗。",
+        "pinyin": "wǒ men de yǎn jīng xū yào shí jiān lái shì yìng hēi àn 。",
+        "vi": "Mắt của chúng ta cần thời gian để điều chỉnh với bóng tối."
+      }
+    ]
+  },
+  {
+    "id": "w3-055",
+    "hanzi": "才",
+    "pinyin": "cái",
+    "meaningVi": "mới, tài năng",
+    "radical": "扌",
+    "level": 3,
+    "frequency": 133,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我不知道應該說什麼才好。",
+        "pinyin": "wǒ bù zhī dào yīng gāi shuō shén me cái hǎo 。",
+        "vi": "Tôi hết lời để nói."
+      }
+    ]
+  },
+  {
+    "id": "w3-056",
+    "hanzi": "像",
+    "pinyin": "xiàng",
+    "meaningVi": "giống, như là, hình ảnh",
+    "radical": "亻",
+    "level": 3,
+    "frequency": 151,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "如果我可以像那樣的話...",
+        "pinyin": "rú guǒ wǒ kě yǐ xiàng nà yàng de huà ...",
+        "vi": "Giá mà tôi cũng như vậy..."
+      }
+    ]
+  },
+  {
+    "id": "w3-057",
+    "hanzi": "向",
+    "pinyin": "xiàng",
+    "meaningVi": "hướng về, đối với, về phía",
+    "radical": "口",
+    "level": 3,
+    "frequency": 165,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "帕克夫人面帶微笑向他打招呼。",
+        "pinyin": "pà kè fū rén miàn dài wēi xiào xiàng tā dǎ zhāo hū 。",
+        "vi": "Bà Parker mỉm cười chào anh ấy."
+      }
+    ]
+  },
+  {
+    "id": "w3-058",
+    "hanzi": "起",
+    "pinyin": "qǐ",
+    "meaningVi": "đứng lên, bắt đầu, dấy lên",
+    "radical": "走",
+    "level": 3,
+    "frequency": 174,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我想和你一起去。",
+        "pinyin": "wǒ xiǎng hé nǐ yì qǐ qù 。",
+        "vi": "Tôi muốn đi cùng với bạn."
+      }
+    ]
+  },
+  {
+    "id": "w3-059",
+    "hanzi": "应该",
+    "pinyin": "yīng gāi",
+    "meaningVi": "nên, phải",
+    "radical": "广",
+    "level": 3,
+    "frequency": 174,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我认为这个消息应该通知大家。",
+        "pinyin": "wǒ rèn wéi zhè ge xiāo xī yīng gāi tōng zhī dà jiā 。",
+        "vi": "Tôi thấy tin đó nên báo cho mọi người biết."
+      }
+    ]
+  },
+  {
+    "id": "w3-060",
+    "hanzi": "带",
+    "pinyin": "dài",
+    "meaningVi": "đem, mang, dây đai",
+    "radical": "巾",
+    "level": 3,
+    "frequency": 177,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "她给了她父亲一条领带。",
+        "pinyin": "tā gěi le tā fù qīn yī tiáo lǐng dài 。",
+        "vi": "Cô ấy đã đưa cho bố cô một chiếc cà vạt."
+      }
+    ]
+  },
+  {
+    "id": "w3-061",
+    "hanzi": "种",
+    "pinyin": "zhǒng",
+    "meaningVi": "loại, chủng loại, trồng",
+    "radical": "禾",
+    "level": 3,
+    "frequency": 179,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我接种了流感疫苗。",
+        "pinyin": "wǒ jiē zhǒng le liú gǎn yì miáo 。",
+        "vi": "Tôi đã tiêm vắc-xin phòng cúm."
+      }
+    ]
+  },
+  {
+    "id": "w3-062",
+    "hanzi": "发现",
+    "pinyin": "fā xiàn",
+    "meaningVi": "phát hiện, nhận ra",
+    "radical": "又",
+    "level": 3,
+    "frequency": 189,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "那个发现纯属偶然。",
+        "pinyin": "nà ge fā xiàn chún shǔ ǒu rán 。",
+        "vi": "Phát hiện đó hoàn toàn là do tình cờ."
+      }
+    ]
+  },
+  {
+    "id": "w3-063",
+    "hanzi": "一定",
+    "pinyin": "yī dìng",
+    "meaningVi": "nhất định, chắc chắn",
+    "radical": "一",
+    "level": 3,
+    "frequency": 198,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "到了最後，大家一定要靠自己學習。",
+        "pinyin": "dào le zuì hòu ， dà jiā yí dìng yào kào zì jǐ xué xí 。",
+        "vi": "Rốt cuộc, ai cũng phải tự học thôi."
+      }
+    ]
+  },
+  {
+    "id": "w3-064",
+    "hanzi": "生活",
+    "pinyin": "shēng huó",
+    "meaningVi": "sinh sống, cuộc sống",
+    "radical": "生",
+    "level": 3,
+    "frequency": 203,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他们生活得很幸福。",
+        "pinyin": "tā men shēng huó dé hěn xìng fú 。",
+        "vi": "Họ đã có một cuộc sống hạnh phúc."
+      }
+    ]
+  },
+  {
+    "id": "w3-065",
+    "hanzi": "一直",
+    "pinyin": "yī zhí",
+    "meaningVi": "luôn luôn, suốt, thẳng",
+    "radical": "一",
+    "level": 3,
+    "frequency": 203,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "不要担心，我会一直在你身边。",
+        "pinyin": "bú yào dān xīn ， wǒ huì yì zhí zài nǐ shēn biān 。",
+        "vi": "Đừng lo lắng, anh sẽ luôn ở bên em."
+      }
+    ]
+  },
+  {
+    "id": "w3-066",
+    "hanzi": "发生",
+    "pinyin": "fā shēng",
+    "meaningVi": "xảy ra, phát sinh",
+    "radical": "又",
+    "level": 3,
+    "frequency": 211,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "不要再让这种事发生了！",
+        "pinyin": "bú yào zài ràng zhè zhǒng shì fā shēng le ！",
+        "vi": "Đừng để chuyện này tái diễn nữa nhé!"
+      }
+    ]
+  },
+  {
+    "id": "w3-067",
+    "hanzi": "为了",
+    "pinyin": "wèi le",
+    "meaningVi": "để, vì",
+    "radical": "丶",
+    "level": 3,
+    "frequency": 229,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "援救人员为了找到孩子，仔细搜索了那个区域。",
+        "pinyin": "yuán jiù rén yuán wèi le zhǎo dào hái zi ， zǐ xì sōu suǒ le nà ge qū yù 。",
+        "vi": "Đội cứu hộ đã lùng sục khắp khu vực đó để tìm đứa trẻ."
+      }
+    ]
+  },
+  {
+    "id": "w3-068",
+    "hanzi": "一样",
+    "pinyin": "yī yàng",
+    "meaningVi": "giống nhau, y hệt",
+    "radical": "一",
+    "level": 3,
+    "frequency": 235,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "这个班里没有人像Bill一样高。",
+        "pinyin": "zhè ge bān lǐ méi yǒu rén xiàng Bill yī yàng gāo 。",
+        "vi": "Trong lớp này không có người cao như Bill."
+      }
+    ]
+  },
+  {
+    "id": "w3-069",
+    "hanzi": "只是",
+    "pinyin": "zhǐ shì",
+    "meaningVi": "chỉ là, chẳng qua là",
+    "radical": "口",
+    "level": 3,
+    "frequency": 236,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我只是不知道應該說什麼而已……",
+        "pinyin": "wǒ zhǐ shì bù zhī dào yīng gāi shuō shén me ér yǐ ……",
+        "vi": "Tôi không biết nên nói gì cả..."
+      }
+    ]
+  },
+  {
+    "id": "w3-070",
+    "hanzi": "而且",
+    "pinyin": "ér qiě",
+    "meaningVi": "hơn nữa, mặt khác",
+    "radical": "而",
+    "level": 3,
+    "frequency": 239,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "她不但漂亮，而且聪明。",
+        "pinyin": "tā bù dàn piào liàng ， ér qiě cōng míng 。",
+        "vi": "Bạn ấy vừa đẹp vừa thông minh."
+      }
+    ]
+  },
+  {
+    "id": "w3-071",
+    "hanzi": "必须",
+    "pinyin": "bì xū",
+    "meaningVi": "bắt buộc, phải",
+    "radical": "心",
+    "level": 3,
+    "frequency": 241,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "你必须停止吸烟。",
+        "pinyin": "nǐ bì xū tíng zhǐ xī yān 。",
+        "vi": "Bạn phải ngưng hút thuốc."
+      }
+    ]
+  },
+  {
+    "id": "w3-072",
+    "hanzi": "地方",
+    "pinyin": "dì fāng",
+    "meaningVi": "nơi chốn, địa phương, chỗ",
+    "radical": "土",
+    "level": 3,
+    "frequency": 254,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "這裡是爸爸工作的地方。",
+        "pinyin": "zhè lǐ shì bà bà gōng zuò de dì fāng 。",
+        "vi": "Đây là nơi làm việc của bố tôi."
+      }
+    ]
+  },
+  {
+    "id": "w3-073",
+    "hanzi": "老",
+    "pinyin": "lǎo",
+    "meaningVi": "già, lâu năm, hay (thường xuyên)",
+    "radical": "老",
+    "level": 3,
+    "frequency": 266,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "那个老人非常 亲切。",
+        "pinyin": "nà ge lǎo rén fēi cháng   qīn qiè 。",
+        "vi": "Ông già đó rất nhiệt tình."
+      }
+    ]
+  },
+  {
+    "id": "w3-074",
+    "hanzi": "其他",
+    "pinyin": "qí tā",
+    "meaningVi": "khác, cái khác",
+    "radical": "八",
+    "level": 3,
+    "frequency": 267,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我爱你胜过其他任何一个人。",
+        "pinyin": "wǒ ài nǐ shèng guò qí tā rèn hé yí gè rén 。",
+        "vi": "Anh yêu thương em nhiều hơn ai hết."
+      }
+    ]
+  },
+  {
+    "id": "w3-075",
+    "hanzi": "行",
+    "pinyin": "xíng",
+    "meaningVi": "được, hàng, ngành",
+    "radical": "行",
+    "level": 3,
+    "frequency": 272,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "一个人要为他的行为负责。",
+        "pinyin": "yí gè rén yào wèi tā de xíng wéi fù zé 。",
+        "vi": "Một người phải có trách nhiệm với những hành động của mình."
+      }
+    ]
+  },
+  {
+    "id": "w3-076",
+    "hanzi": "然后",
+    "pinyin": "rán hòu",
+    "meaningVi": "sau đó, rồi thì",
+    "radical": "灬",
+    "level": 3,
+    "frequency": 275,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "她拥抱了一下儿子，然后让他上床睡觉。",
+        "pinyin": "tā yōng bào le yī xià ér zi ， rán hòu ràng tā shàng chuáng shuì jiào 。",
+        "vi": "Cô ấy ôm con vào lòng, sau đó để nó ngủ trên giường."
+      }
+    ]
+  },
+  {
+    "id": "w3-077",
+    "hanzi": "放",
+    "pinyin": "fàng",
+    "meaningVi": "đặt, để, thả ra",
+    "radical": "攵",
+    "level": 3,
+    "frequency": 280,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他放弃了所有希望。",
+        "pinyin": "tā fàng qì le suǒ yǒu xī wàng 。",
+        "vi": "Anh ta từ bỏ mọi hy vọng"
+      }
+    ]
+  },
+  {
+    "id": "w3-078",
+    "hanzi": "或",
+    "pinyin": "huò",
+    "meaningVi": "hoặc, có lẽ",
+    "radical": "戈",
+    "level": 3,
+    "frequency": 307,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他在城市里一直受到噪音或者其他的干扰。",
+        "pinyin": "tā zài chéng shì lǐ yì zhí shòu dào zào yīn huò zhě qí tā de gān rǎo 。",
+        "vi": "Bạn ấy luôn bị tiếng ồn và các thứ khác làm phiền ở thành phố."
+      }
+    ]
+  },
+  {
+    "id": "w3-079",
+    "hanzi": "得到",
+    "pinyin": "dé dào",
+    "meaningVi": "đạt được, nhận được",
+    "radical": "彳",
+    "level": 3,
+    "frequency": 308,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "得不到的东西就最想得到。",
+        "pinyin": "dé bú dào de dōng xī jiù zuì xiǎng de dào 。",
+        "vi": "Cái gì không có được thì mình lại càng muốn có."
+      }
+    ]
+  },
+  {
+    "id": "w3-080",
+    "hanzi": "张",
+    "pinyin": "zhāng",
+    "meaningVi": "tấm, tờ, trương (họ Trương)",
+    "radical": "弓",
+    "level": 3,
+    "frequency": 316,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "那是一张近照吗？",
+        "pinyin": "nà shì yī zhāng jìn zhào ma ？",
+        "vi": "Tấm hình này có mới không?"
+      }
+    ]
+  },
+  {
+    "id": "w3-081",
+    "hanzi": "总",
+    "pinyin": "zǒng",
+    "meaningVi": "tổng cộng, luôn luôn, nói chung",
+    "radical": "心",
+    "level": 3,
+    "frequency": 335,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "总的来说，这部电影从剧本到银幕是成功的。",
+        "pinyin": "zǒng de lái shuō ， zhè bù diàn yǐng cóng jù běn dào yín mù shì chéng gōng de 。",
+        "vi": "Nói tóm lại, bộ phim này từ kịch bản đến cách trình chiếu đều thành công."
+      }
+    ]
+  },
+  {
+    "id": "w3-082",
+    "hanzi": "了解",
+    "pinyin": "liǎo jiě",
+    "meaningVi": "hiểu rõ, nắm rõ",
+    "radical": "亅",
+    "level": 3,
+    "frequency": 336,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "在某種程度上我能了解你。",
+        "pinyin": "zài mǒu zhǒng chéng dù shàng wǒ néng liǎo jiě nǐ 。",
+        "vi": "Tôi có thể hiểu bạn ở mức độ nào đó."
+      }
+    ]
+  },
+  {
+    "id": "w3-083",
+    "hanzi": "参加",
+    "pinyin": "cān jiā",
+    "meaningVi": "tham gia",
+    "radical": "厶",
+    "level": 3,
+    "frequency": 355,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "人人都积极参加劳动。",
+        "pinyin": "rén rén dōu jī jí cān jiā láo dòng 。",
+        "vi": "Ai ai cũng hăng hái tham gia lao động."
+      }
+    ]
+  },
+  {
+    "id": "w3-084",
+    "hanzi": "国家",
+    "pinyin": "guó jiā",
+    "meaningVi": "quốc gia, đất nước",
+    "radical": "囗",
+    "level": 3,
+    "frequency": 356,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "你是从哪个国家来的？",
+        "pinyin": "nǐ shì cóng nǎ ge guó jiā lái de ？",
+        "vi": "Bạn đến từ nước nào vậy?"
+      }
+    ]
+  },
+  {
+    "id": "w3-085",
+    "hanzi": "只有",
+    "pinyin": "zhǐ yǒu",
+    "meaningVi": "chỉ có, duy chỉ",
+    "radical": "口",
+    "level": 3,
+    "frequency": 374,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "世界語只有16個語法規則。",
+        "pinyin": "shì jiè yǔ zhǐ yǒu 16 gè yǔ fǎ guī zé 。",
+        "vi": "Tiếng Esperanto chỉ có 16 quy tắc ngữ pháp."
+      }
+    ]
+  },
+  {
+    "id": "w3-086",
+    "hanzi": "或者",
+    "pinyin": "huò zhě",
+    "meaningVi": "hoặc, hoặc là, có lẽ",
+    "radical": "戈",
+    "level": 3,
+    "frequency": 382,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他在城市里一直受到噪音或者其他的干扰。",
+        "pinyin": "tā zài chéng shì lǐ yì zhí shòu dào zào yīn huò zhě qí tā de gān rǎo 。",
+        "vi": "Bạn ấy luôn bị tiếng ồn và các thứ khác làm phiền ở thành phố."
+      }
+    ]
+  },
+  {
+    "id": "w3-087",
+    "hanzi": "女人",
+    "pinyin": "nǚ rén",
+    "meaningVi": "phụ nữ, đàn bà",
+    "radical": "女",
+    "level": 3,
+    "frequency": 383,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他把自己化裝成一個女人。",
+        "pinyin": "tā bǎ zì jǐ huà zhuāng chéng yī gè nǚ rén 。",
+        "vi": "Anh ấy đã đóng giả làm con gái."
+      }
+    ]
+  },
+  {
+    "id": "w3-088",
+    "hanzi": "受",
+    "pinyin": "shòu",
+    "meaningVi": "nhận, chịu đựng, bị",
+    "radical": "又",
+    "level": 3,
+    "frequency": 393,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "汤姆不能把他的真实感受告诉玛丽。",
+        "pinyin": "tāng mǔ bù néng bǎ tā de zhēn shí gǎn shòu gào sù mǎ lì 。",
+        "vi": "Tom không nói được với Mary cảm xúc thực sự của anh ấy."
+      }
+    ]
+  },
+  {
+    "id": "w3-089",
+    "hanzi": "别人",
+    "pinyin": "bié ren",
+    "meaningVi": "người khác",
+    "radical": "刂",
+    "level": 3,
+    "frequency": 397,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他只是责怪别人，从不自责。",
+        "pinyin": "tā zhǐ shì zé guài bié rén ， cóng bù zì zé 。",
+        "vi": "Anh chỉ trách người chứ không trách mình."
+      }
+    ]
+  },
+  {
+    "id": "w3-090",
+    "hanzi": "可是",
+    "pinyin": "kě shì",
+    "meaningVi": "nhưng, nhưng mà",
+    "radical": "口",
+    "level": 3,
+    "frequency": 404,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "可是太贵了！",
+        "pinyin": "kě shì tài guì le ！",
+        "vi": "Nhưng mà nó đắt quá!"
+      }
+    ]
+  },
+  {
+    "id": "w3-091",
+    "hanzi": "以后",
+    "pinyin": "yǐ hòu",
+    "meaningVi": "sau này, sau khi, sau đó",
+    "radical": "人",
+    "level": 3,
+    "frequency": 407,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "以后再讲。",
+        "pinyin": "yǐ hòu zài jiǎng 。",
+        "vi": "Hôm sau mình nói chuyện này nhé."
+      }
+    ]
+  },
+  {
+    "id": "w3-092",
+    "hanzi": "要求",
+    "pinyin": "yāo qiú",
+    "meaningVi": "yêu cầu, đòi hỏi",
+    "radical": "覀",
+    "level": 3,
+    "frequency": 409,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "在企业整顿中，要坚持高标准，严要求，防止走过场。",
+        "pinyin": "zài qǐ yè zhěng dùn zhōng ， yào jiān chí gāo biāo zhǔn ， yán yāo qiú ， fáng zhǐ zǒu guò chǎng 。",
+        "vi": "Trong lúc doanh nghiệp đang tổ chức lại, phải kiên trì với tiêu chuẩn cao, yêu cầu nghiêm ngặt, ngăn chặn việc làm chiếu lệ hời hợt."
+      }
+    ]
+  },
+  {
+    "id": "w3-093",
+    "hanzi": "男人",
+    "pinyin": "nán rén",
+    "meaningVi": "đàn ông, nam giới",
+    "radical": "田",
+    "level": 3,
+    "frequency": 415,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我抓到了這個男人正在偷錢。",
+        "pinyin": "wǒ zhuā dào le zhè gè nán rén zhèng zài tōu qián 。",
+        "vi": "Tôi đã bắt kịp thằng ăn cắp tiền này."
+      }
+    ]
+  },
+  {
+    "id": "w3-094",
+    "hanzi": "信",
+    "pinyin": "xìn",
+    "meaningVi": "thư, tin tưởng",
+    "radical": "亻",
+    "level": 3,
+    "frequency": 419,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "人人都愿意相信美梦可以成真。",
+        "pinyin": "rén rén dōu yuàn yì xiāng xìn měi mèng kě yǐ chéng zhēn 。",
+        "vi": "Ai cũng muốn tin rằng mọi giấc mơ đều có thể trở thành hiện thực."
+      }
+    ]
+  },
+  {
+    "id": "w3-095",
+    "hanzi": "当然",
+    "pinyin": "dāng rán",
+    "meaningVi": "đương nhiên, tất nhiên",
+    "radical": "⺌",
+    "level": 3,
+    "frequency": 423,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "消磨时间的最有效办法当然还是聊天吹牛侃大山。",
+        "pinyin": "xiāo mó shí jiān de zuì yǒu xiào bàn fǎ dāng rán hái shì liáo tiān chuī niú kǎn dà shān 。",
+        "vi": "Biện pháp hiệu quả nhất để giết thời gian nhất đương nhiên vẫn là chuyện trò, chém gió, buôn chuyện."
+      }
+    ]
+  },
+  {
+    "id": "w3-096",
+    "hanzi": "接",
+    "pinyin": "jiē",
+    "meaningVi": "nhận, đón, nghe (điện thoại)",
+    "radical": "扌",
+    "level": 3,
+    "frequency": 425,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我接种了流感疫苗。",
+        "pinyin": "wǒ jiē zhǒng le liú gǎn yì miáo 。",
+        "vi": "Tôi đã tiêm vắc-xin phòng cúm."
+      }
+    ]
+  },
+  {
+    "id": "w3-097",
+    "hanzi": "相信",
+    "pinyin": "xiāng xìn",
+    "meaningVi": "tin tưởng, tin rằng",
+    "radical": "目",
+    "level": 3,
+    "frequency": 431,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "人人都愿意相信美梦可以成真。",
+        "pinyin": "rén rén dōu yuàn yì xiāng xìn měi mèng kě yǐ chéng zhēn 。",
+        "vi": "Ai cũng muốn tin rằng mọi giấc mơ đều có thể trở thành hiện thực."
+      }
+    ]
+  },
+  {
+    "id": "w3-098",
+    "hanzi": "刚",
+    "pinyin": "gāng",
+    "meaningVi": "vừa mới, cứng rắn",
+    "radical": "刂",
+    "level": 3,
+    "frequency": 436,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "你刚说的是什么地方？",
+        "pinyin": "nǐ gāng shuō de shì shén me dì fāng ？",
+        "vi": "Chỗ anh vừa nói là đâu hả anh?"
+      }
+    ]
+  },
+  {
+    "id": "w3-099",
+    "hanzi": "只要",
+    "pinyin": "zhǐ yào",
+    "meaningVi": "chỉ cần",
+    "radical": "口",
+    "level": 3,
+    "frequency": 452,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "你只要在这里写下你的姓名和地址就行了。",
+        "pinyin": "nǐ zhǐ yào zài zhè lǐ xiě xià nǐ de xìng míng hé dì zhǐ jiù xíng le 。",
+        "vi": "Bạn chỉ cần viết tên và địa chỉ của mình vào đây là được."
+      }
+    ]
+  },
+  {
+    "id": "w3-100",
+    "hanzi": "不同",
+    "pinyin": "bù tóng",
+    "meaningVi": "khác nhau, không giống",
+    "radical": "一",
+    "level": 3,
+    "frequency": 458,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "有一部分人不同意。",
+        "pinyin": "yǒu yī bù fèn rén bù tóng yì 。",
+        "vi": "Có một số người không đồng ý."
+      }
+    ]
+  },
+  {
+    "id": "w3-101",
+    "hanzi": "干",
+    "pinyin": "gàn",
+    "meaningVi": "làm, khô",
+    "radical": "十",
+    "level": 3,
+    "frequency": 463,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "你在干什麼啊？",
+        "pinyin": "nǐ zài gàn shén me a ？",
+        "vi": "Bạn đang làm gì đây?"
+      }
+    ]
+  },
+  {
+    "id": "w3-102",
+    "hanzi": "关于",
+    "pinyin": "guān yú",
+    "meaningVi": "về, đối với, liên quan đến",
+    "radical": "丷",
+    "level": 3,
+    "frequency": 478,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我在找关于古罗马历史的书。",
+        "pinyin": "wǒ zài zhǎo guān yú gǔ luó mǎ lì shǐ de shū 。",
+        "vi": "Mình đang tìm sách về lịch sử La Mã cổ đại."
+      }
+    ]
+  },
+  {
+    "id": "w3-103",
+    "hanzi": "结束",
+    "pinyin": "jié shù",
+    "meaningVi": "kết thúc, chấm dứt",
+    "radical": "纟",
+    "level": 3,
+    "frequency": 498,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "外交谈判帮助结束了冲突。",
+        "pinyin": "wài jiāo tán pàn bāng zhù jié shù le chōng tū 。",
+        "vi": "Đàm phán ngoại giao đã giúp chấm dứt xung đột."
+      }
+    ]
+  },
+  {
+    "id": "w3-104",
+    "hanzi": "变",
+    "pinyin": "biàn",
+    "meaningVi": "thay đổi, biến đổi",
+    "radical": "又",
+    "level": 3,
+    "frequency": 501,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "一切都不会改变。",
+        "pinyin": "yī qiè dōu bú huì gǎi biàn 。",
+        "vi": "Không có gì thay đổi cả."
+      }
+    ]
+  },
+  {
+    "id": "w3-105",
+    "hanzi": "加",
+    "pinyin": "jiā",
+    "meaningVi": "cộng, thêm, Canada",
+    "radical": "力",
+    "level": 3,
+    "frequency": 503,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "人人都积极参加劳动。",
+        "pinyin": "rén rén dōu jī jí cān jiā láo dòng 。",
+        "vi": "Ai ai cũng hăng hái tham gia lao động."
+      }
+    ]
+  },
+  {
+    "id": "w3-106",
+    "hanzi": "有关",
+    "pinyin": "yǒu guān",
+    "meaningVi": "liên quan",
+    "radical": "月",
+    "level": 3,
+    "frequency": 508,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "这件事情跟我们都有关。",
+        "pinyin": "zhè jiàn shì qíng gēn wǒ men dōu yǒu guān 。",
+        "vi": "Việc này đều có liên quan đến chúng ta."
+      }
+    ]
+  },
+  {
+    "id": "w3-107",
+    "hanzi": "美元",
+    "pinyin": "měi yuán",
+    "meaningVi": "đô la Mỹ",
+    "radical": "羊",
+    "level": 3,
+    "frequency": 516,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我想把日元換成美元。",
+        "pinyin": "wǒ xiǎng bǎ rì yuán huàn chéng měi yuán 。",
+        "vi": "Tôi muốn đổi yên Nhật thành đô la Mỹ."
+      }
+    ]
+  },
+  {
+    "id": "w3-108",
+    "hanzi": "以前",
+    "pinyin": "yǐ qián",
+    "meaningVi": "trước đây, trước khi",
+    "radical": "人",
+    "level": 3,
+    "frequency": 524,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我以前在山里。",
+        "pinyin": "wǒ yǐ qián zài shān lǐ 。",
+        "vi": "Tôi từ trên núi xuống."
+      }
+    ]
+  },
+  {
+    "id": "w3-109",
+    "hanzi": "特别",
+    "pinyin": "tè bié",
+    "meaningVi": "đặc biệt, rất",
+    "radical": "牛",
+    "level": 3,
+    "frequency": 541,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他买了一把特别大的屠刀，拿出来不停地磨呀抢呀。",
+        "pinyin": "tā mǎi le yī bǎ tè bié dà de tú dāo ， ná chū lái bù tíng dì mó ya qiǎng ya 。",
+        "vi": "Anh ta mua một con dao bầu thật to, đem ra cứ mài mài liếc liếc mãi."
+      }
+    ]
+  },
+  {
+    "id": "w3-110",
+    "hanzi": "别的",
+    "pinyin": "bié de",
+    "meaningVi": "khác, cái khác",
+    "radical": "刂",
+    "level": 3,
+    "frequency": 543,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "这个窝棚是个很特别的地方。",
+        "pinyin": "zhè ge wō péng shì gè hěn tè bié de dì fāng 。",
+        "vi": "Cái lán này là một nơi rất đặc biệt."
+      }
+    ]
+  },
+  {
+    "id": "w3-111",
+    "hanzi": "难",
+    "pinyin": "nán",
+    "meaningVi": "khó, khó khăn",
+    "radical": "又",
+    "level": 3,
+    "frequency": 544,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他的理论很难懂。",
+        "pinyin": "tā de lǐ lùn hěn nán dǒng 。",
+        "vi": "Lý luận của anh ấy rất khó hiểu."
+      }
+    ]
+  },
+  {
+    "id": "w3-112",
+    "hanzi": "注意",
+    "pinyin": "zhù yì",
+    "meaningVi": "chú ý, lưu ý",
+    "radical": "氵",
+    "level": 3,
+    "frequency": 547,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "尤其是要注意你吃的和喝的东西。",
+        "pinyin": "yóu qí shì yào zhù yì nǐ chī de hé hē de dōng xī 。",
+        "vi": "Bạn đặc biệt phải chú ý đồ ăn thức uống của mình."
+      }
+    ]
+  },
+  {
+    "id": "w3-113",
+    "hanzi": "讲",
+    "pinyin": "jiǎng",
+    "meaningVi": "nói, giảng giải, bàn luận",
+    "radical": "讠",
+    "level": 3,
+    "frequency": 555,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我正在跟谁讲话？",
+        "pinyin": "wǒ zhèng zài gēn shuí jiǎng huà ？",
+        "vi": "Tôi đang nói chuyện với ai đây?"
+      }
+    ]
+  },
+  {
+    "id": "w3-114",
+    "hanzi": "离开",
+    "pinyin": "lí kāi",
+    "meaningVi": "rời khỏi, rời đi",
+    "radical": "禸",
+    "level": 3,
+    "frequency": 557,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "去年她离开了日本。",
+        "pinyin": "qù nián tā lí kāi le rì běn 。",
+        "vi": "Năm ngoái bạn ấy đã rời Nhật Bản."
+      }
+    ]
+  },
+  {
+    "id": "w3-115",
+    "hanzi": "以为",
+    "pinyin": "yǐ wéi",
+    "meaningVi": "cứ tưởng, cho rằng",
+    "radical": "人",
+    "level": 3,
+    "frequency": 567,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "她以为我是医生。",
+        "pinyin": "tā yǐ wéi wǒ shì yī shēng 。",
+        "vi": "Cô ấy đã cho rằng tôi là một bác sỹ."
+      }
+    ]
+  },
+  {
+    "id": "w3-116",
+    "hanzi": "越",
+    "pinyin": "yuè",
+    "meaningVi": "càng, vượt, Việt Nam",
+    "radical": "走",
+    "level": 3,
+    "frequency": 574,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "越南语真的难学。",
+        "pinyin": "yuè nán yǔ zhēn de nán xué 。",
+        "vi": "Tiếng Việt thật sự rất khó học."
+      }
+    ]
+  },
+  {
+    "id": "w3-117",
+    "hanzi": "极了",
+    "pinyin": "jí le",
+    "meaningVi": "cực kỳ, vô cùng",
+    "radical": "木",
+    "level": 3,
+    "frequency": 575,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我太阳穴处疼极了。",
+        "pinyin": "wǒ tài yáng xué chù téng jí le 。",
+        "vi": "Tôi nhức thái dương quá."
+      }
+    ]
+  },
+  {
+    "id": "w3-118",
+    "hanzi": "方法",
+    "pinyin": "fāng fǎ",
+    "meaningVi": "phương pháp, cách thức",
+    "radical": "方",
+    "level": 3,
+    "frequency": 577,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他提出改革研究方法的意见。",
+        "pinyin": "tā tí chū gǎi gé yán jiū fāng fǎ de yì jiàn 。",
+        "vi": "Nó đề xuất ý kiến cải cách phương pháp nghiên cứu."
+      }
+    ]
+  },
+  {
+    "id": "w3-119",
+    "hanzi": "声",
+    "pinyin": "shēng",
+    "meaningVi": "tiếng, âm thanh",
+    "radical": "士",
+    "level": 3,
+    "frequency": 577,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "停止大声说话。",
+        "pinyin": "tíng zhǐ dà shēng shuō huà 。",
+        "vi": "Cấm nói lớn tiếng."
+      }
+    ]
+  },
+  {
+    "id": "w3-120",
+    "hanzi": "选",
+    "pinyin": "xuǎn",
+    "meaningVi": "chọn, lựa chọn",
+    "radical": "辶",
+    "level": 3,
+    "frequency": 590,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我们没机会赢那些一流选手。",
+        "pinyin": "wǒ men méi jī huì yíng nà xiē yì liú xuǎn shǒu 。",
+        "vi": "Mình không có cơ hội thắng những tay đua top đầu đâu."
+      }
+    ]
+  },
+  {
+    "id": "w3-121",
+    "hanzi": "句",
+    "pinyin": "jù",
+    "meaningVi": "câu (từ)",
+    "radical": "口",
+    "level": 3,
+    "frequency": 598,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "去你的！你就会这一句。",
+        "pinyin": "qù nǐ de ！ nǐ jiù huì zhè yī jù 。",
+        "vi": "Ghét anh! Anh chỉ biết nói mỗi câu ý thôi à"
+      }
+    ]
+  },
+  {
+    "id": "w3-122",
+    "hanzi": "游戏",
+    "pinyin": "yóu xì",
+    "meaningVi": "trò chơi, game",
+    "radical": "氵",
+    "level": 3,
+    "frequency": 603,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "玩这些电脑游戏要反应灵敏。",
+        "pinyin": "wán zhè xiē diàn nǎo yóu xì yào fǎn yìng líng mǐn 。",
+        "vi": "Chơi trò chơi điện tử này cần phải phản ứng nhanh nhạy."
+      }
+    ]
+  },
+  {
+    "id": "w3-123",
+    "hanzi": "马",
+    "pinyin": "mǎ",
+    "meaningVi": "ngựa, Malaysia",
+    "radical": "马",
+    "level": 3,
+    "frequency": 605,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我看见了马库斯的房子。",
+        "pinyin": "wǒ kàn jiàn le mǎ kù sī de fáng zi 。",
+        "vi": "Tôi đã thấy nhà của Marcus."
+      }
+    ]
+  },
+  {
+    "id": "w3-124",
+    "hanzi": "比较",
+    "pinyin": "bǐ jiào",
+    "meaningVi": "so sánh, khá",
+    "radical": "比",
+    "level": 3,
+    "frequency": 607,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "北京的秋天一般地说气候比较凉爽。",
+        "pinyin": "běi jīng de qiū tiān yì bān dì shuō qì hòu bǐ jiào liáng shuǎng 。",
+        "vi": "Mùa thu của Bắc Kinh nói chung khí hậu tương đối mát mẻ dễ chịu."
+      }
+    ]
+  },
+  {
+    "id": "w3-125",
+    "hanzi": "最近",
+    "pinyin": "zuì jìn",
+    "meaningVi": "gần đây",
+    "radical": "曰",
+    "level": 3,
+    "frequency": 612,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我最近一直睡眠不足。",
+        "pinyin": "wǒ zuì jìn yì zhí shuì mián bù zú 。",
+        "vi": "Dạo này tôi bị mất ngủ."
+      }
+    ]
+  },
+  {
+    "id": "w3-126",
+    "hanzi": "换",
+    "pinyin": "huàn",
+    "meaningVi": "đổi, thay",
+    "radical": "扌",
+    "level": 3,
+    "frequency": 618,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他没有去，换句话说，他去的这个事实无案可查。",
+        "pinyin": "tā méi yǒu qù ， huàn jù huà shuō ， tā qù de zhè ge shì shí wú àn kě chá 。",
+        "vi": "Anh ấy không đi, nói cách khác, chẳng có gì chứng minh anh ấy đã đi cả."
+      }
+    ]
+  },
+  {
+    "id": "w3-127",
+    "hanzi": "终于",
+    "pinyin": "zhōng yú",
+    "meaningVi": "cuối cùng",
+    "radical": "纟",
+    "level": 3,
+    "frequency": 625,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我的生意终于走上了正轨。",
+        "pinyin": "wǒ de shēng yì zhōng yú zǒu shàng le zhèng guǐ 。",
+        "vi": "Công việc kinh doanh của mình cuối cùng cũng đi đúng quỹ đạo."
+      }
+    ]
+  },
+  {
+    "id": "w3-128",
+    "hanzi": "子",
+    "pinyin": "zi",
+    "meaningVi": "con, hạt",
+    "radical": "子",
+    "level": 3,
+    "frequency": 627,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "那是一隻有惡意的兔子。",
+        "pinyin": "nà shì yī zhī yǒu è yì de tù zi 。",
+        "vi": "Đó là một con thỏ hung ác."
+      }
+    ]
+  },
+  {
+    "id": "w3-129",
+    "hanzi": "脸",
+    "pinyin": "liǎn",
+    "meaningVi": "mặt, khuôn mặt",
+    "radical": "⺼",
+    "level": 3,
+    "frequency": 629,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "她无法直视我的脸。",
+        "pinyin": "tā wú fǎ zhí shì wǒ de liǎn 。",
+        "vi": "Cô ấy không dám nhìn thẳng vào mặt mình."
+      }
+    ]
+  },
+  {
+    "id": "w3-130",
+    "hanzi": "除了",
+    "pinyin": "chú le",
+    "meaningVi": "ngoài ra, trừ... ra",
+    "radical": "阝",
+    "level": 3,
+    "frequency": 638,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "除了雨天，我都是骑车去上班的。",
+        "pinyin": "chú le yǔ tiān ， wǒ dōu shì qí chē qù shàng bān de 。",
+        "vi": "Trừ những ngày mưa, mình toàn đạp xe đi làm."
+      }
+    ]
+  },
+  {
+    "id": "w3-131",
+    "hanzi": "总是",
+    "pinyin": "zǒng shì",
+    "meaningVi": "luôn luôn",
+    "radical": "心",
+    "level": 3,
+    "frequency": 638,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "威尼斯的圣马可广场在夏季总是挤满了游客。",
+        "pinyin": "wēi ní sī de shèng mǎ kě guǎng chǎng zài xià jì zǒng shì jǐ mǎn le yóu kè 。",
+        "vi": "Quảng trường St. Mark ở Venice luôn đông nghẹt khách du lịch vào mùa hè."
+      }
+    ]
+  },
+  {
+    "id": "w3-132",
+    "hanzi": "双",
+    "pinyin": "shuāng",
+    "meaningVi": "đôi, kép, họ Song",
+    "radical": "又",
+    "level": 3,
+    "frequency": 642,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他张开双臂, 似乎要拥抱这个世界。",
+        "pinyin": "tā zhāng kāi shuāng bì ,  sì hū yào yōng bào zhè ge shì jiè 。",
+        "vi": "Nó mở rộng hai cánh tay như muốn ôm trọn cả thế giới này."
+      }
+    ]
+  },
+  {
+    "id": "w3-133",
+    "hanzi": "来自",
+    "pinyin": "lái zì",
+    "meaningVi": "đến từ",
+    "radical": "木",
+    "level": 3,
+    "frequency": 644,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "这位朋友来自中国北京。",
+        "pinyin": "zhè wèi péng yǒu lái zì zhōng guó běi jīng 。",
+        "vi": "Người bạn này đến từ Bắc Kinh, Trung Quốc."
+      }
+    ]
+  },
+  {
+    "id": "w3-134",
+    "hanzi": "段",
+    "pinyin": "duàn",
+    "meaningVi": "đoạn, khúc, họ Đoạn",
+    "radical": "殳",
+    "level": 3,
+    "frequency": 647,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "每人读一段。",
+        "pinyin": "měi rén dú yī duàn 。",
+        "vi": "Mỗi người đọc một đoạn."
+      }
+    ]
+  },
+  {
+    "id": "w3-135",
+    "hanzi": "米",
+    "pinyin": "mǐ",
+    "meaningVi": "mét, gạo, họ Mễ",
+    "radical": "米",
+    "level": 3,
+    "frequency": 663,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "米价下跌了。",
+        "pinyin": "mǐ jià xià diē le 。",
+        "vi": "Giá gạo đã giảm xuống."
+      }
+    ]
+  },
+  {
+    "id": "w3-136",
+    "hanzi": "容易",
+    "pinyin": "róng yì",
+    "meaningVi": "dễ, dễ dàng",
+    "radical": "宀",
+    "level": 3,
+    "frequency": 664,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "John 這人不容易說服。",
+        "pinyin": "John  zhè rén bù róng yì shuō fú 。",
+        "vi": "Thuyết phục John là một việc khó."
+      }
+    ]
+  },
+  {
+    "id": "w3-137",
+    "hanzi": "卡",
+    "pinyin": "kǎ",
+    "meaningVi": "thẻ, kẹt, chặn",
+    "radical": "卜",
+    "level": 3,
+    "frequency": 670,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他移开，让卡车通过。",
+        "pinyin": "tā yí kāi ， ràng kǎ chē tōng guò 。",
+        "vi": "Cậu ấy tránh sang một bên để xe tải đi qua."
+      }
+    ]
+  },
+  {
+    "id": "w3-138",
+    "hanzi": "明白",
+    "pinyin": "míng bai",
+    "meaningVi": "hiểu, rõ ràng",
+    "radical": "日",
+    "level": 3,
+    "frequency": 676,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "感到惊讶、感到惊奇就是明白的开始。",
+        "pinyin": "gǎn dào jīng yà 、 gǎn dào jīng qí jiù shì míng bái de kāi shǐ 。",
+        "vi": "Cảm thấy ngạc nhiên, thấy kỳ lạ chính là khởi đầu của sự thấu hiểu."
+      }
+    ]
+  },
+  {
+    "id": "w3-139",
+    "hanzi": "办",
+    "pinyin": "bàn",
+    "meaningVi": "làm, giải quyết",
+    "radical": "力",
+    "level": 3,
+    "frequency": 691,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "这是没办法的。",
+        "pinyin": "zhè shì méi bàn fǎ de 。",
+        "vi": "Vụ này hết cách rồi."
+      }
+    ]
+  },
+  {
+    "id": "w3-140",
+    "hanzi": "根据",
+    "pinyin": "gēn jù",
+    "meaningVi": "căn cứ, dựa vào",
+    "radical": "木",
+    "level": 3,
+    "frequency": 694,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "许多词是根据拼写来发音的，不过有些不是。",
+        "pinyin": "xǔ duō cí shì gēn jù pīn xiě lái fā yīn de ， bù guò yǒu xiē bú shì 。",
+        "vi": "Nhiều từ phát âm theo cách đánh vần, nhưng có một số thì không."
+      }
+    ]
+  },
+  {
+    "id": "w3-141",
+    "hanzi": "辆",
+    "pinyin": "liàng",
+    "meaningVi": "chiếc (lượng từ xe)",
+    "radical": "车",
+    "level": 3,
+    "frequency": 699,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "这条路上的车辆不多。",
+        "pinyin": "zhè tiáo lù shàng de chē liàng bù duō 。",
+        "vi": "Con đường này không có nhiều xe đi lại."
+      }
+    ]
+  },
+  {
+    "id": "w3-142",
+    "hanzi": "刚刚",
+    "pinyin": "gāng gang",
+    "meaningVi": "vừa mới",
+    "radical": "刂",
+    "level": 3,
+    "frequency": 719,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "她刚刚十二岁了。",
+        "pinyin": "tā gāng gāng shí èr suì le 。",
+        "vi": "Cậu ấy vừa tròn mười hai tuổi."
+      }
+    ]
+  },
+  {
+    "id": "w3-143",
+    "hanzi": "服务",
+    "pinyin": "fú wù",
+    "meaningVi": "phục vụ",
+    "radical": "月",
+    "level": 3,
+    "frequency": 732,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "服务生，我要点菜。",
+        "pinyin": "fú wù shēng ， wǒ yào diǎn cài 。",
+        "vi": "Phục vụ ơi, mình muốn gọi món."
+      }
+    ]
+  },
+  {
+    "id": "w3-144",
+    "hanzi": "挺",
+    "pinyin": "tǐng",
+    "meaningVi": "khá, rất, ngăm ngực",
+    "radical": "扌",
+    "level": 3,
+    "frequency": 737,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "天氣挺冷的。",
+        "pinyin": "tiān qì tǐng lěng de 。",
+        "vi": "Trời khá lạnh."
+      }
+    ]
+  },
+  {
+    "id": "w3-145",
+    "hanzi": "好像",
+    "pinyin": "hǎo xiàng",
+    "meaningVi": "hình như, hình như là",
+    "radical": "女",
+    "level": 3,
+    "frequency": 738,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "好像我成电灯泡了。我该走了。",
+        "pinyin": "hǎo xiàng wǒ chéng diàn dēng pào le 。 wǒ gāi zǒu le 。",
+        "vi": "Tôi là người thứ ba rùi, vậy phải đi thôi."
+      }
+    ]
+  },
+  {
+    "id": "w3-146",
+    "hanzi": "愿意",
+    "pinyin": "yuàn yì",
+    "meaningVi": "bằng lòng, sẵn sàng, muốn",
+    "radical": "心",
+    "level": 3,
+    "frequency": 738,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "人人都愿意相信美梦可以成真。",
+        "pinyin": "rén rén dōu yuàn yì xiāng xìn měi mèng kě yǐ chéng zhēn 。",
+        "vi": "Ai cũng muốn tin rằng mọi giấc mơ đều có thể trở thành hiện thực."
+      }
+    ]
+  },
+  {
+    "id": "w3-147",
+    "hanzi": "坚持",
+    "pinyin": "jiān chí",
+    "meaningVi": "kiên trì, kiên định",
+    "radical": "土",
+    "level": 3,
+    "frequency": 751,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "在企业整顿中，要坚持高标准，严要求，防止走过场。",
+        "pinyin": "zài qǐ yè zhěng dùn zhōng ， yào jiān chí gāo biāo zhǔn ， yán yāo qiú ， fáng zhǐ zǒu guò chǎng 。",
+        "vi": "Trong lúc doanh nghiệp đang tổ chức lại, phải kiên trì với tiêu chuẩn cao, yêu cầu nghiêm ngặt, ngăn chặn việc làm chiếu lệ hời hợt."
+      }
+    ]
+  },
+  {
+    "id": "w3-148",
+    "hanzi": "感到",
+    "pinyin": "gǎn dào",
+    "meaningVi": "cảm thấy",
+    "radical": "心",
+    "level": 3,
+    "frequency": 766,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他对生活感到很无奈。",
+        "pinyin": "tā duì shēng huó gǎn dào hěn wú nài 。",
+        "vi": "Anh ấy cảm thấy rất bất lực trong cuộc sống."
+      }
+    ]
+  },
+  {
+    "id": "w3-149",
+    "hanzi": "银行",
+    "pinyin": "yín háng",
+    "meaningVi": "ngân hàng",
+    "radical": "钅",
+    "level": 3,
+    "frequency": 769,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "罪犯们密谋抢劫银行。",
+        "pinyin": "zuì fàn men mì móu qiǎng jié yín háng 。",
+        "vi": "Bọn tội phạm đang âm mưu cướp ngân hàng."
+      }
+    ]
+  },
+  {
+    "id": "w3-150",
+    "hanzi": "看来",
+    "pinyin": "kàn lai",
+    "meaningVi": "xem ra, có vẻ như",
+    "radical": "目",
+    "level": 3,
+    "frequency": 774,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "她一个人看来看去，大约看了半个小时。",
+        "pinyin": "tā yí gè rén kàn lái kàn qù ， dà yuē kàn le bàn gè xiǎo shí 。",
+        "vi": "Cô ngắm đi ngắm lại một mình độ nửa giờ."
+      }
+    ]
+  },
+  {
+    "id": "w3-151",
+    "hanzi": "酒",
+    "pinyin": "jiǔ",
+    "meaningVi": "rượu",
+    "radical": "酉",
+    "level": 3,
+    "frequency": 788,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "你想再来杯酒吗？",
+        "pinyin": "nǐ xiǎng zài lái bēi jiǔ ma ？",
+        "vi": "Bạn có muốn uống thêm một ly rượu nữa không?"
+      }
+    ]
+  },
+  {
+    "id": "w3-152",
+    "hanzi": "一般",
+    "pinyin": "yī bān",
+    "meaningVi": "bình thường, thông thường, như nhau",
+    "radical": "一",
+    "level": 3,
+    "frequency": 798,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "北京的秋天一般地说气候比较凉爽。",
+        "pinyin": "běi jīng de qiū tiān yì bān dì shuō qì hòu bǐ jiào liáng shuǎng 。",
+        "vi": "Mùa thu của Bắc Kinh nói chung khí hậu tương đối mát mẻ dễ chịu."
+      }
+    ]
+  },
+  {
+    "id": "w3-153",
+    "hanzi": "新闻",
+    "pinyin": "xīn wén",
+    "meaningVi": "tin tức, bản tin",
+    "radical": "斤",
+    "level": 3,
+    "frequency": 805,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "你听到新闻了吗？",
+        "pinyin": "nǐ tīng dào xīn wén le ma ？",
+        "vi": "Bạn đã nghe tin tức gì chưa?"
+      }
+    ]
+  },
+  {
+    "id": "w3-154",
+    "hanzi": "怎样",
+    "pinyin": "zěn yàng",
+    "meaningVi": "như thế nào, ra sao",
+    "radical": "心",
+    "level": 3,
+    "frequency": 823,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "很难说明天的天气将会怎样。",
+        "pinyin": "hěn nán shuō míng tiān de tiān qì jiāng huì zěn yàng 。",
+        "vi": "Thật khó để đoán trước thời tiết ngày mai thế nào."
+      }
+    ]
+  },
+  {
+    "id": "w3-155",
+    "hanzi": "金",
+    "pinyin": "jīn",
+    "meaningVi": "vàng, kim loại, họ Kim",
+    "radical": "金",
+    "level": 3,
+    "frequency": 828,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "时间就是金钱。",
+        "pinyin": "shí jiān jiù shì jīn qián 。",
+        "vi": "Thời gian là vàng."
+      }
+    ]
+  },
+  {
+    "id": "w3-156",
+    "hanzi": "收",
+    "pinyin": "shōu",
+    "meaningVi": "nhận, thu, thu gom",
+    "radical": "攵",
+    "level": 3,
+    "frequency": 834,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "昨天，我收到一封用英语写的信。",
+        "pinyin": "zuó tiān ， wǒ shōu dào yī fēng yòng yīng yǔ xiě de xìn 。",
+        "vi": "Hôm qua, tôi có nhận một bức thư viết bằng tiếng Anh."
+      }
+    ]
+  },
+  {
+    "id": "w3-157",
+    "hanzi": "马上",
+    "pinyin": "mǎ shàng",
+    "meaningVi": "ngay lập tức, lập tức",
+    "radical": "马",
+    "level": 3,
+    "frequency": 847,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "不立即解决，那桩事会马上告吹的。",
+        "pinyin": "bù lì jí jiě jué ， nà zhuāng shì huì mǎ shàng gào chuī de 。",
+        "vi": "Không giải quyết ngay thì việc đó sẽ hỏng bây giờ đây."
+      }
+    ]
+  },
+  {
+    "id": "w3-158",
+    "hanzi": "变成",
+    "pinyin": "biàn chéng",
+    "meaningVi": "trở thành, biến thành",
+    "radical": "又",
+    "level": 3,
+    "frequency": 853,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "低温使水变成冰。",
+        "pinyin": "dī wēn shǐ shuǐ biàn chéng bīng 。",
+        "vi": "Nhiệt độ thấp làm nước biến thành băng."
+      }
+    ]
+  },
+  {
+    "id": "w3-159",
+    "hanzi": "受到",
+    "pinyin": "shòu dào",
+    "meaningVi": "nhận được, chịu đựng",
+    "radical": "又",
+    "level": 3,
+    "frequency": 858,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他在城市里一直受到噪音或者其他的干扰。",
+        "pinyin": "tā zài chéng shì lǐ yì zhí shòu dào zào yīn huò zhě qí tā de gān rǎo 。",
+        "vi": "Bạn ấy luôn bị tiếng ồn và các thứ khác làm phiền ở thành phố."
+      }
+    ]
+  },
+  {
+    "id": "w3-160",
+    "hanzi": "发展",
+    "pinyin": "fā zhǎn",
+    "meaningVi": "phát triển",
+    "radical": "又",
+    "level": 3,
+    "frequency": 859,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "贸易帮助国家发展。",
+        "pinyin": "mào yì bāng zhù guó jiā fā zhǎn 。",
+        "vi": "Mậu dịch hỗ trợ sự phát triển của quốc gia."
+      }
+    ]
+  },
+  {
+    "id": "w3-161",
+    "hanzi": "经过",
+    "pinyin": "jīng guò",
+    "meaningVi": "trải qua, đi qua, quá trình",
+    "radical": "纟",
+    "level": 3,
+    "frequency": 867,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我每天都从那座教堂前经过。",
+        "pinyin": "wǒ měi tiān dōu cóng nà zuò jiào táng qián jīng guò 。",
+        "vi": "Ngày nào mình cũng đi qua nhà thờ đó."
+      }
+    ]
+  },
+  {
+    "id": "w3-162",
+    "hanzi": "只能",
+    "pinyin": "zhǐ néng",
+    "meaningVi": "chỉ có thể",
+    "radical": "口",
+    "level": 3,
+    "frequency": 874,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他只能看着。",
+        "pinyin": "tā zhǐ néng kàn zhe 。",
+        "vi": "Cậu ấy chỉ có thể nhìn."
+      }
+    ]
+  },
+  {
+    "id": "w3-163",
+    "hanzi": "历史",
+    "pinyin": "lì shǐ",
+    "meaningVi": "lịch sử",
+    "radical": "厂",
+    "level": 3,
+    "frequency": 882,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他有很多历史书籍。",
+        "pinyin": "tā yǒu hěn duō lì shǐ shū jí 。",
+        "vi": "Cậu ấy có rất nhiều sách lịch sử."
+      }
+    ]
+  },
+  {
+    "id": "w3-164",
+    "hanzi": "哭",
+    "pinyin": "kū",
+    "meaningVi": "khóc",
+    "radical": "口",
+    "level": 3,
+    "frequency": 898,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "她一整晚都在哭。",
+        "pinyin": "tā yī zhěng wǎn dōu zài kū 。",
+        "vi": "Cô ấy đã khóc suốt đêm."
+      }
+    ]
+  },
+  {
+    "id": "w3-165",
+    "hanzi": "汽车",
+    "pinyin": "qì chē",
+    "meaningVi": "xe hơi, ô tô",
+    "radical": "氵",
+    "level": 3,
+    "frequency": 898,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "赶快点，否则要错过公共汽车了。",
+        "pinyin": "gǎn kuài diǎn ， fǒu zé yào cuò guò gōng gòng qì chē le 。",
+        "vi": "Nhanh lên không bạn lỡ xe buýt."
+      }
+    ]
+  },
+  {
+    "id": "w3-166",
+    "hanzi": "怕",
+    "pinyin": "pà",
+    "meaningVi": "sợ, họ Phạ",
+    "radical": "忄",
+    "level": 3,
+    "frequency": 899,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "怕傷害了他的感情，我沒有告訴他真相。",
+        "pinyin": "pà shāng hài le tā de gǎn qíng ， wǒ méi yǒu gào sù tā zhēn xiàng 。",
+        "vi": "Vì sợ làm tổn thương cảm xúc của anh ấy nên tôi đã không nói sự thật."
+      }
+    ]
+  },
+  {
+    "id": "w3-167",
+    "hanzi": "会议",
+    "pinyin": "huì yì",
+    "meaningVi": "cuộc họp, hội nghị",
+    "radical": "人",
+    "level": 3,
+    "frequency": 928,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他正坐在会议室里。",
+        "pinyin": "tā zhèng zuò zài huì yì shì lǐ 。",
+        "vi": "Cậu ấy đang ngồi trong phòng họp."
+      }
+    ]
+  },
+  {
+    "id": "w3-168",
+    "hanzi": "试",
+    "pinyin": "shì",
+    "meaningVi": "thử, kiểm tra, thi",
+    "radical": "讠",
+    "level": 3,
+    "frequency": 938,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "考试前，你根本没复习，能考好吗？ – 可也是。",
+        "pinyin": "kǎo shì qián ， nǐ gēn běn méi fù xí ， néng kǎo hǎo ma ？ –  kě yě shì 。",
+        "vi": "Trước kỳ thi cậu căn bản chẳng ôn tập gì, có thi tốt nổi không? – Cũng đúng"
+      }
+    ]
+  },
+  {
+    "id": "w3-169",
+    "hanzi": "面前",
+    "pinyin": "miàn qián",
+    "meaningVi": "trước mặt, đối diện",
+    "radical": "面",
+    "level": 3,
+    "frequency": 948,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "大好的前途摆在他面前。",
+        "pinyin": "dà hǎo de qián tú bǎi zài tā miàn qián 。",
+        "vi": "Một tương lai tươi sáng đang chờ cậu ấy phía trước."
+      }
+    ]
+  },
+  {
+    "id": "w3-170",
+    "hanzi": "健康",
+    "pinyin": "jiàn kāng",
+    "meaningVi": "sức khỏe, khỏe mạnh",
+    "radical": "亻",
+    "level": 3,
+    "frequency": 952,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他想要成功，即使是以他的健康作为代价。",
+        "pinyin": "tā xiǎng yào chéng gōng ， jí shǐ shì yǐ tā de jiàn kāng zuò wéi dài jià 。",
+        "vi": "Anh ấy muốn thành công tới mức đánh đổi cả sức khỏe của mình."
+      }
+    ]
+  },
+  {
+    "id": "w3-171",
+    "hanzi": "西",
+    "pinyin": "xī",
+    "meaningVi": "phía tây, Tây Ban Nha",
+    "radical": "西",
+    "level": 3,
+    "frequency": 958,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "你每天都是做一模一樣的東西，難道不會覺得悶嗎？",
+        "pinyin": "nǐ měi tiān dōu shì zuò yī mó yī yàng de dōng xī ， nán dào bù huì jué dé mèn ma ？",
+        "vi": "Ngày nào bạn cũng làm điều giống hệt, lẽ nào không cảm thấy chán hay sao?"
+      }
+    ]
+  },
+  {
+    "id": "w3-172",
+    "hanzi": "差",
+    "pinyin": "chà",
+    "meaningVi": "kém, lệch, khác biệt",
+    "radical": "工",
+    "level": 3,
+    "frequency": 968,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我的英文很差。",
+        "pinyin": "wǒ de yīng wén hěn chà 。",
+        "vi": "Tiếng Anh của tôi rất tệ."
+      }
+    ]
+  },
+  {
+    "id": "w3-173",
+    "hanzi": "结婚",
+    "pinyin": "jié hūn",
+    "meaningVi": "kết hôn, cưới",
+    "radical": "纟",
+    "level": 3,
+    "frequency": 982,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "她已经能够结婚了，也就是说，她是有夫之妇。",
+        "pinyin": "tā yǐ jīng néng gòu jié hūn le ， yě jiù shì shuō ， tā shì yǒu fū zhī fù 。",
+        "vi": "Cô ấy đã có thể kết hôn rồi, nói cách khác, cô ấy là người phụ nữ đã có chồng."
+      }
+    ]
+  },
+  {
+    "id": "w3-174",
+    "hanzi": "身边",
+    "pinyin": "shēn biān",
+    "meaningVi": "bên mình, gần bên",
+    "radical": "身",
+    "level": 3,
+    "frequency": 982,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "不要担心，我会一直在你身边。",
+        "pinyin": "bú yào dān xīn ， wǒ huì yì zhí zài nǐ shēn biān 。",
+        "vi": "Đừng lo lắng, anh sẽ luôn ở bên em."
+      }
+    ]
+  },
+  {
+    "id": "w3-175",
+    "hanzi": "短",
+    "pinyin": "duǎn",
+    "meaningVi": "ngắn, thiếu sót",
+    "radical": "矢",
+    "level": 3,
+    "frequency": 983,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "要完成实验，三个月太短了。",
+        "pinyin": "yào wán chéng shí yàn ， sān gè yuè tài duǎn le 。",
+        "vi": "Ba tháng là quá ngắn để hoàn thành thí nghiệm."
+      }
+    ]
+  },
+  {
+    "id": "w3-176",
+    "hanzi": "几乎",
+    "pinyin": "jī hū",
+    "meaningVi": "hầu như, gần như",
+    "radical": "几",
+    "level": 3,
+    "frequency": 1001,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "在明天前完成报告几乎是不可能的。",
+        "pinyin": "zài míng tiān qián wán chéng bào gào jī hū shì bù kě néng de 。",
+        "vi": "Gần như không thể hoàn thành báo cáo trước ngày mai."
+      }
+    ]
+  },
+  {
+    "id": "w3-177",
+    "hanzi": "查",
+    "pinyin": "chá",
+    "meaningVi": "tra cứu, kiểm tra, họ Tra",
+    "radical": "木",
+    "level": 3,
+    "frequency": 1010,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他没有去，换句话说，他去的这个事实无案可查。",
+        "pinyin": "tā méi yǒu qù ， huàn jù huà shuō ， tā qù de zhè ge shì shí wú àn kě chá 。",
+        "vi": "Anh ấy không đi, nói cách khác, chẳng có gì chứng minh anh ấy đã đi cả."
+      }
+    ]
+  },
+  {
+    "id": "w3-178",
+    "hanzi": "不用",
+    "pinyin": "bù yòng",
+    "meaningVi": "không cần",
+    "radical": "一",
+    "level": 3,
+    "frequency": 1013,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "不用谢。",
+        "pinyin": "bù yòng xiè 。",
+        "vi": "Tôi không dám."
+      }
+    ]
+  },
+  {
+    "id": "w3-179",
+    "hanzi": "附近",
+    "pinyin": "fù jìn",
+    "meaningVi": "gần đây, lân cận",
+    "radical": "阝",
+    "level": 3,
+    "frequency": 1020,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "這附近有醫院嗎？",
+        "pinyin": "zhè fù jìn yǒu yī yuàn ma ？",
+        "vi": "Gần đây có bệnh viện không?"
+      }
+    ]
+  },
+  {
+    "id": "w3-180",
+    "hanzi": "脚",
+    "pinyin": "jiǎo",
+    "meaningVi": "chân",
+    "radical": "⺼",
+    "level": 3,
+    "frequency": 1024,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "孩子们洗了他们的脚。",
+        "pinyin": "hái zi men xǐ le tā men de jiǎo 。",
+        "vi": "Mấy đứa nhỏ đã rửa chân."
+      }
+    ]
+  },
+  {
+    "id": "w3-181",
+    "hanzi": "电",
+    "pinyin": "diàn",
+    "meaningVi": "điện, chớp",
+    "radical": "曰",
+    "level": 3,
+    "frequency": 1027,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他半夜打了个电话给我。",
+        "pinyin": "tā bàn yè dǎ le gè diàn huà gěi wǒ 。",
+        "vi": "Anh ấy đã gọi cho tôi một cuộc vào lúc nửa đêm."
+      }
+    ]
+  },
+  {
+    "id": "w3-182",
+    "hanzi": "房子",
+    "pinyin": "fáng zi",
+    "meaningVi": "nhà, căn hộ",
+    "radical": "户",
+    "level": 3,
+    "frequency": 1027,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他們在儲錢買房子。",
+        "pinyin": "tā men zài chǔ qián mǎi fáng zi 。",
+        "vi": "Họ đang tiết kiệm tiền để mua nhà."
+      }
+    ]
+  },
+  {
+    "id": "w3-183",
+    "hanzi": "山",
+    "pinyin": "shān",
+    "meaningVi": "núi, họ Sơn",
+    "radical": "山",
+    "level": 3,
+    "frequency": 1030,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我以前在山里。",
+        "pinyin": "wǒ yǐ qián zài shān lǐ 。",
+        "vi": "Tôi từ trên núi xuống."
+      }
+    ]
+  },
+  {
+    "id": "w3-184",
+    "hanzi": "主要",
+    "pinyin": "zhǔ yào",
+    "meaningVi": "chủ yếu, chính",
+    "radical": "丶",
+    "level": 3,
+    "frequency": 1031,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "这个国家的主要产品之一是咖啡。",
+        "pinyin": "zhè ge guó jiā de zhǔ yào chǎn pǐn zhī yī shì kā fēi 。",
+        "vi": "Cà phê là một trong những sản phẩm chủ lực của đất nước này."
+      }
+    ]
+  },
+  {
+    "id": "w3-185",
+    "hanzi": "市",
+    "pinyin": "shì",
+    "meaningVi": "thành phố, chợ",
+    "radical": "巾",
+    "level": 3,
+    "frequency": 1040,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "哈巴羅夫斯克是俄羅斯遠東地區最大的城市之一。",
+        "pinyin": "hā bā luó fū sī kè shì é luó sī yuǎn dōng dì qū zuì dà de chéng shì zhī yī 。",
+        "vi": "Khabarovsk là một trong những thành phố lớn nhất vùng Viễn Đông nước Nga."
+      }
+    ]
+  },
+  {
+    "id": "w3-186",
+    "hanzi": "比如",
+    "pinyin": "bǐ rú",
+    "meaningVi": "ví dụ, chẳng hạn",
+    "radical": "比",
+    "level": 3,
+    "frequency": 1051,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我喜欢花，比如说，玫瑰。",
+        "pinyin": "wǒ xǐ huān huā ， bǐ rú shuō ， méi guī 。",
+        "vi": "Mình thích hoa, ví dụ như hoa hồng."
+      }
+    ]
+  },
+  {
+    "id": "w3-187",
+    "hanzi": "后来",
+    "pinyin": "hòu lái",
+    "meaningVi": "sau này, sau đó",
+    "radical": "口",
+    "level": 3,
+    "frequency": 1055,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我们聊了一会儿，后来就散了。",
+        "pinyin": "wǒ men liáo le yī huì er ， hòu lái jiù sàn le 。",
+        "vi": "Chúng mình trò chuyện một lúc, sau đó thì giải tán."
+      }
+    ]
+  },
+  {
+    "id": "w3-188",
+    "hanzi": "常",
+    "pinyin": "cháng",
+    "meaningVi": "thường, họ Thường",
+    "radical": "巾",
+    "level": 3,
+    "frequency": 1057,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "不要再把我当成“正常”人！",
+        "pinyin": "bú yào zài bǎ wǒ dàng chéng “ zhèng cháng ” rén ！",
+        "vi": "Đừng coi tôi như người \"bình thường\"!"
+      }
+    ]
+  },
+  {
+    "id": "w3-189",
+    "hanzi": "嘴",
+    "pinyin": "zuǐ",
+    "meaningVi": "miệng, mỏ",
+    "radical": "口",
+    "level": 3,
+    "frequency": 1059,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我的嘴裂开了。",
+        "pinyin": "wǒ de zuǐ liè kāi le 。",
+        "vi": "Môi mình bị nứt nẻ rồi."
+      }
+    ]
+  },
+  {
+    "id": "w3-190",
+    "hanzi": "遇到",
+    "pinyin": "yù dào",
+    "meaningVi": "gặp gỡ, bắt gặp",
+    "radical": "辶",
+    "level": 3,
+    "frequency": 1063,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他在工作上遇到了麻烦。",
+        "pinyin": "tā zài gōng zuò shàng yù dào le má fán 。",
+        "vi": "Nó gặp phải phiền toái khi làm việc."
+      }
+    ]
+  },
+  {
+    "id": "w3-191",
+    "hanzi": "海",
+    "pinyin": "hǎi",
+    "meaningVi": "biển, họ Hải",
+    "radical": "氵",
+    "level": 3,
+    "frequency": 1082,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我在海上已经生活了好几个月。",
+        "pinyin": "wǒ zài hǎi shàng yǐ jīng shēng huó le hǎo jǐ gè yuè 。",
+        "vi": "Tôi đã sống hàng tháng trên biển."
+      }
+    ]
+  },
+  {
+    "id": "w3-192",
+    "hanzi": "跳",
+    "pinyin": "tiào",
+    "meaningVi": "nhảy",
+    "radical": "足",
+    "level": 3,
+    "frequency": 1099,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他心脏停止了跳动, 随即死亡。",
+        "pinyin": "tā xīn zàng tíng zhǐ le tiào dòng ,  suí jí sǐ wáng 。",
+        "vi": "Tim ông ta ngừng đập và chết ngay sau đó."
+      }
+    ]
+  },
+  {
+    "id": "w3-193",
+    "hanzi": "回答",
+    "pinyin": "huí dá",
+    "meaningVi": "trả lời, đáp",
+    "radical": "囗",
+    "level": 3,
+    "frequency": 1100,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "她無法回答這個問題。",
+        "pinyin": "tā wú fǎ huí dá zhè gè wèn tí 。",
+        "vi": "Cô ấy đã không thể trả lời câu hỏi đó."
+      }
+    ]
+  },
+  {
+    "id": "w3-194",
+    "hanzi": "年轻",
+    "pinyin": "nián qīng",
+    "meaningVi": "trẻ tuổi, trẻ",
+    "radical": "干",
+    "level": 3,
+    "frequency": 1100,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "如果他年轻一点，他将很适合这个职位。",
+        "pinyin": "rú guǒ tā nián qīng yì diǎn ， tā jiāng hěn shì hé zhè ge zhí wèi 。",
+        "vi": "Nếu trẻ hơn chút, cậu ấy rất hợp với vị trí này."
+      }
+    ]
+  },
+  {
+    "id": "w3-195",
+    "hanzi": "久",
+    "pinyin": "jiǔ",
+    "meaningVi": "lâu, lâu năm",
+    "radical": "丿",
+    "level": 3,
+    "frequency": 1103,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "公司的職員設法隱瞞，但真相不久便水落石出了。",
+        "pinyin": "gōng sī de zhí yuán shè fǎ yǐn mán ， dàn zhēn xiàng bù jiǔ biàn shuǐ luò shí chū le 。",
+        "vi": "Nhân viên trong công ty đó đã cố che giấu sự thật, nhưng cái kim trong bọc lâu ngày cũng lòi ra."
+      }
+    ]
+  },
+  {
+    "id": "w3-196",
+    "hanzi": "记",
+    "pinyin": "jì",
+    "meaningVi": "ghi nhớ, ghi chép",
+    "radical": "讠",
+    "level": 3,
+    "frequency": 1123,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我永远记得那件事。",
+        "pinyin": "wǒ yǒng yuǎn jì de nà jiàn shì 。",
+        "vi": "Tôi nhớ mãi việc ấy."
+      }
+    ]
+  },
+  {
+    "id": "w3-197",
+    "hanzi": "关注",
+    "pinyin": "guān zhù",
+    "meaningVi": "quan tâm, theo dõi",
+    "radical": "丷",
+    "level": 3,
+    "frequency": 1125,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "只有为数不多的几个电视节目值得关注。",
+        "pinyin": "zhǐ yǒu wéi shù bù duō de jǐ gè diàn shì jié mù zhí de guān zhù 。",
+        "vi": "Chỉ có một số ít chương trình truyền hình đáng xem."
+      }
+    ]
+  },
+  {
+    "id": "w3-198",
+    "hanzi": "表演",
+    "pinyin": "biǎo yǎn",
+    "meaningVi": "biểu diễn, diễn xuất",
+    "radical": "衣",
+    "level": 3,
+    "frequency": 1127,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我们为表演者鼓掌。",
+        "pinyin": "wǒ men wèi biǎo yǎn zhě gǔ zhǎng 。",
+        "vi": "Chúng mình đã vỗ tay tán thưởng người biểu diễn."
+      }
+    ]
+  },
+  {
+    "id": "w3-199",
+    "hanzi": "关",
+    "pinyin": "guān",
+    "meaningVi": "đóng, cửa ải, họ Quan",
+    "radical": "丷",
+    "level": 3,
+    "frequency": 1129,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "不关我的事。",
+        "pinyin": "bù guān wǒ de shì 。",
+        "vi": "Không phải chuyện của tôi."
+      }
+    ]
+  },
+  {
+    "id": "w3-200",
+    "hanzi": "牛",
+    "pinyin": "niú",
+    "meaningVi": "trâu, bò, họ Ngưu",
+    "radical": "牛",
+    "level": 3,
+    "frequency": 1148,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "消磨时间的最有效办法当然还是聊天吹牛侃大山。",
+        "pinyin": "xiāo mó shí jiān de zuì yǒu xiào bàn fǎ dāng rán hái shì liáo tiān chuī niú kǎn dà shān 。",
+        "vi": "Biện pháp hiệu quả nhất để giết thời gian nhất đương nhiên vẫn là chuyện trò, chém gió, buôn chuyện."
+      }
+    ]
+  },
+  {
+    "id": "w3-201",
+    "hanzi": "办公室",
+    "pinyin": "bàn gōng shì",
+    "meaningVi": "văn phòng",
+    "radical": "力",
+    "level": 3,
+    "frequency": 1162,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "明天在办公室见。",
+        "pinyin": "míng tiān zài bàn gōng shì jiàn 。",
+        "vi": "Hẹn gặp lại bạn ở văn phòng vào ngày mai."
+      }
+    ]
+  },
+  {
+    "id": "w3-202",
+    "hanzi": "照",
+    "pinyin": "zhào",
+    "meaningVi": "chiếu, chụp ảnh, soi",
+    "radical": "灬",
+    "level": 3,
+    "frequency": 1165,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "那是一张近照吗？",
+        "pinyin": "nà shì yī zhāng jìn zhào ma ？",
+        "vi": "Tấm hình này có mới không?"
+      }
+    ]
+  },
+  {
+    "id": "w3-203",
+    "hanzi": "环境",
+    "pinyin": "huán jìng",
+    "meaningVi": "môi trường, hoàn cảnh",
+    "radical": "王",
+    "level": 3,
+    "frequency": 1171,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "工厂的废料导致了严重的环境污染。",
+        "pinyin": "gōng chǎng de fèi liào dǎo zhì le yán zhòng de huán jìng wū rǎn 。",
+        "vi": "Chất thải nhà máy đã gây ô nhiễm môi trường nghiêm trọng."
+      }
+    ]
+  },
+  {
+    "id": "w3-204",
+    "hanzi": "收到",
+    "pinyin": "shōu dào",
+    "meaningVi": "nhận được",
+    "radical": "攵",
+    "level": 3,
+    "frequency": 1171,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "昨天，我收到一封用英语写的信。",
+        "pinyin": "zuó tiān ， wǒ shōu dào yī fēng yòng yīng yǔ xiě de xìn 。",
+        "vi": "Hôm qua, tôi có nhận một bức thư viết bằng tiếng Anh."
+      }
+    ]
+  },
+  {
+    "id": "w3-205",
+    "hanzi": "方向",
+    "pinyin": "fāng xiàng",
+    "meaningVi": "phương hướng, hướng",
+    "radical": "方",
+    "level": 3,
+    "frequency": 1183,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我深信事情会往更好的方向转变。",
+        "pinyin": "wǒ shēn xìn shì qíng huì wǎng gèng hǎo de fāng xiàng zhuǎn biàn 。",
+        "vi": "Mình tin chắc mọi chuyện sẽ chuyển biến theo chiều hướng tốt hơn."
+      }
+    ]
+  },
+  {
+    "id": "w3-206",
+    "hanzi": "关心",
+    "pinyin": "guān xīn",
+    "meaningVi": "quan tâm, chăm sóc",
+    "radical": "丷",
+    "level": 3,
+    "frequency": 1190,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "这小女孩如果没人关心的话，就要走上歪路了。",
+        "pinyin": "zhè xiǎo nǚ hái rú guǒ méi rén guān xīn de huà ， jiù yào zǒu shàng wāi lù le 。",
+        "vi": "Cô bé này nếu không được quan tâm sẽ dễ sa ngã."
+      }
+    ]
+  },
+  {
+    "id": "w3-207",
+    "hanzi": "节",
+    "pinyin": "jié",
+    "meaningVi": "tiết, đốt, ngày lễ",
+    "radical": "艹",
+    "level": 3,
+    "frequency": 1196,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "下一个节假日正好是周日。",
+        "pinyin": "xià yí gè jié jià rì zhèng hǎo shì zhōu rì 。",
+        "vi": "Kỳ nghỉ tới rơi đúng vào ngày chủ nhật."
+      }
+    ]
+  },
+  {
+    "id": "w3-208",
+    "hanzi": "层",
+    "pinyin": "céng",
+    "meaningVi": "tầng, lớp",
+    "radical": "尸",
+    "level": 3,
+    "frequency": 1202,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "大楼有20层。",
+        "pinyin": "dà lóu yǒu 20 céng 。",
+        "vi": "Tòa nhà có 20 tầng."
+      }
+    ]
+  },
+  {
+    "id": "w3-209",
+    "hanzi": "病人",
+    "pinyin": "bìng rén",
+    "meaningVi": "bệnh nhân, người bệnh",
+    "radical": "疒",
+    "level": 3,
+    "frequency": 1209,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "病人随时会死。",
+        "pinyin": "bìng rén suí shí huì sǐ 。",
+        "vi": "Bệnh nhân có thể tử vong bất cứ lúc nào."
+      }
+    ]
+  },
+  {
+    "id": "w3-210",
+    "hanzi": "心里",
+    "pinyin": "xīn li",
+    "meaningVi": "trong lòng, tâm tư, tâm trạng",
+    "radical": "心",
+    "level": 3,
+    "frequency": 1214,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "听到这个好消息，我心里很高兴。",
+        "pinyin": "tīng dào zhè ge hǎo xiāo xī ， wǒ xīn lǐ hěn gāo xìng 。",
+        "vi": "Nghe được tin vui này, trong lòng mình rất vui."
+      }
+    ]
+  },
+  {
+    "id": "w3-211",
+    "hanzi": "腿",
+    "pinyin": "tuǐ",
+    "meaningVi": "chân",
+    "radical": "⺼",
+    "level": 3,
+    "frequency": 1216,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "不要拉我的腿！",
+        "pinyin": "bú yào lā wǒ de tuǐ ！",
+        "vi": "Đừng có đùa giỡn mình nữa!"
+      }
+    ]
+  },
+  {
+    "id": "w3-212",
+    "hanzi": "街",
+    "pinyin": "jiē",
+    "meaningVi": "phố, đường phố",
+    "radical": "行",
+    "level": 3,
+    "frequency": 1234,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他站在街角。",
+        "pinyin": "tā zhàn zài jiē jiǎo 。",
+        "vi": "Cậu ấy đang đứng ở góc phố."
+      }
+    ]
+  },
+  {
+    "id": "w3-213",
+    "hanzi": "一边",
+    "pinyin": "yī biān",
+    "meaningVi": "vừa... vừa..., một bên",
+    "radical": "一",
+    "level": 3,
+    "frequency": 1241,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "她喜欢一边听歌一边做饭。",
+        "pinyin": "tā xǐ huān yī biān tīng gē yī biān zuò fàn 。",
+        "vi": "Bạn ấy thích vừa nghe nhạc vừa nấu cơm."
+      }
+    ]
+  },
+  {
+    "id": "w3-214",
+    "hanzi": "鞋",
+    "pinyin": "xié",
+    "meaningVi": "giày",
+    "radical": "革",
+    "level": 3,
+    "frequency": 1249,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "她进屋前擦了鞋。",
+        "pinyin": "tā jìn wū qián cā le xié 。",
+        "vi": "Trước khi vào nhà, cô ấy đã cọ giày của mình cho sạch."
+      }
+    ]
+  },
+  {
+    "id": "w3-215",
+    "hanzi": "习惯",
+    "pinyin": "xí guàn",
+    "meaningVi": "thói quen, quen với",
+    "radical": "冫",
+    "level": 3,
+    "frequency": 1251,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "好习惯是从小养成的。",
+        "pinyin": "hǎo xí guàn shì cóng xiǎo yǎng chéng de 。",
+        "vi": "Thói quen tốt được hình thành từ nhỏ."
+      }
+    ]
+  },
+  {
+    "id": "w3-216",
+    "hanzi": "听说",
+    "pinyin": "tīng shuō",
+    "meaningVi": "nghe nói",
+    "radical": "口",
+    "level": 3,
+    "frequency": 1283,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我听说他打麻将很厉害。",
+        "pinyin": "wǒ tīng shuō tā dǎ má jiāng hěn lì hài 。",
+        "vi": "Mình nghe nói bạn ấy chơi mạt chược rất cừ."
+      }
+    ]
+  },
+  {
+    "id": "w3-217",
+    "hanzi": "直到",
+    "pinyin": "zhí dào",
+    "meaningVi": "cho đến khi, tận đến",
+    "radical": "目",
+    "level": 3,
+    "frequency": 1292,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "直到那时，他才意识到他已经上当受骗。",
+        "pinyin": "zhí dào nà shí ， tā cái yì shí dào tā yǐ jīng shàng dàng shòu piàn 。",
+        "vi": "Đến lúc đó anh ta mới nhận ra mình bị lừa."
+      }
+    ]
+  },
+  {
+    "id": "w3-218",
+    "hanzi": "毛",
+    "pinyin": "máo",
+    "meaningVi": "lông, hào (tiền tệ), họ Mao",
+    "radical": "毛",
+    "level": 3,
+    "frequency": 1319,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我挑不出他的毛病。",
+        "pinyin": "wǒ tiāo bù chū tā de máo bìng 。",
+        "vi": "Mình không thể bắt bẻ được điểm gì ở bạn ấy."
+      }
+    ]
+  },
+  {
+    "id": "w3-219",
+    "hanzi": "船",
+    "pinyin": "chuán",
+    "meaningVi": "thuyền, tàu thủy",
+    "radical": "舟",
+    "level": 3,
+    "frequency": 1346,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "汽笛声响起，船开始慢慢地驶离港口。",
+        "pinyin": "qì dí shēng xiǎng qǐ ， chuán kāi shǐ màn màn dì shǐ lí gǎng kǒu 。",
+        "vi": "Tiếng còi tàu vang lên, con tàu từ từ rời cảng."
+      }
+    ]
+  },
+  {
+    "id": "w3-220",
+    "hanzi": "养",
+    "pinyin": "yǎng",
+    "meaningVi": "nuôi, dưỡng",
+    "radical": "丷",
+    "level": 3,
+    "frequency": 1346,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我要养一大家子。",
+        "pinyin": "wǒ yào yǎng yī dà jiā zi 。",
+        "vi": "Tôi phải nuôi sống một gia đình đông người."
+      }
+    ]
+  },
+  {
+    "id": "w3-221",
+    "hanzi": "鸡",
+    "pinyin": "jī",
+    "meaningVi": "gà",
+    "radical": "鸟",
+    "level": 3,
+    "frequency": 1356,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "要做蛋糕，你要用到鸡蛋，黄油和糖。",
+        "pinyin": "yào zuò dàn gāo ， nǐ yào yòng dào jī dàn ， huáng yóu hé táng 。",
+        "vi": "Để làm bánh kem, bạn cần dùng trứng, bơ và đường."
+      }
+    ]
+  },
+  {
+    "id": "w3-222",
+    "hanzi": "遍",
+    "pinyin": "biàn",
+    "meaningVi": "lượt, khắp, lần",
+    "radical": "辶",
+    "level": 3,
+    "frequency": 1358,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "不好意思，能请您重复一遍吗？",
+        "pinyin": "bù hǎo yì sī ， néng qǐng nín chóng fù yī biàn ma ？",
+        "vi": "Xin lỗi, bạn có thể nhắc lại giúp mình được không?"
+      }
+    ]
+  },
+  {
+    "id": "w3-223",
+    "hanzi": "室",
+    "pinyin": "shì",
+    "meaningVi": "phòng, nhà, họ Thất",
+    "radical": "宀",
+    "level": 3,
+    "frequency": 1382,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "哪间卧室都干净。",
+        "pinyin": "nǎ jiān wò shì dōu gān jìng 。",
+        "vi": "Phòng ngủ nào cũng sạch sẽ."
+      }
+    ]
+  },
+  {
+    "id": "w3-224",
+    "hanzi": "哈哈",
+    "pinyin": "hā hā",
+    "meaningVi": "haha (tiếng cười)",
+    "radical": "口",
+    "level": 3,
+    "frequency": 1389,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "主人听到那句话，不由得哈哈大笑起来。",
+        "pinyin": "zhǔ rén tīng dào nà jù huà ， bù yóu de hā hā dà xiào qǐ lái 。",
+        "vi": "Chủ nhân nghe thấy câu nói đó, không thể kìm được mà bật cười lớn."
+      }
+    ]
+  },
+  {
+    "id": "w3-225",
+    "hanzi": "极",
+    "pinyin": "jí",
+    "meaningVi": "cực kỳ, vô cùng",
+    "radical": "木",
+    "level": 3,
+    "frequency": 1404,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "变量的声明在C和C++中极其重要。",
+        "pinyin": "biàn liàng de shēng míng zài C hé C++ zhōng jí qí zhòng yào 。",
+        "vi": "Khai báo biến trong C/C++ vô cùng quan trọng."
+      }
+    ]
+  },
+  {
+    "id": "w3-226",
+    "hanzi": "咱们",
+    "pinyin": "zán men",
+    "meaningVi": "chúng ta, bọn mình",
+    "radical": "口",
+    "level": 3,
+    "frequency": 1405,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "咱们吃吧！我饿死了。",
+        "pinyin": "zán men chī ba ！ wǒ è sǐ le 。",
+        "vi": "Chúng ta ăn thôi. Tôi sắp chết vì đói rồi."
+      }
+    ]
+  },
+  {
+    "id": "w3-227",
+    "hanzi": "怎么办",
+    "pinyin": "zěn me bàn",
+    "meaningVi": "làm sao bây giờ, tính sao đây",
+    "radical": "心",
+    "level": 3,
+    "frequency": 1422,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "手机没电了，现在我们怎么办？",
+        "pinyin": "shǒu jī méi diàn le ， xiàn zài wǒ men zěn me bàn ？",
+        "vi": "Điện thoại hết pin rồi, bây giờ chúng ta tính sao đây?"
+      }
+    ]
+  },
+  {
+    "id": "w3-228",
+    "hanzi": "动物",
+    "pinyin": "dòng wù",
+    "meaningVi": "động vật",
+    "radical": "力",
+    "level": 3,
+    "frequency": 1438,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "不要虐待动物。",
+        "pinyin": "bú yào nüè dài dòng wù 。",
+        "vi": "Đừng ngược đãi động vật."
+      }
+    ]
+  },
+  {
+    "id": "w3-229",
+    "hanzi": "不行",
+    "pinyin": "bù xíng",
+    "meaningVi": "không được, không xong",
+    "radical": "一",
+    "level": 3,
+    "frequency": 1439,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我们女同志怎么不行？妇女能顶半边天嘛！",
+        "pinyin": "wǒ men nǚ tóng zhì zěn me bù xíng ？ fù nǚ néng dǐng bàn biān tiān ma ！",
+        "vi": "Phụ nữ chúng tôi sao lại không được? Phụ nữ có thể gánh vác nửa bầu trời mà!"
+      }
+    ]
+  },
+  {
+    "id": "w3-230",
+    "hanzi": "饿",
+    "pinyin": "è",
+    "meaningVi": "đói",
+    "radical": "饣",
+    "level": 3,
+    "frequency": 1477,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "咱们吃吧！我饿死了。",
+        "pinyin": "zán men chī ba ！ wǒ è sǐ le 。",
+        "vi": "Chúng ta ăn thôi. Tôi sắp chết vì đói rồi."
+      }
+    ]
+  },
+  {
+    "id": "w3-231",
+    "hanzi": "树",
+    "pinyin": "shù",
+    "meaningVi": "cây",
+    "radical": "木",
+    "level": 3,
+    "frequency": 1481,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "乡间有很多树。",
+        "pinyin": "xiāng jiān yǒu hěn duō shù 。",
+        "vi": "Ở vùng quê có rất nhiều cây xanh."
+      }
+    ]
+  },
+  {
+    "id": "w3-232",
+    "hanzi": "水平",
+    "pinyin": "shuǐ píng",
+    "meaningVi": "trình độ, mức độ",
+    "radical": "水",
+    "level": 3,
+    "frequency": 1490,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "通过努力，她的汉语水平提高了很多。",
+        "pinyin": "tōng guò nǔ lì ， tā de hàn yǔ shuǐ píng tí gāo le hěn duō 。",
+        "vi": "Qua sự nỗ lực, trình độ tiếng Trung của bạn ấy đã nâng cao rất nhiều."
+      }
+    ]
+  },
+  {
+    "id": "w3-233",
+    "hanzi": "借",
+    "pinyin": "jiè",
+    "meaningVi": "mượn, vay, cho mượn",
+    "radical": "亻",
+    "level": 3,
+    "frequency": 1495,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "你把报纸借给我。",
+        "pinyin": "nǐ bǎ bào zhǐ jiè gěi wǒ 。",
+        "vi": "Cậu cho mình mượn tờ báo."
+      }
+    ]
+  },
+  {
+    "id": "w3-234",
+    "hanzi": "抓住",
+    "pinyin": "zhuā zhù",
+    "meaningVi": "túm lấy, bắt lấy, nắm bắt",
+    "radical": "扌",
+    "level": 3,
+    "frequency": 1500,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "猫抓住了老鼠。",
+        "pinyin": "māo zhuā zhù le lǎo shǔ 。",
+        "vi": "Con mèo đã bắt được con chuột."
+      }
+    ]
+  },
+  {
+    "id": "w3-235",
+    "hanzi": "东",
+    "pinyin": "dōng",
+    "meaningVi": "phía đông, họ Đông",
+    "radical": "一",
+    "level": 3,
+    "frequency": 1509,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我朋友哪里买过什么东西！",
+        "pinyin": "wǒ péng yǒu nǎ lǐ mǎi guò shén me dōng xī ！",
+        "vi": "Bạn tôi có mua gì đâu?"
+      }
+    ]
+  },
+  {
+    "id": "w3-236",
+    "hanzi": "头发",
+    "pinyin": "tóu fa",
+    "meaningVi": "tóc",
+    "radical": "大",
+    "level": 3,
+    "frequency": 1533,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我没洗头发。",
+        "pinyin": "wǒ méi xǐ tóu fā 。",
+        "vi": "Tôi chưa gội đầu."
+      }
+    ]
+  },
+  {
+    "id": "w3-237",
+    "hanzi": "封",
+    "pinyin": "fēng",
+    "meaningVi": "phong, bức (thư), họ Phong",
+    "radical": "寸",
+    "level": 3,
+    "frequency": 1534,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "昨天，我收到一封用英语写的信。",
+        "pinyin": "zuó tiān ， wǒ shōu dào yī fēng yòng yīng yǔ xiě de xìn 。",
+        "vi": "Hôm qua, tôi có nhận một bức thư viết bằng tiếng Anh."
+      }
+    ]
+  },
+  {
+    "id": "w3-238",
+    "hanzi": "害怕",
+    "pinyin": "hài pà",
+    "meaningVi": "sợ hãi, sợ",
+    "radical": "宀",
+    "level": 3,
+    "frequency": 1536,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "她不会乘飞机因为害怕坠机。",
+        "pinyin": "tā bú huì chéng fēi jī yīn wèi hài pà zhuì jī 。",
+        "vi": "Bạn ấy không đi máy bay vì sợ tai nạn."
+      }
+    ]
+  },
+  {
+    "id": "w3-239",
+    "hanzi": "乐",
+    "pinyin": "lè",
+    "meaningVi": "vui vẻ, âm nhạc, họ Lạc",
+    "radical": "丿",
+    "level": 3,
+    "frequency": 1572,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "生日快乐，Muiriel！",
+        "pinyin": "shēng rì kuài lè ，Muiriel！",
+        "vi": "Chúc mừng sinh nhật, Muiriel!"
+      }
+    ]
+  },
+  {
+    "id": "w3-240",
+    "hanzi": "事实上",
+    "pinyin": "shì shí shàng",
+    "meaningVi": "thực ra, trên thực tế",
+    "radical": "亅",
+    "level": 3,
+    "frequency": 1577,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "事实上，事情并不是这样的。",
+        "pinyin": "shì shí shàng ， shì qíng bìng bú shì zhè yàng de 。",
+        "vi": "Thực ra, sự việc không phải như thế này."
+      }
+    ]
+  },
+  {
+    "id": "w3-241",
+    "hanzi": "季",
+    "pinyin": "jì",
+    "meaningVi": "mùa, họ Quý",
+    "radical": "子",
+    "level": 3,
+    "frequency": 1588,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "冬季快來了。",
+        "pinyin": "dōng jì kuài lái le 。",
+        "vi": "Mùa đông đang đến."
+      }
+    ]
+  },
+  {
+    "id": "w3-242",
+    "hanzi": "大概",
+    "pinyin": "dà gài",
+    "meaningVi": "đại khái, có lẽ, khoảng",
+    "radical": "大",
+    "level": 3,
+    "frequency": 1611,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "警察大概从一个月前就开始找被偷物品了。",
+        "pinyin": "jǐng chá dà gài cóng yí gè yuè qián jiù kāi shǐ zhǎo bèi tōu wù pǐn le 。",
+        "vi": "Cảnh sát đã bắt đầu tìm kiếm đồ bị trộm từ khoảng một tháng trước."
+      }
+    ]
+  },
+  {
+    "id": "w3-243",
+    "hanzi": "蓝",
+    "pinyin": "lán",
+    "meaningVi": "màu xanh lam, họ Lam",
+    "radical": "艹",
+    "level": 3,
+    "frequency": 1615,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他的自行车是蓝色的。",
+        "pinyin": "tā de zì xíng chē shì lán sè de 。",
+        "vi": "Xe đạp của anh ấy màu xanh dương."
+      }
+    ]
+  },
+  {
+    "id": "w3-244",
+    "hanzi": "纸",
+    "pinyin": "zhǐ",
+    "meaningVi": "giấy",
+    "radical": "纟",
+    "level": 3,
+    "frequency": 1621,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "你把报纸借给我。",
+        "pinyin": "nǐ bǎ bào zhǐ jiè gěi wǒ 。",
+        "vi": "Cậu cho mình mượn tờ báo."
+      }
+    ]
+  },
+  {
+    "id": "w3-245",
+    "hanzi": "照顾",
+    "pinyin": "zhào gu",
+    "meaningVi": "chăm sóc, chiếu cố",
+    "radical": "灬",
+    "level": 3,
+    "frequency": 1631,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我爸爸对我的爱和照顾不比我妈妈少。",
+        "pinyin": "wǒ bà bà duì wǒ de ài hé zhào gù bù bǐ wǒ mā mā shǎo 。",
+        "vi": "Bố yêu thương và chăm sóc mình không thua gì mẹ."
+      }
+    ]
+  },
+  {
+    "id": "w3-246",
+    "hanzi": "急",
+    "pinyin": "jí",
+    "meaningVi": "vội, gấp, lo lắng",
+    "radical": "心",
+    "level": 3,
+    "frequency": 1635,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他还没有把情况了解清楚就急忙发表意见。",
+        "pinyin": "tā hái méi yǒu bǎ qíng kuàng liǎo jiě qīng chǔ jiù jí máng fā biǎo yì jiàn 。",
+        "vi": "Anh ta chưa biết rõ tình hình đã phát biểu ý kiến ngay."
+      }
+    ]
+  },
+  {
+    "id": "w3-247",
+    "hanzi": "丢",
+    "pinyin": "diū",
+    "meaningVi": "mất, vứt bỏ",
+    "radical": "一",
+    "level": 3,
+    "frequency": 1655,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我丢了我的伞。",
+        "pinyin": "wǒ diū le wǒ de sǎn 。",
+        "vi": "Mình mất ô rồi."
+      }
+    ]
+  },
+  {
+    "id": "w3-248",
+    "hanzi": "奇怪",
+    "pinyin": "qí guài",
+    "meaningVi": "kỳ lạ, lạ lùng",
+    "radical": "大",
+    "level": 3,
+    "frequency": 1655,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他这么说很奇怪。",
+        "pinyin": "tā zhè me shuō hěn qí guài 。",
+        "vi": "Bạn ấy nói vậy thật lạ."
+      }
+    ]
+  },
+  {
+    "id": "w3-249",
+    "hanzi": "慢慢",
+    "pinyin": "màn màn",
+    "meaningVi": "từ từ, chậm rãi",
+    "radical": "忄",
+    "level": 3,
+    "frequency": 1664,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "汽笛声响起，船开始慢慢地驶离港口。",
+        "pinyin": "qì dí shēng xiǎng qǐ ， chuán kāi shǐ màn màn dì shǐ lí gǎng kǒu 。",
+        "vi": "Tiếng còi tàu vang lên, con tàu từ từ rời cảng."
+      }
+    ]
+  },
+  {
+    "id": "w3-250",
+    "hanzi": "最好",
+    "pinyin": "zuì hǎo",
+    "meaningVi": "tốt nhất, tốt hơn hết là",
+    "radical": "曰",
+    "level": 3,
+    "frequency": 1704,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "這是我聽過最好笑的笑話。",
+        "pinyin": "zhè shì wǒ tīng guò zuì hǎo xiào de xiào huà 。",
+        "vi": "Đó là truyện cười vui nhất mà tôi đã từng nghe."
+      }
+    ]
+  },
+  {
+    "id": "w3-251",
+    "hanzi": "南",
+    "pinyin": "nán",
+    "meaningVi": "phía nam, miền nam, họ Nam",
+    "radical": "十",
+    "level": 3,
+    "frequency": 1709,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "越南语真的难学。",
+        "pinyin": "yuè nán yǔ zhēn de nán xué 。",
+        "vi": "Tiếng Việt thật sự rất khó học."
+      }
+    ]
+  },
+  {
+    "id": "w3-252",
+    "hanzi": "出发",
+    "pinyin": "chū fā",
+    "meaningVi": "xuất phát, khởi hành",
+    "radical": "凵",
+    "level": 3,
+    "frequency": 1714,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他们和一个导游一起出发，只是为了以防迷路。",
+        "pinyin": "tā men hé yí gè dǎo yóu yì qǐ chū fā ， zhǐ shì wèi le yǐ fáng mí lù 。",
+        "vi": "Họ đi cùng một hướng dẫn viên chỉ để phòng khi lạc đường."
+      }
+    ]
+  },
+  {
+    "id": "w3-253",
+    "hanzi": "板",
+    "pinyin": "bǎn",
+    "meaningVi": "tấm, bảng, ván",
+    "radical": "木",
+    "level": 3,
+    "frequency": 1759,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他被工厂的老板解雇。",
+        "pinyin": "tā bèi gōng chǎng de lǎo bǎn jiě gù 。",
+        "vi": "Anh ấy đã bị ông chủ công xưởng sa thải."
+      }
+    ]
+  },
+  {
+    "id": "w3-254",
+    "hanzi": "满意",
+    "pinyin": "mǎn yì",
+    "meaningVi": "hài lòng, mãn nguyện",
+    "radical": "氵",
+    "level": 3,
+    "frequency": 1761,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "那条新裙子让她很满意。",
+        "pinyin": "nà tiáo xīn qún zi ràng tā hěn mǎn yì 。",
+        "vi": "Chiếc váy mới khiến bạn ấy rất hài lòng."
+      }
+    ]
+  },
+  {
+    "id": "w3-255",
+    "hanzi": "旧",
+    "pinyin": "jiù",
+    "meaningVi": "cũ, xưa",
+    "radical": "日",
+    "level": 3,
+    "frequency": 1787,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他的兴趣爱好是收集旧邮票。",
+        "pinyin": "tā de xìng qù ài hào shì shōu jí jiù yóu piào 。",
+        "vi": "Sở thích của bạn ấy là sưu tầm tem cũ."
+      }
+    ]
+  },
+  {
+    "id": "w3-256",
+    "hanzi": "司机",
+    "pinyin": "sī jī",
+    "meaningVi": "tài xế, lái xe",
+    "radical": "口",
+    "level": 3,
+    "frequency": 1804,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "司机应该遵守交通规则。",
+        "pinyin": "sī jī yīng gāi zūn shǒu jiāo tōng guī zé 。",
+        "vi": "Lái xe phải tuân thủ luật giao thông."
+      }
+    ]
+  },
+  {
+    "id": "w3-257",
+    "hanzi": "北",
+    "pinyin": "běi",
+    "meaningVi": "phía bắc, phương bắc",
+    "radical": "匕",
+    "level": 3,
+    "frequency": 1835,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "飞往北京的飞机就要起飞了。",
+        "pinyin": "fēi wǎng běi jīng de fēi jī jiù yào qǐ fēi le 。",
+        "vi": "Máy bay đến Bắc Kinh sắp cất cánh."
+      }
+    ]
+  },
+  {
+    "id": "w3-258",
+    "hanzi": "好多",
+    "pinyin": "hǎo duō",
+    "meaningVi": "nhiều, rất nhiều",
+    "radical": "女",
+    "level": 3,
+    "frequency": 1837,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我认识史密斯先生有好多年了。",
+        "pinyin": "wǒ rèn shí shǐ mì sī xiān shēng yǒu hǎo duō nián le 。",
+        "vi": "Mình quen ông Smith đã nhiều năm rồi."
+      }
+    ]
+  },
+  {
+    "id": "w3-259",
+    "hanzi": "经理",
+    "pinyin": "jīng lǐ",
+    "meaningVi": "giám đốc, quản lý",
+    "radical": "纟",
+    "level": 3,
+    "frequency": 1838,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "对，是我们经理。",
+        "pinyin": "duì ， shì wǒ men jīng lǐ 。",
+        "vi": "Đúng vậy, là quản lý của bọn mình."
+      }
+    ]
+  },
+  {
+    "id": "w3-260",
+    "hanzi": "兴趣",
+    "pinyin": "xìng qù",
+    "meaningVi": "hứng thú, sở thích",
+    "radical": "八",
+    "level": 3,
+    "frequency": 1847,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "你们对外语感兴趣吗？",
+        "pinyin": "nǐ men duì wài yǔ gǎn xìng qù ma ？",
+        "vi": "Các bạn có hứng thú với ngoại ngữ không?"
+      }
+    ]
+  },
+  {
+    "id": "w3-261",
+    "hanzi": "员",
+    "pinyin": "yuán",
+    "meaningVi": "nhân viên, thành viên",
+    "radical": "口",
+    "level": 3,
+    "frequency": 1874,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "由此可见，她是很有前途的电影演员。",
+        "pinyin": "yóu cǐ kě jiàn ， tā shì hěn yǒu qián tú de diàn yǐng yǎn yuán 。",
+        "vi": "Điều này cho thấy, anh ấy là một diễn viên điện ảnh rất có tiền đồ."
+      }
+    ]
+  },
+  {
+    "id": "w3-262",
+    "hanzi": "见面",
+    "pinyin": "jiàn miàn",
+    "meaningVi": "gặp mặt",
+    "radical": "见",
+    "level": 3,
+    "frequency": 1876,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "每次见面都打招呼。",
+        "pinyin": "měi cì jiàn miàn dōu dǎ zhāo hū 。",
+        "vi": "Mỗi lần gặp mặt đều chào hỏi."
+      }
+    ]
+  },
+  {
+    "id": "w3-263",
+    "hanzi": "成绩",
+    "pinyin": "chéng jì",
+    "meaningVi": "thành tích, điểm số, kết quả",
+    "radical": "戈",
+    "level": 3,
+    "frequency": 1888,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他以优异的成绩毕业于剑桥大学。",
+        "pinyin": "tā yǐ yōu yì de chéng jì bì yè yú jiàn qiáo dà xué 。",
+        "vi": "Bạn ấy tốt nghiệp Đại học Cambridge với thành tích xuất sắc."
+      }
+    ]
+  },
+  {
+    "id": "w3-264",
+    "hanzi": "中间",
+    "pinyin": "zhōng jiān",
+    "meaningVi": "ở giữa, trung tâm, giữa",
+    "radical": "丨",
+    "level": 3,
+    "frequency": 1889,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "你坐在Meg和我的中间。",
+        "pinyin": "nǐ zuò zài Meg hé wǒ de zhōng jiān 。",
+        "vi": "Bạn ngồi giữa Meg và mình."
+      }
+    ]
+  },
+  {
+    "id": "w3-265",
+    "hanzi": "女生",
+    "pinyin": "nǚ shēng",
+    "meaningVi": "nữ sinh, con gái",
+    "radical": "女",
+    "level": 3,
+    "frequency": 1894,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "湯姆喜歡黃頭髮的女生。",
+        "pinyin": "tāng mǔ xǐ huān huáng tóu fà de nǚ shēng 。",
+        "vi": "Tom thích những cô gái tóc vàng."
+      }
+    ]
+  },
+  {
+    "id": "w3-266",
+    "hanzi": "地点",
+    "pinyin": "dì diǎn",
+    "meaningVi": "địa điểm, nơi chốn",
+    "radical": "土",
+    "level": 3,
+    "frequency": 1921,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我们明天的见面地点在哪里？",
+        "pinyin": "wǒ men míng tiān de jiàn miàn dì diǎn zài nǎ lǐ ？",
+        "vi": "Địa điểm hẹn gặp ngày mai của chúng ta ở đâu?"
+      }
+    ]
+  },
+  {
+    "id": "w3-267",
+    "hanzi": "语言",
+    "pinyin": "yǔ yán",
+    "meaningVi": "ngôn ngữ",
+    "radical": "讠",
+    "level": 3,
+    "frequency": 1948,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "音乐是人类共通的语言。",
+        "pinyin": "yīn yuè shì rén lèi gòng tōng de yǔ yán 。",
+        "vi": "Âm nhạc là ngôn ngữ chung của nhân loại."
+      }
+    ]
+  },
+  {
+    "id": "w3-268",
+    "hanzi": "网站",
+    "pinyin": "wǎng zhàn",
+    "meaningVi": "trang web, website",
+    "radical": "网",
+    "level": 3,
+    "frequency": 1965,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我觉得这个网站的概念非常好。",
+        "pinyin": "wǒ jué de zhè ge wǎng zhàn de gài niàn fēi cháng hǎo 。",
+        "vi": "Mình thấy ý tưởng của trang web này rất hay."
+      }
+    ]
+  },
+  {
+    "id": "w3-269",
+    "hanzi": "灯",
+    "pinyin": "dēng",
+    "meaningVi": "đèn",
+    "radical": "火",
+    "level": 3,
+    "frequency": 2001,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "好像我成电灯泡了。我该走了。",
+        "pinyin": "hǎo xiàng wǒ chéng diàn dēng pào le 。 wǒ gāi zǒu le 。",
+        "vi": "Tôi là người thứ ba rùi, vậy phải đi thôi."
+      }
+    ]
+  },
+  {
+    "id": "w3-270",
+    "hanzi": "太阳",
+    "pinyin": "tài yang",
+    "meaningVi": "mặt trời",
+    "radical": "大",
+    "level": 3,
+    "frequency": 2001,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "如果没有太阳，那所有生物都会死。",
+        "pinyin": "rú guǒ méi yǒu tài yáng ， nà suǒ yǒu shēng wù dū huì sǐ 。",
+        "vi": "Nếu không có mặt trời thì tất cả động vật đều sẽ chết"
+      }
+    ]
+  },
+  {
+    "id": "w3-271",
+    "hanzi": "爬",
+    "pinyin": "pá",
+    "meaningVi": "leo, bò",
+    "radical": "爪",
+    "level": 3,
+    "frequency": 2016,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他们一直爬到悬崖顶上。",
+        "pinyin": "tā men yì zhí pá dào xuán yá dǐng shàng 。",
+        "vi": "Họ leo tuốt lên tận đỉnh vách đá."
+      }
+    ]
+  },
+  {
+    "id": "w3-272",
+    "hanzi": "差不多",
+    "pinyin": "chà bu duō",
+    "meaningVi": "gần như, hầu như, xấp xỉ",
+    "radical": "工",
+    "level": 3,
+    "frequency": 2024,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "差不多两周John的病才好了。",
+        "pinyin": "chà bu duō liǎng zhōu John de bìng cái hǎo le 。",
+        "vi": "John mất gần hai tuần mới khỏi bệnh."
+      }
+    ]
+  },
+  {
+    "id": "w3-273",
+    "hanzi": "糖",
+    "pinyin": "táng",
+    "meaningVi": "đường, kẹo",
+    "radical": "米",
+    "level": 3,
+    "frequency": 2036,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "要做蛋糕，你要用到鸡蛋，黄油和糖。",
+        "pinyin": "yào zuò dàn gāo ， nǐ yào yòng dào jī dàn ， huáng yóu hé táng 。",
+        "vi": "Để làm bánh kem, bạn cần dùng trứng, bơ và đường."
+      }
+    ]
+  },
+  {
+    "id": "w3-274",
+    "hanzi": "以下",
+    "pinyin": "yǐ xià",
+    "meaningVi": "dưới đây, sau đây, trở xuống",
+    "radical": "人",
+    "level": 3,
+    "frequency": 2058,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "零度以下的氣溫持續了好幾天。",
+        "pinyin": "líng dù yǐ xià de qì wēn chí xù le hǎo jǐ tiān 。",
+        "vi": "Nhiệt độ dưới 0 độ đã kéo dài mấy ngày nay."
+      }
+    ]
+  },
+  {
+    "id": "w3-275",
+    "hanzi": "合适",
+    "pinyin": "hé shì",
+    "meaningVi": "phù hợp, thích hợp",
+    "radical": "口",
+    "level": 3,
+    "frequency": 2104,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "她很会打扮，所以不管穿上什么都合适。",
+        "pinyin": "tā hěn huì dǎ bàn ， suǒ yǐ bù guǎn chuān shàng shén me dōu hé shì 。",
+        "vi": "Bạn ấy rất biết cách ăn mặc nên mặc gì cũng hợp."
+      }
+    ]
+  },
+  {
+    "id": "w3-276",
+    "hanzi": "号码",
+    "pinyin": "hào mǎ",
+    "meaningVi": "số, số hiệu",
+    "radical": "口",
+    "level": 3,
+    "frequency": 2110,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "意大利的国际号码前缀是三十九(+39)。",
+        "pinyin": "yì dà lì de guó jì hào mǎ qián zhuì shì sān shí jiǔ (+39)。",
+        "vi": "Mã vùng quốc tế của Ý là +39."
+      }
+    ]
+  },
+  {
+    "id": "w3-277",
+    "hanzi": "出生",
+    "pinyin": "chū shēng",
+    "meaningVi": "sinh ra, chào đời",
+    "radical": "凵",
+    "level": 3,
+    "frequency": 2112,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "她是什么时候出生的？",
+        "pinyin": "tā shì shén me shí hòu chū shēng de ？",
+        "vi": "Bạn ấy sinh năm nào thế?"
+      }
+    ]
+  },
+  {
+    "id": "w3-278",
+    "hanzi": "生气",
+    "pinyin": "shēng qì",
+    "meaningVi": "giận dỗi, tức giận",
+    "radical": "生",
+    "level": 3,
+    "frequency": 2113,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他还是个孩子，犯不上跟他生气。",
+        "pinyin": "tā hái shì gè hái zi ， fàn bù shàng gēn tā shēng qì 。",
+        "vi": "Nó vẫn còn là đứa trẻ con, không đáng tức giận với nó."
+      }
+    ]
+  },
+  {
+    "id": "w3-279",
+    "hanzi": "以上",
+    "pinyin": "yǐ shàng",
+    "meaningVi": "trên đây, phía trên, trở lên",
+    "radical": "人",
+    "level": 3,
+    "frequency": 2124,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "请仔细阅读以上的内容。",
+        "pinyin": "qǐng zǐ xì yuè dú yǐ shàng de nèi róng 。",
+        "vi": "Xin hãy đọc kỹ nội dung trên đây."
+      }
+    ]
+  },
+  {
+    "id": "w3-280",
+    "hanzi": "名单",
+    "pinyin": "míng dān",
+    "meaningVi": "danh sách",
+    "radical": "口",
+    "level": 3,
+    "frequency": 2125,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "你能把我的名字加到等候批准的申请人名单上吗？",
+        "pinyin": "nǐ néng bǎ wǒ de míng zì jiā dào děng hòu pī zhǔn de shēn qǐng rén míng dān shàng ma ？",
+        "vi": "Bạn thêm tên mình vào danh sách chờ duyệt được không?"
+      }
+    ]
+  },
+  {
+    "id": "w3-281",
+    "hanzi": "热情",
+    "pinyin": "rè qíng",
+    "meaningVi": "nhiệt tình, nhiệt huyết",
+    "radical": "灬",
+    "level": 3,
+    "frequency": 2149,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "既然你看得起我，我就一定热情帮助你。",
+        "pinyin": "jì rán nǐ kàn de qǐ wǒ ， wǒ jiù yí dìng rè qíng bāng zhù nǐ 。",
+        "vi": "Nếu cậu đã coi trọng tôi, thì tôi nhất định nhiệt tình giúp đỡ cậu."
+      }
+    ]
+  },
+  {
+    "id": "w3-282",
+    "hanzi": "到处",
+    "pinyin": "dào chù",
+    "meaningVi": "khắp nơi, mọi nơi",
+    "radical": "刂",
+    "level": 3,
+    "frequency": 2171,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "春天到了，公园里到处都是花。",
+        "pinyin": "chūn tiān dào le ， gōng yuán lǐ dào chù dōu shì huā 。",
+        "vi": "Mùa xuân đến rồi, trong công viên khắp nơi đều là hoa."
+      }
+    ]
+  },
+  {
+    "id": "w3-283",
+    "hanzi": "的话",
+    "pinyin": "de huà",
+    "meaningVi": "nếu như, nếu",
+    "radical": "白",
+    "level": 3,
+    "frequency": 2226,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "如果你爱我的话，也要爱我的狗。",
+        "pinyin": "rú guǒ nǐ ài wǒ de huà ， yě yào ài wǒ de gǒu 。",
+        "vi": "Thương em thương cả đường đi lối về."
+      }
+    ]
+  },
+  {
+    "id": "w3-284",
+    "hanzi": "骑",
+    "pinyin": "qí",
+    "meaningVi": "cưỡi, đi (xe đạp, xe máy)",
+    "radical": "马",
+    "level": 3,
+    "frequency": 2231,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "你可以骑上我的摩托车去遛一圈。",
+        "pinyin": "nǐ kě yǐ qí shàng wǒ de mó tuō chē qù liú yī quān 。",
+        "vi": "Bạn có thể lấy xe máy của mình đi lượn một vòng."
+      }
+    ]
+  },
+  {
+    "id": "w3-285",
+    "hanzi": "聊天",
+    "pinyin": "liáo tiān",
+    "meaningVi": "trò chuyện, tán gẫu",
+    "radical": "耳",
+    "level": 3,
+    "frequency": 9999,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我很疑惑为什么冷的时候会寂寞得想找个人聊聊天。",
+        "pinyin": "wǒ hěn yí huò wèi shén me lěng de shí hòu huì jì mò dé xiǎng zhǎo gè rén liáo liáo tiān 。",
+        "vi": "Tôi tự hỏi không biết tại sao mỗi khi trời lạnh là tôi lại cảm thấy cô đơn như thế."
+      }
+    ]
+  },
+  {
+    "id": "w3-286",
+    "hanzi": "赢",
+    "pinyin": "yíng",
+    "meaningVi": "thắng, chiến thắng",
+    "radical": "贝",
+    "level": 3,
+    "frequency": 9999,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "你是绝对赢不了我的。",
+        "pinyin": "nǐ shì jué duì yíng bù liǎo wǒ de 。",
+        "vi": "Mày sẽ không bao giờ có thể thắng tao."
+      }
+    ]
+  },
+  {
+    "id": "w3-287",
+    "hanzi": "演员",
+    "pinyin": "yǎn yuán",
+    "meaningVi": "diễn viên",
+    "radical": "氵",
+    "level": 3,
+    "frequency": 9999,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "由此可见，她是很有前途的电影演员。",
+        "pinyin": "yóu cǐ kě jiàn ， tā shì hěn yǒu qián tú de diàn yǐng yǎn yuán 。",
+        "vi": "Điều này cho thấy, anh ấy là một diễn viên điện ảnh rất có tiền đồ."
+      }
+    ]
+  },
+  {
+    "id": "w3-288",
+    "hanzi": "加油",
+    "pinyin": "jiā yóu",
+    "meaningVi": "cố lên",
+    "radical": "力",
+    "level": 3,
+    "frequency": 9999,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "我们在下个加油站停一下。",
+        "pinyin": "wǒ men zài xià gè jiā yóu zhàn tíng yī xià 。",
+        "vi": "Mình ghé trạm xăng tiếp theo một chút nhé."
+      }
+    ]
+  },
+  {
+    "id": "w3-289",
+    "hanzi": "联系",
+    "pinyin": "lián xì",
+    "meaningVi": "liên hệ, giữ liên lạc",
+    "radical": "耳",
+    "level": 3,
+    "frequency": 9999,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他们俩工作上联系多，经常打交道。",
+        "pinyin": "tā men liǎ gōng zuò shàng lián xì duō ， jīng cháng dǎ jiāo dào 。",
+        "vi": "Hai người họ có liên hệ nhiều trong công việc, thường xuyên giao thiệp với nhau."
+      }
+    ]
+  },
+  {
+    "id": "w3-290",
+    "hanzi": "热闹",
+    "pinyin": "rè nao",
+    "meaningVi": "náo nhiệt, đông vui",
+    "radical": "火",
+    "level": 3,
+    "frequency": 9999,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "这个小镇不大,可是很热闹.",
+        "pinyin": "zhè ge xiǎo zhèn bù dà , kě shì hěn rè nào .",
+        "vi": "Thị trấn nhỏ của mình không lớn nhưng rất náo nhiệt."
+      }
+    ]
+  },
+  {
+    "id": "w3-291",
+    "hanzi": "紧张",
+    "pinyin": "jǐn zhāng",
+    "meaningVi": "hồi hộp, căng thẳng",
+    "radical": "糸",
+    "level": 3,
+    "frequency": 9999,
+    "mnemonic": "",
+    "examples": [
+      {
+        "hanzi": "他被很多人围着，自然变得有点紧张。",
+        "pinyin": "tā bèi hěn duō rén wéi zhe ， zì rán biàn dé yǒu diǎn jǐn zhāng 。",
+        "vi": "Xung quanh bạn có nhiều người quá nên bạn hơi căng thẳng cũng phải."
+      }
+    ]
+  }
+]

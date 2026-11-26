@@ -355,6 +355,1426 @@
     ]
   },
   {
+    "id": "r-t2",
+    "stage": 1,
+    "topicId": 2,
+    "title": "介绍名字",
+    "mode": "study",
+    "knownPercent": 92,
+    "newWords": [
+      "同学",
+      "名字"
+    ],
+    "paragraphs": [
+      {
+        "hanzi": "我叫小明。我的名字是大明。王老师是我的老师。",
+        "vi": "Tôi tên là Tiểu Minh. Tên của tôi là Đại Minh. Thầy Vương là giáo viên của tôi.",
+        "tokens": [
+          {
+            "w": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "w": "叫",
+            "pinyin": "jiào"
+          },
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "w": "的",
+            "pinyin": "de"
+          },
+          {
+            "w": "名字",
+            "pinyin": "míng zi",
+            "isNew": true
+          },
+          {
+            "w": "是",
+            "pinyin": "shì"
+          },
+          {
+            "w": "大",
+            "pinyin": "dà"
+          },
+          {
+            "w": "明",
+            "pinyin": "Míng"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "王老师",
+            "pinyin": "wáng lǎo shī"
+          },
+          {
+            "w": "是",
+            "pinyin": "shì"
+          },
+          {
+            "w": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "w": "的",
+            "pinyin": "de"
+          },
+          {
+            "w": "老师",
+            "pinyin": "lǎo shī"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "小美是我的同学。她也是一个学生。我们是一个学校的学生。",
+        "vi": "Tiểu Mỹ là bạn học của tôi. Cô ấy cũng là một học sinh. Chúng tôi là học sinh của cùng một trường học.",
+        "tokens": [
+          {
+            "w": "小美",
+            "pinyin": "xiǎo měi"
+          },
+          {
+            "w": "是",
+            "pinyin": "shì"
+          },
+          {
+            "w": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "w": "的",
+            "pinyin": "de"
+          },
+          {
+            "w": "同学",
+            "pinyin": "tóng xué",
+            "isNew": true
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "她",
+            "pinyin": "tā"
+          },
+          {
+            "w": "也",
+            "pinyin": "yě"
+          },
+          {
+            "w": "是",
+            "pinyin": "shì"
+          },
+          {
+            "w": "一",
+            "pinyin": "yī"
+          },
+          {
+            "w": "个",
+            "pinyin": "gè"
+          },
+          {
+            "w": "学生",
+            "pinyin": "xué sheng"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "我们",
+            "pinyin": "wǒ men"
+          },
+          {
+            "w": "是",
+            "pinyin": "shì"
+          },
+          {
+            "w": "一",
+            "pinyin": "yī"
+          },
+          {
+            "w": "个",
+            "pinyin": "gè"
+          },
+          {
+            "w": "学校",
+            "pinyin": "xué xiào"
+          },
+          {
+            "w": "的",
+            "pinyin": "de"
+          },
+          {
+            "w": "学生",
+            "pinyin": "xué sheng"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "王老师认识小明。王老师也认识小美。王老师叫我们的名字。",
+        "vi": "Thầy Vương quen Tiểu Minh. Thầy Vương cũng quen Tiểu Mỹ. Thầy Vương gọi tên của chúng tôi.",
+        "tokens": [
+          {
+            "w": "王老师",
+            "pinyin": "wáng lǎo shī"
+          },
+          {
+            "w": "认识",
+            "pinyin": "rèn shi"
+          },
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "王老师",
+            "pinyin": "wáng lǎo shī"
+          },
+          {
+            "w": "也",
+            "pinyin": "yě"
+          },
+          {
+            "w": "认识",
+            "pinyin": "rèn shi"
+          },
+          {
+            "w": "小美",
+            "pinyin": "xiǎo měi"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "王老师",
+            "pinyin": "wáng lǎo shī"
+          },
+          {
+            "w": "叫",
+            "pinyin": "jiào"
+          },
+          {
+            "w": "我们",
+            "pinyin": "wǒ men"
+          },
+          {
+            "w": "的",
+            "pinyin": "de"
+          },
+          {
+            "w": "名字",
+            "pinyin": "míng zi",
+            "isNew": true
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "小明和小美是好同学。他们的名字很好听。大家认识小明和小美。",
+        "vi": "Tiểu Minh và Tiểu Mỹ là bạn học tốt. Tên của họ rất hay. Mọi người quen biết Tiểu Minh và Tiểu Mỹ.",
+        "tokens": [
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "和",
+            "pinyin": "hé"
+          },
+          {
+            "w": "小美",
+            "pinyin": "xiǎo měi"
+          },
+          {
+            "w": "是",
+            "pinyin": "shì"
+          },
+          {
+            "w": "好",
+            "pinyin": "hǎo"
+          },
+          {
+            "w": "同学",
+            "pinyin": "tóng xué",
+            "isNew": true
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "他们",
+            "pinyin": "tā men"
+          },
+          {
+            "w": "的",
+            "pinyin": "de"
+          },
+          {
+            "w": "名字",
+            "pinyin": "míng zi",
+            "isNew": true
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "好听",
+            "pinyin": "hǎo tīng"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "大家",
+            "pinyin": "dà jiā"
+          },
+          {
+            "w": "认识",
+            "pinyin": "rèn shi"
+          },
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "和",
+            "pinyin": "hé"
+          },
+          {
+            "w": "小美",
+            "pinyin": "xiǎo měi"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq2-1",
+        "type": "mcq",
+        "q": "谁是我的老师？",
+        "options": [
+          "王老师",
+          "小明"
+        ],
+        "answer": 0,
+        "explainVi": "Bài đọc viết: '王老师是我的老师。' (Thầy Vương là giáo viên của tôi.)"
+      },
+      {
+        "id": "rq2-2",
+        "type": "tf",
+        "q": "小美是我的同学吗？",
+        "options": [
+          "对",
+          "不对"
+        ],
+        "answer": 0,
+        "explainVi": "Bài đọc viết: '小美是我的同学。' (Tiểu Mỹ là bạn học của tôi.)"
+      },
+      {
+        "id": "rq2-3",
+        "type": "detail",
+        "q": "小明叫什么名字？",
+        "options": [
+          "大明",
+          "小美"
+        ],
+        "answer": 0,
+        "explainVi": "Bài đọc viết: '我的名字是大明。' (Tên của tôi là Đại Minh, Tiểu Minh giới thiệu tên của mình.)"
+      }
+    ]
+  },
+  {
+    "id": "r-t3",
+    "stage": 1,
+    "topicId": 3,
+    "title": "小明和生日",
+    "mode": "fluent",
+    "knownPercent": 90,
+    "newWords": [
+      "生日",
+      "今年"
+    ],
+    "paragraphs": [
+      {
+        "hanzi": "小明今年十岁。今天是小明的生日。王老师知道小明的生日。",
+        "vi": "Tiểu Minh năm nay mười tuổi. Hôm nay là sinh nhật của Tiểu Minh. Vương lão sư biết sinh nhật của Tiểu Minh.",
+        "tokens": [
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "今年",
+            "pinyin": "jīn nián",
+            "isNew": true
+          },
+          {
+            "w": "十",
+            "pinyin": "shí"
+          },
+          {
+            "w": "岁",
+            "pinyin": "suì"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "今天",
+            "pinyin": "jīn tiān"
+          },
+          {
+            "w": "是",
+            "pinyin": "shì"
+          },
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "的",
+            "pinyin": "de"
+          },
+          {
+            "w": "生日",
+            "pinyin": "shēng rì",
+            "isNew": true
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "王老师",
+            "pinyin": "wáng lǎo shī"
+          },
+          {
+            "w": "知道",
+            "pinyin": "zhī dào"
+          },
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "的",
+            "pinyin": "de"
+          },
+          {
+            "w": "生日",
+            "pinyin": "shēng rì",
+            "isNew": true
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "王老师今年三十岁。小明很高兴。妈妈也知道小明今年十岁。",
+        "vi": "Vương lão sư năm nay ba mươi tuổi. Tiểu Minh rất vui. Mẹ cũng biết Tiểu Minh năm nay mười tuổi.",
+        "tokens": [
+          {
+            "w": "王老师",
+            "pinyin": "wáng lǎo shī"
+          },
+          {
+            "w": "今年",
+            "pinyin": "jīn nián",
+            "isNew": true
+          },
+          {
+            "w": "三",
+            "pinyin": "sān"
+          },
+          {
+            "w": "十",
+            "pinyin": "shí"
+          },
+          {
+            "w": "岁",
+            "pinyin": "suì"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "高兴",
+            "pinyin": "gāo xìng"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "妈妈",
+            "pinyin": "mā ma"
+          },
+          {
+            "w": "也",
+            "pinyin": "yě"
+          },
+          {
+            "w": "知道",
+            "pinyin": "zhī dào"
+          },
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "今年",
+            "pinyin": "jīn nián",
+            "isNew": true
+          },
+          {
+            "w": "十",
+            "pinyin": "shí"
+          },
+          {
+            "w": "岁",
+            "pinyin": "suì"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "妈妈买包子。小明吃包子。小美也来吃包子。",
+        "vi": "Mẹ mua bánh bao. Tiểu Minh ăn bánh bao. Tiểu Mỹ cũng đến ăn bánh bao.",
+        "tokens": [
+          {
+            "w": "妈妈",
+            "pinyin": "mā ma"
+          },
+          {
+            "w": "买",
+            "pinyin": "mǎi"
+          },
+          {
+            "w": "包子",
+            "pinyin": "bāo zi"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "吃",
+            "pinyin": "chī"
+          },
+          {
+            "w": "包子",
+            "pinyin": "bāo zi"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "小美",
+            "pinyin": "xiǎo měi"
+          },
+          {
+            "w": "也",
+            "pinyin": "yě"
+          },
+          {
+            "w": "来",
+            "pinyin": "lái"
+          },
+          {
+            "w": "吃",
+            "pinyin": "chī"
+          },
+          {
+            "w": "包子",
+            "pinyin": "bāo zi"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "今天真好。小明有朋友。大家都很高兴。",
+        "vi": "Hôm nay thật tốt. Tiểu Minh có bạn bè. Mọi người đều rất vui.",
+        "tokens": [
+          {
+            "w": "今天",
+            "pinyin": "jīn tiān"
+          },
+          {
+            "w": "真",
+            "pinyin": "zhēn"
+          },
+          {
+            "w": "好",
+            "pinyin": "hǎo"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "有",
+            "pinyin": "yǒu"
+          },
+          {
+            "w": "朋友",
+            "pinyin": "péng you"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "大家",
+            "pinyin": "dà jiā"
+          },
+          {
+            "w": "都",
+            "pinyin": "dōu"
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "高兴",
+            "pinyin": "gāo xìng"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq3-1",
+        "type": "mcq",
+        "q": "小明今年几岁？",
+        "options": [
+          "九岁",
+          "十岁",
+          "三十岁"
+        ],
+        "answer": 1,
+        "explainVi": "Bài đọc viết: 小明今年十岁 (Tiểu Minh năm nay mười tuổi)."
+      },
+      {
+        "id": "rq3-2",
+        "type": "tf",
+        "q": "今天是小明的生日吗？",
+        "options": [
+          "是",
+          "不是"
+        ],
+        "answer": 0,
+        "explainVi": "Bài đọc viết: 今天是小明的生日 (Hôm nay là sinh nhật của Tiểu Minh)."
+      },
+      {
+        "id": "rq3-3",
+        "type": "detail",
+        "q": "谁买包子？",
+        "options": [
+          "妈妈",
+          "王老师",
+          "小美"
+        ],
+        "answer": 0,
+        "explainVi": "Bài đọc viết: 妈妈买包子 (Mẹ mua bánh bao)."
+      }
+    ]
+  },
+  {
+    "id": "r-t4",
+    "stage": 1,
+    "topicId": 4,
+    "title": "我的家人",
+    "mode": "study",
+    "knownPercent": 88,
+    "newWords": [
+      "哥哥",
+      "姐姐"
+    ],
+    "paragraphs": [
+      {
+        "hanzi": "我家有四口人。爸爸和妈妈在家。哥哥也在家。",
+        "vi": "Nhà tôi có bốn người. Bố và mẹ ở nhà. Anh trai cũng ở nhà.",
+        "tokens": [
+          {
+            "w": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "w": "家",
+            "pinyin": "jiā"
+          },
+          {
+            "w": "有",
+            "pinyin": "yǒu"
+          },
+          {
+            "w": "四",
+            "pinyin": "sì"
+          },
+          {
+            "w": "口",
+            "pinyin": "kǒu"
+          },
+          {
+            "w": "人",
+            "pinyin": "rén"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "爸爸",
+            "pinyin": "bà ba"
+          },
+          {
+            "w": "和",
+            "pinyin": "hé"
+          },
+          {
+            "w": "妈妈",
+            "pinyin": "mā ma"
+          },
+          {
+            "w": "在家",
+            "pinyin": "zài jiā"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "哥哥",
+            "pinyin": "gē ge",
+            "isNew": true
+          },
+          {
+            "w": "也",
+            "pinyin": "yě"
+          },
+          {
+            "w": "在家",
+            "pinyin": "zài jiā"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "哥哥是一个学生。姐姐也是一个学生。他们学习汉语。",
+        "vi": "Anh trai là một học sinh. Chị gái cũng là một học sinh. Họ học tiếng Trung.",
+        "tokens": [
+          {
+            "w": "哥哥",
+            "pinyin": "gē ge",
+            "isNew": true
+          },
+          {
+            "w": "是",
+            "pinyin": "shì"
+          },
+          {
+            "w": "一",
+            "pinyin": "yī"
+          },
+          {
+            "w": "个",
+            "pinyin": "gè"
+          },
+          {
+            "w": "学生",
+            "pinyin": "xué sheng"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "姐姐",
+            "pinyin": "jiě jie",
+            "isNew": true
+          },
+          {
+            "w": "也",
+            "pinyin": "yě"
+          },
+          {
+            "w": "是",
+            "pinyin": "shì"
+          },
+          {
+            "w": "一",
+            "pinyin": "yī"
+          },
+          {
+            "w": "个",
+            "pinyin": "gè"
+          },
+          {
+            "w": "学生",
+            "pinyin": "xué sheng"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "他们",
+            "pinyin": "tā men"
+          },
+          {
+            "w": "学习",
+            "pinyin": "xué xí"
+          },
+          {
+            "w": "汉语",
+            "pinyin": "Hàn yǔ"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "小明和小美是我的好朋友。他们认识我哥哥。他们也认识我姐姐。",
+        "vi": "Tiểu Minh và Tiểu Mỹ là bạn tốt của tôi. Họ quen anh trai tôi. Họ cũng quen chị gái tôi.",
+        "tokens": [
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "和",
+            "pinyin": "hé"
+          },
+          {
+            "w": "小美",
+            "pinyin": "xiǎo měi"
+          },
+          {
+            "w": "是",
+            "pinyin": "shì"
+          },
+          {
+            "w": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "w": "的",
+            "pinyin": "de"
+          },
+          {
+            "w": "好",
+            "pinyin": "hǎo"
+          },
+          {
+            "w": "朋友",
+            "pinyin": "péng you"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "他们",
+            "pinyin": "tā men"
+          },
+          {
+            "w": "认识",
+            "pinyin": "rèn shi"
+          },
+          {
+            "w": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "w": "哥哥",
+            "pinyin": "gē ge",
+            "isNew": true
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "他们",
+            "pinyin": "tā men"
+          },
+          {
+            "w": "也",
+            "pinyin": "yě"
+          },
+          {
+            "w": "认识",
+            "pinyin": "rèn shi"
+          },
+          {
+            "w": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "w": "姐姐",
+            "pinyin": "jiě jie",
+            "isNew": true
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "哥哥喜欢看书。姐姐喜欢喝茶。我们在家里喝茶看书。",
+        "vi": "Anh trai thích đọc sách. Chị gái thích uống trà. Chúng tôi ở nhà uống trà đọc sách.",
+        "tokens": [
+          {
+            "w": "哥哥",
+            "pinyin": "gē ge",
+            "isNew": true
+          },
+          {
+            "w": "喜欢",
+            "pinyin": "xǐ huan"
+          },
+          {
+            "w": "看",
+            "pinyin": "kàn"
+          },
+          {
+            "w": "书",
+            "pinyin": "shū"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "姐姐",
+            "pinyin": "jiě jie",
+            "isNew": true
+          },
+          {
+            "w": "喜欢",
+            "pinyin": "xǐ huan"
+          },
+          {
+            "w": "喝",
+            "pinyin": "hè"
+          },
+          {
+            "w": "茶",
+            "pinyin": "chá"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "我们",
+            "pinyin": "wǒ men"
+          },
+          {
+            "w": "在家",
+            "pinyin": "zài jiā"
+          },
+          {
+            "w": "里",
+            "pinyin": "lǐ"
+          },
+          {
+            "w": "喝",
+            "pinyin": "hè"
+          },
+          {
+            "w": "茶",
+            "pinyin": "chá"
+          },
+          {
+            "w": "看",
+            "pinyin": "kàn"
+          },
+          {
+            "w": "书",
+            "pinyin": "shū"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq4-1",
+        "type": "mcq",
+        "q": "我家有几口人？",
+        "options": [
+          "三口人",
+          "四口人",
+          "五口人"
+        ],
+        "answer": 1,
+        "explainVi": "Bài đọc viết: '我家有四口人。' (Nhà tôi có bốn người.)"
+      },
+      {
+        "id": "rq4-2",
+        "type": "tf",
+        "q": "哥哥和姐姐是学生吗？",
+        "options": [
+          "对",
+          "不对"
+        ],
+        "answer": 0,
+        "explainVi": "Bài đọc viết: '哥哥是一个学生。姐姐也是一个学生。' (Anh trai là một học sinh. Chị gái cũng là một học sinh.)"
+      },
+      {
+        "id": "rq4-3",
+        "type": "detail",
+        "q": "姐姐喜欢做什么？",
+        "options": [
+          "喜欢看书",
+          "喜欢喝茶",
+          "喜欢吃饭"
+        ],
+        "answer": 1,
+        "explainVi": "Bài đọc viết: '姐姐喜欢喝茶。' (Chị gái thích uống trà.)"
+      }
+    ]
+  },
+  {
+    "id": "r-t5",
+    "stage": 1,
+    "topicId": 5,
+    "title": "时间与明天",
+    "mode": "fluent",
+    "knownPercent": 93,
+    "newWords": [
+      "明天",
+      "分钟"
+    ],
+    "paragraphs": [
+      {
+        "hanzi": "小明今天在家休息。明天小明去商店买东西。明天小明想吃苹果。",
+        "vi": "Tiểu Minh hôm nay ở nhà nghỉ ngơi. Ngày mai Tiểu Minh đi cửa hàng mua đồ. Ngày mai Tiểu Minh muốn ăn táo.",
+        "tokens": [
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "今天",
+            "pinyin": "jīn tiān"
+          },
+          {
+            "w": "在家",
+            "pinyin": "zài jiā"
+          },
+          {
+            "w": "休息",
+            "pinyin": "xiū xi"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "明天",
+            "pinyin": "míng tiān",
+            "isNew": true
+          },
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "去",
+            "pinyin": "qù"
+          },
+          {
+            "w": "商店",
+            "pinyin": "shāng diàn"
+          },
+          {
+            "w": "买",
+            "pinyin": "mǎi"
+          },
+          {
+            "w": "东西",
+            "pinyin": "dōng xi"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "明天",
+            "pinyin": "míng tiān",
+            "isNew": true
+          },
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "想",
+            "pinyin": "xiǎng"
+          },
+          {
+            "w": "吃",
+            "pinyin": "chī"
+          },
+          {
+            "w": "苹果",
+            "pinyin": "píng guǒ"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "王老师在学校上班。王老师有一个手机。王老师在学校看书。",
+        "vi": "Vương lão sư ở trường đi làm. Vương lão sư có một chiếc điện thoại. Vương lão sư ở trường đọc sách.",
+        "tokens": [
+          {
+            "w": "王老师",
+            "pinyin": "wáng lǎo shī"
+          },
+          {
+            "w": "在",
+            "pinyin": "zài"
+          },
+          {
+            "w": "学校",
+            "pinyin": "xué xiào"
+          },
+          {
+            "w": "上班",
+            "pinyin": "shàng bān"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "王老师",
+            "pinyin": "wáng lǎo shī"
+          },
+          {
+            "w": "有",
+            "pinyin": "yǒu"
+          },
+          {
+            "w": "一",
+            "pinyin": "yī"
+          },
+          {
+            "w": "个",
+            "pinyin": "gè"
+          },
+          {
+            "w": "手机",
+            "pinyin": "shǒu jī"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "王老师",
+            "pinyin": "wáng lǎo shī"
+          },
+          {
+            "w": "在",
+            "pinyin": "zài"
+          },
+          {
+            "w": "学校",
+            "pinyin": "xué xiào"
+          },
+          {
+            "w": "看",
+            "pinyin": "kàn"
+          },
+          {
+            "w": "书",
+            "pinyin": "shū"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "小美喝了一杯水。小美买了一些苹果。小美吃了一个面包。",
+        "vi": "Tiểu Mỹ đã uống một cốc nước. Tiểu Mỹ đã mua một ít táo. Tiểu Mỹ đã ăn một cái bánh mỳ.",
+        "tokens": [
+          {
+            "w": "小美",
+            "pinyin": "xiǎo měi"
+          },
+          {
+            "w": "喝",
+            "pinyin": "hè"
+          },
+          {
+            "w": "了",
+            "pinyin": "le"
+          },
+          {
+            "w": "一",
+            "pinyin": "yī"
+          },
+          {
+            "w": "杯",
+            "pinyin": "bēi"
+          },
+          {
+            "w": "水",
+            "pinyin": "shuǐ"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "小美",
+            "pinyin": "xiǎo měi"
+          },
+          {
+            "w": "买",
+            "pinyin": "mǎi"
+          },
+          {
+            "w": "了",
+            "pinyin": "le"
+          },
+          {
+            "w": "一些",
+            "pinyin": "yī xiē"
+          },
+          {
+            "w": "苹果",
+            "pinyin": "píng guǒ"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "小美",
+            "pinyin": "xiǎo měi"
+          },
+          {
+            "w": "吃",
+            "pinyin": "chī"
+          },
+          {
+            "w": "了",
+            "pinyin": "le"
+          },
+          {
+            "w": "一",
+            "pinyin": "yī"
+          },
+          {
+            "w": "个",
+            "pinyin": "gè"
+          },
+          {
+            "w": "面包",
+            "pinyin": "miàn bāo"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "我们学习汉字。我们学习几分钟汉字。我们学习二十分钟。",
+        "vi": "Chúng ta học chữ Hán. Chúng ta học chữ Hán mấy phút. Chúng ta học hai mươi phút.",
+        "tokens": [
+          {
+            "w": "我们",
+            "pinyin": "wǒ men"
+          },
+          {
+            "w": "学习",
+            "pinyin": "xué xí"
+          },
+          {
+            "w": "汉字",
+            "pinyin": "hàn zì"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "我们",
+            "pinyin": "wǒ men"
+          },
+          {
+            "w": "学习",
+            "pinyin": "xué xí"
+          },
+          {
+            "w": "几",
+            "pinyin": "jǐ"
+          },
+          {
+            "w": "分钟",
+            "pinyin": "fēn zhōng",
+            "isNew": true
+          },
+          {
+            "w": "汉字",
+            "pinyin": "hàn zì"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "我们",
+            "pinyin": "wǒ men"
+          },
+          {
+            "w": "学习",
+            "pinyin": "xué xí"
+          },
+          {
+            "w": "二",
+            "pinyin": "èr"
+          },
+          {
+            "w": "十分",
+            "pinyin": "shí fēn"
+          },
+          {
+            "w": "钟",
+            "pinyin": "Zhōng"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq5-1",
+        "type": "mcq",
+        "q": "谁明天去商店买东西？",
+        "options": [
+          "小明",
+          "王老师"
+        ],
+        "answer": 0,
+        "explainVi": "Theo bài đọc: '明天小明去商店买东西。'"
+      },
+      {
+        "id": "rq5-2",
+        "type": "tf",
+        "q": "王老师有一个手机。",
+        "options": [
+          "Đúng",
+          "Sai"
+        ],
+        "answer": 0,
+        "explainVi": "Theo bài đọc: '王老师有一个手机。'"
+      },
+      {
+        "id": "rq5-3",
+        "type": "detail",
+        "q": "我们学习几分钟汉字？",
+        "options": [
+          "二十分钟",
+          "三十分钟"
+        ],
+        "answer": 0,
+        "explainVi": "Theo bài đọc: '我们学习二十分钟。'"
+      }
+    ]
+  },
+  {
     "id": "r-t6",
     "stage": 1,
     "topicId": 6,
@@ -805,6 +2225,1239 @@
       "audio/story-4f8d2195b8ff.mp3",
       "audio/story-55b5b7f4fea6.mp3",
       "audio/story-cbaae76b836e.mp3"
+    ]
+  },
+  {
+    "id": "r-t7",
+    "stage": 1,
+    "topicId": 7,
+    "title": "买衣服",
+    "mode": "fluent",
+    "knownPercent": 93,
+    "newWords": [
+      "便宜",
+      "多少"
+    ],
+    "paragraphs": [
+      {
+        "hanzi": "小明去商店买衣服。他问服务员这件衣服多少钱？",
+        "vi": "Tiểu Minh đi cửa hàng mua quần áo. Cậu ấy hỏi nhân viên chiếc áo này bao nhiêu tiền?",
+        "tokens": [
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "去",
+            "pinyin": "qù"
+          },
+          {
+            "w": "商店",
+            "pinyin": "shāng diàn"
+          },
+          {
+            "w": "买",
+            "pinyin": "mǎi"
+          },
+          {
+            "w": "衣服",
+            "pinyin": "yī fu"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "他",
+            "pinyin": "tā"
+          },
+          {
+            "w": "问",
+            "pinyin": "wèn"
+          },
+          {
+            "w": "服务员",
+            "pinyin": "fú wù yuán"
+          },
+          {
+            "w": "这",
+            "pinyin": "zhè"
+          },
+          {
+            "w": "件",
+            "pinyin": "jiàn"
+          },
+          {
+            "w": "衣服",
+            "pinyin": "yī fu"
+          },
+          {
+            "w": "多少",
+            "pinyin": "duō shao",
+            "isNew": true
+          },
+          {
+            "w": "钱",
+            "pinyin": "qián"
+          },
+          {
+            "w": "？",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "服务员说这件衣服很好看。小明觉得这件衣服太贵了。",
+        "vi": "Nhân viên nói chiếc áo này rất đẹp. Tiểu Minh cảm thấy chiếc áo này quá đắt.",
+        "tokens": [
+          {
+            "w": "服务员",
+            "pinyin": "fú wù yuán"
+          },
+          {
+            "w": "说",
+            "pinyin": "shuō"
+          },
+          {
+            "w": "这",
+            "pinyin": "zhè"
+          },
+          {
+            "w": "件",
+            "pinyin": "jiàn"
+          },
+          {
+            "w": "衣服",
+            "pinyin": "yī fu"
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "好看",
+            "pinyin": "hǎo kàn"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "觉得",
+            "pinyin": "jué de"
+          },
+          {
+            "w": "这",
+            "pinyin": "zhè"
+          },
+          {
+            "w": "件",
+            "pinyin": "jiàn"
+          },
+          {
+            "w": "衣服",
+            "pinyin": "yī fu"
+          },
+          {
+            "w": "太",
+            "pinyin": "tài"
+          },
+          {
+            "w": "贵",
+            "pinyin": "guì"
+          },
+          {
+            "w": "了",
+            "pinyin": "le"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "小美也来商店买东西。她问服务员那件衣服多少钱？",
+        "vi": "Tiểu Mỹ cũng đến cửa hàng mua đồ. Cô ấy hỏi nhân viên chiếc áo kia bao nhiêu tiền?",
+        "tokens": [
+          {
+            "w": "小美",
+            "pinyin": "xiǎo měi"
+          },
+          {
+            "w": "也",
+            "pinyin": "yě"
+          },
+          {
+            "w": "来",
+            "pinyin": "lái"
+          },
+          {
+            "w": "商店",
+            "pinyin": "shāng diàn"
+          },
+          {
+            "w": "买",
+            "pinyin": "mǎi"
+          },
+          {
+            "w": "东西",
+            "pinyin": "dōng xi"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "她",
+            "pinyin": "tā"
+          },
+          {
+            "w": "问",
+            "pinyin": "wèn"
+          },
+          {
+            "w": "服务员",
+            "pinyin": "fú wù yuán"
+          },
+          {
+            "w": "那",
+            "pinyin": "nà"
+          },
+          {
+            "w": "件",
+            "pinyin": "jiàn"
+          },
+          {
+            "w": "衣服",
+            "pinyin": "yī fu"
+          },
+          {
+            "w": "多少",
+            "pinyin": "duō shao",
+            "isNew": true
+          },
+          {
+            "w": "钱",
+            "pinyin": "qián"
+          },
+          {
+            "w": "？",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "那件衣服很便宜。小美买了一件漂亮的衣服真便宜。",
+        "vi": "Chiếc áo kia rất rẻ. Tiểu Mỹ mua một chiếc quần áo đẹp thật rẻ.",
+        "tokens": [
+          {
+            "w": "那",
+            "pinyin": "nà"
+          },
+          {
+            "w": "件",
+            "pinyin": "jiàn"
+          },
+          {
+            "w": "衣服",
+            "pinyin": "yī fu"
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "便宜",
+            "pinyin": "pián yi",
+            "isNew": true
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "小美",
+            "pinyin": "xiǎo měi"
+          },
+          {
+            "w": "买",
+            "pinyin": "mǎi"
+          },
+          {
+            "w": "了",
+            "pinyin": "le"
+          },
+          {
+            "w": "一",
+            "pinyin": "yī"
+          },
+          {
+            "w": "件",
+            "pinyin": "jiàn"
+          },
+          {
+            "w": "漂亮",
+            "pinyin": "piào liang"
+          },
+          {
+            "w": "的",
+            "pinyin": "de"
+          },
+          {
+            "w": "衣服",
+            "pinyin": "yī fu"
+          },
+          {
+            "w": "真",
+            "pinyin": "zhēn"
+          },
+          {
+            "w": "便宜",
+            "pinyin": "pián yi",
+            "isNew": true
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq7-1",
+        "type": "mcq",
+        "q": "小明觉得那件衣服怎么样？",
+        "options": [
+          "太贵了",
+          "很便宜"
+        ],
+        "answer": 0,
+        "explainVi": "Bài đọc viết: '小明觉得这件衣服太贵了。' (Tiểu Minh cảm thấy chiếc áo này quá đắt.)"
+      },
+      {
+        "id": "rq7-2",
+        "type": "tf",
+        "q": "小美买了一件漂亮的衣服。",
+        "options": [
+          "Đúng",
+          "Sai"
+        ],
+        "answer": 0,
+        "explainVi": "Bài đọc viết: '小美买了一件漂亮的衣服真便宜。' (Tiểu Mỹ mua một chiếc quần áo đẹp thật rẻ.)"
+      },
+      {
+        "id": "rq7-3",
+        "type": "detail",
+        "q": "谁去商店买衣服？",
+        "options": [
+          "小明和小美",
+          "王老师"
+        ],
+        "answer": 0,
+        "explainVi": "Bài đọc viết: '小明去商店买衣服。' và '小美也来商店买东西。' (Tiểu Minh đi cửa hàng mua quần áo. Tiểu Mỹ cũng đến cửa hàng mua đồ.)"
+      }
+    ]
+  },
+  {
+    "id": "r-t8",
+    "stage": 1,
+    "topicId": 8,
+    "title": "问路",
+    "mode": "study",
+    "knownPercent": 85,
+    "newWords": [
+      "左边",
+      "车站"
+    ],
+    "paragraphs": [
+      {
+        "hanzi": "小明去车站。车站左边是一个大商店。",
+        "vi": "Tiểu Minh đi đến bến xe. Bên trái bến xe là một cửa hàng lớn.",
+        "tokens": [
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "去",
+            "pinyin": "qù"
+          },
+          {
+            "w": "车站",
+            "pinyin": "chē zhàn",
+            "isNew": true
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "车站",
+            "pinyin": "chē zhàn",
+            "isNew": true
+          },
+          {
+            "w": "左边",
+            "pinyin": "zuǒ bian",
+            "isNew": true
+          },
+          {
+            "w": "是",
+            "pinyin": "shì"
+          },
+          {
+            "w": "一",
+            "pinyin": "yī"
+          },
+          {
+            "w": "个",
+            "pinyin": "gè"
+          },
+          {
+            "w": "大",
+            "pinyin": "dà"
+          },
+          {
+            "w": "商店",
+            "pinyin": "shāng diàn"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "小美也在车站。小美问小明车站左边有什么。",
+        "vi": "Tiểu Mỹ cũng ở bến xe. Tiểu Mỹ hỏi Tiểu Minh bên trái bến xe có gì.",
+        "tokens": [
+          {
+            "w": "小美",
+            "pinyin": "xiǎo měi"
+          },
+          {
+            "w": "也",
+            "pinyin": "yě"
+          },
+          {
+            "w": "在",
+            "pinyin": "zài"
+          },
+          {
+            "w": "车站",
+            "pinyin": "chē zhàn",
+            "isNew": true
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "小美",
+            "pinyin": "xiǎo měi"
+          },
+          {
+            "w": "问",
+            "pinyin": "wèn"
+          },
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "车站",
+            "pinyin": "chē zhàn",
+            "isNew": true
+          },
+          {
+            "w": "左边",
+            "pinyin": "zuǒ bian",
+            "isNew": true
+          },
+          {
+            "w": "有",
+            "pinyin": "yǒu"
+          },
+          {
+            "w": "什么",
+            "pinyin": "shén me"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "小明说大商店左边有很多衣服。衣服很好看也很便宜。",
+        "vi": "Tiểu Minh nói bên trái cửa hàng lớn có rất nhiều quần áo. Quần áo rất đẹp và cũng rất rẻ.",
+        "tokens": [
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "说",
+            "pinyin": "shuō"
+          },
+          {
+            "w": "大",
+            "pinyin": "dà"
+          },
+          {
+            "w": "商店",
+            "pinyin": "shāng diàn"
+          },
+          {
+            "w": "左边",
+            "pinyin": "zuǒ bian",
+            "isNew": true
+          },
+          {
+            "w": "有",
+            "pinyin": "yǒu"
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "多",
+            "pinyin": "duō"
+          },
+          {
+            "w": "衣服",
+            "pinyin": "yī fu"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "衣服",
+            "pinyin": "yī fu"
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "好看",
+            "pinyin": "hǎo kàn"
+          },
+          {
+            "w": "也",
+            "pinyin": "yě"
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "便宜",
+            "pinyin": "pián yi"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "小美买了一个。王老师也来到车站。王老师买了一些水果。",
+        "vi": "Tiểu Mỹ mua một chiếc. Vương lão sư cũng đến bến xe. Vương lão sư mua một ít hoa quả.",
+        "tokens": [
+          {
+            "w": "小美",
+            "pinyin": "xiǎo měi"
+          },
+          {
+            "w": "买",
+            "pinyin": "mǎi"
+          },
+          {
+            "w": "了",
+            "pinyin": "le"
+          },
+          {
+            "w": "一",
+            "pinyin": "yī"
+          },
+          {
+            "w": "个",
+            "pinyin": "gè"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "王老师",
+            "pinyin": "wáng lǎo shī"
+          },
+          {
+            "w": "也",
+            "pinyin": "yě"
+          },
+          {
+            "w": "来到",
+            "pinyin": "lái dào"
+          },
+          {
+            "w": "车站",
+            "pinyin": "chē zhàn",
+            "isNew": true
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "王老师",
+            "pinyin": "wáng lǎo shī"
+          },
+          {
+            "w": "买",
+            "pinyin": "mǎi"
+          },
+          {
+            "w": "了",
+            "pinyin": "le"
+          },
+          {
+            "w": "一些",
+            "pinyin": "yī xiē"
+          },
+          {
+            "w": "水果",
+            "pinyin": "shuǐ guǒ"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq8-1",
+        "type": "mcq",
+        "q": "车站左边是什么？",
+        "options": [
+          "一个大商店",
+          "一个医院"
+        ],
+        "answer": 0,
+        "explainVi": "Bài đọc viết: '车站左边是一个大商店。'"
+      },
+      {
+        "id": "rq8-2",
+        "type": "tf",
+        "q": "大商店左边有很多衣服，衣服很好看也很便宜。",
+        "options": [
+          "Đúng",
+          "Sai"
+        ],
+        "answer": 0,
+        "explainVi": "Bài đọc viết: '大商店左边有很多衣服。衣服很好看也很便宜。'"
+      },
+      {
+        "id": "rq8-3",
+        "type": "detail",
+        "q": "谁来到车站买了一些水果？",
+        "options": [
+          "小明",
+          "王老师"
+        ],
+        "answer": 1,
+        "explainVi": "Bài đọc viết: '王老师也来到车站。王老师买了一些水果。'"
+      }
+    ]
+  },
+  {
+    "id": "story-c1",
+    "stage": 1,
+    "topicId": 100,
+    "title": "Chương 1: Ngày đầu Bao tới phố cổ",
+    "mode": "study",
+    "knownPercent": 90,
+    "isStoryChapter": true,
+    "chapterNumber": 1,
+    "cliffhangerVi": "Bao nhìn ly trà sữa trên bàn, chợt thấy một bóng người quen thuộc đang đi tới, đó là ai?",
+    "newWords": [
+      "你好",
+      "叫"
+    ],
+    "paragraphs": [
+      {
+        "hanzi": "今天天气好。Bao去商店。他看见一个人，问：“你好，你叫什么名字？”那个人说：“你好，我叫小明。”",
+        "vi": "Hôm nay thời tiết đẹp. Bao đi đến cửa hàng. Cậu thấy một người và hỏi: 'Chào bạn, bạn tên là gì?'. Người đó nói: 'Chào bạn, mình tên là Tiểu Minh'.",
+        "tokens": [
+          {
+            "w": "今天",
+            "pinyin": "jīn tiān"
+          },
+          {
+            "w": "天气",
+            "pinyin": "tiān qì"
+          },
+          {
+            "w": "好",
+            "pinyin": "hǎo"
+          },
+          {
+            "w": "。Bao",
+            "pinyin": ""
+          },
+          {
+            "w": "去",
+            "pinyin": "qù"
+          },
+          {
+            "w": "商店",
+            "pinyin": "shāng diàn"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "他",
+            "pinyin": "tā"
+          },
+          {
+            "w": "看见",
+            "pinyin": "kàn jiàn"
+          },
+          {
+            "w": "一",
+            "pinyin": "yī"
+          },
+          {
+            "w": "个人",
+            "pinyin": "gè rén"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "问",
+            "pinyin": "wèn"
+          },
+          {
+            "w": "：“",
+            "pinyin": ""
+          },
+          {
+            "w": "你好",
+            "pinyin": "nǐ hǎo",
+            "isNew": true
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "w": "叫",
+            "pinyin": "jiào",
+            "isNew": true
+          },
+          {
+            "w": "什么",
+            "pinyin": "shén me"
+          },
+          {
+            "w": "名字",
+            "pinyin": "míng zi"
+          },
+          {
+            "w": "？”",
+            "pinyin": ""
+          },
+          {
+            "w": "那",
+            "pinyin": "nà"
+          },
+          {
+            "w": "个人",
+            "pinyin": "gè rén"
+          },
+          {
+            "w": "说",
+            "pinyin": "shuō"
+          },
+          {
+            "w": "：“",
+            "pinyin": ""
+          },
+          {
+            "w": "你好",
+            "pinyin": "nǐ hǎo",
+            "isNew": true
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "w": "叫",
+            "pinyin": "jiào",
+            "isNew": true
+          },
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "。”",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "Bao也说：“你好，我叫Bao。”小明很高兴，也叫Bao去买奶茶。他们找一家商店，里面的东西很多。",
+        "vi": "Bao cũng nói: 'Chào bạn, mình tên là Bao'. Tiểu Minh rất vui, cũng gọi Bao đi mua trà sữa. Họ tìm một cửa hàng, đồ đạc bên trong rất nhiều.",
+        "tokens": [
+          {
+            "w": "Bao",
+            "pinyin": ""
+          },
+          {
+            "w": "也",
+            "pinyin": "yě"
+          },
+          {
+            "w": "说",
+            "pinyin": "shuō"
+          },
+          {
+            "w": "：“",
+            "pinyin": ""
+          },
+          {
+            "w": "你好",
+            "pinyin": "nǐ hǎo",
+            "isNew": true
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "w": "叫",
+            "pinyin": "jiào",
+            "isNew": true
+          },
+          {
+            "w": "Bao。”",
+            "pinyin": ""
+          },
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "高兴",
+            "pinyin": "gāo xìng"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "也",
+            "pinyin": "yě"
+          },
+          {
+            "w": "叫",
+            "pinyin": "jiào",
+            "isNew": true
+          },
+          {
+            "w": "Bao",
+            "pinyin": ""
+          },
+          {
+            "w": "去",
+            "pinyin": "qù"
+          },
+          {
+            "w": "买",
+            "pinyin": "mǎi"
+          },
+          {
+            "w": "奶茶",
+            "pinyin": "nǎi chá"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "他们",
+            "pinyin": "tā men"
+          },
+          {
+            "w": "找",
+            "pinyin": "zhǎo"
+          },
+          {
+            "w": "一家",
+            "pinyin": "yī jiā"
+          },
+          {
+            "w": "商店",
+            "pinyin": "shāng diàn"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "里面",
+            "pinyin": "lǐ miàn"
+          },
+          {
+            "w": "的",
+            "pinyin": "de"
+          },
+          {
+            "w": "东西",
+            "pinyin": "dōng xi"
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "多",
+            "pinyin": "duō"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "小明叫服务员：“你好，我要两杯奶茶，少糖。”Bao也想喝奶茶。他看了看，觉得这里的奶茶真好。",
+        "vi": "Tiểu Minh gọi nhân viên phục vụ: 'Chào bạn, cho mình hai ly trà sữa, ít đường'. Bao cũng muốn uống trà sữa. Cậu xem qua, thấy trà sữa ở đây thật tốt.",
+        "tokens": [
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "叫",
+            "pinyin": "jiào",
+            "isNew": true
+          },
+          {
+            "w": "服务员",
+            "pinyin": "fú wù yuán"
+          },
+          {
+            "w": "：“",
+            "pinyin": ""
+          },
+          {
+            "w": "你好",
+            "pinyin": "nǐ hǎo",
+            "isNew": true
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "w": "要",
+            "pinyin": "yào"
+          },
+          {
+            "w": "两",
+            "pinyin": "liǎng"
+          },
+          {
+            "w": "杯",
+            "pinyin": "bēi"
+          },
+          {
+            "w": "奶茶",
+            "pinyin": "nǎi chá"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "少糖",
+            "pinyin": "shǎo táng"
+          },
+          {
+            "w": "。”Bao",
+            "pinyin": ""
+          },
+          {
+            "w": "也",
+            "pinyin": "yě"
+          },
+          {
+            "w": "想",
+            "pinyin": "xiǎng"
+          },
+          {
+            "w": "喝",
+            "pinyin": "hè"
+          },
+          {
+            "w": "奶茶",
+            "pinyin": "nǎi chá"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "他",
+            "pinyin": "tā"
+          },
+          {
+            "w": "看",
+            "pinyin": "kàn"
+          },
+          {
+            "w": "了",
+            "pinyin": "le"
+          },
+          {
+            "w": "看",
+            "pinyin": "kàn"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "觉得",
+            "pinyin": "jué de"
+          },
+          {
+            "w": "这里",
+            "pinyin": "zhè lǐ"
+          },
+          {
+            "w": "的",
+            "pinyin": "de"
+          },
+          {
+            "w": "奶茶",
+            "pinyin": "nǎi chá"
+          },
+          {
+            "w": "真",
+            "pinyin": "zhēn"
+          },
+          {
+            "w": "好",
+            "pinyin": "hǎo"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "大家坐下，喝了一点儿茶。Bao喜欢小明。小明也觉得Bao是好朋友。他们在这里休息，很高兴。",
+        "vi": "Mọi người ngồi xuống, uống một chút trà. Bao thích Tiểu Minh. Tiểu Minh cũng thấy Bao là người bạn tốt. Họ nghỉ ngơi ở đây, rất vui vẻ.",
+        "tokens": [
+          {
+            "w": "大家",
+            "pinyin": "dà jiā"
+          },
+          {
+            "w": "坐下",
+            "pinyin": "zuò xia"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "喝",
+            "pinyin": "hè"
+          },
+          {
+            "w": "了",
+            "pinyin": "le"
+          },
+          {
+            "w": "一点儿",
+            "pinyin": "yī diǎn r"
+          },
+          {
+            "w": "茶",
+            "pinyin": "chá"
+          },
+          {
+            "w": "。Bao",
+            "pinyin": ""
+          },
+          {
+            "w": "喜欢",
+            "pinyin": "xǐ huan"
+          },
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "也",
+            "pinyin": "yě"
+          },
+          {
+            "w": "觉得",
+            "pinyin": "jué de"
+          },
+          {
+            "w": "Bao",
+            "pinyin": ""
+          },
+          {
+            "w": "是",
+            "pinyin": "shì"
+          },
+          {
+            "w": "好",
+            "pinyin": "hǎo"
+          },
+          {
+            "w": "朋友",
+            "pinyin": "péng you"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "他们",
+            "pinyin": "tā men"
+          },
+          {
+            "w": "在",
+            "pinyin": "zài"
+          },
+          {
+            "w": "这里",
+            "pinyin": "zhè lǐ"
+          },
+          {
+            "w": "休息",
+            "pinyin": "xiū xi"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "高兴",
+            "pinyin": "gāo xìng"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "scq1-1",
+        "type": "mcq",
+        "q": "Bao và Tiểu Minh mua gì?",
+        "options": [
+          "咖啡",
+          "奶茶",
+          "书"
+        ],
+        "answer": 1,
+        "explainVi": "Trong bài, Tiểu Minh gọi nhân viên phục vụ hai ly trà sữa (奶茶)."
+      },
+      {
+        "id": "scq1-2",
+        "type": "tf",
+        "q": "Bao và Tiểu Minh không biết tên nhau lúc mới gặp.",
+        "options": [
+          "对",
+          "不对"
+        ],
+        "answer": 0,
+        "explainVi": "Đúng, vì lúc đầu Bao đã hỏi tên của người kia."
+      },
+      {
+        "id": "scq1-3",
+        "type": "detail",
+        "q": "Tiểu Minh gọi trà sữa như thế nào?",
+        "options": [
+          "少糖",
+          "去冰",
+          "大杯"
+        ],
+        "answer": 0,
+        "explainVi": "Tiểu Minh yêu cầu ít đường (少糖)."
+      },
+      {
+        "id": "scq1-4",
+        "type": "mcq",
+        "q": "Hôm nay thời tiết thế nào?",
+        "options": [
+          "不好",
+          "下雨",
+          "好"
+        ],
+        "answer": 2,
+        "explainVi": "Câu đầu tiên của bài là '今天天气好' (Hôm nay thời tiết tốt)."
+      }
     ]
   }
 ]

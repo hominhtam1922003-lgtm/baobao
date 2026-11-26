@@ -1,0 +1,2608 @@
+[
+  {
+    "id": "t25-giao-tiep",
+    "stage": 4,
+    "topicId": 25,
+    "title": "Bày tỏ ý kiến & đồng ý/phản đối nhẹ nhàng",
+    "type": "giao-tiep",
+    "xp": 45,
+    "newWords": [
+      "w4-001",
+      "w4-002",
+      "w4-003",
+      "w4-004",
+      "w4-005"
+    ],
+    "patterns": [
+      {
+        "id": "p-t25-1",
+        "frame": "我觉得___，你呢？",
+        "pinyin": "wǒ jué de ， nǐ ne ？",
+        "meaningVi": "Tôi thấy ..., còn bạn thì sao?",
+        "exampleHanzi": "我觉得搬家很好，你呢？",
+        "examplePinyin": "wǒ jué de bān jiā hěn hǎo ， nǐ ne ？",
+        "exampleVi": "Tôi thấy chuyển nhà rất tốt, còn bạn thì sao?",
+        "slots": {
+          "promptVi": "Điền từ thích hợp vào chỗ trống để hoàn thành câu.",
+          "choices": [
+            {
+              "hanzi": "搬家",
+              "pinyin": "bān jiā",
+              "vi": "chuyển nhà"
+            },
+            {
+              "hanzi": "报纸",
+              "pinyin": "bào zhǐ",
+              "vi": "báo"
+            },
+            {
+              "hanzi": "河",
+              "pinyin": "hé",
+              "vi": "sông"
+            }
+          ],
+          "answerHanzi": "搬家"
+        }
+      },
+      {
+        "id": "p-t25-2",
+        "frame": "我也___。",
+        "pinyin": "wǒ yě 。",
+        "meaningVi": "Tôi cũng ...",
+        "exampleHanzi": "我也觉得。",
+        "examplePinyin": "wǒ yě jué de 。",
+        "exampleVi": "Tôi cũng thấy vậy.",
+        "slots": {
+          "promptVi": "Chọn từ đúng để điền vào câu.",
+          "choices": [
+            {
+              "hanzi": "觉得",
+              "pinyin": "jué de",
+              "vi": "cảm thấy"
+            },
+            {
+              "hanzi": "河",
+              "pinyin": "hé",
+              "vi": "sông"
+            },
+            {
+              "hanzi": "报纸",
+              "pinyin": "bào zhǐ",
+              "vi": "báo"
+            }
+          ],
+          "answerHanzi": "觉得"
+        }
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "小美",
+        "voiceRole": "female",
+        "hanzi": "我们一起去河边聊天吧？",
+        "pinyin": "wǒ men yì qǐ qù hé biān liáo tiān ba ？",
+        "vi": "Chúng ta cùng ra bờ sông trò chuyện nhé?",
+        "mode": "npc",
+        "goalLabel": "Mời gọi"
+      },
+      {
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "我觉得很好。",
+        "pinyin": "wǒ jué de hěn hǎo 。",
+        "vi": "Tôi thấy rất được.",
+        "mode": "choice",
+        "goalLabel": "Đồng ý",
+        "choices": [
+          {
+            "hanzi": "我觉得很好。",
+            "pinyin": "wǒ jué de hěn hǎo 。",
+            "vi": "Tôi thấy rất được.",
+            "correct": true
+          },
+          {
+            "hanzi": "我不去。",
+            "pinyin": "wǒ bù qù 。",
+            "vi": "Tôi không đi.",
+            "correct": false
+          },
+          {
+            "hanzi": "太贵了。",
+            "pinyin": "tài guì le 。",
+            "vi": "Đắt quá.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "speaker": "小美",
+        "voiceRole": "female",
+        "hanzi": "你常常看报纸吗？",
+        "pinyin": "nǐ cháng cháng kàn bào zhǐ ma ？",
+        "vi": "Bạn thường xem báo không?",
+        "mode": "npc",
+        "goalLabel": "Hỏi han"
+      },
+      {
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "我常常看。",
+        "pinyin": "wǒ cháng cháng kàn 。",
+        "vi": "Tôi thường xem.",
+        "mode": "tiles",
+        "goalLabel": "Trả lời",
+        "tilePrompt": [
+          "我",
+          "常常",
+          "看"
+        ]
+      },
+      {
+        "speaker": "小美",
+        "voiceRole": "female",
+        "hanzi": "明天我们去练身体，怎么样？",
+        "pinyin": "míng tiān wǒ men qù liàn shēn tǐ ， zěn me yàng ？",
+        "vi": "Ngày mai chúng ta đi tập thể lực, thế nào?",
+        "mode": "npc",
+        "goalLabel": "Rủ rê"
+      },
+      {
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "好啊。",
+        "pinyin": "hǎo a 。",
+        "vi": "Được chứ.",
+        "mode": "pinyin",
+        "goalLabel": "Đồng ý",
+        "acceptedPinyin": [
+          "haoa",
+          "hǎo a 。",
+          "好啊"
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "id": "ex-t25-1",
+        "kind": "meaning-choice",
+        "promptVi": "Từ '聊' có nghĩa là gì?",
+        "hanziPrompt": "聊",
+        "pinyinPrompt": "liáo",
+        "options": [
+          {
+            "label": "trò chuyện",
+            "value": "trò chuyện"
+          },
+          {
+            "label": "tập luyện",
+            "value": "tập luyện"
+          },
+          {
+            "label": "chuyển nhà",
+            "value": "chuyển nhà"
+          },
+          {
+            "label": "sông",
+            "value": "sông"
+          }
+        ],
+        "answer": "trò chuyện"
+      },
+      {
+        "id": "ex-t25-2",
+        "kind": "hanzi-choice",
+        "promptVi": "Nghe và chọn chữ Hán đúng (báo, tờ báo)",
+        "audioText": "报纸",
+        "options": [
+          {
+            "label": "报纸",
+            "value": "报纸"
+          },
+          {
+            "label": "河",
+            "value": "河"
+          },
+          {
+            "label": "搬",
+            "value": "搬"
+          },
+          {
+            "label": "练",
+            "value": "练"
+          }
+        ],
+        "answer": "报纸"
+      },
+      {
+        "id": "ex-t25-3",
+        "kind": "sentence-tiles",
+        "promptVi": "Chúng ta đi xem báo đi.",
+        "tiles": [
+          "我们",
+          "去",
+          "看",
+          "报纸"
+        ],
+        "answer": "我们去看报纸"
+      }
+    ],
+    "roleplay": [
+      {
+        "npcHanzi": "你觉得这家店怎么样？",
+        "npcPinyin": "nǐ jué de zhè jiā diàn zěn me yàng ？",
+        "npcVi": "Bạn thấy quán này thế nào?",
+        "promptVi": "Đưa ra ý kiến nhẹ nhàng rằng quán không tệ.",
+        "options": [
+          {
+            "hanzi": "我觉得挺好的。",
+            "pinyin": "wǒ jué de tǐng hǎo de 。",
+            "vi": "Tôi thấy khá được.",
+            "correct": true
+          },
+          {
+            "hanzi": "我不知道。",
+            "pinyin": "wǒ bù zhī dào 。",
+            "vi": "Tôi không biết.",
+            "correct": false
+          },
+          {
+            "hanzi": "我不去河边。",
+            "pinyin": "wǒ bù qù hé biān 。",
+            "vi": "Tôi không ra bờ sông.",
+            "correct": false
+          }
+        ],
+        "expectedHanzi": "我觉得挺好的。"
+      },
+      {
+        "npcHanzi": "我们去搬家吧？",
+        "npcPinyin": "wǒ men qù bān jiā ba ？",
+        "npcVi": "Chúng ta đi chuyển nhà nhé?",
+        "promptVi": "Phản đối nhẹ nhàng rằng bây giờ không được.",
+        "options": [
+          {
+            "hanzi": "现在不行。",
+            "pinyin": "xiàn zài bù xíng 。",
+            "vi": "Bây giờ không được.",
+            "correct": true
+          },
+          {
+            "hanzi": "好啊。",
+            "pinyin": "hǎo a 。",
+            "vi": "Được chứ.",
+            "correct": false
+          },
+          {
+            "hanzi": "太远了。",
+            "pinyin": "tài yuǎn le 。",
+            "vi": "Xa quá.",
+            "correct": false
+          }
+        ],
+        "expectedHanzi": "现在不行。"
+      },
+      {
+        "npcHanzi": "你常常聊天吗？",
+        "npcPinyin": "nǐ cháng cháng liáo tiān ma ？",
+        "npcVi": "Bạn thường trò chuyện không?",
+        "promptVi": "Trả lời rằng thỉnh thoảng có.",
+        "options": [
+          {
+            "hanzi": "有时候聊。",
+            "pinyin": "yǒu shí hòu liáo 。",
+            "vi": "Thỉnh thoảng có trò chuyện.",
+            "correct": true
+          },
+          {
+            "hanzi": "我不看报纸。",
+            "pinyin": "wǒ bù kàn bào zhǐ 。",
+            "vi": "Tôi không xem báo.",
+            "correct": false
+          },
+          {
+            "hanzi": "我们去练。",
+            "pinyin": "wǒ men qù liàn 。",
+            "vi": "Chúng ta đi tập.",
+            "correct": false
+          }
+        ],
+        "expectedHanzi": "有时候聊。"
+      }
+    ]
+  },
+  {
+    "id": "t25-doc",
+    "stage": 4,
+    "topicId": 25,
+    "title": "Đọc: 王老师跟小明聊天",
+    "type": "doc",
+    "xp": 40,
+    "newWords": [],
+    "readingId": "r-t25"
+  },
+  {
+    "id": "t25-nghe",
+    "stage": 4,
+    "topicId": 25,
+    "title": "Nghe: Bày tỏ ý kiến & đồng ý/phản đối nhẹ nhàng",
+    "type": "nghe",
+    "xp": 40,
+    "newWords": [
+      "w4-001",
+      "w4-002",
+      "w4-003",
+      "w4-004",
+      "w4-005"
+    ],
+    "listeningTracks": [
+      {
+        "id": "lt25-1",
+        "speaker": "小明",
+        "voiceRole": "male",
+        "hanzi": "我们一起去河边看报纸吧。",
+        "pinyin": "wǒ men yì qǐ qù hé biān kàn bào zhǐ ba 。",
+        "vi": "Chúng ta cùng ra bờ sông xem báo đi."
+      },
+      {
+        "id": "lt25-2",
+        "speaker": "小美",
+        "voiceRole": "female",
+        "hanzi": "河边不好，我们去咖啡馆聊天吧。",
+        "pinyin": "hé biān bù hǎo ， wǒ men qù kā fēi guǎn liáo tiān ba 。",
+        "vi": "Bờ sông không tốt đâu, chúng ta ra quán cà phê trò chuyện đi."
+      },
+      {
+        "id": "lt25-3",
+        "speaker": "小明",
+        "voiceRole": "male",
+        "hanzi": "好吧，王老师也常常去那里练身体。",
+        "pinyin": "hǎo ba ， wáng lǎo shī yě cháng cháng qù nà lǐ liàn shēn tǐ 。",
+        "vi": "Được thôi, thầy Vương cũng thường đến đó rèn luyện sức khỏe."
+      },
+      {
+        "id": "lt25-4",
+        "speaker": "小美",
+        "voiceRole": "female",
+        "hanzi": "那我们明天搬家以后再去吧。",
+        "pinyin": "nà wǒ men míng tiān bān jiā yǐ hòu zài qù ba 。",
+        "vi": "Vậy ngày mai sau khi chuyển nhà chúng ta hãy đi nhé."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "ng25-1",
+        "kind": "listen-meaning",
+        "promptVi": "Nghe câu sau và chọn nghĩa đúng:",
+        "audioText": "我想去河边看报纸。",
+        "options": [
+          {
+            "label": "Tôi muốn ra bờ sông xem báo.",
+            "value": "Tôi muốn ra bờ sông xem báo."
+          },
+          {
+            "label": "Tôi muốn mua một tờ báo mới.",
+            "value": "Tôi muốn mua một tờ báo mới."
+          },
+          {
+            "label": "Tôi không thích đọc báo ở đây.",
+            "value": "Tôi không thích đọc báo ở đây."
+          },
+          {
+            "label": "Tôi đang ở nhà đọc sách.",
+            "value": "Tôi đang ở nhà đọc sách."
+          }
+        ],
+        "answer": "Tôi muốn ra bờ sông xem báo."
+      },
+      {
+        "id": "ng25-2",
+        "kind": "listen-hanzi",
+        "promptVi": "Nghe và chọn chữ Hán đúng:",
+        "audioText": "报纸",
+        "options": [
+          {
+            "label": "报纸",
+            "value": "报纸"
+          },
+          {
+            "label": "河边",
+            "value": "河边"
+          },
+          {
+            "label": "聊天",
+            "value": "聊天"
+          },
+          {
+            "label": "练习",
+            "value": "练习"
+          }
+        ],
+        "answer": "报纸"
+      },
+      {
+        "id": "ng25-3",
+        "kind": "listen-tiles",
+        "promptVi": "Sắp xếp các từ nghe được thành câu hoàn chỉnh:",
+        "audioText": "我们在河边聊天",
+        "tiles": [
+          "我们",
+          "在河边",
+          "聊天"
+        ],
+        "answer": "我们在河边聊天"
+      },
+      {
+        "id": "ng25-4",
+        "kind": "listen-blank",
+        "promptVi": "Nghe đoạn audio và điền từ thích hợp vào chỗ trống: '我们一起去___'",
+        "audioText": "我们一起去练身体",
+        "options": [
+          {
+            "label": "练身体",
+            "value": "练身体"
+          },
+          {
+            "label": "看报纸",
+            "value": "看报纸"
+          },
+          {
+            "label": "搬家",
+            "value": "搬家"
+          },
+          {
+            "label": "买东西",
+            "value": "买东西"
+          }
+        ],
+        "answer": "练身体"
+      },
+      {
+        "id": "ng25-5",
+        "kind": "listen-dialogue",
+        "promptVi": "Nghe đoạn hội thoại và chọn ý phản hồi đúng:",
+        "audioText": "王老师，我们下午去河边聊天吧。",
+        "options": [
+          {
+            "label": "Được, chúng ta đi thôi.",
+            "value": "Được, chúng ta đi thôi."
+          },
+          {
+            "label": "Tôi không thích uống cà phê.",
+            "value": "Tôi không thích uống cà phê."
+          },
+          {
+            "label": "Hôm qua tôi đã mua sách rồi.",
+            "value": "Hôm qua tôi đã mua sách rồi."
+          }
+        ],
+        "answer": "Được, chúng ta đi thôi."
+      },
+      {
+        "id": "ng25-6",
+        "kind": "dictation",
+        "promptVi": "Chép chính tả rút gọn: gõ pinyin (hoặc chạm thẻ) câu vừa nghe",
+        "audioText": "我们要搬家了",
+        "tiles": [
+          "我们要",
+          "搬家了"
+        ],
+        "answer": "womenyaobanjiale"
+      }
+    ]
+  },
+  {
+    "id": "t25-viet",
+    "stage": 4,
+    "topicId": 25,
+    "title": "Viết: Bày tỏ ý kiến & đồng ý/phản đối nhẹ nhàng",
+    "type": "viet",
+    "xp": 40,
+    "newWords": [
+      "w4-001",
+      "w4-002",
+      "w4-003",
+      "w4-004",
+      "w4-005"
+    ],
+    "writingChars": [
+      {
+        "char": "报",
+        "pinyin": "bào",
+        "meaningVi": "báo, tờ báo",
+        "radical": "扌",
+        "radicalNoteVi": "Tay đưa báo tin tức cho mọi người biết.",
+        "lookalikes": [
+          {
+            "hanzi": "才",
+            "pinyin": "cái",
+            "vi": "mới, tài năng"
+          },
+          {
+            "hanzi": "打",
+            "pinyin": "dǎ",
+            "vi": "tá (đơn vị 12 cái)"
+          },
+          {
+            "hanzi": "扫",
+            "pinyin": "sǎo",
+            "vi": "quét"
+          },
+          {
+            "hanzi": "报",
+            "pinyin": "bào",
+            "vi": "báo, tờ báo"
+          }
+        ]
+      },
+      {
+        "char": "纸",
+        "pinyin": "zhǐ",
+        "meaningVi": "giấy",
+        "radical": "纟",
+        "radicalNoteVi": "Sợi tơ kết lại thành tờ giấy trắng.",
+        "lookalikes": [
+          {
+            "hanzi": "纸",
+            "pinyin": "zhǐ",
+            "vi": "giấy"
+          },
+          {
+            "hanzi": "练",
+            "pinyin": "liàn",
+            "vi": "luyện, tập luyện"
+          },
+          {
+            "hanzi": "给",
+            "pinyin": "gěi",
+            "vi": "cho, đưa cho"
+          },
+          {
+            "hanzi": "绿",
+            "pinyin": "lǜ",
+            "vi": "xanh lá, cắm sừng"
+          }
+        ]
+      },
+      {
+        "char": "河",
+        "pinyin": "hé",
+        "meaningVi": "sông",
+        "radical": "氵",
+        "radicalNoteVi": "Dòng nước uốn lượn tạo thành con sông.",
+        "lookalikes": [
+          {
+            "hanzi": "海",
+            "pinyin": "hǎi",
+            "vi": "biển, họ Hải"
+          },
+          {
+            "hanzi": "河",
+            "pinyin": "hé",
+            "vi": "sông"
+          },
+          {
+            "hanzi": "没",
+            "pinyin": "méi",
+            "vi": "không, chưa"
+          },
+          {
+            "hanzi": "洗",
+            "pinyin": "xǐ",
+            "vi": "giặt, rửa"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "t26-giao-tiep",
+    "stage": 4,
+    "topicId": 26,
+    "title": "Dự định & ước mơ tương lai",
+    "type": "giao-tiep",
+    "xp": 45,
+    "newWords": [
+      "w4-006",
+      "w4-007",
+      "w4-008",
+      "w4-009",
+      "w4-010"
+    ],
+    "patterns": [
+      {
+        "id": "p-t26-1",
+        "frame": "大人___体育。",
+        "pinyin": "dà rén tǐ yù 。",
+        "meaningVi": "Người lớn yêu thích thể thao.",
+        "exampleHanzi": "大人喜欢体育。",
+        "examplePinyin": "dà rén xǐ huān tǐ yù 。",
+        "exampleVi": "Người lớn thích thể thao.",
+        "slots": {
+          "promptVi": "Chọn từ đúng điền vào chỗ trống:",
+          "choices": [
+            {
+              "hanzi": "喜欢",
+              "pinyin": "xǐ huān",
+              "vi": "thích"
+            },
+            {
+              "hanzi": "买",
+              "pinyin": "mǎi",
+              "vi": "mua"
+            },
+            {
+              "hanzi": "去",
+              "pinyin": "qù",
+              "vi": "đi"
+            }
+          ],
+          "answerHanzi": "喜欢"
+        }
+      },
+      {
+        "id": "p-t26-2",
+        "frame": "老人___胖。",
+        "pinyin": "lǎo rén pàng 。",
+        "meaningVi": "Người cao tuổi không mập.",
+        "exampleHanzi": "老人不胖。",
+        "examplePinyin": "lǎo rén bù pàng 。",
+        "exampleVi": "Người già không béo.",
+        "slots": {
+          "promptVi": "Chọn từ đúng điền vào chỗ trống:",
+          "choices": [
+            {
+              "hanzi": "不",
+              "pinyin": "bù",
+              "vi": "không"
+            },
+            {
+              "hanzi": "去",
+              "pinyin": "qù",
+              "vi": "đi"
+            },
+            {
+              "hanzi": "买",
+              "pinyin": "mǎi",
+              "vi": "mua"
+            }
+          ],
+          "answerHanzi": "不"
+        }
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "小美",
+        "voiceRole": "female",
+        "hanzi": "你喜欢体育吗？",
+        "pinyin": "nǐ xǐ huān tǐ yù ma ？",
+        "vi": "Bạn thích thể thao không?",
+        "mode": "npc"
+      },
+      {
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "我喜欢体育。",
+        "pinyin": "wǒ xǐ huān tǐ yù 。",
+        "vi": "Tôi thích thể thao.",
+        "mode": "choice",
+        "goalLabel": "Nói thích thể thao",
+        "choices": [
+          {
+            "hanzi": "我喜欢体育。",
+            "pinyin": "wǒ xǐ huān tǐ yù 。",
+            "vi": "Tôi thích thể thao.",
+            "correct": true
+          },
+          {
+            "hanzi": "我喜欢买。",
+            "pinyin": "wǒ xǐ huān mǎi 。",
+            "vi": "Tôi thích mua.",
+            "correct": false
+          },
+          {
+            "hanzi": "我不去。",
+            "pinyin": "wǒ bù qù 。",
+            "vi": "Tôi không đi.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "speaker": "王老师",
+        "voiceRole": "formal",
+        "hanzi": "老人胖不胖？",
+        "pinyin": "lǎo rén pàng bù pàng ？",
+        "vi": "Người già có mập không?",
+        "mode": "npc"
+      },
+      {
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "老人不胖。",
+        "pinyin": "lǎo rén bù pàng 。",
+        "vi": "Người già không béo.",
+        "mode": "tiles",
+        "goalLabel": "Nói không béo",
+        "tilePrompt": [
+          "老人",
+          "不",
+          "胖"
+        ]
+      },
+      {
+        "speaker": "小明",
+        "voiceRole": "male",
+        "hanzi": "多少钱？",
+        "pinyin": "duō shǎo qián ？",
+        "vi": "Bao nhiêu tiền?",
+        "mode": "npc"
+      },
+      {
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "一角。",
+        "pinyin": "yī jiǎo 。",
+        "vi": "Một hào.",
+        "mode": "pinyin",
+        "goalLabel": "Nói một hào",
+        "acceptedPinyin": [
+          "yijiao",
+          "yī jiǎo 。",
+          "一角"
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "id": "ex-t26-1",
+        "kind": "meaning-choice",
+        "promptVi": "Từ '体育' có nghĩa là gì?",
+        "hanziPrompt": "体育",
+        "pinyinPrompt": "tǐ yù",
+        "options": [
+          {
+            "label": "thể thao",
+            "value": "thể thao"
+          },
+          {
+            "label": "người lớn",
+            "value": "người lớn"
+          },
+          {
+            "label": "người già",
+            "value": "người già"
+          },
+          {
+            "label": "béo",
+            "value": "béo"
+          }
+        ],
+        "answer": "thể thao"
+      },
+      {
+        "id": "ex-t26-2",
+        "kind": "hanzi-choice",
+        "promptVi": "Nghe và chọn chữ Hán đúng (người lớn, người trưởng thành)",
+        "audioText": "大人",
+        "options": [
+          {
+            "label": "大人",
+            "value": "大人"
+          },
+          {
+            "label": "老人",
+            "value": "老人"
+          },
+          {
+            "label": "体育",
+            "value": "体育"
+          },
+          {
+            "label": "角",
+            "value": "角"
+          }
+        ],
+        "answer": "大人"
+      },
+      {
+        "id": "ex-t26-3",
+        "kind": "sentence-tiles",
+        "promptVi": "Sắp xếp thành câu hoàn chỉnh: Người già không mập.",
+        "tiles": [
+          "老人",
+          "不",
+          "胖"
+        ],
+        "answer": "老人不胖"
+      }
+    ],
+    "roleplay": [
+      {
+        "npcHanzi": "你喜欢什么？",
+        "npcPinyin": "nǐ xǐ huān shén me ？",
+        "npcVi": "Bạn thích cái gì?",
+        "promptVi": "Nói rằng bạn thích thể thao:",
+        "options": [
+          {
+            "hanzi": "我喜欢体育。",
+            "pinyin": "wǒ xǐ huān tǐ yù 。",
+            "vi": "Tôi thích thể thao.",
+            "correct": true
+          },
+          {
+            "hanzi": "我喜欢买。",
+            "pinyin": "wǒ xǐ huān mǎi 。",
+            "vi": "Tôi thích mua.",
+            "correct": false
+          },
+          {
+            "hanzi": "我不去。",
+            "pinyin": "wǒ bù qù 。",
+            "vi": "Tôi không đi.",
+            "correct": false
+          }
+        ],
+        "expectedHanzi": "我喜欢体育。"
+      },
+      {
+        "npcHanzi": "老人胖吗？",
+        "npcPinyin": "lǎo rén pàng ma ？",
+        "npcVi": "Người già béo không?",
+        "promptVi": "Nói rằng người già không béo:",
+        "options": [
+          {
+            "hanzi": "老人不胖。",
+            "pinyin": "lǎo rén bù pàng 。",
+            "vi": "Người già không béo.",
+            "correct": true
+          },
+          {
+            "hanzi": "老人很胖。",
+            "pinyin": "lǎo rén hěn pàng 。",
+            "vi": "Người già rất béo.",
+            "correct": false
+          },
+          {
+            "hanzi": "大人不胖。",
+            "pinyin": "dà rén bù pàng 。",
+            "vi": "Người lớn không béo.",
+            "correct": false
+          }
+        ],
+        "expectedHanzi": "老人不胖。"
+      },
+      {
+        "npcHanzi": "这是多少钱？",
+        "npcPinyin": "zhè shì duō shǎo qián ？",
+        "npcVi": "Đây là bao nhiêu tiền?",
+        "promptVi": "Nói là một hào:",
+        "options": [
+          {
+            "hanzi": "一角。",
+            "pinyin": "yī jiǎo 。",
+            "vi": "Một hào.",
+            "correct": true
+          },
+          {
+            "hanzi": "一块。",
+            "pinyin": "yī kuài 。",
+            "vi": "Một đồng.",
+            "correct": false
+          },
+          {
+            "hanzi": "一人。",
+            "pinyin": "yī rén 。",
+            "vi": "Một người.",
+            "correct": false
+          }
+        ],
+        "expectedHanzi": "一角。"
+      }
+    ]
+  },
+  {
+    "id": "t26-doc",
+    "stage": 4,
+    "topicId": 26,
+    "title": "Đọc: 以后的事情",
+    "type": "doc",
+    "xp": 40,
+    "newWords": [],
+    "readingId": "r-t26"
+  },
+  {
+    "id": "t26-nghe",
+    "stage": 4,
+    "topicId": 26,
+    "title": "Nghe: Dự định & ước mơ tương lai",
+    "type": "nghe",
+    "xp": 40,
+    "newWords": [
+      "w4-006",
+      "w4-007",
+      "w4-008",
+      "w4-009",
+      "w4-010"
+    ],
+    "listeningTracks": [
+      {
+        "id": "lt26-1",
+        "speaker": "小明",
+        "voiceRole": "male",
+        "hanzi": "我觉得以后老人会越来越多。",
+        "pinyin": "wǒ jué de yǐ hòu lǎo rén huì yuè lái yuè duō 。",
+        "vi": "Tôi nghĩ sau này người già sẽ ngày càng nhiều hơn."
+      },
+      {
+        "id": "lt26-2",
+        "speaker": "小美",
+        "voiceRole": "female",
+        "hanzi": "大人和老人都要多运动。",
+        "pinyin": "dà rén hé lǎo rén dōu yào duō yùn dòng 。",
+        "vi": "Người lớn và người già đều phải vận động nhiều."
+      },
+      {
+        "id": "lt26-3",
+        "speaker": "王老师",
+        "voiceRole": "formal",
+        "hanzi": "体育对健康非常重要。",
+        "pinyin": "tǐ yù duì jiàn kāng fēi cháng zhòng yào 。",
+        "vi": "Thể dục rất quan trọng đối với sức khỏe."
+      },
+      {
+        "id": "lt26-4",
+        "speaker": "小明",
+        "voiceRole": "male",
+        "hanzi": "那个胖子喜欢在角上跑步。",
+        "pinyin": "nà ge pàng zi xǐ huān zài jiǎo shàng pǎo bù 。",
+        "vi": "Người béo đó thích chạy bộ ở góc."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "ng26-1",
+        "kind": "listen-meaning",
+        "promptVi": "Nghe và chọn nghĩa đúng của câu:",
+        "audioText": "体育非常重要。",
+        "options": [
+          {
+            "label": "Thể dục rất quan trọng.",
+            "value": "Thể dục rất quan trọng."
+          },
+          {
+            "label": "Người lớn rất khỏe.",
+            "value": "Người lớn rất khỏe."
+          },
+          {
+            "label": "Người già thích chạy bộ.",
+            "value": "Người già thích chạy bộ."
+          },
+          {
+            "label": "Góc đó rất đẹp.",
+            "value": "Góc đó rất đẹp."
+          }
+        ],
+        "answer": "Thể dục rất quan trọng."
+      },
+      {
+        "id": "ng26-2",
+        "kind": "listen-hanzi",
+        "promptVi": "Nghe và chọn chữ Hán đúng:",
+        "audioText": "老人",
+        "options": [
+          {
+            "label": "老人",
+            "value": "老人"
+          },
+          {
+            "label": "大人",
+            "value": "大人"
+          },
+          {
+            "label": "胖子",
+            "value": "胖子"
+          },
+          {
+            "label": "体育",
+            "value": "体育"
+          }
+        ],
+        "answer": "老人"
+      },
+      {
+        "id": "ng26-3",
+        "kind": "listen-tiles",
+        "promptVi": "Sắp xếp các từ thành câu đúng:",
+        "audioText": "大人要多运动",
+        "tiles": [
+          "大人",
+          "要",
+          "多运动"
+        ],
+        "answer": "大人要多运动"
+      },
+      {
+        "id": "ng26-4",
+        "kind": "listen-blank",
+        "promptVi": "Điền từ còn thiếu vào chỗ trống: '体育对___很重要。'",
+        "audioText": "体育对健康很重要。",
+        "options": [
+          {
+            "label": "健康",
+            "value": "健康"
+          },
+          {
+            "label": "角",
+            "value": "角"
+          },
+          {
+            "label": "胖",
+            "value": "胖"
+          },
+          {
+            "label": "大人",
+            "value": "大人"
+          }
+        ],
+        "answer": "健康"
+      },
+      {
+        "id": "ng26-5",
+        "kind": "listen-dialogue",
+        "promptVi": "Nghe đoạn hội thoại và chọn ý đúng:",
+        "audioText": "那个胖子喜欢体育运动。",
+        "options": [
+          {
+            "label": "Người béo đó thích thể thao.",
+            "value": "Người béo đó thích thể thao."
+          },
+          {
+            "label": "Người già không thích chạy bộ.",
+            "value": "Người già không thích chạy bộ."
+          },
+          {
+            "label": "Người lớn không thích thể dục.",
+            "value": "Người lớn không thích thể dục."
+          }
+        ],
+        "answer": "Người béo đó thích thể thao."
+      },
+      {
+        "id": "ng26-6",
+        "kind": "dictation",
+        "promptVi": "Chép chính tả rút gọn: gõ pinyin (hoặc chạm thẻ) câu vừa nghe",
+        "audioText": "体育对健康很重要",
+        "tiles": [
+          "体育对",
+          "健康",
+          "很重要"
+        ],
+        "answer": "tiyuduijiankanghenzhongyao"
+      }
+    ]
+  },
+  {
+    "id": "t26-viet",
+    "stage": 4,
+    "topicId": 26,
+    "title": "Viết: Dự định & ước mơ tương lai",
+    "type": "viet",
+    "xp": 40,
+    "newWords": [
+      "w4-006",
+      "w4-007",
+      "w4-008",
+      "w4-009",
+      "w4-010"
+    ],
+    "writingChars": [
+      {
+        "char": "大",
+        "pinyin": "dà",
+        "meaningVi": "to, lớn",
+        "radical": "大",
+        "radicalNoteVi": "Người dang rộng tay chân thành hình chữ Đại.",
+        "lookalikes": [
+          {
+            "hanzi": "太",
+            "pinyin": "tài",
+            "vi": "quá, lắm"
+          },
+          {
+            "hanzi": "大",
+            "pinyin": "dà",
+            "vi": "to, lớn"
+          },
+          {
+            "hanzi": "买",
+            "pinyin": "mǎi",
+            "vi": "mua"
+          },
+          {
+            "hanzi": "天",
+            "pinyin": "tiān",
+            "vi": "ngày, trời"
+          }
+        ]
+      },
+      {
+        "char": "人",
+        "pinyin": "rén",
+        "meaningVi": "người",
+        "radical": "人",
+        "radicalNoteVi": "Người đi vững vàng trên hai chân.",
+        "lookalikes": [
+          {
+            "hanzi": "会",
+            "pinyin": "huì",
+            "vi": "biết, sẽ"
+          },
+          {
+            "hanzi": "伞",
+            "pinyin": "sǎn",
+            "vi": "cái ô, cái dù"
+          },
+          {
+            "hanzi": "人",
+            "pinyin": "rén",
+            "vi": "người"
+          },
+          {
+            "hanzi": "从",
+            "pinyin": "cóng",
+            "vi": "từ, theo"
+          }
+        ]
+      },
+      {
+        "char": "角",
+        "pinyin": "jiǎo",
+        "meaningVi": "góc, sừng, hào (tiền)",
+        "radical": "角",
+        "radicalNoteVi": "Chiếc sừng nhọn mọc ra tạo thành một góc.",
+        "lookalikes": [
+          {
+            "hanzi": "觚",
+            "pinyin": "gū",
+            "vi": "jug, goblet"
+          },
+          {
+            "hanzi": "觜",
+            "pinyin": "zī",
+            "vi": "beak"
+          },
+          {
+            "hanzi": "角",
+            "pinyin": "jiǎo",
+            "vi": "góc, sừng, hào (tiền)"
+          },
+          {
+            "hanzi": "觖",
+            "pinyin": "jué",
+            "vi": "to long for"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "t27-giao-tiep",
+    "stage": 4,
+    "topicId": 27,
+    "title": "Công nghệ & AI trong đời sống",
+    "type": "giao-tiep",
+    "xp": 45,
+    "newWords": [
+      "w4-241",
+      "w4-011",
+      "w4-012",
+      "w4-013",
+      "w4-014"
+    ],
+    "patterns": [
+      {
+        "id": "p-t27-1",
+        "frame": "人工智能___",
+        "pinyin": "rén gōng zhì néng",
+        "meaningVi": "Trí tuệ nhân tạo...",
+        "exampleHanzi": "人工智能太快了",
+        "examplePinyin": "rén gōng zhì néng tài kuài le",
+        "exampleVi": "Trí tuệ nhân tạo nhanh quá.",
+        "slots": {
+          "promptVi": "Chọn từ thích hợp điền vào chỗ trống.",
+          "choices": [
+            {
+              "hanzi": "太快了",
+              "pinyin": "tài kuài le",
+              "vi": "nhanh quá"
+            },
+            {
+              "hanzi": "桌子",
+              "pinyin": "zhuō zi",
+              "vi": "cái bàn"
+            },
+            {
+              "hanzi": "苹果",
+              "pinyin": "píng guǒ",
+              "vi": "quả táo"
+            }
+          ],
+          "answerHanzi": "太快了"
+        }
+      },
+      {
+        "id": "p-t27-2",
+        "frame": "请放心___",
+        "pinyin": "qǐng fàng xīn",
+        "meaningVi": "Hãy yên tâm...",
+        "exampleHanzi": "请放心吧",
+        "examplePinyin": "qǐng fàng xīn ba",
+        "exampleVi": "Hãy yên tâm đi.",
+        "slots": {
+          "promptVi": "Chọn từ thích hợp điền vào chỗ trống.",
+          "choices": [
+            {
+              "hanzi": "吧",
+              "pinyin": "ba",
+              "vi": "nhé/đi"
+            },
+            {
+              "hanzi": "书",
+              "pinyin": "shū",
+              "vi": "sách"
+            },
+            {
+              "hanzi": "猫",
+              "pinyin": "māo",
+              "vi": "mèo"
+            }
+          ],
+          "answerHanzi": "吧"
+        }
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "小明",
+        "voiceRole": "male",
+        "hanzi": "人工智能真好。",
+        "pinyin": "rén gōng zhì néng zhēn hǎo 。",
+        "vi": "Trí tuệ nhân tạo thật tốt.",
+        "mode": "npc",
+        "goalLabel": "Nói về AI"
+      },
+      {
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "请放心，人工智能很干净。",
+        "pinyin": "qǐng fàng xīn ， rén gōng zhì néng hěn gān jìng 。",
+        "vi": "Hãy yên tâm, trí tuệ nhân tạo rất sạch sẽ.",
+        "mode": "choice",
+        "goalLabel": "Yên tâm",
+        "choices": [
+          {
+            "hanzi": "请放心，人工智能很干净。",
+            "pinyin": "qǐng fàng xīn ， rén gōng zhì néng hěn gān jìng 。",
+            "vi": "Hãy yên tâm, trí tuệ nhân tạo rất sạch sẽ.",
+            "correct": true
+          },
+          {
+            "hanzi": "请放心，人工智能不见了。",
+            "pinyin": "qǐng fàng xīn ， rén gōng zhì néng bú jiàn le 。",
+            "vi": "Hãy yên tâm, trí tuệ nhân tạo biến mất rồi.",
+            "correct": false
+          },
+          {
+            "hanzi": "请放心，人工智能太贵了。",
+            "pinyin": "qǐng fàng xīn ， rén gōng zhì néng tài guì le 。",
+            "vi": "Hãy yên tâm, trí tuệ nhân tạo đắt quá.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "speaker": "小明",
+        "voiceRole": "male",
+        "hanzi": "书不见了。",
+        "pinyin": "shū bú jiàn le 。",
+        "vi": "Sách không thấy đâu nữa.",
+        "mode": "npc",
+        "goalLabel": "Tìm sách"
+      },
+      {
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "在这一页。",
+        "pinyin": "zài zhè yī yè 。",
+        "vi": "Ở trang này.",
+        "mode": "tiles",
+        "goalLabel": "Chỉ trang",
+        "tilePrompt": [
+          "在",
+          "这",
+          "一",
+          "页"
+        ]
+      },
+      {
+        "speaker": "小明",
+        "voiceRole": "male",
+        "hanzi": "太好了。",
+        "pinyin": "tài hǎo le 。",
+        "vi": "Tốt quá.",
+        "mode": "npc",
+        "goalLabel": "Khen ngợi"
+      },
+      {
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "不用客气。",
+        "pinyin": "bù yòng kè qì 。",
+        "vi": "Không cần khách khí.",
+        "mode": "pinyin",
+        "goalLabel": "Đáp lời",
+        "acceptedPinyin": [
+          "buyongkeqi",
+          "bù yòng kè qì 。",
+          "不用客气"
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "id": "ex-t27-1",
+        "kind": "meaning-choice",
+        "promptVi": "Từ '人工智能' có nghĩa là gì?",
+        "hanziPrompt": "人工智能",
+        "pinyinPrompt": "rén gōng zhì néng",
+        "options": [
+          {
+            "label": "Trí tuệ nhân tạo (AI)",
+            "value": "Trí tuệ nhân tạo (AI)"
+          },
+          {
+            "label": "Điện thoại",
+            "value": "Điện thoại"
+          },
+          {
+            "label": "Máy tính",
+            "value": "Máy tính"
+          },
+          {
+            "label": "Internet",
+            "value": "Internet"
+          }
+        ],
+        "answer": "Trí tuệ nhân tạo (AI)"
+      },
+      {
+        "id": "ex-t27-2",
+        "kind": "hanzi-choice",
+        "promptVi": "Nghe và chọn chữ Hán đúng (trí tuệ nhân tạo (AI))",
+        "audioText": "人工智能",
+        "options": [
+          {
+            "label": "人工智能",
+            "value": "人工智能"
+          },
+          {
+            "label": "不见了",
+            "value": "不见了"
+          },
+          {
+            "label": "很干净",
+            "value": "很干净"
+          },
+          {
+            "label": "请放心",
+            "value": "请放心"
+          }
+        ],
+        "answer": "人工智能"
+      },
+      {
+        "id": "ex-t27-3",
+        "kind": "sentence-tiles",
+        "promptVi": "Ghép các từ thành câu hoàn chỉnh: Sách ở trang này.",
+        "tiles": [
+          "书",
+          "在",
+          "这",
+          "页"
+        ],
+        "answer": "书在这页"
+      }
+    ],
+    "roleplay": [
+      {
+        "npcHanzi": "人工智能怎么样？",
+        "npcPinyin": "rén gōng zhì néng zěn me yàng ？",
+        "npcVi": "Trí tuệ nhân tạo thế nào?",
+        "promptVi": "Trả lời rằng trí tuệ nhân tạo rất tốt.",
+        "options": [
+          {
+            "hanzi": "人工智能很好。",
+            "pinyin": "rén gōng zhì néng hěn hǎo 。",
+            "vi": "Trí tuệ nhân tạo rất tốt.",
+            "correct": true
+          },
+          {
+            "hanzi": "人工智能不见了。",
+            "pinyin": "rén gōng zhì néng bú jiàn le 。",
+            "vi": "Trí tuệ nhân tạo biến mất rồi.",
+            "correct": false
+          },
+          {
+            "hanzi": "人工智能很 干净。",
+            "pinyin": "rén gōng zhì néng hěn   gān jìng 。",
+            "vi": "Trí tuệ nhân tạo rất sạch sẽ.",
+            "correct": false
+          }
+        ],
+        "expectedHanzi": "人工智能很好。"
+      },
+      {
+        "npcHanzi": "书在哪里？",
+        "npcPinyin": "shū zài nǎ lǐ ？",
+        "npcVi": "Sách ở đâu?",
+        "promptVi": "Nói rằng sách ở trang này.",
+        "options": [
+          {
+            "hanzi": "书在这页。",
+            "pinyin": "shū zài zhè yè 。",
+            "vi": "Sách ở trang này.",
+            "correct": true
+          },
+          {
+            "hanzi": "书不见了。",
+            "pinyin": "shū bú jiàn le 。",
+            "vi": "Sách không thấy đâu.",
+            "correct": false
+          },
+          {
+            "hanzi": "书很干净。",
+            "pinyin": "shū hěn gān jìng 。",
+            "vi": "Sách rất sạch sẽ.",
+            "correct": false
+          }
+        ],
+        "expectedHanzi": "书在这页。"
+      },
+      {
+        "npcHanzi": "能放心吗？",
+        "npcPinyin": "néng fàng xīn ma ？",
+        "npcVi": "Có thể yên tâm không?",
+        "promptVi": "Nói rằng hãy yên tâm.",
+        "options": [
+          {
+            "hanzi": "请放心。",
+            "pinyin": "qǐng fàng xīn 。",
+            "vi": "Hãy yên tâm.",
+            "correct": true
+          },
+          {
+            "hanzi": "不见了。",
+            "pinyin": "bú jiàn le 。",
+            "vi": "Mất rồi.",
+            "correct": false
+          },
+          {
+            "hanzi": "很干净。",
+            "pinyin": "hěn gān jìng 。",
+            "vi": "Rất sạch sẽ.",
+            "correct": false
+          }
+        ],
+        "expectedHanzi": "请放心。"
+      }
+    ]
+  },
+  {
+    "id": "t27-doc",
+    "stage": 4,
+    "topicId": 27,
+    "title": "Đọc: 人工智能在生活中的作用",
+    "type": "doc",
+    "xp": 40,
+    "newWords": [],
+    "readingId": "r-t27"
+  },
+  {
+    "id": "t27-nghe",
+    "stage": 4,
+    "topicId": 27,
+    "title": "Nghe: Công nghệ & AI trong đời sống",
+    "type": "nghe",
+    "xp": 40,
+    "newWords": [
+      "w4-241",
+      "w4-011",
+      "w4-012",
+      "w4-013",
+      "w4-014"
+    ],
+    "listeningTracks": [
+      {
+        "id": "lt27-1",
+        "speaker": "小明",
+        "voiceRole": "male",
+        "hanzi": "人工智能对我们的生活有什么影响？",
+        "pinyin": "rén gōng zhì néng duì wǒ men de shēng huó yǒu shén me yǐng xiǎng ？",
+        "vi": "Trí tuệ nhân tạo có ảnh hưởng gì đối với cuộc sống của chúng ta?"
+      },
+      {
+        "id": "lt27-2",
+        "speaker": "小美",
+        "voiceRole": "female",
+        "hanzi": "我觉得这本书的第二页很有意思。",
+        "pinyin": "wǒ jué de zhè běn shū de dì èr yè hěn yǒu yì si 。",
+        "vi": "Tôi thấy trang thứ hai của cuốn sách này rất thú vị."
+      },
+      {
+        "id": "lt27-3",
+        "speaker": "王老师",
+        "voiceRole": "formal",
+        "hanzi": "你的电脑和手机都不见了。",
+        "pinyin": "nǐ de diàn nǎo hé shǒu jī dōu bú jiàn le 。",
+        "vi": "Máy tính và điện thoại của bạn đều không thấy đâu nữa."
+      },
+      {
+        "id": "lt27-4",
+        "speaker": "小明",
+        "voiceRole": "male",
+        "hanzi": "房间很干净，请你放心。",
+        "pinyin": "fáng jiān hěn gān jìng ， qǐng nǐ fàng xīn 。",
+        "vi": "Phòng rất sạch sẽ, xin bạn cứ yên tâm."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "ng27-1",
+        "kind": "listen-meaning",
+        "promptVi": "Nghe câu sau và chọn nghĩa đúng:",
+        "audioText": "人工智能很方便。",
+        "options": [
+          {
+            "label": "Trí tuệ nhân tạo rất tiện lợi.",
+            "value": "Trí tuệ nhân tạo rất tiện lợi."
+          },
+          {
+            "label": "Điện thoại này rất mới.",
+            "value": "Điện thoại này rất mới."
+          },
+          {
+            "label": "Máy tính không thể dùng.",
+            "value": "Máy tính không thể dùng."
+          },
+          {
+            "label": "Cuốn sách này rất đắt.",
+            "value": "Cuốn sách này rất đắt."
+          }
+        ],
+        "answer": "Trí tuệ nhân tạo rất tiện lợi."
+      },
+      {
+        "id": "ng27-2",
+        "kind": "listen-hanzi",
+        "promptVi": "Nghe và chọn đúng chữ Hán:",
+        "audioText": "放心",
+        "options": [
+          {
+            "label": "放心",
+            "value": "放心"
+          },
+          {
+            "label": "不见",
+            "value": "不见"
+          },
+          {
+            "label": "干净",
+            "value": "干净"
+          },
+          {
+            "label": "页",
+            "value": "页"
+          }
+        ],
+        "answer": "放心"
+      },
+      {
+        "id": "ng27-3",
+        "kind": "listen-tiles",
+        "promptVi": "Sắp xếp các từ nghe được thành câu hoàn chỉnh:",
+        "audioText": "房间非常干净",
+        "tiles": [
+          "房间",
+          "非常",
+          "干净"
+        ],
+        "answer": "房间非常干净"
+      },
+      {
+        "id": "ng27-4",
+        "kind": "listen-blank",
+        "promptVi": "Nghe audio và điền từ thích hợp vào chỗ trống: 小明的高原电脑___了。",
+        "audioText": "小明的电脑不见了。",
+        "options": [
+          {
+            "label": "不见",
+            "value": "不见"
+          },
+          {
+            "label": "干净",
+            "value": "干净"
+          },
+          {
+            "label": "放心",
+            "value": "放心"
+          },
+          {
+            "label": "人工智能",
+            "value": "人工智能"
+          }
+        ],
+        "answer": "不见"
+      },
+      {
+        "id": "ng27-5",
+        "kind": "listen-dialogue",
+        "promptVi": "Nghe đoạn hội thoại ngắn và chọn câu trả lời đúng:",
+        "audioText": "请放心，房间已经很干净了。",
+        "options": [
+          {
+            "label": "Phòng đã sạch sẽ, hãy yên tâm.",
+            "value": "Phòng đã sạch sẽ, hãy yên tâm."
+          },
+          {
+            "label": "Phòng chưa được dọn dẹp.",
+            "value": "Phòng chưa được dọn dẹp."
+          },
+          {
+            "label": "Cần mua một cái máy tính mới.",
+            "value": "Cần mua một cái máy tính mới."
+          }
+        ],
+        "answer": "Phòng đã sạch sẽ, hãy yên tâm."
+      },
+      {
+        "id": "ng27-6",
+        "kind": "dictation",
+        "promptVi": "Chép chính tả rút gọn: gõ pinyin (hoặc chạm thẻ) câu vừa nghe",
+        "audioText": "人工智能真方便",
+        "tiles": [
+          "人工智能",
+          "真方便"
+        ],
+        "answer": "rengongzhinengzhenfangbian"
+      }
+    ]
+  },
+  {
+    "id": "t27-viet",
+    "stage": 4,
+    "topicId": 27,
+    "title": "Viết: Công nghệ & AI trong đời sống",
+    "type": "viet",
+    "xp": 40,
+    "newWords": [
+      "w4-241",
+      "w4-011",
+      "w4-012",
+      "w4-013",
+      "w4-014"
+    ],
+    "writingChars": [
+      {
+        "char": "工",
+        "pinyin": "gōng",
+        "meaningVi": "trí tuệ nhân tạo (AI)",
+        "radical": "工",
+        "radicalNoteVi": "Công cụ lao động cho công việc hàng ngày.",
+        "lookalikes": [
+          {
+            "hanzi": "左",
+            "pinyin": "Zuǒ",
+            "vi": "bên trái, phía trái, họ Tả"
+          },
+          {
+            "hanzi": "差",
+            "pinyin": "chà",
+            "vi": "kém, lệch, khác biệt"
+          },
+          {
+            "hanzi": "巧",
+            "pinyin": "qiǎo",
+            "vi": "skillful, ingenious, clever"
+          },
+          {
+            "hanzi": "工",
+            "pinyin": "gōng",
+            "vi": "trí tuệ nhân tạo (AI)"
+          }
+        ]
+      },
+      {
+        "char": "智",
+        "pinyin": "zhì",
+        "meaningVi": "trí tuệ nhân tạo (AI)",
+        "radical": "日",
+        "radicalNoteVi": "Mặt trời soi sáng trí tuệ của tri thức.",
+        "lookalikes": [
+          {
+            "hanzi": "旧",
+            "pinyin": "jiù",
+            "vi": "cũ, xưa"
+          },
+          {
+            "hanzi": "早",
+            "pinyin": "zǎo",
+            "vi": "sớm, buổi sáng"
+          },
+          {
+            "hanzi": "智",
+            "pinyin": "zhì",
+            "vi": "trí tuệ nhân tạo (AI)"
+          },
+          {
+            "hanzi": "日",
+            "pinyin": "rì",
+            "vi": "Nhật, ngày, mặt trời"
+          }
+        ]
+      },
+      {
+        "char": "能",
+        "pinyin": "néng",
+        "meaningVi": "có thể",
+        "radical": "⺼",
+        "radicalNoteVi": "Thịt đầy sức mạnh giúp con người làm được việc.",
+        "lookalikes": [
+          {
+            "hanzi": "胖",
+            "pinyin": "pàng",
+            "vi": "béo, mập"
+          },
+          {
+            "hanzi": "脏",
+            "pinyin": "zàng",
+            "vi": "bẩn, dơ"
+          },
+          {
+            "hanzi": "脚",
+            "pinyin": "jiǎo",
+            "vi": "chân"
+          },
+          {
+            "hanzi": "能",
+            "pinyin": "néng",
+            "vi": "có thể"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "t28-giao-tiep",
+    "stage": 4,
+    "topicId": 28,
+    "title": "Tình huống khó: nhờ giúp đỡ, khẩn cấp & xin lỗi",
+    "type": "giao-tiep",
+    "xp": 45,
+    "newWords": [
+      "w4-242",
+      "w4-243",
+      "w4-015",
+      "w4-016",
+      "w4-017"
+    ],
+    "patterns": [
+      {
+        "id": "p-t28-1",
+        "frame": "请你___，我不是故意的。",
+        "pinyin": "qǐng nǐ ， wǒ bú shì gù yì de 。",
+        "meaningVi": "Xin bạn tha thứ cho tôi, tôi không cố ý.",
+        "exampleHanzi": "请你原谅我，我不是故意的。",
+        "examplePinyin": "qǐng nǐ yuán liàng wǒ ， wǒ bú shì gù yì de 。",
+        "exampleVi": "Xin bạn tha thứ cho tôi, tôi không cố ý.",
+        "slots": {
+          "promptVi": "Chọn từ điền vào chỗ trống: Xin bạn tha thứ...",
+          "choices": [
+            {
+              "hanzi": "原谅",
+              "pinyin": "yuán liàng",
+              "vi": "tha thứ"
+            },
+            {
+              "hanzi": "感谢",
+              "pinyin": "gǎn xiè",
+              "vi": "cảm ơn"
+            },
+            {
+              "hanzi": "安静",
+              "pinyin": "ān jìng",
+              "vi": "yên tĩnh"
+            }
+          ],
+          "answerHanzi": "原谅"
+        }
+      },
+      {
+        "id": "p-t28-2",
+        "frame": "这里很___，请不要说话。",
+        "pinyin": "zhè lǐ hěn ， qǐng bú yào shuō huà 。",
+        "meaningVi": "Ở đây rất yên tĩnh, xin đừng nói chuyện.",
+        "exampleHanzi": "这里很安静，请不要说话。",
+        "examplePinyin": "zhè lǐ hěn ān jìng ， qǐng bú yào shuō huà 。",
+        "exampleVi": "Ở đây rất yên tĩnh, xin đừng nói chuyện.",
+        "slots": {
+          "promptVi": "Chọn từ điền vào chỗ trống: Ở đây rất yên tĩnh...",
+          "choices": [
+            {
+              "hanzi": "草",
+              "pinyin": "cǎo",
+              "vi": "cỏ"
+            },
+            {
+              "hanzi": "安静",
+              "pinyin": "ān jìng",
+              "vi": "yên tĩnh"
+            },
+            {
+              "hanzi": "牙",
+              "pinyin": "yá",
+              "vi": "răng"
+            }
+          ],
+          "answerHanzi": "安静"
+        }
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "小明",
+        "voiceRole": "formal",
+        "hanzi": "Bao，你怎么了？",
+        "pinyin": "Bao， nǐ zěn me le ？",
+        "vi": "Bao, bạn sao thế?",
+        "mode": "npc",
+        "goalLabel": "Hỏi tình hình"
+      },
+      {
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "我的牙很疼。",
+        "pinyin": "wǒ de yá hěn téng 。",
+        "vi": "Răng của tôi rất đau.",
+        "mode": "choice",
+        "goalLabel": "Nói bị đau",
+        "choices": [
+          {
+            "hanzi": "我的牙很疼。",
+            "pinyin": "wǒ de yá hěn téng 。",
+            "vi": "Răng của tôi rất đau.",
+            "correct": true
+          },
+          {
+            "hanzi": "我的草很绿。",
+            "pinyin": "wǒ de cǎo hěn lǜ 。",
+            "vi": "Cỏ của tôi rất xanh.",
+            "correct": false
+          },
+          {
+            "hanzi": "我很安静。",
+            "pinyin": "wǒ hěn ān jìng 。",
+            "vi": "Tôi rất yên tĩnh.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "speaker": "小美",
+        "voiceRole": "female",
+        "hanzi": "你快去医院吧。",
+        "pinyin": "nǐ kuài qù yī yuàn ba 。",
+        "vi": "Bạn mau đi bệnh viện đi.",
+        "mode": "npc",
+        "goalLabel": "Khuyên đi viện"
+      },
+      {
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "谢谢你，感谢你的帮助。",
+        "pinyin": "xiè xiè nǐ ， gǎn xiè nǐ de bāng zhù 。",
+        "vi": "Cảm ơn bạn, cảm ơn sự giúp đỡ của bạn.",
+        "mode": "tiles",
+        "goalLabel": "Nói cảm ơn",
+        "tilePrompt": [
+          "谢谢你",
+          "，",
+          "感谢",
+          "你的",
+          "帮助"
+        ]
+      },
+      {
+        "speaker": "小明",
+        "voiceRole": "formal",
+        "hanzi": "不用客气，快去吧。",
+        "pinyin": "bù yòng kè qì ， kuài qù ba 。",
+        "vi": "Không khách khí, mau đi đi.",
+        "mode": "npc",
+        "goalLabel": "Đáp lời"
+      },
+      {
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "请原谅我，我先走了。",
+        "pinyin": "qǐng yuán liàng wǒ ， wǒ xiān zǒu le 。",
+        "vi": "Xin tha thứ cho tôi, tôi đi trước đây.",
+        "mode": "pinyin",
+        "goalLabel": "Xin lỗi đi trước",
+        "acceptedPinyin": [
+          "qingyuanliangwowoxianzoule",
+          "qǐng yuán liàng wǒ ， wǒ xiān zǒu le 。",
+          "请原谅我，我先走了"
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "id": "ex-t28-1",
+        "kind": "meaning-choice",
+        "promptVi": "Từ '原谅' có ý nghĩa là gì?",
+        "hanziPrompt": "原谅",
+        "pinyinPrompt": "yuán liàng",
+        "options": [
+          {
+            "label": "tha thứ, thông cảm",
+            "value": "tha thứ, thông cảm"
+          },
+          {
+            "label": "cảm ơn, cảm kích",
+            "value": "cảm ơn, cảm kích"
+          },
+          {
+            "label": "yên tĩnh, yên lặng",
+            "value": "yên tĩnh, yên lặng"
+          },
+          {
+            "label": "răng",
+            "value": "răng"
+          }
+        ],
+        "answer": "tha thứ, thông cảm"
+      },
+      {
+        "id": "ex-t28-2",
+        "kind": "hanzi-choice",
+        "promptVi": "Nghe và chọn chữ Hán đúng (cảm ơn, cảm kích)",
+        "audioText": "感谢",
+        "options": [
+          {
+            "label": "感谢",
+            "value": "感谢"
+          },
+          {
+            "label": "原谅",
+            "value": "原谅"
+          },
+          {
+            "label": "安静",
+            "value": "安静"
+          },
+          {
+            "label": "牙齿",
+            "value": "牙齿"
+          }
+        ],
+        "answer": "感谢"
+      },
+      {
+        "id": "ex-t28-3",
+        "kind": "sentence-tiles",
+        "promptVi": "Sắp xếp các từ thành câu hoàn chỉnh: Xin bạn tha thứ cho tôi.",
+        "tiles": [
+          "请",
+          "你",
+          "原谅",
+          "我"
+        ],
+        "answer": "请你原谅我"
+      }
+    ],
+    "roleplay": [
+      {
+        "npcHanzi": "你在这里做什么？",
+        "npcPinyin": "nǐ zài zhè lǐ zuò shén me ？",
+        "npcVi": "Bạn đang làm gì ở đây?",
+        "promptVi": "Trả lời rằng bạn đang xem cỏ.",
+        "options": [
+          {
+            "hanzi": "我在看草。",
+            "pinyin": "wǒ zài kàn cǎo 。",
+            "vi": "Tôi đang xem cỏ.",
+            "correct": true
+          },
+          {
+            "hanzi": "我在看牙。",
+            "pinyin": "wǒ zài kàn yá 。",
+            "vi": "Tôi đang xem răng.",
+            "correct": false
+          },
+          {
+            "hanzi": "我在吃饭。",
+            "pinyin": "wǒ zài chī fàn 。",
+            "vi": "Tôi đang ăn cơm.",
+            "correct": false
+          }
+        ],
+        "expectedHanzi": "我在看草。"
+      },
+      {
+        "npcHanzi": "这里人很多。",
+        "npcPinyin": "zhè lǐ rén hěn duō 。",
+        "npcVi": "Ở đây rất nhiều người.",
+        "promptVi": "Nói rằng nơi này không yên tĩnh.",
+        "options": [
+          {
+            "hanzi": "这里不安静。",
+            "pinyin": "zhè lǐ bù ān jìng 。",
+            "vi": "Ở đây không yên tĩnh.",
+            "correct": true
+          },
+          {
+            "hanzi": "这里很安静。",
+            "pinyin": "zhè lǐ hěn ān jìng 。",
+            "vi": "Ở đây rất yên tĩnh.",
+            "correct": false
+          },
+          {
+            "hanzi": "这里很τρα.",
+            "pinyin": "zhè lǐ hěn τρα.",
+            "vi": "Ở đây rất...",
+            "correct": false
+          }
+        ],
+        "expectedHanzi": "这里不安静。"
+      },
+      {
+        "npcHanzi": "对不起， I am late.",
+        "npcPinyin": "duì bù qǐ ， I am late.",
+        "npcVi": "Xin lỗi, tôi đến muộn.",
+        "promptVi": "Nói rằng không sao cả.",
+        "options": [
+          {
+            "hanzi": "没关系。",
+            "pinyin": "méi guān xì 。",
+            "vi": "Không sao cả.",
+            "correct": true
+          },
+          {
+            "hanzi": "原谅我。",
+            "pinyin": "yuán liàng wǒ 。",
+            "vi": "Tha thứ cho tôi.",
+            "correct": false
+          },
+          {
+            "hanzi": "感谢你。",
+            "pinyin": "gǎn xiè nǐ 。",
+            "vi": "Cảm ơn bạn.",
+            "correct": false
+          }
+        ],
+        "expectedHanzi": "没关系。"
+      }
+    ]
+  },
+  {
+    "id": "t28-doc",
+    "stage": 4,
+    "topicId": 28,
+    "title": "Đọc: 一些小事",
+    "type": "doc",
+    "xp": 40,
+    "newWords": [],
+    "readingId": "r-t28"
+  },
+  {
+    "id": "t28-nghe",
+    "stage": 4,
+    "topicId": 28,
+    "title": "Nghe: Tình huống khó: nhờ giúp đỡ, khẩn cấp & xin lỗi",
+    "type": "nghe",
+    "xp": 40,
+    "newWords": [
+      "w4-242",
+      "w4-243",
+      "w4-015",
+      "w4-016",
+      "w4-017"
+    ],
+    "listeningTracks": [
+      {
+        "id": "lt28-1",
+        "speaker": "小明",
+        "voiceRole": "male",
+        "hanzi": "王老师，对不起，我不小心在草地。",
+        "pinyin": "wáng lǎo shī ， duì bù qǐ ， wǒ bù xiǎo xīn zài cǎo dì 。",
+        "vi": "Thầy Vương, xin lỗi thầy, em lỡ làm hỏng bãi cỏ rồi."
+      },
+      {
+        "id": "lt28-2",
+        "speaker": "王老师",
+        "voiceRole": "formal",
+        "hanzi": "没关系，请原谅，以后小心。",
+        "pinyin": "méi guān xì ， qǐng yuán liàng ， yǐ hòu xiǎo xīn 。",
+        "vi": "Không sao, hãy tha lỗi, sau này cẩn thận."
+      },
+      {
+        "id": "lt28-3",
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "小美，你的牙疼吗？我帮助你。",
+        "pinyin": "xiǎo měi ， nǐ de yá téng ma ？ wǒ bāng zhù nǐ 。",
+        "vi": "Tiểu Mỹ, răng cậu có đau không? Tớ giúp cậu."
+      },
+      {
+        "id": "lt28-4",
+        "speaker": "小美",
+        "voiceRole": "female",
+        "hanzi": "感谢你，请安静。",
+        "pinyin": "gǎn xiè nǐ ， qǐng ān jìng 。",
+        "vi": "Cảm ơn cậu, làm ơn yên lặng."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "ng28-1",
+        "kind": "listen-meaning",
+        "promptVi": "Câu nói này có nghĩa là gì?",
+        "audioText": "请原谅我。",
+        "options": [
+          {
+            "label": "Xin lỗi tôi đi.",
+            "value": "Xin lỗi tôi đi."
+          },
+          {
+            "label": "Hãy tha lỗi cho tôi.",
+            "value": "Hãy tha lỗi cho tôi."
+          },
+          {
+            "label": "Cảm ơn tôi đi.",
+            "value": "Cảm ơn tôi đi."
+          },
+          {
+            "label": "Hãy giúp tôi.",
+            "value": "Hãy giúp tôi."
+          }
+        ],
+        "answer": "Hãy tha lỗi cho tôi."
+      },
+      {
+        "id": "ng28-2",
+        "kind": "listen-hanzi",
+        "promptVi": "Chọn từ bạn vừa nghe thấy:",
+        "audioText": "牙疼",
+        "options": [
+          {
+            "label": "牙疼",
+            "value": "牙疼"
+          },
+          {
+            "label": "草地",
+            "value": "草地"
+          },
+          {
+            "label": "感谢",
+            "value": "感谢"
+          },
+          {
+            "label": "安静",
+            "value": "安静"
+          }
+        ],
+        "answer": "牙疼"
+      },
+      {
+        "id": "ng28-3",
+        "kind": "listen-tiles",
+        "promptVi": "Sắp xếp các từ thành câu hoàn chỉnh:",
+        "audioText": "请安静一下",
+        "tiles": [
+          "请",
+          "安静",
+          "一下"
+        ],
+        "answer": "请安静一下"
+      },
+      {
+        "id": "ng28-4",
+        "kind": "listen-blank",
+        "promptVi": "Điền từ thích hợp vào chỗ trống: 我很___你。",
+        "audioText": "我很感谢你。",
+        "options": [
+          {
+            "label": "原谅",
+            "value": "原谅"
+          },
+          {
+            "label": "感谢",
+            "value": "感谢"
+          },
+          {
+            "label": "安静",
+            "value": "安静"
+          },
+          {
+            "label": "牙",
+            "value": "牙"
+          }
+        ],
+        "answer": "感谢"
+      },
+      {
+        "id": "ng28-5",
+        "kind": "listen-dialogue",
+        "promptVi": "Bạn hiểu gì qua câu này: “对不起，我不小心。”",
+        "audioText": "对不起，我不小心。",
+        "options": [
+          {
+            "label": "Người nói đang xin lỗi.",
+            "value": "Người nói đang xin lỗi."
+          },
+          {
+            "label": "Người nói đang cảm ơn.",
+            "value": "Người nói đang cảm ơn."
+          },
+          {
+            "label": "Người nói đang giúp đỡ.",
+            "value": "Người nói đang giúp đỡ."
+          }
+        ],
+        "answer": "Người nói đang xin lỗi."
+      },
+      {
+        "id": "ng28-6",
+        "kind": "dictation",
+        "promptVi": "Chép chính tả rút gọn: gõ pinyin (hoặc chạm thẻ) câu vừa nghe",
+        "audioText": "牙很疼，原谅我。",
+        "tiles": [
+          "牙很疼",
+          "原谅我"
+        ],
+        "answer": "yahentengyuanliangwo"
+      }
+    ]
+  },
+  {
+    "id": "t28-viet",
+    "stage": 4,
+    "topicId": 28,
+    "title": "Viết: Tình huống khó: nhờ giúp đỡ, khẩn cấp & xin lỗi",
+    "type": "viet",
+    "xp": 40,
+    "newWords": [
+      "w4-242",
+      "w4-243",
+      "w4-015",
+      "w4-016",
+      "w4-017"
+    ],
+    "writingChars": [
+      {
+        "char": "原",
+        "pinyin": "yuán",
+        "meaningVi": "tha thứ, thông cảm",
+        "radical": "厂",
+        "radicalNoteVi": "Mảnh đất nguồn gốc cội nguồn ban sơ.",
+        "lookalikes": [
+          {
+            "hanzi": "厄",
+            "pinyin": "è",
+            "vi": "adversity, difficulty, distress"
+          },
+          {
+            "hanzi": "原",
+            "pinyin": "yuán",
+            "vi": "tha thứ, thông cảm"
+          },
+          {
+            "hanzi": "厂",
+            "pinyin": "chǎng",
+            "vi": "cliff"
+          },
+          {
+            "hanzi": "厃",
+            "pinyin": "wěi",
+            "vi": "to look upward"
+          }
+        ]
+      },
+      {
+        "char": "谅",
+        "pinyin": "liàng",
+        "meaningVi": "tha thứ, thông cảm",
+        "radical": "讠",
+        "radicalNoteVi": "Lời nói thông cảm giúp tha thứ lỗi lầm.",
+        "lookalikes": [
+          {
+            "hanzi": "让",
+            "pinyin": "ràng",
+            "vi": "nhường, để, khiến"
+          },
+          {
+            "hanzi": "记",
+            "pinyin": "jì",
+            "vi": "ghi nhớ, ghi chép"
+          },
+          {
+            "hanzi": "讲",
+            "pinyin": "jiǎng",
+            "vi": "nói, giảng giải, bàn luận"
+          },
+          {
+            "hanzi": "谅",
+            "pinyin": "liàng",
+            "vi": "tha thứ, thông cảm"
+          }
+        ]
+      },
+      {
+        "char": "感",
+        "pinyin": "gǎn",
+        "meaningVi": "cảm ơn, cảm kích",
+        "radical": "心",
+        "radicalNoteVi": "Tâm ý cảm động từ tận đáy lòng.",
+        "lookalikes": [
+          {
+            "hanzi": "总",
+            "pinyin": "zǒng",
+            "vi": "tổng cộng, luôn luôn, nói chung"
+          },
+          {
+            "hanzi": "感",
+            "pinyin": "gǎn",
+            "vi": "cảm ơn, cảm kích"
+          },
+          {
+            "hanzi": "忘",
+            "pinyin": "wàng",
+            "vi": "quên, quên mất"
+          },
+          {
+            "hanzi": "急",
+            "pinyin": "jí",
+            "vi": "vội, gấp, lo lắng"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stage-4-test",
+    "stage": 4,
+    "topicId": 400,
+    "title": "Kiểm tra tổng hợp Chặng 4 — Tự tin giao tiếp",
+    "type": "stage-test",
+    "xp": 60,
+    "newWords": [],
+    "stageTestItems": [
+      {
+        "id": "st4-q1",
+        "skill": "giao-tiep",
+        "promptVi": "Bao gặp王老师, Bao nên nói gì?",
+        "passageHanzi": "Bao: 王老师, 您好! 王老师: 你好, Bao.",
+        "passagePinyin": "Bao:  wáng lǎo shī ,  nín hǎo !  wáng lǎo shī :  nǐ hǎo , Bao.",
+        "passageVi": "Bao: Thầy Vương, chào thầy ạ! Thầy Vương: Chào em, Bao.",
+        "audioText": "",
+        "options": [
+          {
+            "label": "再见",
+            "value": "再见"
+          },
+          {
+            "label": "谢谢",
+            "value": "谢谢"
+          },
+          {
+            "label": "您好",
+            "value": "您好"
+          },
+          {
+            "label": "没关系",
+            "value": "没关系"
+          }
+        ],
+        "answer": "您好",
+        "explainVi": "Khi gặp thầy giáo, chúng ta dùng '您好' để thể hiện sự lễ phép và tôn trọng."
+      },
+      {
+        "id": "st4-q2",
+        "skill": "giao-tiep",
+        "promptVi": "小明 hỏi 小美天气怎么样, câu nào đúng?",
+        "passageHanzi": "小明: 小美, 今天天气怎么样? 小美: 今天天气很冷, 下雪了.",
+        "passagePinyin": "xiǎo míng :  xiǎo měi ,  jīn tiān tiān qì zěn me yàng ?  xiǎo měi :  jīn tiān tiān qì hěn lěng ,  xià xuě le .",
+        "passageVi": "Tiểu Minh: Tiểu Mỹ, thời tiết hôm nay thế nào? Tiểu Mỹ: Thời tiết hôm nay rất lạnh, có tuyết rơi.",
+        "audioText": "",
+        "options": [
+          {
+            "label": "今天天气很冷",
+            "value": "今天天气很冷"
+          },
+          {
+            "label": "今天天气很热",
+            "value": "今天天气很热"
+          },
+          {
+            "label": "今天下雨了",
+            "value": "今天下雨了"
+          }
+        ],
+        "answer": "今天天气很冷",
+        "explainVi": "Dựa vào đoạn hội thoại, Tiểu Mỹ trả lời thời tiết hôm nay rất lạnh và có tuyết."
+      },
+      {
+        "id": "st4-q3",
+        "skill": "doc",
+        "promptVi": "Đọc đoạn văn và chọn đáp án đúng.",
+        "passageHanzi": "王老师是我的中文老师. 他家在北京. 王老师的儿子上小学, 今年八岁. 他很爱他的学生.",
+        "passagePinyin": "wáng lǎo shī shì wǒ de zhōng wén lǎo shī .  tā jiā zài běi jīng .  wáng lǎo shī de ér zi shàng xiǎo xué ,  jīn nián bā suì .  tā hěn ài tā de xué shēng .",
+        "passageVi": "Thầy Vương là giáo viên tiếng Trung của tôi. Nhà thầy ở Bắc Kinh. Con trai thầy học tiểu học, năm nay tám tuổi. Thầy rất yêu quý học sinh của mình.",
+        "audioText": "",
+        "options": [
+          {
+            "label": "王老师的家在上海",
+            "value": "王老师的家在上海"
+          },
+          {
+            "label": "王老师的儿子八岁",
+            "value": "王老师的儿子八岁"
+          },
+          {
+            "label": "王老师不喜欢学生",
+            "value": "王老师不喜欢学生"
+          }
+        ],
+        "answer": "王老师的儿子八岁",
+        "explainVi": "Đoạn văn nói con trai thầy Vương tám tuổi (今年八岁), nên đáp án này là đúng."
+      },
+      {
+        "id": "st4-q4",
+        "skill": "doc",
+        "promptVi": "Đọc đoạn văn và chọn đáp án đúng.",
+        "passageHanzi": "小美今天去商场买衣服. 她买了一件红色的衬衫和一条裤子. 她觉得很漂亮, 也非常喜欢.",
+        "passagePinyin": "xiǎo měi jīn tiān qù shāng chǎng mǎi yī fú .  tā mǎi le yī jiàn hóng sè de chèn shān hé yī tiáo kù zi .  tā jué de hěn piào liàng ,  yě fēi cháng xǐ huān .",
+        "passageVi": "Tiểu Mỹ hôm nay đi trung tâm thương mại mua quần áo. Cô ấy mua một chiếc áo sơ mi màu đỏ và một chiếc quần dài. Cô ấy thấy rất đẹp và cũng vô cùng thích.",
+        "audioText": "",
+        "options": [
+          {
+            "label": "小美买了一本书",
+            "value": "小美买了一本书"
+          },
+          {
+            "label": "小美买了一件衬衫",
+            "value": "小美买了一件衬衫"
+          },
+          {
+            "label": "小美觉得衣服不好看",
+            "value": "小美觉得衣服不好看"
+          }
+        ],
+        "answer": "小美买了一件衬衫",
+        "explainVi": "Đoạn văn viết Tiểu Mỹ mua một chiếc áo sơ mi (买了一件衬衫), nên đây là đáp án đúng."
+      },
+      {
+        "id": "st4-q5",
+        "skill": "nghe",
+        "promptVi": "Nghe nội dung và chọn đáp án đúng.",
+        "passageHanzi": "",
+        "passagePinyin": "",
+        "passageVi": "",
+        "audioText": "Bao 喝了一杯咖啡.",
+        "options": [
+          {
+            "label": "Bao 喝了咖啡",
+            "value": "Bao 喝了咖啡"
+          },
+          {
+            "label": "Bao 吃了面条",
+            "value": "Bao 吃了面条"
+          },
+          {
+            "label": "Bao 喝了牛奶",
+            "value": "Bao 喝了牛奶"
+          }
+        ],
+        "answer": "Bao 喝了咖啡",
+        "explainVi": "Audio nói Bao đã uống một tách cà phê, khớp với đáp án đầu tiên."
+      },
+      {
+        "id": "st4-q6",
+        "skill": "nghe",
+        "promptVi": "Nghe nội dung và chọn đáp án đúng.",
+        "passageHanzi": "",
+        "passagePinyin": "",
+        "passageVi": "",
+        "audioText": "小明在看书.",
+        "options": [
+          {
+            "label": "小明在睡觉",
+            "value": "小明在睡觉"
+          },
+          {
+            "label": "小明在买衣服",
+            "value": "小明在买衣服"
+          },
+          {
+            "label": "小明在看书",
+            "value": "小明在看书"
+          }
+        ],
+        "answer": "小明在看书",
+        "explainVi": "Audio nói Tiểu Minh đang đọc sách, khớp với đáp án cuối cùng."
+      },
+      {
+        "id": "st4-q7",
+        "skill": "viet",
+        "promptVi": "Viết đúng thứ tự nét chữ 'báo, tờ báo' (bào)",
+        "writingChar": {
+          "char": "报",
+          "pinyin": "bào",
+          "meaningVi": "báo, tờ báo",
+          "radical": "扌",
+          "radicalNoteVi": "Tay đưa báo tin tức cho mọi người biết.",
+          "lookalikes": [
+            {
+              "hanzi": "才",
+              "pinyin": "cái",
+              "vi": "mới, tài năng"
+            },
+            {
+              "hanzi": "打",
+              "pinyin": "dǎ",
+              "vi": "tá (đơn vị 12 cái)"
+            },
+            {
+              "hanzi": "扫",
+              "pinyin": "sǎo",
+              "vi": "quét"
+            },
+            {
+              "hanzi": "报",
+              "pinyin": "bào",
+              "vi": "báo, tờ báo"
+            }
+          ]
+        },
+        "answer": "报",
+        "explainVi": "Tay đưa báo tin tức cho mọi người biết."
+      },
+      {
+        "id": "st4-q8",
+        "skill": "viet",
+        "promptVi": "Nhận diện mặt chữ: Đâu là chữ 'cảm ơn, cảm kích' (gǎn)?",
+        "options": [
+          {
+            "label": "总",
+            "value": "总"
+          },
+          {
+            "label": "感",
+            "value": "感"
+          },
+          {
+            "label": "忘",
+            "value": "忘"
+          },
+          {
+            "label": "急",
+            "value": "急"
+          }
+        ],
+        "answer": "感",
+        "explainVi": "Tâm ý cảm động từ tận đáy lòng."
+      }
+    ]
+  }
+]

@@ -1,0 +1,4202 @@
+[
+  {
+    "id": "r-t9",
+    "stage": 2,
+    "topicId": 9,
+    "title": "周末的爱好",
+    "mode": "fluent",
+    "knownPercent": 90,
+    "newWords": [
+      "跳舞",
+      "公园"
+    ],
+    "paragraphs": [
+      {
+        "hanzi": "我喜欢周末。周末的时候，我和朋友常常去公园。我们在公园里很高兴。",
+        "vi": "Tôi thích cuối tuần. Vào những ngày cuối tuần, tôi và bạn bè thường đến công viên. Chúng tôi rất vui ở trong công viên.",
+        "tokens": [
+          {
+            "w": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "w": "喜欢",
+            "pinyin": "xǐ huan"
+          },
+          {
+            "w": "周末",
+            "pinyin": "zhōu mò"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "周末",
+            "pinyin": "zhōu mò"
+          },
+          {
+            "w": "的",
+            "pinyin": "de"
+          },
+          {
+            "w": "时候",
+            "pinyin": "shí hou"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "w": "和",
+            "pinyin": "hé"
+          },
+          {
+            "w": "朋友",
+            "pinyin": "péng you"
+          },
+          {
+            "w": "常常",
+            "pinyin": "cháng cháng"
+          },
+          {
+            "w": "去",
+            "pinyin": "qù"
+          },
+          {
+            "w": "公园",
+            "pinyin": "gōng yuán",
+            "isNew": true
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "我们",
+            "pinyin": "wǒ men"
+          },
+          {
+            "w": "在",
+            "pinyin": "zài"
+          },
+          {
+            "w": "公园",
+            "pinyin": "gōng yuán",
+            "isNew": true
+          },
+          {
+            "w": "里",
+            "pinyin": "lǐ"
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "高兴",
+            "pinyin": "gāo xìng"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "小美也喜欢去公园。她觉得公园非常大，里面有很多好看的花。她在公园里常常跳舞。",
+        "vi": "Tiểu Mỹ cũng thích đi công viên. Cô ấy cảm thấy công viên vô cùng lớn, bên trong có rất nhiều hoa đẹp. Cô ấy thường nhảy múa trong công viên.",
+        "tokens": [
+          {
+            "w": "小美",
+            "pinyin": "xiǎo měi"
+          },
+          {
+            "w": "也",
+            "pinyin": "yě"
+          },
+          {
+            "w": "喜欢",
+            "pinyin": "xǐ huan"
+          },
+          {
+            "w": "去",
+            "pinyin": "qù"
+          },
+          {
+            "w": "公园",
+            "pinyin": "gōng yuán",
+            "isNew": true
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "她",
+            "pinyin": "tā"
+          },
+          {
+            "w": "觉得",
+            "pinyin": "jué de"
+          },
+          {
+            "w": "公园",
+            "pinyin": "gōng yuán",
+            "isNew": true
+          },
+          {
+            "w": "非常",
+            "pinyin": "fēi cháng"
+          },
+          {
+            "w": "大",
+            "pinyin": "dà"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "里面",
+            "pinyin": "lǐ miàn"
+          },
+          {
+            "w": "有",
+            "pinyin": "yǒu"
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "多",
+            "pinyin": "duō"
+          },
+          {
+            "w": "好看",
+            "pinyin": "hǎo kàn"
+          },
+          {
+            "w": "的",
+            "pinyin": "de"
+          },
+          {
+            "w": "花",
+            "pinyin": "huā"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "她",
+            "pinyin": "tā"
+          },
+          {
+            "w": "在",
+            "pinyin": "zài"
+          },
+          {
+            "w": "公园",
+            "pinyin": "gōng yuán",
+            "isNew": true
+          },
+          {
+            "w": "里",
+            "pinyin": "lǐ"
+          },
+          {
+            "w": "常常",
+            "pinyin": "cháng cháng"
+          },
+          {
+            "w": "跳舞",
+            "pinyin": "tiào wǔ",
+            "isNew": true
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "王老师不喜欢在家睡觉。他下午常常去公园走路。他在那儿看到很多人在跳舞。",
+        "vi": "Thầy Vương không thích ngủ ở nhà. Buổi chiều thầy thường đến công viên đi bộ. Thầy nhìn thấy rất nhiều người đang nhảy múa ở đó.",
+        "tokens": [
+          {
+            "w": "王老师",
+            "pinyin": "wáng lǎo shī"
+          },
+          {
+            "w": "不",
+            "pinyin": "bù"
+          },
+          {
+            "w": "喜欢",
+            "pinyin": "xǐ huan"
+          },
+          {
+            "w": "在家",
+            "pinyin": "zài jiā"
+          },
+          {
+            "w": "睡觉",
+            "pinyin": "shuì jiào"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "他",
+            "pinyin": "tā"
+          },
+          {
+            "w": "下午",
+            "pinyin": "xià wǔ"
+          },
+          {
+            "w": "常常",
+            "pinyin": "cháng cháng"
+          },
+          {
+            "w": "去",
+            "pinyin": "qù"
+          },
+          {
+            "w": "公园",
+            "pinyin": "gōng yuán",
+            "isNew": true
+          },
+          {
+            "w": "走路",
+            "pinyin": "zǒu lù"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "他",
+            "pinyin": "tā"
+          },
+          {
+            "w": "在",
+            "pinyin": "zài"
+          },
+          {
+            "w": "那儿",
+            "pinyin": "nà r"
+          },
+          {
+            "w": "看到",
+            "pinyin": "kàn dào"
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "多",
+            "pinyin": "duō"
+          },
+          {
+            "w": "人",
+            "pinyin": "rén"
+          },
+          {
+            "w": "在",
+            "pinyin": "zài"
+          },
+          {
+            "w": "跳舞",
+            "pinyin": "tiào wǔ",
+            "isNew": true
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "小明不喜欢跑步。他周末常常去公园看书。我觉得这是一个很好的爱好。",
+        "vi": "Tiểu Minh không thích chạy bộ. Cuối tuần cậu ấy thường đến công viên đọc sách. Tôi thấy đây là một sở thích rất tốt.",
+        "tokens": [
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "不",
+            "pinyin": "bù"
+          },
+          {
+            "w": "喜欢",
+            "pinyin": "xǐ huan"
+          },
+          {
+            "w": "跑步",
+            "pinyin": "pǎo bù"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "他",
+            "pinyin": "tā"
+          },
+          {
+            "w": "周末",
+            "pinyin": "zhōu mò"
+          },
+          {
+            "w": "常常",
+            "pinyin": "cháng cháng"
+          },
+          {
+            "w": "去",
+            "pinyin": "qù"
+          },
+          {
+            "w": "公园",
+            "pinyin": "gōng yuán",
+            "isNew": true
+          },
+          {
+            "w": "看",
+            "pinyin": "kàn"
+          },
+          {
+            "w": "书",
+            "pinyin": "shū"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "w": "觉得",
+            "pinyin": "jué de"
+          },
+          {
+            "w": "这",
+            "pinyin": "zhè"
+          },
+          {
+            "w": "是",
+            "pinyin": "shì"
+          },
+          {
+            "w": "一",
+            "pinyin": "yī"
+          },
+          {
+            "w": "个",
+            "pinyin": "gè"
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "好",
+            "pinyin": "hǎo"
+          },
+          {
+            "w": "的",
+            "pinyin": "de"
+          },
+          {
+            "w": "爱好",
+            "pinyin": "ài hào"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq9-1",
+        "type": "mcq",
+        "q": "谁常常去公园跳舞？",
+        "options": [
+          "小美",
+          "小明"
+        ],
+        "answer": 0,
+        "explainVi": "Bài đọc viết: '她在公园里常常跳舞' (Cô ấy thường nhảy múa trong công viên - chỉ Tiểu Mỹ)."
+      },
+      {
+        "id": "rq9-2",
+        "type": "tf",
+        "q": "王老师下午常常去公园走路。",
+        "options": [
+          "Đúng",
+          "Sai"
+        ],
+        "answer": 0,
+        "explainVi": "Trích dẫn câu Hán: '他下午常常去公园走路。'"
+      },
+      {
+        "id": "rq9-3",
+        "type": "detail",
+        "q": "小明周末在公园做什么？",
+        "options": [
+          "看书",
+          "睡觉"
+        ],
+        "answer": 0,
+        "explainVi": "Trích dẫn câu Hán: '他周末常常去公园看书。'"
+      }
+    ]
+  },
+  {
+    "id": "r-t10",
+    "stage": 2,
+    "topicId": 10,
+    "title": "中国的四季",
+    "mode": "study",
+    "knownPercent": 90,
+    "newWords": [
+      "秋天",
+      "春天",
+      "冬天"
+    ],
+    "paragraphs": [
+      {
+        "hanzi": "中国的天气有很多。春天很好，天气不冷也不热。小明和小美一起去公园跑步。春天真好。",
+        "vi": "Thời tiết ở Trung Quốc có rất nhiều. Mùa xuân rất tốt, thời tiết không lạnh cũng không nóng. Tiểu Minh và Tiểu Mỹ cùng nhau đi công viên chạy bộ. Mùa xuân thật tốt.",
+        "tokens": [
+          {
+            "w": "中国",
+            "pinyin": "Zhōng guó"
+          },
+          {
+            "w": "的",
+            "pinyin": "de"
+          },
+          {
+            "w": "天气",
+            "pinyin": "tiān qì"
+          },
+          {
+            "w": "有",
+            "pinyin": "yǒu"
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "多",
+            "pinyin": "duō"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "春天",
+            "pinyin": "chūn tiān",
+            "isNew": true
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "好",
+            "pinyin": "hǎo"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "天气",
+            "pinyin": "tiān qì"
+          },
+          {
+            "w": "不",
+            "pinyin": "bù"
+          },
+          {
+            "w": "冷",
+            "pinyin": "lěng"
+          },
+          {
+            "w": "也",
+            "pinyin": "yě"
+          },
+          {
+            "w": "不",
+            "pinyin": "bù"
+          },
+          {
+            "w": "热",
+            "pinyin": "rè"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "和",
+            "pinyin": "hé"
+          },
+          {
+            "w": "小美",
+            "pinyin": "xiǎo měi"
+          },
+          {
+            "w": "一起",
+            "pinyin": "yī qǐ"
+          },
+          {
+            "w": "去",
+            "pinyin": "qù"
+          },
+          {
+            "w": "公园",
+            "pinyin": "gōng yuán"
+          },
+          {
+            "w": "跑步",
+            "pinyin": "pǎo bù"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "春天",
+            "pinyin": "chūn tiān",
+            "isNew": true
+          },
+          {
+            "w": "真",
+            "pinyin": "zhēn"
+          },
+          {
+            "w": "好",
+            "pinyin": "hǎo"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "夏天到了，天气非常热。大家都不想出门买东西。小明和小美在家里休息。",
+        "vi": "Mùa hè đã đến, thời tiết vô cùng nóng. Mọi người đều không muốn ra ngoài mua đồ. Tiểu Minh và Tiểu Mỹ nghỉ ngơi ở nhà.",
+        "tokens": [
+          {
+            "w": "夏天",
+            "pinyin": "xià tiān"
+          },
+          {
+            "w": "到",
+            "pinyin": "dào"
+          },
+          {
+            "w": "了",
+            "pinyin": "le"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "天气",
+            "pinyin": "tiān qì"
+          },
+          {
+            "w": "非常",
+            "pinyin": "fēi cháng"
+          },
+          {
+            "w": "热",
+            "pinyin": "rè"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "大家",
+            "pinyin": "dà jiā"
+          },
+          {
+            "w": "都",
+            "pinyin": "dōu"
+          },
+          {
+            "w": "不",
+            "pinyin": "bù"
+          },
+          {
+            "w": "想",
+            "pinyin": "xiǎng"
+          },
+          {
+            "w": "出门",
+            "pinyin": "chū mén"
+          },
+          {
+            "w": "买",
+            "pinyin": "mǎi"
+          },
+          {
+            "w": "东西",
+            "pinyin": "dōng xi"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "和",
+            "pinyin": "hé"
+          },
+          {
+            "w": "小美",
+            "pinyin": "xiǎo měi"
+          },
+          {
+            "w": "在家",
+            "pinyin": "zài jiā"
+          },
+          {
+            "w": "里",
+            "pinyin": "lǐ"
+          },
+          {
+            "w": "休息",
+            "pinyin": "xiū xi"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "秋天是一个好天。秋天有风，但是天气很舒服。小王喜欢在秋天看书。秋天真好。",
+        "vi": "Mùa thu là một ngày tốt. Mùa thu có gió, nhưng thời tiết rất thoải mái. Tiểu Vương thích đọc sách vào mùa thu. Mùa thu thật tốt.",
+        "tokens": [
+          {
+            "w": "秋天",
+            "pinyin": "qiū tiān",
+            "isNew": true
+          },
+          {
+            "w": "是",
+            "pinyin": "shì"
+          },
+          {
+            "w": "一",
+            "pinyin": "yī"
+          },
+          {
+            "w": "个",
+            "pinyin": "gè"
+          },
+          {
+            "w": "好",
+            "pinyin": "hǎo"
+          },
+          {
+            "w": "天",
+            "pinyin": "tiān"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "秋天",
+            "pinyin": "qiū tiān",
+            "isNew": true
+          },
+          {
+            "w": "有",
+            "pinyin": "yǒu"
+          },
+          {
+            "w": "风",
+            "pinyin": "fēng"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "但是",
+            "pinyin": "dàn shì"
+          },
+          {
+            "w": "天气",
+            "pinyin": "tiān qì"
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "舒服",
+            "pinyin": "shū fu"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "小",
+            "pinyin": "xiǎo"
+          },
+          {
+            "w": "王",
+            "pinyin": "Wáng"
+          },
+          {
+            "w": "喜欢",
+            "pinyin": "xǐ huan"
+          },
+          {
+            "w": "在",
+            "pinyin": "zài"
+          },
+          {
+            "w": "秋天",
+            "pinyin": "qiū tiān",
+            "isNew": true
+          },
+          {
+            "w": "看",
+            "pinyin": "kàn"
+          },
+          {
+            "w": "书",
+            "pinyin": "shū"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "秋天",
+            "pinyin": "qiū tiān",
+            "isNew": true
+          },
+          {
+            "w": "真",
+            "pinyin": "zhēn"
+          },
+          {
+            "w": "好",
+            "pinyin": "hǎo"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "冬天很冷，有时候下雪。小明和小美穿很多衣服。冬天在家喝热茶。",
+        "vi": "Mùa đông rất lạnh, đôi khi có tuyết rơi. Tiểu Minh và Tiểu Mỹ mặc rất nhiều quần áo. Mùa đông uống trà nóng ở nhà.",
+        "tokens": [
+          {
+            "w": "冬天",
+            "pinyin": "dōng tiān",
+            "isNew": true
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "冷",
+            "pinyin": "lěng"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "有时候",
+            "pinyin": "yǒu shí hou"
+          },
+          {
+            "w": "下雪",
+            "pinyin": "xià xuě"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "和",
+            "pinyin": "hé"
+          },
+          {
+            "w": "小美",
+            "pinyin": "xiǎo měi"
+          },
+          {
+            "w": "穿",
+            "pinyin": "chuān"
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "多",
+            "pinyin": "duō"
+          },
+          {
+            "w": "衣服",
+            "pinyin": "yī fu"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "冬天",
+            "pinyin": "dōng tiān",
+            "isNew": true
+          },
+          {
+            "w": "在家",
+            "pinyin": "zài jiā"
+          },
+          {
+            "w": "喝",
+            "pinyin": "hè"
+          },
+          {
+            "w": "热",
+            "pinyin": "rè"
+          },
+          {
+            "w": "茶",
+            "pinyin": "chá"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq10-1",
+        "type": "mcq",
+        "q": "春天的时候，天气怎么样？",
+        "options": [
+          "不冷也不热",
+          "非常热",
+          "很冷"
+        ],
+        "answer": 0,
+        "explainVi": "Bài đọc viết: 春天很好，天气不冷也不热。"
+      },
+      {
+        "id": "rq10-2",
+        "type": "tf",
+        "q": "秋天有风，天气很舒服吗？",
+        "options": [
+          "Đúng",
+          "Sai"
+        ],
+        "answer": 0,
+        "explainVi": "Bài đọc viết: 秋天有风，但是天气很舒服。"
+      },
+      {
+        "id": "rq10-3",
+        "type": "detail",
+        "q": "小王喜欢在哪个季节看书？",
+        "options": [
+          "夏天",
+          "秋天",
+          "冬天"
+        ],
+        "answer": 1,
+        "explainVi": "Bài đọc viết: 小王喜欢在秋天看书。"
+      }
+    ]
+  },
+  {
+    "id": "r-t11",
+    "stage": 2,
+    "topicId": 11,
+    "title": "学校生活与考试",
+    "mode": "fluent",
+    "knownPercent": 91,
+    "newWords": [
+      "教室",
+      "考试"
+    ],
+    "paragraphs": [
+      {
+        "hanzi": "小明和小美在教室学习。他们在教室看书和写汉字。教室里有很多桌子和椅子。",
+        "vi": "Tiểu Minh và Tiểu Mỹ học tập ở phòng học. Họ đọc sách và viết chữ Hán trong phòng học. Trong phòng học có rất nhiều bàn và ghế.",
+        "tokens": [
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "和",
+            "pinyin": "hé"
+          },
+          {
+            "w": "小美",
+            "pinyin": "xiǎo měi"
+          },
+          {
+            "w": "在",
+            "pinyin": "zài"
+          },
+          {
+            "w": "教室",
+            "pinyin": "jiào shì",
+            "isNew": true
+          },
+          {
+            "w": "学习",
+            "pinyin": "xué xí"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "他们",
+            "pinyin": "tā men"
+          },
+          {
+            "w": "在",
+            "pinyin": "zài"
+          },
+          {
+            "w": "教室",
+            "pinyin": "jiào shì",
+            "isNew": true
+          },
+          {
+            "w": "看",
+            "pinyin": "kàn"
+          },
+          {
+            "w": "书",
+            "pinyin": "shū"
+          },
+          {
+            "w": "和",
+            "pinyin": "hé"
+          },
+          {
+            "w": "写",
+            "pinyin": "xiě"
+          },
+          {
+            "w": "汉字",
+            "pinyin": "hàn zì"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "教室",
+            "pinyin": "jiào shì",
+            "isNew": true
+          },
+          {
+            "w": "里",
+            "pinyin": "lǐ"
+          },
+          {
+            "w": "有",
+            "pinyin": "yǒu"
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "多",
+            "pinyin": "duō"
+          },
+          {
+            "w": "桌子",
+            "pinyin": "zhuō zi"
+          },
+          {
+            "w": "和",
+            "pinyin": "hé"
+          },
+          {
+            "w": "椅子",
+            "pinyin": "yǐ zi"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "明天有一个大考试。小明和小美准备得很好。他们天天在学校写汉字。",
+        "vi": "Ngày mai có một kỳ thi lớn. Tiểu Minh và Tiểu Mỹ chuẩn bị rất tốt. Họ ngày ngày viết chữ Hán ở trường.",
+        "tokens": [
+          {
+            "w": "明天",
+            "pinyin": "míng tiān"
+          },
+          {
+            "w": "有",
+            "pinyin": "yǒu"
+          },
+          {
+            "w": "一",
+            "pinyin": "yī"
+          },
+          {
+            "w": "个",
+            "pinyin": "gè"
+          },
+          {
+            "w": "大",
+            "pinyin": "dà"
+          },
+          {
+            "w": "考试",
+            "pinyin": "kǎo shì",
+            "isNew": true
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "和",
+            "pinyin": "hé"
+          },
+          {
+            "w": "小美",
+            "pinyin": "xiǎo měi"
+          },
+          {
+            "w": "准备",
+            "pinyin": "zhǔn bèi"
+          },
+          {
+            "w": "得",
+            "pinyin": "de"
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "好",
+            "pinyin": "hǎo"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "他们",
+            "pinyin": "tā men"
+          },
+          {
+            "w": "天",
+            "pinyin": "tiān"
+          },
+          {
+            "w": "天",
+            "pinyin": "tiān"
+          },
+          {
+            "w": "在",
+            "pinyin": "zài"
+          },
+          {
+            "w": "学校",
+            "pinyin": "xué xiào"
+          },
+          {
+            "w": "写",
+            "pinyin": "xiě"
+          },
+          {
+            "w": "汉字",
+            "pinyin": "hàn zì"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "王老师告诉大家考试很长时间。小明和小美不,他们觉得学习汉语很有意思。",
+        "vi": "Vương lão sư nói với mọi người kỳ thi rất dài thời gian. Tiểu Minh và Tiểu Mỹ không, họ cảm thấy học tiếng Trung rất thú vị.",
+        "tokens": [
+          {
+            "w": "王老师",
+            "pinyin": "wáng lǎo shī"
+          },
+          {
+            "w": "告诉",
+            "pinyin": "gào sù"
+          },
+          {
+            "w": "大家",
+            "pinyin": "dà jiā"
+          },
+          {
+            "w": "考试",
+            "pinyin": "kǎo shì",
+            "isNew": true
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "长",
+            "pinyin": "cháng"
+          },
+          {
+            "w": "时间",
+            "pinyin": "shí jiān"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "和",
+            "pinyin": "hé"
+          },
+          {
+            "w": "小美",
+            "pinyin": "xiǎo měi"
+          },
+          {
+            "w": "不",
+            "pinyin": "bù"
+          },
+          {
+            "w": ",",
+            "pinyin": ""
+          },
+          {
+            "w": "他们",
+            "pinyin": "tā men"
+          },
+          {
+            "w": "觉得",
+            "pinyin": "jué de"
+          },
+          {
+            "w": "学习",
+            "pinyin": "xué xí"
+          },
+          {
+            "w": "汉语",
+            "pinyin": "Hàn yǔ"
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "有意思",
+            "pinyin": "yǒu yì si"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "考试以后他们去学校吃饭。小美买了很多好吃的。小明觉得这次考试一定能好。",
+        "vi": "Sau khi thi họ đi trường học ăn cơm. Tiểu Mỹ mua rất nhiều đồ ăn ngon. Tiểu Minh cảm thấy lần thi này nhất định có thể tốt.",
+        "tokens": [
+          {
+            "w": "考试",
+            "pinyin": "kǎo shì",
+            "isNew": true
+          },
+          {
+            "w": "以后",
+            "pinyin": "yǐ hòu"
+          },
+          {
+            "w": "他们",
+            "pinyin": "tā men"
+          },
+          {
+            "w": "去",
+            "pinyin": "qù"
+          },
+          {
+            "w": "学校",
+            "pinyin": "xué xiào"
+          },
+          {
+            "w": "吃饭",
+            "pinyin": "chī fàn"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "小美",
+            "pinyin": "xiǎo měi"
+          },
+          {
+            "w": "买",
+            "pinyin": "mǎi"
+          },
+          {
+            "w": "了",
+            "pinyin": "le"
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "多",
+            "pinyin": "duō"
+          },
+          {
+            "w": "好吃",
+            "pinyin": "hǎo chī"
+          },
+          {
+            "w": "的",
+            "pinyin": "de"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "觉得",
+            "pinyin": "jué de"
+          },
+          {
+            "w": "这",
+            "pinyin": "zhè"
+          },
+          {
+            "w": "次",
+            "pinyin": "cì"
+          },
+          {
+            "w": "考试",
+            "pinyin": "kǎo shì",
+            "isNew": true
+          },
+          {
+            "w": "一定",
+            "pinyin": "yī dìng"
+          },
+          {
+            "w": "能",
+            "pinyin": "néng"
+          },
+          {
+            "w": "好",
+            "pinyin": "hǎo"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq11-1",
+        "type": "mcq",
+        "q": "小明和小美在哪里学习？",
+        "options": [
+          "在教室",
+          "在商店"
+        ],
+        "answer": 0,
+        "explainVi": "Theo đoạn 1, Tiểu Minh và Tiểu Mỹ học tập ở phòng học: '小明和小美在教室学习。'"
+      },
+      {
+        "id": "rq11-2",
+        "type": "tf",
+        "q": "明天有一个大考试，他们准备得很好吗？",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": 0,
+        "explainVi": "Theo đoạn 2, ngày mai có kỳ thi lớn và họ chuẩn bị rất tốt: '明天有一个大考试。小明和小美准备得很好。'"
+      },
+      {
+        "id": "rq11-3",
+        "type": "detail",
+        "q": "考试以后他们去哪里吃饭？",
+        "options": [
+          "去学校吃饭",
+          "去医院吃饭"
+        ],
+        "answer": 0,
+        "explainVi": "Theo đoạn 4, sau khi thi họ đi trường học ăn cơm: '考试以后他们去学校吃饭。'"
+      }
+    ]
+  },
+  {
+    "id": "r-t12",
+    "stage": 2,
+    "topicId": 12,
+    "title": "王老师的工作",
+    "mode": "study",
+    "knownPercent": 89,
+    "newWords": [
+      "同事",
+      "准备",
+      "事情"
+    ],
+    "paragraphs": [
+      {
+        "hanzi": "王老师的工作非常多，他每天很早去学校。他在学校准备很多事情，学生们也喜欢他。",
+        "vi": "Công việc của thầy Vương rất nhiều, thầy ấy đến trường rất sớm mỗi ngày. Thầy ấy chuẩn bị rất nhiều việc ở trường, các học sinh cũng thích thầy ấy.",
+        "tokens": [
+          {
+            "w": "王老师",
+            "pinyin": "wáng lǎo shī"
+          },
+          {
+            "w": "的",
+            "pinyin": "de"
+          },
+          {
+            "w": "工作",
+            "pinyin": "gōng zuò"
+          },
+          {
+            "w": "非常",
+            "pinyin": "fēi cháng"
+          },
+          {
+            "w": "多",
+            "pinyin": "duō"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "他",
+            "pinyin": "tā"
+          },
+          {
+            "w": "每",
+            "pinyin": "měi"
+          },
+          {
+            "w": "天",
+            "pinyin": "tiān"
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "早",
+            "pinyin": "zǎo"
+          },
+          {
+            "w": "去",
+            "pinyin": "qù"
+          },
+          {
+            "w": "学校",
+            "pinyin": "xué xiào"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "他",
+            "pinyin": "tā"
+          },
+          {
+            "w": "在",
+            "pinyin": "zài"
+          },
+          {
+            "w": "学校",
+            "pinyin": "xué xiào"
+          },
+          {
+            "w": "准备",
+            "pinyin": "zhǔn bèi",
+            "isNew": true
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "多",
+            "pinyin": "duō"
+          },
+          {
+            "w": "事情",
+            "pinyin": "shì qing",
+            "isNew": true
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "学生",
+            "pinyin": "xué sheng"
+          },
+          {
+            "w": "们",
+            "pinyin": "men"
+          },
+          {
+            "w": "也",
+            "pinyin": "yě"
+          },
+          {
+            "w": "喜欢",
+            "pinyin": "xǐ huan"
+          },
+          {
+            "w": "他",
+            "pinyin": "tā"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "今天小明和王老师一起工作，他们做了一些事情。同事们看到他们，觉得他们很好。",
+        "vi": "Hôm nay Tiêu Minh và thầy Vương làm việc cùng nhau, họ đã làm một số việc. Các đồng nghiệp nhìn thấy họ, cảm thấy họ rất tốt.",
+        "tokens": [
+          {
+            "w": "今天",
+            "pinyin": "jīn tiān"
+          },
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "和",
+            "pinyin": "hé"
+          },
+          {
+            "w": "王老师",
+            "pinyin": "wáng lǎo shī"
+          },
+          {
+            "w": "一起",
+            "pinyin": "yī qǐ"
+          },
+          {
+            "w": "工作",
+            "pinyin": "gōng zuò"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "他们",
+            "pinyin": "tā men"
+          },
+          {
+            "w": "做",
+            "pinyin": "zuò"
+          },
+          {
+            "w": "了",
+            "pinyin": "le"
+          },
+          {
+            "w": "一些",
+            "pinyin": "yī xiē"
+          },
+          {
+            "w": "事情",
+            "pinyin": "shì qing",
+            "isNew": true
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "同事",
+            "pinyin": "tóng shì",
+            "isNew": true
+          },
+          {
+            "w": "们",
+            "pinyin": "men"
+          },
+          {
+            "w": "看到",
+            "pinyin": "kàn dào"
+          },
+          {
+            "w": "他们",
+            "pinyin": "tā men"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "觉得",
+            "pinyin": "jué de"
+          },
+          {
+            "w": "他们",
+            "pinyin": "tā men"
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "好",
+            "pinyin": "hǎo"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "小美也有一些事情要准备，她下午去了公司。同事们帮她做事情，她觉得很高兴。",
+        "vi": "Tiêu Mỹ cũng có một số việc cần chuẩn bị, cô ấy đã đi đến công ty vào buổi chiều. Các đồng nghiệp giúp cô ấy làm việc, cô ấy cảm thấy rất vui.",
+        "tokens": [
+          {
+            "w": "小美",
+            "pinyin": "xiǎo měi"
+          },
+          {
+            "w": "也",
+            "pinyin": "yě"
+          },
+          {
+            "w": "有一些",
+            "pinyin": "yǒu yī xiē"
+          },
+          {
+            "w": "事情",
+            "pinyin": "shì qing",
+            "isNew": true
+          },
+          {
+            "w": "要",
+            "pinyin": "yào"
+          },
+          {
+            "w": "准备",
+            "pinyin": "zhǔn bèi",
+            "isNew": true
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "她",
+            "pinyin": "tā"
+          },
+          {
+            "w": "下午",
+            "pinyin": "xià wǔ"
+          },
+          {
+            "w": "去",
+            "pinyin": "qù"
+          },
+          {
+            "w": "了",
+            "pinyin": "le"
+          },
+          {
+            "w": "公司",
+            "pinyin": "gōng sī"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "同事",
+            "pinyin": "tóng shì",
+            "isNew": true
+          },
+          {
+            "w": "们",
+            "pinyin": "men"
+          },
+          {
+            "w": "帮",
+            "pinyin": "bāng"
+          },
+          {
+            "w": "她",
+            "pinyin": "tā"
+          },
+          {
+            "w": "做",
+            "pinyin": "zuò"
+          },
+          {
+            "w": "事情",
+            "pinyin": "shì qing",
+            "isNew": true
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "她",
+            "pinyin": "tā"
+          },
+          {
+            "w": "觉得",
+            "pinyin": "jué de"
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "高兴",
+            "pinyin": "gāo xìng"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "大家在公司里工作，每个人都有事情。下班以后，大家一起回家休息。",
+        "vi": "Mọi người làm việc trong công ty, ai cũng có việc. Sau khi tan làm, mọi người cùng nhau về nhà nghỉ ngơi.",
+        "tokens": [
+          {
+            "w": "大家",
+            "pinyin": "dà jiā"
+          },
+          {
+            "w": "在",
+            "pinyin": "zài"
+          },
+          {
+            "w": "公司",
+            "pinyin": "gōng sī"
+          },
+          {
+            "w": "里",
+            "pinyin": "lǐ"
+          },
+          {
+            "w": "工作",
+            "pinyin": "gōng zuò"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "每",
+            "pinyin": "měi"
+          },
+          {
+            "w": "个人",
+            "pinyin": "gè rén"
+          },
+          {
+            "w": "都",
+            "pinyin": "dōu"
+          },
+          {
+            "w": "有事",
+            "pinyin": "yǒu shì"
+          },
+          {
+            "w": "情",
+            "pinyin": "qíng"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "下班",
+            "pinyin": "xià bān"
+          },
+          {
+            "w": "以后",
+            "pinyin": "yǐ hòu"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "大家",
+            "pinyin": "dà jiā"
+          },
+          {
+            "w": "一起",
+            "pinyin": "yī qǐ"
+          },
+          {
+            "w": "回家",
+            "pinyin": "huí jiā"
+          },
+          {
+            "w": "休息",
+            "pinyin": "xiū xi"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq12-1",
+        "type": "mcq",
+        "q": "王老师每天什么时候去学校？",
+        "options": [
+          "很晚",
+          "很早"
+        ],
+        "answer": 1,
+        "explainVi": "Đoạn 1 viết: 他每天很早去学校 (Thầy ấy đến trường rất sớm mỗi ngày)."
+      },
+      {
+        "id": "rq12-2",
+        "type": "tf",
+        "q": "小美下午去了公司准备事情。",
+        "options": [
+          "Đúng",
+          "Sai"
+        ],
+        "answer": 0,
+        "explainVi": "Đoạn 3 viết: 小美也有一些事情要准备，她下午去了公司 (Tiêu Mỹ cũng có một số việc cần chuẩn bị, cô ấy đã đi đến công ty vào buổi chiều)."
+      },
+      {
+        "id": "rq12-3",
+        "type": "detail",
+        "q": "下班以后，大家做什么？",
+        "options": [
+          "大家一起回家休息",
+          "大家去学校工作"
+        ],
+        "answer": 0,
+        "explainVi": "Đoạn 4 viết: 下班以后，大家一起回家休息 (Sau khi tan làm, mọi người cùng nhau về nhà nghỉ ngơi)."
+      }
+    ]
+  },
+  {
+    "id": "r-t13",
+    "stage": 2,
+    "topicId": 13,
+    "title": "身体不舒服",
+    "mode": "fluent",
+    "knownPercent": 89,
+    "newWords": [
+      "身体",
+      "疼"
+    ],
+    "paragraphs": [
+      {
+        "hanzi": "小明今天觉得身体不太好。他的头很疼，身体里面也有一点儿疼。",
+        "vi": "Hôm nay Tiểu Minh cảm thấy cơ thể không được khỏe lắm. Đầu cậu ấy rất đau, trong cơ thể cũng đau một chút.",
+        "tokens": [
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "今天",
+            "pinyin": "jīn tiān"
+          },
+          {
+            "w": "觉得",
+            "pinyin": "jué de"
+          },
+          {
+            "w": "身体",
+            "pinyin": "shēn tǐ",
+            "isNew": true
+          },
+          {
+            "w": "不太",
+            "pinyin": "bù tài"
+          },
+          {
+            "w": "好",
+            "pinyin": "hǎo"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "他",
+            "pinyin": "tā"
+          },
+          {
+            "w": "的",
+            "pinyin": "de"
+          },
+          {
+            "w": "头",
+            "pinyin": "tóu"
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "疼",
+            "pinyin": "téng",
+            "isNew": true
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "身体",
+            "pinyin": "shēn tǐ",
+            "isNew": true
+          },
+          {
+            "w": "里面",
+            "pinyin": "lǐ miàn"
+          },
+          {
+            "w": "也",
+            "pinyin": "yě"
+          },
+          {
+            "w": "有一点儿",
+            "pinyin": "yǒu yī diǎn r"
+          },
+          {
+            "w": "疼",
+            "pinyin": "téng",
+            "isNew": true
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "王老师看到小明身体不舒服，就带他去医院。医生问小明哪里疼。",
+        "vi": "Vương lão sư nhìn thấy cơ thể Tiểu Minh không khỏe, liền đưa cậu ấy đi bệnh viện. Bác sĩ hỏi Tiểu Minh đau ở đâu.",
+        "tokens": [
+          {
+            "w": "王老师",
+            "pinyin": "wáng lǎo shī"
+          },
+          {
+            "w": "看到",
+            "pinyin": "kàn dào"
+          },
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "身体",
+            "pinyin": "shēn tǐ",
+            "isNew": true
+          },
+          {
+            "w": "不",
+            "pinyin": "bù"
+          },
+          {
+            "w": "舒服",
+            "pinyin": "shū fu"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "就",
+            "pinyin": "jiù"
+          },
+          {
+            "w": "带",
+            "pinyin": "dài"
+          },
+          {
+            "w": "他",
+            "pinyin": "tā"
+          },
+          {
+            "w": "去",
+            "pinyin": "qù"
+          },
+          {
+            "w": "医院",
+            "pinyin": "yī yuàn"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "医生",
+            "pinyin": "yī shēng"
+          },
+          {
+            "w": "问",
+            "pinyin": "wèn"
+          },
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "哪里",
+            "pinyin": "nǎ lǐ"
+          },
+          {
+            "w": "疼",
+            "pinyin": "téng",
+            "isNew": true
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "小明告诉医生说头疼。医生给小明吃了一些药，还要他在医院休息一会儿。",
+        "vi": "Tiểu Minh nói với bác sĩ là đau đầu. Bác sĩ cho Tiểu Minh uống một ít thuốc, còn bảo cậu ấy nghỉ ngơi ở bệnh viện một lúc.",
+        "tokens": [
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "告诉",
+            "pinyin": "gào sù"
+          },
+          {
+            "w": "医生",
+            "pinyin": "yī shēng"
+          },
+          {
+            "w": "说",
+            "pinyin": "shuō"
+          },
+          {
+            "w": "头疼",
+            "pinyin": "tóu téng"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "医生",
+            "pinyin": "yī shēng"
+          },
+          {
+            "w": "给",
+            "pinyin": "gěi"
+          },
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "吃",
+            "pinyin": "chī"
+          },
+          {
+            "w": "了",
+            "pinyin": "le"
+          },
+          {
+            "w": "一些",
+            "pinyin": "yī xiē"
+          },
+          {
+            "w": "药",
+            "pinyin": "yào"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "还",
+            "pinyin": "hái"
+          },
+          {
+            "w": "要",
+            "pinyin": "yào"
+          },
+          {
+            "w": "他",
+            "pinyin": "tā"
+          },
+          {
+            "w": "在",
+            "pinyin": "zài"
+          },
+          {
+            "w": "医院",
+            "pinyin": "yī yuàn"
+          },
+          {
+            "w": "休息",
+            "pinyin": "xiū xi"
+          },
+          {
+            "w": "一会儿",
+            "pinyin": "yī huì r"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "现在小明觉得身体好一些了。王老师和同学们都很高兴，送小明回家休息。",
+        "vi": "Bây giờ Tiểu Minh cảm thấy cơ thể khỏe hơn một chút rồi. Vương lão sư và các bạn học đều rất vui, đưa Tiểu Minh về nhà nghỉ ngơi.",
+        "tokens": [
+          {
+            "w": "现在",
+            "pinyin": "xiàn zài"
+          },
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "觉得",
+            "pinyin": "jué de"
+          },
+          {
+            "w": "身体",
+            "pinyin": "shēn tǐ",
+            "isNew": true
+          },
+          {
+            "w": "好",
+            "pinyin": "hǎo"
+          },
+          {
+            "w": "一些",
+            "pinyin": "yī xiē"
+          },
+          {
+            "w": "了",
+            "pinyin": "le"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "王老师",
+            "pinyin": "wáng lǎo shī"
+          },
+          {
+            "w": "和",
+            "pinyin": "hé"
+          },
+          {
+            "w": "同学",
+            "pinyin": "tóng xué"
+          },
+          {
+            "w": "们",
+            "pinyin": "men"
+          },
+          {
+            "w": "都",
+            "pinyin": "dōu"
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "高兴",
+            "pinyin": "gāo xìng"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "送",
+            "pinyin": "sòng"
+          },
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "回家",
+            "pinyin": "huí jiā"
+          },
+          {
+            "w": "休息",
+            "pinyin": "xiū xi"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq13-1",
+        "type": "mcq",
+        "q": "小明今天怎么了？",
+        "options": [
+          "身体不舒服",
+          "高兴回家"
+        ],
+        "answer": 0,
+        "explainVi": "Bài đọc viết: '小明今天觉得身体不太好。'"
+      },
+      {
+        "id": "rq13-2",
+        "type": "tf",
+        "q": "王老师带小明去医院看病。",
+        "options": [
+          "Đúng",
+          "Sai"
+        ],
+        "answer": 0,
+        "explainVi": "Bài đọc viết: '王老师看到小明身体不舒服，就带他去医院。'"
+      },
+      {
+        "id": "rq13-3",
+        "type": "detail",
+        "q": "医生让小明做什么？",
+        "options": [
+          "吃药和休息",
+          "回家上课"
+        ],
+        "answer": 0,
+        "explainVi": "Bài đọc viết: '医生给小明吃了一些药，还要他在医院休息一会儿。'"
+      }
+    ]
+  },
+  {
+    "id": "r-t14",
+    "stage": 2,
+    "topicId": 14,
+    "title": "看房间",
+    "mode": "study",
+    "knownPercent": 89,
+    "newWords": [
+      "空调",
+      "外面",
+      "里面"
+    ],
+    "paragraphs": [
+      {
+        "hanzi": "小明和小美来到一个房间。这个房间很好看，里面有很多东西。他们高兴地在里面看。",
+        "vi": "Tiểu Minh và Tiểu Mỹ đến một căn phòng. Căn phòng này rất đẹp, bên trong có rất nhiều đồ đạc. Họ vui vẻ xem ở bên trong.",
+        "tokens": [
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "和",
+            "pinyin": "hé"
+          },
+          {
+            "w": "小美",
+            "pinyin": "xiǎo měi"
+          },
+          {
+            "w": "来到",
+            "pinyin": "lái dào"
+          },
+          {
+            "w": "一",
+            "pinyin": "yī"
+          },
+          {
+            "w": "个",
+            "pinyin": "gè"
+          },
+          {
+            "w": "房间",
+            "pinyin": "fáng jiān"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "这",
+            "pinyin": "zhè"
+          },
+          {
+            "w": "个",
+            "pinyin": "gè"
+          },
+          {
+            "w": "房间",
+            "pinyin": "fáng jiān"
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "好看",
+            "pinyin": "hǎo kàn"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "里面",
+            "pinyin": "lǐ miàn",
+            "isNew": true
+          },
+          {
+            "w": "有",
+            "pinyin": "yǒu"
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "多",
+            "pinyin": "duō"
+          },
+          {
+            "w": "东西",
+            "pinyin": "dōng xi"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "他们",
+            "pinyin": "tā men"
+          },
+          {
+            "w": "高兴",
+            "pinyin": "gāo xìng"
+          },
+          {
+            "w": "地",
+            "pinyin": "dì"
+          },
+          {
+            "w": "在",
+            "pinyin": "zài"
+          },
+          {
+            "w": "里面",
+            "pinyin": "lǐ miàn",
+            "isNew": true
+          },
+          {
+            "w": "看",
+            "pinyin": "kàn"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "小明问王老师外面热不热。王老师说外面有一点儿热。他们想打开空调。",
+        "vi": "Tiểu Minh hỏi thầy Vương bên ngoài có nóng không. Thầy Vương nói bên ngoài hơi nóng. Họ muốn mở điều hòa.",
+        "tokens": [
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "问",
+            "pinyin": "wèn"
+          },
+          {
+            "w": "王老师",
+            "pinyin": "wáng lǎo shī"
+          },
+          {
+            "w": "外面",
+            "pinyin": "wài miàn",
+            "isNew": true
+          },
+          {
+            "w": "热",
+            "pinyin": "rè"
+          },
+          {
+            "w": "不",
+            "pinyin": "bù"
+          },
+          {
+            "w": "热",
+            "pinyin": "rè"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "王老师",
+            "pinyin": "wáng lǎo shī"
+          },
+          {
+            "w": "说",
+            "pinyin": "shuō"
+          },
+          {
+            "w": "外面",
+            "pinyin": "wài miàn",
+            "isNew": true
+          },
+          {
+            "w": "有一点儿",
+            "pinyin": "yǒu yī diǎn r"
+          },
+          {
+            "w": "热",
+            "pinyin": "rè"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "他们",
+            "pinyin": "tā men"
+          },
+          {
+            "w": "想",
+            "pinyin": "xiǎng"
+          },
+          {
+            "w": "打开",
+            "pinyin": "dǎ kāi"
+          },
+          {
+            "w": "空调",
+            "pinyin": "kōng tiáo",
+            "isNew": true
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "里面有一个空调。打开空调以后，里面非常舒服。他们觉得这个地方真不错。",
+        "vi": "Bên trong có một chiếc điều hòa. Sau khi mở điều hòa, bên trong vô cùng thoải mái. Họ cảm thấy nơi này thực sự không tồi.",
+        "tokens": [
+          {
+            "w": "里面",
+            "pinyin": "lǐ miàn",
+            "isNew": true
+          },
+          {
+            "w": "有",
+            "pinyin": "yǒu"
+          },
+          {
+            "w": "一",
+            "pinyin": "yī"
+          },
+          {
+            "w": "个",
+            "pinyin": "gè"
+          },
+          {
+            "w": "空调",
+            "pinyin": "kōng tiáo",
+            "isNew": true
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "打开",
+            "pinyin": "dǎ kāi"
+          },
+          {
+            "w": "空调",
+            "pinyin": "kōng tiáo",
+            "isNew": true
+          },
+          {
+            "w": "以后",
+            "pinyin": "yǐ hòu"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "里面",
+            "pinyin": "lǐ miàn",
+            "isNew": true
+          },
+          {
+            "w": "非常",
+            "pinyin": "fēi cháng"
+          },
+          {
+            "w": "舒服",
+            "pinyin": "shū fu"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "他们",
+            "pinyin": "tā men"
+          },
+          {
+            "w": "觉得",
+            "pinyin": "jué de"
+          },
+          {
+            "w": "这",
+            "pinyin": "zhè"
+          },
+          {
+            "w": "个",
+            "pinyin": "gè"
+          },
+          {
+            "w": "地方",
+            "pinyin": "dì fāng"
+          },
+          {
+            "w": "真",
+            "pinyin": "zhēn"
+          },
+          {
+            "w": "不错",
+            "pinyin": "bù cuò"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "小美问房租贵不贵。王老师告诉他们房租不贵。他们要租下这个房间。",
+        "vi": "Tiểu Mỹ hỏi tiền thuê nhà có đắt không. Thầy Vương bảo họ tiền thuê nhà không đắt. Họ muốn thuê căn phòng này.",
+        "tokens": [
+          {
+            "w": "小美",
+            "pinyin": "xiǎo měi"
+          },
+          {
+            "w": "问",
+            "pinyin": "wèn"
+          },
+          {
+            "w": "房租",
+            "pinyin": "fáng zū"
+          },
+          {
+            "w": "贵",
+            "pinyin": "guì"
+          },
+          {
+            "w": "不",
+            "pinyin": "bù"
+          },
+          {
+            "w": "贵",
+            "pinyin": "guì"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "王老师",
+            "pinyin": "wáng lǎo shī"
+          },
+          {
+            "w": "告诉",
+            "pinyin": "gào sù"
+          },
+          {
+            "w": "他们",
+            "pinyin": "tā men"
+          },
+          {
+            "w": "房租",
+            "pinyin": "fáng zū"
+          },
+          {
+            "w": "不",
+            "pinyin": "bù"
+          },
+          {
+            "w": "贵",
+            "pinyin": "guì"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "他们",
+            "pinyin": "tā men"
+          },
+          {
+            "w": "要",
+            "pinyin": "yào"
+          },
+          {
+            "w": "租",
+            "pinyin": "zū"
+          },
+          {
+            "w": "下",
+            "pinyin": "xià"
+          },
+          {
+            "w": "这",
+            "pinyin": "zhè"
+          },
+          {
+            "w": "个",
+            "pinyin": "gè"
+          },
+          {
+            "w": "房间",
+            "pinyin": "fáng jiān"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq14-1",
+        "type": "mcq",
+        "q": "里面有什么？",
+        "options": [
+          "有很多东西",
+          "没有东西"
+        ],
+        "answer": 0,
+        "explainVi": "Bài đọc viết: '这个房间很好看，里面有很多东西。'"
+      },
+      {
+        "id": "rq14-2",
+        "type": "tf",
+        "q": "外面有一点儿热，他们想打开空调。",
+        "options": [
+          "Đúng",
+          "Sai"
+        ],
+        "answer": 0,
+        "explainVi": "Bài đọc viết: '王老师说外面有一点儿热。他们想打开空调。'"
+      },
+      {
+        "id": "rq14-3",
+        "type": "detail",
+        "q": "房租贵不贵？",
+        "options": [
+          "房租不贵",
+          "房租很贵"
+        ],
+        "answer": 0,
+        "explainVi": "Bài đọc viết: '王老师告诉他们房租不贵。'"
+      }
+    ]
+  },
+  {
+    "id": "r-t15",
+    "stage": 2,
+    "topicId": 15,
+    "title": "小明上网",
+    "mode": "fluent",
+    "knownPercent": 88,
+    "newWords": [
+      "上网",
+      "照片"
+    ],
+    "paragraphs": [
+      {
+        "hanzi": "小明是一个中学生。他每天下午放学回家以后，喜欢上网看一看。",
+        "vi": "Xiao Ming là một học sinh trung học. Mỗi ngày sau khi tan học về nhà, cậu ấy thích lên mạng xem một chút.",
+        "tokens": [
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "是",
+            "pinyin": "shì"
+          },
+          {
+            "w": "一",
+            "pinyin": "yī"
+          },
+          {
+            "w": "个",
+            "pinyin": "gè"
+          },
+          {
+            "w": "中学生",
+            "pinyin": "zhōng xué shēng"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "他",
+            "pinyin": "tā"
+          },
+          {
+            "w": "每",
+            "pinyin": "měi"
+          },
+          {
+            "w": "天下",
+            "pinyin": "tiān xià"
+          },
+          {
+            "w": "午",
+            "pinyin": "wǔ"
+          },
+          {
+            "w": "放学",
+            "pinyin": "fàng xué"
+          },
+          {
+            "w": "回家",
+            "pinyin": "huí jiā"
+          },
+          {
+            "w": "以后",
+            "pinyin": "yǐ hòu"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "喜欢",
+            "pinyin": "xǐ huan"
+          },
+          {
+            "w": "上网",
+            "pinyin": "shàng wǎng",
+            "isNew": true
+          },
+          {
+            "w": "看",
+            "pinyin": "kàn"
+          },
+          {
+            "w": "一",
+            "pinyin": "yī"
+          },
+          {
+            "w": "看",
+            "pinyin": "kàn"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "他在网上找到很多好看的照片。王老师也常常上网看。",
+        "vi": "Cậu ấy tìm thấy rất nhiều bức ảnh đẹp trên mạng. Thầy Wang cũng thường xuyên lên mạng xem.",
+        "tokens": [
+          {
+            "w": "他",
+            "pinyin": "tā"
+          },
+          {
+            "w": "在",
+            "pinyin": "zài"
+          },
+          {
+            "w": "网上",
+            "pinyin": "wǎng shàng"
+          },
+          {
+            "w": "找到",
+            "pinyin": "zhǎo dào"
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "多",
+            "pinyin": "duō"
+          },
+          {
+            "w": "好看",
+            "pinyin": "hǎo kàn"
+          },
+          {
+            "w": "的",
+            "pinyin": "de"
+          },
+          {
+            "w": "照片",
+            "pinyin": "zhào piàn",
+            "isNew": true
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "王老师",
+            "pinyin": "wáng lǎo shī"
+          },
+          {
+            "w": "也",
+            "pinyin": "yě"
+          },
+          {
+            "w": "常常",
+            "pinyin": "cháng cháng"
+          },
+          {
+            "w": "上网",
+            "pinyin": "shàng wǎng",
+            "isNew": true
+          },
+          {
+            "w": "看",
+            "pinyin": "kàn"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "王老师给小明发了一些照片。小明觉得这些照片真漂亮。",
+        "vi": "Thầy Wang gửi cho Xiao Ming một số bức ảnh. Xiao Ming cảm thấy những bức ảnh này thực sự rất đẹp.",
+        "tokens": [
+          {
+            "w": "王老师",
+            "pinyin": "wáng lǎo shī"
+          },
+          {
+            "w": "给",
+            "pinyin": "gěi"
+          },
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "发",
+            "pinyin": "fā"
+          },
+          {
+            "w": "了",
+            "pinyin": "le"
+          },
+          {
+            "w": "一些",
+            "pinyin": "yī xiē"
+          },
+          {
+            "w": "照片",
+            "pinyin": "zhào piàn",
+            "isNew": true
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "觉得",
+            "pinyin": "jué de"
+          },
+          {
+            "w": "这些",
+            "pinyin": "zhè xiē"
+          },
+          {
+            "w": "照片",
+            "pinyin": "zhào piàn",
+            "isNew": true
+          },
+          {
+            "w": "真",
+            "pinyin": "zhēn"
+          },
+          {
+            "w": "漂亮",
+            "pinyin": "piào liang"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "上网可以学到很多东西。小明和王老师常常一边上网，一边看照片。",
+        "vi": "Lên mạng có thể học được rất nhiều thứ. Xiao Ming và thầy Wang thường vừa lên mạng, vừa xem ảnh.",
+        "tokens": [
+          {
+            "w": "上网",
+            "pinyin": "shàng wǎng",
+            "isNew": true
+          },
+          {
+            "w": "可以",
+            "pinyin": "kě yǐ"
+          },
+          {
+            "w": "学",
+            "pinyin": "xué"
+          },
+          {
+            "w": "到",
+            "pinyin": "dào"
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "多",
+            "pinyin": "duō"
+          },
+          {
+            "w": "东西",
+            "pinyin": "dōng xi"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "和",
+            "pinyin": "hé"
+          },
+          {
+            "w": "王老师",
+            "pinyin": "wáng lǎo shī"
+          },
+          {
+            "w": "常常",
+            "pinyin": "cháng cháng"
+          },
+          {
+            "w": "一边",
+            "pinyin": "yī biān"
+          },
+          {
+            "w": "上网",
+            "pinyin": "shàng wǎng",
+            "isNew": true
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "一边",
+            "pinyin": "yī biān"
+          },
+          {
+            "w": "看",
+            "pinyin": "kàn"
+          },
+          {
+            "w": "照片",
+            "pinyin": "zhào piàn",
+            "isNew": true
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq15-1",
+        "type": "mcq",
+        "q": "小明放学回家以后喜欢做什么？",
+        "options": [
+          "喜欢上网看一看",
+          "喜欢去买东西"
+        ],
+        "answer": 0,
+        "explainVi": "Theo đoạn 1: 他每天下午放学回家以后，喜欢上网看一看。"
+      },
+      {
+        "id": "rq15-2",
+        "type": "tf",
+        "q": "王老师也常常上网，并且给小明发了一些照片。",
+        "options": [
+          "Đúng",
+          "Sai"
+        ],
+        "answer": 0,
+        "explainVi": "Theo đoạn 2 và 3: 王老师也常常上网看。王老师给小明发了一些照片。"
+      },
+      {
+        "id": "rq15-3",
+        "type": "detail",
+        "q": "小明觉得这些照片怎么样？",
+        "options": [
+          "真漂亮",
+          "不好看"
+        ],
+        "answer": 0,
+        "explainVi": "Theo đoạn 3: 小明觉得这些照片真漂亮。"
+      }
+    ]
+  },
+  {
+    "id": "r-t16",
+    "stage": 2,
+    "topicId": 16,
+    "title": "小美网购",
+    "mode": "study",
+    "knownPercent": 91,
+    "newWords": [
+      "银行卡",
+      "网购",
+      "快递"
+    ],
+    "paragraphs": [
+      {
+        "hanzi": "小美今天想网购一些东西。她打开电脑，开始在网上看衣服。",
+        "vi": "Tiểu Mỹ hôm nay muốn mua sắm online một ít đồ. Cô ấy mở máy tính, bắt đầu xem quần áo trên mạng.",
+        "tokens": [
+          {
+            "w": "小美",
+            "pinyin": "xiǎo měi"
+          },
+          {
+            "w": "今天",
+            "pinyin": "jīn tiān"
+          },
+          {
+            "w": "想",
+            "pinyin": "xiǎng"
+          },
+          {
+            "w": "网购",
+            "pinyin": "wǎng gòu",
+            "isNew": true
+          },
+          {
+            "w": "一些",
+            "pinyin": "yī xiē"
+          },
+          {
+            "w": "东西",
+            "pinyin": "dōng xi"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "她",
+            "pinyin": "tā"
+          },
+          {
+            "w": "打开",
+            "pinyin": "dǎ kāi"
+          },
+          {
+            "w": "电脑",
+            "pinyin": "diàn nǎo"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "开始",
+            "pinyin": "kāi shǐ"
+          },
+          {
+            "w": "在",
+            "pinyin": "zài"
+          },
+          {
+            "w": "网上",
+            "pinyin": "wǎng shàng"
+          },
+          {
+            "w": "看",
+            "pinyin": "kàn"
+          },
+          {
+            "w": "衣服",
+            "pinyin": "yī fu"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "她看到一件很好看的衣服，就用银行卡买下来。网购真方便啊。",
+        "vi": "Cô ấy nhìn thấy một bộ quần áo rất đẹp, liền dùng thẻ ngân hàng mua xuống. Mua sắm online thật tiện lợi.",
+        "tokens": [
+          {
+            "w": "她",
+            "pinyin": "tā"
+          },
+          {
+            "w": "看到",
+            "pinyin": "kàn dào"
+          },
+          {
+            "w": "一",
+            "pinyin": "yī"
+          },
+          {
+            "w": "件",
+            "pinyin": "jiàn"
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "好看",
+            "pinyin": "hǎo kàn"
+          },
+          {
+            "w": "的",
+            "pinyin": "de"
+          },
+          {
+            "w": "衣服",
+            "pinyin": "yī fu"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "就",
+            "pinyin": "jiù"
+          },
+          {
+            "w": "用",
+            "pinyin": "yòng"
+          },
+          {
+            "w": "银行卡",
+            "pinyin": "yín háng kǎ",
+            "isNew": true
+          },
+          {
+            "w": "买",
+            "pinyin": "mǎi"
+          },
+          {
+            "w": "下来",
+            "pinyin": "xià lai"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "网购",
+            "pinyin": "wǎng gòu",
+            "isNew": true
+          },
+          {
+            "w": "真",
+            "pinyin": "zhēn"
+          },
+          {
+            "w": "方便",
+            "pinyin": "fāng biàn"
+          },
+          {
+            "w": "啊",
+            "pinyin": "a"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "两天以后，快递到了。小美听到有人说话，就高兴地去开门拿快递。",
+        "vi": "Hai ngày sau, chuyển phát nhanh đã đến. Tiểu Mỹ nghe thấy có người nói chuyện, liền vui vẻ ra mở cửa nhận chuyển phát nhanh.",
+        "tokens": [
+          {
+            "w": "两",
+            "pinyin": "liǎng"
+          },
+          {
+            "w": "天",
+            "pinyin": "tiān"
+          },
+          {
+            "w": "以后",
+            "pinyin": "yǐ hòu"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "快递",
+            "pinyin": "kuài dì",
+            "isNew": true
+          },
+          {
+            "w": "到",
+            "pinyin": "dào"
+          },
+          {
+            "w": "了",
+            "pinyin": "le"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "小美",
+            "pinyin": "xiǎo měi"
+          },
+          {
+            "w": "听到",
+            "pinyin": "tīng dào"
+          },
+          {
+            "w": "有人",
+            "pinyin": "yǒu rén"
+          },
+          {
+            "w": "说话",
+            "pinyin": "shuō huà"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "就",
+            "pinyin": "jiù"
+          },
+          {
+            "w": "高兴",
+            "pinyin": "gāo xìng"
+          },
+          {
+            "w": "地",
+            "pinyin": "dì"
+          },
+          {
+            "w": "去",
+            "pinyin": "qù"
+          },
+          {
+            "w": "开",
+            "pinyin": "kāi"
+          },
+          {
+            "w": "门",
+            "pinyin": "mén"
+          },
+          {
+            "w": "拿",
+            "pinyin": "ná"
+          },
+          {
+            "w": "快递",
+            "pinyin": "kuài dì",
+            "isNew": true
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "她打开看，衣服很好。她拿出一张银行卡给朋友看，大家都很高兴。",
+        "vi": "Cô ấy mở ra xem, quần áo rất tốt. Cô ấy lấy ra một chiếc thẻ ngân hàng cho bạn bè xem, mọi người đều rất vui mừng.",
+        "tokens": [
+          {
+            "w": "她",
+            "pinyin": "tā"
+          },
+          {
+            "w": "打开",
+            "pinyin": "dǎ kāi"
+          },
+          {
+            "w": "看",
+            "pinyin": "kàn"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "衣服",
+            "pinyin": "yī fu"
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "好",
+            "pinyin": "hǎo"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "她",
+            "pinyin": "tā"
+          },
+          {
+            "w": "拿出",
+            "pinyin": "ná chū"
+          },
+          {
+            "w": "一",
+            "pinyin": "yī"
+          },
+          {
+            "w": "张",
+            "pinyin": "zhāng"
+          },
+          {
+            "w": "银行卡",
+            "pinyin": "yín háng kǎ",
+            "isNew": true
+          },
+          {
+            "w": "给",
+            "pinyin": "gěi"
+          },
+          {
+            "w": "朋友",
+            "pinyin": "péng you"
+          },
+          {
+            "w": "看",
+            "pinyin": "kàn"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "大家",
+            "pinyin": "dà jiā"
+          },
+          {
+            "w": "都",
+            "pinyin": "dōu"
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "高兴",
+            "pinyin": "gāo xìng"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq16-1",
+        "type": "mcq",
+        "q": "小美在网上买什么东西？",
+        "options": [
+          "衣服",
+          "手机",
+          "书"
+        ],
+        "answer": 0,
+        "explainVi": "Bài đọc viết: '她打开电脑，开始在网上看衣服。'"
+      },
+      {
+        "id": "rq16-2",
+        "type": "tf",
+        "q": "小美用银行卡网购衣服。",
+        "options": [
+          "Đúng",
+          "Sai"
+        ],
+        "answer": 0,
+        "explainVi": "Bài đọc viết: '她看到一件很好看的衣服，就用银行卡买下来。网购真方便啊。'"
+      },
+      {
+        "id": "rq16-3",
+        "type": "detail",
+        "q": "几天以后快递到了？",
+        "options": [
+          "一天以后",
+          "两天以后",
+          "三天以后"
+        ],
+        "answer": 1,
+        "explainVi": "Bài đọc viết: '两天以后，快递到了。'"
+      }
+    ]
+  },
+  {
+    "id": "story-c2",
+    "stage": 2,
+    "topicId": 200,
+    "title": "Chương 2: Căn phòng mới của Bao",
+    "mode": "study",
+    "knownPercent": 94,
+    "isStoryChapter": true,
+    "chapterNumber": 2,
+    "cliffhangerVi": "Khi Bao đang nhìn ra ngoài qua cửa sổ, cậu thấy một chiếc túi nhỏ rơi xuống từ trên lầu, bên trong có một mảnh giấy lạ.",
+    "newWords": [
+      "跳舞",
+      "风"
+    ],
+    "paragraphs": [
+      {
+        "hanzi": "Bao 住进了新房间。这个房间不大，但是很舒服。Bao 上网买了一些东西。快递送到的时候，Bao 高兴。房间里没有风，Bao 觉得有一点儿热。",
+        "vi": "Bao đã dọn vào phòng mới. Căn phòng này không lớn nhưng rất thoải mái. Bao lên mạng mua một vài món đồ. Khi bưu kiện được gửi đến, Bao vui mừng. Trong phòng không có gió, Bao cảm thấy hơi nóng.",
+        "tokens": [
+          {
+            "w": "Bao ",
+            "pinyin": ""
+          },
+          {
+            "w": "住",
+            "pinyin": "zhù"
+          },
+          {
+            "w": "进",
+            "pinyin": "jìn"
+          },
+          {
+            "w": "了",
+            "pinyin": "le"
+          },
+          {
+            "w": "新房",
+            "pinyin": "xīn fáng"
+          },
+          {
+            "w": "间",
+            "pinyin": "jiān"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "这",
+            "pinyin": "zhè"
+          },
+          {
+            "w": "个",
+            "pinyin": "gè"
+          },
+          {
+            "w": "房间",
+            "pinyin": "fáng jiān"
+          },
+          {
+            "w": "不大",
+            "pinyin": "bù dà"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "但是",
+            "pinyin": "dàn shì"
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "舒服",
+            "pinyin": "shū fu"
+          },
+          {
+            "w": "。Bao ",
+            "pinyin": ""
+          },
+          {
+            "w": "上网",
+            "pinyin": "shàng wǎng"
+          },
+          {
+            "w": "买",
+            "pinyin": "mǎi"
+          },
+          {
+            "w": "了",
+            "pinyin": "le"
+          },
+          {
+            "w": "一些",
+            "pinyin": "yī xiē"
+          },
+          {
+            "w": "东西",
+            "pinyin": "dōng xi"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "快递",
+            "pinyin": "kuài dì"
+          },
+          {
+            "w": "送到",
+            "pinyin": "sòng dào"
+          },
+          {
+            "w": "的",
+            "pinyin": "de"
+          },
+          {
+            "w": "时候",
+            "pinyin": "shí hou"
+          },
+          {
+            "w": "，Bao ",
+            "pinyin": ""
+          },
+          {
+            "w": "高兴",
+            "pinyin": "gāo xìng"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "房间",
+            "pinyin": "fáng jiān"
+          },
+          {
+            "w": "里",
+            "pinyin": "lǐ"
+          },
+          {
+            "w": "没有",
+            "pinyin": "méi yǒu"
+          },
+          {
+            "w": "风",
+            "pinyin": "fēng",
+            "isNew": true
+          },
+          {
+            "w": "，Bao ",
+            "pinyin": ""
+          },
+          {
+            "w": "觉得",
+            "pinyin": "jué de"
+          },
+          {
+            "w": "有一点儿",
+            "pinyin": "yǒu yī diǎn r"
+          },
+          {
+            "w": "热",
+            "pinyin": "rè"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "这时，外面下雨了。风从门外进来，房间里舒服了一些。Bao 坐在椅子上，听着雨声。外边的风很大，Bao 觉得这个天气真好。",
+        "vi": "Lúc này, bên ngoài trời đổ mưa. Gió từ ngoài cửa vào, căn phòng trở nên thoải mái hơn một chút. Bao ngồi trên ghế, lắng nghe tiếng mưa. Gió bên ngoài rất lớn, Bao cảm thấy thời tiết này thật tốt.",
+        "tokens": [
+          {
+            "w": "这时",
+            "pinyin": "zhè shí"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "外面",
+            "pinyin": "wài miàn"
+          },
+          {
+            "w": "下雨",
+            "pinyin": "xià yǔ"
+          },
+          {
+            "w": "了",
+            "pinyin": "le"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "风",
+            "pinyin": "fēng",
+            "isNew": true
+          },
+          {
+            "w": "从",
+            "pinyin": "cóng"
+          },
+          {
+            "w": "门",
+            "pinyin": "mén"
+          },
+          {
+            "w": "外",
+            "pinyin": "wài"
+          },
+          {
+            "w": "进来",
+            "pinyin": "jìn lái"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "房间",
+            "pinyin": "fáng jiān"
+          },
+          {
+            "w": "里",
+            "pinyin": "lǐ"
+          },
+          {
+            "w": "舒服",
+            "pinyin": "shū fu"
+          },
+          {
+            "w": "了",
+            "pinyin": "le"
+          },
+          {
+            "w": "一些",
+            "pinyin": "yī xiē"
+          },
+          {
+            "w": "。Bao ",
+            "pinyin": ""
+          },
+          {
+            "w": "坐",
+            "pinyin": "Zuò"
+          },
+          {
+            "w": "在",
+            "pinyin": "zài"
+          },
+          {
+            "w": "椅子",
+            "pinyin": "yǐ zi"
+          },
+          {
+            "w": "上",
+            "pinyin": "shàng"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "听",
+            "pinyin": "tīng"
+          },
+          {
+            "w": "着",
+            "pinyin": "zhe"
+          },
+          {
+            "w": "雨",
+            "pinyin": "yǔ"
+          },
+          {
+            "w": "声",
+            "pinyin": "shēng"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "外边",
+            "pinyin": "wài bian"
+          },
+          {
+            "w": "的",
+            "pinyin": "de"
+          },
+          {
+            "w": "风",
+            "pinyin": "fēng",
+            "isNew": true
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "大",
+            "pinyin": "dà"
+          },
+          {
+            "w": "，Bao ",
+            "pinyin": ""
+          },
+          {
+            "w": "觉得",
+            "pinyin": "jué de"
+          },
+          {
+            "w": "这",
+            "pinyin": "zhè"
+          },
+          {
+            "w": "个",
+            "pinyin": "gè"
+          },
+          {
+            "w": "天气",
+            "pinyin": "tiān qì"
+          },
+          {
+            "w": "真",
+            "pinyin": "zhēn"
+          },
+          {
+            "w": "好",
+            "pinyin": "hǎo"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "不一会儿，小明和小美来了。大家一起跳舞。他们喜欢跳舞，因为跳舞很快乐。房间里有了风，他们跳舞跳得很开心。",
+        "vi": "Không lâu sau, Tiểu Minh và Tiểu Mỹ đến. Mọi người cùng nhau nhảy múa. Họ thích nhảy múa vì nhảy múa rất vui vẻ. Trong phòng có gió, họ nhảy rất vui.",
+        "tokens": [
+          {
+            "w": "不一会儿",
+            "pinyin": "bù yīhuǐr5"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "和",
+            "pinyin": "hé"
+          },
+          {
+            "w": "小美",
+            "pinyin": "xiǎo měi"
+          },
+          {
+            "w": "来",
+            "pinyin": "lái"
+          },
+          {
+            "w": "了",
+            "pinyin": "le"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "大家",
+            "pinyin": "dà jiā"
+          },
+          {
+            "w": "一起",
+            "pinyin": "yī qǐ"
+          },
+          {
+            "w": "跳舞",
+            "pinyin": "tiào wǔ",
+            "isNew": true
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "他们",
+            "pinyin": "tā men"
+          },
+          {
+            "w": "喜欢",
+            "pinyin": "xǐ huan"
+          },
+          {
+            "w": "跳舞",
+            "pinyin": "tiào wǔ",
+            "isNew": true
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "因为",
+            "pinyin": "yīn wèi"
+          },
+          {
+            "w": "跳舞",
+            "pinyin": "tiào wǔ",
+            "isNew": true
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "快乐",
+            "pinyin": "kuài lè"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "房间",
+            "pinyin": "fáng jiān"
+          },
+          {
+            "w": "里",
+            "pinyin": "lǐ"
+          },
+          {
+            "w": "有",
+            "pinyin": "yǒu"
+          },
+          {
+            "w": "了",
+            "pinyin": "le"
+          },
+          {
+            "w": "风",
+            "pinyin": "fēng",
+            "isNew": true
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "他们",
+            "pinyin": "tā men"
+          },
+          {
+            "w": "跳舞",
+            "pinyin": "tiào wǔ",
+            "isNew": true
+          },
+          {
+            "w": "跳",
+            "pinyin": "tiào"
+          },
+          {
+            "w": "得",
+            "pinyin": "de"
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "开心",
+            "pinyin": "kāi xīn"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "hanzi": "下雨的事情过去了，小明和小美回家了。Bao 一个人在房间里。他觉得新房间很好，他也喜欢他的新朋友。Bao 看着外面，想到了明天。",
+        "vi": "Chuyện mưa đã qua, Tiểu Minh và Tiểu Mỹ về nhà. Bao ở một mình trong phòng. Cậu thấy căn phòng mới rất tốt, cậu cũng thích những người bạn mới của mình. Bao nhìn ra ngoài, nghĩ về ngày mai.",
+        "tokens": [
+          {
+            "w": "下雨",
+            "pinyin": "xià yǔ"
+          },
+          {
+            "w": "的",
+            "pinyin": "de"
+          },
+          {
+            "w": "事情",
+            "pinyin": "shì qing"
+          },
+          {
+            "w": "过去",
+            "pinyin": "guò qù"
+          },
+          {
+            "w": "了",
+            "pinyin": "le"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "小明",
+            "pinyin": "xiǎo míng"
+          },
+          {
+            "w": "和",
+            "pinyin": "hé"
+          },
+          {
+            "w": "小美",
+            "pinyin": "xiǎo měi"
+          },
+          {
+            "w": "回家",
+            "pinyin": "huí jiā"
+          },
+          {
+            "w": "了",
+            "pinyin": "le"
+          },
+          {
+            "w": "。Bao ",
+            "pinyin": ""
+          },
+          {
+            "w": "一",
+            "pinyin": "yī"
+          },
+          {
+            "w": "个人",
+            "pinyin": "gè rén"
+          },
+          {
+            "w": "在",
+            "pinyin": "zài"
+          },
+          {
+            "w": "房间",
+            "pinyin": "fáng jiān"
+          },
+          {
+            "w": "里",
+            "pinyin": "lǐ"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          },
+          {
+            "w": "他",
+            "pinyin": "tā"
+          },
+          {
+            "w": "觉得",
+            "pinyin": "jué de"
+          },
+          {
+            "w": "新房",
+            "pinyin": "xīn fáng"
+          },
+          {
+            "w": "间",
+            "pinyin": "jiān"
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "好",
+            "pinyin": "hǎo"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "他",
+            "pinyin": "tā"
+          },
+          {
+            "w": "也",
+            "pinyin": "yě"
+          },
+          {
+            "w": "喜欢",
+            "pinyin": "xǐ huan"
+          },
+          {
+            "w": "他",
+            "pinyin": "tā"
+          },
+          {
+            "w": "的",
+            "pinyin": "de"
+          },
+          {
+            "w": "新",
+            "pinyin": "xīn"
+          },
+          {
+            "w": "朋友",
+            "pinyin": "péng you"
+          },
+          {
+            "w": "。Bao ",
+            "pinyin": ""
+          },
+          {
+            "w": "看",
+            "pinyin": "kàn"
+          },
+          {
+            "w": "着",
+            "pinyin": "zhe"
+          },
+          {
+            "w": "外面",
+            "pinyin": "wài miàn"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "想到",
+            "pinyin": "xiǎng dào"
+          },
+          {
+            "w": "了",
+            "pinyin": "le"
+          },
+          {
+            "w": "明天",
+            "pinyin": "míng tiān"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "scq2-1",
+        "type": "tf",
+        "q": "Bao 觉得新房间很舒服。",
+        "options": [
+          "对",
+          "不对"
+        ],
+        "answer": 0,
+        "explainVi": "Đoạn 1 viết: 这个房间不大，但是很舒服 (Căn phòng không lớn nhưng rất thoải mái)."
+      },
+      {
+        "id": "scq2-2",
+        "type": "mcq",
+        "q": "谁和 Bao 一起跳舞？",
+        "options": [
+          "王老师",
+          "小明和小美",
+          "只有小明"
+        ],
+        "answer": 1,
+        "explainVi": "Đoạn 3 viết: 不一会儿，小明和小美来了。大家一起跳舞。"
+      },
+      {
+        "id": "scq2-3",
+        "type": "detail",
+        "q": "为什么 Bao 觉得房间里有一点儿热？",
+        "options": [
+          "因为没有风",
+          "因为下雨了",
+          "因为房间太大了"
+        ],
+        "answer": 0,
+        "explainVi": "Đoạn 1 viết: 房间里没有风，Bao 觉得有一点儿热。"
+      },
+      {
+        "id": "scq2-4",
+        "type": "mcq",
+        "q": "雨下完了以后，小明和小美做了什么？",
+        "options": [
+          "继续跳舞",
+          "回家了",
+          "去买东西"
+        ],
+        "answer": 1,
+        "explainVi": "Đoạn 4 viết: 下雨的事情过去了，小明和小美回家了。"
+      }
+    ]
+  }
+]

@@ -628,6 +628,2407 @@
     ]
   },
   {
+    "id": "t2-giao-tiep",
+    "stage": 1,
+    "topicId": 2,
+    "title": "Giới thiệu bản thân",
+    "type": "giao-tiep",
+    "xp": 30,
+    "newWords": [
+      "w-054",
+      "w-056",
+      "w-062",
+      "w-063",
+      "w-065",
+      "w-137"
+    ],
+    "patterns": [
+      {
+        "id": "p-t2-1",
+        "frame": "我叫___。",
+        "pinyin": "wǒ jiào 。",
+        "meaningVi": "Tôi tên là...",
+        "exampleHanzi": "我叫Bao。",
+        "examplePinyin": "wǒ jiào Bao。",
+        "exampleVi": "Tôi tên là Bao.",
+        "slots": {
+          "promptVi": "Chọn từ thích hợp điền vào chỗ trống: Tôi tên là Linh.",
+          "choices": [
+            {
+              "hanzi": "叫",
+              "pinyin": "jiào",
+              "vi": "gọi"
+            },
+            {
+              "hanzi": "林",
+              "pinyin": "lín",
+              "vi": "Linh"
+            },
+            {
+              "hanzi": "是",
+              "pinyin": "shì",
+              "vi": "là"
+            }
+          ],
+          "answerHanzi": "林"
+        }
+      },
+      {
+        "id": "p-t2-2",
+        "frame": "你是___人？",
+        "pinyin": "nǐ shì rén ？",
+        "meaningVi": "Bạn là người nước nào?",
+        "exampleHanzi": "你是越南人。",
+        "examplePinyin": "nǐ shì yuè nán rén 。",
+        "exampleVi": "Bạn là người Việt Nam.",
+        "slots": {
+          "promptVi": "Chọn từ thích hợp điền vào chỗ trống để hỏi quốc tịch Trung Quốc.",
+          "choices": [
+            {
+              "hanzi": "中国",
+              "pinyin": "zhōng guó",
+              "vi": "Trung Quốc"
+            },
+            {
+              "hanzi": "越南",
+              "pinyin": "yuè nán",
+              "vi": "Việt Nam"
+            },
+            {
+              "hanzi": "同学",
+              "pinyin": "tóng xué",
+              "vi": "bạn học"
+            }
+          ],
+          "answerHanzi": "中国"
+        }
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Linh",
+        "voiceRole": "female",
+        "hanzi": "你好！你叫什么名字？",
+        "pinyin": "nǐ hǎo ！ nǐ jiào shén me míng zì ？",
+        "vi": "Xin chào! Bạn tên là gì?",
+        "mode": "npc"
+      },
+      {
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "我叫Bao。",
+        "pinyin": "wǒ jiào Bao。",
+        "vi": "Tôi tên là Bao.",
+        "mode": "choice",
+        "goalLabel": "Giới thiệu tên",
+        "choices": [
+          {
+            "hanzi": "我叫Bao。",
+            "pinyin": "wǒ jiào Bao。",
+            "vi": "Tôi tên là Bao.",
+            "correct": true
+          },
+          {
+            "hanzi": "我是Bao。",
+            "pinyin": "wǒ shì Bao。",
+            "vi": "Tôi là Bao.",
+            "correct": false
+          },
+          {
+            "hanzi": "你叫Bao。",
+            "pinyin": "nǐ jiào Bao。",
+            "vi": "Bạn tên là Bao.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "speaker": "Linh",
+        "voiceRole": "female",
+        "hanzi": "很高兴认识你。",
+        "pinyin": "hěn gāo xìng rèn shí nǐ 。",
+        "vi": "Rất vui được quen biết bạn.",
+        "mode": "npc"
+      },
+      {
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "我也很高兴认识你。",
+        "pinyin": "wǒ yě hěn gāo xìng rèn shí nǐ 。",
+        "vi": "Tôi cũng rất vui được quen biết bạn.",
+        "mode": "tiles",
+        "goalLabel": "Đáp lại lời chào",
+        "tilePrompt": [
+          "我也",
+          "很",
+          "高兴",
+          "认识",
+          "你"
+        ]
+      },
+      {
+        "speaker": "Linh",
+        "voiceRole": "female",
+        "hanzi": "你是中国人吗？",
+        "pinyin": "nǐ shì zhōng guó rén ma ？",
+        "vi": "Bạn là người Trung Quốc phải không?",
+        "mode": "npc"
+      },
+      {
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "不是，我是越南人。",
+        "pinyin": "bú shì ， wǒ shì yuè nán rén 。",
+        "vi": "Không phải, tôi là người Việt Nam.",
+        "mode": "pinyin",
+        "goalLabel": "Nói quốc tịch",
+        "acceptedPinyin": [
+          "bushiwoshiyuenanren",
+          "bú shì ， wǒ shì yuè nán rén 。",
+          "不是，我是越南人"
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "id": "ex-t2-1",
+        "kind": "meaning-choice",
+        "promptVi": "Câu sau đây có nghĩa là gì: '很高兴认识你。'",
+        "hanziPrompt": "很高兴认识你。",
+        "pinyinPrompt": "hěn gāo xìng rèn shí nǐ 。",
+        "options": [
+          {
+            "label": "Rất vui được quen biết bạn.",
+            "value": "Rất vui được quen biết bạn."
+          },
+          {
+            "label": "Bạn tên là gì?",
+            "value": "Bạn tên là gì?"
+          },
+          {
+            "label": "Tôi là người Việt Nam.",
+            "value": "Tôi là người Việt Nam."
+          },
+          {
+            "label": "Cảm ơn bạn.",
+            "value": "Cảm ơn bạn."
+          }
+        ],
+        "answer": "Rất vui được quen biết bạn."
+      },
+      {
+        "id": "ex-t2-2",
+        "kind": "hanzi-choice",
+        "promptVi": "Nghe và chọn chữ Hán đúng (quen biết, nhận thức)",
+        "audioText": "认识",
+        "options": [
+          {
+            "label": "认识",
+            "value": "认识"
+          },
+          {
+            "label": "名字",
+            "value": "名字"
+          },
+          {
+            "label": "同学",
+            "value": "同学"
+          },
+          {
+            "label": "中国",
+            "value": "中国"
+          }
+        ],
+        "answer": "认识"
+      },
+      {
+        "id": "ex-t2-3",
+        "kind": "sentence-tiles",
+        "promptVi": "Sắp xếp thành câu hoàn chỉnh: Tôi là người Việt Nam.",
+        "tiles": [
+          "我",
+          "是",
+          "越南",
+          "人"
+        ],
+        "answer": "我是越南人"
+      }
+    ],
+    "roleplay": [
+      {
+        "npcHanzi": "你好！",
+        "npcPinyin": "nǐ hǎo ！",
+        "npcVi": "Xin chào!",
+        "promptVi": "Chào lại người đối diện.",
+        "options": [
+          {
+            "hanzi": "你好！",
+            "pinyin": "nǐ hǎo ！",
+            "vi": "Xin chào!",
+            "correct": true
+          },
+          {
+            "hanzi": "再见！",
+            "pinyin": "zài jiàn ！",
+            "vi": "Tạm biệt!",
+            "correct": false
+          },
+          {
+            "hanzi": "谢谢！",
+            "pinyin": "xiè xiè ！",
+            "vi": "Cảm ơn!",
+            "correct": false
+          }
+        ],
+        "expectedHanzi": "你好！"
+      },
+      {
+        "npcHanzi": "你叫什么名字？",
+        "npcPinyin": "nǐ jiào shén me míng zì ？",
+        "npcVi": "Bạn tên là gì?",
+        "promptVi": "Trả lời tên bạn là Bao.",
+        "options": [
+          {
+            "hanzi": "我叫Bao。",
+            "pinyin": "wǒ jiào Bao。",
+            "vi": "Tôi tên là Bao.",
+            "correct": true
+          },
+          {
+            "hanzi": "我是老师。",
+            "pinyin": "wǒ shì lǎo shī 。",
+            "vi": "Tôi là giáo viên.",
+            "correct": false
+          },
+          {
+            "hanzi": "我是中国人。",
+            "pinyin": "wǒ shì zhōng guó rén 。",
+            "vi": "Tôi là người Trung Quốc.",
+            "correct": false
+          }
+        ],
+        "expectedHanzi": "我叫Bao。"
+      },
+      {
+        "npcHanzi": "很高兴认识你。",
+        "npcPinyin": "hěn gāo xìng rèn shí nǐ 。",
+        "npcVi": "Rất vui được quen biết bạn.",
+        "promptVi": "Nói 'Tôi cũng rất vui được quen biết bạn.'",
+        "options": [
+          {
+            "hanzi": "我也很高兴认识你。",
+            "pinyin": "wǒ yě hěn gāo xìng rèn shí nǐ 。",
+            "vi": "Tôi cũng rất vui được quen biết bạn.",
+            "correct": true
+          },
+          {
+            "hanzi": "我不认识你。",
+            "pinyin": "wǒ bù rèn shí nǐ 。",
+            "vi": "Tôi không quen biết bạn.",
+            "correct": false
+          },
+          {
+            "hanzi": "再见。",
+            "pinyin": "zài jiàn 。",
+            "vi": "Tạm biệt.",
+            "correct": false
+          }
+        ],
+        "expectedHanzi": "我也很高兴认识你。"
+      }
+    ]
+  },
+  {
+    "id": "t2-doc",
+    "stage": 1,
+    "topicId": 2,
+    "title": "Đọc: 介绍名字",
+    "type": "doc",
+    "xp": 25,
+    "newWords": [],
+    "readingId": "r-t2"
+  },
+  {
+    "id": "t2-nghe",
+    "stage": 1,
+    "topicId": 2,
+    "title": "Nghe: Giới thiệu bản thân",
+    "type": "nghe",
+    "xp": 25,
+    "newWords": [
+      "w-054",
+      "w-056",
+      "w-062",
+      "w-063",
+      "w-065",
+      "w-137"
+    ],
+    "listeningTracks": [
+      {
+        "id": "lt2-1",
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "你好，我叫包。",
+        "pinyin": "nǐ hǎo ， wǒ jiào bāo 。",
+        "vi": "Xin chào, tôi tên là Bao."
+      },
+      {
+        "id": "lt2-2",
+        "speaker": "小美",
+        "voiceRole": "female",
+        "hanzi": "你好，我叫小美。",
+        "pinyin": "nǐ hǎo ， wǒ jiào xiǎo měi 。",
+        "vi": "Xin chào, tôi tên là Tiểu Mỹ."
+      },
+      {
+        "id": "lt2-3",
+        "speaker": "王老师",
+        "voiceRole": "formal",
+        "hanzi": "他是我的同学。",
+        "pinyin": "tā shì wǒ de tóng xué 。",
+        "vi": "Cậu ấy là bạn học của tôi."
+      },
+      {
+        "id": "lt2-4",
+        "speaker": "小明",
+        "voiceRole": "male",
+        "hanzi": "很高兴认识你。",
+        "pinyin": "hěn gāo xìng rèn shí nǐ 。",
+        "vi": "Rất vui được quen biết bạn."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "ng2-1",
+        "kind": "listen-meaning",
+        "promptVi": "Nghe và chọn nghĩa đúng của câu:",
+        "audioText": "你叫什么名字？",
+        "options": [
+          {
+            "label": "Bạn tên là gì?",
+            "value": "Bạn tên là gì?"
+          },
+          {
+            "label": "Bạn là người nước nào?",
+            "value": "Bạn là người nước nào?"
+          },
+          {
+            "label": "Bạn là học sinh à?",
+            "value": "Bạn là học sinh à?"
+          },
+          {
+            "label": "Bạn khỏe không?",
+            "value": "Bạn khỏe không?"
+          }
+        ],
+        "answer": "Bạn tên là gì?"
+      },
+      {
+        "id": "ng2-2",
+        "kind": "listen-hanzi",
+        "promptVi": "Nghe và chọn chữ Hán đúng:",
+        "audioText": "认识",
+        "options": [
+          {
+            "label": "同学",
+            "value": "同学"
+          },
+          {
+            "label": "认识",
+            "value": "认识"
+          },
+          {
+            "label": "名字",
+            "value": "名字"
+          },
+          {
+            "label": "中国",
+            "value": "中国"
+          }
+        ],
+        "answer": "认识"
+      },
+      {
+        "id": "ng2-3",
+        "kind": "listen-tiles",
+        "promptVi": "Nghe câu sau và sắp xếp các từ thành câu hoàn chỉnh:",
+        "audioText": "我是越南人",
+        "tiles": [
+          "我",
+          "是",
+          "越南人"
+        ],
+        "answer": "我是越南人"
+      },
+      {
+        "id": "ng2-4",
+        "kind": "listen-blank",
+        "promptVi": "Nghe câu và điền từ còn thiếu vào chỗ trống: 他叫___。",
+        "audioText": "他叫小明。",
+        "options": [
+          {
+            "label": "小明",
+            "value": "小明"
+          },
+          {
+            "label": "小美",
+            "value": "小美"
+          },
+          {
+            "label": "王老师",
+            "value": "王老师"
+          },
+          {
+            "label": "包",
+            "value": "包"
+          }
+        ],
+        "answer": "小明"
+      },
+      {
+        "id": "ng2-5",
+        "kind": "listen-dialogue",
+        "promptVi": "Nghe đoạn hội thoại và chọn ý đúng:",
+        "audioText": "我是中国人，你呢？",
+        "options": [
+          {
+            "label": "Hỏi đối phương là người nước nào",
+            "value": "Hỏi đối phương là người nước nào"
+          },
+          {
+            "label": "Hỏi tên của đối phương",
+            "value": "Hỏi tên của đối phương"
+          },
+          {
+            "label": "Hỏi tuổi của đối phương",
+            "value": "Hỏi tuổi của đối phương"
+          }
+        ],
+        "answer": "Hỏi đối phương là người nước nào"
+      },
+      {
+        "id": "ng2-6",
+        "kind": "dictation",
+        "promptVi": "Chép chính tả rút gọn: gõ pinyin (hoặc chạm thẻ) câu vừa nghe",
+        "audioText": "我是中国同学",
+        "tiles": [
+          "我",
+          "是",
+          "中国同学"
+        ],
+        "answer": "woshizhongguotongxue"
+      }
+    ]
+  },
+  {
+    "id": "t2-viet",
+    "stage": 1,
+    "topicId": 2,
+    "title": "Viết: Giới thiệu bản thân",
+    "type": "viet",
+    "xp": 25,
+    "newWords": [
+      "w-054",
+      "w-056",
+      "w-062",
+      "w-063",
+      "w-065",
+      "w-137"
+    ],
+    "writingChars": [
+      {
+        "char": "叫",
+        "pinyin": "jiào",
+        "meaningVi": "tên là, gọi",
+        "radical": "口",
+        "radicalNoteVi": "Miệng mở ra để gọi tên ai đó.",
+        "lookalikes": [
+          {
+            "hanzi": "只",
+            "pinyin": "zhǐ",
+            "vi": "chỉ, duy chỉ, con (lượng từ)"
+          },
+          {
+            "hanzi": "叫",
+            "pinyin": "jiào",
+            "vi": "tên là, gọi"
+          },
+          {
+            "hanzi": "口",
+            "pinyin": "kǒu",
+            "vi": "miệng, lượng từ cho nhân khẩu"
+          },
+          {
+            "hanzi": "句",
+            "pinyin": "jù",
+            "vi": "câu (từ)"
+          }
+        ]
+      },
+      {
+        "char": "名",
+        "pinyin": "míng",
+        "meaningVi": "tên, danh tiếng, danh từ",
+        "radical": "口",
+        "radicalNoteVi": "Tên là cái miệng dùng để xướng danh.",
+        "lookalikes": [
+          {
+            "hanzi": "口",
+            "pinyin": "kǒu",
+            "vi": "miệng, lượng từ cho nhân khẩu"
+          },
+          {
+            "hanzi": "句",
+            "pinyin": "jù",
+            "vi": "câu (từ)"
+          },
+          {
+            "hanzi": "只",
+            "pinyin": "zhǐ",
+            "vi": "chỉ, duy chỉ, con (lượng từ)"
+          },
+          {
+            "hanzi": "名",
+            "pinyin": "míng",
+            "vi": "tên, danh tiếng, danh từ"
+          }
+        ]
+      },
+      {
+        "char": "字",
+        "pinyin": "zì",
+        "meaningVi": "chữ, chữ viết",
+        "radical": "子",
+        "radicalNoteVi": "Đứa con học chữ từ trong nhà.",
+        "lookalikes": [
+          {
+            "hanzi": "学",
+            "pinyin": "xué",
+            "vi": "học"
+          },
+          {
+            "hanzi": "字",
+            "pinyin": "zì",
+            "vi": "chữ, chữ viết"
+          },
+          {
+            "hanzi": "子",
+            "pinyin": "zi",
+            "vi": "con, hạt"
+          },
+          {
+            "hanzi": "季",
+            "pinyin": "jì",
+            "vi": "mùa, họ Quý"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "t3-giao-tiep",
+    "stage": 1,
+    "topicId": 3,
+    "title": "Số đếm, tuổi & ngày tháng",
+    "type": "giao-tiep",
+    "xp": 30,
+    "newWords": [
+      "w-135",
+      "w-130",
+      "w-132",
+      "w-136",
+      "w-148",
+      "w-141"
+    ],
+    "patterns": [
+      {
+        "id": "p-t3-1",
+        "frame": "你几___？",
+        "pinyin": "nǐ jǐ ？",
+        "meaningVi": "Bạn mấy tuổi?",
+        "exampleHanzi": "你几岁？",
+        "examplePinyin": "nǐ jǐ suì ？",
+        "exampleVi": "Bạn mấy tuổi?",
+        "slots": {
+          "promptVi": "Chọn từ điền vào chỗ trống để hỏi tuổi:",
+          "choices": [
+            {
+              "hanzi": "岁",
+              "pinyin": "suì",
+              "vi": "tuổi"
+            },
+            {
+              "hanzi": "年",
+              "pinyin": "nián",
+              "vi": "năm"
+            },
+            {
+              "hanzi": "月",
+              "pinyin": "yuè",
+              "vi": "tháng"
+            }
+          ],
+          "answerHanzi": "岁"
+        }
+      },
+      {
+        "id": "p-t3-2",
+        "frame": "今天几___几___？",
+        "pinyin": "jīn tiān jǐ jǐ ？",
+        "meaningVi": "Hôm nay ngày mấy tháng mấy?",
+        "exampleHanzi": "今天几月几号？",
+        "examplePinyin": "jīn tiān jǐ yuè jǐ hào ？",
+        "exampleVi": "Hôm nay ngày mấy tháng mấy?",
+        "slots": {
+          "promptVi": "Chọn từ điền vào chỗ trống để hỏi ngày tháng:",
+          "choices": [
+            {
+              "hanzi": "岁",
+              "pinyin": "suì",
+              "vi": "tuổi"
+            },
+            {
+              "hanzi": "月",
+              "pinyin": "yuè",
+              "vi": "tháng"
+            },
+            {
+              "hanzi": "今年",
+              "pinyin": "jīn nián",
+              "vi": "năm nay"
+            }
+          ],
+          "answerHanzi": "月"
+        }
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "小美",
+        "voiceRole": "female",
+        "hanzi": "小明，你今年几岁？",
+        "pinyin": "xiǎo míng ， nǐ jīn nián jǐ suì ？",
+        "vi": "Tiểu Minh, năm nay bạn mấy tuổi?",
+        "mode": "npc",
+        "goalLabel": "Hỏi tuổi"
+      },
+      {
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "我二十岁。",
+        "pinyin": "wǒ èr shí suì 。",
+        "vi": "Tôi hai mươi tuổi.",
+        "mode": "choice",
+        "goalLabel": "Nói tuổi",
+        "choices": [
+          {
+            "hanzi": "我二十岁。",
+            "pinyin": "wǒ èr shí suì 。",
+            "vi": "Tôi hai mươi tuổi.",
+            "correct": true
+          },
+          {
+            "hanzi": "我二十年。",
+            "pinyin": "wǒ èr shí nián 。",
+            "vi": "Tôi hai mươi năm.",
+            "correct": false
+          },
+          {
+            "hanzi": "我二十月。",
+            "pinyin": "wǒ èr shí yuè 。",
+            "vi": "Tôi hai mươi tháng.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "speaker": "小美",
+        "voiceRole": "female",
+        "hanzi": "今天几月几号？",
+        "pinyin": "jīn tiān jǐ yuè jǐ hào ？",
+        "vi": "Hôm nay ngày mấy tháng mấy?",
+        "mode": "npc",
+        "goalLabel": "Hỏi ngày"
+      },
+      {
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "今天五月六号。",
+        "pinyin": "jīn tiān wǔ yuè liù hào 。",
+        "vi": "Hôm nay ngày 6 tháng 5.",
+        "mode": "tiles",
+        "goalLabel": "Nói ngày",
+        "tilePrompt": [
+          "今天",
+          "五月",
+          "六号"
+        ]
+      },
+      {
+        "speaker": "王老师",
+        "voiceRole": "formal",
+        "hanzi": "明天是谁的生日？",
+        "pinyin": "míng tiān shì shéi de shēng rì ？",
+        "vi": "Ngày mai là sinh nhật của ai?",
+        "mode": "npc",
+        "goalLabel": "Hỏi sinh nhật"
+      },
+      {
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "明天是小美的生日。",
+        "pinyin": "míng tiān shì xiǎo měi de shēng rì 。",
+        "vi": "Ngày mai là sinh nhật của Tiểu Mỹ.",
+        "mode": "pinyin",
+        "goalLabel": "Đáp sinh nhật",
+        "acceptedPinyin": [
+          "mingtianshixiaomeideshengri",
+          "míng tiān shì xiǎo měi de shēng rì 。",
+          "明天是小美的生日"
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "id": "ex-t3-1",
+        "kind": "meaning-choice",
+        "promptVi": "Từ '生日' có nghĩa là gì?",
+        "hanziPrompt": "生日",
+        "pinyinPrompt": "shēng rì",
+        "options": [
+          {
+            "label": "Sinh nhật",
+            "value": "Sinh nhật"
+          },
+          {
+            "label": "Năm nay",
+            "value": "Năm nay"
+          },
+          {
+            "label": "Tháng này",
+            "value": "Tháng này"
+          },
+          {
+            "label": "Hôm nay",
+            "value": "Hôm nay"
+          }
+        ],
+        "answer": "Sinh nhật"
+      },
+      {
+        "id": "ex-t3-2",
+        "kind": "hanzi-choice",
+        "promptVi": "Nghe và chọn chữ Hán đúng (năm nay)",
+        "audioText": "今年",
+        "options": [
+          {
+            "label": "今年",
+            "value": "今年"
+          },
+          {
+            "label": "生日",
+            "value": "生日"
+          },
+          {
+            "label": "月",
+            "value": "月"
+          },
+          {
+            "label": "号",
+            "value": "号"
+          }
+        ],
+        "answer": "今年"
+      },
+      {
+        "id": "ex-t3-3",
+        "kind": "sentence-tiles",
+        "promptVi": "Sắp xếp thành câu: Hôm nay là sinh nhật của tôi.",
+        "tiles": [
+          "今天",
+          "是",
+          "我",
+          "的",
+          "生日"
+        ],
+        "answer": "今天是我的生日"
+      }
+    ],
+    "roleplay": [
+      {
+        "npcHanzi": "你今年几岁？",
+        "npcPinyin": "nǐ jīn nián jǐ suì ？",
+        "npcVi": "Bạn năm nay mấy tuổi?",
+        "promptVi": "Trả lời: Tôi hai mươi tuổi.",
+        "options": [
+          {
+            "hanzi": "我二十岁。",
+            "pinyin": "wǒ èr shí suì 。",
+            "vi": "Tôi hai mươi tuổi.",
+            "correct": true
+          },
+          {
+            "hanzi": "我二十年。",
+            "pinyin": "wǒ èr shí nián 。",
+            "vi": "Tôi hai mươi năm.",
+            "correct": false
+          },
+          {
+            "hanzi": "我二十号。",
+            "pinyin": "wǒ èr shí hào 。",
+            "vi": "Tôi ngày 20.",
+            "correct": false
+          }
+        ],
+        "expectedHanzi": "我二十岁。"
+      },
+      {
+        "npcHanzi": "今天几月几号？",
+        "npcPinyin": "jīn tiān jǐ yuè jǐ hào ？",
+        "npcVi": "Hôm nay ngày mấy tháng mấy?",
+        "promptVi": "Trả lời: Hôm nay tháng năm ngày sáu.",
+        "options": [
+          {
+            "hanzi": "今天五月六号。",
+            "pinyin": "jīn tiān wǔ yuè liù hào 。",
+            "vi": "Hôm nay ngày 6 tháng 5.",
+            "correct": true
+          },
+          {
+            "hanzi": "今天五岁六号。",
+            "pinyin": "jīn tiān wǔ suì liù hào 。",
+            "vi": "Hôm nay 5 tuổi ngày 6.",
+            "correct": false
+          },
+          {
+            "hanzi": "今天五月六岁。",
+            "pinyin": "jīn tiān wǔ yuè liù suì 。",
+            "vi": "Hôm nay tháng 5 6 tuổi.",
+            "correct": false
+          }
+        ],
+        "expectedHanzi": "今天五月六号。"
+      },
+      {
+        "npcHanzi": "明天是不是你的生日？",
+        "npcPinyin": "míng tiān shì bú shì nǐ de shēng rì ？",
+        "npcVi": "Ngày mai có phải là sinh nhật của bạn không?",
+        "promptVi": "Trả lời: Đúng, ngày mai là sinh nhật của tôi.",
+        "options": [
+          {
+            "hanzi": "是，明天是我的生日。",
+            "pinyin": "shì ， míng tiān shì wǒ de shēng rì 。",
+            "vi": "Đúng, ngày mai là sinh nhật của tôi.",
+            "correct": true
+          },
+          {
+            "hanzi": "不是，明天是我的年。",
+            "pinyin": "bú shì ， míng tiān shì wǒ de nián 。",
+            "vi": "Không, ngày mai là năm của tôi.",
+            "correct": false
+          },
+          {
+            "hanzi": "是，明天是我的岁。",
+            "pinyin": "shì ， míng tiān shì wǒ de suì 。",
+            "vi": "Đúng, ngày mai là tuổi của tôi.",
+            "correct": false
+          }
+        ],
+        "expectedHanzi": "是，明天是我的生日。"
+      }
+    ]
+  },
+  {
+    "id": "t3-doc",
+    "stage": 1,
+    "topicId": 3,
+    "title": "Đọc: 小明和生日",
+    "type": "doc",
+    "xp": 25,
+    "newWords": [],
+    "readingId": "r-t3"
+  },
+  {
+    "id": "t3-nghe",
+    "stage": 1,
+    "topicId": 3,
+    "title": "Nghe: Số đếm, tuổi & ngày tháng",
+    "type": "nghe",
+    "xp": 25,
+    "newWords": [
+      "w-135",
+      "w-130",
+      "w-132",
+      "w-136",
+      "w-148",
+      "w-141"
+    ],
+    "listeningTracks": [
+      {
+        "id": "lt3-1",
+        "speaker": "王老师",
+        "voiceRole": "formal",
+        "hanzi": "你今年多大？",
+        "pinyin": "nǐ jīn nián duō dà ？",
+        "vi": "Bạn năm nay bao nhiêu tuổi?"
+      },
+      {
+        "id": "lt3-2",
+        "speaker": "小明",
+        "voiceRole": "male",
+        "hanzi": "我今年十岁。",
+        "pinyin": "wǒ jīn nián shí suì 。",
+        "vi": "Tôi năm nay mười tuổi."
+      },
+      {
+        "id": "lt3-3",
+        "speaker": "小美",
+        "voiceRole": "female",
+        "hanzi": "今天几月几号？",
+        "pinyin": "jīn tiān jǐ yuè jǐ hào ？",
+        "vi": "Hôm nay là ngày mấy tháng mấy?"
+      },
+      {
+        "id": "lt3-4",
+        "speaker": "王老师",
+        "voiceRole": "formal",
+        "hanzi": "今天是三月五号。",
+        "pinyin": "jīn tiān shì sān yuè wǔ hào 。",
+        "vi": "Hôm nay là ngày 5 tháng 3."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "ng3-1",
+        "kind": "listen-meaning",
+        "promptVi": "Nghe và chọn nghĩa đúng của câu:",
+        "audioText": "今天是我的生日。",
+        "options": [
+          {
+            "label": "Hôm nay là sinh nhật của tôi.",
+            "value": "Hôm nay là sinh nhật của tôi."
+          },
+          {
+            "label": "Hôm nay là ngày mai.",
+            "value": "Hôm nay là ngày mai."
+          },
+          {
+            "label": "Năm nay tôi mười tuổi.",
+            "value": "Năm nay tôi mười tuổi."
+          },
+          {
+            "label": "Hôm nay là tháng ba.",
+            "value": "Hôm nay là tháng ba."
+          }
+        ],
+        "answer": "Hôm nay là sinh nhật của tôi."
+      },
+      {
+        "id": "ng3-2",
+        "kind": "listen-hanzi",
+        "promptVi": "Nghe và chọn đúng chữ Hán:",
+        "audioText": "今年",
+        "options": [
+          {
+            "label": "今年",
+            "value": "今年"
+          },
+          {
+            "label": "明天",
+            "value": "明天"
+          },
+          {
+            "label": "昨天",
+            "value": "昨天"
+          },
+          {
+            "label": "生日",
+            "value": "生日"
+          }
+        ],
+        "answer": "今年"
+      },
+      {
+        "id": "ng3-3",
+        "kind": "listen-tiles",
+        "promptVi": "Sắp xếp các từ thành câu đúng:",
+        "audioText": "我今年十岁",
+        "tiles": [
+          "我",
+          "今年",
+          "十",
+          "岁"
+        ],
+        "answer": "我今年十岁"
+      },
+      {
+        "id": "ng3-4",
+        "kind": "listen-blank",
+        "promptVi": "Nghe và điền từ còn thiếu vào chỗ trống: 我___十岁。",
+        "audioText": "我今年十岁。",
+        "options": [
+          {
+            "label": "今年",
+            "value": "今年"
+          },
+          {
+            "label": "明天",
+            "value": "明天"
+          },
+          {
+            "label": "生日",
+            "value": "生日"
+          },
+          {
+            "label": "月号",
+            "value": "月号"
+          }
+        ],
+        "answer": "今年"
+      },
+      {
+        "id": "ng3-5",
+        "kind": "listen-dialogue",
+        "promptVi": "Nghe đoạn hội thoại và chọn đáp án đúng:",
+        "audioText": "今天几月几号？",
+        "options": [
+          {
+            "label": "Hỏi về ngày tháng hôm nay",
+            "value": "Hỏi về ngày tháng hôm nay"
+          },
+          {
+            "label": "Hỏi về tuổi của học sinh",
+            "value": "Hỏi về tuổi của học sinh"
+          },
+          {
+            "label": "Hỏi về tên của giáo viên",
+            "value": "Hỏi về tên của giáo viên"
+          }
+        ],
+        "answer": "Hỏi về ngày tháng hôm nay"
+      },
+      {
+        "id": "ng3-6",
+        "kind": "dictation",
+        "promptVi": "Chép chính tả rút gọn: gõ pinyin (hoặc chạm thẻ) câu vừa nghe",
+        "audioText": "今天三月五号",
+        "tiles": [
+          "今天",
+          "三月",
+          "五号"
+        ],
+        "answer": "jintiansanyuewuhao"
+      }
+    ]
+  },
+  {
+    "id": "t3-viet",
+    "stage": 1,
+    "topicId": 3,
+    "title": "Viết: Số đếm, tuổi & ngày tháng",
+    "type": "viet",
+    "xp": 25,
+    "newWords": [
+      "w-135",
+      "w-130",
+      "w-132",
+      "w-136",
+      "w-148",
+      "w-141"
+    ],
+    "writingChars": [
+      {
+        "char": "岁",
+        "pinyin": "suì",
+        "meaningVi": "tuổi",
+        "radical": "山",
+        "radicalNoteVi": "Núi đứng vững bao nhiêu năm tuổi.",
+        "lookalikes": [
+          {
+            "hanzi": "山",
+            "pinyin": "shān",
+            "vi": "núi, họ Sơn"
+          },
+          {
+            "hanzi": "屹",
+            "pinyin": "yì",
+            "vi": "to rise, to stand tall"
+          },
+          {
+            "hanzi": "屺",
+            "pinyin": "qǐ",
+            "vi": "a grassy knoll"
+          },
+          {
+            "hanzi": "岁",
+            "pinyin": "suì",
+            "vi": "tuổi"
+          }
+        ]
+      },
+      {
+        "char": "年",
+        "pinyin": "nián",
+        "meaningVi": "năm",
+        "radical": "干",
+        "radicalNoteVi": "Cày cuốc cả năm trên mảnh đất khô.",
+        "lookalikes": [
+          {
+            "hanzi": "年",
+            "pinyin": "nián",
+            "vi": "năm"
+          },
+          {
+            "hanzi": "并",
+            "pinyin": "bìng",
+            "vi": "to combine, to annex"
+          },
+          {
+            "hanzi": "幸",
+            "pinyin": "xìng",
+            "vi": "favor, fortune, luck"
+          },
+          {
+            "hanzi": "幹",
+            "pinyin": "gàn",
+            "vi": "arid, dry"
+          }
+        ]
+      },
+      {
+        "char": "月",
+        "pinyin": "yuè",
+        "meaningVi": "tháng, trăng",
+        "radical": "月",
+        "radicalNoteVi": "Trăng khuyết hình mảnh trăng non.",
+        "lookalikes": [
+          {
+            "hanzi": "月",
+            "pinyin": "yuè",
+            "vi": "tháng, trăng"
+          },
+          {
+            "hanzi": "有",
+            "pinyin": "yǒu",
+            "vi": "có"
+          },
+          {
+            "hanzi": "朋",
+            "pinyin": "péng",
+            "vi": "friend, pal, acquaintance"
+          },
+          {
+            "hanzi": "服",
+            "pinyin": "fú",
+            "vi": "clothes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "t4-giao-tiep",
+    "stage": 1,
+    "topicId": 4,
+    "title": "Gia đình & bạn bè",
+    "type": "giao-tiep",
+    "xp": 30,
+    "newWords": [
+      "w-066",
+      "w-142",
+      "w-139",
+      "w-144",
+      "w-143",
+      "w-064"
+    ],
+    "patterns": [
+      {
+        "id": "p-t4-1",
+        "frame": "这是我的___。",
+        "pinyin": "zhè shì wǒ de 。",
+        "meaningVi": "Đây là ... của tôi.",
+        "exampleHanzi": "这是我的爸爸。",
+        "examplePinyin": "zhè shì wǒ de bà bà 。",
+        "exampleVi": "Đây là bố của tôi.",
+        "slots": {
+          "promptVi": "Chọn từ đúng để hoàn thành câu: Đây là anh trai của tôi.",
+          "choices": [
+            {
+              "hanzi": "哥哥",
+              "pinyin": "gē gē",
+              "vi": "anh trai"
+            },
+            {
+              "hanzi": "家",
+              "pinyin": "jiā",
+              "vi": "nhà"
+            },
+            {
+              "hanzi": "朋友",
+              "pinyin": "péng yǒu",
+              "vi": "bạn bè"
+            }
+          ],
+          "answerHanzi": "哥哥"
+        }
+      },
+      {
+        "id": "p-t4-2",
+        "frame": "我家有___口人。",
+        "pinyin": "wǒ jiā yǒu kǒu rén 。",
+        "meaningVi": "Nhà tôi có ... người.",
+        "exampleHanzi": "我家有四口人。",
+        "examplePinyin": "wǒ jiā yǒu sì kǒu rén 。",
+        "exampleVi": "Nhà tôi có bốn người.",
+        "slots": {
+          "promptVi": "Chọn số lượng người phù hợp để điền vào chỗ trống.",
+          "choices": [
+            {
+              "hanzi": "三",
+              "pinyin": "sān",
+              "vi": "ba"
+            },
+            {
+              "hanzi": "中国",
+              "pinyin": "zhōng guó",
+              "vi": "Trung Quốc"
+            },
+            {
+              "hanzi": "高兴",
+              "pinyin": "gāo xìng",
+              "vi": "vui vẻ"
+            }
+          ],
+          "answerHanzi": "三"
+        }
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Linh",
+        "voiceRole": "female",
+        "hanzi": "这是谁？",
+        "pinyin": "zhè shì shuí ？",
+        "vi": "Đây là ai?",
+        "mode": "npc"
+      },
+      {
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "这是我的爸爸。",
+        "pinyin": "zhè shì wǒ de bà bà 。",
+        "vi": "Đây là bố của tôi.",
+        "mode": "choice",
+        "goalLabel": "Giới thiệu bố",
+        "choices": [
+          {
+            "hanzi": "这是我的爸爸。",
+            "pinyin": "zhè shì wǒ de bà bà 。",
+            "vi": "Đây là bố của tôi.",
+            "correct": true
+          },
+          {
+            "hanzi": "这是我的学校。",
+            "pinyin": "zhè shì wǒ de xué xiào 。",
+            "vi": "Đây là trường học của tôi.",
+            "correct": false
+          },
+          {
+            "hanzi": "这是我的书。",
+            "pinyin": "zhè shì wǒ de shū 。",
+            "vi": "Đây là sách của tôi.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "speaker": "Linh",
+        "voiceRole": "female",
+        "hanzi": "你家有几口人？",
+        "pinyin": "nǐ jiā yǒu jǐ kǒu rén ？",
+        "vi": "Nhà bạn có mấy người?",
+        "mode": "npc"
+      },
+      {
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "我家有四口人。",
+        "pinyin": "wǒ jiā yǒu sì kǒu rén 。",
+        "vi": "Nhà tôi có bốn người.",
+        "mode": "tiles",
+        "goalLabel": "Nói về gia đình",
+        "tilePrompt": [
+          "我",
+          "家",
+          "有",
+          "四",
+          "口",
+          "人"
+        ]
+      },
+      {
+        "speaker": "Linh",
+        "voiceRole": "female",
+        "hanzi": "他们是你的朋友吗？",
+        "pinyin": "tā men shì nǐ de péng yǒu ma ？",
+        "vi": "Họ là bạn của bạn phải không?",
+        "mode": "npc"
+      },
+      {
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "不是，他们是我的哥哥和姐姐。",
+        "pinyin": "bú shì ， tā men shì wǒ dī gē gē hé jiě jiě 。",
+        "vi": "Không phải, họ là anh trai và chị gái của tôi.",
+        "mode": "pinyin",
+        "goalLabel": "Trả lời quan hệ",
+        "acceptedPinyin": [
+          "bushitamenshiwodigegehejiejie",
+          "bú shì ， tā men shì wǒ dī gē gē hé jiě jiě 。",
+          "不是，他们是我的哥哥和姐姐"
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "id": "ex-t4-1",
+        "kind": "meaning-choice",
+        "promptVi": "Từ '朋友' có nghĩa là gì?",
+        "hanziPrompt": "朋友",
+        "pinyinPrompt": "péng you",
+        "options": [
+          {
+            "label": "gia đình",
+            "value": "gia đình"
+          },
+          {
+            "label": "bạn bè",
+            "value": "bạn bè"
+          },
+          {
+            "label": "anh trai",
+            "value": "anh trai"
+          },
+          {
+            "label": "chị gái",
+            "value": "chị gái"
+          }
+        ],
+        "answer": "bạn bè"
+      },
+      {
+        "id": "ex-t4-2",
+        "kind": "hanzi-choice",
+        "promptVi": "Nghe và chọn chữ Hán đúng (mẹ, má)",
+        "audioText": "妈妈",
+        "options": [
+          {
+            "label": "爸爸",
+            "value": "爸爸"
+          },
+          {
+            "label": "妈妈",
+            "value": "妈妈"
+          },
+          {
+            "label": "哥哥",
+            "value": "哥哥"
+          },
+          {
+            "label": "姐姐",
+            "value": "姐姐"
+          }
+        ],
+        "answer": "妈妈"
+      },
+      {
+        "id": "ex-t4-3",
+        "kind": "sentence-tiles",
+        "promptVi": "Sắp xếp các từ thành câu hoàn chỉnh: Đây là bạn của tôi.",
+        "tiles": [
+          "这",
+          "是",
+          "我",
+          "的",
+          "朋",
+          "友"
+        ],
+        "answer": "这是我的朋友"
+      }
+    ],
+    "roleplay": [
+      {
+        "npcHanzi": "你认识他吗？",
+        "npcPinyin": "nǐ rèn shí tā ma ？",
+        "npcVi": "Bạn có quen anh ấy không?",
+        "promptVi": "Chọn câu trả lời phù hợp: Vâng, tôi quen anh ấy.",
+        "options": [
+          {
+            "hanzi": "认识，他是我朋友。",
+            "pinyin": "rèn shí ， tā shì wǒ péng yǒu 。",
+            "vi": "Quen, anh ấy là bạn tôi.",
+            "correct": true
+          },
+          {
+            "hanzi": "不吃，我不饿。",
+            "pinyin": "bù chī ， wǒ bù è 。",
+            "vi": "Không ăn, tôi không đói.",
+            "correct": false
+          },
+          {
+            "hanzi": "不去，我在家。",
+            "pinyin": "bù qù ， wǒ zài jiā 。",
+            "vi": "Không đi, tôi ở nhà.",
+            "correct": false
+          }
+        ],
+        "expectedHanzi": "认识，他是我朋友。"
+      },
+      {
+        "npcHanzi": "你家有姐姐吗？",
+        "npcPinyin": "nǐ jiā yǒu jiě jiě ma ？",
+        "npcVi": "Nhà bạn có chị gái không?",
+        "promptVi": "Chọn câu trả lời: Nhà tôi có một chị gái.",
+        "options": [
+          {
+            "hanzi": "我家有一个姐姐。",
+            "pinyin": "wǒ jiā yǒu yí gè jiě jiě 。",
+            "vi": "Nhà tôi có một chị gái.",
+            "correct": true
+          },
+          {
+            "hanzi": "我家没有妈妈。",
+            "pinyin": "wǒ jiā méi yǒu mā mā 。",
+            "vi": "Nhà tôi không có mẹ.",
+            "correct": false
+          },
+          {
+            "hanzi": "我没有学校。",
+            "pinyin": "wǒ méi yǒu xué xiào 。",
+            "vi": "Tôi không có trường học.",
+            "correct": false
+          }
+        ],
+        "expectedHanzi": "我家有一个姐姐。"
+      },
+      {
+        "npcHanzi": "那是谁？",
+        "npcPinyin": "nà shì shuí ？",
+        "npcVi": "Đó là ai?",
+        "promptVi": "Chọn câu trả lời: Đó là mẹ tôi.",
+        "options": [
+          {
+            "hanzi": "那是我的妈妈。",
+            "pinyin": "nà shì wǒ de mā mā 。",
+            "vi": "Đó là mẹ của tôi.",
+            "correct": true
+          },
+          {
+            "hanzi": "那是我的书包。",
+            "pinyin": "nà shì wǒ de shū bāo 。",
+            "vi": "Đó là cặp sách của tôi.",
+            "correct": false
+          },
+          {
+            "hanzi": "那是我的手机。",
+            "pinyin": "nà shì wǒ de shǒu jī 。",
+            "vi": "Đó là điện thoại của tôi.",
+            "correct": false
+          }
+        ],
+        "expectedHanzi": "那是我的妈妈。"
+      }
+    ]
+  },
+  {
+    "id": "t4-doc",
+    "stage": 1,
+    "topicId": 4,
+    "title": "Đọc: 我的家人",
+    "type": "doc",
+    "xp": 25,
+    "newWords": [],
+    "readingId": "r-t4"
+  },
+  {
+    "id": "t4-nghe",
+    "stage": 1,
+    "topicId": 4,
+    "title": "Nghe: Gia đình & bạn bè",
+    "type": "nghe",
+    "xp": 25,
+    "newWords": [
+      "w-066",
+      "w-142",
+      "w-139",
+      "w-144",
+      "w-143",
+      "w-064"
+    ],
+    "listeningTracks": [
+      {
+        "id": "lt4-1",
+        "speaker": "小明",
+        "voiceRole": "male",
+        "hanzi": "这是我的家。",
+        "pinyin": "zhè shì wǒ de jiā 。",
+        "vi": "Đây là nhà của tôi."
+      },
+      {
+        "id": "lt4-2",
+        "speaker": "小美",
+        "voiceRole": "female",
+        "hanzi": "爸爸妈妈都在家。",
+        "pinyin": "bà bà mā mā dōu zài jiā 。",
+        "vi": "Bố và mẹ đều ở nhà."
+      },
+      {
+        "id": "lt4-3",
+        "speaker": "王老师",
+        "voiceRole": "formal",
+        "hanzi": "哥哥和姐姐好。",
+        "pinyin": "gē gē hé jiě jiě hǎo 。",
+        "vi": "Anh trai và chị gái chào anh/chị."
+      },
+      {
+        "id": "lt4-4",
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "朋友也在。",
+        "pinyin": "péng yǒu yě zài 。",
+        "vi": "Bạn bè cũng ở đây."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "ng4-1",
+        "kind": "listen-meaning",
+        "promptVi": "Nghe và chọn nghĩa đúng:",
+        "audioText": "这是我的家。",
+        "options": [
+          {
+            "label": "Đây là nhà của tôi.",
+            "value": "Đây là nhà của tôi."
+          },
+          {
+            "label": "Đây là trường học.",
+            "value": "Đây là trường học."
+          },
+          {
+            "label": "Đây là cửa hàng.",
+            "value": "Đây là cửa hàng."
+          },
+          {
+            "label": "Đây là sách của tôi.",
+            "value": "Đây là sách của tôi."
+          }
+        ],
+        "answer": "Đây là nhà của tôi."
+      },
+      {
+        "id": "ng4-2",
+        "kind": "listen-hanzi",
+        "promptVi": "Nghe và chọn chữ Hán đúng:",
+        "audioText": "爸爸妈妈",
+        "options": [
+          {
+            "label": "爸爸妈妈",
+            "value": "爸爸妈妈"
+          },
+          {
+            "label": "哥哥姐姐",
+            "value": "哥哥姐姐"
+          },
+          {
+            "label": "朋友同学",
+            "value": "朋友同学"
+          },
+          {
+            "label": "老师学生",
+            "value": "老师学生"
+          }
+        ],
+        "answer": "爸爸妈妈"
+      },
+      {
+        "id": "ng4-3",
+        "kind": "listen-tiles",
+        "promptVi": "Sắp xếp các từ thành câu nghe được:",
+        "audioText": "这是我的家",
+        "tiles": [
+          "这",
+          "是",
+          "我",
+          "的家"
+        ],
+        "answer": "这是我的家"
+      },
+      {
+        "id": "ng4-4",
+        "kind": "listen-blank",
+        "promptVi": "Nghe và điền từ vào chỗ trống: 这是___的家。",
+        "audioText": "这是我的家。",
+        "options": [
+          {
+            "label": "我",
+            "value": "我"
+          },
+          {
+            "label": "他",
+            "value": "他"
+          },
+          {
+            "label": "你",
+            "value": "你"
+          },
+          {
+            "label": "她",
+            "value": "她"
+          }
+        ],
+        "answer": "我"
+      },
+      {
+        "id": "ng4-5",
+        "kind": "listen-dialogue",
+        "promptVi": "Nghe câu hỏi và chọn câu trả lời đúng:",
+        "audioText": "爸爸妈妈在家吗？",
+        "options": [
+          {
+            "label": "爸爸妈妈都在家。",
+            "value": "爸爸妈妈都在家。"
+          },
+          {
+            "label": "爸爸妈妈去学校。",
+            "value": "爸爸妈妈去学校。"
+          },
+          {
+            "label": "爸爸妈妈去买东西。",
+            "value": "爸爸妈妈去买东西。"
+          }
+        ],
+        "answer": "爸爸妈妈都在家。"
+      },
+      {
+        "id": "ng4-6",
+        "kind": "dictation",
+        "promptVi": "Chép chính tả rút gọn: gõ pinyin (hoặc chạm thẻ) câu vừa nghe",
+        "audioText": "这是我的家",
+        "tiles": [
+          "这是",
+          "我的",
+          "家"
+        ],
+        "answer": "zheshiwodejia"
+      }
+    ]
+  },
+  {
+    "id": "t4-viet",
+    "stage": 1,
+    "topicId": 4,
+    "title": "Viết: Gia đình & bạn bè",
+    "type": "viet",
+    "xp": 25,
+    "newWords": [
+      "w-066",
+      "w-142",
+      "w-139",
+      "w-144",
+      "w-143",
+      "w-064"
+    ],
+    "writingChars": [
+      {
+        "char": "家",
+        "pinyin": "jiā",
+        "meaningVi": "nhà, gia đình",
+        "radical": "宀",
+        "radicalNoteVi": "Mái nhà che chở đàn lợn con.",
+        "lookalikes": [
+          {
+            "hanzi": "完",
+            "pinyin": "wán",
+            "vi": "xong, hoàn thành, hết"
+          },
+          {
+            "hanzi": "室",
+            "pinyin": "shì",
+            "vi": "phòng, nhà, họ Thất"
+          },
+          {
+            "hanzi": "家",
+            "pinyin": "jiā",
+            "vi": "nhà, gia đình"
+          },
+          {
+            "hanzi": "它",
+            "pinyin": "tā",
+            "vi": "nó"
+          }
+        ]
+      },
+      {
+        "char": "爸",
+        "pinyin": "bà",
+        "meaningVi": "bố, ba",
+        "radical": "父",
+        "radicalNoteVi": "Người cha luôn là chỗ dựa vững chãi.",
+        "lookalikes": [
+          {
+            "hanzi": "爸",
+            "pinyin": "bà",
+            "vi": "bố, ba"
+          },
+          {
+            "hanzi": "父",
+            "pinyin": "fù",
+            "vi": "father, dad"
+          },
+          {
+            "hanzi": "爷",
+            "pinyin": "yé",
+            "vi": "grandfather, old man"
+          },
+          {
+            "hanzi": "爹",
+            "pinyin": "diē",
+            "vi": "father, dad, daddy"
+          }
+        ]
+      },
+      {
+        "char": "妈",
+        "pinyin": "mā",
+        "meaningVi": "mẹ, má",
+        "radical": "女",
+        "radicalNoteVi": "Người phụ nữ yêu thương là mẹ ta.",
+        "lookalikes": [
+          {
+            "hanzi": "妈",
+            "pinyin": "mā",
+            "vi": "mẹ, má"
+          },
+          {
+            "hanzi": "女",
+            "pinyin": "nǚ",
+            "vi": "nữ, con gái"
+          },
+          {
+            "hanzi": "奶",
+            "pinyin": "nǎi",
+            "vi": "sữa, bà nội"
+          },
+          {
+            "hanzi": "她",
+            "pinyin": "tā",
+            "vi": "cô ấy"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "t5-giao-tiep",
+    "stage": 1,
+    "topicId": 5,
+    "title": "Thời gian & hẹn gặp",
+    "type": "giao-tiep",
+    "xp": 30,
+    "newWords": [
+      "w-067",
+      "w-068",
+      "w-069",
+      "w-070",
+      "w-138",
+      "w-131"
+    ],
+    "patterns": [
+      {
+        "id": "p-t5-1",
+        "frame": "现在是 ___ 点。",
+        "pinyin": "xiàn zài shì    diǎn 。",
+        "meaningVi": "Bây giờ là mấy giờ?",
+        "exampleHanzi": "现在是三点。",
+        "examplePinyin": "xiàn zài shì sān diǎn 。",
+        "exampleVi": "Bây giờ là ba giờ.",
+        "slots": {
+          "promptVi": "Chọn từ đúng để điền vào chỗ trống: Bây giờ là mười giờ.",
+          "choices": [
+            {
+              "hanzi": "十",
+              "pinyin": "shí",
+              "vi": "mười"
+            },
+            {
+              "hanzi": "三",
+              "pinyin": "sān",
+              "vi": "ba"
+            },
+            {
+              "hanzi": "八",
+              "pinyin": "bā",
+              "vi": "tám"
+            }
+          ],
+          "answerHanzi": "十"
+        }
+      },
+      {
+        "id": "p-t5-2",
+        "frame": "明天见，___ 见。",
+        "pinyin": "míng tiān jiàn ，  jiàn 。",
+        "meaningVi": "Hẹn gặp lại ngày mai, hẹn gặp lại [thời gian].",
+        "exampleHanzi": "明天见，下午见。",
+        "examplePinyin": "míng tiān jiàn ， xià wǔ jiàn 。",
+        "exampleVi": "Hẹn gặp lại ngày mai, hẹn gặp lại buổi chiều.",
+        "slots": {
+          "promptVi": "Chọn từ đúng để điền vào chỗ trống: Hẹn gặp lại ngày mai, buổi sáng gặp.",
+          "choices": [
+            {
+              "hanzi": "晚上",
+              "pinyin": "wǎn shàng",
+              "vi": "buổi tối"
+            },
+            {
+              "hanzi": "早上",
+              "pinyin": "zǎo shàng",
+              "vi": "buổi sáng"
+            },
+            {
+              "hanzi": "中午",
+              "pinyin": "zhōng wǔ",
+              "vi": "buổi trưa"
+            }
+          ],
+          "answerHanzi": "早上"
+        }
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "小美",
+        "voiceRole": "female",
+        "hanzi": "现在几点？",
+        "pinyin": "xiàn zài jǐ diǎn ？",
+        "vi": "Bây giờ mấy giờ rồi?",
+        "mode": "npc",
+        "goalLabel": "Hỏi giờ"
+      },
+      {
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "现在三点十分。",
+        "pinyin": "xiàn zài sān diǎn shí fēn 。",
+        "vi": "Bây giờ là ba giờ mười phút.",
+        "mode": "choice",
+        "goalLabel": "Trả lời giờ",
+        "choices": [
+          {
+            "hanzi": "现在三点十分。",
+            "pinyin": "xiàn zài sān diǎn shí fēn 。",
+            "vi": "Bây giờ là ba giờ mười phút.",
+            "correct": true
+          },
+          {
+            "hanzi": "现在两点。",
+            "pinyin": "xiàn zài liǎng diǎn 。",
+            "vi": "Bây giờ là hai giờ.",
+            "correct": false
+          },
+          {
+            "hanzi": "现在五点。",
+            "pinyin": "xiàn zài wǔ diǎn 。",
+            "vi": "Bây giờ là năm giờ.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "speaker": "小美",
+        "voiceRole": "female",
+        "hanzi": "你有时间吗？",
+        "pinyin": "nǐ yǒu shí jiān ma ？",
+        "vi": "Bạn có thời gian không?",
+        "mode": "npc",
+        "goalLabel": "Hỏi thời gian"
+      },
+      {
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "明天我有时间。",
+        "pinyin": "míng tiān wǒ yǒu shí jiān 。",
+        "vi": "Ngày mai tôi có thời gian.",
+        "mode": "tiles",
+        "goalLabel": "Nói ngày mai",
+        "tilePrompt": [
+          "明天",
+          "我",
+          "有",
+          "时间"
+        ]
+      },
+      {
+        "speaker": "小美",
+        "voiceRole": "female",
+        "hanzi": "今天下午去喝咖啡吗？",
+        "pinyin": "jīn tiān xià wǔ qù hē kā fēi ma ？",
+        "vi": "Chiều nay đi uống cà phê không?",
+        "mode": "npc",
+        "goalLabel": "Hẹn uống nước"
+      },
+      {
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "好，今天下午见。",
+        "pinyin": "hǎo ， jīn tiān xià wǔ jiàn 。",
+        "vi": "Được, chiều nay gặp nhé.",
+        "mode": "pinyin",
+        "goalLabel": "Đồng ý hẹn",
+        "acceptedPinyin": [
+          "haojintianxiawujian",
+          "hǎo ， jīn tiān xià wǔ jiàn 。",
+          "好，今天下午见"
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "id": "ex-t5-1",
+        "kind": "meaning-choice",
+        "promptVi": "Câu sau đây có nghĩa là gì: '现在几点？'",
+        "hanziPrompt": "现在几点？",
+        "pinyinPrompt": "xiàn zài jǐ diǎn ？",
+        "options": [
+          {
+            "label": "Bây giờ mấy giờ?",
+            "value": "Bây giờ mấy giờ?"
+          },
+          {
+            "label": "Hôm nay là thứ mấy?",
+            "value": "Hôm nay là thứ mấy?"
+          },
+          {
+            "label": "Bạn đi đâu đấy?",
+            "value": "Bạn đi đâu đấy?"
+          },
+          {
+            "label": "Bây giờ là mấy phút?",
+            "value": "Bây giờ là mấy phút?"
+          }
+        ],
+        "answer": "Bây giờ mấy giờ?"
+      },
+      {
+        "id": "ex-t5-2",
+        "kind": "hanzi-choice",
+        "promptVi": "Nghe và chọn chữ Hán đúng (hôm nay)",
+        "audioText": "今天",
+        "options": [
+          {
+            "label": "今天",
+            "value": "今天"
+          },
+          {
+            "label": "明天",
+            "value": "明天"
+          },
+          {
+            "label": "现在",
+            "value": "现在"
+          },
+          {
+            "label": "时间",
+            "value": "时间"
+          }
+        ],
+        "answer": "今天"
+      },
+      {
+        "id": "ex-t5-3",
+        "kind": "sentence-tiles",
+        "promptVi": "Ghép thành câu hoàn chỉnh: Ngày mai tôi đi trường học.",
+        "tiles": [
+          "明天",
+          "我",
+          "去",
+          "学校"
+        ],
+        "answer": "明天我去学校"
+      }
+    ],
+    "roleplay": [
+      {
+        "npcHanzi": "你今天有时间吗？",
+        "npcPinyin": "nǐ jīn tiān yǒu shí jiān ma ？",
+        "npcVi": "Hôm nay bạn có thời gian không?",
+        "promptVi": "Trả lời rằng hôm nay bạn có thời gian.",
+        "options": [
+          {
+            "hanzi": "我今天有时间。",
+            "pinyin": "wǒ jīn tiān yǒu shí jiān 。",
+            "vi": "Hôm nay tôi có thời gian.",
+            "correct": true
+          },
+          {
+            "hanzi": "我没有时间。",
+            "pinyin": "wǒ méi yǒu shí jiān 。",
+            "vi": "Tôi không có thời gian.",
+            "correct": false
+          },
+          {
+            "hanzi": "明天我有时间。",
+            "pinyin": "míng tiān wǒ yǒu shí jiān 。",
+            "vi": "Ngày mai tôi có thời gian.",
+            "correct": false
+          }
+        ],
+        "expectedHanzi": "我今天有时间。"
+      },
+      {
+        "npcHanzi": "现在几点？",
+        "npcPinyin": "xiàn zài jǐ diǎn ？",
+        "npcVi": "Bây giờ mấy giờ?",
+        "promptVi": "Trả lời rằng bây giờ là bốn giờ.",
+        "options": [
+          {
+            "hanzi": "现在四点。",
+            "pinyin": "xiàn zài sì diǎn 。",
+            "vi": "Bây giờ là bốn giờ.",
+            "correct": true
+          },
+          {
+            "hanzi": "现在五点。",
+            "pinyin": "xiàn zài wǔ diǎn 。",
+            "vi": "Bây giờ là năm giờ.",
+            "correct": false
+          },
+          {
+            "hanzi": "现在六点。",
+            "pinyin": "xiàn zài liù diǎn 。",
+            "vi": "Bây giờ là sáu giờ.",
+            "correct": false
+          }
+        ],
+        "expectedHanzi": "现在四点。"
+      },
+      {
+        "npcHanzi": "明天见！",
+        "npcPinyin": "míng tiān jiàn ！",
+        "npcVi": "Hẹn gặp lại ngày mai!",
+        "promptVi": "Nói lại hẹn gặp ngày mai.",
+        "options": [
+          {
+            "hanzi": "明天见！",
+            "pinyin": "míng tiān jiàn ！",
+            "vi": "Hẹn gặp lại ngày mai!",
+            "correct": true
+          },
+          {
+            "hanzi": "再见！",
+            "pinyin": "zài jiàn ！",
+            "vi": "Tạm biệt!",
+            "correct": false
+          },
+          {
+            "hanzi": "你好！s",
+            "pinyin": "nǐ hǎo ！s",
+            "vi": "Xin chào!",
+            "correct": false
+          }
+        ],
+        "expectedHanzi": "明天见！"
+      }
+    ]
+  },
+  {
+    "id": "t5-doc",
+    "stage": 1,
+    "topicId": 5,
+    "title": "Đọc: 时间与明天",
+    "type": "doc",
+    "xp": 25,
+    "newWords": [],
+    "readingId": "r-t5"
+  },
+  {
+    "id": "t5-nghe",
+    "stage": 1,
+    "topicId": 5,
+    "title": "Nghe: Thời gian & hẹn gặp",
+    "type": "nghe",
+    "xp": 25,
+    "newWords": [
+      "w-067",
+      "w-068",
+      "w-069",
+      "w-070",
+      "w-138",
+      "w-131"
+    ],
+    "listeningTracks": [
+      {
+        "id": "lt5-1",
+        "speaker": "小明",
+        "voiceRole": "male",
+        "hanzi": "现在几点？",
+        "pinyin": "xiàn zài jǐ diǎn ？",
+        "vi": "Bây giờ là mấy giờ?"
+      },
+      {
+        "id": "lt5-2",
+        "speaker": "小美",
+        "voiceRole": "female",
+        "hanzi": "现在八点十分。",
+        "pinyin": "xiàn zài bā diǎn shí fēn 。",
+        "vi": "Bây giờ là tám giờ mười phút."
+      },
+      {
+        "id": "lt5-3",
+        "speaker": "王老师",
+        "voiceRole": "formal",
+        "hanzi": "明天几点去学校？",
+        "pinyin": "míng tiān jǐ diǎn qù xué xiào ？",
+        "vi": "Ngày mai mấy giờ đi trường học?"
+      },
+      {
+        "id": "lt5-4",
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "明天没有时间。",
+        "pinyin": "míng tiān méi yǒu shí jiān 。",
+        "vi": "Ngày mai không có thời gian."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "ng5-1",
+        "kind": "listen-meaning",
+        "promptVi": "Nghe và chọn nghĩa đúng của câu:",
+        "audioText": "今天没有时间。",
+        "options": [
+          {
+            "label": "Hôm nay không có thời gian.",
+            "value": "Hôm nay không có thời gian."
+          },
+          {
+            "label": "Hôm nay có thời gian.",
+            "value": "Hôm nay có thời gian."
+          },
+          {
+            "label": "Ngày mai không có thời gian.",
+            "value": "Ngày mai không có thời gian."
+          },
+          {
+            "label": "Bây giờ không có thời gian.",
+            "value": "Bây giờ không có thời gian."
+          }
+        ],
+        "answer": "Hôm nay không có thời gian."
+      },
+      {
+        "id": "ng5-2",
+        "kind": "listen-hanzi",
+        "promptVi": "Nghe và chọn chữ Hán đúng:",
+        "audioText": "现在",
+        "options": [
+          {
+            "label": "明天",
+            "value": "明天"
+          },
+          {
+            "label": "现在",
+            "value": "现在"
+          },
+          {
+            "label": "今天",
+            "value": "今天"
+          },
+          {
+            "label": "时间",
+            "value": "时间"
+          }
+        ],
+        "answer": "现在"
+      },
+      {
+        "id": "ng5-3",
+        "kind": "listen-tiles",
+        "promptVi": "Nghe và sắp xếp các từ thành câu:",
+        "audioText": "现在几点",
+        "tiles": [
+          "现",
+          "在",
+          "几",
+          "点"
+        ],
+        "answer": "现在几点"
+      },
+      {
+        "id": "ng5-4",
+        "kind": "listen-blank",
+        "promptVi": "Nghe và điền từ còn thiếu vào chỗ trống: 明天几 ___？",
+        "audioText": "明天几点？",
+        "options": [
+          {
+            "label": "点",
+            "value": "点"
+          },
+          {
+            "label": "分",
+            "value": "分"
+          },
+          {
+            "label": "钟",
+            "value": "钟"
+          },
+          {
+            "label": "天",
+            "value": "天"
+          }
+        ],
+        "answer": "点"
+      },
+      {
+        "id": "ng5-5",
+        "kind": "listen-dialogue",
+        "promptVi": "Nghe câu hỏi và chọn đáp án phù hợp:",
+        "audioText": "今天几点？",
+        "options": [
+          {
+            "label": "Hôm nay mấy giờ?",
+            "value": "Hôm nay mấy giờ?"
+          },
+          {
+            "label": "Hôm nay ngày mấy?",
+            "value": "Hôm nay ngày mấy?"
+          },
+          {
+            "label": "Ngày mai mấy giờ?",
+            "value": "Ngày mai mấy giờ?"
+          }
+        ],
+        "answer": "Hôm nay mấy giờ?"
+      },
+      {
+        "id": "ng5-6",
+        "kind": "dictation",
+        "promptVi": "Chép chính tả rút gọn: gõ pinyin (hoặc chạm thẻ) câu vừa nghe",
+        "audioText": "现在八点",
+        "tiles": [
+          "现在",
+          "八点"
+        ],
+        "answer": "xianzaibadian"
+      }
+    ]
+  },
+  {
+    "id": "t5-viet",
+    "stage": 1,
+    "topicId": 5,
+    "title": "Viết: Thời gian & hẹn gặp",
+    "type": "viet",
+    "xp": 25,
+    "newWords": [
+      "w-067",
+      "w-068",
+      "w-069",
+      "w-070",
+      "w-138",
+      "w-131"
+    ],
+    "writingChars": [
+      {
+        "char": "今",
+        "pinyin": "jīn",
+        "meaningVi": "hôm nay",
+        "radical": "人",
+        "radicalNoteVi": "Người hiện tại là hôm nay.",
+        "lookalikes": [
+          {
+            "hanzi": "从",
+            "pinyin": "cóng",
+            "vi": "từ, theo"
+          },
+          {
+            "hanzi": "会",
+            "pinyin": "huì",
+            "vi": "biết, sẽ"
+          },
+          {
+            "hanzi": "今",
+            "pinyin": "jīn",
+            "vi": "hôm nay"
+          },
+          {
+            "hanzi": "人",
+            "pinyin": "rén",
+            "vi": "người"
+          }
+        ]
+      },
+      {
+        "char": "天",
+        "pinyin": "tiān",
+        "meaningVi": "ngày, trời",
+        "radical": "大",
+        "radicalNoteVi": "Người dang tay dưới bầu trời rộng lớn.",
+        "lookalikes": [
+          {
+            "hanzi": "买",
+            "pinyin": "mǎi",
+            "vi": "mua"
+          },
+          {
+            "hanzi": "大",
+            "pinyin": "dà",
+            "vi": "to, lớn"
+          },
+          {
+            "hanzi": "太",
+            "pinyin": "tài",
+            "vi": "quá, lắm"
+          },
+          {
+            "hanzi": "天",
+            "pinyin": "tiān",
+            "vi": "ngày, trời"
+          }
+        ]
+      },
+      {
+        "char": "明",
+        "pinyin": "míng",
+        "meaningVi": "ngày mai",
+        "radical": "日",
+        "radicalNoteVi": "Mặt trời và trăng cùng chiếu sáng.",
+        "lookalikes": [
+          {
+            "hanzi": "旧",
+            "pinyin": "jiù",
+            "vi": "cũ, xưa"
+          },
+          {
+            "hanzi": "早",
+            "pinyin": "zǎo",
+            "vi": "sớm, buổi sáng"
+          },
+          {
+            "hanzi": "明",
+            "pinyin": "míng",
+            "vi": "ngày mai"
+          },
+          {
+            "hanzi": "日",
+            "pinyin": "rì",
+            "vi": "Nhật, ngày, mặt trời"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "t6-giao-tiep",
     "stage": 1,
     "topicId": 6,
@@ -1258,6 +3659,1423 @@
             "vi": "không"
           }
         ]
+      }
+    ]
+  },
+  {
+    "id": "t7-giao-tiep",
+    "stage": 1,
+    "topicId": 7,
+    "title": "Mua sắm & mặc cả",
+    "type": "giao-tiep",
+    "xp": 30,
+    "newWords": [
+      "w-134",
+      "w-133",
+      "w-118",
+      "w-119",
+      "w-097",
+      "w-120"
+    ],
+    "patterns": [
+      {
+        "id": "p-t7-1",
+        "frame": "这个多少___？",
+        "pinyin": "zhè ge duō shǎo ？",
+        "meaningVi": "Cái này bao nhiêu tiền?",
+        "exampleHanzi": "这个多少钱？",
+        "examplePinyin": "zhè ge duō shǎo qián ？",
+        "exampleVi": "Cái này bao nhiêu tiền?",
+        "slots": {
+          "promptVi": "Chọn đơn vị tiền thích hợp để hỏi giá:",
+          "choices": [
+            {
+              "hanzi": "块",
+              "pinyin": "kuài",
+              "vi": "tệ (đồng)"
+            },
+            {
+              "hanzi": "个",
+              "pinyin": "gè",
+              "vi": "cái"
+            },
+            {
+              "hanzi": "件",
+              "pinyin": "jiàn",
+              "vi": "chiếc"
+            }
+          ],
+          "answerHanzi": "块"
+        }
+      },
+      {
+        "id": "p-t7-2",
+        "frame": "这个太___了。",
+        "pinyin": "zhè ge tài le 。",
+        "meaningVi": "Cái này quá đắt/rẻ.",
+        "exampleHanzi": "这个太便宜了。",
+        "examplePinyin": "zhè ge tài pián yi le 。",
+        "exampleVi": "Cái này quá rẻ.",
+        "slots": {
+          "promptVi": "Chọn từ chỉ giá cả phù hợp với câu:",
+          "choices": [
+            {
+              "hanzi": "便宜",
+              "pinyin": "pián yi",
+              "vi": "rẻ"
+            },
+            {
+              "hanzi": "多",
+              "pinyin": "duō",
+              "vi": "nhiều"
+            },
+            {
+              "hanzi": "大",
+              "pinyin": "dà",
+              "vi": "lớn"
+            }
+          ],
+          "answerHanzi": "便宜"
+        }
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Linh",
+        "voiceRole": "female",
+        "hanzi": "你想买什么东西？",
+        "pinyin": "nǐ xiǎng mǎi shén me dōng xī ？",
+        "vi": "Bạn muốn mua thứ gì?",
+        "mode": "npc",
+        "goalLabel": "Hỏi mua đồ"
+      },
+      {
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "我想买一件衣服。",
+        "pinyin": "wǒ xiǎng mǎi yī jiàn yī fú 。",
+        "vi": "Tôi muốn mua một chiếc áo.",
+        "mode": "choice",
+        "goalLabel": "Chọn mua đồ",
+        "choices": [
+          {
+            "hanzi": "我想买一件衣服。",
+            "pinyin": "wǒ xiǎng mǎi yī jiàn yī fú 。",
+            "vi": "Tôi muốn mua một chiếc áo.",
+            "correct": true
+          },
+          {
+            "hanzi": "我想买一个书。",
+            "pinyin": "wǒ xiǎng mǎi yí gè shū 。",
+            "vi": "Tôi muốn mua một cuốn sách.",
+            "correct": false
+          },
+          {
+            "hanzi": "我想吃包子。",
+            "pinyin": "wǒ xiǎng chī bāo zi 。",
+            "vi": "Tôi muốn ăn bánh bao.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "speaker": "Linh",
+        "voiceRole": "female",
+        "hanzi": "这个衣服很好看。",
+        "pinyin": "zhè ge yī fú hěn hǎo kàn 。",
+        "vi": "Chiếc áo này rất đẹp.",
+        "mode": "npc",
+        "goalLabel": "Khen áo đẹp"
+      },
+      {
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "这个多少钱？",
+        "pinyin": "zhè ge duō shǎo qián ？",
+        "vi": "Cái này bao nhiêu tiền?",
+        "mode": "tiles",
+        "goalLabel": "Hỏi giá tiền",
+        "tilePrompt": [
+          "这个",
+          "多少",
+          "钱"
+        ]
+      },
+      {
+        "speaker": "Linh",
+        "voiceRole": "female",
+        "hanzi": "五十块。",
+        "pinyin": "wǔ shí kuài 。",
+        "vi": "Năm mươi tệ.",
+        "mode": "npc",
+        "goalLabel": "Nói giá tiền"
+      },
+      {
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "太便宜了！",
+        "pinyin": "tài pián yi le ！",
+        "vi": "Quá rẻ!",
+        "mode": "pinyin",
+        "goalLabel": "Nhận xét rẻ",
+        "acceptedPinyin": [
+          "taipianyile",
+          "tài pián yi le ！",
+          "太便宜了"
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "id": "ex-t7-1",
+        "kind": "meaning-choice",
+        "promptVi": "Từ '便宜' có nghĩa là gì?",
+        "hanziPrompt": "便宜",
+        "pinyinPrompt": "pián yi",
+        "options": [
+          {
+            "label": "Đắt",
+            "value": "Đắt"
+          },
+          {
+            "label": "Rẻ",
+            "value": "Rẻ"
+          },
+          {
+            "label": "Nhiều",
+            "value": "Nhiều"
+          },
+          {
+            "label": "Ít",
+            "value": "Ít"
+          }
+        ],
+        "answer": "Rẻ"
+      },
+      {
+        "id": "ex-t7-2",
+        "kind": "hanzi-choice",
+        "promptVi": "Nghe và chọn chữ Hán đúng (多少钱)",
+        "audioText": "多少钱",
+        "options": [
+          {
+            "label": "多少钱",
+            "value": "多少钱"
+          },
+          {
+            "label": "中国人",
+            "value": "中国人"
+          },
+          {
+            "label": "ophone",
+            "value": "ophone"
+          },
+          {
+            "label": "不好看",
+            "value": "不好看"
+          }
+        ],
+        "answer": "多少钱"
+      },
+      {
+        "id": "ex-t7-3",
+        "kind": "sentence-tiles",
+        "promptVi": "Sắp xếp thành câu 'Cái này bao nhiêu tiền?'",
+        "tiles": [
+          "这个",
+          "多少",
+          "钱"
+        ],
+        "answer": "这个多少钱"
+      }
+    ],
+    "roleplay": [
+      {
+        "npcHanzi": "你想买什么？",
+        "npcPinyin": "nǐ xiǎng mǎi shén me ？",
+        "npcVi": "Bạn muốn mua gì?",
+        "promptVi": "Trả lời bạn muốn mua một chiếc áo:",
+        "options": [
+          {
+            "hanzi": "我想买一件衣服。",
+            "pinyin": "wǒ xiǎng mǎi yī jiàn yī fú 。",
+            "vi": "Tôi muốn mua một chiếc áo.",
+            "correct": true
+          },
+          {
+            "hanzi": "我想喝牛奶。",
+            "pinyin": "wǒ xiǎng hē niú nǎi 。",
+            "vi": "Tôi muốn uống sữa bò.",
+            "correct": false
+          },
+          {
+            "hanzi": "我older",
+            "pinyin": "wǒ older",
+            "vi": "Tôi...",
+            "correct": false
+          }
+        ],
+        "expectedHanzi": "我想买一件衣服。"
+      },
+      {
+        "npcHanzi": "这个东西很好。",
+        "npcPinyin": "zhè ge dōng xī hěn hǎo 。",
+        "npcVi": "Thứ này rất tốt.",
+        "promptVi": "Hỏi giá tiền của món đồ:",
+        "options": [
+          {
+            "hanzi": "这个多少钱？",
+            "pinyin": "zhè ge duō shǎo qián ？",
+            "vi": "Cái này bao nhiêu tiền?",
+            "correct": true
+          },
+          {
+            "hanzi": "你是谁？",
+            "pinyin": "nǐ shì shuí ？",
+            "vi": "Bạn là ai?",
+            "correct": false
+          },
+          {
+            "hanzi": "你去哪儿？",
+            "pinyin": "nǐ qù nǎ ér ？",
+            "vi": "Bạn đi đâu?",
+            "correct": false
+          }
+        ],
+        "expectedHanzi": "这个多少钱？"
+      },
+      {
+        "npcHanzi": "十块。",
+        "npcPinyin": "shí kuài 。",
+        "npcVi": "Mười tệ.",
+        "promptVi": "Nói rằng giá đó rất rẻ:",
+        "options": [
+          {
+            "hanzi": "太便宜了！",
+            "pinyin": "tài pián yi le ！",
+            "vi": "Quá rẻ!",
+            "correct": true
+          },
+          {
+            "hanzi": "太贵了！",
+            "pinyin": "tài guì le ！",
+            "vi": "Quá đắt!",
+            "correct": false
+          },
+          {
+            "hanzi": "不好吃！",
+            "pinyin": "bù hǎo chī ！",
+            "vi": "Không ngon!",
+            "correct": false
+          }
+        ],
+        "expectedHanzi": "太便宜了！"
+      }
+    ]
+  },
+  {
+    "id": "t7-doc",
+    "stage": 1,
+    "topicId": 7,
+    "title": "Đọc: 买衣服",
+    "type": "doc",
+    "xp": 25,
+    "newWords": [],
+    "readingId": "r-t7"
+  },
+  {
+    "id": "t7-nghe",
+    "stage": 1,
+    "topicId": 7,
+    "title": "Nghe: Mua sắm & mặc cả",
+    "type": "nghe",
+    "xp": 25,
+    "newWords": [
+      "w-134",
+      "w-133",
+      "w-118",
+      "w-119",
+      "w-097",
+      "w-120"
+    ],
+    "listeningTracks": [
+      {
+        "id": "lt7-1",
+        "speaker": "小明",
+        "voiceRole": "male",
+        "hanzi": "小美，你想买什么东西？",
+        "pinyin": "xiǎo měi ， nǐ xiǎng mǎi shén me dōng xī ？",
+        "vi": "Tiểu Mỹ, bạn muốn mua đồ gì?"
+      },
+      {
+        "id": "lt7-2",
+        "speaker": "小美",
+        "voiceRole": "female",
+        "hanzi": "我买一件衣服。",
+        "pinyin": "wǒ mǎi yī jiàn yī fú 。",
+        "vi": "Tôi mua một chiếc áo."
+      },
+      {
+        "id": "lt7-3",
+        "speaker": "小明",
+        "voiceRole": "male",
+        "hanzi": "多少钱？",
+        "pinyin": "duō shǎo qián ？",
+        "vi": "Bao nhiêu tiền?"
+      },
+      {
+        "id": "lt7-4",
+        "speaker": "小美",
+        "voiceRole": "female",
+        "hanzi": "五十块，很便宜。",
+        "pinyin": "wǔ shí kuài ， hěn pián yi 。",
+        "vi": "Năm mươi tệ, rất rẻ."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "ng7-1",
+        "kind": "listen-meaning",
+        "promptVi": "Nghe và chọn nghĩa đúng:",
+        "audioText": "这件衣服多少钱？",
+        "options": [
+          {
+            "label": "Chiếc áo này bao nhiêu tiền?",
+            "value": "Chiếc áo này bao nhiêu tiền?"
+          },
+          {
+            "label": "Chiếc áo này là gì?",
+            "value": "Chiếc áo này là gì?"
+          },
+          {
+            "label": "Cái này mua ở đâu?",
+            "value": "Cái này mua ở đâu?"
+          },
+          {
+            "label": "Cái này bao nhiêu người?",
+            "value": "Cái này bao nhiêu người?"
+          }
+        ],
+        "answer": "Chiếc áo này bao nhiêu tiền?"
+      },
+      {
+        "id": "ng7-2",
+        "kind": "listen-hanzi",
+        "promptVi": "Nghe và chọn chữ Hán đúng:",
+        "audioText": "便宜",
+        "options": [
+          {
+            "label": "买东西",
+            "value": "买东西"
+          },
+          {
+            "label": "便宜",
+            "value": "便宜"
+          },
+          {
+            "label": "多少",
+            "value": "多少"
+          },
+          {
+            "label": "钱",
+            "value": "钱"
+          }
+        ],
+        "answer": "便宜"
+      },
+      {
+        "id": "ng7-3",
+        "kind": "listen-tiles",
+        "promptVi": "Nghe và sắp xếp các từ:",
+        "audioText": "我要买东西",
+        "tiles": [
+          "我",
+          "要",
+          "买",
+          "东西"
+        ],
+        "answer": "我要买东西"
+      },
+      {
+        "id": "ng7-4",
+        "kind": "listen-blank",
+        "promptVi": "Điền từ còn thiếu vào chỗ trống: '我买___。'",
+        "audioText": "我买衣服",
+        "options": [
+          {
+            "label": "衣服",
+            "value": "衣服"
+          },
+          {
+            "label": "钱",
+            "value": "钱"
+          },
+          {
+            "label": "块",
+            "value": "块"
+          },
+          {
+            "label": "便宜",
+            "value": "便宜"
+          }
+        ],
+        "answer": "衣服"
+      },
+      {
+        "id": "ng7-5",
+        "kind": "listen-dialogue",
+        "promptVi": "Nghe câu hỏi và chọn câu trả lời phù hợp:",
+        "audioText": "多少钱？",
+        "options": [
+          {
+            "label": "五十块钱",
+            "value": "五十块钱"
+          },
+          {
+            "label": "小美",
+            "value": "小美"
+          },
+          {
+            "label": "买衣服",
+            "value": "买衣服"
+          }
+        ],
+        "answer": "五十块钱"
+      },
+      {
+        "id": "ng7-6",
+        "kind": "dictation",
+        "promptVi": "Chép chính tả rút gọn: gõ pinyin (hoặc chạm thẻ) câu vừa nghe",
+        "audioText": "买衣服多少钱",
+        "tiles": [
+          "买衣服",
+          "多少钱"
+        ],
+        "answer": "maiyifuduoshaoqian"
+      }
+    ]
+  },
+  {
+    "id": "t7-viet",
+    "stage": 1,
+    "topicId": 7,
+    "title": "Viết: Mua sắm & mặc cả",
+    "type": "viet",
+    "xp": 25,
+    "newWords": [
+      "w-134",
+      "w-133",
+      "w-118",
+      "w-119",
+      "w-097",
+      "w-120"
+    ],
+    "writingChars": [
+      {
+        "char": "买",
+        "pinyin": "mǎi",
+        "meaningVi": "mua",
+        "radical": "大",
+        "radicalNoteVi": "Muốn mua đồ lớn phải có tiền.",
+        "lookalikes": [
+          {
+            "hanzi": "买",
+            "pinyin": "mǎi",
+            "vi": "mua"
+          },
+          {
+            "hanzi": "大",
+            "pinyin": "dà",
+            "vi": "to, lớn"
+          },
+          {
+            "hanzi": "天",
+            "pinyin": "tiān",
+            "vi": "ngày, trời"
+          },
+          {
+            "hanzi": "太",
+            "pinyin": "tài",
+            "vi": "quá, lắm"
+          }
+        ]
+      },
+      {
+        "char": "东",
+        "pinyin": "dōng",
+        "meaningVi": "phía đông, họ Đông",
+        "radical": "一",
+        "radicalNoteVi": "Mặt trời mọc ở một hướng đông.",
+        "lookalikes": [
+          {
+            "hanzi": "东",
+            "pinyin": "dōng",
+            "vi": "phía đông, họ Đông"
+          },
+          {
+            "hanzi": "一",
+            "pinyin": "yī",
+            "vi": "một"
+          },
+          {
+            "hanzi": "七",
+            "pinyin": "qī",
+            "vi": "số bảy, 7"
+          },
+          {
+            "hanzi": "万",
+            "pinyin": "wàn",
+            "vi": "vạn, mười nghìn"
+          }
+        ]
+      },
+      {
+        "char": "西",
+        "pinyin": "xī",
+        "meaningVi": "phía tây, Tây Ban Nha",
+        "radical": "西",
+        "radicalNoteVi": "Hướng tây là nơi mặt trời lặn.",
+        "lookalikes": [
+          {
+            "hanzi": "们",
+            "pinyin": "men",
+            "vi": "hậu tố chỉ số nhiều"
+          },
+          {
+            "hanzi": "西",
+            "pinyin": "xī",
+            "vi": "phía tây, Tây Ban Nha"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ",
+            "vi": "bạn"
+          },
+          {
+            "hanzi": "好",
+            "pinyin": "hǎo",
+            "vi": "tốt, khỏe"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "t8-giao-tiep",
+    "stage": 1,
+    "topicId": 8,
+    "title": "Hỏi đường & đi lại",
+    "type": "giao-tiep",
+    "xp": 30,
+    "newWords": [
+      "w-071",
+      "w-147",
+      "w-150",
+      "w-151",
+      "w-149",
+      "w-146"
+    ],
+    "patterns": [
+      {
+        "id": "p-t8-1",
+        "frame": "去___怎么走？",
+        "pinyin": "qù zěn me zǒu ？",
+        "meaningVi": "Đi đến ... đi thế nào?",
+        "exampleHanzi": "去车站怎么走？",
+        "examplePinyin": "qù chē zhàn zěn me zǒu ？",
+        "exampleVi": "Đi đến bến xe đi thế nào?",
+        "slots": {
+          "promptVi": "Chọn từ đúng điền vào chỗ trống: Đi đến đường đi thế nào?",
+          "choices": [
+            {
+              "hanzi": "路",
+              "pinyin": "lù",
+              "vi": "đường"
+            },
+            {
+              "hanzi": "车",
+              "pinyin": "chē",
+              "vi": "xe"
+            },
+            {
+              "hanzi": "家",
+              "pinyin": "jiā",
+              "vi": "nhà"
+            }
+          ],
+          "answerHanzi": "路"
+        }
+      },
+      {
+        "id": "p-t8-2",
+        "frame": "___边是车站。",
+        "pinyin": "biān shì chē zhàn 。",
+        "meaningVi": "Bên ... là bến xe.",
+        "exampleHanzi": "左边是车站。",
+        "examplePinyin": "zuǒ biān shì chē zhàn 。",
+        "exampleVi": "Bên trái là bến xe.",
+        "slots": {
+          "promptVi": "Chọn từ đúng điền vào chỗ trống: Bên phải là bến xe.",
+          "choices": [
+            {
+              "hanzi": "右边",
+              "pinyin": "yòu biān",
+              "vi": "bên phải"
+            },
+            {
+              "hanzi": "中国",
+              "pinyin": "zhōng guó",
+              "vi": "Trung Quốc"
+            },
+            {
+              "hanzi": "北京",
+              "pinyin": "běi jīng",
+              "vi": "Bắc Kinh"
+            }
+          ],
+          "answerHanzi": "右边"
+        }
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "小明",
+        "voiceRole": "male",
+        "hanzi": "请问，去车站怎么走？",
+        "pinyin": "qǐng wèn ， qù chē zhàn zěn me zǒu ？",
+        "vi": "Xin hỏi, đi bến xe đi thế nào?",
+        "mode": "npc",
+        "goalLabel": "Hỏi đường"
+      },
+      {
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "你走这边。",
+        "pinyin": "nǐ zǒu zhè biān 。",
+        "vi": "Bạn đi bên này.",
+        "mode": "choice",
+        "goalLabel": "Chỉ đường",
+        "choices": [
+          {
+            "hanzi": "你走这边。",
+            "pinyin": "nǐ zǒu zhè biān 。",
+            "vi": "Bạn đi bên này.",
+            "correct": true
+          },
+          {
+            "hanzi": "你去中国。",
+            "pinyin": "nǐ qù zhōng guó 。",
+            "vi": "Bạn đi Trung Quốc.",
+            "correct": false
+          },
+          {
+            "hanzi": "你不吃饭。",
+            "pinyin": "nǐ bù chī fàn 。",
+            "vi": "Bạn không ăn cơm.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "speaker": "小明",
+        "voiceRole": "male",
+        "hanzi": "车站是在左边吗？",
+        "pinyin": "chē zhàn shì zài zuǒ biān ma ？",
+        "vi": "Bến xe là ở bên trái phải không?",
+        "mode": "npc",
+        "goalLabel": "Xác nhận"
+      },
+      {
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "右边是车站。",
+        "pinyin": "yòu biān shì chē zhàn 。",
+        "vi": "Bên phải là bến xe.",
+        "mode": "tiles",
+        "goalLabel": "Nói vị trí",
+        "tilePrompt": [
+          "右边",
+          "是",
+          "车站"
+        ]
+      },
+      {
+        "speaker": "小明",
+        "voiceRole": "male",
+        "hanzi": "好，谢谢你。",
+        "pinyin": "hǎo ， xiè xiè nǐ 。",
+        "vi": "Được, cảm ơn bạn.",
+        "mode": "npc",
+        "goalLabel": "Cảm ơn"
+      },
+      {
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "不客气。",
+        "pinyin": "bú kè qì 。",
+        "vi": "Không có chi.",
+        "mode": "pinyin",
+        "goalLabel": "Đáp lại",
+        "acceptedPinyin": [
+          "bukeqi",
+          "bú kè qì 。",
+          "不客气"
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "id": "ex-t8-1",
+        "kind": "meaning-choice",
+        "promptVi": "Từ '车站' có nghĩa là gì?",
+        "hanziPrompt": "车站",
+        "pinyinPrompt": "chē zhàn",
+        "options": [
+          {
+            "label": "bến xe, ga tàu",
+            "value": "bến xe, ga tàu"
+          },
+          {
+            "label": "bên trái",
+            "value": "bên trái"
+          },
+          {
+            "label": "bên phải",
+            "value": "bên phải"
+          },
+          {
+            "label": "con đường",
+            "value": "con đường"
+          }
+        ],
+        "answer": "bến xe, ga tàu"
+      },
+      {
+        "id": "ex-t8-2",
+        "kind": "hanzi-choice",
+        "promptVi": "Nghe và chọn chữ Hán đúng (bên phải)",
+        "audioText": "右边",
+        "options": [
+          {
+            "label": "左边",
+            "value": "左边"
+          },
+          {
+            "label": "右边",
+            "value": "右边"
+          },
+          {
+            "label": "车站",
+            "value": "车站"
+          },
+          {
+            "label": "走路",
+            "value": "走路"
+          }
+        ],
+        "answer": "右边"
+      },
+      {
+        "id": "ex-t8-3",
+        "kind": "sentence-tiles",
+        "promptVi": "Sắp xếp thành câu hoàn chỉnh: Đi đến bến xe.",
+        "tiles": [
+          "去",
+          "车站",
+          "走"
+        ],
+        "answer": "去车站走"
+      }
+    ],
+    "roleplay": [
+      {
+        "npcHanzi": "请问，去车站怎么走？",
+        "npcPinyin": "qǐng wèn ， qù chē zhàn zěn me zǒu ？",
+        "npcVi": "Xin hỏi, đi bến xe đi thế nào?",
+        "promptVi": "Chọn câu trả lời: Đi bên trái.",
+        "options": [
+          {
+            "hanzi": "你走左边。",
+            "pinyin": "nǐ zǒu zuǒ biān 。",
+            "vi": "Bạn đi bên trái.",
+            "correct": true
+          },
+          {
+            "hanzi": "我不去学校。",
+            "pinyin": "wǒ bù qù xué xiào 。",
+            "vi": "Tôi không đi trường học.",
+            "correct": false
+          },
+          {
+            "hanzi": "这是中国。",
+            "pinyin": "zhè shì zhōng guó 。",
+            "vi": "Đây là Trung Quốc.",
+            "correct": false
+          }
+        ],
+        "expectedHanzi": "你走左边。"
+      },
+      {
+        "npcHanzi": "右边是商店吗？",
+        "npcPinyin": "yòu biān shì shāng diàn ma ？",
+        "npcVi": "Bên phải là cửa hàng phải không?",
+        "promptVi": "Chọn câu trả lời: Bên phải là bến xe.",
+        "options": [
+          {
+            "hanzi": "右边是车站。",
+            "pinyin": "yòu biān shì chē zhàn 。",
+            "vi": "Bên phải là bến xe.",
+            "correct": true
+          },
+          {
+            "hanzi": "我不喝茶。",
+            "pinyin": "wǒ bù hē chá 。",
+            "vi": "Tôi không uống trà.",
+            "correct": false
+          },
+          {
+            "hanzi": "这是中文。",
+            "pinyin": "zhè shì zhōng wén 。",
+            "vi": "Đây là tiếng Trung.",
+            "correct": false
+          }
+        ],
+        "expectedHanzi": "右边是车站。"
+      },
+      {
+        "npcHanzi": "谢谢你。",
+        "npcPinyin": "xiè xiè nǐ 。",
+        "npcVi": "Cảm ơn bạn.",
+        "promptVi": "Chọn câu trả lời: Không có chi.",
+        "options": [
+          {
+            "hanzi": "不客气。",
+            "pinyin": "bú kè qì 。",
+            "vi": "Không có chi.",
+            "correct": true
+          },
+          {
+            "hanzi": "再见。",
+            "pinyin": "zài jiàn 。",
+            "vi": "Tạm biệt.",
+            "correct": false
+          },
+          {
+            "hanzi": "对不起。",
+            "pinyin": "duì bù qǐ 。",
+            "vi": "Xin lỗi.",
+            "correct": false
+          }
+        ],
+        "expectedHanzi": "不客气。"
+      }
+    ]
+  },
+  {
+    "id": "t8-doc",
+    "stage": 1,
+    "topicId": 8,
+    "title": "Đọc: 问路",
+    "type": "doc",
+    "xp": 25,
+    "newWords": [],
+    "readingId": "r-t8"
+  },
+  {
+    "id": "t8-nghe",
+    "stage": 1,
+    "topicId": 8,
+    "title": "Nghe: Hỏi đường & đi lại",
+    "type": "nghe",
+    "xp": 25,
+    "newWords": [
+      "w-071",
+      "w-147",
+      "w-150",
+      "w-151",
+      "w-149",
+      "w-146"
+    ],
+    "listeningTracks": [
+      {
+        "id": "lt8-1",
+        "speaker": "小明",
+        "voiceRole": "male",
+        "hanzi": "请问，车站怎么走？",
+        "pinyin": "qǐng wèn ， chē zhàn zěn me zǒu ？",
+        "vi": "Xin hỏi, đi đến bến xe như thế nào?"
+      },
+      {
+        "id": "lt8-2",
+        "speaker": "小美",
+        "voiceRole": "female",
+        "hanzi": "左边是车站。",
+        "pinyin": "zuǒ biān shì chē zhàn 。",
+        "vi": "Bên trái là bến xe."
+      },
+      {
+        "id": "lt8-3",
+        "speaker": "王老师",
+        "voiceRole": "formal",
+        "hanzi": "右边去商店。",
+        "pinyin": "yòu biān qù shāng diàn 。",
+        "vi": "Đi bên phải là cửa hàng."
+      },
+      {
+        "id": "lt8-4",
+        "speaker": "Bao",
+        "voiceRole": "male",
+        "hanzi": "我们去哪儿？",
+        "pinyin": "wǒ men qù nǎ ér ？",
+        "vi": "Chúng ta đi đâu?"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "ng8-1",
+        "kind": "listen-meaning",
+        "promptVi": "Nghe và chọn nghĩa đúng:",
+        "audioText": "车站怎么走？",
+        "options": [
+          {
+            "label": "Đi bến xe như thế nào?",
+            "value": "Đi bến xe như thế nào?"
+          },
+          {
+            "label": "Đi trường học như thế nào?",
+            "value": "Đi trường học như thế nào?"
+          },
+          {
+            "label": "Đi bệnh viện như thế nào?",
+            "value": "Đi bệnh viện như thế nào?"
+          },
+          {
+            "label": "Đi cửa hàng như thế nào?",
+            "value": "Đi cửa hàng như thế nào?"
+          }
+        ],
+        "answer": "Đi bến xe như thế nào?"
+      },
+      {
+        "id": "ng8-2",
+        "kind": "listen-hanzi",
+        "promptVi": "Nghe và chọn chữ Hán đúng:",
+        "audioText": "左边",
+        "options": [
+          {
+            "label": "左边",
+            "value": "左边"
+          },
+          {
+            "label": "右边",
+            "value": "右边"
+          },
+          {
+            "label": "前边",
+            "value": "前边"
+          },
+          {
+            "label": "后边",
+            "value": "后边"
+          }
+        ],
+        "answer": "左边"
+      },
+      {
+        "id": "ng8-3",
+        "kind": "listen-tiles",
+        "promptVi": "Sắp xếp các từ thành câu đúng:",
+        "audioText": "车站在左边",
+        "tiles": [
+          "车站",
+          "在",
+          "左边"
+        ],
+        "answer": "车站在左边"
+      },
+      {
+        "id": "ng8-4",
+        "kind": "listen-blank",
+        "promptVi": "Điền từ còn thiếu: '车站在___'",
+        "audioText": "车站在右边",
+        "options": [
+          {
+            "label": "左边",
+            "value": "左边"
+          },
+          {
+            "label": "右边",
+            "value": "右边"
+          },
+          {
+            "label": "前边",
+            "value": "前边"
+          },
+          {
+            "label": "后边",
+            "value": "后边"
+          }
+        ],
+        "answer": "右边"
+      },
+      {
+        "id": "ng8-5",
+        "kind": "listen-dialogue",
+        "promptVi": "Nghe hội thoại và chọn ý đúng:",
+        "audioText": "请问，去车站怎么走？",
+        "options": [
+          {
+            "label": "Hỏi đường đi đến bến xe",
+            "value": "Hỏi đường đi đến bến xe"
+          },
+          {
+            "label": "Hỏi mua vé xe",
+            "value": "Hỏi mua vé xe"
+          },
+          {
+            "label": "Hỏi giờ xe chạy",
+            "value": "Hỏi giờ xe chạy"
+          }
+        ],
+        "answer": "Hỏi đường đi đến bến xe"
+      },
+      {
+        "id": "ng8-6",
+        "kind": "dictation",
+        "promptVi": "Chép chính tả rút gọn: gõ pinyin (hoặc chạm thẻ) câu vừa nghe",
+        "audioText": "车站怎么走",
+        "tiles": [
+          "车站",
+          "怎么走"
+        ],
+        "answer": "chezhanzenmezou"
+      }
+    ]
+  },
+  {
+    "id": "t8-viet",
+    "stage": 1,
+    "topicId": 8,
+    "title": "Viết: Hỏi đường & đi lại",
+    "type": "viet",
+    "xp": 25,
+    "newWords": [
+      "w-071",
+      "w-147",
+      "w-150",
+      "w-151",
+      "w-149",
+      "w-146"
+    ],
+    "writingChars": [
+      {
+        "char": "去",
+        "pinyin": "qù",
+        "meaningVi": "đi",
+        "radical": "厶",
+        "radicalNoteVi": "Đi xa rồi thì không quay lại.",
+        "lookalikes": [
+          {
+            "hanzi": "厹",
+            "pinyin": "róu",
+            "vi": "spear"
+          },
+          {
+            "hanzi": "去",
+            "pinyin": "qù",
+            "vi": "đi"
+          },
+          {
+            "hanzi": "厶",
+            "pinyin": "sī",
+            "vi": "private, secret"
+          },
+          {
+            "hanzi": "厷",
+            "pinyin": "gōng",
+            "vi": "forearm, upper arm"
+          }
+        ]
+      },
+      {
+        "char": "路",
+        "pinyin": "lù",
+        "meaningVi": "họ Lộ, đường",
+        "radical": "足",
+        "radicalNoteVi": "Dùng đôi chân để bước trên đường.",
+        "lookalikes": [
+          {
+            "hanzi": "跳",
+            "pinyin": "tiào",
+            "vi": "nhảy"
+          },
+          {
+            "hanzi": "路",
+            "pinyin": "lù",
+            "vi": "họ Lộ, đường"
+          },
+          {
+            "hanzi": "跑",
+            "pinyin": "pǎo",
+            "vi": "chạy"
+          },
+          {
+            "hanzi": "跟",
+            "pinyin": "gēn",
+            "vi": "cùng, với, theo"
+          }
+        ]
+      },
+      {
+        "char": "车",
+        "pinyin": "chē",
+        "meaningVi": "xe, xe cộ",
+        "radical": "车",
+        "radicalNoteVi": "Hình vẽ chiếc xe có bánh quay.",
+        "lookalikes": [
+          {
+            "hanzi": "军",
+            "pinyin": "jūn",
+            "vi": "army, military"
+          },
+          {
+            "hanzi": "斩",
+            "pinyin": "zhǎn",
+            "vi": "to chop, to cut, to sever"
+          },
+          {
+            "hanzi": "车",
+            "pinyin": "chē",
+            "vi": "xe, xe cộ"
+          },
+          {
+            "hanzi": "辆",
+            "pinyin": "liàng",
+            "vi": "chiếc (lượng từ xe)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stage-1-test",
+    "stage": 1,
+    "topicId": 100,
+    "title": "Kiểm tra tổng hợp Chặng 1 — Sinh tồn",
+    "type": "stage-test",
+    "xp": 60,
+    "newWords": [],
+    "stageTestItems": [
+      {
+        "id": "st1-q1",
+        "skill": "giao-tiep",
+        "promptVi": "小明 (Tiểu Minh) gặp 王老师 (Thầy Vương) vào buổi sáng, cậu ấy nên nói gì?",
+        "passageHanzi": "小明：王老师，您早！",
+        "passagePinyin": "xiǎo míng ： wáng lǎo shī ， nín zǎo ！",
+        "passageVi": "Tiểu Minh: Thầy Vương, chào thầy buổi sáng!",
+        "audioText": "",
+        "options": [
+          {
+            "label": "你好",
+            "value": "你好"
+          },
+          {
+            "label": "王老师，您早",
+            "value": "王老师，您早"
+          },
+          {
+            "label": "再见",
+            "value": "再见"
+          }
+        ],
+        "answer": "王老师，您早",
+        "explainVi": "Vào buổi sáng, để thể hiện sự lễ phép với thầy cô, '您早' (Chào buổi sáng, kính ngữ) là cách chào hỏi phù hợp nhất trong danh sách từ đã cho."
+      },
+      {
+        "id": "st1-q2",
+        "skill": "giao-tiep",
+        "promptVi": "Bao muốn gọi món tại quán ăn, cậu ấy nên nói câu nào sau đây?",
+        "passageHanzi": "服务员：您想吃什么？Bao：我要两个包子，一个咖啡。",
+        "passagePinyin": "fú wù yuán ： nín xiǎng chī shén me ？Bao： wǒ yào liǎng gè bāo zi ， yí gè kā fēi 。",
+        "passageVi": "Nhân viên phục vụ: Bạn muốn ăn gì? Bao: Tôi muốn hai cái bánh bao, một cà phê.",
+        "audioText": "",
+        "options": [
+          {
+            "label": "我要两个包子，一个咖啡",
+            "value": "我要两个包子，一个咖啡"
+          },
+          {
+            "label": "谢谢你",
+            "value": "谢谢你"
+          },
+          {
+            "label": "你好，再见",
+            "value": "你好，再见"
+          }
+        ],
+        "answer": "我要两个包子，一个咖啡",
+        "explainVi": "Khi gọi món, cấu trúc '我要...' (Tôi muốn...) là cách nói chuẩn xác và lịch sự để yêu cầu món ăn."
+      },
+      {
+        "id": "st1-q3",
+        "skill": "doc",
+        "promptVi": "Đọc đoạn văn và chọn câu trả lời đúng.",
+        "passageHanzi": "小美是我的同学。她下午去书店买书，也买了一个杯子。她觉得那个杯子很好看，也很便宜。她说她今天很开心。",
+        "passagePinyin": "xiǎo měi shì wǒ de tóng xué 。 tā xià wǔ qù shū diàn mǎi shū ， yě mǎi le yí gè bēi zi 。 tā jué de nà ge bēi zi hěn hǎo kàn ， yě hěn pián yi 。 tā shuō tā jīn tiān hěn kāi xīn 。",
+        "passageVi": "Tiểu Mỹ là bạn cùng lớp của tôi. Buổi chiều cô ấy đi hiệu sách mua sách, cũng mua một cái cốc. Cô ấy thấy cái cốc đó rất đẹp, cũng rất rẻ. Cô ấy nói hôm nay cô ấy rất vui.",
+        "audioText": "",
+        "options": [
+          {
+            "label": "小美去超市买东西",
+            "value": "小美去超市买东西"
+          },
+          {
+            "label": "小美买了一个杯子",
+            "value": "小美买了一个杯子"
+          },
+          {
+            "label": "小美觉得杯子很贵",
+            "value": "小美觉得杯子很贵"
+          }
+        ],
+        "answer": "小美买了一个杯子",
+        "explainVi": "Trong bài đọc, câu '她... 买了一个杯子' xác nhận Tiểu Mỹ đã mua một cái cốc, các phương án khác sai về nội dung (đi hiệu sách chứ không phải siêu thị, và cốc rẻ chứ không phải đắt)."
+      },
+      {
+        "id": "st1-q4",
+        "skill": "doc",
+        "promptVi": "Đọc đoạn văn và trả lời câu hỏi: Ai là người đi làm?",
+        "passageHanzi": "王老师在北京工作。他上午九点去学校。他的儿子也是学生，下午一点去学校上课。",
+        "passagePinyin": "wáng lǎo shī zài běi jīng gōng zuò 。 tā shàng wǔ jiǔ diǎn qù xué xiào 。 tā de ér zi yě shì xué shēng ， xià wǔ yì diǎn qù xué xiào shàng kè 。",
+        "passageVi": "Thầy Vương làm việc ở Bắc Kinh. Buổi sáng 9 giờ ông ấy đến trường. Con trai ông ấy cũng là học sinh, 1 giờ chiều đến trường đi học.",
+        "audioText": "",
+        "options": [
+          {
+            "label": "王老师",
+            "value": "王老师"
+          },
+          {
+            "label": "王老师的儿子",
+            "value": "王老师的儿子"
+          },
+          {
+            "label": "都不去",
+            "value": "都不去"
+          }
+        ],
+        "answer": "王老师",
+        "explainVi": "Đoạn văn ghi rõ '王老师在北京工作' (Thầy Vương làm việc tại Bắc Kinh), con trai ông là học sinh đi học, không phải đi làm."
+      },
+      {
+        "id": "st1-q5",
+        "skill": "nghe",
+        "promptVi": "Nghe và chọn nội dung đúng.",
+        "passageHanzi": "",
+        "passagePinyin": "",
+        "passageVi": "",
+        "audioText": "今天是星期天，我不上班。",
+        "options": [
+          {
+            "label": "Hôm nay là thứ hai, tôi đi làm.",
+            "value": "Hôm nay là thứ hai, tôi đi làm."
+          },
+          {
+            "label": "Hôm nay là chủ nhật, tôi không đi làm.",
+            "value": "Hôm nay là chủ nhật, tôi không đi làm."
+          },
+          {
+            "label": "Hôm nay là thứ bảy, tôi đi học.",
+            "value": "Hôm nay là thứ bảy, tôi đi học."
+          }
+        ],
+        "answer": "Hôm nay là chủ nhật, tôi không đi làm.",
+        "explainVi": "Câu '今天是星期天，我不上班' dịch trực tiếp là 'Hôm nay là chủ nhật, tôi không đi làm'."
+      },
+      {
+        "id": "st1-q6",
+        "skill": "nghe",
+        "promptVi": "Nghe và chọn nội dung đúng.",
+        "passageHanzi": "",
+        "passagePinyin": "",
+        "passageVi": "",
+        "audioText": "小美喜欢喝奶茶，不喜欢喝咖啡。",
+        "options": [
+          {
+            "label": "Tiểu Mỹ thích uống cà phê.",
+            "value": "Tiểu Mỹ thích uống cà phê."
+          },
+          {
+            "label": "Tiểu Mỹ thích uống trà sữa.",
+            "value": "Tiểu Mỹ thích uống trà sữa."
+          },
+          {
+            "label": "Tiểu Mỹ không thích uống trà sữa.",
+            "value": "Tiểu Mỹ không thích uống trà sữa."
+          }
+        ],
+        "answer": "Tiểu Mỹ thích uống trà sữa.",
+        "explainVi": "Câu '小美喜欢喝奶茶' có nghĩa là 'Tiểu Mỹ thích uống trà sữa'."
+      },
+      {
+        "id": "st1-q7",
+        "skill": "viet",
+        "promptVi": "Viết đúng thứ tự nét chữ 'bạn' (nǐ)",
+        "writingChar": {
+          "char": "你",
+          "pinyin": "nǐ",
+          "meaningVi": "bạn",
+          "radical": "亻",
+          "radicalNoteVi": "Bộ nhân đứng (亻) — hình dáng một người đứng nghiêng, xuất hiện ở nhiều chữ chỉ người như 他, 们.",
+          "lookalikes": [
+            {
+              "hanzi": "你",
+              "pinyin": "nǐ",
+              "vi": "bạn"
+            },
+            {
+              "hanzi": "他",
+              "pinyin": "tā",
+              "vi": "anh ấy"
+            },
+            {
+              "hanzi": "们",
+              "pinyin": "men",
+              "vi": "các (số nhiều)"
+            },
+            {
+              "hanzi": "作",
+              "pinyin": "zuò",
+              "vi": "làm"
+            }
+          ]
+        },
+        "answer": "你",
+        "explainVi": "Bộ nhân đứng (亻) — hình dáng một người đứng nghiêng, xuất hiện ở nhiều chữ chỉ người như 他, 们."
+      },
+      {
+        "id": "st1-q8",
+        "skill": "viet",
+        "promptVi": "Nhận diện mặt chữ: Đâu là chữ 'xe, xe cộ' (chē)?",
+        "options": [
+          {
+            "label": "军",
+            "value": "军"
+          },
+          {
+            "label": "斩",
+            "value": "斩"
+          },
+          {
+            "label": "车",
+            "value": "车"
+          },
+          {
+            "label": "辆",
+            "value": "辆"
+          }
+        ],
+        "answer": "车",
+        "explainVi": "Hình vẽ chiếc xe có bánh quay."
       }
     ]
   }
