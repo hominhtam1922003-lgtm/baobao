@@ -1,0 +1,15 @@
+feature,area,priority,original,clone,notes
+S01 Bản đồ zigzag 4 chặng 28 chủ đề + Sổ tay + Tải sẵn chặng,map,must,spec,no,
+S02 Học từ 64px + mẫu câu + 3 chạm + ghép thẻ + đóng vai 3 câu,vocab,must,spec,no,
+S03 Hội thoại chat NPC/Bao + mục tiêu + nhập 3 cấp + shadowing thu âm,dialogue,must,spec,no,
+S04 Đọc hiểu 21px/1.9 + 3 chế độ pinyin + tra tại chỗ + karaoke + câu hỏi,reading,must,spec,no,
+S05 Nghe Ø180px + 0.75x audio chậm thật + 6 dạng bài tăng tiến + lặp khi sai,listening,must,spec,no,
+S06 Viết Hanzi Writer canvas 480px + bộ thủ + 3 mức + mini-quiz 4 chữ,writing,must,spec,no,
+S07 Ôn tập FSRS 3 mặt tách + lọc 4 nhóm + lật 3D + câu ví dụ + phím 1-4,srs,must,spec,no,
+S08 Hồ sơ Bao + tủ đồ + streak lịch + 2 đóng băng + mục tiêu + cài đặt + xuất/nhập JSON,profile,must,spec,no,
+PWA offline cache-first + SW + navigator.storage.persist,infra,must,spec,no,
+Phím tắt laptop Space/1-4/Enter/Arrow,a11y,must,spec,no,
+Trang Về ứng dụng ghi đủ 4 giấy phép dữ liệu mở,compliance,must,spec,no,
+Tài nguyên mẫu trọn gói Chủ đề 1 và 6 đủ 4 kỹ năng + audio thật,content,must,spec,no,
+Đủ 28 chủ đề + 4 truyện dài kỳ + 4 kiểm tra chặng,content,should,spec,no,ĐỢT 2
+Tối ưu dung lượng Pages + Safari iPhone + kịch bản mất mạng giữa bài,qa,should,spec,no,ĐỢT 3
