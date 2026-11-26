@@ -6,6 +6,9 @@ import {
   previewIntervals,
   filterQueue,
   createDefaultProgress,
+  computeStreak,
+  evaluateUnlockedAccessories,
+  evaluateBadges,
   type SrsCardRecord,
 } from './srsEngine';
 
@@ -96,5 +99,50 @@ describe('srsEngine seam', () => {
     expect(p.freezesLeft).toBe(2);
     expect('hearts' in p).toBe(false);
     expect('energy' in p).toBe(false);
+  });
+
+  it('bridges missed days with frozenDates and preserves streak when yesterday was active', () => {
+    const ref = new Date(2026, 10, 26, 12, 0, 0);
+    // Studied 23, 24; froze 25; today 26 not studied yet -> streak = 3
+    expect(computeStreak(['2026-11-23', '2026-11-24'], ref, ['2026-11-25'])).toBe(3);
+    // Studied today 26 + froze 25 + studied 24 -> streak = 3
+    expect(computeStreak(['2026-11-24', '2026-11-26'], ref, ['2026-11-25'])).toBe(3);
+    // Missed 25 without freeze -> streak = 1 (today only)
+    expect(computeStreak(['2026-11-24', '2026-11-26'], ref, [])).toBe(1);
+  });
+
+  it('unlocks all 8 Bao accessories by XP and evaluates 12 badge milestones cleanly', () => {
+    expect(evaluateUnlockedAccessories(0)).toEqual([]);
+    expect(evaluateUnlockedAccessories(30)).toContain('bamboo-hat');
+    expect(evaluateUnlockedAccessories(1200)).toEqual([
+      'bamboo-hat',
+      'red-scarf',
+      'tea-beret',
+      'star-glasses',
+      'lantern-pin',
+      'explorer-cap',
+      'crown',
+    ]);
+
+    const badges = evaluateBadges({
+      completedLessons: ['t1-giao-tiep', 't1-doc', 't1-nghe', 't1-viet', 'stage-1-test'],
+      streak: 30,
+      xp: 550,
+      completedStories: ['story-c1'],
+      totalReviews: 50,
+    });
+    expect(badges).toEqual(
+      expect.arrayContaining([
+        'first-lesson',
+        'four-skills',
+        'story-reader',
+        'srs-50',
+        'stage-1-master',
+        'streak-7',
+        'streak-30',
+        'xp-100',
+        'xp-500',
+      ])
+    );
   });
 });

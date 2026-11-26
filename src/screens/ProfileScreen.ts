@@ -5,23 +5,20 @@ import { iconSvg } from '../components/Icons';
 import { audioService } from '../services/audioPlayer';
 import type { ProgressRecord } from '../services/db';
 import { exportBackupJson, importBackupJson } from '../services/progressBackup';
-import { ensureProgress, ensureSettings, equipAccessory, saveSettings, todayIsoDate, useStreakFreeze } from '../services/srsEngine';
+import {
+  BAO_ACCESSORIES,
+  BAO_BADGES,
+  ensureProgress,
+  ensureSettings,
+  equipAccessory,
+  evaluateBadges,
+  evaluateUnlockedAccessories,
+  markMilestoneCelebrated,
+  saveSettings,
+  todayIsoDate,
+  useStreakFreeze,
+} from '../services/srsEngine';
 import { escapeHtml } from '../utils/html';
-
-const ACCESSORIES: { id: ProgressRecord['equippedAccessory']; label: string; reqXp: number }[] = [
-  { id: 'none', label: 'Mặc định', reqXp: 0 },
-  { id: 'bamboo-hat', label: 'Nón lá', reqXp: 30 },
-  { id: 'red-scarf', label: 'Khăn đào', reqXp: 80 },
-  { id: 'star-glasses', label: 'Kính sao', reqXp: 160 },
-  { id: 'crown', label: 'Vương miện', reqXp: 300 },
-];
-
-const BADGES: { id: string; title: string; hint: string }[] = [
-  { id: 'first-lesson', title: 'Bước chân đầu tiên', hint: 'Hoàn thành bài học đầu tiên' },
-  { id: 'four-skills', title: 'Đủ 4 kỹ năng', hint: 'Hoàn thành 4 bài học' },
-  { id: 'streak-7', title: 'Ngọn lửa 7 ngày', hint: 'Giữ streak 7 ngày liên tiếp' },
-  { id: 'xp-100', title: 'Nhà du hành chăm chỉ', hint: 'Đạt 100 XP tích luỹ' },
-];
 
 export function applySettingsToDocument(s: { hanziSize: 'sm' | 'md' | 'lg'; reducedMotion: boolean; sfxEnabled: boolean }) {
   const html = document.documentElement;
@@ -35,10 +32,18 @@ export async function renderProfileScreen(root: HTMLElement): Promise<() => void
   let progress = await ensureProgress();
   let settings = await ensureSettings();
   let modalEl: HTMLElement | null = null;
+  let keyHandler: ((e: KeyboardEvent) => void) | null = null;
+
+  const setKey = (fn: ((e: KeyboardEvent) => void) | null) => {
+    if (keyHandler) document.removeEventListener('keydown', keyHandler);
+    keyHandler = fn;
+    if (fn) document.addEventListener('keydown', fn);
+  };
 
   const closeModal = () => {
     modalEl?.remove();
     modalEl = null;
+    setKey(null);
   };
 
   const render = () => {
@@ -53,6 +58,7 @@ export async function renderProfileScreen(root: HTMLElement): Promise<() => void
     const levelNum = Math.floor(progress.xp / 100) + 1;
     const levelPct = progress.xp % 100;
     const activeSet = new Set(progress.activeDates);
+    const frozenSet = new Set(progress.frozenDates ?? []);
     const now = new Date();
     const daysInMonth = new Date(now.getFullYear(), now.getMonth() + 1, 0).getDate();
     const ym = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}`;
@@ -61,9 +67,10 @@ export async function renderProfileScreen(root: HTMLElement): Promise<() => void
       const day = i + 1;
       const iso = `${ym}-${String(day).padStart(2, '0')}`;
       const active = activeSet.has(iso);
-      return `<span style="width:28px;height:28px;border-radius:9px;display:inline-flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;background:${
-        active ? 'var(--write)' : 'var(--bg)'
-      };border:1px solid ${active ? 'var(--write-lip)' : 'var(--border)'};">${day}</span>`;
+      const frozen = !active && frozenSet.has(iso);
+      const bg = active ? 'var(--write)' : frozen ? 'var(--vocab-soft)' : 'var(--bg)';
+      const border = active ? 'var(--write-lip)' : frozen ? 'var(--vocab)' : 'var(--border)';
+      return `<span title="${frozen ? 'Đã đóng băng streak' : active ? 'Ngày có học' : ''}" style="width:28px;height:28px;border-radius:9px;display:inline-flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;background:${bg};border:1px solid ${border};">${day}</span>`;
     }).join('');
 
     const skillMax = Math.max(100, progress.skillXp.giaoTiep, progress.skillXp.doc, progress.skillXp.nghe, progress.skillXp.viet);
@@ -74,16 +81,45 @@ export async function renderProfileScreen(root: HTMLElement): Promise<() => void
       { label: 'Viết chữ', xp: progress.skillXp.viet, color: 'var(--write)' },
     ];
 
+    const unlockedSet = new Set([...progress.unlockedAccessories, ...evaluateUnlockedAccessories(progress.xp)]);
+    const earnedBadges = new Set([
+      ...progress.badges,
+      ...evaluateBadges({
+        completedLessons: progress.completedLessons,
+        streak: progress.streak,
+        xp: progress.xp,
+        completedStories: progress.completedStories,
+        totalReviews: progress.totalReviews,
+      }),
+    ]);
+
+    const activeMilestone = ([100, 30, 7] as const).find(
+      (m) => progress.streak >= m && !(progress.celebratedMilestones ?? []).includes(m)
+    );
+
     body.innerHTML = `
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px;">
-        <!-- 1. Danh tính & Tủ đồ của Bao -->
-        <section class="clay-card" style="padding:22px;">
+      ${
+        activeMilestone
+          ? `<div class="clay-card milestone-banner" style="padding:18px 22px;margin-bottom:18px;background:var(--review-soft);border:2px solid var(--review);display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;">
+               <div style="display:flex;align-items:center;gap:12px;">
+                 ${renderBaoSvg({ mood: 'celebrate', size: 64, accessory: progress.equippedAccessory })}
+                 <div>
+                   <div style="font-size:19px;font-weight:800;">Chúc mừng mốc Streak ${activeMilestone} ngày!</div>
+                   <div style="font-size:14px;color:var(--ink-muted);">Thói quen bền bỉ thật đáng nể — tiếp tục giữ lửa cùng Bao nhé!</div>
+                 </div>
+               </div>
+               <button type="button" class="btn btn-sm btn-review" data-dismiss-milestone="${activeMilestone}">Tuyệt vời!</button>
+             </div>`
+          : ''
+      }
+
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:18px;">
+        <!-- 1. Danh tính & Tủ đồ của Bao (8 món) -->
+        <section class="clay-card" style="padding:22px;grid-column:span 1;">
           <div style="display:flex;align-items:center;gap:14px;margin-bottom:14px;">
             ${renderBaoSvg({ mood: 'happy', size: 88, accessory: progress.equippedAccessory })}
             <div style="flex:1;">
-              <div style="display:flex;gap:6px;align-items:center;">
-                <input type="text" data-learner-name value="${escapeHtml(settings.learnerName)}" aria-label="Tên người học" style="font-size:20px;font-weight:800;border:1.5px solid var(--border);border-radius:12px;padding:4px 10px;width:100%;max-width:190px;background:var(--bg);" />
-              </div>
+              <input type="text" data-learner-name value="${escapeHtml(settings.learnerName)}" aria-label="Tên người học" style="font-size:20px;font-weight:800;border:1.5px solid var(--border);border-radius:12px;padding:4px 10px;width:100%;max-width:200px;background:var(--bg);" />
               <div style="font-size:14px;font-weight:700;color:var(--ink-muted);margin-top:4px;">Nhà du hành cấp ${levelNum}</div>
               <div class="progress-track" style="height:10px;margin-top:6px;">
                 <div class="progress-fill" style="width:${levelPct}%;background:var(--review);"></div>
@@ -91,13 +127,17 @@ export async function renderProfileScreen(root: HTMLElement): Promise<() => void
               <div style="font-size:12px;color:var(--ink-muted);margin-top:3px;">${progress.xp} XP (${levelPct}/100 lên cấp ${levelNum + 1})</div>
             </div>
           </div>
-          <div style="font-weight:800;font-size:14px;margin-bottom:8px;">Tủ đồ của Bao (mở khoá bằng XP):</div>
-          <div style="display:flex;flex-wrap:wrap;gap:8px;">
-            ${ACCESSORIES.map((acc) => {
-              const unlocked = progress.xp >= acc.reqXp || progress.unlockedAccessories.includes(acc.id);
+          <div style="font-weight:800;font-size:14px;margin-bottom:8px;">Tủ đồ của Bao (${unlockedSet.size + 1}/${BAO_ACCESSORIES.length} món mở khoá):</div>
+          <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:8px;">
+            ${BAO_ACCESSORIES.map((acc) => {
+              const unlocked = acc.id === 'none' || unlockedSet.has(acc.id);
               const equipped = progress.equippedAccessory === acc.id;
-              return `<button type="button" class="btn btn-sm ${equipped ? 'btn-review' : 'btn-soft'}" data-equip-acc="${acc.id}" ${!unlocked ? 'disabled' : ''}>
-                ${escapeHtml(acc.label)} ${!unlocked ? `(${acc.reqXp} XP)` : ''}
+              return `<button type="button" class="btn btn-sm ${equipped ? 'btn-review' : 'btn-soft'}" data-equip-acc="${acc.id}" ${!unlocked ? 'disabled' : ''} title="${escapeHtml(acc.desc)}" style="justify-content:flex-start;padding:6px 10px;text-align:left;min-height:54px;">
+                ${renderBaoSvg({ mood: 'happy', size: 36, accessory: acc.id })}
+                <span style="display:flex;flex-direction:column;line-height:1.2;">
+                  <span style="font-size:13px;">${escapeHtml(acc.label)}</span>
+                  <span style="font-size:11px;color:var(--ink-muted);font-weight:600;">${equipped ? 'Đang mặc' : unlocked ? 'Sẵn sàng' : `Mở ở ${acc.reqXp} XP`}</span>
+                </span>
               </button>`;
             }).join('')}
           </div>
@@ -109,36 +149,53 @@ export async function renderProfileScreen(root: HTMLElement): Promise<() => void
             <div>
               <div style="font-size:13px;font-weight:800;color:var(--ink-muted);">STREAK HIỆN TẠI</div>
               <div style="font-size:48px;font-weight:800;line-height:1;color:var(--write-lip);">${progress.streak}</div>
-              <div style="font-size:13px;color:var(--ink-muted);">Kỷ lục: ${progress.bestStreak} ngày</div>
+              <div style="font-size:13px;color:var(--ink-muted);">Kỷ lục: ${progress.bestStreak} ngày · Mốc thưởng: 7 / 30 / 100</div>
             </div>
             <button type="button" class="btn btn-sm btn-vocab" data-use-freeze ${progress.freezesLeft <= 0 ? 'disabled' : ''}>
               Đóng băng (${progress.freezesLeft})
             </button>
           </div>
           <div style="display:flex;flex-wrap:wrap;gap:5px;margin-top:10px;">${calendarCells}</div>
-        </section>
-
-        <!-- 3. Mục tiêu ngày -->
-        <section class="clay-card" style="padding:22px;">
-          <h2 style="margin:0 0 12px;font-size:19px;">Mục tiêu hằng ngày</h2>
-          <p style="margin:0 0 12px;font-size:14px;color:var(--ink-muted);">Chọn nhịp độ học ngắn mỗi ngày — không phạt khi nghỉ.</p>
-          <div style="display:flex;gap:8px;">
-            ${([5, 10, 20] as const)
-              .map(
-                (m) => `<button type="button" class="btn ${settings.dailyGoalMinutes === m ? 'btn-read' : 'btn-soft'}" data-goal-min="${m}" style="flex:1;">${m} phút</button>`
-              )
-              .join('')}
+          <div style="display:flex;gap:12px;margin-top:10px;font-size:12px;color:var(--ink-muted);">
+            <span><span style="display:inline-block;width:10px;height:10px;border-radius:3px;background:var(--write);margin-right:4px;"></span>Ngày học</span>
+            <span><span style="display:inline-block;width:10px;height:10px;border-radius:3px;background:var(--vocab-soft);border:1px solid var(--vocab);margin-right:4px;"></span>Đóng băng</span>
           </div>
         </section>
 
-        <!-- 4. Thành tích -->
+        <!-- 3. Mục tiêu ngày & Phím tắt laptop -->
+        <section class="clay-card" style="padding:22px;display:flex;flex-direction:column;justify-content:space-between;gap:14px;">
+          <div>
+            <h2 style="margin:0 0 10px;font-size:19px;">Mục tiêu hằng ngày</h2>
+            <p style="margin:0 0 12px;font-size:14px;color:var(--ink-muted);">Chọn nhịp độ học ngắn mỗi ngày — không phạt khi nghỉ.</p>
+            <div style="display:flex;gap:8px;">
+              ${([5, 10, 20] as const)
+                .map(
+                  (m) => `<button type="button" class="btn ${settings.dailyGoalMinutes === m ? 'btn-read' : 'btn-soft'}" data-goal-min="${m}" style="flex:1;">${m} phút</button>`
+                )
+                .join('')}
+            </div>
+          </div>
+          <div style="padding:12px;border-radius:14px;background:var(--bg);border:1.5px solid var(--border);font-size:13px;">
+            <div style="font-weight:800;margin-bottom:6px;">Phím tắt laptop nhanh</div>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:4px 10px;color:var(--ink-muted);">
+              <span><strong>Space</strong>: Phát audio / Lật thẻ / Xem nét</span>
+              <span><strong>1–4</strong>: Chọn đáp án / Chấm thẻ</span>
+              <span><strong>Enter</strong>: Kiểm tra / Tiếp tục</span>
+              <span><strong>← / →</strong>: Tua câu nghe & đọc</span>
+              <span><strong>P / S / R</strong>: Pinyin / Chậm / Viết lại</span>
+              <span><strong>Esc</strong>: Đóng cửa sổ phụ</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- 4. Thành tích (12 huy hiệu) -->
         <section class="clay-card" style="padding:22px;">
-          <h2 style="margin:0 0 12px;font-size:19px;">Thành tích</h2>
-          <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;">
-            ${BADGES.map((b) => {
-              const earned = progress.badges.includes(b.id);
+          <h2 style="margin:0 0 12px;font-size:19px;">Thành tích (${earnedBadges.size}/${BAO_BADGES.length})</h2>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+            ${BAO_BADGES.map((b) => {
+              const earned = earnedBadges.has(b.id);
               return `<div style="padding:10px;border-radius:14px;background:${earned ? 'var(--review-soft)' : 'var(--bg)'};border:1.5px solid ${earned ? 'var(--review)' : 'var(--border)'};opacity:${earned ? '1' : '0.68'};">
-                <div style="font-weight:800;font-size:14px;">${earned ? iconSvg('crown', 14) : iconSvg('lock', 14)} ${escapeHtml(b.title)}</div>
+                <div style="font-weight:800;font-size:13px;">${earned ? iconSvg('crown', 14) : iconSvg('lock', 14)} ${escapeHtml(b.title)}</div>
                 <div style="font-size:12px;color:var(--ink-muted);margin-top:3px;">${escapeHtml(b.hint)}</div>
               </div>`;
             }).join('')}
@@ -207,6 +264,17 @@ export async function renderProfileScreen(root: HTMLElement): Promise<() => void
       </div>
     `;
 
+    if (activeMilestone && !settings.reducedMotion) {
+      confetti({ particleCount: 55, spread: 75, origin: { y: 0.65 } });
+    }
+
+    body.querySelector<HTMLElement>('[data-dismiss-milestone]')?.addEventListener('click', async (e) => {
+      const m = Number((e.currentTarget as HTMLElement).dataset.dismissMilestone);
+      await markMilestoneCelebrated(m);
+      progress = await ensureProgress();
+      render();
+    });
+
     body.querySelector<HTMLInputElement>('[data-learner-name]')?.addEventListener('change', async (e) => {
       const name = (e.currentTarget as HTMLInputElement).value.trim() || 'Bạn mới';
       settings = await saveSettings({ learnerName: name });
@@ -216,14 +284,16 @@ export async function renderProfileScreen(root: HTMLElement): Promise<() => void
     body.querySelectorAll<HTMLElement>('[data-equip-acc]').forEach((b) => {
       b.addEventListener('click', async () => {
         progress = await equipAccessory(b.dataset.equipAcc as ProgressRecord['equippedAccessory']);
+        audioService.playSfx('pop');
         render();
       });
     });
 
     body.querySelector('[data-use-freeze]')?.addEventListener('click', async () => {
       progress = await useStreakFreeze();
-      if ([7, 30, 100].includes(progress.streak)) {
-        confetti({ particleCount: 50, spread: 70 });
+      audioService.playSfx('ok');
+      if ([7, 30, 100].includes(progress.streak) && !settings.reducedMotion) {
+        confetti({ particleCount: 55, spread: 70 });
       }
       render();
     });
@@ -322,6 +392,9 @@ export async function renderProfileScreen(root: HTMLElement): Promise<() => void
         if (e.target === backdrop) closeModal();
       });
       backdrop.querySelector('[data-cred-close]')?.addEventListener('click', closeModal);
+      setKey((ev) => {
+        if (ev.key === 'Escape') closeModal();
+      });
     });
   };
 

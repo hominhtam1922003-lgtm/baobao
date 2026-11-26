@@ -4,11 +4,13 @@ import { renderBaoSvg } from '../components/BaoMascot';
 import { iconSvg } from '../components/Icons';
 import { showWordPopover, closeWordPopover } from '../components/WordPopover';
 import { audioService } from '../services/audioPlayer';
-import { loadStageLessons, loadStageWords } from '../services/contentLoader';
+import { loadStageLessons, loadStageWords, resolveStageForLessonId } from '../services/contentLoader';
 import { requestPersistentStorage } from '../services/pwa';
 import {
   addCardToSrs,
   commitReview,
+  ensureProgress,
+  ensureSettings,
   filterQueue,
   getAllCards,
   recordStudyActivity,
@@ -26,10 +28,13 @@ type StepItem =
 
 export async function renderVocabLessonScreen(root: HTMLElement, lessonId: string): Promise<() => void> {
   requestPersistentStorage();
-  const [lessons, words, allCards] = await Promise.all([
-    loadStageLessons(1),
-    loadStageWords(1),
+  const stage = resolveStageForLessonId(lessonId);
+  const [lessons, words, allCards, progress, settings] = await Promise.all([
+    loadStageLessons(stage),
+    loadStageWords(stage),
     getAllCards(),
+    ensureProgress(),
+    ensureSettings(),
   ]);
   const lesson: LessonItem | undefined = lessons.find((l) => l.id === lessonId);
   if (!lesson) {
@@ -58,7 +63,7 @@ export async function renderVocabLessonScreen(root: HTMLElement, lessonId: strin
   });
 
   let stepIdx = 0;
-  let showPinyin = true;
+  let showPinyin = settings.pinyinMode !== 'off';
   let keyHandler: ((e: KeyboardEvent) => void) | null = null;
   let earnedXp = 0;
 
@@ -66,6 +71,11 @@ export async function renderVocabLessonScreen(root: HTMLElement, lessonId: strin
     if (keyHandler) document.removeEventListener('keydown', keyHandler);
     keyHandler = fn;
     if (fn) document.addEventListener('keydown', fn);
+  };
+
+  const isTyping = () => {
+    const tag = document.activeElement?.tagName;
+    return tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT';
   };
 
   const renderFeedback = (ok: boolean, message: string, onNext: () => void) => {
@@ -232,12 +242,16 @@ export async function renderVocabLessonScreen(root: HTMLElement, lessonId: strin
         advance();
       });
       setKeyHandler((e) => {
+        if (isTyping()) return;
         if (e.key === ' ') {
           e.preventDefault();
           playWord();
         } else if (e.key === 'Enter') {
           e.preventDefault();
           advance();
+        } else if (e.key === 'p' || e.key === 'P') {
+          showPinyin = !showPinyin;
+          renderStep();
         }
       });
       return;
@@ -350,7 +364,16 @@ export async function renderVocabLessonScreen(root: HTMLElement, lessonId: strin
           };
           shell.body.querySelector('[data-check-tiles]')?.addEventListener('click', check);
           setKeyHandler((e) => {
-            if (e.key === 'Enter' && chosen.length > 0) check();
+            if (isTyping()) return;
+            if (e.key === 'Enter' && chosen.length > 0) {
+              e.preventDefault();
+              check();
+            } else if (e.key === 'Backspace' && chosen.length > 0) {
+              e.preventDefault();
+              const removed = chosen.pop();
+              if (removed) pool.push(removed);
+              drawTiles();
+            }
           });
         };
         drawTiles();
@@ -452,7 +475,7 @@ export async function renderVocabLessonScreen(root: HTMLElement, lessonId: strin
     shell.setProgress(100, 'Hoàn thành');
     shell.body.innerHTML = `
       <div class="clay-card" style="padding:32px;text-align:center;">
-        ${renderBaoSvg({ mood: 'celebrate', size: 112 })}
+        ${renderBaoSvg({ mood: 'celebrate', size: 112, accessory: progress.equippedAccessory })}
         <h2 style="margin:10px 0 6px;font-size:28px;">Tuyệt vời! Xong bài ${escapeHtml(lesson.title)}</h2>
         <p style="color:var(--ink-muted);margin:0 0 18px;">
           +${totalXp} XP · ${lessonWords.length} từ mới đã tự động vào hàng đợi Ôn tập.
@@ -477,7 +500,9 @@ export async function renderVocabLessonScreen(root: HTMLElement, lessonId: strin
         });
       }
       await recordStudyActivity({ xpEarned: totalXp, skill: 'giaoTiep', completedLessonId: lesson.id });
-      confetti({ particleCount: 40, spread: 60, origin: { y: 0.7 } });
+      if (!settings.reducedMotion) {
+        confetti({ particleCount: 40, spread: 60, origin: { y: 0.7 } });
+      }
     })();
   };
 

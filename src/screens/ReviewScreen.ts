@@ -81,7 +81,7 @@ export async function renderReviewScreen(root: HTMLElement): Promise<() => void>
         <div style="max-width:680px;margin:0 auto;">
           ${filterHtml}
           <div class="clay-card" style="padding:32px;text-align:center;">
-            ${renderBaoSvg({ mood: reviewedCount > 0 ? 'celebrate' : 'happy', size: 100 })}
+            ${renderBaoSvg({ mood: reviewedCount > 0 ? 'celebrate' : 'happy', size: 100, accessory: progress.equippedAccessory })}
             <h2 style="margin:10px 0 6px;">${reviewedCount > 0 ? `Xong phiên ôn tập (${reviewedCount} thẻ)!` : 'Chưa có thẻ đến hạn ở nhóm này'}</h2>
             <p style="margin:0 0 18px;color:var(--ink-muted);">
               ${reviewedCount > 0 ? 'Trí nhớ dài hạn vừa được củng cố theo thuật toán lặp ngắt quãng.' : 'Bạn có thể chuyển sang nhóm lọc khác hoặc học thêm bài mới trên Bản đồ.'}
@@ -128,7 +128,7 @@ export async function renderReviewScreen(root: HTMLElement): Promise<() => void>
         ${
           streakInSession > 0 && streakInSession % 10 === 0
             ? `<div class="clay-card" style="padding:12px 18px;margin-bottom:14px;background:var(--review-soft);border-color:var(--review);display:flex;align-items:center;gap:12px;">
-                 ${renderBaoSvg({ mood: 'celebrate', size: 48 })}
+                 ${renderBaoSvg({ mood: 'celebrate', size: 48, accessory: progress.equippedAccessory })}
                  <strong>Tuyệt đỉnh! ${streakInSession} thẻ đúng liên tiếp trong phiên!</strong>
                </div>`
             : ''
@@ -203,7 +203,7 @@ export async function renderReviewScreen(root: HTMLElement): Promise<() => void>
       if (rating === 'Good' || rating === 'Easy') {
         streakInSession += 1;
         audioService.playSfx('ok');
-        if (streakInSession % 10 === 0) {
+        if (streakInSession % 10 === 0 && !settings.reducedMotion) {
           confetti({ particleCount: 25, spread: 45, origin: { y: 0.7 } });
         }
       } else {
@@ -274,6 +274,12 @@ export async function renderReviewScreen(root: HTMLElement): Promise<() => void>
       if (e.key === ' ') {
         e.preventDefault();
         toggleFlip();
+      } else if (e.key === 'Enter' && !flipped) {
+        e.preventDefault();
+        toggleFlip();
+      } else if (e.key === 'a' || e.key === 'A') {
+        const src = flipped && current.example?.audio ? current.example.audio : current.audio;
+        if (src) audioService.play(src);
       } else if (flipped) {
         if (e.key === '1') rateCurrent('Again');
         if (e.key === '2') rateCurrent('Hard');

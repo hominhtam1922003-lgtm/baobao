@@ -416,6 +416,16 @@ button {
   animation: speakerShake 360ms ease infinite;
 }
 
+@keyframes milestonePop {
+  0% { opacity: 0; transform: scale(0.92) translateY(8px); }
+  65% { opacity: 1; transform: scale(1.02) translateY(-2px); }
+  100% { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+.milestone-banner {
+  animation: milestonePop 850ms var(--ease-bounce) both;
+}
+
 .xp-float {
   display: inline-block;
   padding: 4px 10px;

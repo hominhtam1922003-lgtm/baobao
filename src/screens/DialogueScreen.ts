@@ -3,13 +3,18 @@ import { renderFocusShell } from '../components/AppShell';
 import { renderBaoSvg } from '../components/BaoMascot';
 import { iconSvg } from '../components/Icons';
 import { audioService } from '../services/audioPlayer';
-import { loadStageLessons } from '../services/contentLoader';
+import { loadStageLessons, resolveStageForLessonId } from '../services/contentLoader';
 import { createShadowRecorder } from '../services/recorder';
-import { addCardToSrs, recordStudyActivity } from '../services/srsEngine';
+import { addCardToSrs, ensureProgress, ensureSettings, recordStudyActivity } from '../services/srsEngine';
 import { escapeHtml } from '../utils/html';
 
 export async function renderDialogueScreen(root: HTMLElement, lessonId: string): Promise<() => void> {
-  const lessons = await loadStageLessons(1);
+  const stage = resolveStageForLessonId(lessonId);
+  const [lessons, progress, settings] = await Promise.all([
+    loadStageLessons(stage),
+    ensureProgress(),
+    ensureSettings(),
+  ]);
   const lesson = lessons.find((l) => l.id === lessonId);
   if (!lesson || !lesson.dialogue?.length) {
     root.innerHTML = `<div style="padding:40px;text-align:center;"><h2>Không tìm thấy hội thoại</h2><a href="#/" class="btn btn-comm">Về bản đồ</a></div>`;
@@ -114,7 +119,7 @@ export async function renderDialogueScreen(root: HTMLElement, lessonId: string):
                   <div style="flex:0 0 auto;">
                     ${
                       isBao
-                        ? renderBaoSvg({ mood: 'happy', size: 42 })
+                        ? renderBaoSvg({ mood: 'happy', size: 42, accessory: progress.equippedAccessory })
                         : `<div style="width:42px;height:42px;border-radius:999px;background:var(--surface);border:2px solid var(--comm);display:flex;align-items:center;justify-content:center;font-weight:800;">${escapeHtml(t.speaker[0] ?? 'A')}</div>`
                     }
                   </div>
@@ -187,7 +192,7 @@ export async function renderDialogueScreen(root: HTMLElement, lessonId: string):
         ${
           isFinished
             ? `<div class="clay-card" style="padding:24px;margin-top:18px;text-align:center;">
-                 ${renderBaoSvg({ mood: 'celebrate', size: 88 })}
+                 ${renderBaoSvg({ mood: 'celebrate', size: 88, accessory: progress.equippedAccessory })}
                  <h2 style="margin:8px 0 4px;">Hoàn thành hội thoại!</h2>
                  <p style="margin:0 0 14px;color:var(--ink-muted);">Bạn tự hoàn thành ${selfCorrectCount} lượt phản hồi · Chế độ shadowing thu âm chỉ phát lại để bạn tự nghe, không chấm điểm.</p>
                  <div style="display:flex;justify-content:center;gap:10px;flex-wrap:wrap;">
@@ -260,7 +265,7 @@ export async function renderDialogueScreen(root: HTMLElement, lessonId: string):
       selfCorrectCount += 1;
       completedTurnIndices.add(activeTurnIdx);
       if (activeTurn.goalLabel) completedGoals.add(activeTurn.goalLabel);
-      if (hard) {
+      if (hard && !settings.reducedMotion) {
         confetti({ particleCount: 30, spread: 50, origin: { y: 0.72 } });
       }
       if (revealedCount >= turns.length) {
@@ -283,6 +288,12 @@ export async function renderDialogueScreen(root: HTMLElement, lessonId: string):
           b.addEventListener('click', () => pickChoice(Number(b.dataset.dlgChoice)));
         });
         setKey((e) => {
+          if (e.key === ' ') {
+            e.preventDefault();
+            const lastAudio = [...visibleTurns].reverse().find((x) => x.audio)?.audio;
+            if (lastAudio) audioService.play(lastAudio);
+            return;
+          }
           const n = Number(e.key);
           if (n >= 1 && n <= (activeTurn.choices?.length ?? 0)) pickChoice(n - 1);
         });
@@ -308,7 +319,18 @@ export async function renderDialogueScreen(root: HTMLElement, lessonId: string):
         };
         shell.body.querySelector('[data-dlg-tiles-check]')?.addEventListener('click', checkTiles);
         setKey((e) => {
-          if (e.key === 'Enter' && activeTiles.length > 0) checkTiles();
+          if (e.key === ' ') {
+            e.preventDefault();
+            const lastAudio = [...visibleTurns].reverse().find((x) => x.audio)?.audio;
+            if (lastAudio) audioService.play(lastAudio);
+          } else if (e.key === 'Enter' && activeTiles.length > 0) {
+            checkTiles();
+          } else if (e.key === 'Backspace' && activeTiles.length > 0) {
+            e.preventDefault();
+            const removed = activeTiles.pop();
+            if (removed) tilePool.push(removed);
+            render();
+          }
         });
       } else if (activeTurn.mode === 'pinyin') {
         const inp = shell.body.querySelector<HTMLInputElement>('[data-dlg-pinyin-input]');

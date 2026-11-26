@@ -1,4 +1,4 @@
-const CACHE_NAME = 'baobao-cache-v1';
+const CACHE_NAME = 'baobao-cache-v2';
 
 const APP_SHELL_FILES = [
   '',
@@ -38,7 +38,7 @@ self.addEventListener('activate', (event) => {
     caches.keys().then((keys) =>
       Promise.all(
         keys.map((key) => {
-          if (key !== CACHE_NAME && key !== 'baobao-stage-cache-v1') {
+          if (key !== CACHE_NAME && key !== 'baobao-stage-cache-v2') {
             return caches.delete(key);
           }
           return Promise.resolve();

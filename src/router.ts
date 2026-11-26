@@ -5,6 +5,7 @@ import { renderMapScreen } from './screens/MapScreen';
 import { applySettingsToDocument, renderProfileScreen } from './screens/ProfileScreen';
 import { renderReadingScreen } from './screens/ReadingScreen';
 import { renderReviewScreen } from './screens/ReviewScreen';
+import { renderStageTestScreen } from './screens/StageTestScreen';
 import { renderVocabLessonScreen } from './screens/VocabLessonScreen';
 import { renderWritingScreen } from './screens/WritingScreen';
 import { ensureSettings } from './services/srsEngine';
@@ -38,6 +39,8 @@ export async function startRouter(root: HTMLElement): Promise<void> {
         currentCleanup = await renderListeningScreen(root, parts[1] ?? 't1-nghe');
       } else if (parts[0] === 'writing') {
         currentCleanup = await renderWritingScreen(root, parts[1] ?? 't1-viet');
+      } else if (parts[0] === 'stage-test') {
+        currentCleanup = await renderStageTestScreen(root, parts[1] ?? 'stage-1-test');
       } else if (parts[0] === 'review') {
         currentCleanup = await renderReviewScreen(root);
       } else if (parts[0] === 'profile') {

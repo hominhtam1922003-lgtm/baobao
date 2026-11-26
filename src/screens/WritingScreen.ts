@@ -4,9 +4,19 @@ import { renderFocusShell } from '../components/AppShell';
 import { renderBaoSvg } from '../components/BaoMascot';
 import { iconSvg } from '../components/Icons';
 import { audioService } from '../services/audioPlayer';
-import { loadRadicals, loadStageLessons, loadStageWords } from '../services/contentLoader';
+import {
+  loadRadicals,
+  loadStageLessons,
+  loadStageWords,
+  resolveStageForLessonId,
+} from '../services/contentLoader';
 import { requestPersistentStorage } from '../services/pwa';
-import { addCardToSrs, recordStudyActivity } from '../services/srsEngine';
+import {
+  addCardToSrs,
+  ensureProgress,
+  ensureSettings,
+  recordStudyActivity,
+} from '../services/srsEngine';
 import { escapeHtml } from '../utils/html';
 
 const base = import.meta.env.BASE_URL;
@@ -15,10 +25,13 @@ type WriteLevel = 1 | 2 | 3;
 
 export async function renderWritingScreen(root: HTMLElement, lessonId: string): Promise<() => void> {
   requestPersistentStorage();
-  const [lessons, radicalsBundle, words] = await Promise.all([
-    loadStageLessons(1),
+  const stage = resolveStageForLessonId(lessonId);
+  const [lessons, radicalsBundle, words, progress, settings] = await Promise.all([
+    loadStageLessons(stage),
     loadRadicals(),
-    loadStageWords(1),
+    loadStageWords(stage),
+    ensureProgress(),
+    ensureSettings(),
   ]);
   const writingLessons = lessons.filter((l) => l.type === 'viet');
   const lesson = writingLessons.find((l) => l.id === lessonId) ?? writingLessons[0];
@@ -46,6 +59,13 @@ export async function renderWritingScreen(root: HTMLElement, lessonId: string): 
   let unmounted = false;
   let writer: HanziWriter | null = null;
   let modalEl: HTMLElement | null = null;
+  let keyHandler: ((e: KeyboardEvent) => void) | null = null;
+
+  const setKey = (fn: ((e: KeyboardEvent) => void) | null) => {
+    if (keyHandler) document.removeEventListener('keydown', keyHandler);
+    keyHandler = fn;
+    if (fn) document.addEventListener('keydown', fn);
+  };
 
   const closeModal = () => {
     modalEl?.remove();
@@ -131,18 +151,21 @@ export async function renderWritingScreen(root: HTMLElement, lessonId: string): 
       onComplete() {
         audioService.playSfx('ok');
         charDone = true;
-        confetti({ particleCount: 28, spread: 50, colors: ['#FF9600', '#FFC531'], origin: { y: 0.7 } });
+        if (!settings.reducedMotion) {
+          confetti({ particleCount: 28, spread: 50, colors: ['#FF9600', '#FFC531'], origin: { y: 0.7 } });
+        }
         render();
       },
     });
   };
 
   const render = () => {
+    setKey(null);
     if (finishedAll) {
       shell.setProgress(100, 'Hoàn thành');
       shell.body.innerHTML = `
         <div class="clay-card" style="max-width:720px;margin:0 auto;padding:32px;text-align:center;">
-          ${renderBaoSvg({ mood: 'celebrate', size: 108 })}
+          ${renderBaoSvg({ mood: 'celebrate', size: 108, accessory: progress.equippedAccessory })}
           <h2 style="margin:10px 0 6px;">Hoàn thành bài viết: ${escapeHtml(lesson.title)}</h2>
           <p style="margin:0 0 18px;color:var(--ink-muted);">+${lesson.xp} XP · Đã thêm ${chars.length} mặt thẻ viết vào Ôn tập.</p>
           <div style="display:flex;justify-content:center;gap:10px;flex-wrap:wrap;">
@@ -157,15 +180,27 @@ export async function renderWritingScreen(root: HTMLElement, lessonId: string): 
     const cur = chars[charIdx];
     shell.setProgress(((charIdx + (quizMode ? 0.6 : 0.2)) / chars.length) * 100, `Chữ ${charIdx + 1}/${chars.length}`);
 
-    const switcher = writingLessons
+    const stagePills = [1, 2, 3, 4]
       .map(
-        (l) => `<a href="#/writing/${escapeHtml(l.id)}" class="btn btn-sm ${l.id === lesson.id ? 'btn-write' : 'btn-soft'}">${escapeHtml(l.title)}</a>`
+        (s) =>
+          `<button type="button" class="btn btn-sm ${s === stage ? 'btn-write' : 'btn-soft'}" data-write-stage="${s}">Chặng ${s}</button>`
+      )
+      .join('');
+
+    const selectOptions = writingLessons
+      .map(
+        (l) => `<option value="${escapeHtml(l.id)}" ${l.id === lesson.id ? 'selected' : ''}>${escapeHtml(l.title)}</option>`
       )
       .join('');
 
     shell.body.innerHTML = `
       <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:14px;">
-        <div style="display:flex;gap:8px;flex-wrap:wrap;">${switcher}</div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;">
+          ${stagePills}
+          <select data-write-select aria-label="Chọn bài viết" style="padding:8px 12px;border-radius:14px;border:1.5px solid var(--border);background:var(--surface);font-weight:700;font-size:14px;">
+            ${selectOptions}
+          </select>
+        </div>
         <div class="segmented" aria-label="Mức viết">
           <button type="button" data-w-lvl="1" aria-pressed="${level === 1}">1. Tô nét mờ</button>
           <button type="button" data-w-lvl="2" aria-pressed="${level === 2}">2. Mẫu nhạt</button>
@@ -182,12 +217,12 @@ export async function renderWritingScreen(root: HTMLElement, lessonId: string): 
           </div>
 
           <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:12px;">
-            <button type="button" class="btn btn-soft" data-animate-stroke>Xem nét</button>
-            <button type="button" class="btn btn-soft" data-reset-stroke>Viết lại</button>
+            <button type="button" class="btn btn-soft" data-animate-stroke>Xem nét (Space)</button>
+            <button type="button" class="btn btn-soft" data-reset-stroke>[R] Viết lại</button>
             ${
               charDone && !quizMode
                 ? `<button type="button" class="btn btn-write" data-next-level>
-                     ${level < 3 ? `Lên mức ${level + 1}` : 'Sang mini-quiz nhận diện →'}
+                     ${level < 3 ? `Lên mức ${level + 1} (Enter)` : 'Sang mini-quiz nhận diện (Enter) →'}
                    </button>`
                 : ''
             }
@@ -199,7 +234,7 @@ export async function renderWritingScreen(root: HTMLElement, lessonId: string): 
                    <h3 style="margin:0 0 8px;">Mini-quiz nhận diện: Đâu là chữ "${escapeHtml(cur.meaningVi)}" (${escapeHtml(cur.pinyin)})?</h3>
                    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:12px;">
                      ${cur.lookalikes
-                       .map((lk) => {
+                       .map((lk, i) => {
                          const isPicked = quizResult?.picked === lk.hanzi;
                          const cls = quizResult
                            ? lk.hanzi === cur.char
@@ -210,6 +245,7 @@ export async function renderWritingScreen(root: HTMLElement, lessonId: string): 
                            : 'btn-soft';
                          return `<button type="button" class="btn ${cls}" data-lk-opt="${escapeHtml(lk.hanzi)}" style="padding:14px 8px;flex-direction:column;">
                            <span class="hanzi" style="font-size:28px;">${escapeHtml(lk.hanzi)}</span>
+                           <span style="font-size:11px;color:var(--ink-muted);">[${i + 1}]</span>
                          </button>`;
                        })
                        .join('')}
@@ -218,7 +254,7 @@ export async function renderWritingScreen(root: HTMLElement, lessonId: string): 
                      quizResult
                        ? `<div style="margin-top:12px;display:flex;justify-content:space-between;align-items:center;gap:10px;">
                             <span style="font-weight:700;">${quizResult.ok ? 'Chuẩn xác!' : `Chữ đúng là ${cur.char} (${cur.meaningVi})`}</span>
-                            <button type="button" class="btn btn-write" data-next-char>${charIdx + 1 < chars.length ? 'Chữ tiếp theo →' : 'Hoàn thành bài viết'}</button>
+                            <button type="button" class="btn btn-write" data-next-char>${charIdx + 1 < chars.length ? 'Chữ tiếp theo (Enter) →' : 'Hoàn thành bài viết (Enter)'}</button>
                           </div>`
                        : ''
                    }
@@ -234,7 +270,7 @@ export async function renderWritingScreen(root: HTMLElement, lessonId: string): 
               <div class="pinyin" style="font-size:18px;">${escapeHtml(cur.pinyin)}</div>
               <div style="font-size:18px;font-weight:800;margin-top:4px;">${escapeHtml(cur.meaningVi)}</div>
             </div>
-            ${renderBaoSvg({ mood: errorHint ? 'point' : charDone ? 'celebrate' : 'happy', size: 68 })}
+            ${renderBaoSvg({ mood: errorHint ? 'point' : charDone ? 'celebrate' : 'happy', size: 68, accessory: progress.equippedAccessory })}
           </div>
 
           <div style="padding:12px;border-radius:14px;background:var(--write-soft);font-weight:700;font-size:14px;" data-stroke-progress>
@@ -261,6 +297,18 @@ export async function renderWritingScreen(root: HTMLElement, lessonId: string): 
 
     mountWriter(cur.char);
 
+    shell.body.querySelectorAll<HTMLElement>('[data-write-stage]').forEach((b) => {
+      b.addEventListener('click', async () => {
+        const nextStage = Number(b.dataset.writeStage);
+        const list = (await loadStageLessons(nextStage)).filter((l) => l.type === 'viet');
+        if (list[0]) window.location.hash = `#/writing/${list[0].id}`;
+      });
+    });
+
+    shell.body.querySelector<HTMLSelectElement>('[data-write-select]')?.addEventListener('change', (e) => {
+      window.location.hash = `#/writing/${(e.currentTarget as HTMLSelectElement).value}`;
+    });
+
     shell.body.querySelectorAll<HTMLElement>('[data-w-lvl]').forEach((b) => {
       b.addEventListener('click', () => {
         level = Number(b.dataset.wLvl) as WriteLevel;
@@ -270,22 +318,24 @@ export async function renderWritingScreen(root: HTMLElement, lessonId: string): 
       });
     });
 
-    shell.body.querySelector('[data-animate-stroke]')?.addEventListener('click', () => {
+    const animateChar = () => {
       writer?.animateCharacter({
         onComplete: () => {
           if (!unmounted) mountWriter(cur.char);
         },
       });
-    });
+    };
+    shell.body.querySelector('[data-animate-stroke]')?.addEventListener('click', animateChar);
 
-    shell.body.querySelector('[data-reset-stroke]')?.addEventListener('click', () => {
+    const resetChar = () => {
       charDone = false;
       errorHint = '';
       strokeProgress = 'Sẵn sàng viết nét đầu';
       render();
-    });
+    };
+    shell.body.querySelector('[data-reset-stroke]')?.addEventListener('click', resetChar);
 
-    shell.body.querySelector('[data-next-level]')?.addEventListener('click', () => {
+    const advanceLevel = () => {
       if (level < 3) {
         level = (level + 1) as WriteLevel;
         charDone = false;
@@ -294,35 +344,37 @@ export async function renderWritingScreen(root: HTMLElement, lessonId: string): 
         quizMode = true;
       }
       render();
-    });
+    };
+    shell.body.querySelector('[data-next-level]')?.addEventListener('click', advanceLevel);
 
     shell.body.querySelectorAll<HTMLElement>('[data-open-rad]').forEach((b) => {
       b.addEventListener('click', () => openRadicalModal(b.dataset.openRad!, cur.radicalNoteVi));
     });
 
-    shell.body.querySelectorAll<HTMLElement>('[data-lk-opt]').forEach((b) => {
-      b.addEventListener('click', async () => {
-        if (quizResult) return;
-        const picked = b.dataset.lkOpt!;
-        const ok = picked === cur.char;
-        audioService.playSfx(ok ? 'ok' : 'err');
-        quizResult = { ok, picked };
-        const matchedWord = words.find((w) => w.hanzi === cur.char) ?? words.find((w) => w.hanzi.includes(cur.char));
-        await addCardToSrs({
-          itemId: `char-${cur.char}`,
-          facet: 'writing',
-          hanzi: cur.char,
-          pinyin: cur.pinyin,
-          meaningVi: cur.meaningVi,
-          example: matchedWord?.examples[0],
-          audio: matchedWord?.audio,
-          isWeakWriting: !ok,
-        });
-        render();
+    const pickLookalike = async (picked: string) => {
+      if (quizResult) return;
+      const ok = picked === cur.char;
+      audioService.playSfx(ok ? 'ok' : 'err');
+      quizResult = { ok, picked };
+      const matchedWord = words.find((w) => w.hanzi === cur.char) ?? words.find((w) => w.hanzi.includes(cur.char));
+      await addCardToSrs({
+        itemId: `char-${cur.char}`,
+        facet: 'writing',
+        hanzi: cur.char,
+        pinyin: cur.pinyin,
+        meaningVi: cur.meaningVi,
+        example: matchedWord?.examples[0],
+        audio: matchedWord?.audio,
+        isWeakWriting: !ok,
       });
+      render();
+    };
+
+    shell.body.querySelectorAll<HTMLElement>('[data-lk-opt]').forEach((b) => {
+      b.addEventListener('click', () => pickLookalike(b.dataset.lkOpt!));
     });
 
-    shell.body.querySelector('[data-next-char]')?.addEventListener('click', async () => {
+    const advanceChar = async () => {
       if (charIdx + 1 < chars.length) {
         charIdx += 1;
         level = 1;
@@ -336,12 +388,40 @@ export async function renderWritingScreen(root: HTMLElement, lessonId: string): 
         await recordStudyActivity({ xpEarned: lesson.xp, skill: 'viet', completedLessonId: lesson.id });
         render();
       }
+    };
+    shell.body.querySelector('[data-next-char]')?.addEventListener('click', advanceChar);
+
+    setKey((e) => {
+      const tag = document.activeElement?.tagName;
+      if (tag === 'INPUT' || tag === 'SELECT' || tag === 'TEXTAREA') return;
+      if (e.key === 'Escape') {
+        closeModal();
+      } else if (e.key === ' ') {
+        e.preventDefault();
+        animateChar();
+      } else if (e.key === 'r' || e.key === 'R') {
+        resetChar();
+      } else if (e.key === 'Enter') {
+        if (quizMode && quizResult) {
+          e.preventDefault();
+          advanceChar();
+        } else if (charDone && !quizMode) {
+          e.preventDefault();
+          advanceLevel();
+        }
+      } else if (quizMode && !quizResult) {
+        const n = Number(e.key);
+        if (n >= 1 && n <= cur.lookalikes.length) {
+          pickLookalike(cur.lookalikes[n - 1].hanzi);
+        }
+      }
     });
   };
 
   render();
   return () => {
     unmounted = true;
+    setKey(null);
     writer?.cancelQuiz();
     closeModal();
     audioService.stop();

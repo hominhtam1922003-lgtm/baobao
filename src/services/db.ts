@@ -29,6 +29,16 @@ export interface ReviewLogRecord {
   elapsedMs: number;
 }
 
+export type BaoAccessory =
+  | 'none'
+  | 'bamboo-hat'
+  | 'red-scarf'
+  | 'tea-beret'
+  | 'star-glasses'
+  | 'lantern-pin'
+  | 'explorer-cap'
+  | 'crown';
+
 export interface ProgressRecord {
   id: 'main';
   xp: number;
@@ -38,11 +48,15 @@ export interface ProgressRecord {
   bestStreak: number;
   freezesLeft: number;
   activeDates: string[];
+  frozenDates?: string[];
+  celebratedMilestones?: number[];
   completedLessons: string[];
+  completedStories?: string[];
+  totalReviews?: number;
   lessonProgress: Record<string, number>;
   storyBookmarks: Record<string, number>;
   unlockedAccessories: string[];
-  equippedAccessory: 'none' | 'bamboo-hat' | 'red-scarf' | 'star-glasses' | 'crown';
+  equippedAccessory: BaoAccessory;
   badges: string[];
   skillXp: {
     giaoTiep: number;

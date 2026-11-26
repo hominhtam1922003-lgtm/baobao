@@ -8,7 +8,7 @@ import {
   type RecordLogItem,
 } from 'ts-fsrs';
 import type { CardFacet, ExampleSentence, ReviewRating } from '../types/curriculum';
-import { getDb, type ProgressRecord, type SettingsRecord, type SrsCardRecord } from './db';
+import { getDb, type BaoAccessory, type ProgressRecord, type SettingsRecord, type SrsCardRecord } from './db';
 
 export type { SrsCardRecord };
 export type QueueFilter = 'due' | 'weak' | 'story' | 'writing';
@@ -135,6 +135,60 @@ export function filterQueue(cards: SrsCardRecord[], filter: QueueFilter, now = n
     .sort((a, b) => new Date(a.card.due).getTime() - new Date(b.card.due).getTime());
 }
 
+export const BAO_ACCESSORIES: { id: BaoAccessory; label: string; reqXp: number; desc: string }[] = [
+  { id: 'none', label: 'Mặc định', reqXp: 0, desc: 'Bộ lông gấu trúc nguyên bản' },
+  { id: 'bamboo-hat', label: 'Nón lá', reqXp: 30, desc: 'Quà mở màn hành trình' },
+  { id: 'red-scarf', label: 'Khăn đào', reqXp: 80, desc: 'Ấm áp giao tiếp mỗi ngày' },
+  { id: 'tea-beret', label: 'Mũ trà xanh', reqXp: 140, desc: 'Phong cách quán trà phố cổ' },
+  { id: 'star-glasses', label: 'Kính sao', reqXp: 220, desc: 'Sành điệu tập đọc & nghe' },
+  { id: 'lantern-pin', label: 'Huy hiệu đèn lồng', reqXp: 340, desc: 'Rực rỡ lễ hội cuối tuần' },
+  { id: 'explorer-cap', label: 'Mũ thám hiểm', reqXp: 500, desc: 'Bứt phá chặng nâng cao' },
+  { id: 'crown', label: 'Vương miện', reqXp: 800, desc: 'Nhà du hành tinh thông' },
+];
+
+export const BAO_BADGES: { id: string; title: string; hint: string }[] = [
+  { id: 'first-lesson', title: 'Bước chân đầu tiên', hint: 'Hoàn thành bài học đầu tiên' },
+  { id: 'four-skills', title: 'Đủ 4 kỹ năng', hint: 'Hoàn thành 4 bài học' },
+  { id: 'story-reader', title: 'Mọt truyện phố cổ', hint: 'Hoàn thành ít nhất 1 chương truyện dài kỳ' },
+  { id: 'srs-50', title: 'Trí nhớ bền bỉ', hint: 'Ôn tập 50 lượt flashcard FSRS' },
+  { id: 'stage-1-master', title: 'Chinh phục Chặng 1', hint: 'Vượt qua Kiểm tra Chặng 1' },
+  { id: 'stage-2-master', title: 'Chinh phục Chặng 2', hint: 'Vượt qua Kiểm tra Chặng 2' },
+  { id: 'stage-3-master', title: 'Chinh phục Chặng 3', hint: 'Vượt qua Kiểm tra Chặng 3' },
+  { id: 'stage-4-master', title: 'Chinh phục Chặng 4', hint: 'Vượt qua Kiểm tra Chặng 4' },
+  { id: 'streak-7', title: 'Ngọn lửa 7 ngày', hint: 'Giữ streak 7 ngày liên tiếp' },
+  { id: 'streak-30', title: 'Thói quen 30 ngày', hint: 'Giữ streak 30 ngày liên tiếp' },
+  { id: 'xp-100', title: 'Nhà du hành chăm chỉ', hint: 'Đạt 100 XP tích luỹ' },
+  { id: 'xp-500', title: 'Cao thủ 500 XP', hint: 'Đạt 500 XP tích luỹ' },
+];
+
+export function evaluateUnlockedAccessories(xp: number): BaoAccessory[] {
+  return BAO_ACCESSORIES.filter((a) => a.id !== 'none' && xp >= a.reqXp).map((a) => a.id);
+}
+
+export function evaluateBadges(opts: {
+  completedLessons: string[];
+  streak: number;
+  xp: number;
+  completedStories?: string[];
+  totalReviews?: number;
+}): string[] {
+  const badges = new Set<string>();
+  const done = new Set(opts.completedLessons);
+  if (done.size >= 1) badges.add('first-lesson');
+  if (done.size >= 4) badges.add('four-skills');
+  if ((opts.completedStories?.length ?? 0) >= 1) badges.add('story-reader');
+  if ((opts.totalReviews ?? 0) >= 50) badges.add('srs-50');
+  if (done.has('stage-1-test')) badges.add('stage-1-master');
+  if (done.has('stage-2-test')) badges.add('stage-2-master');
+  if (done.has('stage-3-test')) badges.add('stage-3-master');
+  if (done.has('stage-4-test')) badges.add('stage-4-master');
+  if (opts.streak >= 7) badges.add('streak-7');
+  if (opts.streak >= 30) badges.add('streak-30');
+  if (opts.xp >= 100) badges.add('xp-100');
+  if (opts.xp >= 500) badges.add('xp-500');
+  return Array.from(badges);
+}
+
 export function createDefaultProgress(now = new Date()): ProgressRecord {
   return {
     id: 'main',
@@ -145,7 +199,11 @@ export function createDefaultProgress(now = new Date()): ProgressRecord {
     bestStreak: 0,
     freezesLeft: 2,
     activeDates: [],
+    frozenDates: [],
+    celebratedMilestones: [],
     completedLessons: [],
+    completedStories: [],
+    totalReviews: 0,
     lessonProgress: {},
     storyBookmarks: {},
     unlockedAccessories: [],
@@ -230,7 +288,21 @@ export async function commitReview(record: SrsCardRecord, rating: ReviewRating, 
   const db = await getDb();
   const now = new Date();
   const { updatedCard, log } = reviewSrsCard(record, rating, now);
-  const tx = db.transaction(['cards', 'reviewLog'], 'readwrite');
+  const curProg = await ensureProgress();
+  const nextReviews = (curProg.totalReviews ?? 0) + 1;
+  const mergedBadges = Array.from(
+    new Set([
+      ...curProg.badges,
+      ...evaluateBadges({
+        completedLessons: curProg.completedLessons,
+        streak: curProg.streak,
+        xp: curProg.xp,
+        completedStories: curProg.completedStories,
+        totalReviews: nextReviews,
+      }),
+    ])
+  );
+  const tx = db.transaction(['cards', 'reviewLog', 'progress'], 'readwrite');
   await tx.objectStore('cards').put(updatedCard);
   await tx.objectStore('reviewLog').add({
     key: updatedCard.key,
@@ -239,6 +311,12 @@ export async function commitReview(record: SrsCardRecord, rating: ReviewRating, 
     state: log.state,
     reviewedAt: now.toISOString(),
     elapsedMs,
+  });
+  await tx.objectStore('progress').put({
+    ...curProg,
+    totalReviews: nextReviews,
+    badges: mergedBadges,
+    updatedAt: now.toISOString(),
   });
   await tx.done;
   return updatedCard;
@@ -251,11 +329,20 @@ export function todayIsoDate(now = new Date()): string {
   return `${y}-${m}-${d}`;
 }
 
-export function computeStreak(dates: string[], refDate = new Date()): number {
-  const dateSet = new Set(dates);
-  let streak = 0;
+export function computeStreak(dates: string[], refDate = new Date(), frozenDates: string[] = []): number {
+  const activeSet = new Set(dates);
+  const frozenSet = new Set(frozenDates);
+  const hasCovered = (iso: string) => activeSet.has(iso) || frozenSet.has(iso);
+
   const cursor = new Date(refDate);
-  while (dateSet.has(todayIsoDate(cursor))) {
+  const todayIso = todayIsoDate(cursor);
+  // If user hasn't studied today yet, start checking streak continuity from yesterday
+  if (!hasCovered(todayIso)) {
+    cursor.setDate(cursor.getDate() - 1);
+  }
+
+  let streak = 0;
+  while (hasCovered(todayIsoDate(cursor))) {
     streak += 1;
     cursor.setDate(cursor.getDate() - 1);
   }
@@ -278,22 +365,59 @@ export async function useStreakFreeze(): Promise<ProgressRecord> {
   const db = await getDb();
   const cur = await ensureProgress();
   if (cur.freezesLeft <= 0) return cur;
-  const today = todayIsoDate();
-  const yestDate = new Date();
-  yestDate.setDate(yestDate.getDate() - 1);
-  const yesterday = todayIsoDate(yestDate);
-  const dates = Array.from(new Set([...cur.activeDates, yesterday, today])).sort();
-  const streak = computeStreak(dates);
+
+  const activeSet = new Set(cur.activeDates);
+  const frozenList = [...(cur.frozenDates ?? [])];
+  const frozenSet = new Set(frozenList);
+
+  // Pick the most recent uncovered day (yesterday first, else walk back 1-7 days, else today) to protect streak continuity
+  let targetIso = '';
+  const probe = new Date();
+  for (let offset = 1; offset <= 7; offset++) {
+    probe.setTime(Date.now() - offset * 86400000);
+    const iso = todayIsoDate(probe);
+    if (!activeSet.has(iso) && !frozenSet.has(iso)) {
+      targetIso = iso;
+      break;
+    }
+  }
+  if (!targetIso) {
+    targetIso = todayIsoDate();
+  }
+  frozenSet.add(targetIso);
+  const nextFrozen = Array.from(frozenSet).sort();
+  const streak = computeStreak(cur.activeDates, new Date(), nextFrozen);
+  const badges = Array.from(
+    new Set([
+      ...cur.badges,
+      ...evaluateBadges({
+        completedLessons: cur.completedLessons,
+        streak,
+        xp: cur.xp,
+        completedStories: cur.completedStories,
+        totalReviews: cur.totalReviews,
+      }),
+    ])
+  );
   const next: ProgressRecord = {
     ...cur,
     freezesLeft: cur.freezesLeft - 1,
-    activeDates: dates,
+    frozenDates: nextFrozen,
     streak,
     bestStreak: Math.max(cur.bestStreak, streak),
+    badges,
     updatedAt: new Date().toISOString(),
   };
   await db.put('progress', next);
   return next;
+}
+
+export async function markMilestoneCelebrated(milestone: number): Promise<void> {
+  const db = await getDb();
+  const cur = await ensureProgress();
+  const set = new Set(cur.celebratedMilestones ?? []);
+  set.add(milestone);
+  await db.put('progress', { ...cur, celebratedMilestones: Array.from(set), updatedAt: new Date().toISOString() });
 }
 
 export async function setStoryBookmark(readingId: string, step = 1): Promise<void> {
@@ -309,32 +433,38 @@ export async function setStoryBookmark(readingId: string, step = 1): Promise<voi
 
 export async function recordStudyActivity(opts: {
   xpEarned: number;
-  skill?: 'giaoTiep' | 'doc' | 'nghe' | 'viet';
+  skill?: 'giaoTiep' | 'doc' | 'nghe' | 'viet' | 'all';
   completedLessonId?: string;
+  completedStoryId?: string;
   lessonRatio?: number;
 }): Promise<ProgressRecord> {
   const db = await getDb();
   const cur = await ensureProgress();
   const today = todayIsoDate();
   const dates = Array.from(new Set([...cur.activeDates, today])).sort();
-  const streak = computeStreak(dates);
+  const frozenDates = cur.frozenDates ?? [];
+  const streak = computeStreak(dates, new Date(), frozenDates);
   const prevDaily = cur.dailyXpDate === today ? (cur.dailyXp ?? 0) : 0;
 
   const nextXp = cur.xp + opts.xpEarned;
-  const unlocked = new Set(cur.unlockedAccessories);
-  if (nextXp >= 30) unlocked.add('bamboo-hat');
-  if (nextXp >= 80) unlocked.add('red-scarf');
-  if (nextXp >= 160) unlocked.add('star-glasses');
-  if (nextXp >= 300) unlocked.add('crown');
-
-  const badges = new Set(cur.badges);
+  const unlocked = new Set([...cur.unlockedAccessories, ...evaluateUnlockedAccessories(nextXp)]);
   const completed = Array.from(
     new Set(opts.completedLessonId ? [...cur.completedLessons, opts.completedLessonId] : cur.completedLessons)
   );
-  if (completed.length >= 1) badges.add('first-lesson');
-  if (completed.length >= 4) badges.add('four-skills');
-  if (streak >= 7) badges.add('streak-7');
-  if (nextXp >= 100) badges.add('xp-100');
+  const completedStories = Array.from(
+    new Set(opts.completedStoryId ? [...(cur.completedStories ?? []), opts.completedStoryId] : (cur.completedStories ?? []))
+  );
+
+  const badges = new Set([
+    ...cur.badges,
+    ...evaluateBadges({
+      completedLessons: completed,
+      streak,
+      xp: nextXp,
+      completedStories,
+      totalReviews: cur.totalReviews,
+    }),
+  ]);
 
   const lessonProgress = { ...cur.lessonProgress };
   if (opts.completedLessonId) {
@@ -342,7 +472,13 @@ export async function recordStudyActivity(opts: {
   }
 
   const skillXp = { ...cur.skillXp };
-  if (opts.skill) {
+  if (opts.skill === 'all') {
+    const share = Math.round(opts.xpEarned / 4);
+    skillXp.giaoTiep += share;
+    skillXp.doc += share;
+    skillXp.nghe += share;
+    skillXp.viet += share;
+  } else if (opts.skill) {
     skillXp[opts.skill] += opts.xpEarned;
   }
 
@@ -354,7 +490,9 @@ export async function recordStudyActivity(opts: {
     streak,
     bestStreak: Math.max(cur.bestStreak, streak),
     activeDates: dates,
+    frozenDates,
     completedLessons: completed,
+    completedStories,
     lessonProgress,
     unlockedAccessories: Array.from(unlocked),
     badges: Array.from(badges),

@@ -66,6 +66,50 @@ export async function loadStageReadings(stage = 1): Promise<ReadingItem[]> {
   return cache.readingsByStage.get(stage)!;
 }
 
+export function resolveStageForTopic(topicId: number): number {
+  if (topicId <= 8) return 1;
+  if (topicId <= 16) return 2;
+  if (topicId <= 24) return 3;
+  return 4;
+}
+
+export function resolveStageForLessonId(lessonId: string): number {
+  const stageMatch = /^stage-(\d+)-test$/.exec(lessonId);
+  if (stageMatch) {
+    return Math.min(4, Math.max(1, Number(stageMatch[1])));
+  }
+  const topicMatch = /^t(\d+)-/.exec(lessonId);
+  if (topicMatch) {
+    return resolveStageForTopic(Number(topicMatch[1]));
+  }
+  return 1;
+}
+
+export function resolveStageForReadingId(readingId: string): number {
+  const storyMatch = /^story-c(\d+)$/.exec(readingId);
+  if (storyMatch) {
+    return Math.min(4, Math.max(1, Number(storyMatch[1])));
+  }
+  const topicMatch = /^r-t(\d+)$/.exec(readingId);
+  if (topicMatch) {
+    return resolveStageForTopic(Number(topicMatch[1]));
+  }
+  return 1;
+}
+
+export async function loadStageBundle(stage: number): Promise<{
+  words: WordItem[];
+  lessons: LessonItem[];
+  readings: ReadingItem[];
+}> {
+  const [words, lessons, readings] = await Promise.all([
+    loadStageWords(stage),
+    loadStageLessons(stage),
+    loadStageReadings(stage),
+  ]);
+  return { words, lessons, readings };
+}
+
 export function lookupWord(hanziOrId: string): WordItem | undefined {
   return cache.wordIndex.get(hanziOrId);
 }
@@ -109,6 +153,13 @@ export function collectStageAssetUrls(
     }
     for (const wc of l.writingChars ?? []) {
       urls.add(`${base}strokes/${encodeURIComponent(wc.char)}.json`);
+    }
+    for (const stItem of l.stageTestItems ?? []) {
+      addRel(stItem.audio);
+      addRel(stItem.audioSlow);
+      if (stItem.writingChar) {
+        urls.add(`${base}strokes/${encodeURIComponent(stItem.writingChar.char)}.json`);
+      }
     }
   }
   for (const r of readings) {

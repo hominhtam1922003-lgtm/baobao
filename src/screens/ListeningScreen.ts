@@ -2,14 +2,19 @@ import { renderFocusShell } from '../components/AppShell';
 import { renderBaoSvg } from '../components/BaoMascot';
 import { iconSvg } from '../components/Icons';
 import { audioService } from '../services/audioPlayer';
-import { loadStageLessons } from '../services/contentLoader';
+import { loadStageLessons, resolveStageForLessonId } from '../services/contentLoader';
 import { requestPersistentStorage } from '../services/pwa';
-import { ensureSettings, recordStudyActivity } from '../services/srsEngine';
+import { ensureProgress, ensureSettings, recordStudyActivity } from '../services/srsEngine';
 import { escapeHtml } from '../utils/html';
 
 export async function renderListeningScreen(root: HTMLElement, lessonId: string): Promise<() => void> {
   requestPersistentStorage();
-  const [lessons, settings] = await Promise.all([loadStageLessons(1), ensureSettings()]);
+  const stage = resolveStageForLessonId(lessonId);
+  const [lessons, progress, settings] = await Promise.all([
+    loadStageLessons(stage),
+    ensureProgress(),
+    ensureSettings(),
+  ]);
   const listeningLessons = lessons.filter((l) => l.type === 'nghe');
   const lesson = listeningLessons.find((l) => l.id === lessonId) ?? listeningLessons[0];
   if (!lesson || !lesson.exercises?.length) {
@@ -83,7 +88,6 @@ export async function renderListeningScreen(root: HTMLElement, lessonId: string)
     const ok = norm(userVal) === norm(expected);
     audioService.playSfx(ok ? 'ok' : 'err');
     if (!ok) {
-      // Wrong -> auto-replay slow audio once before showing answer
       playCurrent(true);
     }
     feedback = {
@@ -99,7 +103,7 @@ export async function renderListeningScreen(root: HTMLElement, lessonId: string)
       shell.setProgress(100, 'Hoàn thành');
       shell.body.innerHTML = `
         <div class="clay-card" style="max-width:760px;margin:0 auto;padding:32px;text-align:center;">
-          ${renderBaoSvg({ mood: 'headphones', size: 108 })}
+          ${renderBaoSvg({ mood: 'headphones', size: 108, accessory: progress.equippedAccessory })}
           <h2 style="margin:10px 0 6px;">Xong bài nghe: ${escapeHtml(lesson.title)}</h2>
           <p style="margin:0 0 18px;color:var(--ink-muted);">+${lesson.xp} XP · Đã cộng vào kỹ năng Nghe.</p>
           <div style="display:flex;justify-content:center;gap:10px;flex-wrap:wrap;">
@@ -118,16 +122,28 @@ export async function renderListeningScreen(root: HTMLElement, lessonId: string)
     const ex = exercises[idx];
     shell.setProgress(((idx + 1) / exercises.length) * 95, `${idx + 1}/${exercises.length}`);
 
-    const switcher = listeningLessons
+    const stagePills = [1, 2, 3, 4]
       .map(
-        (l) => `<a href="#/listening/${escapeHtml(l.id)}" class="btn btn-sm ${l.id === lesson.id ? 'btn-listen' : 'btn-soft'}">${escapeHtml(l.title)}</a>`
+        (s) =>
+          `<button type="button" class="btn btn-sm ${s === stage ? 'btn-listen' : 'btn-soft'}" data-listen-stage="${s}">Chặng ${s}</button>`
+      )
+      .join('');
+
+    const selectOptions = listeningLessons
+      .map(
+        (l) => `<option value="${escapeHtml(l.id)}" ${l.id === lesson.id ? 'selected' : ''}>${escapeHtml(l.title)}</option>`
       )
       .join('');
 
     shell.body.innerHTML = `
       <div style="max-width:760px;margin:0 auto;">
         <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:14px;">
-          <div style="display:flex;gap:8px;flex-wrap:wrap;">${switcher}</div>
+          <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;">
+            ${stagePills}
+            <select data-listen-select aria-label="Chọn bài nghe" style="padding:8px 12px;border-radius:14px;border:1.5px solid var(--border);background:var(--surface);font-weight:700;font-size:14px;">
+              ${selectOptions}
+            </select>
+          </div>
           <div class="segmented" aria-label="Phụ đề">
             <button type="button" data-sub="all" aria-pressed="${subtitleMode === 'all'}">Hiện chữ</button>
             <button type="button" data-sub="new" aria-pressed="${subtitleMode === 'new'}">Gợi ý</button>
@@ -138,7 +154,7 @@ export async function renderListeningScreen(root: HTMLElement, lessonId: string)
         <div class="clay-card" style="padding:26px;text-align:center;margin-bottom:18px;">
           <div style="display:flex;flex-direction:column;align-items:center;gap:14px;">
             <button type="button" data-play-toggle aria-label="Phát hoặc dừng audio" style="width:180px;height:180px;border-radius:999px;border:5px solid #FFFFFF;background:var(--listen);box-shadow:0 6px 0 var(--listen-lip), var(--shadow-clay);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;position:relative;color:#FFFFFF;">
-              ${renderBaoSvg({ mood: 'headphones', size: 84 })}
+              ${renderBaoSvg({ mood: 'headphones', size: 84, accessory: progress.equippedAccessory })}
               <span style="display:inline-flex;align-items:center;gap:6px;background:var(--listen-lip);padding:4px 12px;border-radius:999px;font-weight:800;font-size:13px;">
                 ${iconSvg(isPlaying ? 'pause' : 'play', 14)} ${isPlaying ? 'Đang phát' : 'Nghe (Space)'}
               </span>
@@ -218,6 +234,18 @@ export async function renderListeningScreen(root: HTMLElement, lessonId: string)
       }
     `;
 
+    shell.body.querySelectorAll<HTMLElement>('[data-listen-stage]').forEach((b) => {
+      b.addEventListener('click', async () => {
+        const nextStage = Number(b.dataset.listenStage);
+        const list = (await loadStageLessons(nextStage)).filter((l) => l.type === 'nghe');
+        if (list[0]) window.location.hash = `#/listening/${list[0].id}`;
+      });
+    });
+
+    shell.body.querySelector<HTMLSelectElement>('[data-listen-select]')?.addEventListener('change', (e) => {
+      window.location.hash = `#/listening/${(e.currentTarget as HTMLSelectElement).value}`;
+    });
+
     shell.body.querySelector('[data-play-toggle]')?.addEventListener('click', () => {
       if (isPlaying) {
         audioService.stop();
@@ -281,7 +309,13 @@ export async function renderListeningScreen(root: HTMLElement, lessonId: string)
     document.querySelector('[data-l-next]')?.addEventListener('click', () => goTo(idx + 1));
 
     setKey((e) => {
-      if (e.key === ' ' && document.activeElement?.tagName !== 'INPUT') {
+      const tag = document.activeElement?.tagName;
+      if (tag === 'SELECT' || tag === 'TEXTAREA') return;
+      if (tag === 'INPUT') {
+        if (e.key === 'Enter' && !feedback && ex.kind === 'dictation') submitDictation();
+        return;
+      }
+      if (e.key === ' ') {
         e.preventDefault();
         if (isPlaying) {
           audioService.stop();
@@ -290,10 +324,18 @@ export async function renderListeningScreen(root: HTMLElement, lessonId: string)
         } else {
           playCurrent(false);
         }
+      } else if (e.key === 's' || e.key === 'S') {
+        speed = speed === '0.75' ? '1' : '0.75';
+        render();
       } else if (e.key === 'ArrowLeft' && idx > 0) {
         goTo(idx - 1);
       } else if (e.key === 'ArrowRight' && idx < exercises.length - 1) {
         goTo(idx + 1);
+      } else if (e.key === 'Backspace' && !feedback && ex.kind === 'listen-tiles' && chosenTiles.length > 0) {
+        e.preventDefault();
+        const item = chosenTiles.pop();
+        if (item) tilePool.push(item);
+        render();
       } else if (e.key === 'Enter') {
         e.preventDefault();
         if (feedback) {
@@ -313,6 +355,7 @@ export async function renderListeningScreen(root: HTMLElement, lessonId: string)
   render();
   return () => {
     setKey(null);
+    document.querySelector('.feedback-bar')?.remove();
     audioService.stop();
   };
 }

@@ -45,7 +45,7 @@ export async function precacheStageAssets(
 
   // Fallback directly via Cache API if SW hasn't claimed yet
   if (typeof caches !== 'undefined') {
-    const cache = await caches.open('baobao-stage-cache-v1');
+    const cache = await caches.open('baobao-stage-cache-v2');
     let ok = 0;
     for (let i = 0; i < urls.length; i++) {
       try {

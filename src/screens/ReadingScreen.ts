@@ -3,16 +3,30 @@ import { renderBaoSvg } from '../components/BaoMascot';
 import { iconSvg } from '../components/Icons';
 import { closeWordPopover, showWordPopover } from '../components/WordPopover';
 import { audioService } from '../services/audioPlayer';
-import { loadStageReadings, loadStageWords } from '../services/contentLoader';
+import {
+  loadStageReadings,
+  loadStageWords,
+  resolveStageForReadingId,
+} from '../services/contentLoader';
 import { requestPersistentStorage } from '../services/pwa';
-import { addCardToSrs, ensureSettings, getAllCards, isWeakCard, recordStudyActivity, setStoryBookmark } from '../services/srsEngine';
+import {
+  addCardToSrs,
+  ensureProgress,
+  ensureSettings,
+  getAllCards,
+  isWeakCard,
+  recordStudyActivity,
+  setStoryBookmark,
+} from '../services/srsEngine';
 import { escapeHtml } from '../utils/html';
 
 export async function renderReadingScreen(root: HTMLElement, readingId: string): Promise<() => void> {
   requestPersistentStorage();
-  const [readings, words, settings, allCards] = await Promise.all([
-    loadStageReadings(1),
-    loadStageWords(1),
+  const stage = resolveStageForReadingId(readingId);
+  const [readings, words, progress, settings, allCards] = await Promise.all([
+    loadStageReadings(stage),
+    loadStageWords(stage),
+    ensureProgress(),
     ensureSettings(),
     getAllCards(),
   ]);
@@ -31,6 +45,7 @@ export async function renderReadingScreen(root: HTMLElement, readingId: string):
   let hintOpen = false;
   let hintDismissed = false;
   let awardedReadingXp = false;
+  let keyHandler: ((e: KeyboardEvent) => void) | null = null;
   const selectedAnswers = new Map<string, number>();
   setStoryBookmark(reading.id, 1);
 
@@ -44,9 +59,15 @@ export async function renderReadingScreen(root: HTMLElement, readingId: string):
     labelRight: `${reading.knownPercent}% từ đã biết`,
   });
 
+  const setKey = (fn: ((e: KeyboardEvent) => void) | null) => {
+    if (keyHandler) document.removeEventListener('keydown', keyHandler);
+    keyHandler = fn;
+    if (fn) document.addEventListener('keydown', fn);
+  };
+
   const playKaraokeFrom = (idx: number) => {
     const list = reading.audioSentences ?? [];
-    if (idx >= list.length) {
+    if (idx < 0 || idx >= list.length) {
       playingKaraoke = false;
       activeParagraph = -1;
       render();
@@ -61,19 +82,37 @@ export async function renderReadingScreen(root: HTMLElement, readingId: string):
   };
 
   const render = () => {
+    setKey(null);
     const answeredAll = selectedAnswers.size === reading.questions.length;
     const pct = Math.min(100, 35 + Math.round((selectedAnswers.size / Math.max(1, reading.questions.length)) * 65));
     shell.setProgress(pct, `${reading.knownPercent}% quen thuộc`);
 
-    const switcherHtml = readings
+    const stagePills = [1, 2, 3, 4]
       .map(
-        (r) => `<a href="#/reading/${escapeHtml(r.id)}" class="btn btn-sm ${r.id === reading.id ? 'btn-read' : 'btn-soft'}">${escapeHtml(r.title)}</a>`
+        (s) =>
+          `<button type="button" class="btn btn-sm ${s === stage ? 'btn-read' : 'btn-soft'}" data-read-stage="${s}">Chặng ${s}</button>`
       )
       .join('');
 
+    const selectOptions = readings
+      .map(
+        (r) =>
+          `<option value="${escapeHtml(r.id)}" ${r.id === reading.id ? 'selected' : ''}>${
+            r.isStoryChapter ? `★ ${r.title}` : r.title
+          }</option>`
+      )
+      .join('');
+
+    const nextChapterNum = (reading.chapterNumber ?? stage) + 1;
+
     shell.body.innerHTML = `
       <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:14px;">
-        <div style="display:flex;gap:8px;flex-wrap:wrap;">${switcherHtml}</div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;">
+          ${stagePills}
+          <select data-read-select aria-label="Chọn bài đọc" style="padding:8px 12px;border-radius:14px;border:1.5px solid var(--border);background:var(--surface);font-weight:700;font-size:14px;">
+            ${selectOptions}
+          </select>
+        </div>
         <div class="segmented" role="group" aria-label="Chế độ pinyin">
           <button type="button" data-py-mode="all" aria-pressed="${pinyinMode === 'all'}">Tất cả</button>
           <button type="button" data-py-mode="new" aria-pressed="${pinyinMode === 'new'}">Chỉ từ mới</button>
@@ -86,13 +125,20 @@ export async function renderReadingScreen(root: HTMLElement, readingId: string):
           <article class="clay-card" style="padding:40px;background:var(--surface);">
             <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:16px;">
               <div>
-                <span class="chip" style="background:var(--read-soft);border-color:var(--read);">
-                  ${reading.mode === 'fluent' ? 'Đọc trôi (≥95% đã biết)' : 'Đọc học (~90% đã biết)'}
-                </span>
+                <div style="display:flex;gap:6px;flex-wrap:wrap;">
+                  ${
+                    reading.isStoryChapter
+                      ? `<span class="chip" style="background:var(--review-soft);border-color:var(--review);">Truyện dài kỳ · Chương ${reading.chapterNumber ?? stage}/4</span>`
+                      : ''
+                  }
+                  <span class="chip" style="background:var(--read-soft);border-color:var(--read);">
+                    ${reading.mode === 'fluent' ? 'Đọc trôi (≥95% đã biết)' : 'Đọc học (~90% đã biết)'}
+                  </span>
+                </div>
                 <h1 style="margin:8px 0 0;font-size:30px;line-height:1.25;">${escapeHtml(reading.title)}</h1>
               </div>
               <button type="button" class="btn ${playingKaraoke ? 'btn-comm' : 'btn-read'}" data-karaoke>
-                ${iconSvg(playingKaraoke ? 'pause' : 'speaker', 18)} ${playingKaraoke ? 'Dừng nghe' : 'Nghe cả bài'}
+                ${iconSvg(playingKaraoke ? 'pause' : 'speaker', 18)} ${playingKaraoke ? 'Dừng nghe (Space)' : 'Nghe cả bài (Space)'}
               </button>
             </div>
 
@@ -138,7 +184,7 @@ export async function renderReadingScreen(root: HTMLElement, readingId: string):
                               if (oi === q.answer) cls = 'btn-read';
                               else if (oi === chosen) cls = 'btn-comm';
                             }
-                            return `<button type="button" class="btn btn-sm ${cls}" data-q-id="${escapeHtml(q.id)}" data-q-opt="${oi}">${escapeHtml(opt)}</button>`;
+                            return `<button type="button" class="btn btn-sm ${cls}" data-q-id="${escapeHtml(q.id)}" data-q-opt="${oi}">[${oi + 1}] ${escapeHtml(opt)}</button>`;
                           })
                           .join('')}
                       </div>
@@ -154,6 +200,20 @@ export async function renderReadingScreen(root: HTMLElement, readingId: string):
                 })
                 .join('')}
             </div>
+
+            ${
+              reading.isStoryChapter && reading.cliffhangerVi
+                ? `<div style="margin-top:18px;padding:16px;border-radius:16px;background:var(--read-soft);border:1.5px solid var(--read);">
+                     <div style="font-weight:800;margin-bottom:4px;">Gợi mở chương tiếp theo</div>
+                     <p style="margin:0 0 10px;font-size:14px;color:var(--ink);">${escapeHtml(reading.cliffhangerVi)}</p>
+                     ${
+                       nextChapterNum <= 4
+                         ? `<a href="#/reading/story-c${nextChapterNum}" class="btn btn-sm btn-read">Mở Chương ${nextChapterNum} →</a>`
+                         : `<a href="#/" class="btn btn-sm btn-review">Xem lại toàn hành trình</a>`
+                     }
+                   </div>`
+                : ''
+            }
 
             ${
               answeredAll
@@ -195,11 +255,11 @@ export async function renderReadingScreen(root: HTMLElement, readingId: string):
           ${
             !hintDismissed
               ? `<div class="clay-card" style="padding:16px;display:flex;gap:10px;align-items:flex-start;">
-                   ${renderBaoSvg({ mood: 'point', size: 52 })}
+                   ${renderBaoSvg({ mood: 'point', size: 52, accessory: progress.equippedAccessory })}
                    <div style="flex:1;">
                      <div style="font-weight:800;font-size:14px;">Gợi ý đọc của Bao</div>
                      <p style="margin:4px 0 8px;font-size:13px;color:var(--ink-muted);">
-                       ${hintOpen ? 'Thử chuyển pinyin sang "Chỉ từ mới" ở lượt đọc thứ hai để não tự nhận diện mặt chữ quen!' : 'Cần mẹo đọc nhanh không? Bấm xem gợi ý (tối đa 1 lần/bài).'}
+                       ${hintOpen ? 'Thử bấm P để chuyển pinyin sang "Chỉ từ mới" ở lượt đọc thứ hai để não tự nhận diện mặt chữ quen!' : 'Cần mẹo đọc nhanh không? Bấm xem gợi ý (tối đa 1 lần/bài).'}
                      </p>
                      <div style="display:flex;gap:6px;">
                        ${!hintOpen ? `<button type="button" class="btn btn-sm btn-read" data-show-hint>Xem gợi ý</button>` : ''}
@@ -217,6 +277,19 @@ export async function renderReadingScreen(root: HTMLElement, readingId: string):
         }
       </style>
     `;
+
+    shell.body.querySelectorAll<HTMLElement>('[data-read-stage]').forEach((b) => {
+      b.addEventListener('click', async () => {
+        const nextStage = Number(b.dataset.readStage);
+        const list = await loadStageReadings(nextStage);
+        if (list[0]) window.location.hash = `#/reading/${list[0].id}`;
+      });
+    });
+
+    shell.body.querySelector<HTMLSelectElement>('[data-read-select]')?.addEventListener('change', (e) => {
+      const targetId = (e.currentTarget as HTMLSelectElement).value;
+      window.location.hash = `#/reading/${targetId}`;
+    });
 
     shell.body.querySelectorAll<HTMLElement>('[data-py-mode]').forEach((b) => {
       b.addEventListener('click', () => {
@@ -240,30 +313,36 @@ export async function renderReadingScreen(root: HTMLElement, readingId: string):
       b.addEventListener('click', () => audioService.play(b.dataset.nwPlay!));
     });
 
-    shell.body.querySelector('[data-karaoke]')?.addEventListener('click', () => {
+    const toggleKaraoke = () => {
       if (playingKaraoke) {
         playingKaraoke = false;
         activeParagraph = -1;
         audioService.stop();
         render();
       } else {
-        playKaraokeFrom(0);
+        playKaraokeFrom(Math.max(0, activeParagraph));
       }
-    });
+    };
+    shell.body.querySelector('[data-karaoke]')?.addEventListener('click', toggleKaraoke);
+
+    const answerQuestion = (qid: string, opt: number) => {
+      const q = reading.questions.find((x) => x.id === qid);
+      selectedAnswers.set(qid, opt);
+      if (q) audioService.playSfx(opt === q.answer ? 'ok' : 'err');
+      if (selectedAnswers.size === reading.questions.length && !awardedReadingXp) {
+        awardedReadingXp = true;
+        recordStudyActivity({
+          xpEarned: 25,
+          skill: 'doc',
+          completedLessonId: reading.isStoryChapter ? undefined : `t${reading.topicId}-doc`,
+          completedStoryId: reading.isStoryChapter ? reading.id : undefined,
+        });
+      }
+      render();
+    };
 
     shell.body.querySelectorAll<HTMLElement>('[data-q-id]').forEach((b) => {
-      b.addEventListener('click', () => {
-        const qid = b.dataset.qId!;
-        const opt = Number(b.dataset.qOpt);
-        const q = reading.questions.find((x) => x.id === qid);
-        selectedAnswers.set(qid, opt);
-        if (q) audioService.playSfx(opt === q.answer ? 'ok' : 'err');
-        if (selectedAnswers.size === reading.questions.length && !awardedReadingXp) {
-          awardedReadingXp = true;
-          recordStudyActivity({ xpEarned: 25, skill: 'doc', completedLessonId: `t${reading.topicId}-doc` });
-        }
-        render();
-      });
+      b.addEventListener('click', () => answerQuestion(b.dataset.qId!, Number(b.dataset.qOpt)));
     });
 
     shell.body.querySelector('[data-save-all-new]')?.addEventListener('click', async (e) => {
@@ -294,10 +373,41 @@ export async function renderReadingScreen(root: HTMLElement, readingId: string):
       hintDismissed = true;
       render();
     });
+
+    setKey((e) => {
+      const tag = document.activeElement?.tagName;
+      if (tag === 'INPUT' || tag === 'SELECT' || tag === 'TEXTAREA') return;
+      if (e.key === ' ') {
+        e.preventDefault();
+        toggleKaraoke();
+      } else if (e.key === 'ArrowRight') {
+        e.preventDefault();
+        const nextIdx = activeParagraph < 0 ? 0 : Math.min(reading.paragraphs.length - 1, activeParagraph + 1);
+        playKaraokeFrom(nextIdx);
+      } else if (e.key === 'ArrowLeft') {
+        e.preventDefault();
+        const prevIdx = Math.max(0, activeParagraph - 1);
+        playKaraokeFrom(prevIdx);
+      } else if (e.key === 'p' || e.key === 'P') {
+        pinyinMode = pinyinMode === 'all' ? 'new' : pinyinMode === 'new' ? 'off' : 'all';
+        render();
+      } else if (e.key === 'Escape') {
+        closeWordPopover();
+      } else {
+        const n = Number(e.key);
+        if (n >= 1 && n <= 4) {
+          const nextQ = reading.questions.find((q) => !selectedAnswers.has(q.id));
+          if (nextQ && n <= nextQ.options.length) {
+            answerQuestion(nextQ.id, n - 1);
+          }
+        }
+      }
+    });
   };
 
   render();
   return () => {
+    setKey(null);
     playingKaraoke = false;
     closeWordPopover();
     audioService.stop();
