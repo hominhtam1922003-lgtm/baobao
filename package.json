@@ -1,0 +1,30 @@
+{
+  "name": "baobao",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@fontsource/baloo-2": "^5.2.5",
+    "@fontsource/noto-sans-sc": "^5.2.5",
+    "canvas-confetti": "^1.9.3",
+    "hanzi-writer": "^3.7.3",
+    "idb": "^8.0.2",
+    "ts-fsrs": "^5.1.1"
+  },
+  "devDependencies": {
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/node": "^26.6.11",
+    "fake-indexeddb": "^6.1.0",
+    "hanzi-writer-data": "^2.0.1",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vitest": "^3.1.4"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "BaoBao — Học tiếng Trung cùng Bao",
+  "short_name": "BaoBao",
+  "description": "Web app học tiếng Trung giao tiếp & đọc hiểu cho người trẻ Việt Nam",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#FFFBF3",
+  "theme_color": "#FFFBF3",
+  "icons": [
+    {
+      "src": "icons/bao-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

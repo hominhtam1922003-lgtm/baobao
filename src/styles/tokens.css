@@ -1,0 +1,79 @@
+:root {
+  /* Surfaces & Ink */
+  --bg: #FFFBF3;
+  --surface: #FFFFFF;
+  --border: #F1E4D8;
+  --border-path: #EAD9C8;
+  --locked: #D8D2CC;
+  --locked-lip: #BDB5AE;
+  --ink: #3D3654;
+  --ink-muted: #6E657E;
+  --ink-pinyin: #8A8198;
+  --reading-hl: #FFF3B0;
+
+  /* Lesson Type Colors: Giao tiếp (Hồng đào) */
+  --comm: #FF6B81;
+  --comm-lip: #E04E66;
+  --comm-soft: #FFE3E8;
+  --comm-chat-bg: #FFF1F3;
+
+  /* Đọc (Mint) */
+  --read: #1FC8A9;
+  --read-lip: #14A388;
+  --read-soft: #D9F6EF;
+
+  /* Nghe (Tím oải hương) */
+  --listen: #8F82C8;
+  --listen-lip: #6F62AC;
+  --listen-soft: #EFEAF9;
+
+  /* Viết (Cam) */
+  --write: #FF9600;
+  --write-lip: #D97E06;
+  --write-soft: #FFF0D9;
+
+  /* Ôn tập (Vàng) */
+  --review: #FFC531;
+  --review-lip: #E0A800;
+  --review-soft: #FFF6D6;
+
+  /* Từ & mẫu câu (Xanh dương) */
+  --vocab: #1CB0F6;
+  --vocab-lip: #1899D6;
+  --vocab-soft: #E1F5FE;
+
+  /* Semantic feedback */
+  --ok-bg: #D9F6EF;
+  --ok-accent: #14A388;
+  --err-bg: #FFE3E8;
+  --err-accent: #E04E66;
+
+  /* Typography */
+  --font-ui: 'Baloo 2', system-ui, -apple-system, sans-serif;
+  --font-hanzi: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  --hanzi-scale: 1;
+
+  /* Radii */
+  --r-btn: 14px;
+  --r-pop: 16px;
+  --r-card: 20px;
+  --r-card-lg: 24px;
+  --r-flash: 28px;
+  --r-pill: 999px;
+
+  /* Depth */
+  --lip-h: 4px;
+  --shadow-clay: 0 6px 0 rgba(61, 54, 84, .04), 0 18px 32px -18px rgba(61, 54, 84, .18);
+  --shadow-pop: 0 12px 28px -10px rgba(61, 54, 84, .22);
+
+  /* Motion */
+  --t-fast: 150ms;
+  --t-base: 220ms;
+  --t-flip: 300ms;
+  --ease-bounce: cubic-bezier(.34, 1.56, .64, 1);
+
+  /* Layout */
+  --sidebar-w: 240px;
+  --shell-max: 1200px;
+  --focus-max: 880px;
+}
