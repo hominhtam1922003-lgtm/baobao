@@ -67,7 +67,7 @@ export async function renderStageTestScreen(root: HTMLElement, testId: string): 
     if (src) audioService.play(src);
   };
 
-  const mountTestWriter = (char: string) => {
+  const mountTestWriter = (char: string, interactive = true) => {
     const target = shell.body.querySelector<HTMLElement>('[data-st-hw]');
     if (!target) return;
     target.innerHTML = '';
@@ -79,6 +79,7 @@ export async function renderStageTestScreen(root: HTMLElement, testId: string): 
       height: size,
       padding: 20,
       showOutline: true,
+      showCharacter: !interactive,
       outlineColor: '#D8D2CC',
       strokeColor: '#3D3654',
       radicalColor: '#D97E06',
@@ -92,6 +93,7 @@ export async function renderStageTestScreen(root: HTMLElement, testId: string): 
         return res.json();
       },
     });
+    if (!interactive) return;
     writer.quiz({
       onCorrectStroke() {
         audioService.playSfx('pop');
@@ -185,7 +187,7 @@ export async function renderStageTestScreen(root: HTMLElement, testId: string): 
     shell.body.innerHTML = `
       <div class="clay-card" style="padding:26px;">
         <div style="display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:14px;">
-          <span class="chip" style="background:${meta.chipBg};border-color:${meta.accent};">${escapeHtml(meta.label)}</span>
+          <span class="chip" style="background:var(--surface);border-color:${meta.accent};">${escapeHtml(meta.label)}</span>
           ${it.passageHanzi ? `<button type="button" class="btn btn-sm btn-soft" data-st-py>[P] ${showPinyin ? 'Ẩn pinyin' : 'Hiện pinyin'}</button>` : ''}
         </div>
 
@@ -203,10 +205,10 @@ export async function renderStageTestScreen(root: HTMLElement, testId: string): 
         ${
           it.audio
             ? `<div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:16px;">
-                 <button type="button" class="btn btn-vocab" data-st-play>${iconSvg('speaker', 18)} Nghe (Space)</button>
+                 <button type="button" class="btn btn-review" data-st-play>${iconSvg('speaker', 18)} Nghe (Space)</button>
                  ${
                    it.audioSlow
-                     ? `<button type="button" class="btn btn-sm ${slowMode ? 'btn-listen' : 'btn-soft'}" data-st-slow>[S] Nghe chậm 0.75×</button>`
+                     ? `<button type="button" class="btn btn-sm btn-soft" aria-pressed="${slowMode}" style="${slowMode ? 'border-color:var(--review);background:var(--review-soft);' : ''}" data-st-slow>[S] Nghe chậm 0.75×</button>`
                      : ''
                  }
                </div>`
@@ -217,12 +219,14 @@ export async function renderStageTestScreen(root: HTMLElement, testId: string): 
           it.writingChar
             ? `<div style="display:flex;flex-direction:column;align-items:center;gap:12px;">
                  <div style="padding:10px;border-radius:18px;border:2px solid var(--write);background:#FFF;">
-                   <div data-st-hw></div>
+                   <div style="position:relative;border-radius:14px;overflow:hidden;border:1.5px solid var(--border);background:linear-gradient(to right, transparent 49.5%, #F1E4D8 49.5%, #F1E4D8 50.5%, transparent 50.5%), linear-gradient(to bottom, transparent 49.5%, #F1E4D8 49.5%, #F1E4D8 50.5%, transparent 50.5%), linear-gradient(45deg, transparent 49.6%, #F6ECE2 49.6%, #F6ECE2 50.4%, transparent 50.4%), linear-gradient(-45deg, transparent 49.6%, #F6ECE2 49.6%, #F6ECE2 50.4%, transparent 50.4%), #FFFFFF;">
+                     <div data-st-hw></div>
+                   </div>
                  </div>
                  <div style="display:flex;gap:10px;flex-wrap:wrap;">
                    <button type="button" class="btn btn-sm btn-soft" data-st-anim>[Space] Xem nét</button>
                    <button type="button" class="btn btn-sm btn-soft" data-st-reset>[R] Viết lại</button>
-                   <span class="chip">Bộ ${escapeHtml(it.writingChar.radical)}</span>
+                   <span class="chip">Bộ <span class="hanzi" style="font-size:20px;margin-left:4px;">${escapeHtml(it.writingChar.radical)}</span></span>
                  </div>
                  <div data-st-whint style="font-weight:700;color:var(--comm-lip);min-height:20px;">${escapeHtml(writeHint)}</div>
                </div>`
@@ -249,7 +253,11 @@ export async function renderStageTestScreen(root: HTMLElement, testId: string): 
           ? `<div class="feedback-bar ${answered.ok ? 'is-ok' : 'is-err'}">
                <div class="feedback-inner">
                  <div>
-                   <strong>${answered.ok ? 'Chính xác!' : `Đáp án đúng: ${escapeHtml(it.answer)}`}</strong>
+                   <strong>${
+                     answered.ok
+                       ? 'Chính xác!'
+                       : `Đáp án đúng: <span class="${/[\u4e00-\u9fff]/.test(it.answer) ? 'hanzi' : ''}" style="font-size:${/[\u4e00-\u9fff]/.test(it.answer) ? '20px' : 'inherit'};">${escapeHtml(it.answer)}</span>`
+                   }</strong>
                    ${it.explainVi ? `<span style="margin-left:8px;">${escapeHtml(it.explainVi)}</span>` : ''}
                  </div>
                  <button type="button" class="btn ${answered.ok ? 'btn-read' : 'btn-comm'}" data-st-next>Tiếp theo (Enter)</button>
@@ -259,8 +267,8 @@ export async function renderStageTestScreen(root: HTMLElement, testId: string): 
       }
     `;
 
-    if (it.writingChar && !writeDone) {
-      mountTestWriter(it.writingChar.char);
+    if (it.writingChar) {
+      mountTestWriter(it.writingChar.char, !writeDone);
     }
 
     shell.body.querySelector('[data-st-py]')?.addEventListener('click', () => {

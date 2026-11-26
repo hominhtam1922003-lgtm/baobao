@@ -1,4 +1,4 @@
-const CACHE_NAME = 'baobao-cache-v2';
+const CACHE_NAME = 'baobao-cache-v3';
 
 const APP_SHELL_FILES = [
   '',
@@ -8,6 +8,21 @@ const APP_SHELL_FILES = [
   'content/curriculum.json',
   'content/radicals.json',
 ];
+
+async function networkFirst(req, fallbackUrl) {
+  const cache = await caches.open(CACHE_NAME);
+  try {
+    const res = await fetch(req);
+    if (res && res.status === 200) {
+      await cache.put(req, res.clone());
+    }
+    return res;
+  } catch (err) {
+    const cached = (await cache.match(req)) || (fallbackUrl ? await cache.match(fallbackUrl) : undefined);
+    if (cached) return cached;
+    throw err;
+  }
+}
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
@@ -56,18 +71,12 @@ self.addEventListener('fetch', (event) => {
   if (url.origin !== self.location.origin) return;
 
   if (req.mode === 'navigate') {
-    event.respondWith(
-      caches.match(req).then((cached) => {
-        if (cached) return cached;
-        return fetch(req)
-          .then((res) => {
-            const copy = res.clone();
-            caches.open(CACHE_NAME).then((cache) => cache.put(req, copy));
-            return res;
-          })
-          .catch(() => caches.match(new URL('index.html', self.registration.scope).toString()));
-      })
-    );
+    event.respondWith(networkFirst(req, new URL('index.html', self.registration.scope).toString()));
+    return;
+  }
+
+  if (url.pathname.endsWith('.json') && url.pathname.includes('/content/')) {
+    event.respondWith(networkFirst(req));
     return;
   }
 

@@ -5076,162 +5076,174 @@
       {
         "id": "st2-q1",
         "skill": "giao-tiep",
-        "promptVi": "Chọn câu trả lời phù hợp nhất để hoàn thành đoạn hội thoại.",
-        "passageHanzi": "小明：小美，你好！你周末想做什么？小美：你好。我周末想去商店买东西。你想一起去吗？小明：__________",
-        "passagePinyin": "xiǎo míng ： xiǎo měi ， nǐ hǎo ！ nǐ zhōu mò xiǎng zuò shén me ？ xiǎo měi ： nǐ hǎo 。 wǒ zhōu mò xiǎng qù shāng diàn mǎi dōng xī 。 nǐ xiǎng yì qǐ qù ma ？ xiǎo míng ：__________",
-        "passageVi": "Tiểu Minh: Tiểu Mỹ, chào bạn! Cuối tuần bạn muốn làm gì? Tiểu Mỹ: Chào bạn. Cuối tuần mình muốn đến cửa hàng mua đồ. Bạn có muốn đi cùng không? Tiểu Minh: __________",
+        "promptVi": "Tiểu Minh và Tiểu Mỹ đang bàn về việc ăn trưa. Hãy chọn câu trả lời đúng của Tiểu Mỹ.",
+        "passageHanzi": "小明：小美，中午我们去吃饭吗？小美：好啊，你想吃什么？小明：我想吃小笼包。小美：__________",
+        "passagePinyin": "xiǎo míng ： xiǎo měi ， zhōng wǔ wǒ men qù chī fàn ma ？ xiǎo měi ： hǎo a ， nǐ xiǎng chī shén me ？ xiǎo míng ： wǒ xiǎng chī xiǎo lóng bāo 。 xiǎo měi ：__________",
+        "passageVi": "Tiểu Minh: Tiểu Mỹ, trưa nay chúng ta đi ăn cơm không? Tiểu Mỹ: Được chứ, bạn muốn ăn gì? Tiểu Minh: Tôi muốn ăn tiểu long bao. Tiểu Mỹ: _________",
         "audioText": "",
         "options": [
           {
-            "label": "我不想去。",
-            "value": "我不想去。"
-          },
-          {
-            "label": "我明天去上班。",
-            "value": "我明天去上班。"
+            "label": "我不喜欢吃东西。",
+            "value": "我不喜欢吃东西。"
           },
           {
             "label": "好，我们一起去吧。",
             "value": "好，我们一起去吧。"
           },
           {
-            "label": "我也喜欢喝茶。",
-            "value": "我也喜欢喝茶。"
+            "label": "现在是下午。",
+            "value": "现在是下午。"
+          },
+          {
+            "label": "我不认识他。",
+            "value": "我不认识他。"
           }
         ],
         "answer": "好，我们一起去吧。",
-        "explainVi": "Tiểu Mỹ rủ đi mua đồ, câu trả lời đồng ý đi cùng là phù hợp nhất.",
-        "audio": "audio/female-814be8cb1fce.mp3"
+        "explainVi": "Câu hỏi hỏi về việc đi ăn, lựa chọn 'Được, chúng ta cùng đi thôi' là phản hồi hợp lý nhất về mặt ngữ nghĩa.",
+        "audio": "audio/female-28d1a2d58a25.mp3"
       },
       {
         "id": "st2-q2",
         "skill": "giao-tiep",
-        "promptVi": "Chọn câu trả lời phù hợp nhất.",
-        "passageHanzi": "王老师：Bao，你好。你的汉语名字是什么？Bao：__________",
-        "passagePinyin": "wáng lǎo shī ：Bao， nǐ hǎo 。 nǐ de hàn yǔ míng zì shì shén me ？Bao：__________",
-        "passageVi": "Thầy Vương: Bao, chào em. Tên tiếng Hán của em là gì? Bao: __________",
+        "promptVi": "Bao và Vương lão sư đang nói về thời gian gặp mặt. Hãy chọn câu trả lời đúng của Vương lão sư.",
+        "passageHanzi": "王老师：包，你什么时候去学校？包：我上午十点去。王老师：__________",
+        "passagePinyin": "wáng lǎo shī ： bāo ， nǐ shén me shí hòu qù xué xiào ？ bāo ： wǒ shàng wǔ shí diǎn qù 。 wáng lǎo shī ：__________",
+        "passageVi": "Vương lão sư: Bao, khi nào em đến trường? Bao: Em mười giờ sáng đến. Vương lão sư: _________",
         "audioText": "",
         "options": [
           {
-            "label": "谢谢老师。",
-            "value": "谢谢老师。"
+            "label": "我也去吃饭。",
+            "value": "我也去吃饭。"
           },
           {
-            "label": "我叫Bao。",
-            "value": "我叫Bao。"
+            "label": "好的，学校见。",
+            "value": "好的，学校见。"
           },
           {
-            "label": "我很高兴。",
-            "value": "我很高兴。"
+            "label": "我不喝茶。",
+            "value": "我不喝茶。"
           },
           {
-            "label": "我在学校学习。",
-            "value": "我在学校学习。"
+            "label": "你是谁？",
+            "value": "你是谁？"
           }
         ],
-        "answer": "我叫Bao。",
-        "explainVi": "Câu hỏi yêu cầu giới thiệu tên, câu trả lời giới thiệu bản thân là chính xác.",
-        "audio": "audio/female-7295b97474f4.mp3"
+        "answer": "好的，学校见。",
+        "explainVi": "Khi Bao trả lời thời gian đến trường, Vương lão sư phản hồi bằng 'Được, hẹn gặp ở trường' là phù hợp nhất.",
+        "audio": "audio/female-b2ff3781db38.mp3"
       },
       {
         "id": "st2-q3",
         "skill": "doc",
-        "promptVi": "Đọc đoạn văn và chọn đáp án đúng.",
-        "passageHanzi": "小明在北京工作。他家离公司很远。每天早上他坐地铁去上班，下午五点下班。下班以后，他喜欢去公园跑步。他觉得跑步让身体很好。周末的时候，他和朋友一起去饭馆吃饭。",
-        "passagePinyin": "xiǎo míng zài běi jīng gōng zuò 。 tā jiā lí gōng sī hěn yuǎn 。 měi tiān zǎo shàng tā zuò dì tiě qù shàng bān ， xià wǔ wǔ diǎn xià bān 。 xià bān yǐ hòu ， tā xǐ huān qù gōng yuán pǎo bù 。 tā jué de pǎo bù ràng shēn tǐ hěn hǎo 。 zhōu mò de shí hòu ， tā hé péng yǒu yì qǐ qù fàn guǎn chī fàn 。",
-        "passageVi": "Tiểu Minh làm việc ở Bắc Kinh. Nhà anh ấy cách công ty rất xa. Mỗi buổi sáng anh ấy đi tàu điện ngầm đi làm, 5 giờ chiều tan làm. Sau khi tan làm, anh ấy thích đến công viên chạy bộ. Anh ấy cảm thấy chạy bộ làm cho cơ thể rất tốt. Lúc cuối tuần, anh ấy và bạn bè cùng đi nhà hàng ăn cơm.",
+        "promptVi": "Đọc đoạn văn sau và trả lời câu hỏi.",
+        "passageHanzi": "小明家有四个人。爸爸、妈妈、姐姐和我。今天下午，我们一家去公园。天气很好，不冷也不热。我们在公园里看花，也喝茶。我们都非常高兴。明天是星期天，我也想去公园。",
+        "passagePinyin": "xiǎo míng jiā yǒu sì gè rén 。 bà bà 、 mā mā 、 jiě jiě hé wǒ 。 jīn tiān xià wǔ ， wǒ men yī jiā qù gōng yuán 。 tiān qì hěn hǎo ， bù lěng yě bù rè 。 wǒ men zài gōng yuán lǐ kàn huā ， yě hē chá 。 wǒ men dōu fēi cháng gāo xìng 。 míng tiān shì xīng qī tiān ， wǒ yě xiǎng qù gōng yuán 。",
+        "passageVi": "Nhà Tiểu Minh có bốn người. Bố, mẹ, chị gái và tôi. Chiều hôm nay, cả nhà chúng tôi đi công viên. Thời tiết rất tốt, không lạnh cũng không nóng. Chúng tôi ngắm hoa và uống trà trong công viên. Chúng tôi đều rất vui. Ngày mai là chủ nhật, tôi cũng muốn đi công viên.",
         "audioText": "",
         "options": [
           {
-            "label": "小明走路去公司。",
-            "value": "小明走路去公司。"
+            "label": "今天天气冷。",
+            "value": "今天天气冷。"
           },
           {
-            "label": "小明下班以后去跑步。",
-            "value": "小明下班以后去跑步。"
+            "label": "小明一家去公园喝茶。",
+            "value": "小明一家去公园喝茶。"
           },
           {
-            "label": "小明周末一个人吃饭。",
-            "value": "小明周末一个人吃饭。"
+            "label": "小明家里有三个人。",
+            "value": "小明家里有三个人。"
           }
         ],
-        "answer": "小明下班以后去跑步。",
-        "explainVi": "Đoạn văn nói rõ '下班以后，他喜欢去公园跑步' (Sau khi tan làm, anh ấy thích đi chạy bộ)."
+        "answer": "小明一家去公园喝茶。",
+        "explainVi": "Dựa vào câu '我们在公园里看花，也喝茶' (Chúng tôi ngắm hoa và uống trà trong công viên), đáp án này hoàn toàn chính xác."
       },
       {
         "id": "st2-q4",
         "skill": "doc",
-        "promptVi": "Đọc đoạn văn và trả lời câu hỏi.",
-        "passageHanzi": "小美今天很忙。上午十点她去医院看医生。中午她和王老师在学校见面，他们一起吃午饭。下午她要在电脑上学习。晚上八点她想在家休息，听一会儿音乐。",
-        "passagePinyin": "xiǎo měi jīn tiān hěn máng 。 shàng wǔ shí diǎn tā qù yī yuàn kàn yī shēng 。 zhōng wǔ tā hé wáng lǎo shī zài xué xiào jiàn miàn ， tā men yì qǐ chī wǔ fàn 。 xià wǔ tā yào zài diàn nǎo shàng xué xí 。 wǎn shàng bā diǎn tā xiǎng zài jiā xiū xī ， tīng yī huì er yīn yuè 。",
-        "passageVi": "Tiểu Mỹ hôm nay rất bận. 10 giờ sáng cô ấy đến bệnh viện khám bác sĩ. Buổi trưa cô ấy và thầy Vương gặp nhau ở trường, họ cùng ăn trưa. Buổi chiều cô ấy phải học tập trên máy tính. 8 giờ tối cô ấy muốn ở nhà nghỉ ngơi, nghe nhạc một lát.",
+        "promptVi": "Đọc đoạn văn sau và trả lời câu hỏi.",
+        "passageHanzi": "王老师是我们的中文老师。他今年五十岁。王老师很高，他的眼睛大大的。他非常喜欢看书。有时候，他下午在学校教我们写汉字。我们都很喜欢王老师。",
+        "passagePinyin": "wáng lǎo shī shì wǒ men de zhōng wén lǎo shī 。 tā jīn nián wǔ shí suì 。 wáng lǎo shī hěn gāo ， tā de yǎn jīng dà dà de 。 tā fēi cháng xǐ huān kàn shū 。 yǒu shí hòu ， tā xià wǔ zài xué xiào jiào wǒ men xiě hàn zì 。 wǒ men dōu hěn xǐ huān wáng lǎo shī 。",
+        "passageVi": "Vương lão sư là giáo viên tiếng Trung của chúng tôi. Thầy ấy năm nay 50 tuổi. Vương lão sư rất cao, mắt thầy to. Thầy rất thích đọc sách. Thỉnh thoảng, buổi chiều thầy ở trường dạy chúng tôi viết chữ Hán. Chúng tôi đều rất thích Vương lão sư.",
         "audioText": "",
         "options": [
           {
-            "label": "小美和王老师一起吃晚饭。",
-            "value": "小美和王老师一起吃晚饭。"
+            "label": "王老师不喜欢看书。",
+            "value": "王老师不喜欢看书。"
           },
           {
-            "label": "小美下午在看电影。",
-            "value": "小美下午在看电影。"
+            "label": "王老师在医院工作。",
+            "value": "王老师在医院工作。"
           },
           {
-            "label": "小美中午和王老师见面。",
-            "value": "小美中午和王老师见面。"
+            "label": "王老师教学生写汉字。",
+            "value": "王老师教学生写汉字。"
           }
         ],
-        "answer": "小美中午和王老师见面。",
-        "explainVi": "Đoạn văn viết '中午她和王老师在学校见面' (Buổi trưa cô ấy và thầy Vương gặp nhau ở trường)."
+        "answer": "王老师教学生写汉字。",
+        "explainVi": "Đoạn văn có nhắc đến '王老师...教我们写汉字' (Vương lão sư dạy chúng tôi viết chữ Hán), nên đáp án này đúng."
       },
       {
         "id": "st2-q5",
         "skill": "nghe",
-        "promptVi": "Chọn đáp án đúng theo nội dung nghe được.",
+        "promptVi": "Nghe đoạn hội thoại và chọn đáp án đúng.",
         "passageHanzi": "",
         "passagePinyin": "",
         "passageVi": "",
-        "audioText": "",
+        "audioText": "小美，你下午想不想去买东西？",
         "options": [
           {
-            "label": "Bao要去买衣服。",
-            "value": "Bao要去买衣服。"
+            "label": "Tiểu Mỹ muốn đi học.",
+            "value": "Tiểu Mỹ muốn đi học."
           },
           {
-            "label": "Bao明天没有空。",
-            "value": "Bao明天没有空。"
+            "label": "Tiểu Mỹ được hỏi về việc đi mua đồ vào buổi chiều.",
+            "value": "Tiểu Mỹ được hỏi về việc đi mua đồ vào buổi chiều."
           },
           {
-            "label": "他们要去学校。",
-            "value": "他们要去学校。"
+            "label": "Tiểu Mỹ đang ở trong công viên.",
+            "value": "Tiểu Mỹ đang ở trong công viên."
+          },
+          {
+            "label": "Tiểu Mỹ đang ăn tiểu long bao.",
+            "value": "Tiểu Mỹ đang ăn tiểu long bao."
           }
         ],
-        "answer": "Bao要去买衣服。",
-        "explainVi": "Câu nghe được là 'Bao,你明天有空吗？我们去买衣服，好吗？' (Bao, ngày mai bạn có rảnh không? Chúng mình đi mua quần áo nhé?), đáp án là Bao đi mua quần áo."
+        "answer": "Tiểu Mỹ được hỏi về việc đi mua đồ vào buổi chiều.",
+        "explainVi": "Câu '你下午想不想去买东西' nghĩa là 'Chiều nay bạn có muốn đi mua đồ không', khớp với nội dung đáp án.",
+        "audio": "audio/teacher-8ae818bc4f90.mp3",
+        "audioSlow": "audio/slow-c1279fdfae77.mp3"
       },
       {
         "id": "st2-q6",
         "skill": "nghe",
-        "promptVi": "Chọn đáp án đúng theo nội dung nghe được.",
+        "promptVi": "Nghe câu sau và chọn câu trả lời đúng.",
         "passageHanzi": "",
         "passagePinyin": "",
         "passageVi": "",
-        "audioText": "",
+        "audioText": "我哥哥在公司工作，他很忙。",
         "options": [
           {
-            "label": "王老师在看书。",
-            "value": "王老师在看书。"
+            "label": "Anh trai tôi làm việc ở công ty.",
+            "value": "Anh trai tôi làm việc ở công ty."
           },
           {
-            "label": "王老师在喝茶。",
-            "value": "王老师在喝茶。"
+            "label": "Anh trai tôi đang đi học.",
+            "value": "Anh trai tôi đang đi học."
           },
           {
-            "label": "王老师在工作。",
-            "value": "王老师在工作。"
+            "label": "Anh trai tôi rất rảnh rỗi.",
+            "value": "Anh trai tôi rất rảnh rỗi."
+          },
+          {
+            "label": "Anh trai tôi là bác sĩ.",
+            "value": "Anh trai tôi là bác sĩ."
           }
         ],
-        "answer": "王老师在喝茶。",
-        "explainVi": "Câu nghe được là '王老师现在在办公室喝茶' (Thầy Vương bây giờ đang uống trà ở văn phòng)."
+        "answer": "Anh trai tôi làm việc ở công ty.",
+        "explainVi": "Câu nghe được là 'Anh trai tôi làm việc ở công ty, anh ấy rất bận', đáp án thứ nhất là chính xác.",
+        "audio": "audio/teacher-766a776611c2.mp3",
+        "audioSlow": "audio/slow-6b09ba19189f.mp3"
       },
       {
         "id": "st2-q7",

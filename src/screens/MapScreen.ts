@@ -5,7 +5,6 @@ import {
   collectStageAssetUrls,
   loadCurriculum,
   loadStageBundle,
-  loadStageReadings,
 } from '../services/contentLoader';
 import { precacheStageAssets, requestPersistentStorage } from '../services/pwa';
 import { ensureProgress, ensureSettings, filterQueue, getAllCards, getTodayXp } from '../services/srsEngine';
@@ -52,14 +51,18 @@ export async function renderMapScreen(root: HTMLElement): Promise<() => void> {
     return prev ? stageCompletionRatio(prev) >= 0.8 : true;
   };
 
-  // Pick initial active stage: highest unlocked stage that isn't 100% done, else Stage 1
-  let selectedStageId = 1;
+  // Pick initial active stage: highest unlocked stage that isn't 100% done, else highest unlocked stage
+  let highestUnlocked = 1;
+  let highestIncomplete = 0;
   for (const st of curriculum.stages) {
-    if (isStageUnlocked(st.id) && stageCompletionRatio(st) < 1) {
-      selectedStageId = st.id;
-      break;
+    if (isStageUnlocked(st.id)) {
+      highestUnlocked = st.id;
+      if (stageCompletionRatio(st) < 1) {
+        highestIncomplete = st.id;
+      }
     }
   }
+  let selectedStageId = highestIncomplete || highestUnlocked;
 
   let activeModal: HTMLElement | null = null;
   let keyHandler: ((e: KeyboardEvent) => void) | null = null;
@@ -90,10 +93,7 @@ export async function renderMapScreen(root: HTMLElement): Promise<() => void> {
     });
 
     const stage = curriculum.stages.find((s) => s.id === selectedStageId) ?? curriculum.stages[0];
-    const [{ lessons }, s1Readings] = await Promise.all([
-      loadStageBundle(stage.id),
-      stage.id === 1 ? loadStageReadings(1) : loadStageReadings(stage.id),
-    ]);
+    const { lessons } = await loadStageBundle(stage.id);
     const lessonById = new Map(lessons.map((l) => [l.id, l]));
 
     const playableIds = stage.topics.flatMap((tp) => (tp.ready ? tp.lessonIds : []));
@@ -182,8 +182,11 @@ export async function renderMapScreen(root: HTMLElement): Promise<() => void> {
       const prevStage = curriculum.stages.find((x) => x.id === st.id - 1);
       const prevPct = prevStage ? Math.round(stageCompletionRatio(prevStage) * 100) : 100;
 
+      const cardBg = active ? palette.bg : 'var(--surface)';
+      const cardBorder = active ? palette.lip : 'var(--border)';
+
       return `
-        <section class="clay-card" style="padding:20px;margin-bottom:18px;background:${palette.bg};border-color:${palette.lip};">
+        <section class="clay-card" style="padding:20px;margin-bottom:18px;background:${cardBg};border-color:${cardBorder};">
           <div style="display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;">
             <div style="display:flex;align-items:center;gap:12px;">
               ${active ? renderBaoSvg({ mood: 'backpack', size: 60, accessory: progress.equippedAccessory }) : ''}
@@ -202,10 +205,10 @@ export async function renderMapScreen(root: HTMLElement): Promise<() => void> {
                   ? `<button type="button" class="btn btn-sm btn-soft" data-open-notebook="${st.id}">${iconSvg('book', 16)} Sổ tay</button>`
                   : ''
               }
-              <button type="button" class="btn btn-sm btn-vocab" data-cache-stage="${st.id}">${iconSvg('download', 16)} Tải sẵn chặng này</button>
+              <button type="button" class="btn btn-sm btn-soft" data-cache-stage="${st.id}">${iconSvg('download', 16)} Tải sẵn chặng này</button>
               ${
                 !active
-                  ? `<button type="button" class="btn btn-sm btn-comm" data-select-stage="${st.id}">Mở Chặng ${st.id}</button>`
+                  ? `<button type="button" class="btn btn-sm btn-soft" data-select-stage="${st.id}">Mở Chặng ${st.id}</button>`
                   : ''
               }
             </div>
@@ -220,11 +223,16 @@ export async function renderMapScreen(root: HTMLElement): Promise<() => void> {
     const testDone = completedSet.has(testId);
     const storyDone = (progress.completedStories ?? []).includes(storyId);
 
+    const openedStories = Object.keys(progress.storyBookmarks)
+      .filter((id) => /^story-c\d+$/.test(id))
+      .sort((a, b) => Number(b.slice(7)) - Number(a.slice(7)));
     const bookmarkedStoryId =
-      Object.keys(progress.storyBookmarks).find((id) => id.startsWith('story-c')) ??
-      stage.storyChapter.readingId ??
-      'story-c1';
-    const activeReadingMeta = s1Readings.find((r) => r.id === bookmarkedStoryId);
+      stage.storyChapter.readingId && progress.storyBookmarks[stage.storyChapter.readingId] !== undefined
+        ? stage.storyChapter.readingId
+        : openedStories[0] ?? stage.storyChapter.readingId ?? 'story-c1';
+    const sidebarStoryMeta =
+      curriculum.stages.find((s) => s.storyChapter.readingId === bookmarkedStoryId)?.storyChapter ??
+      stage.storyChapter;
 
     const stageTabsHtml = curriculum.stages
       .map(
@@ -294,8 +302,8 @@ export async function renderMapScreen(root: HTMLElement): Promise<() => void> {
 
           <div class="clay-card" style="padding:20px;background:var(--read-soft);border-color:var(--read);">
             <div style="font-size:12px;font-weight:800;text-transform:uppercase;color:var(--read-lip);">Truyện dài kỳ (4 chương)</div>
-            <h3 style="margin:4px 0 8px;font-size:18px;">${escapeHtml(activeReadingMeta?.title ?? stage.storyChapter.title)}</h3>
-            <p style="margin:0 0 12px;font-size:14px;color:var(--ink-muted);">${escapeHtml(stage.storyChapter.teaserVi)}</p>
+            <h3 style="margin:4px 0 8px;font-size:18px;">${escapeHtml(sidebarStoryMeta.title)}</h3>
+            <p style="margin:0 0 12px;font-size:14px;color:var(--ink-muted);">${escapeHtml(sidebarStoryMeta.teaserVi)}</p>
             <div style="display:flex;gap:6px;margin-bottom:12px;">
               ${[1, 2, 3, 4]
                 .map((c) => `<a href="#/reading/story-c${c}" class="btn btn-sm ${bookmarkedStoryId === `story-c${c}` ? 'btn-read' : 'btn-soft'}" style="flex:1;padding:4px 8px;">Ch.${c}</a>`)

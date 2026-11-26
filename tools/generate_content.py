@@ -673,23 +673,35 @@ def generate_stage_test_items(
         last_res = res
         skills = [it.skill for it in cand.items]
         answers_ok = all(it.answer in it.options and len(it.options) >= 2 for it in cand.items)
-        if res.passed and answers_ok and skills.count("giao-tiep") >= 2 and skills.count("doc") >= 2 and skills.count("nghe") >= 2:
+        nghe_audio_ok = all(bool(it.audioText.strip()) for it in cand.items if it.skill == "nghe")
+        passage_ok = all(bool(it.passageHanzi.strip()) for it in cand.items if it.skill in ("giao-tiep", "doc"))
+        if (
+            res.passed
+            and answers_ok
+            and nghe_audio_ok
+            and passage_ok
+            and skills.count("giao-tiep") >= 2
+            and skills.count("doc") >= 2
+            and skills.count("nghe") >= 2
+        ):
             stats["accepted"] += 1
             return cand
 
         stats["rejected"] += 1
-        print(f"  [REJECT] stage-{stage_id}-test attempt {attempt}: unannotated={res.unannotated_unknowns[:8]} answers_ok={answers_ok}", flush=True)
+        print(f"  [REJECT] stage-{stage_id}-test attempt {attempt}: unannotated={res.unannotated_unknowns[:8]} answers_ok={answers_ok} nghe_audio_ok={nghe_audio_ok} passage_ok={passage_ok}", flush=True)
         stats["rejectionReasons"].append(
             {
                 "unit": f"stage-{stage_id}-test",
                 "attempt": attempt,
                 "unannotated": res.unannotated_unknowns[:12],
+                "ngheAudioOk": nghe_audio_ok,
+                "passageOk": passage_ok,
             }
         )
         use_draft = attempt % 2 == 0
-        draft_note = f"\nBẢN NHÁP ĐỂ SỬA (CHỈ thay các từ ngoài vốn và đảm bảo answer nằm trong options): {cand.model_dump_json()[:2400]}" if use_draft else "\nHãy viết lại MỚI hoàn toàn, tránh các từ ngoài vốn trên!"
+        draft_note = f"\nBẢN NHÁP ĐỂ SỬA (CHỈ thay các từ ngoài vốn, đảm bảo MỌI câu 'nghe' có audioText tiếng Trung, MỌI câu 'giao-tiep'/'doc' có passageHanzi, và answer nằm trong options): {cand.model_dump_json()[:2400]}" if use_draft else "\nHãy viết lại MỚI hoàn toàn, tránh các từ ngoài vốn trên và điền đủ audioText cho 'nghe', passageHanzi cho 'giao-tiep'/'doc'!"
         feedback = (
-            f"\nLẦN TRƯỚC BỊ LOẠI: từ ngoài vốn={res.unannotated_unknowns[:12]}; answers_ok={answers_ok}."
+            f"\nLẦN TRƯỚC BỊ LOẠI: từ ngoài vốn={res.unannotated_unknowns[:12]}; answers_ok={answers_ok}; nghe_audio_ok={nghe_audio_ok}; passage_ok={passage_ok}."
             + draft_note
         )
 
