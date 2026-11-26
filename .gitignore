@@ -1,0 +1,35 @@
+# Dependencies & builds
+node_modules/
+dist/
+.vite/
+
+# Python tools venv & caches
+tools/.venv/
+tools/.cache/
+tools/__pycache__/
+**/__pycache__/
+.pytest_cache/
+
+# Secrets & local env
+.env
+.env.*
+!.env.example
+
+# Raw open datasets (>50MB / bulk source files — refetch via tools/fetch_data.py)
+data-src/*.u8
+data-src/*.txt
+data-src/*.tsv
+data-src/*.gz
+data-src/*.bz2
+data-src/*.tar*
+data-src/*.zip
+data-src/complete.json
+data-src/*.sqlite*
+data-src/*.json
+!data-src/README.md
+
+# OS & test artifacts
+.DS_Store
+Thumbs.db
+test-results/
+playwright-report/
