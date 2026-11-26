@@ -94,7 +94,24 @@ export async function importBackupJson(rawJson: string): Promise<{ ok: boolean; 
     if (r && typeof r.key === 'string') await tx.objectStore('reviewLog').put(r);
   }
   for (const p of parsed.stores.progress) {
-    if (p && p.id === 'main') await tx.objectStore('progress').put(p);
+    if (
+      p &&
+      p.id === 'main' &&
+      Number.isFinite(p.xp) &&
+      Number.isFinite(p.streak) &&
+      Number.isFinite(p.bestStreak) &&
+      Number.isFinite(p.freezesLeft) &&
+      p.skillXp &&
+      Number.isFinite(p.skillXp.giaoTiep) &&
+      Number.isFinite(p.skillXp.doc) &&
+      Number.isFinite(p.skillXp.nghe) &&
+      Number.isFinite(p.skillXp.viet)
+    ) {
+      await tx.objectStore('progress').put(p);
+    } else {
+      tx.abort();
+      return { ok: false, error: 'Dữ liệu tiến độ trong file bị hỏng hoặc sai kiểu số.' };
+    }
   }
   for (const s of parsed.stores.settings) {
     if (s && s.id === 'user') await tx.objectStore('settings').put(s);

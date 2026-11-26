@@ -5,7 +5,7 @@ import { closeWordPopover, showWordPopover } from '../components/WordPopover';
 import { audioService } from '../services/audioPlayer';
 import { loadStageReadings, loadStageWords } from '../services/contentLoader';
 import { requestPersistentStorage } from '../services/pwa';
-import { addCardToSrs, ensureSettings, getAllCards, isWeakCard, recordStudyActivity } from '../services/srsEngine';
+import { addCardToSrs, ensureSettings, getAllCards, isWeakCard, recordStudyActivity, setStoryBookmark } from '../services/srsEngine';
 import { escapeHtml } from '../utils/html';
 
 export async function renderReadingScreen(root: HTMLElement, readingId: string): Promise<() => void> {
@@ -30,7 +30,9 @@ export async function renderReadingScreen(root: HTMLElement, readingId: string):
   let playingKaraoke = false;
   let hintOpen = false;
   let hintDismissed = false;
-  let selectedAnswers = new Map<string, number>();
+  let awardedReadingXp = false;
+  const selectedAnswers = new Map<string, number>();
+  setStoryBookmark(reading.id, 1);
 
   audioService.preload([reading.audioFull, ...(reading.audioSentences ?? [])]);
 
@@ -98,7 +100,7 @@ export async function renderReadingScreen(root: HTMLElement, readingId: string):
               .map((p, pIdx) => {
                 const isActive = pIdx === activeParagraph;
                 return `
-                  <p style="margin:0 0 22px;padding:12px 14px;border-radius:16px;background:${isActive ? 'var(--read-soft)' : 'transparent'};transition:background var(--t-fast) ease;font-family:var(--font-hanzi);font-size:calc(21px * var(--hanzi-scale));line-height:1.9;">
+                  <p style="margin:0 0 22px;padding:12px 14px;border-radius:16px;background:${isActive ? 'var(--read-soft)' : 'transparent'};transition:background var(--t-fast) ease;font-family:var(--font-hanzi);font-size:max(20px, calc(21px * var(--hanzi-scale)));line-height:1.9;">
                     ${p.tokens
                       .map((tok) => {
                         if (!tok.pinyin) return `<span>${escapeHtml(tok.w)}</span>`;
@@ -256,7 +258,8 @@ export async function renderReadingScreen(root: HTMLElement, readingId: string):
         const q = reading.questions.find((x) => x.id === qid);
         selectedAnswers.set(qid, opt);
         if (q) audioService.playSfx(opt === q.answer ? 'ok' : 'err');
-        if (selectedAnswers.size === reading.questions.length) {
+        if (selectedAnswers.size === reading.questions.length && !awardedReadingXp) {
+          awardedReadingXp = true;
           recordStudyActivity({ xpEarned: 25, skill: 'doc', completedLessonId: `t${reading.topicId}-doc` });
         }
         render();

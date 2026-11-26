@@ -1,17 +1,18 @@
 import type { ProgressRecord, SettingsRecord } from '../services/db';
+import { getTodayXp } from '../services/srsEngine';
 import { escapeHtml } from '../utils/html';
 import { renderBaoSvg } from './BaoMascot';
 import { iconSvg, type IconName } from './Icons';
 
 export type NavTab = 'map' | 'read' | 'listen' | 'write' | 'review' | 'profile';
 
-const SIDEBAR_ITEMS: { id: NavTab; label: string; href: string; icon: IconName }[] = [
-  { id: 'map', label: 'Bản đồ học', href: '#/', icon: 'map' },
-  { id: 'read', label: 'Đọc truyện', href: '#/reading/r-t1', icon: 'read' },
-  { id: 'listen', label: 'Luyện nghe', href: '#/listening/t1-nghe', icon: 'listen' },
-  { id: 'write', label: 'Viết chữ', href: '#/writing/t1-viet', icon: 'write' },
-  { id: 'review', label: 'Ôn tập', href: '#/review', icon: 'review' },
-  { id: 'profile', label: 'Hồ sơ', href: '#/profile', icon: 'profile' },
+const SIDEBAR_ITEMS: { id: NavTab; label: string; mobileLabel: string; href: string; icon: IconName }[] = [
+  { id: 'map', label: 'Bản đồ học', mobileLabel: 'Bản đồ', href: '#/', icon: 'map' },
+  { id: 'read', label: 'Đọc truyện', mobileLabel: 'Đọc', href: '#/reading/r-t1', icon: 'read' },
+  { id: 'listen', label: 'Luyện nghe', mobileLabel: 'Nghe', href: '#/listening/t1-nghe', icon: 'listen' },
+  { id: 'write', label: 'Viết chữ', mobileLabel: 'Viết', href: '#/writing/t1-viet', icon: 'write' },
+  { id: 'review', label: 'Ôn tập', mobileLabel: 'Ôn tập', href: '#/review', icon: 'review' },
+  { id: 'profile', label: 'Hồ sơ', mobileLabel: 'Hồ sơ', href: '#/profile', icon: 'profile' },
 ];
 
 export function renderAppShell(opts: {
@@ -23,7 +24,7 @@ export function renderAppShell(opts: {
   todayXp?: number;
 }): HTMLElement {
   const goalXp = opts.settings.dailyGoalMinutes * 4;
-  const todayXp = opts.todayXp ?? Math.min(goalXp, opts.progress.xp);
+  const todayXp = opts.todayXp ?? getTodayXp(opts.progress);
   const pct = Math.min(100, Math.round((todayXp / Math.max(1, goalXp)) * 100));
 
   opts.root.innerHTML = `
@@ -40,9 +41,6 @@ export function renderAppShell(opts: {
             <span>${escapeHtml(item.label)}</span>
           </a>`
         ).join('')}
-        <div style="margin-top:auto;padding:10px 12px;font-size:13px;color:var(--ink-muted);">
-          <a href="#/design" style="color:var(--ink-muted);text-decoration:none;">Hệ thống thiết kế</a>
-        </div>
       </aside>
 
       <main class="main-area">
@@ -51,10 +49,10 @@ export function renderAppShell(opts: {
             <h1 class="topbar-title">${escapeHtml(opts.title)}</h1>
             <div class="topbar-chips">
               <span class="chip" title="Chuỗi ngày học liên tiếp" style="background:var(--write-soft);border-color:var(--write);">
-                ${iconSvg('flame', 16)} ${opts.progress.streak} ngày
+                ${iconSvg('flame', 16)} ${escapeHtml(opts.progress.streak)} ngày
               </span>
               <span class="chip" title="Điểm kinh nghiệm tích lũy" style="background:var(--review-soft);border-color:var(--review);">
-                ${iconSvg('star', 16)} ${opts.progress.xp} XP
+                ${iconSvg('star', 16)} ${escapeHtml(opts.progress.xp)} XP
               </span>
               <a href="#/profile" class="chip" title="Mục tiêu ngày" style="text-decoration:none;background:var(--read-soft);border-color:var(--read);">
                 ${iconSvg('target', 16)} ${pct}% mục tiêu
@@ -71,7 +69,7 @@ export function renderAppShell(opts: {
             (item) => `
           <a href="${item.href}" class="mobile-tab ${opts.activeTab === item.id ? 'is-active' : ''}">
             ${iconSvg(item.icon, 20, opts.activeTab === item.id)}
-            <span>${escapeHtml(item.label.replace(' học', '').replace(' truyện', '').replace('Luyện ', '').replace(' chữ', ''))}</span>
+            <span>${escapeHtml(item.mobileLabel)}</span>
           </a>`
           )
           .join('')}

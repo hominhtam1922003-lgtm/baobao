@@ -139,6 +139,8 @@ export function createDefaultProgress(now = new Date()): ProgressRecord {
   return {
     id: 'main',
     xp: 0,
+    dailyXp: 0,
+    dailyXpDate: todayIsoDate(now),
     streak: 0,
     bestStreak: 0,
     freezesLeft: 2,
@@ -249,6 +251,62 @@ export function todayIsoDate(now = new Date()): string {
   return `${y}-${m}-${d}`;
 }
 
+export function computeStreak(dates: string[], refDate = new Date()): number {
+  const dateSet = new Set(dates);
+  let streak = 0;
+  const cursor = new Date(refDate);
+  while (dateSet.has(todayIsoDate(cursor))) {
+    streak += 1;
+    cursor.setDate(cursor.getDate() - 1);
+  }
+  return streak;
+}
+
+export function getTodayXp(progress: ProgressRecord, now = new Date()): number {
+  return progress.dailyXpDate === todayIsoDate(now) ? (progress.dailyXp ?? 0) : 0;
+}
+
+export async function equipAccessory(acc: ProgressRecord['equippedAccessory']): Promise<ProgressRecord> {
+  const db = await getDb();
+  const cur = await ensureProgress();
+  const next: ProgressRecord = { ...cur, equippedAccessory: acc, updatedAt: new Date().toISOString() };
+  await db.put('progress', next);
+  return next;
+}
+
+export async function useStreakFreeze(): Promise<ProgressRecord> {
+  const db = await getDb();
+  const cur = await ensureProgress();
+  if (cur.freezesLeft <= 0) return cur;
+  const today = todayIsoDate();
+  const yestDate = new Date();
+  yestDate.setDate(yestDate.getDate() - 1);
+  const yesterday = todayIsoDate(yestDate);
+  const dates = Array.from(new Set([...cur.activeDates, yesterday, today])).sort();
+  const streak = computeStreak(dates);
+  const next: ProgressRecord = {
+    ...cur,
+    freezesLeft: cur.freezesLeft - 1,
+    activeDates: dates,
+    streak,
+    bestStreak: Math.max(cur.bestStreak, streak),
+    updatedAt: new Date().toISOString(),
+  };
+  await db.put('progress', next);
+  return next;
+}
+
+export async function setStoryBookmark(readingId: string, step = 1): Promise<void> {
+  const db = await getDb();
+  const cur = await ensureProgress();
+  const next: ProgressRecord = {
+    ...cur,
+    storyBookmarks: { ...cur.storyBookmarks, [readingId]: step },
+    updatedAt: new Date().toISOString(),
+  };
+  await db.put('progress', next);
+}
+
 export async function recordStudyActivity(opts: {
   xpEarned: number;
   skill?: 'giaoTiep' | 'doc' | 'nghe' | 'viet';
@@ -259,19 +317,8 @@ export async function recordStudyActivity(opts: {
   const cur = await ensureProgress();
   const today = todayIsoDate();
   const dates = Array.from(new Set([...cur.activeDates, today])).sort();
-
-  // Compute current consecutive streak ending today
-  let streak = 0;
-  const cursor = new Date();
-  while (true) {
-    const iso = todayIsoDate(cursor);
-    if (dates.includes(iso)) {
-      streak += 1;
-      cursor.setDate(cursor.getDate() - 1);
-    } else {
-      break;
-    }
-  }
+  const streak = computeStreak(dates);
+  const prevDaily = cur.dailyXpDate === today ? (cur.dailyXp ?? 0) : 0;
 
   const nextXp = cur.xp + opts.xpEarned;
   const unlocked = new Set(cur.unlockedAccessories);
@@ -302,6 +349,8 @@ export async function recordStudyActivity(opts: {
   const next: ProgressRecord = {
     ...cur,
     xp: nextXp,
+    dailyXp: prevDaily + opts.xpEarned,
+    dailyXpDate: today,
     streak,
     bestStreak: Math.max(cur.bestStreak, streak),
     activeDates: dates,

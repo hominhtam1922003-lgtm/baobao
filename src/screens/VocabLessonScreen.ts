@@ -132,15 +132,22 @@ export async function renderVocabLessonScreen(root: HTMLElement, lessonId: strin
           </div>
         `;
         shell.body.querySelector('[data-wu-play]')?.addEventListener('click', () => card.audio && audioService.play(card.audio));
-        shell.body.querySelector('[data-wu-good]')?.addEventListener('click', async () => {
-          await commitReview(card, 'Good');
+        const markWarmup = async (rating: 'Good' | 'Again') => {
+          await commitReview(card, rating);
           wIdx += 1;
           drawWarmup();
-        });
-        shell.body.querySelector('[data-wu-again]')?.addEventListener('click', async () => {
-          await commitReview(card, 'Again');
-          wIdx += 1;
-          drawWarmup();
+        };
+        shell.body.querySelector('[data-wu-good]')?.addEventListener('click', () => markWarmup('Good'));
+        shell.body.querySelector('[data-wu-again]')?.addEventListener('click', () => markWarmup('Again'));
+        setKeyHandler((e) => {
+          if (e.key === ' ' && card.audio) {
+            e.preventDefault();
+            audioService.play(card.audio);
+          } else if (e.key === '1' || e.key === 'Enter') {
+            markWarmup('Good');
+          } else if (e.key === '2') {
+            markWarmup('Again');
+          }
         });
       };
       drawWarmup();

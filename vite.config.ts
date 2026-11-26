@@ -45,7 +45,8 @@ function contentStaticPlugin(base: string): Plugin {
 }
 
 export default defineConfig(({ command }) => {
-  const base = command === 'build' ? (process.env.VITE_BASE || '/baobao/') : '/';
+  const isPreview = process.argv.includes('preview');
+  const base = command === 'build' || isPreview ? (process.env.VITE_BASE || '/baobao/') : '/';
   return {
     base,
     plugins: [contentStaticPlugin(base)],

@@ -3,9 +3,9 @@ import { renderAppShell } from '../components/AppShell';
 import { renderBaoSvg } from '../components/BaoMascot';
 import { iconSvg } from '../components/Icons';
 import { audioService } from '../services/audioPlayer';
-import { getDb, type ProgressRecord } from '../services/db';
+import type { ProgressRecord } from '../services/db';
 import { exportBackupJson, importBackupJson } from '../services/progressBackup';
-import { ensureProgress, ensureSettings, saveSettings, todayIsoDate } from '../services/srsEngine';
+import { ensureProgress, ensureSettings, equipAccessory, saveSettings, todayIsoDate, useStreakFreeze } from '../services/srsEngine';
 import { escapeHtml } from '../utils/html';
 
 const ACCESSORIES: { id: ProgressRecord['equippedAccessory']; label: string; reqXp: number }[] = [
@@ -215,28 +215,13 @@ export async function renderProfileScreen(root: HTMLElement): Promise<() => void
 
     body.querySelectorAll<HTMLElement>('[data-equip-acc]').forEach((b) => {
       b.addEventListener('click', async () => {
-        const db = await getDb();
-        progress = {
-          ...progress,
-          equippedAccessory: b.dataset.equipAcc as ProgressRecord['equippedAccessory'],
-          updatedAt: new Date().toISOString(),
-        };
-        await db.put('progress', progress);
+        progress = await equipAccessory(b.dataset.equipAcc as ProgressRecord['equippedAccessory']);
         render();
       });
     });
 
     body.querySelector('[data-use-freeze]')?.addEventListener('click', async () => {
-      if (progress.freezesLeft <= 0) return;
-      const db = await getDb();
-      const today = todayIsoDate();
-      progress = {
-        ...progress,
-        freezesLeft: progress.freezesLeft - 1,
-        activeDates: Array.from(new Set([...progress.activeDates, today])),
-        updatedAt: new Date().toISOString(),
-      };
-      await db.put('progress', progress);
+      progress = await useStreakFreeze();
       if ([7, 30, 100].includes(progress.streak)) {
         confetti({ particleCount: 50, spread: 70 });
       }
@@ -326,7 +311,7 @@ export async function renderProfileScreen(root: HTMLElement): Promise<() => void
             <li><strong>CC-CEDICT:</strong> Dữ liệu từ điển tiếng Trung mở theo giấy phép <strong>CC BY-SA 4.0</strong>.</li>
             <li><strong>Tatoeba:</strong> Câu ví dụ ngữ liệu mở theo giấy phép <strong>CC BY 2.0 FR</strong> (chỉ dùng dữ liệu câu).</li>
             <li><strong>Arphic Technology + Make Me A Hanzi + hanzi-writer-data:</strong> Dữ liệu nét chữ theo <strong>Arphic Public License</strong> & <strong>LGPL v3+</strong>.</li>
-            <li><strong>Danh sách từ vựng cộng đồng (complete-hsk-vocabulary):</strong> Dùng làm khung cấp độ nội bộ theo giấy phép <strong>MIT</strong>.</li>
+            <li><strong>Danh sách từ vựng cộng đồng (drkameleon):</strong> Dùng làm khung cấp độ nội bộ theo giấy phép <strong>MIT</strong>.</li>
             <li><strong>Audio:</strong> Tổng hợp offline cho toàn bộ bài học, không dùng audio bên ngoài lúc chạy.</li>
           </ul>
         </div>

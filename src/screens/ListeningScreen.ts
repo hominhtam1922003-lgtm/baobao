@@ -271,11 +271,12 @@ export async function renderListeningScreen(root: HTMLElement, lessonId: string)
         if (dictInp) dictInp.value = `${dictInp.value} ${b.dataset.dictChip!}`.trim();
       });
     });
-    shell.body.querySelector('[data-dict-check]')?.addEventListener('click', () => {
+    const submitDictation = () => {
       const val = dictInp?.value ?? '';
       const ok = val.replace(/\s+/g, '').toLowerCase() === ex.answer.replace(/\s+/g, '').toLowerCase() || val.replace(/\s+/g, '') === (ex.tiles ?? []).join('');
       checkAnswer(ok ? ex.answer : val, ex.answer);
-    });
+    };
+    shell.body.querySelector('[data-dict-check]')?.addEventListener('click', submitDictation);
 
     document.querySelector('[data-l-next]')?.addEventListener('click', () => goTo(idx + 1));
 
@@ -293,9 +294,15 @@ export async function renderListeningScreen(root: HTMLElement, lessonId: string)
         goTo(idx - 1);
       } else if (e.key === 'ArrowRight' && idx < exercises.length - 1) {
         goTo(idx + 1);
-      } else if (e.key === 'Enter' && feedback) {
+      } else if (e.key === 'Enter') {
         e.preventDefault();
-        goTo(idx + 1);
+        if (feedback) {
+          goTo(idx + 1);
+        } else if (ex.kind === 'listen-tiles' && chosenTiles.length > 0) {
+          checkAnswer(chosenTiles.join(''), ex.answer);
+        } else if (ex.kind === 'dictation') {
+          submitDictation();
+        }
       } else if (!feedback && ex.options) {
         const n = Number(e.key);
         if (n >= 1 && n <= ex.options.length) checkAnswer(ex.options[n - 1].value, ex.answer);

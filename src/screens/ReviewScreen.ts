@@ -3,9 +3,7 @@ import { renderAppShell } from '../components/AppShell';
 import { renderBaoSvg } from '../components/BaoMascot';
 import { iconSvg } from '../components/Icons';
 import { audioService } from '../services/audioPlayer';
-import { loadStageWords } from '../services/contentLoader';
 import {
-  addCardToSrs,
   commitReview,
   ensureProgress,
   ensureSettings,
@@ -20,28 +18,9 @@ import type { ReviewRating } from '../types/curriculum';
 import { escapeHtml } from '../utils/html';
 
 export async function renderReviewScreen(root: HTMLElement): Promise<() => void> {
-  const [progress, settings, words] = await Promise.all([
-    ensureProgress(),
-    ensureSettings(),
-    loadStageWords(1),
-  ]);
+  const [progress, settings] = await Promise.all([ensureProgress(), ensureSettings()]);
 
   let cards = await getAllCards();
-  // Seed 4 starter cards on very first visit so user can test SRS immediately even before completing a lesson
-  if (cards.length === 0 && words.length > 0) {
-    for (const w of words.slice(0, 4)) {
-      await addCardToSrs({
-        itemId: w.id,
-        facet: 'vocab',
-        hanzi: w.hanzi,
-        pinyin: w.pinyin,
-        meaningVi: w.meaningVi,
-        example: w.examples[0],
-        audio: w.audio,
-      });
-    }
-    cards = await getAllCards();
-  }
 
   const body = renderAppShell({
     root,
@@ -61,7 +40,6 @@ export async function renderReviewScreen(root: HTMLElement): Promise<() => void>
   let keyHandler: ((e: KeyboardEvent) => void) | null = null;
 
   const setKey = (fn: ((e: KeyboardEvent) => void) | null) => {
-    if (keyHandler) document.removeEventListener('keydown', fn ? keyHandler : () => {});
     if (keyHandler) document.removeEventListener('keydown', keyHandler);
     keyHandler = fn;
     if (fn) document.addEventListener('keydown', fn);
@@ -199,7 +177,7 @@ export async function renderReviewScreen(root: HTMLElement): Promise<() => void>
           .flashcard-3d.is-flipped { transform: rotateY(180deg); }
         </style>
 
-        <div style="max-width:640px;margin:20px auto 0;display:grid;grid-template-columns:repeat(4,1fr);gap:10px;">
+        <div style="max-width:640px;margin:20px auto 0;display:grid;grid-template-columns:repeat(4,1fr);gap:10px;" data-review-actions>
           ${
             flipped
               ? ratingButtons
@@ -217,29 +195,6 @@ export async function renderReviewScreen(root: HTMLElement): Promise<() => void>
     `;
 
     bindFilterEvents();
-
-    const toggleFlip = () => {
-      flipped = !flipped;
-      audioService.playSfx('pop');
-      render();
-    };
-
-    body.querySelector('[data-flip-card]')?.addEventListener('click', (e) => {
-      if ((e.target as HTMLElement).closest('button')) return;
-      toggleFlip();
-    });
-    body.querySelector('[data-show-ans]')?.addEventListener('click', toggleFlip);
-
-    body.querySelectorAll<HTMLElement>('[data-card-audio]').forEach((b) => {
-      b.addEventListener('click', (e) => {
-        e.stopPropagation();
-        if (current.audio) audioService.play(current.audio);
-      });
-    });
-    body.querySelector('[data-ex-audio]')?.addEventListener('click', (e) => {
-      e.stopPropagation();
-      if (current.example?.audio) audioService.play(current.example.audio);
-    });
 
     const rateCurrent = async (rating: ReviewRating) => {
       const updated = await commitReview(current, rating);
@@ -265,6 +220,51 @@ export async function renderReviewScreen(root: HTMLElement): Promise<() => void>
       }
       render();
     };
+
+    const syncFlipDom = () => {
+      const cardEl = body.querySelector('[data-flip-card]');
+      const actionsEl = body.querySelector('[data-review-actions]');
+      cardEl?.classList.toggle('is-flipped', flipped);
+      if (actionsEl) {
+        actionsEl.innerHTML = flipped
+          ? ratingButtons
+              .map(
+                (b) => `<button type="button" class="btn ${b.cls}" data-rate="${b.rating}" style="flex-direction:column;padding:10px 6px;">
+                  <span>[${b.key}] ${b.label}</span>
+                  <span style="font-size:12px;font-weight:600;opacity:0.9;">${escapeHtml(intervals[b.rating])}</span>
+                </button>`
+              )
+              .join('')
+          : `<button type="button" class="btn btn-review btn-lg" data-show-ans style="grid-column:1 / -1;">Lật thẻ (Space)</button>`;
+        actionsEl.querySelector('[data-show-ans]')?.addEventListener('click', toggleFlip);
+        actionsEl.querySelectorAll<HTMLElement>('[data-rate]').forEach((b) => {
+          b.addEventListener('click', () => rateCurrent(b.dataset.rate as ReviewRating));
+        });
+      }
+    };
+
+    const toggleFlip = () => {
+      flipped = !flipped;
+      audioService.playSfx('pop');
+      syncFlipDom();
+    };
+
+    body.querySelector('[data-flip-card]')?.addEventListener('click', (e) => {
+      if ((e.target as HTMLElement).closest('button')) return;
+      toggleFlip();
+    });
+    body.querySelector('[data-show-ans]')?.addEventListener('click', toggleFlip);
+
+    body.querySelectorAll<HTMLElement>('[data-card-audio]').forEach((b) => {
+      b.addEventListener('click', (e) => {
+        e.stopPropagation();
+        if (current.audio) audioService.play(current.audio);
+      });
+    });
+    body.querySelector('[data-ex-audio]')?.addEventListener('click', (e) => {
+      e.stopPropagation();
+      if (current.example?.audio) audioService.play(current.example.audio);
+    });
 
     body.querySelectorAll<HTMLElement>('[data-rate]').forEach((b) => {
       b.addEventListener('click', () => rateCurrent(b.dataset.rate as ReviewRating));

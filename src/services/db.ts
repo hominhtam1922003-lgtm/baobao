@@ -32,6 +32,8 @@ export interface ReviewLogRecord {
 export interface ProgressRecord {
   id: 'main';
   xp: number;
+  dailyXp?: number;
+  dailyXpDate?: string;
   streak: number;
   bestStreak: number;
   freezesLeft: number;

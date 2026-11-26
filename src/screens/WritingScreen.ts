@@ -4,7 +4,7 @@ import { renderFocusShell } from '../components/AppShell';
 import { renderBaoSvg } from '../components/BaoMascot';
 import { iconSvg } from '../components/Icons';
 import { audioService } from '../services/audioPlayer';
-import { loadRadicals, loadStageLessons } from '../services/contentLoader';
+import { loadRadicals, loadStageLessons, loadStageWords } from '../services/contentLoader';
 import { requestPersistentStorage } from '../services/pwa';
 import { addCardToSrs, recordStudyActivity } from '../services/srsEngine';
 import { escapeHtml } from '../utils/html';
@@ -15,7 +15,11 @@ type WriteLevel = 1 | 2 | 3;
 
 export async function renderWritingScreen(root: HTMLElement, lessonId: string): Promise<() => void> {
   requestPersistentStorage();
-  const [lessons, radicalsBundle] = await Promise.all([loadStageLessons(1), loadRadicals()]);
+  const [lessons, radicalsBundle, words] = await Promise.all([
+    loadStageLessons(1),
+    loadRadicals(),
+    loadStageWords(1),
+  ]);
   const writingLessons = lessons.filter((l) => l.type === 'viet');
   const lesson = writingLessons.find((l) => l.id === lessonId) ?? writingLessons[0];
   if (!lesson || !lesson.writingChars?.length) {
@@ -39,6 +43,7 @@ export async function renderWritingScreen(root: HTMLElement, lessonId: string): 
   let quizMode = false;
   let quizResult: { ok: boolean; picked: string } | null = null;
   let finishedAll = false;
+  let unmounted = false;
   let writer: HanziWriter | null = null;
   let modalEl: HTMLElement | null = null;
 
@@ -267,7 +272,9 @@ export async function renderWritingScreen(root: HTMLElement, lessonId: string): 
 
     shell.body.querySelector('[data-animate-stroke]')?.addEventListener('click', () => {
       writer?.animateCharacter({
-        onComplete: () => mountWriter(cur.char),
+        onComplete: () => {
+          if (!unmounted) mountWriter(cur.char);
+        },
       });
     });
 
@@ -294,18 +301,21 @@ export async function renderWritingScreen(root: HTMLElement, lessonId: string): 
     });
 
     shell.body.querySelectorAll<HTMLElement>('[data-lk-opt]').forEach((b) => {
-      b.addEventListener('click', () => {
+      b.addEventListener('click', async () => {
         if (quizResult) return;
         const picked = b.dataset.lkOpt!;
         const ok = picked === cur.char;
         audioService.playSfx(ok ? 'ok' : 'err');
         quizResult = { ok, picked };
-        addCardToSrs({
+        const matchedWord = words.find((w) => w.hanzi === cur.char) ?? words.find((w) => w.hanzi.includes(cur.char));
+        await addCardToSrs({
           itemId: `char-${cur.char}`,
           facet: 'writing',
           hanzi: cur.char,
           pinyin: cur.pinyin,
           meaningVi: cur.meaningVi,
+          example: matchedWord?.examples[0],
+          audio: matchedWord?.audio,
           isWeakWriting: !ok,
         });
         render();
@@ -331,6 +341,8 @@ export async function renderWritingScreen(root: HTMLElement, lessonId: string): 
 
   render();
   return () => {
+    unmounted = true;
+    writer?.cancelQuiz();
     closeModal();
     audioService.stop();
   };

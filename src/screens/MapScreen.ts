@@ -9,7 +9,7 @@ import {
   loadStageWords,
 } from '../services/contentLoader';
 import { precacheStageAssets, requestPersistentStorage } from '../services/pwa';
-import { ensureProgress, ensureSettings, filterQueue, getAllCards } from '../services/srsEngine';
+import { ensureProgress, ensureSettings, filterQueue, getAllCards, getTodayXp } from '../services/srsEngine';
 import type { LessonItem, StageMeta, TopicMeta } from '../types/curriculum';
 import { escapeHtml } from '../utils/html';
 
@@ -55,7 +55,7 @@ export async function renderMapScreen(root: HTMLElement): Promise<() => void> {
   const currentLessonId = playableIds.find((id) => !completedSet.has(id)) ?? playableIds[0];
 
   const goalXp = settings.dailyGoalMinutes * 4;
-  const pct = Math.min(100, Math.round((progress.xp / Math.max(1, goalXp)) * 100));
+  const pct = Math.min(100, Math.round((getTodayXp(progress) / Math.max(1, goalXp)) * 100));
 
   const renderStageBanner = (stage: StageMeta) => {
     const colorMap: Record<string, { bg: string; lip: string }> = {
@@ -115,14 +115,23 @@ export async function renderMapScreen(root: HTMLElement): Promise<() => void> {
         const st = TYPE_STYLE[lesson.type];
         const isDone = completedSet.has(lid);
         const isCurrent = lid === currentLessonId;
-        const partial = !isDone && (progress.lessonProgress[lid] ?? 0) > 0;
+        const partialRatio = !isDone ? (progress.lessonProgress[lid] ?? 0) : 0;
+        const isLocked = !isDone && !isCurrent && partialRatio === 0 && playableIds.indexOf(lid) > playableIds.indexOf(currentLessonId);
         const offsetPx = idx % 2 === 0 ? -44 : 44;
 
-        const btnBg = isDone || isCurrent || partial ? st.color : 'var(--locked)';
-        const btnLip = isDone || isCurrent || partial ? st.lip : 'var(--locked-lip)';
+        const btnBg = !isLocked ? st.color : 'var(--locked)';
+        const btnLip = !isLocked ? st.lip : 'var(--locked-lip)';
         const nodeStyle = `width:72px;height:72px;border-radius:999px;border:3px solid #FFFFFF;background:${btnBg};box-shadow:0 5px 0 ${btnLip}, var(--shadow-clay);display:flex;align-items:center;justify-content:center;position:relative;color:#3D3654;${
           isCurrent ? 'animation:baoBounce 1.8s ease-in-out infinite;' : ''
         }`;
+
+        const ringSvg =
+          partialRatio > 0
+            ? `<svg width="84" height="84" viewBox="0 0 84 84" style="position:absolute;inset:-9px;pointer-events:none;transform:rotate(-90deg);">
+                 <circle cx="42" cy="42" r="38" fill="none" stroke="var(--border)" stroke-width="5"/>
+                 <circle cx="42" cy="42" r="38" fill="none" stroke="${st.lip}" stroke-width="5" stroke-dasharray="${Math.round(2 * Math.PI * 38)}" stroke-dashoffset="${Math.round(2 * Math.PI * 38 * (1 - partialRatio))}" stroke-linecap="round"/>
+               </svg>`
+            : '';
 
         return `
           <div style="display:flex;flex-direction:column;align-items:center;transform:translateX(${offsetPx}px);position:relative;margin:14px 0;">
@@ -135,7 +144,8 @@ export async function renderMapScreen(root: HTMLElement): Promise<() => void> {
                 : ''
             }
             <button type="button" data-lesson-node="${escapeHtml(lid)}" style="${nodeStyle}" aria-label="${escapeHtml(lesson.title)}">
-              ${stickerBadge(st.icon, btnBg, 40)}
+              ${ringSvg}
+              ${isLocked ? iconSvg('lock', 26) : stickerBadge(st.icon, btnBg, 40)}
               ${
                 isDone
                   ? `<span style="position:absolute;top:-6px;right:-6px;width:24px;height:24px;border-radius:999px;background:var(--review);border:2px solid #FFF;display:flex;align-items:center;justify-content:center;">${iconSvg('crown', 13)}</span>`
@@ -167,6 +177,8 @@ export async function renderMapScreen(root: HTMLElement): Promise<() => void> {
   };
 
   const chapter1 = curriculum.stages[0].storyChapter;
+  const bookmarkedStoryId = Object.keys(progress.storyBookmarks)[0] ?? chapter1.readingId ?? 'r-t6';
+  const activeReadingMeta = readings.find((r) => r.id === bookmarkedStoryId);
 
   body.innerHTML = `
     <div style="display:grid;grid-template-columns:minmax(0,720px) minmax(260px,320px);gap:24px;align-items:start;" class="map-grid">
@@ -197,9 +209,9 @@ export async function renderMapScreen(root: HTMLElement): Promise<() => void> {
 
         <div class="clay-card" style="padding:20px;background:var(--read-soft);border-color:var(--read);">
           <div style="font-size:12px;font-weight:800;text-transform:uppercase;color:var(--read-lip);">Truyện dài kỳ</div>
-          <h3 style="margin:4px 0 8px;font-size:18px;">${escapeHtml(chapter1.title)}</h3>
+          <h3 style="margin:4px 0 8px;font-size:18px;">${escapeHtml(activeReadingMeta?.title ?? chapter1.title)}</h3>
           <p style="margin:0 0 14px;font-size:14px;color:var(--ink-muted);">${escapeHtml(chapter1.teaserVi)}</p>
-          <a href="#/reading/${escapeHtml(chapter1.readingId ?? 'r-t6')}" class="btn btn-read btn-sm" style="width:100%;">Đọc tiếp chương 1</a>
+          <a href="#/reading/${escapeHtml(bookmarkedStoryId)}" class="btn btn-read btn-sm" style="width:100%;">Đọc tiếp</a>
         </div>
       </aside>
     </div>

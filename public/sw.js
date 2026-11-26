@@ -11,9 +11,23 @@ const APP_SHELL_FILES = [
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => {
+    caches.open(CACHE_NAME).then(async (cache) => {
       const base = self.registration.scope;
-      return cache.addAll(APP_SHELL_FILES.map((rel) => new URL(rel, base).toString()));
+      const baseUrls = APP_SHELL_FILES.map((rel) => new URL(rel, base).toString());
+      await cache.addAll(baseUrls);
+      try {
+        const htmlRes = await cache.match(new URL('index.html', base).toString());
+        if (htmlRes) {
+          const html = await htmlRes.text();
+          const assetMatches = [...html.matchAll(/(?:src|href)="([^"]+\.(?:js|css|svg|webmanifest))"/g)];
+          const assetUrls = assetMatches.map((m) => new URL(m[1], self.location.origin).toString());
+          if (assetUrls.length > 0) {
+            await cache.addAll(assetUrls);
+          }
+        }
+      } catch {
+        // ignore parse fallback
+      }
     })
   );
   self.skipWaiting();

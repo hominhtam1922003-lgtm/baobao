@@ -8,6 +8,7 @@ import { renderReviewScreen } from './screens/ReviewScreen';
 import { renderVocabLessonScreen } from './screens/VocabLessonScreen';
 import { renderWritingScreen } from './screens/WritingScreen';
 import { ensureSettings } from './services/srsEngine';
+import { escapeHtml } from './utils/html';
 
 let currentCleanup: (() => void) | null = null;
 
@@ -50,7 +51,7 @@ export async function startRouter(root: HTMLElement): Promise<void> {
       root.innerHTML = `
         <div style="max-width:520px;margin:48px auto;padding:24px;" class="clay-card">
           <h2 style="margin:0 0 8px;">Không tải được màn hình</h2>
-          <p style="color:var(--ink-muted);margin:0 0 16px;">${err instanceof Error ? err.message : 'Lỗi không xác định'}</p>
+          <p style="color:var(--ink-muted);margin:0 0 16px;">${escapeHtml(err instanceof Error ? err.message : 'Lỗi không xác định')}</p>
           <a href="#/" class="btn btn-comm">Về trang chủ</a>
         </div>
       `;

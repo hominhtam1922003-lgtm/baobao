@@ -27,14 +27,18 @@ export async function renderDialogueScreen(root: HTMLElement, lessonId: string):
   });
 
   let revealedCount = 1;
-  let completedGoals = new Set<string>();
-  let openPinyinIdx = new Set<number>();
-  let shadowUrls = new Map<number, string>();
+  while (revealedCount < turns.length && (!turns[revealedCount - 1].mode || turns[revealedCount - 1].mode === 'npc')) {
+    revealedCount += 1;
+  }
+  const completedGoals = new Set<string>();
+  const completedTurnIndices = new Set<number>();
+  const openPinyinIdx = new Set<number>();
+  const shadowUrls = new Map<number, string>();
   let shadowMode = false;
   let recordingIdx: number | null = null;
   let selfCorrectCount = 0;
   let activeTiles: string[] = [];
-  let tilePool: string[] = [];
+  let tilePool: string[] = [...(turns[revealedCount - 1]?.tilePrompt ?? [])].reverse();
   let keyHandler: ((e: KeyboardEvent) => void) | null = null;
   const recorder = createShadowRecorder();
 
@@ -72,7 +76,7 @@ export async function renderDialogueScreen(root: HTMLElement, lessonId: string):
       !shadowMode &&
       activeTurn.mode &&
       activeTurn.mode !== 'npc' &&
-      !completedGoals.has(activeTurn.goalLabel ?? `__t${activeTurnIdx}`);
+      !completedTurnIndices.has(activeTurnIdx);
 
     const pct = shadowMode ? 95 : Math.min(92, Math.round((revealedCount / turns.length) * 90));
     shell.setProgress(pct, `${Math.min(revealedCount, turns.length)}/${turns.length}`);
@@ -251,15 +255,16 @@ export async function renderDialogueScreen(root: HTMLElement, lessonId: string):
       if (el) el.textContent = msg;
     };
 
-    const succeedTurn = (hard = false) => {
+    const succeedTurn = async (hard = false) => {
       audioService.playSfx('ok');
       selfCorrectCount += 1;
+      completedTurnIndices.add(activeTurnIdx);
       if (activeTurn.goalLabel) completedGoals.add(activeTurn.goalLabel);
       if (hard) {
         confetti({ particleCount: 30, spread: 50, origin: { y: 0.72 } });
       }
       if (revealedCount >= turns.length) {
-        recordStudyActivity({ xpEarned: 20, skill: 'giaoTiep' });
+        await recordStudyActivity({ xpEarned: 20, skill: 'giaoTiep' });
         render();
       } else {
         advanceTurn();
@@ -349,8 +354,14 @@ export async function renderDialogueScreen(root: HTMLElement, lessonId: string):
 
     shell.body.querySelector('[data-replay-dlg]')?.addEventListener('click', () => {
       revealedCount = 1;
-      completedGoals = new Set();
+      while (revealedCount < turns.length && (!turns[revealedCount - 1].mode || turns[revealedCount - 1].mode === 'npc')) {
+        revealedCount += 1;
+      }
+      completedGoals.clear();
+      completedTurnIndices.clear();
       selfCorrectCount = 0;
+      activeTiles = [];
+      tilePool = [...(turns[revealedCount - 1]?.tilePrompt ?? [])].reverse();
       render();
     });
   };
@@ -358,6 +369,13 @@ export async function renderDialogueScreen(root: HTMLElement, lessonId: string):
   render();
   return () => {
     setKey(null);
+    if (recordingIdx !== null) {
+      recorder.stop().catch(() => {});
+    }
+    for (const url of shadowUrls.values()) {
+      URL.revokeObjectURL(url);
+    }
+    shadowUrls.clear();
     audioService.stop();
   };
 }
