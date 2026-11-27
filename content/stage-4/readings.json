@@ -3,547 +3,415 @@
     "id": "r-t25",
     "stage": 4,
     "topicId": 25,
-    "title": "王老师跟小明聊天",
-    "mode": "fluent",
-    "knownPercent": 92,
+    "title": "Buổi thảo luận cho Hội chợ Mùa Thu",
+    "mode": "study",
+    "knownPercent": 93,
     "newWords": [
-      "报纸",
-      "聊"
+      "观点",
+      "意见",
+      "同意",
+      "理由",
+      "道理",
+      "讨论"
     ],
     "paragraphs": [
       {
-        "hanzi": "王老师常常在办公室看报纸。小明走到王老师旁边，看了一下桌子上面的报纸。小明觉得王老师每天看报纸很有意思。",
-        "vi": "Thầy Vương thường xuyên xem báo ở văn phòng. Tiểu Minh đi đến bên cạnh thầy Vương, nhìn lướt qua tờ báo ở trên bàn. Tiểu Minh cảm thấy thầy Vương mỗi ngày xem báo rất thú vị.",
+        "hanzi": "今天下午，Bao、小玲和小明一起在教室讨论秋日文化节的活动计划。",
+        "vi": "Chiều nay, Bao, Tiểu Linh và Tiểu Minh cùng nhau thảo luận kế hoạch hoạt động Lễ hội văn hóa mùa thu trong phòng học.",
         "tokens": [
           {
-            "w": "王老师",
-            "pinyin": "wáng lǎo shī"
+            "w": "今天",
+            "pinyin": "jīn tiān"
           },
           {
-            "w": "常常",
-            "pinyin": "cháng cháng"
-          },
-          {
-            "w": "在",
-            "pinyin": "zài"
-          },
-          {
-            "w": "办公室",
-            "pinyin": "bàn gōng shì"
-          },
-          {
-            "w": "看",
-            "pinyin": "kàn"
-          },
-          {
-            "w": "报纸",
-            "pinyin": "bào zhǐ",
-            "isNew": true
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          },
-          {
-            "w": "小明",
-            "pinyin": "xiǎo míng"
-          },
-          {
-            "w": "走",
-            "pinyin": "zǒu"
-          },
-          {
-            "w": "到",
-            "pinyin": "dào"
-          },
-          {
-            "w": "王老师",
-            "pinyin": "wáng lǎo shī"
-          },
-          {
-            "w": "旁边",
-            "pinyin": "páng biān"
+            "w": "下午",
+            "pinyin": "xià wǔ"
           },
           {
             "w": "，",
             "pinyin": ""
           },
           {
-            "w": "看",
-            "pinyin": "kàn"
+            "w": "Bao",
+            "pinyin": ""
           },
           {
-            "w": "了",
-            "pinyin": "le"
+            "w": "、",
+            "pinyin": ""
           },
           {
-            "w": "一",
-            "pinyin": "yī"
+            "w": "小",
+            "pinyin": "xiǎo"
           },
           {
-            "w": "下",
-            "pinyin": "xià"
+            "w": "玲",
+            "pinyin": "líng"
           },
           {
-            "w": "桌子",
-            "pinyin": "zhuō zi"
+            "w": "和",
+            "pinyin": "hé"
           },
           {
-            "w": "上面",
-            "pinyin": "shàng miàn"
+            "w": "小",
+            "pinyin": "xiǎo"
+          },
+          {
+            "w": "明",
+            "pinyin": "míng"
+          },
+          {
+            "w": "一起",
+            "pinyin": "yì qǐ"
+          },
+          {
+            "w": "在",
+            "pinyin": "zài"
+          },
+          {
+            "w": "教室",
+            "pinyin": "jiào shì"
+          },
+          {
+            "w": "讨论",
+            "pinyin": "tǎo lùn",
+            "isNew": true
+          },
+          {
+            "w": "秋",
+            "pinyin": "qiū"
+          },
+          {
+            "w": "日",
+            "pinyin": "rì"
+          },
+          {
+            "w": "文化",
+            "pinyin": "wén huà"
+          },
+          {
+            "w": "节",
+            "pinyin": "jié"
           },
           {
             "w": "的",
             "pinyin": "de"
           },
           {
-            "w": "报纸",
-            "pinyin": "bào zhǐ",
-            "isNew": true
+            "w": "活",
+            "pinyin": "huó"
           },
           {
-            "w": "。",
-            "pinyin": ""
+            "w": "动",
+            "pinyin": "dòng"
           },
           {
-            "w": "小明",
-            "pinyin": "xiǎo míng"
-          },
-          {
-            "w": "觉得",
-            "pinyin": "jué de"
-          },
-          {
-            "w": "王老师",
-            "pinyin": "wáng lǎo shī"
-          },
-          {
-            "w": "每",
-            "pinyin": "měi"
-          },
-          {
-            "w": "天",
-            "pinyin": "tiān"
-          },
-          {
-            "w": "看",
-            "pinyin": "kàn"
-          },
-          {
-            "w": "报纸",
-            "pinyin": "bào zhǐ",
-            "isNew": true
-          },
-          {
-            "w": "很",
-            "pinyin": "hěn"
-          },
-          {
-            "w": "有意思",
-            "pinyin": "yǒu yì si"
+            "w": "计划",
+            "pinyin": "jì huà"
           },
           {
             "w": "。",
             "pinyin": ""
           }
         ],
-        "audio": "audio/story-fefac11b34ea.mp3"
+        "audio": "audio/story-5dd05ee61cf0.mp3"
       },
       {
-        "hanzi": "王老师高兴地跟小明聊聊天。王老师说今天的报纸有好看的新闻。小明听到以后觉得王老师说得对。",
-        "vi": "Thầy Vương vui vẻ trò chuyện với Tiểu Minh. Thầy Vương nói tờ báo hôm nay có tin tức hay. Tiểu Minh nghe xong liền cảm thấy thầy Vương nói đúng.",
+        "hanzi": "Bao先说出了自己的观点：他认为可以办一个中越茶文化体验角，理由是大家都很喜欢喝茶。",
+        "vi": "Bao nêu quan điểm của mình trước: cậu cho rằng có thể mở một góc trải nghiệm văn hóa trà Việt-Trung, lý do là mọi người đều thích uống trà.",
         "tokens": [
           {
-            "w": "王老师",
-            "pinyin": "wáng lǎo shī"
-          },
-          {
-            "w": "高兴",
-            "pinyin": "gāo xìng"
-          },
-          {
-            "w": "地",
-            "pinyin": "dì"
-          },
-          {
-            "w": "跟",
-            "pinyin": "gēn"
-          },
-          {
-            "w": "小明",
-            "pinyin": "xiǎo míng"
-          },
-          {
-            "w": "聊",
-            "pinyin": "liáo",
-            "isNew": true
-          },
-          {
-            "w": "聊天",
-            "pinyin": "liáo tiān"
-          },
-          {
-            "w": "。",
+            "w": "Bao",
             "pinyin": ""
           },
           {
-            "w": "王老师",
-            "pinyin": "wáng lǎo shī"
+            "w": "先",
+            "pinyin": "xiān"
           },
           {
             "w": "说",
             "pinyin": "shuō"
           },
           {
-            "w": "今天",
-            "pinyin": "jīn tiān"
+            "w": "出",
+            "pinyin": "chū"
+          },
+          {
+            "w": "了",
+            "pinyin": "le"
+          },
+          {
+            "w": "自己",
+            "pinyin": "zì jǐ"
           },
           {
             "w": "的",
             "pinyin": "de"
           },
           {
-            "w": "报纸",
-            "pinyin": "bào zhǐ",
+            "w": "观点",
+            "pinyin": "guān diǎn",
             "isNew": true
+          },
+          {
+            "w": "：",
+            "pinyin": ""
+          },
+          {
+            "w": "他",
+            "pinyin": "tā"
+          },
+          {
+            "w": "认为",
+            "pinyin": "rèn wéi"
+          },
+          {
+            "w": "可以",
+            "pinyin": "kě yǐ"
+          },
+          {
+            "w": "办",
+            "pinyin": "bàn"
+          },
+          {
+            "w": "一",
+            "pinyin": "yī"
+          },
+          {
+            "w": "个",
+            "pinyin": "gè"
+          },
+          {
+            "w": "中",
+            "pinyin": "zhōng"
+          },
+          {
+            "w": "越",
+            "pinyin": "yuè"
+          },
+          {
+            "w": "茶",
+            "pinyin": "chá"
+          },
+          {
+            "w": "文化",
+            "pinyin": "wén huà"
+          },
+          {
+            "w": "体",
+            "pinyin": "tǐ"
+          },
+          {
+            "w": "验",
+            "pinyin": "yàn"
+          },
+          {
+            "w": "角",
+            "pinyin": "jiǎo"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "理由",
+            "pinyin": "lǐ yóu",
+            "isNew": true
+          },
+          {
+            "w": "是",
+            "pinyin": "shì"
+          },
+          {
+            "w": "大家",
+            "pinyin": "dà jiā"
+          },
+          {
+            "w": "都",
+            "pinyin": "dōu"
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "喜欢",
+            "pinyin": "xǐ huan"
+          },
+          {
+            "w": "喝",
+            "pinyin": "hē"
+          },
+          {
+            "w": "茶",
+            "pinyin": "chá"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ],
+        "audio": "audio/story-53703743edb6.mp3"
+      },
+      {
+        "hanzi": "小明觉得这个想法很有道理，不过他提出了一个意见：现场人多，要提前准备好茶叶和杯子。",
+        "vi": "Tiểu Minh thấy ý tưởng này rất có lý, tuy nhiên cậu góp thêm một ý kiến: hiện trường đông người nên cần chuẩn bị trước lá trà và cốc.",
+        "tokens": [
+          {
+            "w": "小",
+            "pinyin": "xiǎo"
+          },
+          {
+            "w": "明",
+            "pinyin": "míng"
+          },
+          {
+            "w": "觉得",
+            "pinyin": "jué de"
+          },
+          {
+            "w": "这个",
+            "pinyin": "zhè gè"
+          },
+          {
+            "w": "想",
+            "pinyin": "xiǎng"
+          },
+          {
+            "w": "法",
+            "pinyin": "fǎ"
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
           },
           {
             "w": "有",
             "pinyin": "yǒu"
           },
           {
-            "w": "好看",
-            "pinyin": "hǎo kàn"
+            "w": "道理",
+            "pinyin": "dào lǐ",
+            "isNew": true
           },
           {
-            "w": "的",
-            "pinyin": "de"
-          },
-          {
-            "w": "新闻",
-            "pinyin": "xīn wén"
-          },
-          {
-            "w": "。",
+            "w": "，",
             "pinyin": ""
           },
           {
-            "w": "小明",
-            "pinyin": "xiǎo míng"
+            "w": "不",
+            "pinyin": "bù"
           },
           {
-            "w": "听到",
-            "pinyin": "tīng dào"
+            "w": "过",
+            "pinyin": "guò"
           },
           {
-            "w": "以后",
-            "pinyin": "yǐ hòu"
+            "w": "他",
+            "pinyin": "tā"
           },
           {
-            "w": "觉得",
-            "pinyin": "jué de"
+            "w": "提",
+            "pinyin": "tí"
           },
           {
-            "w": "王老师",
-            "pinyin": "wáng lǎo shī"
+            "w": "出",
+            "pinyin": "chū"
           },
           {
-            "w": "说",
-            "pinyin": "shuō"
-          },
-          {
-            "w": "得",
-            "pinyin": "de"
-          },
-          {
-            "w": "对",
-            "pinyin": "duì"
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          }
-        ],
-        "audio": "audio/story-f3ad5794a58c.mp3"
-      },
-      {
-        "hanzi": "小明有一点儿不好意思地问王老师。小明问能不能也看一下这张报纸。王老师高兴地把报纸交给了小明。",
-        "vi": "Tiểu Minh có chút ngại ngùng hỏi thầy Vương. Tiểu Minh hỏi có thể xem thử tờ báo này không. Thầy Vương vui vẻ đưa tờ báo cho Tiểu Minh.",
-        "tokens": [
-          {
-            "w": "小明",
-            "pinyin": "xiǎo míng"
-          },
-          {
-            "w": "有一点儿",
-            "pinyin": "yǒu yī diǎn r"
-          },
-          {
-            "w": "不好意思",
-            "pinyin": "bù hǎo yì si"
-          },
-          {
-            "w": "地",
-            "pinyin": "dì"
-          },
-          {
-            "w": "问",
-            "pinyin": "wèn"
-          },
-          {
-            "w": "王老师",
-            "pinyin": "wáng lǎo shī"
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          },
-          {
-            "w": "小明",
-            "pinyin": "xiǎo míng"
-          },
-          {
-            "w": "问",
-            "pinyin": "wèn"
-          },
-          {
-            "w": "能不能",
-            "pinyin": "néng bùnéng"
-          },
-          {
-            "w": "也",
-            "pinyin": "yě"
-          },
-          {
-            "w": "看",
-            "pinyin": "kàn"
+            "w": "了",
+            "pinyin": "le"
           },
           {
             "w": "一",
             "pinyin": "yī"
           },
           {
-            "w": "下",
-            "pinyin": "xià"
+            "w": "个",
+            "pinyin": "gè"
           },
           {
-            "w": "这",
-            "pinyin": "zhè"
-          },
-          {
-            "w": "张",
-            "pinyin": "zhāng"
-          },
-          {
-            "w": "报纸",
-            "pinyin": "bào zhǐ",
+            "w": "意见",
+            "pinyin": "yì jiàn",
             "isNew": true
           },
           {
-            "w": "。",
+            "w": "：",
             "pinyin": ""
           },
           {
-            "w": "王老师",
-            "pinyin": "wáng lǎo shī"
+            "w": "现",
+            "pinyin": "xiàn"
           },
           {
-            "w": "高兴",
-            "pinyin": "gāo xìng"
+            "w": "场",
+            "pinyin": "chǎng"
           },
           {
-            "w": "地",
-            "pinyin": "dì"
+            "w": "人",
+            "pinyin": "rén"
           },
           {
-            "w": "把",
-            "pinyin": "bǎ"
+            "w": "多",
+            "pinyin": "duō"
           },
           {
-            "w": "报纸",
-            "pinyin": "bào zhǐ",
-            "isNew": true
-          },
-          {
-            "w": "交给",
-            "pinyin": "jiāo gěi"
-          },
-          {
-            "w": "了",
-            "pinyin": "le"
-          },
-          {
-            "w": "小明",
-            "pinyin": "xiǎo míng"
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          }
-        ],
-        "audio": "audio/story-4e2156b4b4d4.mp3"
-      },
-      {
-        "hanzi": "小明一边看报纸一边跟王老师聊天。他们聊了很久关于学校的事情。小明觉得这样聊天很好。",
-        "vi": "Tiểu Minh vừa xem báo vừa trò chuyện cùng thầy Vương. Họ đã trò chuyện rất lâu về những việc ở trường học. Tiểu Minh cảm thấy trò chuyện như thế này rất tốt.",
-        "tokens": [
-          {
-            "w": "小明",
-            "pinyin": "xiǎo míng"
-          },
-          {
-            "w": "一边",
-            "pinyin": "yī biān"
-          },
-          {
-            "w": "看",
-            "pinyin": "kàn"
-          },
-          {
-            "w": "报纸",
-            "pinyin": "bào zhǐ",
-            "isNew": true
-          },
-          {
-            "w": "一边",
-            "pinyin": "yī biān"
-          },
-          {
-            "w": "跟",
-            "pinyin": "gēn"
-          },
-          {
-            "w": "王老师",
-            "pinyin": "wáng lǎo shī"
-          },
-          {
-            "w": "聊天",
-            "pinyin": "liáo tiān"
-          },
-          {
-            "w": "。",
+            "w": "，",
             "pinyin": ""
           },
           {
-            "w": "他们",
-            "pinyin": "tā men"
+            "w": "要",
+            "pinyin": "yào"
           },
           {
-            "w": "聊",
-            "pinyin": "liáo",
-            "isNew": true
+            "w": "提",
+            "pinyin": "tí"
           },
           {
-            "w": "了",
-            "pinyin": "le"
+            "w": "前",
+            "pinyin": "qián"
           },
           {
-            "w": "很",
-            "pinyin": "hěn"
-          },
-          {
-            "w": "久",
-            "pinyin": "jiǔ"
-          },
-          {
-            "w": "关于",
-            "pinyin": "guān yú"
-          },
-          {
-            "w": "学校",
-            "pinyin": "xué xiào"
-          },
-          {
-            "w": "的",
-            "pinyin": "de"
-          },
-          {
-            "w": "事情",
-            "pinyin": "shì qing"
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          },
-          {
-            "w": "小明",
-            "pinyin": "xiǎo míng"
-          },
-          {
-            "w": "觉得",
-            "pinyin": "jué de"
-          },
-          {
-            "w": "这样",
-            "pinyin": "zhè yàng"
-          },
-          {
-            "w": "聊天",
-            "pinyin": "liáo tiān"
-          },
-          {
-            "w": "很",
-            "pinyin": "hěn"
+            "w": "准备",
+            "pinyin": "zhǔn bèi"
           },
           {
             "w": "好",
             "pinyin": "hǎo"
           },
           {
+            "w": "茶",
+            "pinyin": "chá"
+          },
+          {
+            "w": "叶",
+            "pinyin": "yè"
+          },
+          {
+            "w": "和",
+            "pinyin": "hé"
+          },
+          {
+            "w": "杯子",
+            "pinyin": "bēi zi"
+          },
+          {
             "w": "。",
             "pinyin": ""
           }
         ],
-        "audio": "audio/story-ca1a29914aec.mp3"
+        "audio": "audio/story-1635743f02c4.mp3"
       },
       {
-        "hanzi": "看完以后小明把报纸还给王老师。王老师笑着跟小明说再见。小明觉得今天跟王老师聊天真好。",
-        "vi": "Xem xong Tiểu Minh trả lại tờ báo cho thầy Vương. Thầy Vương cười nói tạm biệt với Tiểu Minh. Tiểu Minh cảm thấy hôm nay trò chuyện với thầy Vương thật tốt.",
+        "hanzi": "小玲笑着说：「我完全同意！只要我们分工合作，活动一定会非常精彩！」",
+        "vi": "Tiểu Linh cười nói: 'Mình hoàn toàn đồng ý! Chỉ cần chúng ta phân công hợp tác, hoạt động nhất định sẽ rất đặc sắc!'",
         "tokens": [
           {
-            "w": "看",
-            "pinyin": "kàn"
+            "w": "小",
+            "pinyin": "xiǎo"
           },
           {
-            "w": "完",
-            "pinyin": "wán"
-          },
-          {
-            "w": "以后",
-            "pinyin": "yǐ hòu"
-          },
-          {
-            "w": "小明",
-            "pinyin": "xiǎo míng"
-          },
-          {
-            "w": "把",
-            "pinyin": "bǎ"
-          },
-          {
-            "w": "报纸",
-            "pinyin": "bào zhǐ",
-            "isNew": true
-          },
-          {
-            "w": "还",
-            "pinyin": "hái"
-          },
-          {
-            "w": "给",
-            "pinyin": "gěi"
-          },
-          {
-            "w": "王老师",
-            "pinyin": "wáng lǎo shī"
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          },
-          {
-            "w": "王老师",
-            "pinyin": "wáng lǎo shī"
+            "w": "玲",
+            "pinyin": "líng"
           },
           {
             "w": "笑",
@@ -554,737 +422,532 @@
             "pinyin": "zhe"
           },
           {
-            "w": "跟",
-            "pinyin": "gēn"
-          },
-          {
-            "w": "小明",
-            "pinyin": "xiǎo míng"
-          },
-          {
             "w": "说",
             "pinyin": "shuō"
           },
           {
-            "w": "再见",
-            "pinyin": "zài jiàn"
-          },
-          {
-            "w": "。",
+            "w": "：「",
             "pinyin": ""
           },
           {
-            "w": "小明",
-            "pinyin": "xiǎo míng"
+            "w": "我",
+            "pinyin": "wǒ"
           },
           {
-            "w": "觉得",
-            "pinyin": "jué de"
+            "w": "完",
+            "pinyin": "wán"
           },
           {
-            "w": "今天",
-            "pinyin": "jīn tiān"
+            "w": "全",
+            "pinyin": "quán"
           },
           {
-            "w": "跟",
-            "pinyin": "gēn"
+            "w": "同意",
+            "pinyin": "tóng yì",
+            "isNew": true
           },
           {
-            "w": "王老师",
-            "pinyin": "wáng lǎo shī"
+            "w": "！",
+            "pinyin": ""
           },
           {
-            "w": "聊天",
-            "pinyin": "liáo tiān"
+            "w": "只要",
+            "pinyin": "zhǐ yào"
           },
           {
-            "w": "真",
-            "pinyin": "zhēn"
+            "w": "我们",
+            "pinyin": "wǒ men"
           },
           {
-            "w": "好",
-            "pinyin": "hǎo"
+            "w": "分",
+            "pinyin": "fēn"
           },
           {
-            "w": "。",
+            "w": "工",
+            "pinyin": "gōng"
+          },
+          {
+            "w": "合",
+            "pinyin": "hé"
+          },
+          {
+            "w": "作",
+            "pinyin": "zuò"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "活",
+            "pinyin": "huó"
+          },
+          {
+            "w": "动",
+            "pinyin": "dòng"
+          },
+          {
+            "w": "一定",
+            "pinyin": "yī dìng"
+          },
+          {
+            "w": "会",
+            "pinyin": "huì"
+          },
+          {
+            "w": "非常",
+            "pinyin": "fēi cháng"
+          },
+          {
+            "w": "精彩",
+            "pinyin": "jīng cǎi"
+          },
+          {
+            "w": "！」",
             "pinyin": ""
           }
         ],
-        "audio": "audio/story-6c1eb7646bdf.mp3"
+        "audio": "audio/story-92fb17d28f81.mp3"
       }
     ],
     "questions": [
       {
-        "id": "rq25-1",
+        "id": "q-r25-1",
         "type": "mcq",
-        "q": "王老师常常在哪里看报纸？",
+        "q": "Bao đề xuất mở hoạt động gì tại Lễ hội văn hóa mùa thu?",
         "options": [
-          "在办公室",
-          "在家里",
-          "在路上"
+          "Góc trải nghiệm văn hóa trà Việt-Trung",
+          "Giải chạy bộ công viên",
+          "Rạp chiếu phim ngoài trời",
+          "Quầy bán sách cũ"
         ],
         "answer": 0,
-        "explainVi": "Bài đọc viết: '王老师常常在办公室看报纸。'"
+        "explainVi": "Bao nêu quan điểm: '他认为可以办一个中越茶文化体验角'."
       },
       {
-        "id": "rq25-2",
+        "id": "q-r25-2",
+        "type": "mcq",
+        "q": "Tiểu Minh đồng ý nhưng góp thêm ý kiến gì?",
+        "options": [
+          "Cần chuẩn bị trước lá trà và cốc vì hiện trường đông người",
+          "Nên hủy hoạt động vì trời mưa",
+          "Chỉ nên bán cà phê đá",
+          "Đổi sang tổ chức vào mùa đông"
+        ],
+        "answer": 0,
+        "explainVi": "Tiểu Minh nói: '现场人多，要提前准备好茶叶和杯子'."
+      },
+      {
+        "id": "q-r25-3",
         "type": "tf",
-        "q": "小明觉得王老师每天看报纸很有意思。",
+        "q": "Tiểu Linh phản đối kế hoạch của Bao.",
         "options": [
           "Đúng",
           "Sai"
         ],
-        "answer": 0,
-        "explainVi": "Bài đọc viết: '小明觉得王老师每天看报纸很有意思。'"
-      },
-      {
-        "id": "rq25-3",
-        "type": "detail",
-        "q": "看完报纸以后，小明做了什么？",
-        "options": [
-          "小明把报纸还给王老师",
-          "小明把报纸带回家",
-          "小明把报纸送给朋友"
-        ],
-        "answer": 0,
-        "explainVi": "Bài đọc viết: '看完以后小明把报纸还给王老师。'"
+        "answer": 1,
+        "explainVi": "Tiểu Linh nói '我完全同意！' (Mình hoàn toàn đồng ý!)."
       }
     ],
-    "audioFull": "audio/story-8d713af834ee.mp3",
+    "audioFull": "audio/story-f5cda08e9b92.mp3",
     "audioSentences": [
-      "audio/story-fefac11b34ea.mp3",
-      "audio/story-f3ad5794a58c.mp3",
-      "audio/story-4e2156b4b4d4.mp3",
-      "audio/story-ca1a29914aec.mp3",
-      "audio/story-6c1eb7646bdf.mp3"
+      "audio/story-5dd05ee61cf0.mp3",
+      "audio/story-53703743edb6.mp3",
+      "audio/story-1635743f02c4.mp3",
+      "audio/story-92fb17d28f81.mp3"
     ]
   },
   {
     "id": "r-t26",
     "stage": 4,
     "topicId": 26,
-    "title": "以后的事情",
+    "title": "Ước mơ và mục tiêu tương lai",
     "mode": "study",
-    "knownPercent": 94,
+    "knownPercent": 93,
     "newWords": [
-      "老人",
-      "大人",
-      "体育"
+      "梦想",
+      "未来",
+      "目标",
+      "理想",
+      "坚持",
+      "实现"
     ],
     "paragraphs": [
       {
-        "hanzi": "小明是一个中学生，他常常想以后的事情。长大以后，他想去大学学习体育。他觉得体育可以帮助人们更健康。",
-        "vi": "Tiểu Minh là một học sinh trung học, cậu ấy thường nghĩ về chuyện sau này. Sau khi lớn lên, cậu ấy muốn đi đại học học thể thao. Cậu ấy cảm thấy thể thao có thể giúp mọi người khỏe mạnh hơn.",
+        "hanzi": "讨论结束后，Bao和小玲在公园一边散步，一边聊起了对未来的梦想。",
+        "vi": "Sau khi thảo luận xong, Bao và Tiểu Linh vừa đi dạo trong công viên vừa trò chuyện về ước mơ tương lai.",
         "tokens": [
           {
-            "w": "小明",
-            "pinyin": "xiǎo míng"
+            "w": "讨论",
+            "pinyin": "tǎo lùn"
           },
           {
-            "w": "是",
-            "pinyin": "shì"
+            "w": "结束",
+            "pinyin": "jié shù"
           },
           {
-            "w": "一",
-            "pinyin": "yī"
-          },
-          {
-            "w": "个",
-            "pinyin": "gè"
-          },
-          {
-            "w": "中学生",
-            "pinyin": "zhōng xué shēng"
+            "w": "后",
+            "pinyin": "hòu"
           },
           {
             "w": "，",
             "pinyin": ""
           },
           {
-            "w": "他",
-            "pinyin": "tā"
-          },
-          {
-            "w": "常常",
-            "pinyin": "cháng cháng"
-          },
-          {
-            "w": "想",
-            "pinyin": "xiǎng"
-          },
-          {
-            "w": "以后",
-            "pinyin": "yǐ hòu"
-          },
-          {
-            "w": "的",
-            "pinyin": "de"
-          },
-          {
-            "w": "事情",
-            "pinyin": "shì qing"
-          },
-          {
-            "w": "。",
+            "w": "Bao",
             "pinyin": ""
           },
           {
-            "w": "长大",
-            "pinyin": "zhǎng dà"
+            "w": "和",
+            "pinyin": "hé"
           },
           {
-            "w": "以后",
-            "pinyin": "yǐ hòu"
+            "w": "小",
+            "pinyin": "xiǎo"
+          },
+          {
+            "w": "玲",
+            "pinyin": "líng"
+          },
+          {
+            "w": "在",
+            "pinyin": "zài"
+          },
+          {
+            "w": "公园",
+            "pinyin": "gōng yuán"
+          },
+          {
+            "w": "一边",
+            "pinyin": "yī biān"
+          },
+          {
+            "w": "散步",
+            "pinyin": "sàn bù"
           },
           {
             "w": "，",
             "pinyin": ""
           },
           {
-            "w": "他",
-            "pinyin": "tā"
+            "w": "一边",
+            "pinyin": "yī biān"
           },
           {
-            "w": "想",
-            "pinyin": "xiǎng"
+            "w": "聊",
+            "pinyin": "liáo"
           },
           {
-            "w": "去",
-            "pinyin": "qù"
-          },
-          {
-            "w": "大学",
-            "pinyin": "dà xué"
-          },
-          {
-            "w": "学习",
-            "pinyin": "xué xí"
-          },
-          {
-            "w": "体育",
-            "pinyin": "tǐ yù",
-            "isNew": true
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          },
-          {
-            "w": "他",
-            "pinyin": "tā"
-          },
-          {
-            "w": "觉得",
-            "pinyin": "jué de"
-          },
-          {
-            "w": "体育",
-            "pinyin": "tǐ yù",
-            "isNew": true
-          },
-          {
-            "w": "可以",
-            "pinyin": "kě yǐ"
-          },
-          {
-            "w": "帮助",
-            "pinyin": "bāng zhù"
-          },
-          {
-            "w": "人们",
-            "pinyin": "rén men"
-          },
-          {
-            "w": "更",
-            "pinyin": "gèng"
-          },
-          {
-            "w": "健康",
-            "pinyin": "jiàn kāng"
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          }
-        ],
-        "audio": "audio/story-facfb2e239f7.mp3"
-      },
-      {
-        "hanzi": "王老师告诉大家，大人应该多关心老人。小明听了以后，觉得王老师说得对。他希望自己长大的时候，可以帮助很多老人。",
-        "vi": "Thầy Vương bảo mọi người rằng người lớn nên quan tâm nhiều hơn đến người già. Tiểu Minh nghe xong liền cảm thấy thầy Vương nói rất đúng. Cậu ấy hy vọng khi mình lớn lên, có thể giúp đỡ rất nhiều người già.",
-        "tokens": [
-          {
-            "w": "王老师",
-            "pinyin": "wáng lǎo shī"
-          },
-          {
-            "w": "告诉",
-            "pinyin": "gào sù"
-          },
-          {
-            "w": "大家",
-            "pinyin": "dà jiā"
-          },
-          {
-            "w": "，",
-            "pinyin": ""
-          },
-          {
-            "w": "大人",
-            "pinyin": "dà ren",
-            "isNew": true
-          },
-          {
-            "w": "应该",
-            "pinyin": "yīng gāi"
-          },
-          {
-            "w": "多",
-            "pinyin": "duō"
-          },
-          {
-            "w": "关心",
-            "pinyin": "guān xīn"
-          },
-          {
-            "w": "老人",
-            "pinyin": "lǎo rén",
-            "isNew": true
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          },
-          {
-            "w": "小明",
-            "pinyin": "xiǎo míng"
-          },
-          {
-            "w": "听",
-            "pinyin": "tīng"
+            "w": "起",
+            "pinyin": "qǐ"
           },
           {
             "w": "了",
             "pinyin": "le"
           },
           {
-            "w": "以后",
-            "pinyin": "yǐ hòu"
+            "w": "对",
+            "pinyin": "duì"
           },
           {
-            "w": "，",
+            "w": "未来",
+            "pinyin": "wèi lái",
+            "isNew": true
+          },
+          {
+            "w": "的",
+            "pinyin": "de"
+          },
+          {
+            "w": "梦想",
+            "pinyin": "mèng xiǎng",
+            "isNew": true
+          },
+          {
+            "w": "。",
             "pinyin": ""
-          },
+          }
+        ],
+        "audio": "audio/story-c41f7b8ec192.mp3"
+      },
+      {
+        "hanzi": "Bao说，刚来中国时他连点奶茶都紧张，但现在他的目标是成为中越文化交流的桥梁。",
+        "vi": "Bao nói lúc mới sang Trung Quốc ngay cả gọi trà sữa cậu cũng hồi hộp, nhưng giờ mục tiêu của cậu là trở thành cầu nối giao lưu văn hóa Việt-Trung.",
+        "tokens": [
           {
-            "w": "觉得",
-            "pinyin": "jué de"
-          },
-          {
-            "w": "王老师",
-            "pinyin": "wáng lǎo shī"
+            "w": "Bao",
+            "pinyin": ""
           },
           {
             "w": "说",
             "pinyin": "shuō"
           },
           {
-            "w": "得",
-            "pinyin": "de"
-          },
-          {
-            "w": "对",
-            "pinyin": "duì"
-          },
-          {
-            "w": "。",
+            "w": "，",
             "pinyin": ""
+          },
+          {
+            "w": "刚",
+            "pinyin": "gāng"
+          },
+          {
+            "w": "来",
+            "pinyin": "lái"
+          },
+          {
+            "w": "中国",
+            "pinyin": "Zhōng guó"
+          },
+          {
+            "w": "时",
+            "pinyin": "shí"
           },
           {
             "w": "他",
             "pinyin": "tā"
           },
           {
-            "w": "希望",
-            "pinyin": "xī wàng"
+            "w": "连",
+            "pinyin": "lián"
           },
           {
-            "w": "自己",
-            "pinyin": "zì jǐ"
+            "w": "点",
+            "pinyin": "diǎn"
           },
           {
-            "w": "长大",
-            "pinyin": "zhǎng dà"
-          },
-          {
-            "w": "的",
-            "pinyin": "de"
-          },
-          {
-            "w": "时候",
-            "pinyin": "shí hou"
-          },
-          {
-            "w": "，",
-            "pinyin": ""
-          },
-          {
-            "w": "可以",
-            "pinyin": "kě yǐ"
-          },
-          {
-            "w": "帮助",
-            "pinyin": "bāng zhù"
-          },
-          {
-            "w": "很",
-            "pinyin": "hěn"
-          },
-          {
-            "w": "多",
-            "pinyin": "duō"
-          },
-          {
-            "w": "老人",
-            "pinyin": "lǎo rén",
-            "isNew": true
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          }
-        ],
-        "audio": "audio/story-a2d586b065f9.mp3"
-      },
-      {
-        "hanzi": "小美也常常想以后的事情。她喜欢运动，也喜欢看体育比赛。每天放学以后，她都在学校里跑步。",
-        "vi": "Tiểu Mỹ cũng thường nghĩ về chuyện sau này. Cô ấy thích vận động, cũng thích xem các trận đấu thể thao. Mỗi ngày sau khi tan học, cô ấy đều chạy bộ ở trong trường học.",
-        "tokens": [
-          {
-            "w": "小美",
-            "pinyin": "xiǎo měi"
-          },
-          {
-            "w": "也",
-            "pinyin": "yě"
-          },
-          {
-            "w": "常常",
-            "pinyin": "cháng cháng"
-          },
-          {
-            "w": "想",
-            "pinyin": "xiǎng"
-          },
-          {
-            "w": "以后",
-            "pinyin": "yǐ hòu"
-          },
-          {
-            "w": "的",
-            "pinyin": "de"
-          },
-          {
-            "w": "事情",
-            "pinyin": "shì qing"
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          },
-          {
-            "w": "她",
-            "pinyin": "tā"
-          },
-          {
-            "w": "喜欢",
-            "pinyin": "xǐ huan"
-          },
-          {
-            "w": "运动",
-            "pinyin": "yùn dòng"
-          },
-          {
-            "w": "，",
-            "pinyin": ""
-          },
-          {
-            "w": "也",
-            "pinyin": "yě"
-          },
-          {
-            "w": "喜欢",
-            "pinyin": "xǐ huan"
-          },
-          {
-            "w": "看",
-            "pinyin": "kàn"
-          },
-          {
-            "w": "体育",
-            "pinyin": "tǐ yù",
-            "isNew": true
-          },
-          {
-            "w": "比赛",
-            "pinyin": "bǐ sài"
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          },
-          {
-            "w": "每",
-            "pinyin": "měi"
-          },
-          {
-            "w": "天",
-            "pinyin": "tiān"
-          },
-          {
-            "w": "放学",
-            "pinyin": "fàng xué"
-          },
-          {
-            "w": "以后",
-            "pinyin": "yǐ hòu"
-          },
-          {
-            "w": "，",
-            "pinyin": ""
-          },
-          {
-            "w": "她",
-            "pinyin": "tā"
+            "w": "奶茶",
+            "pinyin": "nǎi chá"
           },
           {
             "w": "都",
             "pinyin": "dōu"
           },
           {
-            "w": "在",
-            "pinyin": "zài"
+            "w": "紧张",
+            "pinyin": "jǐn zhāng"
           },
           {
-            "w": "学校",
-            "pinyin": "xué xiào"
-          },
-          {
-            "w": "里",
-            "pinyin": "lǐ"
-          },
-          {
-            "w": "跑步",
-            "pinyin": "pǎo bù"
-          },
-          {
-            "w": "。",
+            "w": "，",
             "pinyin": ""
-          }
-        ],
-        "audio": "audio/story-30e9f130b28c.mp3"
-      },
-      {
-        "hanzi": "大人常常问小美，长大以后想做什么工作。小美回答说，她想当一个体育老师。她希望以后能每天和学生在一起。",
-        "vi": "Người lớn thường hỏi Tiểu Mỹ rằng lớn lên muốn làm công việc gì. Tiểu Mỹ trả lời rằng cô ấy muốn làm giáo viên thể thao. Cô ấy hy vọng sau này có thể mỗi ngày ở cùng học sinh.",
-        "tokens": [
+          },
           {
-            "w": "大人",
-            "pinyin": "dà ren",
+            "w": "但",
+            "pinyin": "dàn"
+          },
+          {
+            "w": "现在",
+            "pinyin": "xiàn zài"
+          },
+          {
+            "w": "他",
+            "pinyin": "tā"
+          },
+          {
+            "w": "的",
+            "pinyin": "de"
+          },
+          {
+            "w": "目标",
+            "pinyin": "mù biāo",
             "isNew": true
-          },
-          {
-            "w": "常常",
-            "pinyin": "cháng cháng"
-          },
-          {
-            "w": "问",
-            "pinyin": "wèn"
-          },
-          {
-            "w": "小美",
-            "pinyin": "xiǎo měi"
-          },
-          {
-            "w": "，",
-            "pinyin": ""
-          },
-          {
-            "w": "长大",
-            "pinyin": "zhǎng dà"
-          },
-          {
-            "w": "以后",
-            "pinyin": "yǐ hòu"
-          },
-          {
-            "w": "想",
-            "pinyin": "xiǎng"
-          },
-          {
-            "w": "做",
-            "pinyin": "zuò"
-          },
-          {
-            "w": "什么",
-            "pinyin": "shén me"
-          },
-          {
-            "w": "工作",
-            "pinyin": "gōng zuò"
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          },
-          {
-            "w": "小美",
-            "pinyin": "xiǎo měi"
-          },
-          {
-            "w": "回答",
-            "pinyin": "huí dá"
-          },
-          {
-            "w": "说",
-            "pinyin": "shuō"
-          },
-          {
-            "w": "，",
-            "pinyin": ""
-          },
-          {
-            "w": "她",
-            "pinyin": "tā"
-          },
-          {
-            "w": "想",
-            "pinyin": "xiǎng"
-          },
-          {
-            "w": "当",
-            "pinyin": "dāng"
-          },
-          {
-            "w": "一",
-            "pinyin": "yī"
-          },
-          {
-            "w": "个体",
-            "pinyin": "gè tǐ"
-          },
-          {
-            "w": "育",
-            "pinyin": "yù"
-          },
-          {
-            "w": "老师",
-            "pinyin": "lǎo shī"
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          },
-          {
-            "w": "她",
-            "pinyin": "tā"
-          },
-          {
-            "w": "希望",
-            "pinyin": "xī wàng"
-          },
-          {
-            "w": "以后",
-            "pinyin": "yǐ hòu"
-          },
-          {
-            "w": "能",
-            "pinyin": "néng"
-          },
-          {
-            "w": "每",
-            "pinyin": "měi"
-          },
-          {
-            "w": "天",
-            "pinyin": "tiān"
-          },
-          {
-            "w": "和",
-            "pinyin": "hé"
-          },
-          {
-            "w": "学生",
-            "pinyin": "xué sheng"
-          },
-          {
-            "w": "在",
-            "pinyin": "zài"
-          },
-          {
-            "w": "一起",
-            "pinyin": "yī qǐ"
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          }
-        ],
-        "audio": "audio/story-f75089d53356.mp3"
-      },
-      {
-        "hanzi": "小明和小美是好朋友。他们常常一起努力学习，为了做好自己的事情。他们相信，只要努力，以后一定能好。",
-        "vi": "Tiểu Minh và Tiểu Mỹ là bạn tốt. Họ thường cùng nhau nỗ lực học tập để làm tốt việc của mình. Họ tin rằng chỉ cần nỗ lực, sau này nhất định sẽ tốt.",
-        "tokens": [
-          {
-            "w": "小明",
-            "pinyin": "xiǎo míng"
-          },
-          {
-            "w": "和",
-            "pinyin": "hé"
-          },
-          {
-            "w": "小美",
-            "pinyin": "xiǎo měi"
           },
           {
             "w": "是",
             "pinyin": "shì"
           },
           {
-            "w": "好",
-            "pinyin": "hǎo"
+            "w": "成",
+            "pinyin": "chéng"
           },
           {
-            "w": "朋友",
-            "pinyin": "péng you"
+            "w": "为",
+            "pinyin": "wèi"
+          },
+          {
+            "w": "中",
+            "pinyin": "zhōng"
+          },
+          {
+            "w": "越",
+            "pinyin": "yuè"
+          },
+          {
+            "w": "文化",
+            "pinyin": "wén huà"
+          },
+          {
+            "w": "交",
+            "pinyin": "jiāo"
+          },
+          {
+            "w": "流",
+            "pinyin": "liú"
+          },
+          {
+            "w": "的",
+            "pinyin": "de"
+          },
+          {
+            "w": "桥",
+            "pinyin": "qiáo"
+          },
+          {
+            "w": "梁",
+            "pinyin": "liáng"
           },
           {
             "w": "。",
             "pinyin": ""
+          }
+        ],
+        "audio": "audio/story-cb901421c04b.mp3"
+      },
+      {
+        "hanzi": "小玲也分享了自己的理想：她想开发一款好玩又实用的外语学习软件。",
+        "vi": "Tiểu Linh cũng chia sẻ lý tưởng của mình: cậu muốn phát triển một phần mềm học ngoại ngữ vừa vui vừa thiết thực.",
+        "tokens": [
+          {
+            "w": "小",
+            "pinyin": "xiǎo"
           },
           {
-            "w": "他们",
-            "pinyin": "tā men"
+            "w": "玲",
+            "pinyin": "líng"
           },
           {
-            "w": "常常",
-            "pinyin": "cháng cháng"
+            "w": "也",
+            "pinyin": "yě"
           },
           {
-            "w": "一起",
-            "pinyin": "yī qǐ"
+            "w": "分",
+            "pinyin": "fēn"
           },
           {
-            "w": "努力",
-            "pinyin": "nǔ lì"
+            "w": "享",
+            "pinyin": "xiǎng"
+          },
+          {
+            "w": "了",
+            "pinyin": "le"
+          },
+          {
+            "w": "自己",
+            "pinyin": "zì jǐ"
+          },
+          {
+            "w": "的",
+            "pinyin": "de"
+          },
+          {
+            "w": "理想",
+            "pinyin": "lǐ xiǎng",
+            "isNew": true
+          },
+          {
+            "w": "：",
+            "pinyin": ""
+          },
+          {
+            "w": "她",
+            "pinyin": "tā"
+          },
+          {
+            "w": "想",
+            "pinyin": "xiǎng"
+          },
+          {
+            "w": "开",
+            "pinyin": "kāi"
+          },
+          {
+            "w": "发",
+            "pinyin": "fā"
+          },
+          {
+            "w": "一",
+            "pinyin": "yī"
+          },
+          {
+            "w": "款",
+            "pinyin": "kuǎn"
+          },
+          {
+            "w": "好",
+            "pinyin": "hǎo"
+          },
+          {
+            "w": "玩",
+            "pinyin": "wán"
+          },
+          {
+            "w": "又",
+            "pinyin": "yòu"
+          },
+          {
+            "w": "实",
+            "pinyin": "shí"
+          },
+          {
+            "w": "用",
+            "pinyin": "yòng"
+          },
+          {
+            "w": "的",
+            "pinyin": "de"
+          },
+          {
+            "w": "外语",
+            "pinyin": "wài yǔ"
           },
           {
             "w": "学习",
             "pinyin": "xué xí"
           },
           {
-            "w": "，",
+            "w": "软件",
+            "pinyin": "ruǎn jiàn"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ],
+        "audio": "audio/story-6d25641ff041.mp3"
+      },
+      {
+        "hanzi": "两个人互相鼓励：「为了实现梦想，只要每天坚持努力，未来一定会越来越好！」",
+        "vi": "Cả hai động viên nhau: 'Để thực hiện ước mơ, chỉ cần mỗi ngày kiên trì nỗ lực, tương lai nhất định sẽ ngày càng tốt đẹp!'",
+        "tokens": [
+          {
+            "w": "两",
+            "pinyin": "liǎng"
+          },
+          {
+            "w": "个",
+            "pinyin": "gè"
+          },
+          {
+            "w": "人",
+            "pinyin": "rén"
+          },
+          {
+            "w": "互",
+            "pinyin": "hù"
+          },
+          {
+            "w": "相",
+            "pinyin": "xiāng"
+          },
+          {
+            "w": "鼓",
+            "pinyin": "gǔ"
+          },
+          {
+            "w": "励",
+            "pinyin": "lì"
+          },
+          {
+            "w": "：「",
             "pinyin": ""
           },
           {
@@ -1292,36 +955,14 @@
             "pinyin": "wèi le"
           },
           {
-            "w": "做",
-            "pinyin": "zuò"
+            "w": "实现",
+            "pinyin": "shí xiàn",
+            "isNew": true
           },
           {
-            "w": "好",
-            "pinyin": "hǎo"
-          },
-          {
-            "w": "自己",
-            "pinyin": "zì jǐ"
-          },
-          {
-            "w": "的",
-            "pinyin": "de"
-          },
-          {
-            "w": "事情",
-            "pinyin": "shì qing"
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          },
-          {
-            "w": "他们",
-            "pinyin": "tā men"
-          },
-          {
-            "w": "相信",
-            "pinyin": "xiāng xìn"
+            "w": "梦想",
+            "pinyin": "mèng xiǎng",
+            "isNew": true
           },
           {
             "w": "，",
@@ -1332,6 +973,19 @@
             "pinyin": "zhǐ yào"
           },
           {
+            "w": "每",
+            "pinyin": "měi"
+          },
+          {
+            "w": "天",
+            "pinyin": "tiān"
+          },
+          {
+            "w": "坚持",
+            "pinyin": "jiān chí",
+            "isNew": true
+          },
+          {
             "w": "努力",
             "pinyin": "nǔ lì"
           },
@@ -1340,532 +994,125 @@
             "pinyin": ""
           },
           {
-            "w": "以后",
-            "pinyin": "yǐ hòu"
+            "w": "未来",
+            "pinyin": "wèi lái",
+            "isNew": true
           },
           {
             "w": "一定",
             "pinyin": "yī dìng"
           },
           {
-            "w": "能",
-            "pinyin": "néng"
+            "w": "会",
+            "pinyin": "huì"
+          },
+          {
+            "w": "越来越",
+            "pinyin": "yuè lái yuè"
           },
           {
             "w": "好",
             "pinyin": "hǎo"
           },
           {
-            "w": "。",
+            "w": "！」",
             "pinyin": ""
           }
         ],
-        "audio": "audio/story-4513e5ca9bc9.mp3"
+        "audio": "audio/story-f42caa2163ea.mp3"
       }
     ],
     "questions": [
       {
-        "id": "rq26-1",
+        "id": "q-r26-1",
         "type": "mcq",
-        "q": "小明长大以后想去哪里学习？",
+        "q": "Mục tiêu của Bao hiện tại là gì?",
         "options": [
-          "大学学习体育",
-          "医院工作"
+          "Trở thành cầu nối giao lưu văn hóa Việt-Trung",
+          "Mở một tiệm bán giày",
+          "Làm tài xế tàu cao tốc",
+          "Chuyển sang sống ở nông thôn"
         ],
         "answer": 0,
-        "explainVi": "Bài đọc viết: 长大以后，他想去大学学习体育。"
+        "explainVi": "Đoạn 2 nêu rõ: '他的目标是成为中越文化交流的桥梁'."
       },
       {
-        "id": "rq26-2",
+        "id": "q-r26-2",
+        "type": "mcq",
+        "q": "Lý tưởng của Tiểu Linh là gì?",
+        "options": [
+          "Phát triển phần mềm học ngoại ngữ vui và thiết thực",
+          "Trở thành ca sĩ nổi tiếng",
+          "Đi du lịch quanh thế giới một mình",
+          "Mở quán trà sữa"
+        ],
+        "answer": 0,
+        "explainVi": "Đoạn 3: '她想开发一款好玩又实用的外语学习软件'."
+      },
+      {
+        "id": "q-r26-3",
         "type": "tf",
-        "q": "王老师告诉大家，大人应该多关心老人。",
+        "q": "Hai bạn tin rằng chỉ cần mỗi ngày kiên trì nỗ lực sẽ thực hiện được ước mơ.",
         "options": [
-          "正确",
-          "错误"
+          "Đúng",
+          "Sai"
         ],
         "answer": 0,
-        "explainVi": "Bài đọc viết: 王老师告诉大家，大人应该多关心老人。"
-      },
-      {
-        "id": "rq26-3",
-        "type": "detail",
-        "q": "小美想做什么工作？",
-        "options": [
-          "体育老师",
-          "医生"
-        ],
-        "answer": 0,
-        "explainVi": "Bài đọc viết: 她想当一个体育老师。"
+        "explainVi": "Đoạn 4: '只要每天坚持努力，未来一定会越来越好！'."
       }
     ],
-    "audioFull": "audio/story-77992e33579f.mp3",
+    "audioFull": "audio/story-d718c1a8d896.mp3",
     "audioSentences": [
-      "audio/story-facfb2e239f7.mp3",
-      "audio/story-a2d586b065f9.mp3",
-      "audio/story-30e9f130b28c.mp3",
-      "audio/story-f75089d53356.mp3",
-      "audio/story-4513e5ca9bc9.mp3"
+      "audio/story-c41f7b8ec192.mp3",
+      "audio/story-cb901421c04b.mp3",
+      "audio/story-6d25641ff041.mp3",
+      "audio/story-f42caa2163ea.mp3"
     ]
   },
   {
     "id": "r-t27",
     "stage": 4,
     "topicId": 27,
-    "title": "人工智能在生活中的作用",
-    "mode": "fluent",
-    "knownPercent": 91,
+    "title": "Công nghệ thông minh giúp học tiếng Trung",
+    "mode": "study",
+    "knownPercent": 92,
     "newWords": [
+      "科技",
       "人工智能",
-      "放心"
+      "软件",
+      "智能",
+      "效率",
+      "数据"
     ],
     "paragraphs": [
       {
-        "hanzi": "现在人工智能非常多，人们常常在家里使用电脑和手机。小明每天上完学回家，都会打开电脑跟人工智能聊天。人工智能不但会回答他的问题，而且还会帮他做很多事情。",
-        "vi": "Hiện nay trí tuệ nhân tạo rất nhiều, mọi người thường sử dụng máy tính và điện thoại ở nhà. Tiểu Minh mỗi ngày đi học về nhà, đều sẽ mở máy tính trò chuyện với trí tuệ nhân tạo. Trí tuệ nhân tạo không chỉ biết trả lời câu hỏi của cậu ấy, mà còn giúp cậu ấy làm rất nhiều việc.",
+        "hanzi": "近年来，科技和人工智能发展非常快，给我们的学习带来了很大影响。",
+        "vi": "Những năm gần đây, công nghệ và trí tuệ nhân tạo phát triển rất nhanh, mang lại ảnh hưởng lớn cho việc học của chúng ta.",
         "tokens": [
           {
-            "w": "现在",
-            "pinyin": "xiàn zài"
+            "w": "近",
+            "pinyin": "jìn"
           },
           {
-            "w": "人工智能",
-            "pinyin": "rén gōng zhì néng",
-            "isNew": true
-          },
-          {
-            "w": "非常",
-            "pinyin": "fēi cháng"
-          },
-          {
-            "w": "多",
-            "pinyin": "duō"
-          },
-          {
-            "w": "，",
-            "pinyin": ""
-          },
-          {
-            "w": "人们",
-            "pinyin": "rén men"
-          },
-          {
-            "w": "常常",
-            "pinyin": "cháng cháng"
-          },
-          {
-            "w": "在家",
-            "pinyin": "zài jiā"
-          },
-          {
-            "w": "里",
-            "pinyin": "lǐ"
-          },
-          {
-            "w": "使用",
-            "pinyin": "shǐ yòng"
-          },
-          {
-            "w": "电脑",
-            "pinyin": "diàn nǎo"
-          },
-          {
-            "w": "和",
-            "pinyin": "hé"
-          },
-          {
-            "w": "手机",
-            "pinyin": "shǒu jī"
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          },
-          {
-            "w": "小明",
-            "pinyin": "xiǎo míng"
-          },
-          {
-            "w": "每",
-            "pinyin": "měi"
-          },
-          {
-            "w": "天上",
-            "pinyin": "tiān shàng"
-          },
-          {
-            "w": "完",
-            "pinyin": "wán"
-          },
-          {
-            "w": "学",
-            "pinyin": "xué"
-          },
-          {
-            "w": "回家",
-            "pinyin": "huí jiā"
-          },
-          {
-            "w": "，",
-            "pinyin": ""
-          },
-          {
-            "w": "都会",
-            "pinyin": "dū huì"
-          },
-          {
-            "w": "打开",
-            "pinyin": "dǎ kāi"
-          },
-          {
-            "w": "电脑",
-            "pinyin": "diàn nǎo"
-          },
-          {
-            "w": "跟",
-            "pinyin": "gēn"
-          },
-          {
-            "w": "人工智能",
-            "pinyin": "rén gōng zhì néng",
-            "isNew": true
-          },
-          {
-            "w": "聊天",
-            "pinyin": "liáo tiān"
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          },
-          {
-            "w": "人工智能",
-            "pinyin": "rén gōng zhì néng",
-            "isNew": true
-          },
-          {
-            "w": "不但",
-            "pinyin": "bù dàn"
-          },
-          {
-            "w": "会",
-            "pinyin": "huì"
-          },
-          {
-            "w": "回答",
-            "pinyin": "huí dá"
-          },
-          {
-            "w": "他",
-            "pinyin": "tā"
-          },
-          {
-            "w": "的",
-            "pinyin": "de"
-          },
-          {
-            "w": "问题",
-            "pinyin": "wèn tí"
-          },
-          {
-            "w": "，",
-            "pinyin": ""
-          },
-          {
-            "w": "而且",
-            "pinyin": "ér qiě"
-          },
-          {
-            "w": "还",
-            "pinyin": "hái"
-          },
-          {
-            "w": "会",
-            "pinyin": "huì"
-          },
-          {
-            "w": "帮",
-            "pinyin": "bāng"
-          },
-          {
-            "w": "他",
-            "pinyin": "tā"
-          },
-          {
-            "w": "做",
-            "pinyin": "zuò"
-          },
-          {
-            "w": "很",
-            "pinyin": "hěn"
-          },
-          {
-            "w": "多",
-            "pinyin": "duō"
-          },
-          {
-            "w": "事情",
-            "pinyin": "shì qing"
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          }
-        ],
-        "audio": "audio/story-a292d27c028c.mp3"
-      },
-      {
-        "hanzi": "小美是一个中学生，她周末常常在网上看新闻。人工智能可以根据她的兴趣，找到很多有趣的书和电影。小美觉得有了人工智能以后，生活变得非常方便。",
-        "vi": "Tiểu Mỹ là một học sinh trung học, cô ấy cuối tuần thường xem tin tức trên mạng. Trí tuệ nhân tạo có thể dựa theo sở thích của cô ấy, tìm thấy rất nhiều sách và phim hay. Tiểu Mỹ cảm thấy sau khi có trí tuệ nhân tạo, cuộc sống trở nên vô cùng thuận tiện.",
-        "tokens": [
-          {
-            "w": "小美",
-            "pinyin": "xiǎo měi"
-          },
-          {
-            "w": "是",
-            "pinyin": "shì"
-          },
-          {
-            "w": "一",
-            "pinyin": "yī"
-          },
-          {
-            "w": "个",
-            "pinyin": "gè"
-          },
-          {
-            "w": "中学生",
-            "pinyin": "zhōng xué shēng"
-          },
-          {
-            "w": "，",
-            "pinyin": ""
-          },
-          {
-            "w": "她",
-            "pinyin": "tā"
-          },
-          {
-            "w": "周末",
-            "pinyin": "zhōu mò"
-          },
-          {
-            "w": "常常",
-            "pinyin": "cháng cháng"
-          },
-          {
-            "w": "在",
-            "pinyin": "zài"
-          },
-          {
-            "w": "网上",
-            "pinyin": "wǎng shàng"
-          },
-          {
-            "w": "看",
-            "pinyin": "kàn"
-          },
-          {
-            "w": "新闻",
-            "pinyin": "xīn wén"
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          },
-          {
-            "w": "人工智能",
-            "pinyin": "rén gōng zhì néng",
-            "isNew": true
-          },
-          {
-            "w": "可以",
-            "pinyin": "kě yǐ"
-          },
-          {
-            "w": "根据",
-            "pinyin": "gēn jù"
-          },
-          {
-            "w": "她",
-            "pinyin": "tā"
-          },
-          {
-            "w": "的",
-            "pinyin": "de"
-          },
-          {
-            "w": "兴趣",
-            "pinyin": "xìng qù"
-          },
-          {
-            "w": "，",
-            "pinyin": ""
-          },
-          {
-            "w": "找到",
-            "pinyin": "zhǎo dào"
-          },
-          {
-            "w": "很",
-            "pinyin": "hěn"
-          },
-          {
-            "w": "多",
-            "pinyin": "duō"
-          },
-          {
-            "w": "有趣",
-            "pinyin": "yǒu qù"
-          },
-          {
-            "w": "的",
-            "pinyin": "de"
-          },
-          {
-            "w": "书",
-            "pinyin": "shū"
-          },
-          {
-            "w": "和",
-            "pinyin": "hé"
-          },
-          {
-            "w": "电影",
-            "pinyin": "diàn yǐng"
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          },
-          {
-            "w": "小美",
-            "pinyin": "xiǎo měi"
-          },
-          {
-            "w": "觉得",
-            "pinyin": "jué de"
-          },
-          {
-            "w": "有",
-            "pinyin": "yǒu"
-          },
-          {
-            "w": "了",
-            "pinyin": "le"
-          },
-          {
-            "w": "人工智能",
-            "pinyin": "rén gōng zhì néng",
-            "isNew": true
-          },
-          {
-            "w": "以后",
-            "pinyin": "yǐ hòu"
-          },
-          {
-            "w": "，",
-            "pinyin": ""
-          },
-          {
-            "w": "生活",
-            "pinyin": "shēng huó"
-          },
-          {
-            "w": "变",
-            "pinyin": "biàn"
-          },
-          {
-            "w": "得",
-            "pinyin": "de"
-          },
-          {
-            "w": "非常",
-            "pinyin": "fēi cháng"
-          },
-          {
-            "w": "方便",
-            "pinyin": "fāng biàn"
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          }
-        ],
-        "audio": "audio/story-aadb94c473bc.mp3"
-      },
-      {
-        "hanzi": "王老师在学校教汉语，她也常常使用人工智能来准备课文。王老师认为人工智能很好，可以帮老师们用很多时间。同学们上课的时候也常常用人工智能练习。",
-        "vi": "Thầy Vương ở trường dạy tiếng Hán, cô ấy cũng thường sử dụng trí tuệ nhân tạo để chuẩn bị bài khóa. Cô ấy cho rằng trí tuệ nhân tạo rất tốt, có thể giúp các thầy cô dùng nhiều thời gian. Các bạn học sinh lúc lên lớp cũng thường dùng trí tuệ nhân tạo luyện tập.",
-        "tokens": [
-          {
-            "w": "王老师",
-            "pinyin": "wáng lǎo shī"
-          },
-          {
-            "w": "在",
-            "pinyin": "zài"
-          },
-          {
-            "w": "学校",
-            "pinyin": "xué xiào"
-          },
-          {
-            "w": "教",
-            "pinyin": "jiào"
-          },
-          {
-            "w": "汉语",
-            "pinyin": "Hàn yǔ"
-          },
-          {
-            "w": "，",
-            "pinyin": ""
-          },
-          {
-            "w": "她",
-            "pinyin": "tā"
-          },
-          {
-            "w": "也",
-            "pinyin": "yě"
-          },
-          {
-            "w": "常常",
-            "pinyin": "cháng cháng"
-          },
-          {
-            "w": "使用",
-            "pinyin": "shǐ yòng"
-          },
-          {
-            "w": "人工智能",
-            "pinyin": "rén gōng zhì néng",
-            "isNew": true
+            "w": "年",
+            "pinyin": "nián"
           },
           {
             "w": "来",
             "pinyin": "lái"
           },
           {
-            "w": "准备",
-            "pinyin": "zhǔn bèi"
-          },
-          {
-            "w": "课文",
-            "pinyin": "kè wén"
-          },
-          {
-            "w": "。",
+            "w": "，",
             "pinyin": ""
           },
           {
-            "w": "王老师",
-            "pinyin": "wáng lǎo shī"
+            "w": "科技",
+            "pinyin": "kē jì",
+            "isNew": true
           },
           {
-            "w": "认为",
-            "pinyin": "rèn wéi"
+            "w": "和",
+            "pinyin": "hé"
           },
           {
             "w": "人工智能",
@@ -1873,198 +1120,12 @@
             "isNew": true
           },
           {
-            "w": "很",
-            "pinyin": "hěn"
+            "w": "发展",
+            "pinyin": "fā zhǎn"
           },
           {
-            "w": "好",
-            "pinyin": "hǎo"
-          },
-          {
-            "w": "，",
-            "pinyin": ""
-          },
-          {
-            "w": "可以",
-            "pinyin": "kě yǐ"
-          },
-          {
-            "w": "帮",
-            "pinyin": "bāng"
-          },
-          {
-            "w": "老师",
-            "pinyin": "lǎo shī"
-          },
-          {
-            "w": "们",
-            "pinyin": "men"
-          },
-          {
-            "w": "用",
-            "pinyin": "yòng"
-          },
-          {
-            "w": "很",
-            "pinyin": "hěn"
-          },
-          {
-            "w": "多",
-            "pinyin": "duō"
-          },
-          {
-            "w": "时间",
-            "pinyin": "shí jiān"
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          },
-          {
-            "w": "同学",
-            "pinyin": "tóng xué"
-          },
-          {
-            "w": "们",
-            "pinyin": "men"
-          },
-          {
-            "w": "上课",
-            "pinyin": "shàng kè"
-          },
-          {
-            "w": "的",
-            "pinyin": "de"
-          },
-          {
-            "w": "时候",
-            "pinyin": "shí hou"
-          },
-          {
-            "w": "也",
-            "pinyin": "yě"
-          },
-          {
-            "w": "常常",
-            "pinyin": "cháng cháng"
-          },
-          {
-            "w": "用人",
-            "pinyin": "yòng rén"
-          },
-          {
-            "w": "工",
-            "pinyin": "gōng"
-          },
-          {
-            "w": "智能",
-            "pinyin": "zhì néng"
-          },
-          {
-            "w": "练习",
-            "pinyin": "liàn xí"
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          }
-        ],
-        "audio": "audio/story-bc92c7660084.mp3"
-      },
-      {
-        "hanzi": "可是有些人担心人工智能会影响人们的工作，觉得不太放心。王老师告诉大家，人工智能虽然很快，但是不能不小心。只要我们好好学习，就不用害怕人工智能。",
-        "vi": "Nhưng có một số người lo lắng trí tuệ nhân tạo sẽ ảnh hưởng đến công việc của mọi người, cảm thấy không yên tâm lắm. Thầy Vương bảo mọi người rằng, trí tuệ nhân tạo tuy rất nhanh, nhưng không thể không cẩn thận. Chỉ cần chúng ta học tập thật tốt, thì không phải sợ trí tuệ nhân tạo.",
-        "tokens": [
-          {
-            "w": "可是",
-            "pinyin": "kě shì"
-          },
-          {
-            "w": "有些",
-            "pinyin": "yǒu xiē"
-          },
-          {
-            "w": "人",
-            "pinyin": "rén"
-          },
-          {
-            "w": "担心",
-            "pinyin": "dān xīn"
-          },
-          {
-            "w": "人工智能",
-            "pinyin": "rén gōng zhì néng",
-            "isNew": true
-          },
-          {
-            "w": "会",
-            "pinyin": "huì"
-          },
-          {
-            "w": "影响",
-            "pinyin": "yǐng xiǎng"
-          },
-          {
-            "w": "人们",
-            "pinyin": "rén men"
-          },
-          {
-            "w": "的",
-            "pinyin": "de"
-          },
-          {
-            "w": "工作",
-            "pinyin": "gōng zuò"
-          },
-          {
-            "w": "，",
-            "pinyin": ""
-          },
-          {
-            "w": "觉得",
-            "pinyin": "jué de"
-          },
-          {
-            "w": "不太",
-            "pinyin": "bù tài"
-          },
-          {
-            "w": "放心",
-            "pinyin": "fàng xīn",
-            "isNew": true
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          },
-          {
-            "w": "王老师",
-            "pinyin": "wáng lǎo shī"
-          },
-          {
-            "w": "告诉",
-            "pinyin": "gào sù"
-          },
-          {
-            "w": "大家",
-            "pinyin": "dà jiā"
-          },
-          {
-            "w": "，",
-            "pinyin": ""
-          },
-          {
-            "w": "人工智能",
-            "pinyin": "rén gōng zhì néng",
-            "isNew": true
-          },
-          {
-            "w": "虽然",
-            "pinyin": "suī rán"
-          },
-          {
-            "w": "很",
-            "pinyin": "hěn"
+            "w": "非常",
+            "pinyin": "fēi cháng"
           },
           {
             "w": "快",
@@ -2075,754 +1136,595 @@
             "pinyin": ""
           },
           {
-            "w": "但是",
-            "pinyin": "dàn shì"
-          },
-          {
-            "w": "不能不",
-            "pinyin": "bù néng bù"
-          },
-          {
-            "w": "小心",
-            "pinyin": "xiǎo xīn"
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          },
-          {
-            "w": "只要",
-            "pinyin": "zhǐ yào"
+            "w": "给",
+            "pinyin": "gěi"
           },
           {
             "w": "我们",
             "pinyin": "wǒ men"
           },
           {
-            "w": "好好",
-            "pinyin": "hǎo hǎo"
+            "w": "的",
+            "pinyin": "de"
           },
           {
             "w": "学习",
             "pinyin": "xué xí"
           },
           {
-            "w": "，",
-            "pinyin": ""
+            "w": "带来",
+            "pinyin": "dài lái"
           },
           {
-            "w": "就",
-            "pinyin": "jiù"
-          },
-          {
-            "w": "不用",
-            "pinyin": "bù yòng"
-          },
-          {
-            "w": "害怕",
-            "pinyin": "hài pà"
-          },
-          {
-            "w": "人工智能",
-            "pinyin": "rén gōng zhì néng",
-            "isNew": true
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          }
-        ],
-        "audio": "audio/story-524bc3216c63.mp3"
-      },
-      {
-        "hanzi": "Bao觉得人工智能的发展对世界很有用，大家都应该了解它。爸爸妈妈也认为人工智能很安全，让Bao放心使用。有了人工智能的帮助，我们的生活一定会更好。",
-        "vi": "Bao cảm thấy sự phát triển của trí tuệ nhân tạo rất hữu ích đối với thế giới, mọi người đều nên hiểu về nó. Bố mẹ cũng cho rằng trí tuệ nhân tạo rất an toàn, để Bao yên tâm sử dụng. Có sự giúp đỡ của trí tuệ nhân tạo, cuộc sống của chúng ta nhất định sẽ tốt hơn.",
-        "tokens": [
-          {
-            "w": "Bao",
-            "pinyin": ""
-          },
-          {
-            "w": "觉得",
-            "pinyin": "jué de"
-          },
-          {
-            "w": "人工智能",
-            "pinyin": "rén gōng zhì néng",
-            "isNew": true
-          },
-          {
-            "w": "的",
-            "pinyin": "de"
-          },
-          {
-            "w": "发展",
-            "pinyin": "fā zhǎn"
-          },
-          {
-            "w": "对",
-            "pinyin": "duì"
-          },
-          {
-            "w": "世界",
-            "pinyin": "shì jiè"
+            "w": "了",
+            "pinyin": "le"
           },
           {
             "w": "很",
             "pinyin": "hěn"
           },
           {
-            "w": "有用",
-            "pinyin": "yǒu yòng"
+            "w": "大",
+            "pinyin": "dà"
           },
           {
-            "w": "，",
+            "w": "影响",
+            "pinyin": "yǐng xiǎng"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ],
+        "audio": "audio/story-a6a53433ed18.mp3"
+      },
+      {
+        "hanzi": "Bao每天都会在智能手机上打开学习软件，按科学间隔复习生词和例句。",
+        "vi": "Mỗi ngày Bao đều mở ứng dụng học tập trên điện thoại thông minh, ôn từ mới và câu ví dụ theo chu kỳ khoa học.",
+        "tokens": [
+          {
+            "w": "Bao",
             "pinyin": ""
           },
           {
-            "w": "大家",
-            "pinyin": "dà jiā"
+            "w": "每",
+            "pinyin": "měi"
+          },
+          {
+            "w": "天",
+            "pinyin": "tiān"
           },
           {
             "w": "都",
             "pinyin": "dōu"
           },
           {
-            "w": "应该",
-            "pinyin": "yīng gāi"
-          },
-          {
-            "w": "了解",
-            "pinyin": "liǎo jiě"
-          },
-          {
-            "w": "它",
-            "pinyin": "tā"
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          },
-          {
-            "w": "爸爸",
-            "pinyin": "bà ba"
-          },
-          {
-            "w": "妈妈",
-            "pinyin": "mā ma"
-          },
-          {
-            "w": "也",
-            "pinyin": "yě"
-          },
-          {
-            "w": "认为",
-            "pinyin": "rèn wéi"
-          },
-          {
-            "w": "人工智能",
-            "pinyin": "rén gōng zhì néng",
-            "isNew": true
-          },
-          {
-            "w": "很",
-            "pinyin": "hěn"
-          },
-          {
-            "w": "安全",
-            "pinyin": "ān quán"
-          },
-          {
-            "w": "，",
-            "pinyin": ""
-          },
-          {
-            "w": "让",
-            "pinyin": "ràng"
-          },
-          {
-            "w": "Bao",
-            "pinyin": ""
-          },
-          {
-            "w": "放心",
-            "pinyin": "fàng xīn",
-            "isNew": true
-          },
-          {
-            "w": "使用",
-            "pinyin": "shǐ yòng"
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          },
-          {
-            "w": "有",
-            "pinyin": "yǒu"
-          },
-          {
-            "w": "了",
-            "pinyin": "le"
-          },
-          {
-            "w": "人工智能",
-            "pinyin": "rén gōng zhì néng",
-            "isNew": true
-          },
-          {
-            "w": "的",
-            "pinyin": "de"
-          },
-          {
-            "w": "帮助",
-            "pinyin": "bāng zhù"
-          },
-          {
-            "w": "，",
-            "pinyin": ""
-          },
-          {
-            "w": "我们",
-            "pinyin": "wǒ men"
-          },
-          {
-            "w": "的",
-            "pinyin": "de"
-          },
-          {
-            "w": "生活",
-            "pinyin": "shēng huó"
-          },
-          {
-            "w": "一定",
-            "pinyin": "yī dìng"
-          },
-          {
             "w": "会",
             "pinyin": "huì"
-          },
-          {
-            "w": "更",
-            "pinyin": "gèng"
-          },
-          {
-            "w": "好",
-            "pinyin": "hǎo"
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          }
-        ],
-        "audio": "audio/story-72645452e498.mp3"
-      }
-    ],
-    "questions": [
-      {
-        "id": "rq27-1",
-        "type": "mcq",
-        "q": "小明每天回家后做什么？",
-        "options": [
-          "打开电脑跟人工智能聊天",
-          "去商店买东西"
-        ],
-        "answer": 0,
-        "explainVi": "Trích dẫn câu trong bài: '小明每天上完学回家，都会打开电脑跟人工智能聊天。'"
-      },
-      {
-        "id": "rq27-2",
-        "type": "tf",
-        "q": "王老师认为人工智能好吗？",
-        "options": [
-          "对",
-          "错"
-        ],
-        "answer": 0,
-        "explainVi": "Trích dẫn câu trong bài: '王老师认为人工智能很好，可以帮老师们用很多时间。'"
-      },
-      {
-        "id": "rq27-3",
-        "type": "detail",
-        "q": "为什么有些人会担心人工智能？",
-        "options": [
-          "因为担心人工智能会影响人们的工作",
-          "因为人工智能不好玩"
-        ],
-        "answer": 0,
-        "explainVi": "Trích dẫn câu trong bài: '可是有些人担心人工智能会影响人们的工作，觉得不太放心。'"
-      }
-    ],
-    "audioFull": "audio/story-31860c8599e1.mp3",
-    "audioSentences": [
-      "audio/story-a292d27c028c.mp3",
-      "audio/story-aadb94c473bc.mp3",
-      "audio/story-bc92c7660084.mp3",
-      "audio/story-524bc3216c63.mp3",
-      "audio/story-72645452e498.mp3"
-    ]
-  },
-  {
-    "id": "r-t28",
-    "stage": 4,
-    "topicId": 28,
-    "title": "一些小事",
-    "mode": "study",
-    "knownPercent": 93,
-    "newWords": [
-      "原谅",
-      "感谢",
-      "安静"
-    ],
-    "paragraphs": [
-      {
-        "hanzi": "今天小明去王老师的办公室。他有很多作业不会做，想请王老师帮一下儿忙。王老师觉得这些作业不太难，就一点点教他怎么做。",
-        "vi": "Hôm nay Tiểu Minh đến văn phòng thầy Vương. Cậu ấy có nhiều bài tập không biết làm, muốn nhờ thầy Vương giúp một chút. Thầy Vương cảm thấy những bài tập này không quá khó, liền từng chút một dạy cậu ấy cách làm.",
-        "tokens": [
-          {
-            "w": "今天",
-            "pinyin": "jīn tiān"
-          },
-          {
-            "w": "小明",
-            "pinyin": "xiǎo míng"
-          },
-          {
-            "w": "去",
-            "pinyin": "qù"
-          },
-          {
-            "w": "王老师",
-            "pinyin": "wáng lǎo shī"
-          },
-          {
-            "w": "的",
-            "pinyin": "de"
-          },
-          {
-            "w": "办公室",
-            "pinyin": "bàn gōng shì"
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          },
-          {
-            "w": "他",
-            "pinyin": "tā"
-          },
-          {
-            "w": "有",
-            "pinyin": "yǒu"
-          },
-          {
-            "w": "很",
-            "pinyin": "hěn"
-          },
-          {
-            "w": "多",
-            "pinyin": "duō"
-          },
-          {
-            "w": "作业",
-            "pinyin": "zuò yè"
-          },
-          {
-            "w": "不",
-            "pinyin": "bù"
-          },
-          {
-            "w": "会",
-            "pinyin": "huì"
-          },
-          {
-            "w": "做",
-            "pinyin": "zuò"
-          },
-          {
-            "w": "，",
-            "pinyin": ""
-          },
-          {
-            "w": "想",
-            "pinyin": "xiǎng"
-          },
-          {
-            "w": "请",
-            "pinyin": "qǐng"
-          },
-          {
-            "w": "王老师",
-            "pinyin": "wáng lǎo shī"
-          },
-          {
-            "w": "帮",
-            "pinyin": "bāng"
-          },
-          {
-            "w": "一下儿",
-            "pinyin": "yī xià r"
-          },
-          {
-            "w": "忙",
-            "pinyin": "máng"
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          },
-          {
-            "w": "王老师",
-            "pinyin": "wáng lǎo shī"
-          },
-          {
-            "w": "觉得",
-            "pinyin": "jué de"
-          },
-          {
-            "w": "这些",
-            "pinyin": "zhè xiē"
-          },
-          {
-            "w": "作业",
-            "pinyin": "zuò yè"
-          },
-          {
-            "w": "不太",
-            "pinyin": "bù tài"
-          },
-          {
-            "w": "难",
-            "pinyin": "nán"
-          },
-          {
-            "w": "，",
-            "pinyin": ""
-          },
-          {
-            "w": "就",
-            "pinyin": "jiù"
-          },
-          {
-            "w": "一点点",
-            "pinyin": "yī diǎn diǎn"
-          },
-          {
-            "w": "教",
-            "pinyin": "jiào"
-          },
-          {
-            "w": "他",
-            "pinyin": "tā"
-          },
-          {
-            "w": "怎么",
-            "pinyin": "zěn me"
-          },
-          {
-            "w": "做",
-            "pinyin": "zuò"
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          }
-        ],
-        "audio": "audio/story-87b1353f18a0.mp3"
-      },
-      {
-        "hanzi": "做完作业以后，小明对王老师说感谢。王老师觉得小明很认真，他也很感谢小明努力学习。王老师希望小明以后能更努力。",
-        "vi": "Sau khi làm xong bài tập, Tiểu Minh nói cảm ơn thầy Vương. Thầy Vương cảm thấy Tiểu Minh rất chăm chỉ, thầy cũng cảm ơn Tiểu Minh đã nỗ lực học tập. Thầy Vương hy vọng Tiểu Minh sau này có thể cố gắng hơn nữa.",
-        "tokens": [
-          {
-            "w": "做",
-            "pinyin": "zuò"
-          },
-          {
-            "w": "完",
-            "pinyin": "wán"
-          },
-          {
-            "w": "作业",
-            "pinyin": "zuò yè"
-          },
-          {
-            "w": "以后",
-            "pinyin": "yǐ hòu"
-          },
-          {
-            "w": "，",
-            "pinyin": ""
-          },
-          {
-            "w": "小明",
-            "pinyin": "xiǎo míng"
-          },
-          {
-            "w": "对",
-            "pinyin": "duì"
-          },
-          {
-            "w": "王老师",
-            "pinyin": "wáng lǎo shī"
-          },
-          {
-            "w": "说",
-            "pinyin": "shuō"
-          },
-          {
-            "w": "感谢",
-            "pinyin": "gǎn xiè",
-            "isNew": true
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          },
-          {
-            "w": "王老师",
-            "pinyin": "wáng lǎo shī"
-          },
-          {
-            "w": "觉得",
-            "pinyin": "jué de"
-          },
-          {
-            "w": "小明",
-            "pinyin": "xiǎo míng"
-          },
-          {
-            "w": "很",
-            "pinyin": "hěn"
-          },
-          {
-            "w": "认真",
-            "pinyin": "rèn zhēn"
-          },
-          {
-            "w": "，",
-            "pinyin": ""
-          },
-          {
-            "w": "他",
-            "pinyin": "tā"
-          },
-          {
-            "w": "也",
-            "pinyin": "yě"
-          },
-          {
-            "w": "很",
-            "pinyin": "hěn"
-          },
-          {
-            "w": "感谢",
-            "pinyin": "gǎn xiè",
-            "isNew": true
-          },
-          {
-            "w": "小明",
-            "pinyin": "xiǎo míng"
-          },
-          {
-            "w": "努力",
-            "pinyin": "nǔ lì"
-          },
-          {
-            "w": "学习",
-            "pinyin": "xué xí"
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          },
-          {
-            "w": "王老师",
-            "pinyin": "wáng lǎo shī"
-          },
-          {
-            "w": "希望",
-            "pinyin": "xī wàng"
-          },
-          {
-            "w": "小明",
-            "pinyin": "xiǎo míng"
-          },
-          {
-            "w": "以后",
-            "pinyin": "yǐ hòu"
-          },
-          {
-            "w": "能",
-            "pinyin": "néng"
-          },
-          {
-            "w": "更",
-            "pinyin": "gèng"
-          },
-          {
-            "w": "努力",
-            "pinyin": "nǔ lì"
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          }
-        ],
-        "audio": "audio/story-e7bb933ae264.mp3"
-      },
-      {
-        "hanzi": "这时候，小美跑进办公室里，大声说话。王老师告诉小美这里要安静。请小美一定要安静，因为别的同学还在上课。",
-        "vi": "Lúc này, Tiểu Mỹ chạy vào văn phòng, nói chuyện lớn tiếng. Thầy Vương bảo Tiểu Mỹ ở đây cần sự yên tĩnh. Nhờ Tiểu Mỹ nhất định phải yên tĩnh, vì các bạn học khác vẫn đang lên lớp.",
-        "tokens": [
-          {
-            "w": "这时候",
-            "pinyin": "zhè shíhòu"
-          },
-          {
-            "w": "，",
-            "pinyin": ""
-          },
-          {
-            "w": "小美",
-            "pinyin": "xiǎo měi"
-          },
-          {
-            "w": "跑",
-            "pinyin": "pǎo"
-          },
-          {
-            "w": "进",
-            "pinyin": "jìn"
-          },
-          {
-            "w": "办公室",
-            "pinyin": "bàn gōng shì"
-          },
-          {
-            "w": "里",
-            "pinyin": "lǐ"
-          },
-          {
-            "w": "，",
-            "pinyin": ""
-          },
-          {
-            "w": "大声",
-            "pinyin": "dà shēng"
-          },
-          {
-            "w": "说话",
-            "pinyin": "shuō huà"
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          },
-          {
-            "w": "王老师",
-            "pinyin": "wáng lǎo shī"
-          },
-          {
-            "w": "告诉",
-            "pinyin": "gào sù"
-          },
-          {
-            "w": "小美",
-            "pinyin": "xiǎo měi"
-          },
-          {
-            "w": "这里",
-            "pinyin": "zhè lǐ"
-          },
-          {
-            "w": "要",
-            "pinyin": "yào"
-          },
-          {
-            "w": "安静",
-            "pinyin": "ān jìng",
-            "isNew": true
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          },
-          {
-            "w": "请",
-            "pinyin": "qǐng"
-          },
-          {
-            "w": "小美",
-            "pinyin": "xiǎo měi"
-          },
-          {
-            "w": "一定",
-            "pinyin": "yī dìng"
-          },
-          {
-            "w": "要",
-            "pinyin": "yào"
-          },
-          {
-            "w": "安静",
-            "pinyin": "ān jìng",
-            "isNew": true
-          },
-          {
-            "w": "，",
-            "pinyin": ""
-          },
-          {
-            "w": "因为",
-            "pinyin": "yīn wèi"
-          },
-          {
-            "w": "别的",
-            "pinyin": "bié de"
-          },
-          {
-            "w": "同学",
-            "pinyin": "tóng xué"
-          },
-          {
-            "w": "还",
-            "pinyin": "hái"
           },
           {
             "w": "在",
             "pinyin": "zài"
           },
           {
-            "w": "上课",
-            "pinyin": "shàng kè"
+            "w": "智能",
+            "pinyin": "zhì néng",
+            "isNew": true
+          },
+          {
+            "w": "手机",
+            "pinyin": "shǒu jī"
+          },
+          {
+            "w": "上",
+            "pinyin": "shàng"
+          },
+          {
+            "w": "打开",
+            "pinyin": "dǎ kāi"
+          },
+          {
+            "w": "学习",
+            "pinyin": "xué xí"
+          },
+          {
+            "w": "软件",
+            "pinyin": "ruǎn jiàn",
+            "isNew": true
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "按",
+            "pinyin": "àn"
+          },
+          {
+            "w": "科",
+            "pinyin": "kē"
+          },
+          {
+            "w": "学",
+            "pinyin": "xué"
+          },
+          {
+            "w": "间",
+            "pinyin": "jiān"
+          },
+          {
+            "w": "隔",
+            "pinyin": "gé"
+          },
+          {
+            "w": "复习",
+            "pinyin": "fù xí"
+          },
+          {
+            "w": "生词",
+            "pinyin": "shēng cí"
+          },
+          {
+            "w": "和",
+            "pinyin": "hé"
+          },
+          {
+            "w": "例",
+            "pinyin": "lì"
+          },
+          {
+            "w": "句",
+            "pinyin": "jù"
           },
           {
             "w": "。",
             "pinyin": ""
           }
         ],
-        "audio": "audio/story-484ed07db7a0.mp3"
+        "audio": "audio/story-3da4eef96a65.mp3"
       },
       {
-        "hanzi": "小美听了以后不好意思，她请王老师原谅她刚才大声说话。她希望王老师能原谅她，因为她不是故意的。王老师说没关系，小美非常感谢王老师。",
-        "vi": "Tiểu Mỹ nghe xong cảm thấy ngại ngùng, cô ấy nhờ thầy Vương tha lỗi cho việc vừa rồi đã nói lớn tiếng. Cô ấy hy vọng thầy Vương có thể tha lỗi cho mình, vì cô ấy không cố ý. Thầy Vương nói không sao, Tiểu Mỹ rất cảm ơn thầy Vương.",
+        "hanzi": "这款软件能根据学习数据提醒他复习容易忘记的汉字，大大提高了学习效率。",
+        "vi": "Phần mềm này có thể dựa trên dữ liệu học tập để nhắc cậu ôn những chữ Hán dễ quên, giúp nâng cao hiệu suất học lên rất nhiều.",
         "tokens": [
           {
-            "w": "小美",
-            "pinyin": "xiǎo měi"
+            "w": "这",
+            "pinyin": "zhè"
           },
           {
-            "w": "听",
-            "pinyin": "tīng"
+            "w": "款",
+            "pinyin": "kuǎn"
+          },
+          {
+            "w": "软件",
+            "pinyin": "ruǎn jiàn",
+            "isNew": true
+          },
+          {
+            "w": "能",
+            "pinyin": "néng"
+          },
+          {
+            "w": "根据",
+            "pinyin": "gēn jù"
+          },
+          {
+            "w": "学习",
+            "pinyin": "xué xí"
+          },
+          {
+            "w": "数据",
+            "pinyin": "shù jù",
+            "isNew": true
+          },
+          {
+            "w": "提",
+            "pinyin": "tí"
+          },
+          {
+            "w": "醒",
+            "pinyin": "xǐng"
+          },
+          {
+            "w": "他",
+            "pinyin": "tā"
+          },
+          {
+            "w": "复习",
+            "pinyin": "fù xí"
+          },
+          {
+            "w": "容易",
+            "pinyin": "róng yì"
+          },
+          {
+            "w": "忘记",
+            "pinyin": "wàng jì"
+          },
+          {
+            "w": "的",
+            "pinyin": "de"
+          },
+          {
+            "w": "汉字",
+            "pinyin": "hàn zì"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "大",
+            "pinyin": "dà"
+          },
+          {
+            "w": "大",
+            "pinyin": "dà"
+          },
+          {
+            "w": "提高",
+            "pinyin": "tí gāo"
           },
           {
             "w": "了",
             "pinyin": "le"
           },
           {
-            "w": "以后",
-            "pinyin": "yǐ hòu"
+            "w": "学习",
+            "pinyin": "xué xí"
+          },
+          {
+            "w": "效率",
+            "pinyin": "xiào lǜ",
+            "isNew": true
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ],
+        "audio": "audio/story-65e974056551.mp3"
+      },
+      {
+        "hanzi": "不过Bao认为，科技只是好帮手，真正把语言学好还是要靠自己的坚持和交流！",
+        "vi": "Tuy nhiên Bao cho rằng công nghệ chỉ là trợ thủ đắc lực, để thực sự giỏi ngoại ngữ vẫn cần dựa vào sự kiên trì và giao tiếp của chính mình!",
+        "tokens": [
+          {
+            "w": "不",
+            "pinyin": "bù"
+          },
+          {
+            "w": "过",
+            "pinyin": "guò"
+          },
+          {
+            "w": "Bao",
+            "pinyin": ""
+          },
+          {
+            "w": "认为",
+            "pinyin": "rèn wéi"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "科技",
+            "pinyin": "kē jì",
+            "isNew": true
+          },
+          {
+            "w": "只是",
+            "pinyin": "zhǐ shì"
+          },
+          {
+            "w": "好",
+            "pinyin": "hǎo"
+          },
+          {
+            "w": "帮",
+            "pinyin": "bāng"
+          },
+          {
+            "w": "手",
+            "pinyin": "shǒu"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "真",
+            "pinyin": "zhēn"
+          },
+          {
+            "w": "正",
+            "pinyin": "zhèng"
+          },
+          {
+            "w": "把",
+            "pinyin": "bǎ"
+          },
+          {
+            "w": "语言",
+            "pinyin": "yǔ yán"
+          },
+          {
+            "w": "学",
+            "pinyin": "xué"
+          },
+          {
+            "w": "好",
+            "pinyin": "hǎo"
+          },
+          {
+            "w": "还是",
+            "pinyin": "hái shi"
+          },
+          {
+            "w": "要",
+            "pinyin": "yào"
+          },
+          {
+            "w": "靠",
+            "pinyin": "kào"
+          },
+          {
+            "w": "自己",
+            "pinyin": "zì jǐ"
+          },
+          {
+            "w": "的",
+            "pinyin": "de"
+          },
+          {
+            "w": "坚持",
+            "pinyin": "jiān chí"
+          },
+          {
+            "w": "和",
+            "pinyin": "hé"
+          },
+          {
+            "w": "交",
+            "pinyin": "jiāo"
+          },
+          {
+            "w": "流",
+            "pinyin": "liú"
+          },
+          {
+            "w": "！",
+            "pinyin": ""
+          }
+        ],
+        "audio": "audio/story-e4234e9bbc9d.mp3"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q-r27-1",
+        "type": "mcq",
+        "q": "Ứng dụng học tập giúp Bao nâng cao hiệu suất học bằng cách nào?",
+        "options": [
+          "Dựa trên dữ liệu học để nhắc ôn những chữ Hán dễ quên",
+          "Tự làm bài kiểm tra thay cho Bao",
+          "Chặn toàn bộ mạng xã hội",
+          "Chỉ phát nhạc giải trí"
+        ],
+        "answer": 0,
+        "explainVi": "Đoạn 3: '根据学习数据提醒他复习容易忘记的汉字，大大提高了学习效率'."
+      },
+      {
+        "id": "q-r27-2",
+        "type": "mcq",
+        "q": "Bao cho rằng yếu tố cốt lõi để thực sự giỏi ngoại ngữ là gì?",
+        "options": [
+          "Sự kiên trì và giao tiếp của chính mình",
+          "Mua điện thoại thật đắt tiền",
+          "Chỉ cần dịch bằng máy mà không cần học",
+          "Học thật nhiều trong 1 ngày rồi nghỉ cả tháng"
+        ],
+        "answer": 0,
+        "explainVi": "Đoạn 4: '真正把语言学好还是要靠自己的坚持和交流！'."
+      },
+      {
+        "id": "q-r27-3",
+        "type": "tf",
+        "q": "Công nghệ và AI hầu như không ảnh hưởng gì tới việc học hiện đại.",
+        "options": [
+          "Đúng",
+          "Sai"
+        ],
+        "answer": 1,
+        "explainVi": "Đoạn 1 nói rõ chúng mang lại ảnh hưởng rất lớn ('带来了很大影响')."
+      }
+    ],
+    "audioFull": "audio/story-bea00f468626.mp3",
+    "audioSentences": [
+      "audio/story-a6a53433ed18.mp3",
+      "audio/story-3da4eef96a65.mp3",
+      "audio/story-65e974056551.mp3",
+      "audio/story-e4234e9bbc9d.mp3"
+    ]
+  },
+  {
+    "id": "r-t28",
+    "stage": 4,
+    "topicId": 28,
+    "title": "Xử lý sự cố tại Hội chợ Mùa Thu",
+    "mode": "study",
+    "knownPercent": 93,
+    "newWords": [
+      "帮忙",
+      "麻烦",
+      "紧急",
+      "情况",
+      "原谅",
+      "感谢",
+      "冷静",
+      "办法"
+    ],
+    "paragraphs": [
+      {
+        "hanzi": "秋日文化节终于开始了！Bao和小玲的茶文化展位前人来人往，非常热闹。",
+        "vi": "Lễ hội văn hóa mùa thu cuối cùng đã khai mạc! Trước gian hàng văn hóa trà của Bao và Tiểu Linh người qua lại tấp nập, vô cùng náo nhiệt.",
+        "tokens": [
+          {
+            "w": "秋",
+            "pinyin": "qiū"
+          },
+          {
+            "w": "日",
+            "pinyin": "rì"
+          },
+          {
+            "w": "文化",
+            "pinyin": "wén huà"
+          },
+          {
+            "w": "节",
+            "pinyin": "jié"
+          },
+          {
+            "w": "终于",
+            "pinyin": "zhōng yú"
+          },
+          {
+            "w": "开始",
+            "pinyin": "kāi shǐ"
+          },
+          {
+            "w": "了",
+            "pinyin": "le"
+          },
+          {
+            "w": "！",
+            "pinyin": ""
+          },
+          {
+            "w": "Bao",
+            "pinyin": ""
+          },
+          {
+            "w": "和",
+            "pinyin": "hé"
+          },
+          {
+            "w": "小",
+            "pinyin": "xiǎo"
+          },
+          {
+            "w": "玲",
+            "pinyin": "líng"
+          },
+          {
+            "w": "的",
+            "pinyin": "de"
+          },
+          {
+            "w": "茶",
+            "pinyin": "chá"
+          },
+          {
+            "w": "文化",
+            "pinyin": "wén huà"
+          },
+          {
+            "w": "展",
+            "pinyin": "zhǎn"
+          },
+          {
+            "w": "位",
+            "pinyin": "wèi"
+          },
+          {
+            "w": "前",
+            "pinyin": "qián"
+          },
+          {
+            "w": "人",
+            "pinyin": "rén"
+          },
+          {
+            "w": "来",
+            "pinyin": "lái"
+          },
+          {
+            "w": "人",
+            "pinyin": "rén"
+          },
+          {
+            "w": "往",
+            "pinyin": "wǎng"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "非常",
+            "pinyin": "fēi cháng"
+          },
+          {
+            "w": "热闹",
+            "pinyin": "rè nao"
+          },
+          {
+            "w": "。",
+            "pinyin": ""
+          }
+        ],
+        "audio": "audio/story-bc065f0746ec.mp3"
+      },
+      {
+        "hanzi": "突然，一位女士焦急地跑过来：「不好意思，麻烦你们帮我一个忙，我的手机不见了！」",
+        "vi": "Đột nhiên, một vị khách nữ lo lắng chạy tới: 'Ngại quá, phiền các em giúp chị một việc, điện thoại của chị không thấy đâu rồi!'",
+        "tokens": [
+          {
+            "w": "突然",
+            "pinyin": "tū rán"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "一",
+            "pinyin": "yī"
+          },
+          {
+            "w": "位",
+            "pinyin": "wèi"
+          },
+          {
+            "w": "女士",
+            "pinyin": "nǚ shì"
+          },
+          {
+            "w": "焦",
+            "pinyin": "jiāo"
+          },
+          {
+            "w": "急",
+            "pinyin": "jí"
+          },
+          {
+            "w": "地",
+            "pinyin": "dì"
+          },
+          {
+            "w": "跑",
+            "pinyin": "pǎo"
+          },
+          {
+            "w": "过来",
+            "pinyin": "guò lái"
+          },
+          {
+            "w": "：「",
+            "pinyin": ""
           },
           {
             "w": "不好意思",
@@ -2833,158 +1735,21 @@
             "pinyin": ""
           },
           {
-            "w": "她",
-            "pinyin": "tā"
-          },
-          {
-            "w": "请",
-            "pinyin": "qǐng"
-          },
-          {
-            "w": "王老师",
-            "pinyin": "wáng lǎo shī"
-          },
-          {
-            "w": "原谅",
-            "pinyin": "yuán liàng",
+            "w": "麻烦",
+            "pinyin": "má fan",
             "isNew": true
           },
           {
-            "w": "她",
-            "pinyin": "tā"
+            "w": "你们",
+            "pinyin": "nǐ men"
           },
           {
-            "w": "刚才",
-            "pinyin": "gāng cái"
+            "w": "帮",
+            "pinyin": "bāng"
           },
           {
-            "w": "大声",
-            "pinyin": "dà shēng"
-          },
-          {
-            "w": "说话",
-            "pinyin": "shuō huà"
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          },
-          {
-            "w": "她",
-            "pinyin": "tā"
-          },
-          {
-            "w": "希望",
-            "pinyin": "xī wàng"
-          },
-          {
-            "w": "王老师",
-            "pinyin": "wáng lǎo shī"
-          },
-          {
-            "w": "能",
-            "pinyin": "néng"
-          },
-          {
-            "w": "原谅",
-            "pinyin": "yuán liàng",
-            "isNew": true
-          },
-          {
-            "w": "她",
-            "pinyin": "tā"
-          },
-          {
-            "w": "，",
-            "pinyin": ""
-          },
-          {
-            "w": "因为",
-            "pinyin": "yīn wèi"
-          },
-          {
-            "w": "她",
-            "pinyin": "tā"
-          },
-          {
-            "w": "不",
-            "pinyin": "bù"
-          },
-          {
-            "w": "是",
-            "pinyin": "shì"
-          },
-          {
-            "w": "故意",
-            "pinyin": "gù yì"
-          },
-          {
-            "w": "的",
-            "pinyin": "de"
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          },
-          {
-            "w": "王老师",
-            "pinyin": "wáng lǎo shī"
-          },
-          {
-            "w": "说",
-            "pinyin": "shuō"
-          },
-          {
-            "w": "没关系",
-            "pinyin": "méi guān xi"
-          },
-          {
-            "w": "，",
-            "pinyin": ""
-          },
-          {
-            "w": "小美",
-            "pinyin": "xiǎo měi"
-          },
-          {
-            "w": "非常",
-            "pinyin": "fēi cháng"
-          },
-          {
-            "w": "感谢",
-            "pinyin": "gǎn xiè",
-            "isNew": true
-          },
-          {
-            "w": "王老师",
-            "pinyin": "wáng lǎo shī"
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          }
-        ],
-        "audio": "audio/story-b7ae76661162.mp3"
-      },
-      {
-        "hanzi": "大家都应该在一个安静的地方学习。这非常重要，因为安静可以让人学习得更好。王老师感谢小美，小美也感谢王老师。",
-        "vi": "Mọi người đều nên học tập ở một nơi yên tĩnh. Điều này rất quan trọng, vì sự yên tĩnh có thể giúp con người học tốt hơn. Thầy Vương cảm ơn Tiểu Mỹ, Tiểu Mỹ cũng cảm ơn thầy Vương.",
-        "tokens": [
-          {
-            "w": "大家",
-            "pinyin": "dà jiā"
-          },
-          {
-            "w": "都",
-            "pinyin": "dōu"
-          },
-          {
-            "w": "应该",
-            "pinyin": "yīng gāi"
-          },
-          {
-            "w": "在",
-            "pinyin": "zài"
+            "w": "我",
+            "pinyin": "wǒ"
           },
           {
             "w": "一",
@@ -2995,167 +1760,362 @@
             "pinyin": "gè"
           },
           {
-            "w": "安静",
-            "pinyin": "ān jìng",
-            "isNew": true
+            "w": "忙",
+            "pinyin": "máng"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "我",
+            "pinyin": "wǒ"
           },
           {
             "w": "的",
             "pinyin": "de"
           },
           {
-            "w": "地方",
-            "pinyin": "dì fāng"
+            "w": "手机",
+            "pinyin": "shǒu jī"
           },
           {
-            "w": "学习",
-            "pinyin": "xué xí"
+            "w": "不见",
+            "pinyin": "bù jiàn"
           },
           {
-            "w": "。",
+            "w": "了",
+            "pinyin": "le"
+          },
+          {
+            "w": "！」",
+            "pinyin": ""
+          }
+        ],
+        "audio": "audio/story-e2730c68d61c.mp3"
+      },
+      {
+        "hanzi": "Bao保持冷静，先问清楚情况，然后马上联系会场工作人员一起想办法寻找。",
+        "vi": "Bao giữ bình tĩnh, hỏi rõ tình hình trước rồi lập tức liên hệ nhân viên hội trường cùng tìm cách hỗ trợ.",
+        "tokens": [
+          {
+            "w": "Bao",
             "pinyin": ""
           },
           {
-            "w": "这",
-            "pinyin": "zhè"
+            "w": "保",
+            "pinyin": "bǎo"
           },
           {
-            "w": "非常",
-            "pinyin": "fēi cháng"
+            "w": "持",
+            "pinyin": "chí"
           },
           {
-            "w": "重要",
-            "pinyin": "zhòng yào"
+            "w": "冷静",
+            "pinyin": "lěng jìng",
+            "isNew": true
           },
           {
             "w": "，",
             "pinyin": ""
           },
           {
-            "w": "因为",
-            "pinyin": "yīn wèi"
+            "w": "先",
+            "pinyin": "xiān"
           },
           {
-            "w": "安静",
-            "pinyin": "ān jìng",
+            "w": "问",
+            "pinyin": "wèn"
+          },
+          {
+            "w": "清楚",
+            "pinyin": "qīng chu"
+          },
+          {
+            "w": "情况",
+            "pinyin": "qíng kuàng",
             "isNew": true
           },
           {
-            "w": "可以",
-            "pinyin": "kě yǐ"
+            "w": "，",
+            "pinyin": ""
           },
           {
-            "w": "让",
-            "pinyin": "ràng"
+            "w": "然后",
+            "pinyin": "rán hòu"
+          },
+          {
+            "w": "马上",
+            "pinyin": "mǎ shàng"
+          },
+          {
+            "w": "联系",
+            "pinyin": "lián xì"
+          },
+          {
+            "w": "会",
+            "pinyin": "huì"
+          },
+          {
+            "w": "场",
+            "pinyin": "chǎng"
+          },
+          {
+            "w": "工作",
+            "pinyin": "gōng zuò"
           },
           {
             "w": "人",
             "pinyin": "rén"
           },
           {
-            "w": "学习",
-            "pinyin": "xué xí"
+            "w": "员",
+            "pinyin": "yuán"
           },
           {
-            "w": "得",
-            "pinyin": "de"
+            "w": "一起",
+            "pinyin": "yì qǐ"
           },
           {
-            "w": "更",
-            "pinyin": "gèng"
+            "w": "想",
+            "pinyin": "xiǎng"
           },
           {
-            "w": "好",
-            "pinyin": "hǎo"
-          },
-          {
-            "w": "。",
-            "pinyin": ""
-          },
-          {
-            "w": "王老师",
-            "pinyin": "wáng lǎo shī"
-          },
-          {
-            "w": "感谢",
-            "pinyin": "gǎn xiè",
+            "w": "办法",
+            "pinyin": "bàn fǎ",
             "isNew": true
           },
           {
-            "w": "小美",
-            "pinyin": "xiǎo měi"
+            "w": "寻",
+            "pinyin": "xún"
           },
           {
-            "w": "，",
-            "pinyin": ""
-          },
-          {
-            "w": "小美",
-            "pinyin": "xiǎo měi"
-          },
-          {
-            "w": "也",
-            "pinyin": "yě"
-          },
-          {
-            "w": "感谢",
-            "pinyin": "gǎn xiè",
-            "isNew": true
-          },
-          {
-            "w": "王老师",
-            "pinyin": "wáng lǎo shī"
+            "w": "找",
+            "pinyin": "zhǎo"
           },
           {
             "w": "。",
             "pinyin": ""
           }
         ],
-        "audio": "audio/story-23b6832dd5c2.mp3"
+        "audio": "audio/story-cb8e94c1a960.mp3"
+      },
+      {
+        "hanzi": "十分钟后，工作人员在茶桌旁边找到了手机！女士非常感谢Bao的热心帮忙，Bao笑着说：「不麻烦，能帮到您我很开心！」",
+        "vi": "Mười phút sau, nhân viên tìm thấy điện thoại ngay cạnh bàn trà! Vị khách vô cùng cảm ơn sự giúp đỡ nhiệt tình của Bao, Bao cười đáp: 'Không phiền đâu ạ, giúp được chị em rất vui!'",
+        "tokens": [
+          {
+            "w": "十",
+            "pinyin": "shí"
+          },
+          {
+            "w": "分钟",
+            "pinyin": "fēn zhōng"
+          },
+          {
+            "w": "后",
+            "pinyin": "hòu"
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "工作",
+            "pinyin": "gōng zuò"
+          },
+          {
+            "w": "人",
+            "pinyin": "rén"
+          },
+          {
+            "w": "员",
+            "pinyin": "yuán"
+          },
+          {
+            "w": "在",
+            "pinyin": "zài"
+          },
+          {
+            "w": "茶",
+            "pinyin": "chá"
+          },
+          {
+            "w": "桌",
+            "pinyin": "zhuō"
+          },
+          {
+            "w": "旁边",
+            "pinyin": "páng biān"
+          },
+          {
+            "w": "找到",
+            "pinyin": "zhǎo dào"
+          },
+          {
+            "w": "了",
+            "pinyin": "le"
+          },
+          {
+            "w": "手机",
+            "pinyin": "shǒu jī"
+          },
+          {
+            "w": "！",
+            "pinyin": ""
+          },
+          {
+            "w": "女士",
+            "pinyin": "nǚ shì"
+          },
+          {
+            "w": "非常",
+            "pinyin": "fēi cháng"
+          },
+          {
+            "w": "感谢",
+            "pinyin": "gǎn xiè",
+            "isNew": true
+          },
+          {
+            "w": "Bao",
+            "pinyin": ""
+          },
+          {
+            "w": "的",
+            "pinyin": "de"
+          },
+          {
+            "w": "热",
+            "pinyin": "rè"
+          },
+          {
+            "w": "心",
+            "pinyin": "xīn"
+          },
+          {
+            "w": "帮忙",
+            "pinyin": "bāng máng",
+            "isNew": true
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "Bao",
+            "pinyin": ""
+          },
+          {
+            "w": "笑",
+            "pinyin": "xiào"
+          },
+          {
+            "w": "着",
+            "pinyin": "zhe"
+          },
+          {
+            "w": "说",
+            "pinyin": "shuō"
+          },
+          {
+            "w": "：「",
+            "pinyin": ""
+          },
+          {
+            "w": "不",
+            "pinyin": "bù"
+          },
+          {
+            "w": "麻烦",
+            "pinyin": "má fan",
+            "isNew": true
+          },
+          {
+            "w": "，",
+            "pinyin": ""
+          },
+          {
+            "w": "能",
+            "pinyin": "néng"
+          },
+          {
+            "w": "帮",
+            "pinyin": "bāng"
+          },
+          {
+            "w": "到",
+            "pinyin": "dào"
+          },
+          {
+            "w": "您",
+            "pinyin": "nín"
+          },
+          {
+            "w": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "w": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "w": "开心",
+            "pinyin": "kāi xīn"
+          },
+          {
+            "w": "！」",
+            "pinyin": ""
+          }
+        ],
+        "audio": "audio/story-0011604aa446.mp3"
       }
     ],
     "questions": [
       {
-        "id": "rq28-1",
+        "id": "q-r28-1",
         "type": "mcq",
-        "q": "小明为什么去王老师的办公室？",
+        "q": "Vị khách nữ gặp tình huống khẩn cấp gì ở hội chợ?",
         "options": [
-          "想请王老师帮忙做作业",
-          "想请王老师去吃饭"
+          "Không thấy điện thoại đâu",
+          "Quên đường về nhà",
+          "Bị cảm sốt nhẹ",
+          "Làm rơi vé máy bay"
         ],
         "answer": 0,
-        "explainVi": "Bài đọc viết: 他有很多作业不会做，想请王老师帮一下儿忙。"
+        "explainVi": "Đoạn 2: '我的手机不见了！' (Điện thoại của tôi không thấy đâu rồi!)."
       },
       {
-        "id": "rq28-2",
+        "id": "q-r28-2",
+        "type": "mcq",
+        "q": "Bao đã phản ứng thế nào khi gặp sự cố đó?",
+        "options": [
+          "Giữ bình tĩnh, hỏi rõ tình hình và liên hệ nhân viên cùng tìm cách",
+          "Hoảng hốt bỏ chạy",
+          "Nói mình không có thời gian giúp",
+          "Đợi đến tối mới tìm"
+        ],
+        "answer": 0,
+        "explainVi": "Đoạn 3: 'Bao保持冷静，先问清楚情况，然后马上联系会场工作人员一起想办法寻找'."
+      },
+      {
+        "id": "q-r28-3",
         "type": "tf",
-        "q": "在办公室大声说话是对的吗？",
+        "q": "Cuối cùng chiếc điện thoại đã được tìm thấy sau 10 phút.",
         "options": [
-          "对",
-          "不对"
-        ],
-        "answer": 1,
-        "explainVi": "Bài đọc viết: 王老师告诉小美这里要安静。"
-      },
-      {
-        "id": "rq28-3",
-        "type": "detail",
-        "q": "小美请王老师做什么？",
-        "options": [
-          "请王老师原谅她",
-          "请王老师离开"
+          "Đúng",
+          "Sai"
         ],
         "answer": 0,
-        "explainVi": "Bài đọc viết: 她请王老师原谅她刚才大声说话。"
+        "explainVi": "Đoạn 4: '十分钟后，工作人员在茶桌旁边找到了手机！'."
       }
     ],
-    "audioFull": "audio/story-6b388dcd79d4.mp3",
+    "audioFull": "audio/story-4d51a6c1fb00.mp3",
     "audioSentences": [
-      "audio/story-87b1353f18a0.mp3",
-      "audio/story-e7bb933ae264.mp3",
-      "audio/story-484ed07db7a0.mp3",
-      "audio/story-b7ae76661162.mp3",
-      "audio/story-23b6832dd5c2.mp3"
+      "audio/story-bc065f0746ec.mp3",
+      "audio/story-e2730c68d61c.mp3",
+      "audio/story-cb8e94c1a960.mp3",
+      "audio/story-0011604aa446.mp3"
     ]
   },
   {

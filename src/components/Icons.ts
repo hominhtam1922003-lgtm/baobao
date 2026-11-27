@@ -21,7 +21,11 @@ export type IconName =
   | 'pause'
   | 'repeat'
   | 'arrow-left'
-  | 'arrow-right';
+  | 'arrow-right'
+  | 'shop'
+  | 'coin'
+  | 'sparkle'
+  | 'heart';
 
 const PATHS: Record<IconName, string> = {
   map: `<path d="M3 6.5 9 4l6 2.5L21 4v13.5L15 20l-6-2.5L3 20V6.5Z"/><path d="M9 4v13.5M15 6.5V20"/>`,
@@ -47,6 +51,10 @@ const PATHS: Record<IconName, string> = {
   repeat: `<path d="m17 2 4 4-4 4"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><path d="m7 22-4-4 4-4"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/>`,
   'arrow-left': `<path d="m15 6-6 6 6 6"/>`,
   'arrow-right': `<path d="m9 6 6 6-6 6"/>`,
+  shop: `<path d="M4 9h16l-1.5 11h-13L4 9Z"/><path d="M8 9V6a4 4 0 0 1 8 0v3"/><path d="M9.5 13.5v2M14.5 13.5v2"/>`,
+  coin: `<circle cx="12" cy="12" r="9"/><path d="M12 7v10M9 9.5c0-1 1.3-1.8 3-1.8s3 .8 3 1.8-1.3 1.8-3 1.8-3 .8-3 1.8 1.3 1.8 3 1.8 3-.8 3-1.8"/>`,
+  sparkle: `<path d="m12 3 2 6 6 2-6 2-2 6-2-6-6-2 6-2 2-6Z"/>`,
+  heart: `<path d="M12 20s-7-4.5-9-9a5 5 0 0 1 9-3 5 5 0 0 1 9 3c-2 4.5-9 9-9 9Z"/>`,
 };
 
 export function iconSvg(name: IconName, size = 20, filled = false): string {

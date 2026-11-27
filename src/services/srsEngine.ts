@@ -8,7 +8,16 @@ import {
   type RecordLogItem,
 } from 'ts-fsrs';
 import type { CardFacet, ExampleSentence, ReviewRating } from '../types/curriculum';
-import { getDb, type BaoAccessory, type ProgressRecord, type SettingsRecord, type SrsCardRecord } from './db';
+import {
+  getDb,
+  type BaoAccessory,
+  type BaoWardrobe,
+  type ProgressRecord,
+  type SettingsRecord,
+  type SrsCardRecord,
+  type WardrobeSlot,
+} from './db';
+import { DEFAULT_WARDROBE, getOwnedItemIds, getShopItem, resolveWardrobe } from './shopCatalog';
 
 export type { SrsCardRecord };
 export type QueueFilter = 'due' | 'weak' | 'story' | 'writing';
@@ -193,6 +202,8 @@ export function createDefaultProgress(now = new Date()): ProgressRecord {
   return {
     id: 'main',
     xp: 0,
+    coins: 20,
+    totalCoinsEarned: 20,
     dailyXp: 0,
     dailyXpDate: todayIsoDate(now),
     streak: 0,
@@ -208,10 +219,16 @@ export function createDefaultProgress(now = new Date()): ProgressRecord {
     storyBookmarks: {},
     unlockedAccessories: [],
     equippedAccessory: 'none',
+    ownedItems: [],
+    wardrobe: { ...DEFAULT_WARDROBE },
     badges: [],
     skillXp: { giaoTiep: 0, doc: 0, nghe: 0, viet: 0 },
     updatedAt: now.toISOString(),
   };
+}
+
+export function getCoins(progress: ProgressRecord): number {
+  return typeof progress.coins === 'number' ? progress.coins : Math.max(20, Math.round(progress.xp * 1.2));
 }
 
 export function createDefaultSettings(now = new Date()): SettingsRecord {
@@ -356,7 +373,85 @@ export function getTodayXp(progress: ProgressRecord, now = new Date()): number {
 export async function equipAccessory(acc: ProgressRecord['equippedAccessory']): Promise<ProgressRecord> {
   const db = await getDb();
   const cur = await ensureProgress();
-  const next: ProgressRecord = { ...cur, equippedAccessory: acc, updatedAt: new Date().toISOString() };
+  const wardrobe = resolveWardrobe(cur);
+  const item = acc !== 'none' ? getShopItem(acc) : undefined;
+  if (item) {
+    wardrobe[item.slot] = item.id;
+  } else if (acc === 'none') {
+    wardrobe.hat = 'none';
+  }
+  const next: ProgressRecord = {
+    ...cur,
+    equippedAccessory: acc,
+    wardrobe,
+    updatedAt: new Date().toISOString(),
+  };
+  await db.put('progress', next);
+  return next;
+}
+
+export async function buyShopItem(
+  itemId: string
+): Promise<{ ok: boolean; error?: string; progress: ProgressRecord }> {
+  const db = await getDb();
+  const cur = await ensureProgress();
+  const item = getShopItem(itemId);
+  if (!item) return { ok: false, error: 'Không tìm thấy vật phẩm.', progress: cur };
+
+  const owned = getOwnedItemIds(cur);
+  if (owned.has(item.id)) {
+    const updated = await equipWardrobeItem(item.slot, item.id);
+    return { ok: true, progress: updated };
+  }
+
+  const balance = getCoins(cur);
+  if (balance < item.price) {
+    return {
+      ok: false,
+      error: `Cần thêm ${item.price - balance} Xu Tre nữa nhé! Học thêm 1 bài là đủ ngay!`,
+      progress: cur,
+    };
+  }
+
+  owned.add(item.id);
+  const wardrobe: BaoWardrobe = { ...resolveWardrobe(cur), [item.slot]: item.id };
+  const next: ProgressRecord = {
+    ...cur,
+    coins: balance - item.price,
+    ownedItems: Array.from(owned),
+    wardrobe,
+    updatedAt: new Date().toISOString(),
+  };
+  await db.put('progress', next);
+  return { ok: true, progress: next };
+}
+
+export async function equipWardrobeItem(slot: WardrobeSlot, itemId: string): Promise<ProgressRecord> {
+  const db = await getDb();
+  const cur = await ensureProgress();
+  const owned = getOwnedItemIds(cur);
+  if (itemId !== 'none' && !owned.has(itemId)) {
+    return cur;
+  }
+  const wardrobe: BaoWardrobe = { ...resolveWardrobe(cur), [slot]: itemId };
+  const next: ProgressRecord = {
+    ...cur,
+    wardrobe,
+    updatedAt: new Date().toISOString(),
+  };
+  await db.put('progress', next);
+  return next;
+}
+
+export async function resetWardrobe(): Promise<ProgressRecord> {
+  const db = await getDb();
+  const cur = await ensureProgress();
+  const next: ProgressRecord = {
+    ...cur,
+    equippedAccessory: 'none',
+    wardrobe: { ...DEFAULT_WARDROBE },
+    updatedAt: new Date().toISOString(),
+  };
   await db.put('progress', next);
   return next;
 }
@@ -433,18 +528,44 @@ export async function setStoryBookmark(readingId: string, step = 1): Promise<voi
 
 export async function recordStudyActivity(opts: {
   xpEarned: number;
+  coinsEarned?: number;
   skill?: 'giaoTiep' | 'doc' | 'nghe' | 'viet' | 'all';
   completedLessonId?: string;
   completedStoryId?: string;
   lessonRatio?: number;
 }): Promise<ProgressRecord> {
   const db = await getDb();
-  const cur = await ensureProgress();
+  const [cur, settings] = await Promise.all([ensureProgress(), ensureSettings()]);
   const today = todayIsoDate();
   const dates = Array.from(new Set([...cur.activeDates, today])).sort();
   const frozenDates = cur.frozenDates ?? [];
   const streak = computeStreak(dates, new Date(), frozenDates);
   const prevDaily = cur.dailyXpDate === today ? (cur.dailyXp ?? 0) : 0;
+  const nextDaily = prevDaily + opts.xpEarned;
+
+  // Virtual currency (Xu Tre) calculation
+  const isFirstCompletion = Boolean(opts.completedLessonId && !cur.completedLessons.includes(opts.completedLessonId));
+  const baseCoins =
+    typeof opts.coinsEarned === 'number'
+      ? opts.coinsEarned
+      : opts.completedLessonId
+      ? isFirstCompletion
+        ? 40
+        : 20
+      : Math.max(5, Math.round(opts.xpEarned * 0.8));
+
+  const goalXp = settings.dailyGoalMinutes * 4;
+  let dailyGoalBonus = 0;
+  let dailyGoalClaimedDate = cur.dailyGoalClaimedDate;
+  if (nextDaily >= goalXp && cur.dailyGoalClaimedDate !== today) {
+    dailyGoalBonus = 40;
+    dailyGoalClaimedDate = today;
+  }
+
+  const prevCoins = getCoins(cur);
+  const totalAddedCoins = baseCoins + dailyGoalBonus;
+  const nextCoins = prevCoins + totalAddedCoins;
+  const nextTotalCoins = (cur.totalCoinsEarned ?? prevCoins) + totalAddedCoins;
 
   const nextXp = cur.xp + opts.xpEarned;
   const unlocked = new Set([...cur.unlockedAccessories, ...evaluateUnlockedAccessories(nextXp)]);
@@ -485,8 +606,11 @@ export async function recordStudyActivity(opts: {
   const next: ProgressRecord = {
     ...cur,
     xp: nextXp,
-    dailyXp: prevDaily + opts.xpEarned,
+    coins: nextCoins,
+    totalCoinsEarned: nextTotalCoins,
+    dailyXp: nextDaily,
     dailyXpDate: today,
+    dailyGoalClaimedDate,
     streak,
     bestStreak: Math.max(cur.bestStreak, streak),
     activeDates: dates,

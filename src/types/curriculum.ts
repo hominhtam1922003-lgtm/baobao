@@ -18,7 +18,19 @@ export interface WordItem {
   level: number;
   frequency?: number;
   mnemonic?: string;
+  literalVi?: string;
+  usageNoteVi?: string;
+  partOfSpeech?: string;
   audio?: string;
+  examples: ExampleSentence[];
+}
+
+export interface GrammarSpotlight {
+  title: string;
+  formula: string;
+  explainVi: string;
+  vsVietnameseVi?: string;
+  commonMistakeVi?: string;
   examples: ExampleSentence[];
 }
 
@@ -58,6 +70,8 @@ export interface ExerciseItem {
     | 'meaning-choice'
     | 'hanzi-choice'
     | 'sentence-tiles'
+    | 'match-pairs'
+    | 'fill-blank'
     | 'listen-meaning'
     | 'listen-hanzi'
     | 'listen-tiles'
@@ -71,6 +85,7 @@ export interface ExerciseItem {
   hanziPrompt?: string;
   pinyinPrompt?: string;
   options?: { label: string; sub?: string; value: string }[];
+  pairs?: { hanzi: string; pinyin: string; vi: string }[];
   tiles?: string[];
   answer: string;
   explainVi?: string;
@@ -119,6 +134,13 @@ export interface LessonItem {
   title: string;
   type: 'giao-tiep' | 'doc' | 'nghe' | 'viet' | 'stage-test';
   xp: number;
+  coinReward?: number;
+  storyContextVi?: string;
+  bridgeFromPrevVi?: string;
+  bridgeToNextVi?: string;
+  recapWordIds?: string[];
+  grammarSpotlight?: GrammarSpotlight;
+  cultureTipVi?: string;
   newWords: string[];
   patterns?: PatternItem[];
   dialogue?: DialogueTurn[];
@@ -174,6 +196,8 @@ export interface TopicMeta {
   stage: number;
   title: string;
   subtitle: string;
+  storyTagVi?: string;
+  connectsFromVi?: string;
   ready: boolean;
   lessonIds: string[];
   readingId?: string;

@@ -4,6 +4,7 @@ import { iconSvg } from '../components/Icons';
 import { audioService } from '../services/audioPlayer';
 import { loadStageLessons, resolveStageForLessonId } from '../services/contentLoader';
 import { requestPersistentStorage } from '../services/pwa';
+import { resolveWardrobe } from '../services/shopCatalog';
 import { ensureProgress, ensureSettings, recordStudyActivity } from '../services/srsEngine';
 import { escapeHtml } from '../utils/html';
 
@@ -23,6 +24,8 @@ export async function renderListeningScreen(root: HTMLElement, lessonId: string)
   }
 
   const exercises = lesson.exercises;
+  const wardrobe = resolveWardrobe(progress);
+  const coinReward = lesson.coinReward ?? 30;
   audioService.preload(exercises.flatMap((ex) => [ex.audio, ex.audioSlow]));
 
   const shell = renderFocusShell({
@@ -73,7 +76,8 @@ export async function renderListeningScreen(root: HTMLElement, lessonId: string)
     feedback = null;
     if (nextIdx >= exercises.length) {
       completed = true;
-      recordStudyActivity({ xpEarned: lesson.xp, skill: 'nghe', completedLessonId: lesson.id });
+      audioService.playSfx('coin');
+      recordStudyActivity({ xpEarned: lesson.xp, coinsEarned: coinReward, skill: 'nghe', completedLessonId: lesson.id });
       render();
       return;
     }
@@ -102,11 +106,16 @@ export async function renderListeningScreen(root: HTMLElement, lessonId: string)
     if (completed) {
       shell.setProgress(100, 'Hoàn thành');
       shell.body.innerHTML = `
-        <div class="clay-card" style="max-width:760px;margin:0 auto;padding:32px;text-align:center;">
-          ${renderBaoSvg({ mood: 'headphones', size: 108, accessory: progress.equippedAccessory })}
-          <h2 style="margin:10px 0 6px;">Xong bài nghe: ${escapeHtml(lesson.title)}</h2>
-          <p style="margin:0 0 18px;color:var(--ink-muted);">+${lesson.xp} XP · Đã cộng vào kỹ năng Nghe.</p>
+        <div class="clay-card milestone-banner" style="max-width:760px;margin:0 auto;padding:32px;text-align:center;">
+          ${renderBaoSvg({ mood: 'headphones', size: 122, wardrobe })}
+          <h2 style="margin:10px 0 6px;">🎧 Xong bài nghe: ${escapeHtml(lesson.title)}</h2>
+          <div style="display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin:10px 0 18px;">
+            <span class="chip" style="background:var(--review-soft);border-color:var(--review);">⭐ +${lesson.xp} XP</span>
+            <span class="chip coin-chip">🎋 +${coinReward} Xu Tre</span>
+          </div>
           <div style="display:flex;justify-content:center;gap:10px;flex-wrap:wrap;">
+            <a href="#/shop" class="btn btn-review">🛍️ Tiệm của Bao</a>
+            <a href="#/writing/t${lesson.topicId}-viet" class="btn btn-write">✍️ Sang bài Viết cùng chủ đề →</a>
             <a href="#/" class="btn btn-listen">Về bản đồ</a>
             <button type="button" class="btn btn-soft" data-replay-listen>Nghe lại từ đầu</button>
           </div>
@@ -154,7 +163,7 @@ export async function renderListeningScreen(root: HTMLElement, lessonId: string)
         <div class="clay-card" style="padding:26px;text-align:center;margin-bottom:18px;">
           <div style="display:flex;flex-direction:column;align-items:center;gap:14px;">
             <button type="button" data-play-toggle aria-label="Phát hoặc dừng audio" style="width:180px;height:180px;border-radius:999px;border:5px solid #FFFFFF;background:var(--listen);box-shadow:0 6px 0 var(--listen-lip), var(--shadow-clay);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;position:relative;color:#FFFFFF;">
-              ${renderBaoSvg({ mood: 'headphones', size: 84, accessory: progress.equippedAccessory })}
+              ${renderBaoSvg({ mood: 'headphones', size: 92, wardrobe })}
               <span style="display:inline-flex;align-items:center;gap:6px;background:var(--listen-lip);padding:4px 12px;border-radius:999px;font-weight:800;font-size:13px;">
                 ${iconSvg(isPlaying ? 'pause' : 'play', 14)} ${isPlaying ? 'Đang phát' : 'Nghe (Space)'}
               </span>

@@ -5,6 +5,7 @@ import { renderMapScreen } from './screens/MapScreen';
 import { applySettingsToDocument, renderProfileScreen } from './screens/ProfileScreen';
 import { renderReadingScreen } from './screens/ReadingScreen';
 import { renderReviewScreen } from './screens/ReviewScreen';
+import { renderShopScreen } from './screens/ShopScreen';
 import { renderStageTestScreen } from './screens/StageTestScreen';
 import { renderVocabLessonScreen } from './screens/VocabLessonScreen';
 import { renderWritingScreen } from './screens/WritingScreen';
@@ -43,6 +44,8 @@ export async function startRouter(root: HTMLElement): Promise<void> {
         currentCleanup = await renderStageTestScreen(root, parts[1] ?? 'stage-1-test');
       } else if (parts[0] === 'review') {
         currentCleanup = await renderReviewScreen(root);
+      } else if (parts[0] === 'shop') {
+        currentCleanup = await renderShopScreen(root);
       } else if (parts[0] === 'profile') {
         currentCleanup = await renderProfileScreen(root);
       } else if (parts[0] === 'design') {

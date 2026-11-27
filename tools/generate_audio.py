@@ -79,6 +79,10 @@ def collect_jobs() -> tuple[list[tuple[str, str, str]], dict[str, set[str]]]:
             for lesson in lessons:
                 for pat in lesson.get("patterns", []):
                     pat["audio"] = add(sname, pat["exampleHanzi"], "teacher")
+                gs = lesson.get("grammarSpotlight")
+                if gs:
+                    for gex in gs.get("examples", []):
+                        gex["audio"] = add(sname, gex["hanzi"], "teacher")
                 for turn in lesson.get("dialogue", []):
                     role = turn.get("voiceRole", "female" if turn.get("speaker") != "Bao" else "male")
                     turn["audio"] = add(sname, turn["hanzi"], role)

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'baobao-cache-v3';
+const CACHE_NAME = 'baobao-cache-v5';
 
 const APP_SHELL_FILES = [
   '',

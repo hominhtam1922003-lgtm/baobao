@@ -39,11 +39,24 @@ export type BaoAccessory =
   | 'explorer-cap'
   | 'crown';
 
+export type WardrobeSlot = 'hat' | 'outfit' | 'glasses' | 'prop' | 'bg';
+
+export interface BaoWardrobe {
+  hat: string;
+  outfit: string;
+  glasses: string;
+  prop: string;
+  bg: string;
+}
+
 export interface ProgressRecord {
   id: 'main';
   xp: number;
+  coins?: number;
+  totalCoinsEarned?: number;
   dailyXp?: number;
   dailyXpDate?: string;
+  dailyGoalClaimedDate?: string;
   streak: number;
   bestStreak: number;
   freezesLeft: number;
@@ -57,6 +70,8 @@ export interface ProgressRecord {
   storyBookmarks: Record<string, number>;
   unlockedAccessories: string[];
   equippedAccessory: BaoAccessory;
+  ownedItems?: string[];
+  wardrobe?: BaoWardrobe;
   badges: string[];
   skillXp: {
     giaoTiep: number;

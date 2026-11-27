@@ -11,6 +11,7 @@ import {
   resolveStageForLessonId,
 } from '../services/contentLoader';
 import { requestPersistentStorage } from '../services/pwa';
+import { resolveWardrobe } from '../services/shopCatalog';
 import {
   addCardToSrs,
   ensureProgress,
@@ -41,6 +42,8 @@ export async function renderWritingScreen(root: HTMLElement, lessonId: string): 
   }
 
   const chars = lesson.writingChars;
+  const wardrobe = resolveWardrobe(progress);
+  const coinReward = lesson.coinReward ?? 30;
   const shell = renderFocusShell({
     root,
     progressPct: 10,
@@ -164,13 +167,18 @@ export async function renderWritingScreen(root: HTMLElement, lessonId: string): 
     if (finishedAll) {
       shell.setProgress(100, 'Hoàn thành');
       shell.body.innerHTML = `
-        <div class="clay-card" style="max-width:720px;margin:0 auto;padding:32px;text-align:center;">
-          ${renderBaoSvg({ mood: 'celebrate', size: 108, accessory: progress.equippedAccessory })}
-          <h2 style="margin:10px 0 6px;">Hoàn thành bài viết: ${escapeHtml(lesson.title)}</h2>
-          <p style="margin:0 0 18px;color:var(--ink-muted);">+${lesson.xp} XP · Đã thêm ${chars.length} mặt thẻ viết vào Ôn tập.</p>
+        <div class="clay-card milestone-banner" style="max-width:720px;margin:0 auto;padding:32px;text-align:center;">
+          ${renderBaoSvg({ mood: 'celebrate', size: 122, wardrobe })}
+          <h2 style="margin:10px 0 6px;">✍️ Hoàn thành bài viết: ${escapeHtml(lesson.title)}</h2>
+          <div style="display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin:10px 0 12px;">
+            <span class="chip" style="background:var(--review-soft);border-color:var(--review);">⭐ +${lesson.xp} XP</span>
+            <span class="chip coin-chip">🎋 +${coinReward} Xu Tre</span>
+          </div>
+          <p style="margin:0 0 18px;color:var(--ink-muted);">Đã thêm ${chars.length} mặt thẻ viết vào Ôn tập.</p>
           <div style="display:flex;justify-content:center;gap:10px;flex-wrap:wrap;">
+            <a href="#/shop" class="btn btn-review">🛍️ Tiệm của Bao</a>
+            ${lesson.topicId < 28 ? `<a href="#/lesson/t${lesson.topicId + 1}-giao-tiep" class="btn btn-comm">🚀 Sang Chủ đề ${lesson.topicId + 1} →</a>` : ''}
             <a href="#/" class="btn btn-write">Về bản đồ</a>
-            <a href="#/review" class="btn btn-review">Sang Ôn tập</a>
           </div>
         </div>
       `;
@@ -270,7 +278,7 @@ export async function renderWritingScreen(root: HTMLElement, lessonId: string): 
               <div class="pinyin" style="font-size:18px;">${escapeHtml(cur.pinyin)}</div>
               <div style="font-size:18px;font-weight:800;margin-top:4px;">${escapeHtml(cur.meaningVi)}</div>
             </div>
-            ${renderBaoSvg({ mood: errorHint ? 'point' : charDone ? 'celebrate' : 'happy', size: 68, accessory: progress.equippedAccessory })}
+            ${renderBaoSvg({ mood: errorHint ? 'point' : charDone ? 'celebrate' : 'happy', size: 78, wardrobe })}
           </div>
 
           <div style="padding:12px;border-radius:14px;background:var(--write-soft);font-weight:700;font-size:14px;" data-stroke-progress>
@@ -385,7 +393,8 @@ export async function renderWritingScreen(root: HTMLElement, lessonId: string): 
         render();
       } else {
         finishedAll = true;
-        await recordStudyActivity({ xpEarned: lesson.xp, skill: 'viet', completedLessonId: lesson.id });
+        audioService.playSfx('coin');
+        await recordStudyActivity({ xpEarned: lesson.xp, coinsEarned: coinReward, skill: 'viet', completedLessonId: lesson.id });
         render();
       }
     };

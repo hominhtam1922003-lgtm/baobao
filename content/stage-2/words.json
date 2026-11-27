@@ -3,20 +3,29 @@
     "id": "w2-001",
     "hanzi": "快",
     "pinyin": "kuài",
-    "meaningVi": "nhanh, mau, vui vẻ",
+    "meaningVi": "nhanh, mau lên",
     "radical": "忄",
     "level": 2,
     "frequency": 153,
-    "mnemonic": "",
+    "mnemonic": "Trái nghĩa với 慢 (màn = chậm)! 网速很快 = mạng rất nhanh!",
     "examples": [
       {
-        "hanzi": "生日快乐，Muiriel！",
-        "pinyin": "shēng rì kuài lè ，Muiriel！",
-        "vi": "Chúc mừng sinh nhật, Muiriel!",
-        "audio": "audio/teacher-c01bd3dde287.mp3"
+        "hanzi": "新房间的网络很快！",
+        "pinyin": "xīn fáng jiān de wǎng luò hěn kuài!",
+        "vi": "Mạng ở phòng mới nhanh lắm!",
+        "audio": "audio/teacher-f32fc44410a5.mp3"
+      },
+      {
+        "hanzi": "你发照片真快！",
+        "pinyin": "nǐ fā zhào piàn zhēn kuài!",
+        "vi": "Bạn gửi ảnh nhanh thật đấy!",
+        "audio": "audio/teacher-26bb3f1442e1.mp3"
       }
     ],
-    "audio": "audio/teacher-d73e4f069312.mp3"
+    "audio": "audio/teacher-d73e4f069312.mp3",
+    "literalVi": "Bộ tâm (忄) — tốc độ nhanh nhạy",
+    "usageNoteVi": "快一点儿！(Nhanh lên chút!).",
+    "partOfSpeech": "Tính từ"
   },
   {
     "id": "w2-002",
@@ -26,7 +35,7 @@
     "radical": "一",
     "level": 2,
     "frequency": 172,
-    "mnemonic": "",
+    "mnemonic": "Gắn với nét nhất căn bản, ghi nhớ cụm 「一起」 (yī qǐ) = cùng nhau, chung.",
     "examples": [
       {
         "hanzi": "我想和你一起去。",
@@ -45,54 +54,81 @@
     "radical": "巾",
     "level": 2,
     "frequency": 182,
-    "mnemonic": "",
+    "mnemonic": "Hướng ánh mắt nhìn về phía trước (望) đầy ước mong (希)!",
     "examples": [
       {
-        "hanzi": "他放弃了所有希望。",
-        "pinyin": "tā fàng qì le suǒ yǒu xī wàng 。",
-        "vi": "Anh ta từ bỏ mọi hy vọng",
-        "audio": "audio/teacher-439d112acc0e.mp3"
+        "hanzi": "我希望早点完成工作。",
+        "pinyin": "wǒ xī wàng zǎo diǎn wán chéng gōng zuò.",
+        "vi": "Mình hy vọng hoàn thành công việc sớm.",
+        "audio": "audio/teacher-08794dad4e7a.mp3"
+      },
+      {
+        "hanzi": "希望我们合作愉快！",
+        "pinyin": "xī wàng wǒ men hé zuò yú kuài!",
+        "vi": "Mong chúng ta hợp tác vui vẻ!",
+        "audio": "audio/teacher-46ea189362d4.mp3"
       }
     ],
-    "audio": "audio/teacher-876e2146be59.mp3"
+    "audio": "audio/teacher-876e2146be59.mp3",
+    "literalVi": "希 (mong ước) + 望 (nhìn về phía trước)",
+    "usageNoteVi": "希望 + Mệnh đề: 我希望明年去北京工作.",
+    "partOfSpeech": "Động từ"
   },
   {
     "id": "w2-004",
     "hanzi": "告诉",
-    "pinyin": "gào sù",
-    "meaningVi": "nói cho biết, bảo, tố cáo",
+    "pinyin": "gào su",
+    "meaningVi": "nói cho biết, báo cho hay",
     "radical": "口",
     "level": 2,
     "frequency": 252,
-    "mnemonic": "",
+    "mnemonic": "Mở lời (口 + 讠) báo tin cho ai biết!",
     "examples": [
       {
-        "hanzi": "汤姆不能把他的真实感受告诉玛丽。",
-        "pinyin": "tāng mǔ bù néng bǎ tā de zhēn shí gǎn shòu gào sù mǎ lì 。",
-        "vi": "Tom không nói được với Mary cảm xúc thực sự của anh ấy.",
-        "audio": "audio/teacher-ee4a7ceb1b85.mp3"
+        "hanzi": "请告诉我Wi-Fi密码。",
+        "pinyin": "qǐng gào su wǒ Wi-Fi mì mǎ.",
+        "vi": "Làm ơn cho mình biết mật khẩu Wi-Fi nhé.",
+        "audio": "audio/teacher-a4975fcd24eb.mp3"
+      },
+      {
+        "hanzi": "我告诉你一个好消息！",
+        "pinyin": "wǒ gào su nǐ yí gè hǎo xiāo xi!",
+        "vi": "Mình kể cho bạn một tin vui này!",
+        "audio": "audio/teacher-28cf0137dffa.mp3"
       }
     ],
-    "audio": "audio/teacher-45a90682f045.mp3"
+    "audio": "audio/teacher-45a90682f045.mp3",
+    "literalVi": "告 (báo tin bằng miệng 口) + 诉 (kể bằng lời 讠)",
+    "usageNoteVi": "告诉 + Ai + Việc gì (KHÔNG cần 对/给 ở giữa: 告诉我, đừng nói 告诉给我!).",
+    "partOfSpeech": "Động từ"
   },
   {
     "id": "w2-005",
     "hanzi": "事情",
     "pinyin": "shì qing",
-    "meaningVi": "sự việc, chuyện",
-    "radical": "亅",
+    "meaningVi": "sự việc, công chuyện",
+    "radical": "一",
     "level": 2,
     "frequency": 271,
-    "mnemonic": "",
+    "mnemonic": "Chuyện cần xử lý hằng ngày gọi là 事情!",
     "examples": [
       {
-        "hanzi": "我跟父母讲了留学的事情。",
-        "pinyin": "wǒ gēn fù mǔ jiǎng le liú xué de shì qíng 。",
-        "vi": "Mình đã kể với bố mẹ chuyện đi du học.",
-        "audio": "audio/teacher-003682647356.mp3"
+        "hanzi": "今天有很多事情要做。",
+        "pinyin": "jīn tiān yǒu hěn duō shì qing yào zuò.",
+        "vi": "Hôm nay có rất nhiều việc phải làm.",
+        "audio": "audio/teacher-75f23e03dfea.mp3"
+      },
+      {
+        "hanzi": "这件事情交给我吧！",
+        "pinyin": "zhè jiàn shì qing jiāo gěi wǒ ba!",
+        "vi": "Việc này cứ giao cho mình nhé!",
+        "audio": "audio/teacher-f9fe4b831a85.mp3"
       }
     ],
-    "audio": "audio/teacher-7f2e58b03824.mp3"
+    "audio": "audio/teacher-7f2e58b03824.mp3",
+    "literalVi": "事 (việc) + 情 (tình huống)",
+    "usageNoteVi": "Chữ 情 đọc thanh nhẹ (shì qing). Lượng từ là 件 (jiàn): 一件事情.",
+    "partOfSpeech": "Danh từ"
   },
   {
     "id": "w2-006",
@@ -102,16 +138,25 @@
     "radical": "冫",
     "level": 2,
     "frequency": 333,
-    "mnemonic": "",
+    "mnemonic": "Chuẩn bị (准备) chu đáo trước kỳ thi để tự tin làm bài!",
     "examples": [
       {
-        "hanzi": "今天糟糕透了，所以我准备去喝一杯就直接上床。",
-        "pinyin": "jīn tiān zāo gāo tòu le ， suǒ yǐ wǒ zhǔn bèi qù hē yī bēi jiù zhí jiē shàng chuáng 。",
-        "vi": "Hôm nay tồi tệ thật, nên mình định đi uống chút gì rồi lên giường đi ngủ luôn.",
-        "audio": "audio/teacher-0e0ef6c88ce9.mp3"
+        "hanzi": "我已经准备好了！",
+        "pinyin": "wǒ yǐ jīng zhǔn bèi hǎo le!",
+        "vi": "Mình đã chuẩn bị sẵn sàng rồi!",
+        "audio": "audio/teacher-94515ff768a2.mp3"
+      },
+      {
+        "hanzi": "我们在准备明天的考试。",
+        "pinyin": "wǒ men zài zhǔn bèi míng tiān de kǎo shì.",
+        "vi": "Chúng mình đang chuẩn bị cho kỳ thi ngày mai.",
+        "audio": "audio/teacher-811f52eef2f7.mp3"
       }
     ],
-    "audio": "audio/teacher-27b22f4847ec.mp3"
+    "audio": "audio/teacher-27b22f4847ec.mp3",
+    "literalVi": "准 (sẵn sàng chuẩn xác) + 备 (trang bị)",
+    "usageNoteVi": "准备好了！(Đã chuẩn bị xong rồi!).",
+    "partOfSpeech": "Động từ"
   },
   {
     "id": "w2-007",
@@ -121,7 +166,7 @@
     "radical": "辶",
     "level": 2,
     "frequency": 353,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ xước (con đường / di chuyển), ghi nhớ cụm 「过去」 (guò qù) = quá khứ, qua đi, đi qua.",
     "examples": [
       {
         "hanzi": "不要相信一个你一点都不了解他过去的人。",
@@ -136,20 +181,29 @@
     "id": "w2-008",
     "hanzi": "送",
     "pinyin": "sòng",
-    "meaningVi": "tặng, giao, tiễn",
+    "meaningVi": "giao hàng, tặng quà, tiễn",
     "radical": "辶",
     "level": 2,
     "frequency": 370,
-    "mnemonic": "",
+    "mnemonic": "Một chữ 3 nghĩa hay dùng: 送快递 (giao hàng), 送礼物 (tặng quà), 送朋友 (tiễn bạn)!",
     "examples": [
       {
-        "hanzi": "何不送给她一些花?",
-        "pinyin": "hé bù sòng gěi tā yī xiē huā ?",
-        "vi": "Sao bạn không thử tặng cho cô ấy ít hoa?",
-        "audio": "audio/teacher-7096efac72e5.mp3"
+        "hanzi": "快递员把包裹送到门口了。",
+        "pinyin": "kuài dì yuán bǎ bāo guǒ sòng dào mén kǒu le.",
+        "vi": "Anh shipper đã giao gói hàng tới trước cửa rồi.",
+        "audio": "audio/teacher-02124b225905.mp3"
+      },
+      {
+        "hanzi": "谢谢你送给我的生日礼物！",
+        "pinyin": "xiè xie nǐ sòng gěi wǒ de shēng rì lǐ wù!",
+        "vi": "Cảm ơn món quà sinh nhật bạn tặng mình!",
+        "audio": "audio/teacher-a9600f218e35.mp3"
       }
     ],
-    "audio": "audio/teacher-0b0fb1cbe5b2.mp3"
+    "audio": "audio/teacher-0b0fb1cbe5b2.mp3",
+    "literalVi": "Bộ xước (辶) — mang đồ đi giao hoặc tặng ai đó",
+    "usageNoteVi": "送到家 (giao tận nhà).",
+    "partOfSpeech": "Động từ"
   },
   {
     "id": "w2-009",
@@ -159,7 +213,7 @@
     "radical": "宀",
     "level": 2,
     "frequency": 395,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ miên (mái nhà), ghi nhớ cụm 「完」 (wán) = xong, hoàn thành, hết.",
     "examples": [
       {
         "hanzi": "我想自己把工作做完。",
@@ -174,20 +228,29 @@
     "id": "w2-010",
     "hanzi": "门",
     "pinyin": "mén",
-    "meaningVi": "họ Môn, cửa",
+    "meaningVi": "cánh cửa, cổng",
     "radical": "门",
     "level": 2,
     "frequency": 422,
-    "mnemonic": "",
+    "mnemonic": "Chữ 门 vẽ đúng hình khung cửa lớn! 开门 (mở cửa), 关门 (đóng cửa).",
     "examples": [
       {
-        "hanzi": "谁负责这个部门？",
-        "pinyin": "shuí fù zé zhè ge bù mén ？",
-        "vi": "Ai phụ trách khâu này?",
-        "audio": "audio/teacher-7de472610420.mp3"
+        "hanzi": "请把门关上，开空调吧。",
+        "pinyin": "qǐng bǎ mén guān shàng, kāi kōng tiáo ba.",
+        "vi": "Đóng cửa vào rồi bật điều hòa nhé.",
+        "audio": "audio/teacher-5854ef39ea63.mp3"
+      },
+      {
+        "hanzi": "我在楼门口等你。",
+        "pinyin": "wǒ zài lóu mén kǒu děng nǐ.",
+        "vi": "Mình đợi bạn ở trước cổng tòa nhà.",
+        "audio": "audio/teacher-32ba623cff04.mp3"
       }
     ],
-    "audio": "audio/teacher-a4bf65fb6153.mp3"
+    "audio": "audio/teacher-a4bf65fb6153.mp3",
+    "literalVi": "Hình hai cánh cửa mở ra đóng vào",
+    "usageNoteVi": "门口 (mén kǒu) = trước cửa/cổng.",
+    "partOfSpeech": "Danh từ"
   },
   {
     "id": "w2-011",
@@ -197,13 +260,13 @@
     "radical": "王",
     "level": 2,
     "frequency": 518,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ ngọc (viên ngọc quý), ghi nhớ cụm 「球」 (qiú) = quả bóng, cầu.",
     "examples": [
       {
-        "hanzi": "你喜歡棒球到甚麼程度？",
+        "hanzi": "你喜欢棒球到什么程度？",
         "pinyin": "nǐ xǐ huān bàng qiú dào shén me chéng dù ？",
         "vi": "Bạn mê bóng chày cỡ nào ?",
-        "audio": "audio/teacher-e2bdc6b6ece1.mp3"
+        "audio": "audio/teacher-3bed90f81791.mp3"
       }
     ],
     "audio": "audio/teacher-ca0627563344.mp3"
@@ -216,7 +279,7 @@
     "radical": "足",
     "level": 2,
     "frequency": 553,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ túc (bàn chân / di chuyển), ghi nhớ cụm 「跑」 (pǎo) = chạy.",
     "examples": [
       {
         "hanzi": "他跑得能有多快就有多快。",
@@ -231,39 +294,57 @@
     "id": "w2-013",
     "hanzi": "里面",
     "pinyin": "lǐ miàn",
-    "meaningVi": "bên trong, trong này",
+    "meaningVi": "bên trong",
     "radical": "里",
     "level": 2,
     "frequency": 648,
-    "mnemonic": "",
+    "mnemonic": "Phía trong (里面) đối lập với phía ngoài (外面)!",
     "examples": [
       {
-        "hanzi": "这箱子是空的，里面什么也没有。",
-        "pinyin": "zhè xiāng zi shì kōng de ， lǐ miàn shén me yě méi yǒu 。",
-        "vi": "Cái thùng này trống không, bên trong chẳng có gì cả.",
-        "audio": "audio/teacher-3afd7bdf4908.mp3"
+        "hanzi": "请到里面看看吧！",
+        "pinyin": "qǐng dào lǐ miàn kàn kan ba!",
+        "vi": "Mời bạn vào bên trong xem thử nhé!",
+        "audio": "audio/teacher-2cc3f74b319e.mp3"
+      },
+      {
+        "hanzi": "包里面有什么东西？",
+        "pinyin": "bāo lǐ miàn yǒu shén me dōng xi?",
+        "vi": "Bên trong túi có đồ gì thế?",
+        "audio": "audio/teacher-6c3ca7eca55d.mp3"
       }
     ],
-    "audio": "audio/teacher-d5790c46986f.mp3"
+    "audio": "audio/teacher-d5790c46986f.mp3",
+    "literalVi": "里 (trong) + 面 (phía/mặt)",
+    "usageNoteVi": "Đặt sau danh từ: 房间里面 (bên trong phòng).",
+    "partOfSpeech": "Danh từ"
   },
   {
     "id": "w2-014",
     "hanzi": "懂",
     "pinyin": "dǒng",
-    "meaningVi": "hiểu",
+    "meaningVi": "hiểu, nắm rõ",
     "radical": "忄",
     "level": 2,
     "frequency": 669,
-    "mnemonic": "",
+    "mnemonic": "Trái tim (忄) thông suốt là hiểu (懂)! Hay ghép 听懂, 看懂.",
     "examples": [
       {
-        "hanzi": "他的理论很难懂。",
-        "pinyin": "tā de lǐ lùn hěn nán dǒng 。",
-        "vi": "Lý luận của anh ấy rất khó hiểu.",
-        "audio": "audio/teacher-bbc97446fda6.mp3"
+        "hanzi": "你说的话我都听懂了。",
+        "pinyin": "nǐ shuō de huà wǒ dōu tīng dǒng le.",
+        "vi": "Lời bạn nói mình đều nghe hiểu rồi.",
+        "audio": "audio/teacher-f4d268a794ef.mp3"
+      },
+      {
+        "hanzi": "这个词我还没看懂。",
+        "pinyin": "zhè gè cí wǒ hái méi kàn dǒng.",
+        "vi": "Từ này mình vẫn chưa đọc hiểu.",
+        "audio": "audio/teacher-ef11698d0c43.mp3"
       }
     ],
-    "audio": "audio/teacher-5a5e4d9fecee.mp3"
+    "audio": "audio/teacher-5a5e4d9fecee.mp3",
+    "literalVi": "Bộ tâm (忄) — thấu hiểu trong lòng",
+    "usageNoteVi": "听懂了吗？(Nghe hiểu chưa?).",
+    "partOfSpeech": "Động từ"
   },
   {
     "id": "w2-015",
@@ -273,7 +354,7 @@
     "radical": "讠",
     "level": 2,
     "frequency": 699,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ ngôn (lời nói), ghi nhớ cụm 「记得」 (jì de) = nhớ, ghi nhớ.",
     "examples": [
       {
         "hanzi": "我永远记得那件事。",
@@ -292,16 +373,25 @@
     "radical": "艹",
     "level": 2,
     "frequency": 701,
-    "mnemonic": "",
+    "mnemonic": "Thảo mộc (艹) làm nên viên thuốc (药) chữa bệnh! Nhớ nói 吃药 nhé!",
     "examples": [
       {
-        "hanzi": "为什么喝那么多药？",
-        "pinyin": "wèi shén me hē nà me duō yào ？",
-        "vi": "Sao uống lắm thuốc thế?",
-        "audio": "audio/teacher-2503efe26287.mp3"
+        "hanzi": "记得按时吃药！",
+        "pinyin": "jì de àn shí chī yào!",
+        "vi": "Nhớ uống thuốc đúng giờ nhé!",
+        "audio": "audio/teacher-41a695f7afc5.mp3"
+      },
+      {
+        "hanzi": "医生给我开了感冒药。",
+        "pinyin": "yī shēng gěi wǒ kāi le gǎn mào yào.",
+        "vi": "Bác sĩ kê cho mình thuốc cảm.",
+        "audio": "audio/teacher-14f4b1623635.mp3"
       }
     ],
-    "audio": "audio/teacher-5a87b3d6a753.mp3"
+    "audio": "audio/teacher-5a87b3d6a753.mp3",
+    "literalVi": "Bộ thảo (艹) — thuốc Đông y xưa làm từ thảo dược!",
+    "usageNoteVi": "买药 (mua thuốc), 吃药 (uống thuốc), 感冒药 (thuốc cảm).",
+    "partOfSpeech": "Danh từ"
   },
   {
     "id": "w2-017",
@@ -311,26 +401,35 @@
     "radical": "身",
     "level": 2,
     "frequency": 731,
-    "mnemonic": "",
+    "mnemonic": "Thân (身) và thể (体) khỏe mạnh là vốn quý nhất!",
     "examples": [
       {
-        "hanzi": "他的身体太瘦了。",
-        "pinyin": "tā de shēn tǐ tài shòu le 。",
-        "vi": "Mình anh ta gầy quá.",
-        "audio": "audio/teacher-3a03db002f34.mp3"
+        "hanzi": "你的身体怎么样了？",
+        "pinyin": "nǐ de shēn tǐ zěn me yàng le?",
+        "vi": "Sức khỏe của bạn sao rồi?",
+        "audio": "audio/teacher-e80191a62a32.mp3"
+      },
+      {
+        "hanzi": "最近工作太忙，要注意身体。",
+        "pinyin": "zuì jìn gōng zuò tài máng, yào zhù yì shēn tǐ.",
+        "vi": "Dạo này công việc bận quá, nhớ chú ý sức khỏe nhé.",
+        "audio": "audio/teacher-9eb07f0b1f89.mp3"
       }
     ],
-    "audio": "audio/teacher-9d6109412deb.mp3"
+    "audio": "audio/teacher-9d6109412deb.mp3",
+    "literalVi": "身 (thân mình) + 体 (cơ thể, người 亻 + gốc 本)",
+    "usageNoteVi": "祝你身体健康！(Chúc bạn sức khỏe dồi dào!).",
+    "partOfSpeech": "Danh từ"
   },
   {
     "id": "w2-018",
     "hanzi": "包",
     "pinyin": "bāo",
-    "meaningVi": "họ Bao, túi, bao bọc",
+    "meaningVi": "túi, bao bọc",
     "radical": "勹",
     "level": 2,
     "frequency": 755,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 勹, ghi nhớ cụm 「包」 (bāo) = túi, bao bọc.",
     "examples": [
       {
         "hanzi": "我爸爸每天抽一包烟。",
@@ -345,20 +444,29 @@
     "id": "w2-019",
     "hanzi": "楼",
     "pinyin": "lóu",
-    "meaningVi": "họ Lâu, tòa nhà, lầu",
+    "meaningVi": "tầng, tòa nhà",
     "radical": "木",
     "level": 2,
     "frequency": 765,
-    "mnemonic": "",
+    "mnemonic": "三楼 (tầng 3), 上楼 (lên lầu), 下楼 (xuống lầu)!",
     "examples": [
       {
-        "hanzi": "你不应该在学校大楼里奔跑。",
-        "pinyin": "nǐ bù yīng gāi zài xué xiào dà lóu lǐ bēn pǎo 。",
-        "vi": "Bạn không nên chạy nhảy trong tòa nhà trường học.",
-        "audio": "audio/teacher-a41e9d6b1d35.mp3"
+        "hanzi": "Bao的新房间在四楼。",
+        "pinyin": "Bao de xīn fáng jiān zài sì lóu.",
+        "vi": "Phòng mới của Bao ở tầng 4.",
+        "audio": "audio/teacher-ee91fb469da9.mp3"
+      },
+      {
+        "hanzi": "这栋楼有电梯吗？",
+        "pinyin": "zhè dòng lóu yǒu diàn tī ma?",
+        "vi": "Tòa nhà này có thang máy không?",
+        "audio": "audio/teacher-1d505b33660a.mp3"
       }
     ],
-    "audio": "audio/teacher-abd33db3482e.mp3"
+    "audio": "audio/teacher-abd33db3482e.mp3",
+    "literalVi": "Bộ mộc (木) — xưa nhà lầu dựng bằng gỗ",
+    "usageNoteVi": "Bạn ở tầng mấy? 你住几楼？",
+    "partOfSpeech": "Danh từ"
   },
   {
     "id": "w2-020",
@@ -368,7 +476,7 @@
     "radical": "人",
     "level": 2,
     "frequency": 779,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ nhân (người), ghi nhớ cụm 「介绍」 (jiè shào) = giới thiệu.",
     "examples": [
       {
         "hanzi": "我把玛丽介绍给我的父母了。",
@@ -387,7 +495,7 @@
     "radical": "示",
     "level": 2,
     "frequency": 956,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ thị (nghi lễ), ghi nhớ cụm 「票」 (piào) = vé, phiếu, tiền giấy.",
     "examples": [
       {
         "hanzi": "别着急，你要的电影票我给你按时送到就是了。",
@@ -402,39 +510,57 @@
     "id": "w2-022",
     "hanzi": "床",
     "pinyin": "chuáng",
-    "meaningVi": "giường, cái giường",
+    "meaningVi": "cái giường",
     "radical": "广",
     "level": 2,
     "frequency": 961,
-    "mnemonic": "",
+    "mnemonic": "Cây gỗ (木) đặt dưới mái nhà (广) làm thành chiếc giường êm ái!",
     "examples": [
       {
-        "hanzi": "我每天6点起床。",
-        "pinyin": "wǒ měi tiān 6 diǎn qǐ chuáng 。",
-        "vi": "Hàng ngày sáu giờ tôi dậy.",
-        "audio": "audio/teacher-00a5e8fd6ea1.mp3"
+        "hanzi": "房间里有一张大床。",
+        "pinyin": "fáng jiān lǐ yǒu yì zhāng dà chuáng.",
+        "vi": "Trong phòng có một chiếc giường lớn.",
+        "audio": "audio/teacher-d2385c80d0c5.mp3"
+      },
+      {
+        "hanzi": "这张床很软很舒服。",
+        "pinyin": "zhè zhāng chuáng hěn ruǎn hěn shū fu.",
+        "vi": "Chiếc giường này rất êm và thoải mái.",
+        "audio": "audio/teacher-a965e4a40ea1.mp3"
       }
     ],
-    "audio": "audio/teacher-fe730f5a6fa0.mp3"
+    "audio": "audio/teacher-fe730f5a6fa0.mp3",
+    "literalVi": "Mái che (广) + gỗ (木) = chiếc giường gỗ đặt trong nhà!",
+    "usageNoteVi": "Lượng từ cho giường là 张 (zhāng): 一张大床.",
+    "partOfSpeech": "Danh từ"
   },
   {
     "id": "w2-023",
     "hanzi": "教",
-    "pinyin": "jiào",
-    "meaningVi": "dạy, họ Giáo",
+    "pinyin": "jiāo",
+    "meaningVi": "dạy học",
     "radical": "攵",
     "level": 2,
     "frequency": 988,
-    "mnemonic": "",
+    "mnemonic": "Động từ 'dạy' đọc thanh 1 (jiāo): 王老师教我们中文!",
     "examples": [
       {
-        "hanzi": "教授微微笑了笑。",
-        "pinyin": "jiào shòu wēi wēi xiào le xiào 。",
-        "vi": "Ông giáo sư mỉm cười.",
-        "audio": "audio/teacher-f27a29763b89.mp3"
+        "hanzi": "王老师教我们说中文。",
+        "pinyin": "Wáng lǎo shī jiāo wǒ men shuō Zhōng wén.",
+        "vi": "Cô Vương dạy chúng mình nói tiếng Trung.",
+        "audio": "audio/teacher-053eb5edd33a.mp3"
+      },
+      {
+        "hanzi": "你可以教我写这个字吗？",
+        "pinyin": "nǐ kě yǐ jiāo wǒ xiě zhè gè zì ma?",
+        "vi": "Bạn có thể dạy mình viết chữ này không?",
+        "audio": "audio/teacher-028ab02085d8.mp3"
       }
     ],
-    "audio": "audio/teacher-0af0cc88aed5.mp3"
+    "audio": "audio/teacher-0af0cc88aed5.mp3",
+    "literalVi": "Người lớn hướng dẫn trẻ (子) học hỏi",
+    "usageNoteVi": "Mẫu câu 2 tân ngữ: 教 + Ai + Cái gì (教我中文).",
+    "partOfSpeech": "Động từ"
   },
   {
     "id": "w2-024",
@@ -444,7 +570,7 @@
     "radical": "田",
     "level": 2,
     "frequency": 1119,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ điền (ruộng / khung), ghi nhớ cụm 「画」 (huà) = vẽ, bức tranh, tranh.",
     "examples": [
       {
         "hanzi": "汤姆问了玛丽谁画了图片。",
@@ -463,35 +589,53 @@
     "radical": "辶",
     "level": 2,
     "frequency": 1138,
-    "mnemonic": "",
+    "mnemonic": "Di chuyển (运) và cử động (动) cơ thể cho khỏe mạnh!",
     "examples": [
       {
-        "hanzi": "有些人喜欢运动，有些人不喜欢。",
-        "pinyin": "yǒu xiē rén xǐ huān yùn dòng ， yǒu xiē rén bù xǐ huān 。",
-        "vi": "Có người thích thể thao, có người không.",
-        "audio": "audio/teacher-732abbc4b03c.mp3"
+        "hanzi": "每天运动对身体很好。",
+        "pinyin": "měi tiān yùn dòng duì shēn tǐ hěn hǎo.",
+        "vi": "Vận động mỗi ngày rất tốt cho sức khỏe.",
+        "audio": "audio/teacher-7af501c0ec72.mp3"
+      },
+      {
+        "hanzi": "周末我去公园运动。",
+        "pinyin": "zhōu mò wǒ qù gōng yuán yùn dòng.",
+        "vi": "Cuối tuần mình đi công viên tập thể dục.",
+        "audio": "audio/teacher-06ca90124ff8.mp3"
       }
     ],
-    "audio": "audio/teacher-8aa65e63d8dd.mp3"
+    "audio": "audio/teacher-8aa65e63d8dd.mp3",
+    "literalVi": "运 (chuyển động) + 动 (cử động)",
+    "usageNoteVi": "Vừa là động từ (去运动), vừa là danh từ (做运动).",
+    "partOfSpeech": "Động từ"
   },
   {
     "id": "w2-026",
     "hanzi": "累",
     "pinyin": "lèi",
-    "meaningVi": "mệt, mỏi, tích lũy",
-    "radical": "糸",
+    "meaningVi": "mệt mỏi",
+    "radical": "田",
     "level": 2,
     "frequency": 1197,
-    "mnemonic": "",
+    "mnemonic": "Cày ruộng (田) cả ngày nên rất mệt (累)!",
     "examples": [
       {
-        "hanzi": "我现在真的很累。",
-        "pinyin": "wǒ xiàn zài zhēn de hěn lèi 。",
-        "vi": "Bây giờ tôi rất là mệt.",
-        "audio": "audio/teacher-f37a3e3f1854.mp3"
+        "hanzi": "工作了一天，我有点儿累。",
+        "pinyin": "gōng zuò le yì tiān, wǒ yǒu diǎnr lèi.",
+        "vi": "Làm việc cả ngày rồi, mình hơi mệt.",
+        "audio": "audio/teacher-18bfa5100ff3.mp3"
+      },
+      {
+        "hanzi": "累了就早点睡吧。",
+        "pinyin": "lèi le jiù zǎo diǎn shuì ba.",
+        "vi": "Mệt rồi thì đi ngủ sớm nhé.",
+        "audio": "audio/teacher-87fe3531caee.mp3"
       }
     ],
-    "audio": "audio/teacher-f407f3416842.mp3"
+    "audio": "audio/teacher-f407f3416842.mp3",
+    "literalVi": "Làm ruộng (田) vất vả đến mệt nhoài (系)",
+    "usageNoteVi": "太累了 (mệt quá rồi), 累死了 (mệt muốn xỉu — khẩu ngữ vui).",
+    "partOfSpeech": "Tính từ"
   },
   {
     "id": "w2-027",
@@ -501,7 +645,7 @@
     "radical": "氵",
     "level": 2,
     "frequency": 1298,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ chấm thủy (nước), ghi nhớ cụm 「洗」 (xǐ) = giặt, rửa.",
     "examples": [
       {
         "hanzi": "我没洗头发。",
@@ -516,20 +660,29 @@
     "id": "w2-028",
     "hanzi": "外面",
     "pinyin": "wài miàn",
-    "meaningVi": "bên ngoài, phía ngoài",
+    "meaningVi": "bên ngoài",
     "radical": "夕",
     "level": 2,
     "frequency": 1352,
-    "mnemonic": "",
+    "mnemonic": "Bên ngoài cửa phòng (外面) là phố phường náo nhiệt!",
     "examples": [
       {
-        "hanzi": "我们今晚在外面吃饭吧。",
-        "pinyin": "wǒ men jīn wǎn zài wài miàn chī fàn ba 。",
-        "vi": "Chúng ta tối nay đi ăn nhé.",
-        "audio": "audio/teacher-0cd276d9f7fe.mp3"
+        "hanzi": "外面正在下雨，快进屋吧。",
+        "pinyin": "wài miàn zhèng zài xià yǔ, kuài jìn wū ba.",
+        "vi": "Bên ngoài trời đang mưa, mau vào nhà đi.",
+        "audio": "audio/teacher-3d86b093ac60.mp3"
+      },
+      {
+        "hanzi": "楼外面有一个小公园。",
+        "pinyin": "lóu wài miàn yǒu yí gè xiǎo gōng yuán.",
+        "vi": "Bên ngoài tòa nhà có một công viên nhỏ.",
+        "audio": "audio/teacher-b9118f3c556c.mp3"
       }
     ],
-    "audio": "audio/teacher-df181b5916a8.mp3"
+    "audio": "audio/teacher-df181b5916a8.mp3",
+    "literalVi": "外 (ngoài) + 面 (phía/mặt)",
+    "usageNoteVi": "外面很热 (bên ngoài rất nóng).",
+    "partOfSpeech": "Danh từ"
   },
   {
     "id": "w2-029",
@@ -539,7 +692,7 @@
     "radical": "疒",
     "level": 2,
     "frequency": 1641,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ nạch (bệnh tật), ghi nhớ cụm 「疼」 (téng) = đau, xót.",
     "examples": [
       {
         "hanzi": "我太阳穴处疼极了。",
@@ -558,7 +711,7 @@
     "radical": "酉",
     "level": 2,
     "frequency": 1680,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 酉, ghi nhớ cụm 「酒店」 (jiǔ diàn) = khách sạn, quán rượu.",
     "examples": [
       {
         "hanzi": "目前我待在酒店。",
@@ -573,20 +726,29 @@
     "id": "w2-031",
     "hanzi": "考试",
     "pinyin": "kǎo shì",
-    "meaningVi": "kiểm tra, thi cử",
-    "radical": "耂",
+    "meaningVi": "thi cử, bài kiểm tra",
+    "radical": "老",
     "level": 2,
     "frequency": 1718,
-    "mnemonic": "",
+    "mnemonic": "Đợt kiểm tra (考) thử sức (试) kiến thức sau khi ôn tập!",
     "examples": [
       {
-        "hanzi": "考试前，你根本没复习，能考好吗？ – 可也是。",
-        "pinyin": "kǎo shì qián ， nǐ gēn běn méi fù xí ， néng kǎo hǎo ma ？ –  kě yě shì 。",
-        "vi": "Trước kỳ thi cậu căn bản chẳng ôn tập gì, có thi tốt nổi không? – Cũng đúng",
-        "audio": "audio/teacher-cca43b6fb261.mp3"
+        "hanzi": "明天上午九点有考试。",
+        "pinyin": "míng tiān shàng wǔ jiǔ diǎn yǒu kǎo shì.",
+        "vi": "9 giờ sáng mai có bài kiểm tra.",
+        "audio": "audio/teacher-1f4b1480d1d3.mp3"
+      },
+      {
+        "hanzi": "祝你考试顺利！",
+        "pinyin": "zhù nǐ kǎo shì shùn lì!",
+        "vi": "Chúc bạn thi thuận lợi nhé!",
+        "audio": "audio/teacher-88f11fbcd4ca.mp3"
       }
     ],
-    "audio": "audio/teacher-e5630500f887.mp3"
+    "audio": "audio/teacher-e5630500f887.mp3",
+    "literalVi": "考 (khảo sát) + 试 (thử nghiệm)",
+    "usageNoteVi": "参加考试 (tham gia thi), 考得很好 (thi rất tốt).",
+    "partOfSpeech": "Danh từ"
   },
   {
     "id": "w2-032",
@@ -596,7 +758,7 @@
     "radical": "方",
     "level": 2,
     "frequency": 2534,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 方, ghi nhớ cụm 「旅游」 (lǚ yóu) = du lịch, đi chơi.",
     "examples": [
       {
         "hanzi": "我很期待去旅游.",
@@ -611,11 +773,11 @@
     "id": "w2-033",
     "hanzi": "题",
     "pinyin": "tí",
-    "meaningVi": "họ Đề, đề thi, câu hỏi",
+    "meaningVi": "đề thi, câu hỏi",
     "radical": "页",
     "level": 2,
     "frequency": 2690,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ hiệt (đầu / trang giấy), ghi nhớ cụm 「题」 (tí) = đề thi, câu hỏi.",
     "examples": [
       {
         "hanzi": "我想问你一个问题。",
@@ -634,7 +796,7 @@
     "radical": "石",
     "level": 2,
     "frequency": 2877,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ thạch (đá), ghi nhớ cụm 「碰到」 (pèng dào) = gặp, tình cờ gặp.",
     "examples": [
       {
         "hanzi": "我们偶然碰到了她。",
@@ -653,7 +815,7 @@
     "radical": "氵",
     "level": 2,
     "frequency": 3695,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ chấm thủy (nước), ghi nhớ cụm 「游泳」 (yóu yǒng) = bơi lội.",
     "examples": [
       {
         "hanzi": "我父亲会游泳但我母亲不会。",
@@ -668,58 +830,85 @@
     "id": "w2-036",
     "hanzi": "跳舞",
     "pinyin": "tiào wǔ",
-    "meaningVi": "khiêu vũ, nhảy múa",
+    "meaningVi": "nhảy múa, khiêu vũ",
     "radical": "足",
     "level": 2,
     "frequency": 3920,
-    "mnemonic": "",
+    "mnemonic": "Đôi chân (足) nhún nhảy (跳) theo điệu múa (舞)!",
     "examples": [
       {
-        "hanzi": "亲爱的，我们跳舞吧。",
-        "pinyin": "qīn ài de ， wǒ men tiào wǔ ba 。",
-        "vi": "Em yêu ơi, chúng mình khiêu vũ nhé.",
-        "audio": "audio/teacher-310a3f67db46.mp3"
+        "hanzi": "姐姐很喜欢跳舞。",
+        "pinyin": "jiě jie hěn xǐ huan tiào wǔ.",
+        "vi": "Chị gái rất thích nhảy múa.",
+        "audio": "audio/teacher-8d3beae203d8.mp3"
+      },
+      {
+        "hanzi": "公园里有很多人在跳舞。",
+        "pinyin": "gōng yuán lǐ yǒu hěn duō rén zài tiào wǔ.",
+        "vi": "Trong công viên có rất nhiều người đang nhảy múa.",
+        "audio": "audio/teacher-e84b1342dc68.mp3"
       }
     ],
-    "audio": "audio/teacher-0e87035b398e.mp3"
+    "audio": "audio/teacher-0e87035b398e.mp3",
+    "literalVi": "跳 (nhảy, bộ chân 足) + 舞 (múa)",
+    "usageNoteVi": "Động từ ly hợp: 跳一会儿舞 (nhảy một lát).",
+    "partOfSpeech": "Động từ"
   },
   {
     "id": "w2-037",
     "hanzi": "上网",
     "pinyin": "shàng wǎng",
-    "meaningVi": "lên mạng, kết nối internet",
+    "meaningVi": "lên mạng, truy cập internet",
     "radical": "一",
     "level": 2,
     "frequency": 4061,
-    "mnemonic": "",
+    "mnemonic": "Chữ 网 vẽ đúng hình mạng lưới kết nối khắp thế giới!",
     "examples": [
       {
-        "hanzi": "我每天晚上都会上网查资料。",
-        "pinyin": "wǒ měi tiān wǎn shàng dū huì shàng wǎng chá zī liào 。",
-        "vi": "Tối nào mình cũng lên mạng tra tài liệu.",
-        "audio": "audio/teacher-89300a1db2d8.mp3"
+        "hanzi": "新房间可以上网吗？",
+        "pinyin": "xīn fáng jiān kě yǐ shàng wǎng ma?",
+        "vi": "Phòng mới có lên mạng được không?",
+        "audio": "audio/teacher-51855fd79310.mp3"
+      },
+      {
+        "hanzi": "我晚上喜欢上网看视频。",
+        "pinyin": "wǒ wǎn shang xǐ huan shàng wǎng kàn shì pín.",
+        "vi": "Buổi tối mình thích lên mạng xem video.",
+        "audio": "audio/teacher-97647afaecd0.mp3"
       }
     ],
-    "audio": "audio/teacher-3d72c378a63b.mp3"
+    "audio": "audio/teacher-3d72c378a63b.mp3",
+    "literalVi": "上 (lên) + 网 (mạng lưới — hình tấm lưới!)",
+    "usageNoteVi": "上网查资料 (lên mạng tra tài liệu).",
+    "partOfSpeech": "Động từ"
   },
   {
     "id": "w2-038",
     "hanzi": "教室",
     "pinyin": "jiào shì",
-    "meaningVi": "phòng học",
+    "meaningVi": "phòng học, lớp học",
     "radical": "攵",
     "level": 2,
     "frequency": 5082,
-    "mnemonic": "",
+    "mnemonic": "Căn phòng (室 có mái nhà 宀) nơi thầy cô giảng dạy (教) = phòng học!",
     "examples": [
       {
-        "hanzi": "我们走进教室。",
-        "pinyin": "wǒ men zǒu jìn jiào shì 。",
-        "vi": "Chúng tôi bước vào lớp học.",
-        "audio": "audio/teacher-7e2cacf5caeb.mp3"
+        "hanzi": "同学们都在教室里学习。",
+        "pinyin": "tóng xué men dōu zài jiào shì lǐ xué xí.",
+        "vi": "Các bạn học đều đang học trong phòng học.",
+        "audio": "audio/teacher-9c3f63c7f88a.mp3"
+      },
+      {
+        "hanzi": "我们的教室很大很亮。",
+        "pinyin": "wǒ men de jiào shì hěn dà hěn liàng.",
+        "vi": "Phòng học của chúng mình rất rộng và sáng.",
+        "audio": "audio/teacher-da04480fc774.mp3"
       }
     ],
-    "audio": "audio/teacher-624ff89e2abe.mp3"
+    "audio": "audio/teacher-624ff89e2abe.mp3",
+    "literalVi": "教 (giảng dạy) + 室 (căn phòng)",
+    "usageNoteVi": "Ở đây 教 đọc thanh 4 (jiào shì).",
+    "partOfSpeech": "Danh từ"
   },
   {
     "id": "w2-039",
@@ -729,7 +918,7 @@
     "radical": "日",
     "level": 2,
     "frequency": 22596,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ nhật (mặt trời / thời gian), ghi nhớ cụm 「春节」 (Chūn jié) = Tết Nguyên Đán, Tết.",
     "examples": [
       {
         "hanzi": "春节，即农历新年。",
@@ -748,73 +937,109 @@
     "radical": "用",
     "level": 2,
     "frequency": 79,
-    "mnemonic": "",
+    "mnemonic": "用手机 (dùng điện thoại), 用中文 (dùng tiếng Trung)!",
     "examples": [
       {
-        "hanzi": "昨天，我收到一封用英语写的信。",
-        "pinyin": "zuó tiān ， wǒ shōu dào yī fēng yòng yīng yǔ xiě de xìn 。",
-        "vi": "Hôm qua, tôi có nhận một bức thư viết bằng tiếng Anh.",
-        "audio": "audio/teacher-e98e090535cd.mp3"
+        "hanzi": "我常用手机查生词。",
+        "pinyin": "wǒ cháng yòng shǒu jī chá shēng cí.",
+        "vi": "Mình hay dùng điện thoại tra từ mới.",
+        "audio": "audio/teacher-2cbad3e679ca.mp3"
+      },
+      {
+        "hanzi": "我们可以用中文聊天。",
+        "pinyin": "wǒ men kě yǐ yòng Zhōng wén liáo tiān.",
+        "vi": "Chúng mình có thể trò chuyện bằng tiếng Trung.",
+        "audio": "audio/teacher-18062d96086e.mp3"
       }
     ],
-    "audio": "audio/teacher-f7f3eb610c9b.mp3"
+    "audio": "audio/teacher-f7f3eb610c9b.mp3",
+    "literalVi": "Hình chiếc thùng/dụng cụ để sử dụng",
+    "usageNoteVi": "不用谢 (không cần cảm ơn), 有用 (hữu ích).",
+    "partOfSpeech": "Động từ"
   },
   {
     "id": "w2-041",
     "hanzi": "发",
     "pinyin": "fā",
-    "meaningVi": "gửi, phát ra, bộc lộ",
+    "meaningVi": "gửi đi (tin nhắn, ảnh, email)",
     "radical": "又",
     "level": 2,
     "frequency": 400,
-    "mnemonic": "",
+    "mnemonic": "发短信 (gửi tin nhắn), 发微信 (nhắn WeChat), 发照片 (gửi ảnh)!",
     "examples": [
       {
-        "hanzi": "贸易帮助国家发展。",
-        "pinyin": "mào yì bāng zhù guó jiā fā zhǎn 。",
-        "vi": "Mậu dịch hỗ trợ sự phát triển của quốc gia.",
-        "audio": "audio/teacher-2c855e6018f4.mp3"
+        "hanzi": "请把照片发给我吧！",
+        "pinyin": "qǐng bǎ zhào piàn fā gěi wǒ ba!",
+        "vi": "Gửi ảnh cho mình với nhé!",
+        "audio": "audio/teacher-44cc196b0505.mp3"
+      },
+      {
+        "hanzi": "我刚才给你发了一条短信。",
+        "pinyin": "wǒ gāng cái gěi nǐ fā le yì tiáo duǎn xìn.",
+        "vi": "Vừa nãy mình gửi cho bạn một tin nhắn đấy.",
+        "audio": "audio/teacher-6da184392fca.mp3"
       }
     ],
-    "audio": "audio/teacher-fa971e113bb8.mp3"
+    "audio": "audio/teacher-fa971e113bb8.mp3",
+    "literalVi": "Phát đi, gửi tới người nhận",
+    "usageNoteVi": "Luôn kết hợp đẹp với 给: 给朋友发信息.",
+    "partOfSpeech": "Động từ"
   },
   {
     "id": "w2-042",
     "hanzi": "照片",
     "pinyin": "zhào piàn",
-    "meaningVi": "bức ảnh, ảnh",
+    "meaningVi": "bức ảnh, tấm hình",
     "radical": "灬",
     "level": 2,
     "frequency": 766,
-    "mnemonic": "",
+    "mnemonic": "拍照 (pāi zhào) = chụp ảnh, 一张照片 = một tấm ảnh!",
     "examples": [
       {
-        "hanzi": "这张照片让我想起童年的快乐时光。",
-        "pinyin": "zhè zhāng zhào piān ràng wǒ xiǎng qǐ tóng nián de kuài lè shí guāng 。",
-        "vi": "Tấm ảnh này làm mình nhớ lại những năm tháng tuổi thơ vui vẻ.",
-        "audio": "audio/teacher-e85125f9cfcf.mp3"
+        "hanzi": "这张照片拍得真好看！",
+        "pinyin": "zhè zhāng zhào piàn pāi de zhēn hǎo kàn!",
+        "vi": "Tấm ảnh này chụp đẹp thật đấy!",
+        "audio": "audio/teacher-5569f9703a05.mp3"
+      },
+      {
+        "hanzi": "我给妈妈发了新房间的照片。",
+        "pinyin": "wǒ gěi mā ma fā le xīn fáng jiān de zhào piàn.",
+        "vi": "Mình đã gửi ảnh phòng mới cho mẹ.",
+        "audio": "audio/teacher-2143f3e4dd0e.mp3"
       }
     ],
-    "audio": "audio/teacher-3ce85b9a409a.mp3"
+    "audio": "audio/teacher-3ce85b9a409a.mp3",
+    "literalVi": "照 (chụp/chiếu sáng) + 片 (tấm mỏng)",
+    "usageNoteVi": "Lượng từ cho ảnh là 张 (zhāng).",
+    "partOfSpeech": "Danh từ"
   },
   {
     "id": "w2-043",
     "hanzi": "风",
     "pinyin": "fēng",
-    "meaningVi": "gió, phong cách",
+    "meaningVi": "gió",
     "radical": "风",
     "level": 2,
     "frequency": 1150,
-    "mnemonic": "",
+    "mnemonic": "Gió thổi vù vù trong khung chữ 风! 刮风 (guā fēng) = nổi gió.",
     "examples": [
       {
-        "hanzi": "局长对我们一风吹的做法提出了批评。",
-        "pinyin": "jú zhǎng duì wǒ men yī fēng chuī de zuò fǎ tí chū le pī píng 。",
-        "vi": "Việc cục trưởng bỏ qua tất cả cho chúng tôi đã gây ra sự phê bình.",
-        "audio": "audio/teacher-c30b8f395513.mp3"
+        "hanzi": "今天风很大，有点儿冷。",
+        "pinyin": "jīn tiān fēng hěn dà, yǒu diǎnr lěng.",
+        "vi": "Hôm nay gió lớn lắm, hơi lạnh một chút.",
+        "audio": "audio/teacher-19c008637211.mp3"
+      },
+      {
+        "hanzi": "春天的风很舒服。",
+        "pinyin": "chūn tiān de fēng hěn shū fu.",
+        "vi": "Gió mùa xuân rất dễ chịu.",
+        "audio": "audio/teacher-5b84638d1b74.mp3"
       }
     ],
-    "audio": "audio/teacher-9122c8e0abc7.mp3"
+    "audio": "audio/teacher-9122c8e0abc7.mp3",
+    "literalVi": "Khung bao làn gió thổi",
+    "usageNoteVi": "风很大 (gió rất to).",
+    "partOfSpeech": "Danh từ"
   },
   {
     "id": "w2-044",
@@ -824,16 +1049,25 @@
     "radical": "口",
     "level": 2,
     "frequency": 1269,
-    "mnemonic": "",
+    "mnemonic": "Cuối (末) một tuần (周) là ngày nghỉ thư giãn!",
     "examples": [
       {
-        "hanzi": "今天是周五，明天就是周末了！",
-        "pinyin": "jīn tiān shì zhōu wǔ ， míng tiān jiù shì zhōu mò liǎo ！",
-        "vi": "Hôm nay là thứ sáu, ngày mai là ngày cuối tuần rồi!",
-        "audio": "audio/teacher-81c366f0ae4b.mp3"
+        "hanzi": "周末你喜欢做什么？",
+        "pinyin": "zhōu mò nǐ xǐ huan zuò shén me?",
+        "vi": "Cuối tuần bạn thích làm gì?",
+        "audio": "audio/teacher-aa6a9923d30e.mp3"
+      },
+      {
+        "hanzi": "这个周末我们一起去玩吧！",
+        "pinyin": "zhè gè zhōu mò wǒ men yì qǐ qù wán ba!",
+        "vi": "Cuối tuần này chúng mình cùng đi chơi nhé!",
+        "audio": "audio/teacher-07db28204859.mp3"
       }
     ],
-    "audio": "audio/teacher-8b0e9014450b.mp3"
+    "audio": "audio/teacher-8b0e9014450b.mp3",
+    "literalVi": "周 (tuần) + 末 (cuối)",
+    "usageNoteVi": "Đứng đầu câu hoặc sau chủ ngữ: 周末你去哪儿？",
+    "partOfSpeech": "Danh từ"
   },
   {
     "id": "w2-045",
@@ -843,16 +1077,25 @@
     "radical": "方",
     "level": 2,
     "frequency": 2014,
-    "mnemonic": "",
+    "mnemonic": "Chú ý: trong 方便 (tiện lợi) chữ 便 đọc là biàn; còn trong 便宜 (rẻ) đọc là pián!",
     "examples": [
       {
-        "hanzi": "我今晚10点见你比较方便。",
-        "pinyin": "wǒ jīn wǎn 10 diǎn jiàn nǐ bǐ jiào fāng biàn 。",
-        "vi": "Tối nay 10 giờ mình gặp bạn thì tiện hơn.",
-        "audio": "audio/teacher-78838da53754.mp3"
+        "hanzi": "用手机网购非常方便。",
+        "pinyin": "yòng shǒu jī wǎng gòu fēi cháng fāng biàn.",
+        "vi": "Mua sắm online bằng điện thoại rất tiện lợi.",
+        "audio": "audio/teacher-bb2fa929ab6d.mp3"
+      },
+      {
+        "hanzi": "离地铁站近，上班很方便。",
+        "pinyin": "lí dì tiě zhàn jìn, shàng bān hěn fāng biàn.",
+        "vi": "Gần ga tàu điện ngầm nên đi làm rất tiện.",
+        "audio": "audio/teacher-e5c617f6eb6e.mp3"
       }
     ],
-    "audio": "audio/teacher-f9b3b4ee9e69.mp3"
+    "audio": "audio/teacher-f9b3b4ee9e69.mp3",
+    "literalVi": "方 (phương tiện) + 便 (thuận lợi)",
+    "usageNoteVi": "很方便 (rất tiện), 你现在方便吗？(Giờ bạn có tiện nghe máy không?).",
+    "partOfSpeech": "Tính từ"
   },
   {
     "id": "w2-046",
@@ -862,16 +1105,25 @@
     "radical": "八",
     "level": 2,
     "frequency": 2134,
-    "mnemonic": "",
+    "mnemonic": "Khu vườn (园) mở cửa chung cho mọi người (公) = công viên!",
     "examples": [
       {
-        "hanzi": "我每天早上到公园里遛狗。",
-        "pinyin": "wǒ měi tiān zǎo shàng dào gōng yuán lǐ liú gǒu 。",
-        "vi": "Sáng nào tôi cũng dắt chó đi dạo tại công viên.",
-        "audio": "audio/teacher-3553ccbe450f.mp3"
+        "hanzi": "这个公园很大很漂亮。",
+        "pinyin": "zhè gè gōng yuán hěn dà hěn piào liang.",
+        "vi": "Công viên này rất rộng và đẹp.",
+        "audio": "audio/teacher-48668c5d17e3.mp3"
+      },
+      {
+        "hanzi": "我们周末去公园散步吧。",
+        "pinyin": "wǒ men zhōu mò qù gōng yuán sàn bù ba.",
+        "vi": "Cuối tuần mình ra công viên đi dạo nhé.",
+        "audio": "audio/teacher-4683bef99b22.mp3"
       }
     ],
-    "audio": "audio/teacher-fb807a730d54.mp3"
+    "audio": "audio/teacher-fb807a730d54.mp3",
+    "literalVi": "公 (công cộng) + 园 (khu vườn)",
+    "usageNoteVi": "去公园 (đi công viên), 在公园散步 (đi dạo ở công viên).",
+    "partOfSpeech": "Danh từ"
   },
   {
     "id": "w2-047",
@@ -881,54 +1133,81 @@
     "radical": "口",
     "level": 2,
     "frequency": 2337,
-    "mnemonic": "",
+    "mnemonic": "So với 同学 (cùng học = bạn học) → 同事 (cùng làm việc = đồng nghiệp)!",
     "examples": [
       {
-        "hanzi": "我们应该同事好好合作，不要老师给人家出难题。",
-        "pinyin": "wǒ men yīng gāi tóng shì hǎo hǎo hé zuò ， bú yào lǎo shī gěi rén jiā chū nán tí 。",
-        "vi": "Chúng ta nên hợp tác tốt với đồng nghiệp, đừng suốt ngày làm khó người ta.",
-        "audio": "audio/teacher-143c3a91a6d8.mp3"
+        "hanzi": "我的同事们都很热情。",
+        "pinyin": "wǒ de tóng shì men dōu hěn rè qíng.",
+        "vi": "Các đồng nghiệp của mình đều rất nhiệt tình.",
+        "audio": "audio/teacher-adb7a77003aa.mp3"
+      },
+      {
+        "hanzi": "中午我和同事一起吃饭。",
+        "pinyin": "zhōng wǔ wǒ hé tóng shì yì qǐ chī fàn.",
+        "vi": "Buổi trưa mình ăn cơm cùng đồng nghiệp.",
+        "audio": "audio/teacher-61a07f5d99e4.mp3"
       }
     ],
-    "audio": "audio/teacher-c18a4f6e525e.mp3"
+    "audio": "audio/teacher-c18a4f6e525e.mp3",
+    "literalVi": "同 (cùng nhau) + 事 (công việc)",
+    "usageNoteVi": "同事们 = các đồng nghiệp.",
+    "partOfSpeech": "Danh từ"
   },
   {
     "id": "w2-048",
     "hanzi": "夏天",
     "pinyin": "xià tiān",
     "meaningVi": "mùa hè",
-    "radical": "夊",
+    "radical": "夂",
     "level": 2,
     "frequency": 2925,
-    "mnemonic": "",
+    "mnemonic": "Mùa hè (夏天) trời nắng nóng, cực hợp uống trà sữa đá!",
     "examples": [
       {
-        "hanzi": "整个夏天，我们在那里过得很愉快。",
-        "pinyin": "zhěng gè xià tiān ， wǒ men zài nà lǐ guò dé hěn yú kuài 。",
-        "vi": "Cả mùa hè đó, mình đã có khoảng thời gian vui vẻ ở đó.",
-        "audio": "audio/teacher-d07b4c6fbbf5.mp3"
+        "hanzi": "夏天很热，我想喝冰奶茶。",
+        "pinyin": "xià tiān hěn rè, wǒ xiǎng hē bīng nǎi chá.",
+        "vi": "Mùa hè nóng quá, mình muốn uống trà sữa đá.",
+        "audio": "audio/teacher-a08ac630bf17.mp3"
+      },
+      {
+        "hanzi": "今年夏天比去年热。",
+        "pinyin": "jīn nián xià tiān bǐ qù nián rè.",
+        "vi": "Mùa hè năm nay nóng hơn năm ngoái.",
+        "audio": "audio/teacher-3495e8d398ea.mp3"
       }
     ],
-    "audio": "audio/teacher-ea264dc84054.mp3"
+    "audio": "audio/teacher-ea264dc84054.mp3",
+    "literalVi": "夏 (mùa hạ) + 天",
+    "usageNoteVi": "夏天很热 (mùa hè rất nóng).",
+    "partOfSpeech": "Danh từ"
   },
   {
     "id": "w2-049",
     "hanzi": "冬天",
     "pinyin": "dōng tiān",
     "meaningVi": "mùa đông",
-    "radical": "⺀",
+    "radical": "冫",
     "level": 2,
     "frequency": 3291,
-    "mnemonic": "",
+    "mnemonic": "Thấy 2 chấm băng tuyết (冫) ở đáy chữ 冬 là nhớ ngay mùa đông lạnh!",
     "examples": [
       {
-        "hanzi": "我想知道这个冬天在我们的城市会不会下雪。",
-        "pinyin": "wǒ xiǎng zhī dào zhè ge dōng tiān zài wǒ men de chéng shì huì bú huì xià xuě 。",
-        "vi": "Mình tự hỏi mùa đông này thành phố chúng mình có tuyết rơi không.",
-        "audio": "audio/teacher-438395ce1031.mp3"
+        "hanzi": "北京的冬天很冷，会下雪。",
+        "pinyin": "Běi jīng de dōng tiān hěn lěng, huì xià xuě.",
+        "vi": "Mùa đông Bắc Kinh rất lạnh, có tuyết rơi.",
+        "audio": "audio/teacher-6a8e79e53ede.mp3"
+      },
+      {
+        "hanzi": "冬天我喜欢喝热茶。",
+        "pinyin": "dōng tiān wǒ xǐ huan hē rè chá.",
+        "vi": "Mùa đông mình thích uống trà nóng.",
+        "audio": "audio/teacher-dacd2f0eec96.mp3"
       }
     ],
-    "audio": "audio/teacher-f2f9a636a3af.mp3"
+    "audio": "audio/teacher-f2f9a636a3af.mp3",
+    "literalVi": "Hai chấm băng (冫) ở dưới — lạnh cóng mùa đông!",
+    "usageNoteVi": "下雪 (xià xuě = tuyết rơi).",
+    "partOfSpeech": "Danh từ"
   },
   {
     "id": "w2-050",
@@ -938,16 +1217,25 @@
     "radical": "日",
     "level": 2,
     "frequency": 4411,
-    "mnemonic": "",
+    "mnemonic": "Cây cối nảy mầm dưới ánh mặt trời (日) ấm áp của mùa xuân!",
     "examples": [
       {
-        "hanzi": "春天和秋天，你更喜欢哪个？",
-        "pinyin": "chūn tiān hé qiū tiān ， nǐ gèng xǐ huān nǎ ge ？",
-        "vi": "Mùa xuân và mùa thu, bạn thích mùa nào hơn?",
-        "audio": "audio/teacher-4cf45f22705f.mp3"
+        "hanzi": "春天花开了，非常漂亮。",
+        "pinyin": "chūn tiān huā kāi le, fēi cháng piào liang.",
+        "vi": "Mùa xuân hoa nở rồi, vô cùng đẹp.",
+        "audio": "audio/teacher-479b4ff2da37.mp3"
+      },
+      {
+        "hanzi": "我最喜欢春天和秋天。",
+        "pinyin": "wǒ zuì xǐ huan chūn tiān hé qiū tiān.",
+        "vi": "Mình thích nhất mùa xuân và mùa thu.",
+        "audio": "audio/teacher-685c6f01517e.mp3"
       }
     ],
-    "audio": "audio/teacher-d21663e0e3a9.mp3"
+    "audio": "audio/teacher-d21663e0e3a9.mp3",
+    "literalVi": "春 (mùa xuân ấm áp) + 天 (mùa)",
+    "usageNoteVi": "Bốn mùa: 春天, 夏天, 秋天, 冬天.",
+    "partOfSpeech": "Danh từ"
   },
   {
     "id": "w2-051",
@@ -957,16 +1245,25 @@
     "radical": "穴",
     "level": 2,
     "frequency": 4763,
-    "mnemonic": "",
+    "mnemonic": "Máy điều chỉnh (调) nhiệt độ không khí (空) = điều hòa!",
     "examples": [
       {
-        "hanzi": "现今人们没有空调无法生活。",
-        "pinyin": "xiàn jīn rén men méi yǒu kòng diào wú fǎ shēng huó 。",
-        "vi": "Ngày nay mọi người không thể sống thiếu máy điều hòa.",
-        "audio": "audio/teacher-172c78fa20b4.mp3"
+        "hanzi": "夏天没有空调太热了！",
+        "pinyin": "xià tiān méi yǒu kōng tiáo tài rè le!",
+        "vi": "Mùa hè không có điều hòa thì nóng quá!",
+        "audio": "audio/teacher-2b4c30cefff4.mp3"
+      },
+      {
+        "hanzi": "每个房间都有空调。",
+        "pinyin": "měi gè fáng jiān dōu yǒu kōng tiáo.",
+        "vi": "Mỗi phòng đều có điều hòa.",
+        "audio": "audio/teacher-2cb82716dffd.mp3"
       }
     ],
-    "audio": "audio/teacher-1b1f35acad6d.mp3"
+    "audio": "audio/teacher-1b1f35acad6d.mp3",
+    "literalVi": "空 (không khí) + 调 (điều chỉnh)",
+    "usageNoteVi": "开空调 (bật điều hòa), 关空调 (tắt điều hòa).",
+    "partOfSpeech": "Danh từ"
   },
   {
     "id": "w2-052",
@@ -976,35 +1273,53 @@
     "radical": "禾",
     "level": 2,
     "frequency": 7055,
-    "mnemonic": "",
+    "mnemonic": "Lúa chín vàng (禾) cùng lá phong đỏ như lửa (火) là mùa thu (秋)!",
     "examples": [
       {
-        "hanzi": "北京的秋天一般地说气候比较凉爽。",
-        "pinyin": "běi jīng de qiū tiān yì bān dì shuō qì hòu bǐ jiào liáng shuǎng 。",
-        "vi": "Mùa thu của Bắc Kinh nói chung khí hậu tương đối mát mẻ dễ chịu.",
-        "audio": "audio/teacher-003ebdf56b23.mp3"
+        "hanzi": "秋天的天气最凉快。",
+        "pinyin": "qiū tiān de tiān qì zuì liáng kuai.",
+        "vi": "Thời tiết mùa thu mát mẻ nhất.",
+        "audio": "audio/teacher-d7f4d9f6168a.mp3"
+      },
+      {
+        "hanzi": "秋天风很大，多穿点衣服。",
+        "pinyin": "qiū tiān fēng hěn dà, duō chuān diǎn yī fu.",
+        "vi": "Mùa thu gió lớn lắm, mặc thêm áo nhé.",
+        "audio": "audio/teacher-cee7f98a01fb.mp3"
       }
     ],
-    "audio": "audio/teacher-8356ec296bd4.mp3"
+    "audio": "audio/teacher-8356ec296bd4.mp3",
+    "literalVi": "禾 (cây lúa chín) + 火 (sắc đỏ vàng rực rỡ)",
+    "usageNoteVi": "秋天很凉快 (mùa thu rất mát mẻ).",
+    "partOfSpeech": "Danh từ"
   },
   {
     "id": "w2-053",
     "hanzi": "银行卡",
     "pinyin": "yín háng kǎ",
-    "meaningVi": "thẻ ngân hàng, thẻ ATM",
+    "meaningVi": "thẻ ngân hàng",
     "radical": "钅",
     "level": 2,
     "frequency": 1000000,
-    "mnemonic": "",
+    "mnemonic": "Chữ 行 trong 银行 đọc là háng (hàng/ngành), không đọc xíng!",
     "examples": [
       {
-        "hanzi": "今天是交学费的最后一天，我银行卡里没钱了。",
-        "pinyin": "jīn tiān shì jiāo xué fèi de zuì hòu yī tiān ， wǒ yín háng kǎ lǐ méi qián le 。",
-        "vi": "Hôm nay là hạn cuối nộp học phí mà thẻ ngân hàng của mình hết tiền rồi.",
-        "audio": "audio/teacher-eec65f69ce55.mp3"
+        "hanzi": "我用银行卡付款。",
+        "pinyin": "wǒ yòng yín háng kǎ fù kuǎn.",
+        "vi": "Mình thanh toán bằng thẻ ngân hàng.",
+        "audio": "audio/teacher-708880ff63c6.mp3"
+      },
+      {
+        "hanzi": "请带好你的银行卡。",
+        "pinyin": "qǐng dài hǎo nǐ de yín háng kǎ.",
+        "vi": "Nhớ mang theo thẻ ngân hàng nhé.",
+        "audio": "audio/teacher-478be377ac9a.mp3"
       }
     ],
-    "audio": "audio/teacher-7e7a648ea8b3.mp3"
+    "audio": "audio/teacher-7e7a648ea8b3.mp3",
+    "literalVi": "银行 (ngân hàng — nơi giữ bạc 银) + 卡 (thẻ)",
+    "usageNoteVi": "刷银行卡 (quẹt thẻ ngân hàng).",
+    "partOfSpeech": "Danh từ"
   },
   {
     "id": "w2-054",
@@ -1014,13 +1329,13 @@
     "radical": "尢",
     "level": 2,
     "frequency": 15,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 尢, ghi nhớ cụm 「就」 (jiù) = thì, ngay, liền.",
     "examples": [
       {
-        "hanzi": "我很快就會回來。",
+        "hanzi": "我很快就会回来。",
         "pinyin": "wǒ hěn kuài jiù huì huí lái 。",
         "vi": "Con sẽ trở về sớm.",
-        "audio": "audio/teacher-1b1736c4d10e.mp3"
+        "audio": "audio/teacher-db79744203a0.mp3"
       }
     ],
     "audio": "audio/teacher-da4abc7a8834.mp3"
@@ -1033,7 +1348,7 @@
     "radical": "目",
     "level": 2,
     "frequency": 38,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ mục (đôi mắt), ghi nhớ cụm 「着」 (zhe) = nước cờ, chiêu trò, được.",
     "examples": [
       {
         "hanzi": "他常常坐着看书一连好几个小时。",
@@ -1052,13 +1367,13 @@
     "radical": "口",
     "level": 2,
     "frequency": 47,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ khẩu (miệng / lời nói), ghi nhớ cụm 「啊」 (a) = á, ơ, à.",
     "examples": [
       {
-        "hanzi": "你在干什麼啊？",
+        "hanzi": "你在干什么啊？",
         "pinyin": "nǐ zài gàn shén me a ？",
         "vi": "Bạn đang làm gì đây?",
-        "audio": "audio/teacher-90eb0c61c3c0.mp3"
+        "audio": "audio/teacher-892266777902.mp3"
       }
     ],
     "audio": "audio/teacher-d439ffbf6513.mp3"
@@ -1071,7 +1386,7 @@
     "radical": "讠",
     "level": 2,
     "frequency": 54,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ ngôn (lời nói), ghi nhớ cụm 「让」 (ràng) = nhường, để, khiến.",
     "examples": [
       {
         "hanzi": "别让狗进来。",
@@ -1090,13 +1405,13 @@
     "radical": "亻",
     "level": 2,
     "frequency": 55,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ nhân đứng (người), ghi nhớ cụm 「但」 (dàn) = nhưng, chỉ.",
     "examples": [
       {
-        "hanzi": "公司的職員設法隱瞞，但真相不久便水落石出了。",
+        "hanzi": "公司的职員设法隐瞞，但真相不久便水落石出了。",
         "pinyin": "gōng sī de zhí yuán shè fǎ yǐn mán ， dàn zhēn xiàng bù jiǔ biàn shuǐ luò shí chū le 。",
         "vi": "Nhân viên trong công ty đó đã cố che giấu sự thật, nhưng cái kim trong bọc lâu ngày cũng lòi ra.",
-        "audio": "audio/teacher-37646e13b753.mp3"
+        "audio": "audio/teacher-ab3d5185c565.mp3"
       }
     ],
     "audio": "audio/teacher-8e83b26aaf3c.mp3"
@@ -1109,13 +1424,13 @@
     "radical": "自",
     "level": 2,
     "frequency": 56,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 自, ghi nhớ cụm 「自己」 (zì jǐ) = tự mình, bản thân.",
     "examples": [
       {
-        "hanzi": "到了最後，大家一定要靠自己學習。",
+        "hanzi": "到了最后，大家一定要靠自己学习。",
         "pinyin": "dào le zuì hòu ， dà jiā yí dìng yào kào zì jǐ xué xí 。",
         "vi": "Rốt cuộc, ai cũng phải tự học thôi.",
-        "audio": "audio/teacher-484947606990.mp3"
+        "audio": "audio/teacher-5d2acbca042b.mp3"
       }
     ],
     "audio": "audio/teacher-1611f9cda7ad.mp3"
@@ -1128,7 +1443,7 @@
     "radical": "彳",
     "level": 2,
     "frequency": 58,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 彳, ghi nhớ cụm 「得」 (de) = đạt được, mắc (bệnh).",
     "examples": [
       {
         "hanzi": "他们生活得很幸福。",
@@ -1147,7 +1462,7 @@
     "radical": "辶",
     "level": 2,
     "frequency": 60,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ xước (con đường / di chuyển), ghi nhớ cụm 「过」 (guò) = Quách (họ).",
     "examples": [
       {
         "hanzi": "我在两年前吃过一次。",
@@ -1166,7 +1481,7 @@
     "radical": "人",
     "level": 2,
     "frequency": 70,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ nhân (người), ghi nhớ cụm 「从」 (cóng) = từ, theo.",
     "examples": [
       {
         "hanzi": "你是从哪个国家来的？",
@@ -1185,13 +1500,13 @@
     "radical": "⺮",
     "level": 2,
     "frequency": 83,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ ⺮, ghi nhớ cụm 「等」 (děng) = đợi, cấp bậc, v.v..",
     "examples": [
       {
-        "hanzi": "他贏了三等奬。",
+        "hanzi": "他赢了三等奬。",
         "pinyin": "tā yíng le sān děng jiǎng 。",
         "vi": "Anh ấy đã giành được giải ba.",
-        "audio": "audio/teacher-6796cff2e713.mp3"
+        "audio": "audio/teacher-cea125c2fe97.mp3"
       }
     ],
     "audio": "audio/teacher-639b02c115ea.mp3"
@@ -1204,13 +1519,13 @@
     "radical": "凵",
     "level": 2,
     "frequency": 85,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 凵, ghi nhớ cụm 「出」 (chū) = ra, xuất hiện, sản xuất.",
     "examples": [
       {
-        "hanzi": "公司的職員設法隱瞞，但真相不久便水落石出了。",
+        "hanzi": "公司的职員设法隐瞞，但真相不久便水落石出了。",
         "pinyin": "gōng sī de zhí yuán shè fǎ yǐn mán ， dàn zhēn xiàng bù jiǔ biàn shuǐ luò shí chū le 。",
         "vi": "Nhân viên trong công ty đó đã cố che giấu sự thật, nhưng cái kim trong bọc lâu ngày cũng lòi ra.",
-        "audio": "audio/teacher-37646e13b753.mp3"
+        "audio": "audio/teacher-ab3d5185c565.mp3"
       }
     ],
     "audio": "audio/teacher-28350bb92055.mp3"
@@ -1223,7 +1538,7 @@
     "radical": "己",
     "level": 2,
     "frequency": 85,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 己, ghi nhớ cụm 「已经」 (yǐ jīng) = đã, rồi.",
     "examples": [
       {
         "hanzi": "我们已经等了那么久。",
@@ -1242,7 +1557,7 @@
     "radical": "辶",
     "level": 2,
     "frequency": 85,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ xước (con đường / di chuyển), ghi nhớ cụm 「这样」 (zhè yàng) = như thế này, thế này.",
     "examples": [
       {
         "hanzi": "你犯得上这样做吗？",
@@ -1261,13 +1576,13 @@
     "radical": "曰",
     "level": 2,
     "frequency": 89,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 曰, ghi nhớ cụm 「最」 (zuì) = nhất.",
     "examples": [
       {
-        "hanzi": "到了最後，大家一定要靠自己學習。",
+        "hanzi": "到了最后，大家一定要靠自己学习。",
         "pinyin": "dào le zuì hòu ， dà jiā yí dìng yào kào zì jǐ xué xí 。",
         "vi": "Rốt cuộc, ai cũng phải tự học thôi.",
-        "audio": "audio/teacher-484947606990.mp3"
+        "audio": "audio/teacher-5d2acbca042b.mp3"
       }
     ],
     "audio": "audio/teacher-8d8b66c50d4a.mp3"
@@ -1280,7 +1595,7 @@
     "radical": "囗",
     "level": 2,
     "frequency": 91,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 囗, ghi nhớ cụm 「因为」 (yīn wèi) = bởi vì, vì.",
     "examples": [
       {
         "hanzi": "不要看不起有缺点的人，因为每个人都会有缺点的。",
@@ -1299,13 +1614,13 @@
     "radical": "欠",
     "level": 2,
     "frequency": 99,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 欠, ghi nhớ cụm 「次」 (cì) = lần, thứ, thứ tự.",
     "examples": [
       {
-        "hanzi": "他童年時去過巴黎三次。",
+        "hanzi": "他童年时去過巴黎三次。",
         "pinyin": "tā tóng nián shí qù guò bā lí sān cì 。",
         "vi": "Hồi nhỏ, anh ta đã đi Paris ba lần.",
-        "audio": "audio/teacher-df88749e11d3.mp3"
+        "audio": "audio/teacher-d7f6ea154957.mp3"
       }
     ],
     "audio": "audio/teacher-f68028bfb82a.mp3"
@@ -1318,7 +1633,7 @@
     "radical": "亻",
     "level": 2,
     "frequency": 115,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ nhân đứng (người), ghi nhớ cụm 「但是」 (dàn shì) = nhưng, nhưng mà.",
     "examples": [
       {
         "hanzi": "你的车很快，但是我的更快。",
@@ -1337,7 +1652,7 @@
     "radical": "日",
     "level": 2,
     "frequency": 115,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ nhật (mặt trời / thời gian), ghi nhớ cụm 「时」 (shí) = thời gian, khi.",
     "examples": [
       {
         "hanzi": "父亲常常在空闲时间读侦探小说。",
@@ -1356,7 +1671,7 @@
     "radical": "口",
     "level": 2,
     "frequency": 127,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ khẩu (miệng / lời nói), ghi nhớ cụm 「可能」 (kě néng) = có thể, khả năng.",
     "examples": [
       {
         "hanzi": "可能你工作得太拼命？",
@@ -1375,7 +1690,7 @@
     "radical": "土",
     "level": 2,
     "frequency": 132,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ thổ (đất đai), ghi nhớ cụm 「地」 (dì) = trợ từ (chỉ trạng thái).",
     "examples": [
       {
         "hanzi": "她整晚不停地哭。",
@@ -1394,7 +1709,7 @@
     "radical": "廾",
     "level": 2,
     "frequency": 132,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 廾, ghi nhớ cụm 「开始」 (kāi shǐ) = bắt đầu.",
     "examples": [
       {
         "hanzi": "感到惊讶、感到惊奇就是明白的开始。",
@@ -1413,7 +1728,7 @@
     "radical": "足",
     "level": 2,
     "frequency": 135,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ túc (bàn chân / di chuyển), ghi nhớ cụm 「跟」 (gēn) = cùng, với, theo.",
     "examples": [
       {
         "hanzi": "我正在跟谁讲话？",
@@ -1432,7 +1747,7 @@
     "radical": "扌",
     "level": 2,
     "frequency": 153,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ tài gẩy (hành động bằng tay), ghi nhớ cụm 「打」 (dǎ) = tá (đơn vị 12 cái).",
     "examples": [
       {
         "hanzi": "我会尽量不打扰你复习。",
@@ -1451,7 +1766,7 @@
     "radical": "比",
     "level": 2,
     "frequency": 155,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 比, ghi nhớ cụm 「比」 (bǐ) = Bỉ (quốc gia), so sánh.",
     "examples": [
       {
         "hanzi": "学生人数一年比一年增加。",
@@ -1470,7 +1785,7 @@
     "radical": "户",
     "level": 2,
     "frequency": 157,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 户, ghi nhớ cụm 「所以」 (suǒ yǐ) = cho nên, vì vậy, thế nên.",
     "examples": [
       {
         "hanzi": "所以别人都不愿意和你合作。",
@@ -1489,7 +1804,7 @@
     "radical": "阝",
     "level": 2,
     "frequency": 164,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 阝, ghi nhớ cụm 「那么」 (nà me) = như thế, thế thì, vậy.",
     "examples": [
       {
         "hanzi": "我们已经等了那么久。",
@@ -1508,7 +1823,7 @@
     "radical": "辶",
     "level": 2,
     "frequency": 166,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ xước (con đường / di chuyển), ghi nhớ cụm 「这么」 (zhè me) = thế này, như thế này.",
     "examples": [
       {
         "hanzi": "你就只抄了这么多张啊？",
@@ -1527,7 +1842,7 @@
     "radical": "走",
     "level": 2,
     "frequency": 172,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ tẩu (bước đi), ghi nhớ cụm 「起来」 (qǐ lai) = đứng lên, trở lên, bắt đầu.",
     "examples": [
       {
         "hanzi": "现在我想起来了。",
@@ -1546,13 +1861,13 @@
     "radical": "亻",
     "level": 2,
     "frequency": 177,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ nhân đứng (người), ghi nhớ cụm 「位」 (wèi) = vị, chỗ, vị trí.",
     "examples": [
       {
-        "hanzi": "這位朋友沒有出席。",
+        "hanzi": "这位朋友沒有出席。",
         "pinyin": "zhè wèi péng yǒu méi yǒu chū xí 。",
         "vi": "Bạn này không có mặt.",
-        "audio": "audio/teacher-7c9d94eae307.mp3"
+        "audio": "audio/teacher-47aa08c14a90.mp3"
       }
     ],
     "audio": "audio/teacher-219651832d4e.mp3"
@@ -1565,7 +1880,7 @@
     "radical": "手",
     "level": 2,
     "frequency": 190,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ thủ (bàn tay), ghi nhớ cụm 「手」 (shǒu) = tay, người giỏi (lĩnh vực nào đó).",
     "examples": [
       {
         "hanzi": "他是我的手下。",
@@ -1584,7 +1899,7 @@
     "radical": "刂",
     "level": 2,
     "frequency": 214,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ đao đứng (cắt / chia), ghi nhớ cụm 「别」 (bié) = Biệt (họ), đừng.",
     "examples": [
       {
         "hanzi": "别让狗进来。",
@@ -1603,7 +1918,7 @@
     "radical": "口",
     "level": 2,
     "frequency": 234,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ khẩu (miệng / lời nói), ghi nhớ cụm 「名」 (míng) = tên, danh tiếng, danh từ.",
     "examples": [
       {
         "hanzi": "他长大了会成为一名医生。",
@@ -1622,7 +1937,7 @@
     "radical": "长",
     "level": 2,
     "frequency": 246,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 长, ghi nhớ cụm 「长」 (cháng) = dài, trưởng, lâu.",
     "examples": [
       {
         "hanzi": "她很擅长英语教学。",
@@ -1641,7 +1956,7 @@
     "radical": "凵",
     "level": 2,
     "frequency": 254,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 凵, ghi nhớ cụm 「出来」 (chū lái) = ra đây, đi ra, lộ ra.",
     "examples": [
       {
         "hanzi": "他买了一把特别大的屠刀，拿出来不停地磨呀抢呀。",
@@ -1660,7 +1975,7 @@
     "radical": "木",
     "level": 2,
     "frequency": 277,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ mộc (cây gỗ), ghi nhớ cụm 「条」 (tiáo) = con, cái, điều (khoản).",
     "examples": [
       {
         "hanzi": "这条路上的车辆不多。",
@@ -1679,13 +1994,13 @@
     "radical": "手",
     "level": 2,
     "frequency": 287,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ thủ (bàn tay), ghi nhớ cụm 「拿」 (ná) = cầm, lấy, nắm.",
     "examples": [
       {
-        "hanzi": "他一拿了信就去了紐約。",
+        "hanzi": "他一拿了信就去了紐约。",
         "pinyin": "tā yī ná le xìn jiù qù le niǔ yuē 。",
         "vi": "Anh ấy đã đến New York ngay khi nhận được lá thư.",
-        "audio": "audio/teacher-497c8b48d1c8.mp3"
+        "audio": "audio/teacher-f6da81a927b9.mp3"
       }
     ],
     "audio": "audio/teacher-1430b753d9d0.mp3"
@@ -1698,7 +2013,7 @@
     "radical": "高",
     "level": 2,
     "frequency": 290,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 高, ghi nhớ cụm 「高」 (gāo) = Cao (họ), cao.",
     "examples": [
       {
         "hanzi": "这个班里没有人像Bill一样高。",
@@ -1717,7 +2032,7 @@
     "radical": "止",
     "level": 2,
     "frequency": 294,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 止, ghi nhớ cụm 「正」 (zhèng) = chính, đang, thẳng.",
     "examples": [
       {
         "hanzi": "不要再把我当成“正常”人！",
@@ -1736,7 +2051,7 @@
     "radical": "丶",
     "level": 2,
     "frequency": 299,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 丶, ghi nhớ cụm 「为什么」 (wèi shén me) = tại sao, vì sao.",
     "examples": [
       {
         "hanzi": "我很疑惑为什么冷的时候会寂寞得想找个人聊聊天。",
@@ -1755,7 +2070,7 @@
     "radical": "大",
     "level": 2,
     "frequency": 329,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ đại (to lớn), ghi nhớ cụm 「头」 (tóu) = đầu, kiểu tóc, phần đầu.",
     "examples": [
       {
         "hanzi": "我没洗头发。",
@@ -1774,7 +2089,7 @@
     "radical": "母",
     "level": 2,
     "frequency": 340,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 母, ghi nhớ cụm 「每」 (měi) = mỗi, mọi.",
     "examples": [
       {
         "hanzi": "我每天早上到公园里遛狗。",
@@ -1793,7 +2108,7 @@
     "radical": "见",
     "level": 2,
     "frequency": 341,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ kiến (nhìn thấy), ghi nhớ cụm 「见到」 (jiàn dào) = nhìn thấy, gặp.",
     "examples": [
       {
         "hanzi": "我见到了王子真人。",
@@ -1808,11 +2123,11 @@
     "id": "w2-096",
     "hanzi": "周",
     "pinyin": "zhōu",
-    "meaningVi": "họ Chu, nhà Chu, tuần",
+    "meaningVi": "nhà Chu, tuần",
     "radical": "口",
     "level": 2,
     "frequency": 352,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ khẩu (miệng / lời nói), ghi nhớ cụm 「周」 (zhōu) = nhà Chu, tuần.",
     "examples": [
       {
         "hanzi": "她非常周到和耐心。",
@@ -1831,7 +2146,7 @@
     "radical": "⺮",
     "level": 2,
     "frequency": 382,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ ⺮, ghi nhớ cụm 「笑」 (xiào) = cười.",
     "examples": [
       {
         "hanzi": "教授微微笑了笑。",
@@ -1850,7 +2165,7 @@
     "radical": "一",
     "level": 2,
     "frequency": 384,
-    "mnemonic": "",
+    "mnemonic": "Gắn với nét nhất căn bản, ghi nhớ cụm 「不错」 (bù cuò) = không tồi, khá tốt, đúng.",
     "examples": [
       {
         "hanzi": "你这房子真不错！",
@@ -1869,13 +2184,13 @@
     "radical": "立",
     "level": 2,
     "frequency": 399,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 立, ghi nhớ cụm 「站」 (zhàn) = trạm, đứng.",
     "examples": [
       {
-        "hanzi": "他幫助一位老太太從位子上站起來。",
+        "hanzi": "他帮助一位老太太从位子上站起来。",
         "pinyin": "tā bāng zhù yī wèi lǎo tài tài cóng wèi zi shàng zhàn qǐ lái 。",
         "vi": "Anh ấy giúp đỡ một bà lão từ chỗ ngồi đứng dậy.",
-        "audio": "audio/teacher-7ac1ed45dd8a.mp3"
+        "audio": "audio/teacher-081a24962ac9.mp3"
       }
     ],
     "audio": "audio/teacher-36228f71f367.mp3"
@@ -1884,11 +2199,11 @@
     "id": "w2-100",
     "hanzi": "花",
     "pinyin": "huā",
-    "meaningVi": "họ Hoa, hoa, tiêu pha",
+    "meaningVi": "hoa, tiêu pha",
     "radical": "艹",
     "level": 2,
     "frequency": 435,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ thảo (cây cỏ / thực vật), ghi nhớ cụm 「花」 (huā) = hoa, tiêu pha.",
     "examples": [
       {
         "hanzi": "何不送给她一些花?",
@@ -1907,7 +2222,7 @@
     "radical": "虫",
     "level": 2,
     "frequency": 440,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 虫, ghi nhớ cụm 「虽然」 (suī rán) = mặc dù, tuy nhiên.",
     "examples": [
       {
         "hanzi": "虽然他很有钱，但他不幸福。",
@@ -1926,7 +2241,7 @@
     "radical": "月",
     "level": 2,
     "frequency": 463,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ nguyệt (mặt trăng / cơ thể), ghi nhớ cụm 「有人」 (yǒu rén) = có người, ai đó.",
     "examples": [
       {
         "hanzi": "这个班里没有人像Bill一样高。",
@@ -1945,7 +2260,7 @@
     "radical": "人",
     "level": 2,
     "frequency": 474,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ nhân (người), ghi nhớ cụm 「人们」 (rén men) = mọi người, con người.",
     "examples": [
       {
         "hanzi": "这些人想让人们跟着他们走。",
@@ -1964,7 +2279,7 @@
     "radical": "囗",
     "level": 2,
     "frequency": 480,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 囗, ghi nhớ cụm 「回来」 (huí lai) = quay về, trở lại.",
     "examples": [
       {
         "hanzi": "他六点回来了。",
@@ -1979,11 +2294,11 @@
     "id": "w2-105",
     "hanzi": "错",
     "pinyin": "cuò",
-    "meaningVi": "họ Thác, sai, lỗi",
+    "meaningVi": "sai, lỗi",
     "radical": "钅",
     "level": 2,
     "frequency": 531,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ kim (kim loại / tiền tệ), ghi nhớ cụm 「错」 (cuò) = sai, lỗi.",
     "examples": [
       {
         "hanzi": "他把我错认为我妈妈了。",
@@ -2002,7 +2317,7 @@
     "radical": "门",
     "level": 2,
     "frequency": 546,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ môn (cánh cửa), ghi nhớ cụm 「间」 (jiān) = gian, phòng, giữa.",
     "examples": [
       {
         "hanzi": "父亲常常在空闲时间读侦探小说。",
@@ -2021,7 +2336,7 @@
     "radical": "一",
     "level": 2,
     "frequency": 557,
-    "mnemonic": "",
+    "mnemonic": "Gắn với nét nhất căn bản, ghi nhớ cụm 「万」 (wàn) = vạn, mười nghìn.",
     "examples": [
       {
         "hanzi": "万幸，没乘客受伤。",
@@ -2040,7 +2355,7 @@
     "radical": "力",
     "level": 2,
     "frequency": 588,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ lực (sức mạnh), ghi nhớ cụm 「动」 (dòng) = chuyển động, động đậy, di chuyển.",
     "examples": [
       {
         "hanzi": "不要虐待动物。",
@@ -2059,7 +2374,7 @@
     "radical": "面",
     "level": 2,
     "frequency": 604,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 面, ghi nhớ cụm 「面」 (miàn) = mặt, bề mặt, mì.",
     "examples": [
       {
         "hanzi": "我们今晚在外面吃饭吧。",
@@ -2078,7 +2393,7 @@
     "radical": "一",
     "level": 2,
     "frequency": 628,
-    "mnemonic": "",
+    "mnemonic": "Gắn với nét nhất căn bản, ghi nhớ cụm 「下来」 (xià lai) = xuống, đi xuống, hạ xuống.",
     "examples": [
       {
         "hanzi": "接下来该采取什么行动就交给你了。",
@@ -2097,7 +2412,7 @@
     "radical": "辶",
     "level": 2,
     "frequency": 635,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ xước (con đường / di chuyển), ghi nhớ cụm 「远」 (yuǎn) = xa.",
     "examples": [
       {
         "hanzi": "远亲不如近邻。",
@@ -2116,7 +2431,7 @@
     "radical": "忄",
     "level": 2,
     "frequency": 637,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ tâm đứng (cảm xúc / suy nghĩ), ghi nhớ cụm 「快乐」 (kuài lè) = vui vẻ, hạnh phúc.",
     "examples": [
       {
         "hanzi": "生日快乐，Muiriel！",
@@ -2135,7 +2450,7 @@
     "radical": "巾",
     "level": 2,
     "frequency": 677,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 巾, ghi nhớ cụm 「带来」 (dài lái) = mang lại, đem lại.",
     "examples": [
       {
         "hanzi": "我一点都不知道这会给你带来那么多问题。",
@@ -2154,7 +2469,7 @@
     "radical": "辶",
     "level": 2,
     "frequency": 692,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ xước (con đường / di chuyển), ghi nhớ cụm 「过来」 (guò lái) = lại đây, qua đây, vượt qua.",
     "examples": [
       {
         "hanzi": "请送两份早餐过来。2号餐加两杯奶茶。",
@@ -2173,7 +2488,7 @@
     "radical": "心",
     "level": 2,
     "frequency": 733,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ tâm (trái tim / cảm xúc), ghi nhớ cụm 「想到」 (xiǎng dào) = nghĩ đến, nghĩ ra.",
     "examples": [
       {
         "hanzi": "当时我没想到这个问题。",
@@ -2192,7 +2507,7 @@
     "radical": "阝",
     "level": 2,
     "frequency": 756,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 阝, ghi nhớ cụm 「那样」 (nà yàng) = như thế, như vậy.",
     "examples": [
       {
         "hanzi": "我哪里说过那样的话？",
@@ -2211,7 +2526,7 @@
     "radical": "彳",
     "level": 2,
     "frequency": 760,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 彳, ghi nhớ cụm 「往」 (wǎng) = về phía, hướng tới, đi đến.",
     "examples": [
       {
         "hanzi": "然而，相反的理论往往也是真的。",
@@ -2230,7 +2545,7 @@
     "radical": "飞",
     "level": 2,
     "frequency": 779,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 飞, ghi nhớ cụm 「飞」 (fēi) = bay.",
     "examples": [
       {
         "hanzi": "飞往北京的飞机就要起飞了。",
@@ -2249,7 +2564,7 @@
     "radical": "凵",
     "level": 2,
     "frequency": 784,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 凵, ghi nhớ cụm 「出去」 (chū qù) = đi ra, ra ngoài.",
     "examples": [
       {
         "hanzi": "有谁来找我，你就说我出去了。",
@@ -2268,7 +2583,7 @@
     "radical": "目",
     "level": 2,
     "frequency": 814,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ mục (đôi mắt), ghi nhớ cụm 「眼睛」 (yǎn jing) = mắt, con mắt.",
     "examples": [
       {
         "hanzi": "我们的眼睛需要时间来适应黑暗。",
@@ -2287,7 +2602,7 @@
     "radical": "亻",
     "level": 2,
     "frequency": 818,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ nhân đứng (người), ghi nhớ cụm 「做到」 (zuò dào) = làm được, đạt được.",
     "examples": [
       {
         "hanzi": "没有你我无法做到，谢谢。",
@@ -2306,7 +2621,7 @@
     "radical": "辶",
     "level": 2,
     "frequency": 822,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ xước (con đường / di chuyển), ghi nhớ cụm 「近」 (jìn) = gần.",
     "examples": [
       {
         "hanzi": "那是一张近照吗？",
@@ -2325,7 +2640,7 @@
     "radical": "一",
     "level": 2,
     "frequency": 838,
-    "mnemonic": "",
+    "mnemonic": "Gắn với nét nhất căn bản, ghi nhớ cụm 「下去」 (xià qù) = tiếp tục, đi xuống.",
     "examples": [
       {
         "hanzi": "耐心地坚持下去，这些事急不来。",
@@ -2344,7 +2659,7 @@
     "radical": "禸",
     "level": 2,
     "frequency": 912,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 禸, ghi nhớ cụm 「离」 (lí) = cách, rời xa.",
     "examples": [
       {
         "hanzi": "综上所述，我们认为离婚是一种不道德的行为。",
@@ -2363,7 +2678,7 @@
     "radical": "纟",
     "level": 2,
     "frequency": 940,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ mịch (sợi tơ / kết nối), ghi nhớ cụm 「经常」 (jīng cháng) = thường xuyên, luôn.",
     "examples": [
       {
         "hanzi": "我经常遇见他。",
@@ -2382,7 +2697,7 @@
     "radical": "走",
     "level": 2,
     "frequency": 982,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ tẩu (bước đi), ghi nhớ cụm 「越来越」 (yuè lái yuè) = càng ngày càng.",
     "examples": [
       {
         "hanzi": "我对童年的记忆越来越模糊了.",
@@ -2401,7 +2716,7 @@
     "radical": "心",
     "level": 2,
     "frequency": 988,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ tâm (trái tim / cảm xúc), ghi nhớ cụm 「意思」 (yì si) = ý nghĩa, ý định, thú vị.",
     "examples": [
       {
         "hanzi": "真不好意思，让您久等了。",
@@ -2420,7 +2735,7 @@
     "radical": "心",
     "level": 2,
     "frequency": 1015,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ tâm (trái tim / cảm xúc), ghi nhớ cụm 「忘」 (wàng) = quên, quên mất.",
     "examples": [
       {
         "hanzi": "有一天你会忘了我。",
@@ -2439,7 +2754,7 @@
     "radical": "一",
     "level": 2,
     "frequency": 1045,
-    "mnemonic": "",
+    "mnemonic": "Gắn với nét nhất căn bản, ghi nhớ cụm 「不少」 (bù shǎo) = nhiều, không ít.",
     "examples": [
       {
         "hanzi": "这里有不少人。",
@@ -2458,7 +2773,7 @@
     "radical": "尢",
     "level": 2,
     "frequency": 1077,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 尢, ghi nhớ cụm 「就要」 (jiù yào) = sắp, sắp sửa, chuẩn bị.",
     "examples": [
       {
         "hanzi": "你就要走了，是吗？",
@@ -2477,7 +2792,7 @@
     "radical": "囗",
     "level": 2,
     "frequency": 1160,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 囗, ghi nhớ cụm 「回去」 (huí qu) = quay về, trở về.",
     "examples": [
       {
         "hanzi": "已经是时候回去了。",
@@ -2496,7 +2811,7 @@
     "radical": "止",
     "level": 2,
     "frequency": 1179,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 止, ghi nhớ cụm 「正是」 (zhèng shì) = chính là, đúng là.",
     "examples": [
       {
         "hanzi": "“这正是我在找的。”他喊道。",
@@ -2515,7 +2830,7 @@
     "radical": "女",
     "level": 2,
     "frequency": 1187,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ nữ (phụ nữ), ghi nhớ cụm 「妻子」 (qī zǐ) = vợ, vợ con.",
     "examples": [
       {
         "hanzi": "这男人和他妻子互相帮助。",
@@ -2530,11 +2845,11 @@
     "id": "w2-134",
     "hanzi": "鱼",
     "pinyin": "yú",
-    "meaningVi": "cá, họ Ngư",
+    "meaningVi": "cá",
     "radical": "鱼",
     "level": 2,
     "frequency": 1189,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ ngư (cá), ghi nhớ cụm 「鱼」 (yú) = cá.",
     "examples": [
       {
         "hanzi": "问他是被老板“炒了鱿鱼”了，还是他“炒了”老板？",
@@ -2553,7 +2868,7 @@
     "radical": "扌",
     "level": 2,
     "frequency": 1199,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ tài gẩy (hành động bằng tay), ghi nhớ cụm 「打开」 (dǎ kāi) = mở, bật lên.",
     "examples": [
       {
         "hanzi": "我刚打开锅盖，一股恶臭就扑鼻而来。",
@@ -2572,7 +2887,7 @@
     "radical": "肉",
     "level": 2,
     "frequency": 1215,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 肉, ghi nhớ cụm 「肉」 (ròu) = thịt.",
     "examples": [
       {
         "hanzi": "他丢了块肉给一条狗。",
@@ -2591,7 +2906,7 @@
     "radical": "入",
     "level": 2,
     "frequency": 1228,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 入, ghi nhớ cụm 「全国」 (quán guó) = toàn quốc, cả nước.",
     "examples": [
       {
         "hanzi": "这个产品在全国都很受欢迎。",
@@ -2606,11 +2921,11 @@
     "id": "w2-138",
     "hanzi": "班",
     "pinyin": "bān",
-    "meaningVi": "lớp, ca làm việc, họ Ban",
+    "meaningVi": "lớp, ca làm việc",
     "radical": "王",
     "level": 2,
     "frequency": 1238,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ ngọc (viên ngọc quý), ghi nhớ cụm 「班」 (bān) = lớp, ca làm việc.",
     "examples": [
       {
         "hanzi": "我正好赶上了最后一班火车。",
@@ -2629,7 +2944,7 @@
     "radical": "土",
     "level": 2,
     "frequency": 1239,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ thổ (đất đai), ghi nhớ cụm 「坏」 (huài) = hỏng, xấu, tồi.",
     "examples": [
       {
         "hanzi": "我开门的时候弄坏了锁。",
@@ -2648,7 +2963,7 @@
     "radical": "⺮",
     "level": 2,
     "frequency": 1245,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ ⺮, ghi nhớ cụm 「笔」 (bǐ) = bút.",
     "examples": [
       {
         "hanzi": "如果你需要笔的话，我借你一支。",
@@ -2667,7 +2982,7 @@
     "radical": "一",
     "level": 2,
     "frequency": 1248,
-    "mnemonic": "",
+    "mnemonic": "Gắn với nét nhất căn bản, ghi nhớ cụm 「上面」 (shàng miàn) = bên trên, phía trên.",
     "examples": [
       {
         "hanzi": "一块岩石从上面落下。",
@@ -2686,7 +3001,7 @@
     "radical": "口",
     "level": 2,
     "frequency": 1300,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ khẩu (miệng / lời nói), ghi nhớ cụm 「后面」 (hòu mian) = phía sau, đằng sau.",
     "examples": [
       {
         "hanzi": "小山后面有个美丽的山谷。",
@@ -2705,7 +3020,7 @@
     "radical": "瓦",
     "level": 2,
     "frequency": 1373,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 瓦, ghi nhớ cụm 「瓶」 (píng) = bình, lọ.",
     "examples": [
       {
         "hanzi": "她拿了其中一个玻璃花瓶。",
@@ -2724,7 +3039,7 @@
     "radical": "一",
     "level": 2,
     "frequency": 1376,
-    "mnemonic": "",
+    "mnemonic": "Gắn với nét nhất căn bản, ghi nhớ cụm 「丈夫」 (zhàng fu) = chồng.",
     "examples": [
       {
         "hanzi": "他会是我妹妹的好丈夫的。",
@@ -2739,11 +3054,11 @@
     "id": "w2-145",
     "hanzi": "左",
     "pinyin": "Zuǒ",
-    "meaningVi": "bên trái, phía trái, họ Tả",
+    "meaningVi": "bên trái, phía trái",
     "radical": "工",
     "level": 2,
     "frequency": 1382,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 工, ghi nhớ cụm 「左」 (Zuǒ) = bên trái, phía trái.",
     "examples": [
       {
         "hanzi": "我会在5点左右打电话给你。",
@@ -2762,7 +3077,7 @@
     "radical": "一",
     "level": 2,
     "frequency": 1459,
-    "mnemonic": "",
+    "mnemonic": "Gắn với nét nhất căn bản, ghi nhớ cụm 「下面」 (xià miàn) = bên dưới, phía dưới.",
     "examples": [
       {
         "hanzi": "请看我写在下面的说明。",
@@ -2781,7 +3096,7 @@
     "radical": "口",
     "level": 2,
     "frequency": 1481,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ khẩu (miệng / lời nói), ghi nhớ cụm 「右」 (yòu) = bên phải, phía phải.",
     "examples": [
       {
         "hanzi": "沿着这条路直走，到第三个红绿灯的地方右转。",
@@ -2800,7 +3115,7 @@
     "radical": "长",
     "level": 2,
     "frequency": 1531,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 长, ghi nhớ cụm 「长大」 (zhǎng dà) = lớn lên, trưởng thành.",
     "examples": [
       {
         "hanzi": "他长大了会成为一名医生。",
@@ -2819,7 +3134,7 @@
     "radical": "亠",
     "level": 2,
     "frequency": 1533,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 亠, ghi nhớ cụm 「交给」 (jiāo gěi) = giao cho, nộp cho.",
     "examples": [
       {
         "hanzi": "接下来该采取什么行动就交给你了。",
@@ -2838,13 +3153,13 @@
     "radical": "虫",
     "level": 2,
     "frequency": 1539,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 虫, ghi nhớ cụm 「蛋」 (dàn) = trứng.",
     "examples": [
       {
-        "hanzi": "它一定是個生日蛋糕。",
+        "hanzi": "它一定是个生日蛋糕。",
         "pinyin": "tā yí dìng shì gè shēng rì dàn gāo 。",
         "vi": "Đây chắc hẳn là một cái bánh sinh nhật.",
-        "audio": "audio/teacher-bd644147cb53.mp3"
+        "audio": "audio/teacher-ebc8f2c1caf2.mp3"
       }
     ],
     "audio": "audio/teacher-5b2a892f606a.mp3"
@@ -2857,7 +3172,7 @@
     "radical": "月",
     "level": 2,
     "frequency": 1568,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ nguyệt (mặt trăng / cơ thể), ghi nhớ cụm 「有时」 (yǒu shí) = thỉnh thoảng, có lúc.",
     "examples": [
       {
         "hanzi": "我有时喜欢一个人在家看书。",
@@ -2876,7 +3191,7 @@
     "radical": "讠",
     "level": 2,
     "frequency": 1572,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ ngôn (lời nói), ghi nhớ cụm 「词」 (cí) = từ, từ vựng.",
     "examples": [
       {
         "hanzi": "我不喜欢学习不规则动词。",
@@ -2895,7 +3210,7 @@
     "radical": "鸟",
     "level": 2,
     "frequency": 1593,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ điểu (chim), ghi nhớ cụm 「鸟」 (niǎo) = chim, con chim.",
     "examples": [
       {
         "hanzi": "观察鸟类是个很好的业余爱好。",
@@ -2914,7 +3229,7 @@
     "radical": "心",
     "level": 2,
     "frequency": 1611,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ tâm (trái tim / cảm xúc), ghi nhớ cụm 「想起」 (xiǎng qǐ) = nhớ ra, nghĩ đến.",
     "examples": [
       {
         "hanzi": "现在我想起来了。",
@@ -2933,7 +3248,7 @@
     "radical": "辶",
     "level": 2,
     "frequency": 1624,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ xước (con đường / di chuyển), ghi nhớ cụm 「进去」 (jìn qù) = đi vào, bước vào.",
     "examples": [
       {
         "hanzi": "让我进去。",
@@ -2952,7 +3267,7 @@
     "radical": "足",
     "level": 2,
     "frequency": 1669,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ túc (bàn chân / di chuyển), ghi nhớ cụm 「路上」 (lù shang) = đang trên đường.",
     "examples": [
       {
         "hanzi": "这条路上的车辆不多。",
@@ -2971,7 +3286,7 @@
     "radical": "扌",
     "level": 2,
     "frequency": 1716,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ tài gẩy (hành động bằng tay), ghi nhớ cụm 「接到」 (jiē dào) = nhận được, tiếp nhận.",
     "examples": [
       {
         "hanzi": "我经常使用SSH来远程连接到我的电脑。",
@@ -2990,7 +3305,7 @@
     "radical": "忄",
     "level": 2,
     "frequency": 1770,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ tâm đứng (cảm xúc / suy nghĩ), ghi nhớ cụm 「慢」 (màn) = chậm.",
     "examples": [
       {
         "hanzi": "汽笛声响起，船开始慢慢地驶离港口。",
@@ -3009,7 +3324,7 @@
     "radical": "刂",
     "level": 2,
     "frequency": 1789,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ đao đứng (cắt / chia), ghi nhớ cụm 「前面」 (qián miàn) = phía trước, đằng trước.",
     "examples": [
       {
         "hanzi": "没有人跑在他前面。",
@@ -3028,7 +3343,7 @@
     "radical": "方",
     "level": 2,
     "frequency": 1815,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 方, ghi nhớ cụm 「旁边」 (páng biān) = bên cạnh.",
     "examples": [
       {
         "hanzi": "我跟他说话的时候，他一直往旁边看。",
@@ -3047,7 +3362,7 @@
     "radical": "大",
     "level": 2,
     "frequency": 1854,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ đại (to lớn), ghi nhớ cụm 「大部分」 (dà bù fen) = phần lớn, đại đa số.",
     "examples": [
       {
         "hanzi": "大部分客人是外国人。",
@@ -3066,7 +3381,7 @@
     "radical": "巾",
     "level": 2,
     "frequency": 1860,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 巾, ghi nhớ cụm 「帮忙」 (bāng máng) = giúp đỡ, giúp.",
     "examples": [
       {
         "hanzi": "我有点儿小事情想请你帮忙。",
@@ -3085,7 +3400,7 @@
     "radical": "辶",
     "level": 2,
     "frequency": 1870,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ xước (con đường / di chuyển), ghi nhớ cụm 「进来」 (jìn lái) = đi vào, bước vào đây.",
     "examples": [
       {
         "hanzi": "别让狗进来。",
@@ -3104,7 +3419,7 @@
     "radical": "页",
     "level": 2,
     "frequency": 1880,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ hiệt (đầu / trang giấy), ghi nhớ cụm 「颜色」 (yán sè) = màu sắc.",
     "examples": [
       {
         "hanzi": "这里你可以看到漂亮的颜色组合。",
@@ -3123,7 +3438,7 @@
     "radical": "亻",
     "level": 2,
     "frequency": 1946,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ nhân đứng (người), ghi nhớ cụm 「什么样」 (shén me yàng) = như thế nào, kiểu gì.",
     "examples": [
       {
         "hanzi": "没人知道那机器长什么样子。",
@@ -3142,7 +3457,7 @@
     "radical": "阝",
     "level": 2,
     "frequency": 1980,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 阝, ghi nhớ cụm 「那时」 (nà shí) = lúc đó, khi ấy.",
     "examples": [
       {
         "hanzi": "直到那时，他才意识到他已经上当受骗。",
@@ -3161,13 +3476,13 @@
     "radical": "心",
     "level": 2,
     "frequency": 1983,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ tâm (trái tim / cảm xúc), ghi nhớ cụm 「心中」 (xīn zhōng) = trong lòng, trong tâm trí.",
     "examples": [
       {
-        "hanzi": "她心中充滿了成為女演員的夢想。",
+        "hanzi": "她心中充满了成为女演員的夢想。",
         "pinyin": "tā xīn zhōng chōng mǎn le chéng wèi nǚ yǎn yuán de mèng xiǎng 。",
         "vi": "Trong lòng cô ấy tràn đầy ước mơ trở thành diễn viên.",
-        "audio": "audio/teacher-7b41a4a20e8c.mp3"
+        "audio": "audio/teacher-a0706eeaf913.mp3"
       }
     ],
     "audio": "audio/teacher-a96845f3d00b.mp3"
@@ -3180,13 +3495,13 @@
     "radical": "高",
     "level": 2,
     "frequency": 2025,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 高, ghi nhớ cụm 「高中」 (gāo zhōng) = cấp ba, trung học phổ thông.",
     "examples": [
       {
-        "hanzi": "以前讀高中的時候﹐我每天早上六點起床。",
+        "hanzi": "以前读高中的时候﹐我每天早上六点起床。",
         "pinyin": "yǐ qián dú gāo zhōng de shí hòu ﹐ wǒ měi tiān zǎo shàng liù diǎn qǐ chuáng 。",
         "vi": "Hồi học cấp ba, sáng nào mình cũng dậy lúc sáu giờ.",
-        "audio": "audio/teacher-084b128af25b.mp3"
+        "audio": "audio/teacher-384c2e50606d.mp3"
       }
     ],
     "audio": "audio/teacher-a68eced84736.mp3"
@@ -3199,7 +3514,7 @@
     "radical": "耂",
     "level": 2,
     "frequency": 2030,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 耂, ghi nhớ cụm 「考」 (kǎo) = thi, kiểm tra.",
     "examples": [
       {
         "hanzi": "我从早考到晚。",
@@ -3218,7 +3533,7 @@
     "radical": "艹",
     "level": 2,
     "frequency": 2039,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ thảo (cây cỏ / thực vật), ghi nhớ cụm 「英语」 (Yīng yǔ) = tiếng Anh.",
     "examples": [
       {
         "hanzi": "昨天，我收到一封用英语写的信。",
@@ -3237,7 +3552,7 @@
     "radical": "大",
     "level": 2,
     "frequency": 2065,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ đại (to lớn), ghi nhớ cụm 「大多数」 (dà duō shù) = đa số, phần lớn.",
     "examples": [
       {
         "hanzi": "大多数人都同意你的看法。",
@@ -3256,7 +3571,7 @@
     "radical": "一",
     "level": 2,
     "frequency": 2127,
-    "mnemonic": "",
+    "mnemonic": "Gắn với nét nhất căn bản, ghi nhớ cụm 「上去」 (shàng qù) = đi lên, lên trên.",
     "examples": [
       {
         "hanzi": "他看上去是一个十足的绅士。",
@@ -3275,7 +3590,7 @@
     "radical": "纟",
     "level": 2,
     "frequency": 2146,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ mịch (sợi tơ / kết nối), ghi nhớ cụm 「红色」 (hóng sè) = màu đỏ.",
     "examples": [
       {
         "hanzi": "他把他的自行车刷成红色。",
@@ -3290,11 +3605,11 @@
     "id": "w2-174",
     "hanzi": "游",
     "pinyin": "yóu",
-    "meaningVi": "họ Du, bơi, đi chơi",
+    "meaningVi": "bơi, đi chơi",
     "radical": "氵",
     "level": 2,
     "frequency": 2164,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ chấm thủy (nước), ghi nhớ cụm 「游」 (yóu) = bơi, đi chơi.",
     "examples": [
       {
         "hanzi": "我父亲会游泳但我母亲不会。",
@@ -3313,7 +3628,7 @@
     "radical": "攵",
     "level": 2,
     "frequency": 2179,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 攵, ghi nhớ cụm 「放下」 (fàng xià) = buông xuống, buông bỏ.",
     "examples": [
       {
         "hanzi": "她放下手中的针线活，并站了起来。",
@@ -3332,7 +3647,7 @@
     "radical": "一",
     "level": 2,
     "frequency": 2207,
-    "mnemonic": "",
+    "mnemonic": "Gắn với nét nhất căn bản, ghi nhớ cụm 「一会儿」 (yī huì r) = một lúc, chốc lát.",
     "examples": [
       {
         "hanzi": "你等我一会儿，我马上就来。",
@@ -3351,7 +3666,7 @@
     "radical": "日",
     "level": 2,
     "frequency": 2223,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ nhật (mặt trời / thời gian), ghi nhớ cụm 「早就」 (zǎo jiù) = sớm đã, từ lâu.",
     "examples": [
       {
         "hanzi": "为了弄到一个好位子，我很早就出门了。",
@@ -3370,7 +3685,7 @@
     "radical": "木",
     "level": 2,
     "frequency": 2308,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ mộc (cây gỗ), ghi nhớ cụm 「机场」 (jī chǎng) = sân bay.",
     "examples": [
       {
         "hanzi": "飞机降落在新山一机场。",
@@ -3389,7 +3704,7 @@
     "radical": "夕",
     "level": 2,
     "frequency": 2322,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 夕, ghi nhớ cụm 「多久」 (duō jiǔ) = bao lâu.",
     "examples": [
       {
         "hanzi": "你待了多久?",
@@ -3408,7 +3723,7 @@
     "radical": "足",
     "level": 2,
     "frequency": 2330,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ túc (bàn chân / di chuyển), ghi nhớ cụm 「踢」 (tī) = đá.",
     "examples": [
       {
         "hanzi": "他在踢我！",
@@ -3427,7 +3742,7 @@
     "radical": "舌",
     "level": 2,
     "frequency": 2343,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 舌, ghi nhớ cụm 「舒服」 (shū fu) = thoải mái, dễ chịu.",
     "examples": [
       {
         "hanzi": "这是张舒服的椅子。",
@@ -3446,7 +3761,7 @@
     "radical": "一",
     "level": 2,
     "frequency": 2348,
-    "mnemonic": "",
+    "mnemonic": "Gắn với nét nhất căn bản, ghi nhớ cụm 「上周」 (shàng zhōu) = tuần trước.",
     "examples": [
       {
         "hanzi": "我上周不忙。",
@@ -3465,7 +3780,7 @@
     "radical": "黑",
     "level": 2,
     "frequency": 2362,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 黑, ghi nhớ cụm 「黑色」 (hēi sè) = màu đen.",
     "examples": [
       {
         "hanzi": "黑色很衬你。",
@@ -3484,7 +3799,7 @@
     "radical": "纟",
     "level": 2,
     "frequency": 2383,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ mịch (sợi tơ / kết nối), ghi nhớ cụm 「绿色」 (lǜ sè) = màu xanh lá.",
     "examples": [
       {
         "hanzi": "绿色的毯子和这条蓝色的帘子不配。",
@@ -3503,13 +3818,13 @@
     "radical": "阝",
     "level": 2,
     "frequency": 2470,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 阝, ghi nhớ cụm 「院」 (yuàn) = sân, viện, cơ quan.",
     "examples": [
       {
-        "hanzi": "這附近有醫院嗎？",
+        "hanzi": "这附近有医院吗？",
         "pinyin": "zhè fù jìn yǒu yī yuàn ma ？",
         "vi": "Gần đây có bệnh viện không?",
-        "audio": "audio/teacher-8565a1e0ea9d.mp3"
+        "audio": "audio/teacher-123ba600fc64.mp3"
       }
     ],
     "audio": "audio/teacher-b26bfc3f1c5d.mp3"
@@ -3522,7 +3837,7 @@
     "radical": "网",
     "level": 2,
     "frequency": 2474,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 网, ghi nhớ cụm 「网上」 (wǎng shàng) = trên mạng, trực tuyến.",
     "examples": [
       {
         "hanzi": "在网上勾人比在街上容易。",
@@ -3541,7 +3856,7 @@
     "radical": "足",
     "level": 2,
     "frequency": 2550,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ túc (bàn chân / di chuyển), ghi nhớ cụm 「足球」 (zú qiú) = bóng đá.",
     "examples": [
       {
         "hanzi": "去踢足球吧。",
@@ -3560,7 +3875,7 @@
     "radical": "纟",
     "level": 2,
     "frequency": 2608,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ mịch (sợi tơ / kết nối), ghi nhớ cụm 「绿」 (lǜ) = xanh lá, cắm sừng.",
     "examples": [
       {
         "hanzi": "沿着这条路直走，到第三个红绿灯的地方右转。",
@@ -3579,7 +3894,7 @@
     "radical": "白",
     "level": 2,
     "frequency": 2643,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ bạch (màu trắng), ghi nhớ cụm 「白色」 (bái sè) = màu trắng.",
     "examples": [
       {
         "hanzi": "鸟儿身上铺满了白色的羽毛。",
@@ -3598,7 +3913,7 @@
     "radical": "女",
     "level": 2,
     "frequency": 2679,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ nữ (phụ nữ), ghi nhớ cụm 「好事」 (hǎo shì) = việc tốt, chuyện vui.",
     "examples": [
       {
         "hanzi": "年轻的时候多看点好书是件好事。",
@@ -3617,7 +3932,7 @@
     "radical": "辶",
     "level": 2,
     "frequency": 2733,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ xước (con đường / di chuyển), ghi nhớ cụm 「送给」 (sòng gěi) = tặng, gửi cho.",
     "examples": [
       {
         "hanzi": "何不送给她一些花?",
@@ -3636,7 +3951,7 @@
     "radical": "门",
     "level": 2,
     "frequency": 2762,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ môn (cánh cửa), ghi nhớ cụm 「门口」 (mén kǒu) = cửa ra vào, cổng.",
     "examples": [
       {
         "hanzi": "门口有个人。",
@@ -3655,7 +3970,7 @@
     "radical": "比",
     "level": 2,
     "frequency": 2785,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 比, ghi nhớ cụm 「比如说」 (bǐ rú shuō) = ví dụ như.",
     "examples": [
       {
         "hanzi": "我喜欢花，比如说，玫瑰。",
@@ -3674,7 +3989,7 @@
     "radical": "一",
     "level": 2,
     "frequency": 2805,
-    "mnemonic": "",
+    "mnemonic": "Gắn với nét nhất căn bản, ghi nhớ cụm 「不好意思」 (bù hǎo yì si) = ngượng ngùng, ngại, xin lỗi.",
     "examples": [
       {
         "hanzi": "真不好意思，让您久等了。",
@@ -3693,7 +4008,7 @@
     "radical": "女",
     "level": 2,
     "frequency": 2809,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ nữ (phụ nữ), ghi nhớ cụm 「奶奶」 (nǎi nai) = bà nội.",
     "examples": [
       {
         "hanzi": "有一位奶奶带着小孙子上学。",
@@ -3712,7 +4027,7 @@
     "radical": "艹",
     "level": 2,
     "frequency": 2892,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ thảo (cây cỏ / thực vật), ghi nhớ cụm 「蓝色」 (lán sè) = màu xanh dương.",
     "examples": [
       {
         "hanzi": "他的自行车是蓝色的。",
@@ -3731,7 +4046,7 @@
     "radical": "扌",
     "level": 2,
     "frequency": 2928,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ tài gẩy (hành động bằng tay), ghi nhớ cụm 「接下来」 (jiē xià lái) = tiếp theo, sau đây.",
     "examples": [
       {
         "hanzi": "接下来该采取什么行动就交给你了。",
@@ -3750,7 +4065,7 @@
     "radical": "月",
     "level": 2,
     "frequency": 2983,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ nguyệt (mặt trăng / cơ thể), ghi nhớ cụm 「有意思」 (yǒu yì si) = thú vị, hay.",
     "examples": [
       {
         "hanzi": "这部电影真的非常具有意思。",
@@ -3769,7 +4084,7 @@
     "radical": "凵",
     "level": 2,
     "frequency": 2997,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 凵, ghi nhớ cụm 「出门」 (chū mén) = ra ngoài, đi ra khỏi nhà.",
     "examples": [
       {
         "hanzi": "比起出门，我更喜欢待在家。",
@@ -3788,7 +4103,7 @@
     "radical": "土",
     "level": 2,
     "frequency": 3046,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ thổ (đất đai), ghi nhớ cụm 「地铁」 (dì tiě) = tàu điện ngầm.",
     "examples": [
       {
         "hanzi": "爸爸乘早上7点的地铁去上班。",
@@ -3807,7 +4122,7 @@
     "radical": "小",
     "level": 2,
     "frequency": 3067,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ tiểu (nhỏ bé), ghi nhớ cụm 「小时候」 (xiǎo shí hou) = hồi nhỏ, lúc nhỏ.",
     "examples": [
       {
         "hanzi": "小时候我没有自行车。",
@@ -3826,7 +4141,7 @@
     "radical": "父",
     "level": 2,
     "frequency": 3099,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 父, ghi nhớ cụm 「爷爷」 (yé ye) = ông nội.",
     "examples": [
       {
         "hanzi": "爷爷买给我的！",
@@ -3845,7 +4160,7 @@
     "radical": "口",
     "level": 2,
     "frequency": 3116,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ khẩu (miệng / lời nói), ghi nhớ cụm 「咱」 (zán) = chúng ta, bọn mình.",
     "examples": [
       {
         "hanzi": "咱们吃吧！我饿死了。",
@@ -3864,7 +4179,7 @@
     "radical": "一",
     "level": 2,
     "frequency": 3160,
-    "mnemonic": "",
+    "mnemonic": "Gắn với nét nhất căn bản, ghi nhớ cụm 「上来」 (shàng lái) = lên đây, đi lên.",
     "examples": [
       {
         "hanzi": "天气很好，你快点上来吧。",
@@ -3883,7 +4198,7 @@
     "radical": "女",
     "level": 2,
     "frequency": 3350,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ nữ (phụ nữ), ghi nhớ cụm 「好人」 (hǎo rén) = người tốt.",
     "examples": [
       {
         "hanzi": "你真是个大好人！",
@@ -3902,7 +4217,7 @@
     "radical": "大",
     "level": 2,
     "frequency": 3359,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ đại (to lớn), ghi nhớ cụm 「大声」 (dà shēng) = to tiếng, lớn giọng.",
     "examples": [
       {
         "hanzi": "停止大声说话。",
@@ -3921,7 +4236,7 @@
     "radical": "巾",
     "level": 2,
     "frequency": 3369,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 巾, ghi nhớ cụm 「市长」 (shì zhǎng) = thị trưởng.",
     "examples": [
       {
         "hanzi": "他被选为市长。",
@@ -3940,7 +4255,7 @@
     "radical": "辶",
     "level": 2,
     "frequency": 3532,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ xước (con đường / di chuyển), ghi nhớ cụm 「这时」 (zhè shí) = lúc này, khi đó.",
     "examples": [
       {
         "hanzi": "这时门铃突然响了起来。",
@@ -3959,7 +4274,7 @@
     "radical": "禾",
     "level": 2,
     "frequency": 3551,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ hòa (cây lúa), ghi nhớ cụm 「科学家」 (kē xué jiā) = nhà khoa học.",
     "examples": [
       {
         "hanzi": "他是个受所有人尊敬的科学家。",
@@ -3978,7 +4293,7 @@
     "radical": "女",
     "level": 2,
     "frequency": 3576,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ nữ (phụ nữ), ghi nhớ cụm 「姓」 (xìng) = họ, mang họ.",
     "examples": [
       {
         "hanzi": "你只要在这里写下你的姓名和地址就行了。",
@@ -3997,7 +4312,7 @@
     "radical": "⺮",
     "level": 2,
     "frequency": 3596,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ ⺮, ghi nhớ cụm 「篮球」 (lán qiú) = bóng rổ.",
     "examples": [
       {
         "hanzi": "我喜欢看篮球比赛。",
@@ -4016,7 +4331,7 @@
     "radical": "大",
     "level": 2,
     "frequency": 3619,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ đại (to lớn), ghi nhớ cụm 「大门」 (dà mén) = cửa lớn, ban nhạc The Doors.",
     "examples": [
       {
         "hanzi": "我们在学校的大门前见面吧。",
@@ -4035,7 +4350,7 @@
     "radical": "一",
     "level": 2,
     "frequency": 3647,
-    "mnemonic": "",
+    "mnemonic": "Gắn với nét nhất căn bản, ghi nhớ cụm 「不一定」 (bù yī dìng) = chưa chắc, không nhất định.",
     "examples": [
       {
         "hanzi": "明天会不会下雨还不一定呢。",
@@ -4054,7 +4369,7 @@
     "radical": "衤",
     "level": 2,
     "frequency": 3765,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ y (quần áo), ghi nhớ cụm 「裤子」 (kù zi) = quần.",
     "examples": [
       {
         "hanzi": "我小时候只穿裤子。",
@@ -4073,7 +4388,7 @@
     "radical": "青",
     "level": 2,
     "frequency": 4006,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 青, ghi nhớ cụm 「青少年」 (qīng shào nián) = thanh thiếu niên.",
     "examples": [
       {
         "hanzi": "交通事故是美国青少年死亡的主要原因。",
@@ -4088,11 +4403,11 @@
     "id": "w2-216",
     "hanzi": "阴",
     "pinyin": "yīn",
-    "meaningVi": "âm, âm u, họ Âm",
+    "meaningVi": "âm, âm u",
     "radical": "阝",
     "level": 2,
     "frequency": 4058,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 阝, ghi nhớ cụm 「阴」 (yīn) = âm, âm u.",
     "examples": [
       {
         "hanzi": "天突然转阴了。",
@@ -4111,7 +4426,7 @@
     "radical": "口",
     "level": 2,
     "frequency": 4093,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ khẩu (miệng / lời nói), ghi nhớ cụm 「商场」 (shāng chǎng) = trung tâm thương mại, cửa hàng lớn.",
     "examples": [
       {
         "hanzi": "再要开眼界，去看人民广场下面的地下商场。",
@@ -4130,7 +4445,7 @@
     "radical": "夕",
     "level": 2,
     "frequency": 4151,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 夕, ghi nhớ cụm 「外国」 (wài guó) = nước ngoài.",
     "examples": [
       {
         "hanzi": "据说他爸爸在外国去世了。",
@@ -4149,7 +4464,7 @@
     "radical": "女",
     "level": 2,
     "frequency": 4286,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ nữ (phụ nữ), ghi nhớ cụm 「姓名」 (xìng míng) = họ tên.",
     "examples": [
       {
         "hanzi": "你只要在这里写下你的姓名和地址就行了。",
@@ -4168,7 +4483,7 @@
     "radical": "一",
     "level": 2,
     "frequency": 4346,
-    "mnemonic": "",
+    "mnemonic": "Gắn với nét nhất căn bản, ghi nhớ cụm 「一部分」 (yī bù fen) = một phần.",
     "examples": [
       {
         "hanzi": "有一部分人不同意。",
@@ -4187,7 +4502,7 @@
     "radical": "走",
     "level": 2,
     "frequency": 4517,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ tẩu (bước đi), ghi nhớ cụm 「走路」 (zǒu lù) = đi bộ.",
     "examples": [
       {
         "hanzi": "我走路10分钟能到学校 。",
@@ -4206,7 +4521,7 @@
     "radical": "手",
     "level": 2,
     "frequency": 4622,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ thủ (bàn tay), ghi nhớ cụm 「拿到」 (ná dào) = lấy được, nhận được.",
     "examples": [
       {
         "hanzi": "他最多能拿到第三名。",
@@ -4225,7 +4540,7 @@
     "radical": "入",
     "level": 2,
     "frequency": 4632,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 入, ghi nhớ cụm 「全家」 (quán jiā) = cả nhà, toàn gia.",
     "examples": [
       {
         "hanzi": "今年过年全家一起去旅游吧。",
@@ -4244,7 +4559,7 @@
     "radical": "人",
     "level": 2,
     "frequency": 4653,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ nhân (người), ghi nhớ cụm 「从小」 (cóng xiǎo) = từ nhỏ, từ thủa bé.",
     "examples": [
       {
         "hanzi": "好习惯是从小养成的。",
@@ -4263,7 +4578,7 @@
     "radical": "爫",
     "level": 2,
     "frequency": 4902,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 爫, ghi nhớ cụm 「爱好」 (ài hào) = sở thích, yêu thích.",
     "examples": [
       {
         "hanzi": "你的爱好是什么？",
@@ -4282,7 +4597,7 @@
     "radical": "夕",
     "level": 2,
     "frequency": 4950,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 夕, ghi nhớ cụm 「多云」 (duō yún) = có mây, trời nhiều mây.",
     "examples": [
       {
         "hanzi": "今天的天气是多云转晴。",
@@ -4301,7 +4616,7 @@
     "radical": "忄",
     "level": 2,
     "frequency": 5135,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ tâm đứng (cảm xúc / suy nghĩ), ghi nhớ cụm 「快要」 (kuài yào) = sắp, gần đến.",
     "examples": [
       {
         "hanzi": "天快要下雨了。",
@@ -4320,7 +4635,7 @@
     "radical": "门",
     "level": 2,
     "frequency": 5140,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ môn (cánh cửa), ghi nhớ cụm 「门票」 (mén piào) = vé cửa, vé vào cổng.",
     "examples": [
       {
         "hanzi": "这场秀棒极了，但是门票太贵了。",
@@ -4339,7 +4654,7 @@
     "radical": "木",
     "level": 2,
     "frequency": 5209,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ mộc (cây gỗ), ghi nhớ cụm 「机票」 (jī piào) = vé máy bay.",
     "examples": [
       {
         "hanzi": "你们学校真好，还帮你们报销来回的机票。",
@@ -4358,7 +4673,7 @@
     "radical": "走",
     "level": 2,
     "frequency": 5277,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ tẩu (bước đi), ghi nhớ cụm 「走过」 (zǒu guò) = đi qua, bước qua.",
     "examples": [
       {
         "hanzi": "在企业整顿中，要坚持高标准，严要求，防止走过场。",
@@ -4377,7 +4692,7 @@
     "radical": "彳",
     "level": 2,
     "frequency": 5401,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 彳, ghi nhớ cụm 「得出」 (dé chū) = rút ra, thu được.",
     "examples": [
       {
         "hanzi": "很有可能去掉C元素会得出同样的结果。",
@@ -4396,7 +4711,7 @@
     "radical": "大",
     "level": 2,
     "frequency": 5490,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ đại (to lớn), ghi nhớ cụm 「大海」 (dà hǎi) = biển lớn, đại dương.",
     "examples": [
       {
         "hanzi": "我很喜欢看着一望无际的大海。",
@@ -4415,7 +4730,7 @@
     "radical": "辶",
     "level": 2,
     "frequency": 5552,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ xước (con đường / di chuyển), ghi nhớ cụm 「这时候」 (zhè shíhòu) = lúc này, khi đó.",
     "examples": [
       {
         "hanzi": "这时候你千万不要冲动。",
@@ -4434,7 +4749,7 @@
     "radical": "土",
     "level": 2,
     "frequency": 5700,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ thổ (đất đai), ghi nhớ cụm 「坏人」 (huài rén) = kẻ xấu, người xấu.",
     "examples": [
       {
         "hanzi": "分辨一个人是好人还是坏人不能仅凭外表。",
@@ -4453,7 +4768,7 @@
     "radical": "手",
     "level": 2,
     "frequency": 6179,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ thủ (bàn tay), ghi nhớ cụm 「手表」 (shǒu biǎo) = đồng hồ đeo tay.",
     "examples": [
       {
         "hanzi": "我叔叔给了我一块漂亮的手表。",
@@ -4472,7 +4787,7 @@
     "radical": "夕",
     "level": 2,
     "frequency": 6459,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 夕, ghi nhớ cụm 「夜里」 (yè li) = ban đêm, trong đêm.",
     "examples": [
       {
         "hanzi": "猫在夜里看得更清楚。",
@@ -4491,7 +4806,7 @@
     "radical": "音",
     "level": 2,
     "frequency": 6465,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 音, ghi nhớ cụm 「音乐会」 (yīn yuè huì) = buổi hòa nhạc.",
     "examples": [
       {
         "hanzi": "音乐会上有很多人。",
@@ -4510,7 +4825,7 @@
     "radical": "扌",
     "level": 2,
     "frequency": 6479,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ tài gẩy (hành động bằng tay), ghi nhớ cụm 「找出」 (zhǎo chū) = tìm ra, tìm kiếm.",
     "examples": [
       {
         "hanzi": "你帮我找出那本汉语书吧。",
@@ -4529,7 +4844,7 @@
     "radical": "丶",
     "level": 2,
     "frequency": 6801,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 丶, ghi nhớ cụm 「举手」 (jǔ shǒu) = giơ tay.",
     "examples": [
       {
         "hanzi": "如果你知道答案就请举手。",
@@ -4548,7 +4863,7 @@
     "radical": "凵",
     "level": 2,
     "frequency": 6997,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 凵, ghi nhớ cụm 「出国」 (chū guó) = xuất ngoại, đi nước ngoài.",
     "examples": [
       {
         "hanzi": "她半年后就要出国了。",
@@ -4567,7 +4882,7 @@
     "radical": "一",
     "level": 2,
     "frequency": 7185,
-    "mnemonic": "",
+    "mnemonic": "Gắn với nét nhất căn bản, ghi nhớ cụm 「下雪」 (xià xuě) = tuyết rơi.",
     "examples": [
       {
         "hanzi": "我想知道这个冬天在我们的城市会不会下雪。",
@@ -4586,7 +4901,7 @@
     "radical": "艹",
     "level": 2,
     "frequency": 7197,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ thảo (cây cỏ / thực vật), ghi nhớ cụm 「英文」 (Yīng wén) = tiếng Anh.",
     "examples": [
       {
         "hanzi": "我的英文很差。",
@@ -4605,7 +4920,7 @@
     "radical": "足",
     "level": 2,
     "frequency": 7199,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ túc (bàn chân / di chuyển), ghi nhớ cụm 「跑步」 (pǎo bù) = chạy bộ.",
     "examples": [
       {
         "hanzi": "她每天跑步，身体很好。",
@@ -4624,7 +4939,7 @@
     "radical": "马",
     "level": 2,
     "frequency": 7235,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ mã (con ngựa), ghi nhớ cụm 「骑车」 (qí chē) = đi xe đạp, lái xe máy.",
     "examples": [
       {
         "hanzi": "除了雨天，我都是骑车去上班的。",
@@ -4643,7 +4958,7 @@
     "radical": "氵",
     "level": 2,
     "frequency": 7277,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ chấm thủy (nước), ghi nhớ cụm 「海边」 (hǎi biān) = bờ biển.",
     "examples": [
       {
         "hanzi": "他喜欢偶尔去海边。",
@@ -4662,7 +4977,7 @@
     "radical": "老",
     "level": 2,
     "frequency": 7500,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 老, ghi nhớ cụm 「老朋友」 (lǎo péng you) = bạn cũ, bạn lâu năm.",
     "examples": [
       {
         "hanzi": "很幸运地，我在机场遇到了我的老朋友。",
@@ -4681,7 +4996,7 @@
     "radical": "走",
     "level": 2,
     "frequency": 7742,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ tẩu (bước đi), ghi nhớ cụm 「走开」 (zǒu kāi) = tránh ra, đi ra chỗ khác.",
     "examples": [
       {
         "hanzi": "我们走开的时候，房子被盗窃了。",
@@ -4700,7 +5015,7 @@
     "radical": "小",
     "level": 2,
     "frequency": 7958,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ tiểu (nhỏ bé), ghi nhớ cụm 「小声」 (xiǎo shēng) = nói nhỏ, thì thầm.",
     "examples": [
       {
         "hanzi": "在图书馆里说话要小声一点。",
@@ -4719,7 +5034,7 @@
     "radical": "辶",
     "level": 2,
     "frequency": 8114,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ xước (con đường / di chuyển), ghi nhớ cụm 「送到」 (sòng dào) = giao đến, gửi đến.",
     "examples": [
       {
         "hanzi": "别着急，你要的电影票我给你按时送到就是了。",
@@ -4738,7 +5053,7 @@
     "radical": "艹",
     "level": 2,
     "frequency": 9052,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ thảo (cây cỏ / thực vật), ghi nhớ cụm 「药店」 (yào diàn) = tiệm thuốc, hiệu thuốc.",
     "examples": [
       {
         "hanzi": "前面不远处就有一家药店。",
@@ -4757,7 +5072,7 @@
     "radical": "囗",
     "level": 2,
     "frequency": 9098,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 囗, ghi nhớ cụm 「回国」 (huí guó) = về nước.",
     "examples": [
       {
         "hanzi": "他毕业后决定马上回国发展。",
@@ -4776,7 +5091,7 @@
     "radical": "日",
     "level": 2,
     "frequency": 9343,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ nhật (mặt trời / thời gian), ghi nhớ cụm 「晴」 (qíng) = trời quang, trời nắng.",
     "examples": [
       {
         "hanzi": "晴朗的天气增加了野营的乐趣。",
@@ -4795,7 +5110,7 @@
     "radical": "王",
     "level": 2,
     "frequency": 9622,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ ngọc (viên ngọc quý), ghi nhớ cụm 「班长」 (bān zhǎng) = lớp trưởng.",
     "examples": [
       {
         "hanzi": "我们班长是一个很热心的人。",
@@ -4814,7 +5129,7 @@
     "radical": "氵",
     "level": 2,
     "frequency": 9674,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ chấm thủy (nước), ghi nhớ cụm 「洗手间」 (xǐ shǒu jiān) = nhà vệ sinh, phòng tắm.",
     "examples": [
       {
         "hanzi": "洗手间在哪里？",
@@ -4833,7 +5148,7 @@
     "radical": "日",
     "level": 2,
     "frequency": 9879,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ nhật (mặt trời / thời gian), ghi nhớ cụm 「日报」 (rì bào) = báo ngày, nhật báo.",
     "examples": [
       {
         "hanzi": "爷爷每天早上都会看本地日报。",
@@ -4852,7 +5167,7 @@
     "radical": "廾",
     "level": 2,
     "frequency": 10160,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 廾, ghi nhớ cụm 「开学」 (kāi xué) = khai giảng, nhập học.",
     "examples": [
       {
         "hanzi": "还有一周我们就要开学了。",
@@ -4871,7 +5186,7 @@
     "radical": "走",
     "level": 2,
     "frequency": 10163,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ tẩu (bước đi), ghi nhớ cụm 「走进」 (zǒu jìn) = đi vào, bước vào.",
     "examples": [
       {
         "hanzi": "我们走进教室。",
@@ -4890,7 +5205,7 @@
     "radical": "亻",
     "level": 2,
     "frequency": 10575,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ nhân đứng (người), ghi nhớ cụm 「体育场」 (tǐ yù chǎng) = sân vận động.",
     "examples": [
       {
         "hanzi": "体育场挤满了棒球迷。",
@@ -4909,7 +5224,7 @@
     "radical": "纟",
     "level": 2,
     "frequency": 10622,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ mịch (sợi tơ / kết nối), ghi nhớ cụm 「组长」 (zǔ zhǎng) = tổ trưởng.",
     "examples": [
       {
         "hanzi": "迈克是组长。",
@@ -4928,7 +5243,7 @@
     "radical": "丨",
     "level": 2,
     "frequency": 10888,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 丨, ghi nhớ cụm 「个子」 (gè zi) = vóc dáng, chiều cao.",
     "examples": [
       {
         "hanzi": "弟弟现在的个子长得真高。",
@@ -4947,7 +5262,7 @@
     "radical": "土",
     "level": 2,
     "frequency": 11176,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ thổ (đất đai), ghi nhớ cụm 「地铁站」 (dì tiě zhàn) = ga tàu điện ngầm.",
     "examples": [
       {
         "hanzi": "从这里走到地铁站要十分钟。",
@@ -4966,7 +5281,7 @@
     "radical": "氵",
     "level": 2,
     "frequency": 11321,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ chấm thủy (nước), ghi nhớ cụm 「没意思」 (méi yì si) = nhàm chán, vô vị.",
     "examples": [
       {
         "hanzi": "这本书太枯燥了，真没意思。",
@@ -4985,7 +5300,7 @@
     "radical": "立",
     "level": 2,
     "frequency": 11455,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 立, ghi nhớ cụm 「站住」 (zhàn zhù) = đứng lại, dừng lại.",
     "examples": [
       {
         "hanzi": "前面很危险，请你马上站住。",
@@ -5004,7 +5319,7 @@
     "radical": "丨",
     "level": 2,
     "frequency": 11861,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 丨, ghi nhớ cụm 「书包」 (shū bāo) = cặp sách, ba lô.",
     "examples": [
       {
         "hanzi": "小明的书包里装满了各种书。",
@@ -5023,7 +5338,7 @@
     "radical": "木",
     "level": 2,
     "frequency": 12849,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ mộc (cây gỗ), ghi nhớ cụm 「本子」 (běn zi) = vở, sổ tay, doujinshi.",
     "examples": [
       {
         "hanzi": "请把你的名字写在这个本子上。",
@@ -5042,7 +5357,7 @@
     "radical": "八",
     "level": 2,
     "frequency": 13591,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 八, ghi nhớ cụm 「公共汽车」 (gōng gòng qì chē) = xe buýt.",
     "examples": [
       {
         "hanzi": "赶快点，否则要错过公共汽车了。",
@@ -5061,7 +5376,7 @@
     "radical": "辶",
     "level": 2,
     "frequency": 14490,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ xước (con đường / di chuyển), ghi nhớ cụm 「过年」 (guò nián) = ăn Tết, đón năm mới.",
     "examples": [
       {
         "hanzi": "你们打算怎么准备过年呢？",
@@ -5080,7 +5395,7 @@
     "radical": "手",
     "level": 2,
     "frequency": 14568,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ thủ (bàn tay), ghi nhớ cụm 「拿出」 (ná chū) = lấy ra, đưa ra.",
     "examples": [
       {
         "hanzi": "他买了一把特别大的屠刀，拿出来不停地磨呀抢呀。",
@@ -5099,13 +5414,13 @@
     "radical": "日",
     "level": 2,
     "frequency": 14859,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ nhật (mặt trời / thời gian), ghi nhớ cụm 「晴天」 (qíng tiān) = ngày nắng, trời quang.",
     "examples": [
       {
-        "hanzi": "而在晴天的時候鴿子們都飛回家了。",
+        "hanzi": "而在晴天的时候鴿子们都飞回家了。",
         "pinyin": "ér zài qíng tiān de shí hòu gē zi men dōu fēi huí jiā le 。",
         "vi": "Và vào những ngày nắng, lũ bồ câu đều bay về nhà.",
-        "audio": "audio/teacher-273d52dca137.mp3"
+        "audio": "audio/teacher-433b7c7a07d2.mp3"
       }
     ],
     "audio": "audio/teacher-9811d2cc31f4.mp3"
@@ -5118,7 +5433,7 @@
     "radical": "入",
     "level": 2,
     "frequency": 15123,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 入, ghi nhớ cụm 「全年」 (quán nián) = cả năm, toàn năm.",
     "examples": [
       {
         "hanzi": "这座山全年覆盖着雪。",
@@ -5137,13 +5452,13 @@
     "radical": "爪",
     "level": 2,
     "frequency": 15470,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 爪, ghi nhớ cụm 「爬山」 (pá shān) = leo núi, đi leo núi.",
     "examples": [
       {
-        "hanzi": "天氣差的時候去爬山是很危險的。",
+        "hanzi": "天气差的时候去爬山是很危險的。",
         "pinyin": "tiān qì chà de shí hòu qù pá shān shì hěn wēi xiǎn de 。",
         "vi": "Đi leo núi lúc thời tiết xấu rất nguy hiểm.",
-        "audio": "audio/teacher-20f6db9953f4.mp3"
+        "audio": "audio/teacher-d8acdff71234.mp3"
       }
     ],
     "audio": "audio/teacher-11544c8e52e8.mp3"
@@ -5156,7 +5471,7 @@
     "radical": "阝",
     "level": 2,
     "frequency": 15502,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 阝, ghi nhớ cụm 「那会儿」 (nà huì r) = lúc đó, khi ấy.",
     "examples": [
       {
         "hanzi": "我那会儿正在图书馆复习呢。",
@@ -5175,7 +5490,7 @@
     "radical": "纟",
     "level": 2,
     "frequency": 15567,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ mịch (sợi tơ / kết nối), ghi nhớ cụm 「绿茶」 (lǜ chá) = trà xanh, trà xanh (thảo mai).",
     "examples": [
       {
         "hanzi": "我不喜欢绿茶。",
@@ -5194,7 +5509,7 @@
     "radical": "扌",
     "level": 2,
     "frequency": 15698,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ tài gẩy (hành động bằng tay), ghi nhớ cụm 「打车」 (dǎ chē) = bắt taxi, đi taxi.",
     "examples": [
       {
         "hanzi": "时间有点紧，我们快去打车吧。",
@@ -5213,7 +5528,7 @@
     "radical": "饣",
     "level": 2,
     "frequency": 16449,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ thực (ăn uống), ghi nhớ cụm 「饭馆」 (fàn guǎn) = quán ăn, nhà hàng.",
     "examples": [
       {
         "hanzi": "这家饭馆的咖哩挺好。",
@@ -5232,7 +5547,7 @@
     "radical": "王",
     "level": 2,
     "frequency": 17153,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ ngọc (viên ngọc quý), ghi nhớ cụm 「球鞋」 (qiú xié) = giày thể thao.",
     "examples": [
       {
         "hanzi": "这双新球鞋穿着非常舒服。",
@@ -5251,13 +5566,13 @@
     "radical": "亠",
     "level": 2,
     "frequency": 17456,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 亠, ghi nhớ cụm 「交朋友」 (jiāo péng you) = kết bạn, làm quen.",
     "examples": [
       {
-        "hanzi": "交朋友很容易, 但擺脫他們很難。",
+        "hanzi": "交朋友很容易, 但摆脱他们很难。",
         "pinyin": "jiāo péng yǒu hěn róng yì ,  dàn bǎi tuō tā men hěn nán 。",
         "vi": "Kết bạn thì dễ, nhưng cắt đứt thì khó.",
-        "audio": "audio/teacher-63c6d28224a7.mp3"
+        "audio": "audio/teacher-35451e30aa99.mp3"
       }
     ],
     "audio": "audio/teacher-af7dd9f5864a.mp3"
@@ -5270,7 +5585,7 @@
     "radical": "日",
     "level": 2,
     "frequency": 17540,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ nhật (mặt trời / thời gian), ghi nhớ cụm 「晚报」 (wǎn bào) = báo chiều, vãn báo.",
     "examples": [
       {
         "hanzi": "爸爸习惯在吃晚饭时看晚报。",
@@ -5289,7 +5604,7 @@
     "radical": "艹",
     "level": 2,
     "frequency": 17705,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ thảo (cây cỏ / thực vật), ghi nhớ cụm 「药水」 (yào shuǐ) = thuốc nước, dung dịch thuốc.",
     "examples": [
       {
         "hanzi": "医生开的药水一天喝三次。",
@@ -5308,7 +5623,7 @@
     "radical": "女",
     "level": 2,
     "frequency": 18271,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ nữ (phụ nữ), ghi nhớ cụm 「女孩儿」 (nǚ hái r) = con gái, cô gái.",
     "examples": [
       {
         "hanzi": "那个女孩儿笑起来真好看。",
@@ -5327,7 +5642,7 @@
     "radical": "门",
     "level": 2,
     "frequency": 19022,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ môn (cánh cửa), ghi nhớ cụm 「问路」 (wèn lù) = hỏi đường.",
     "examples": [
       {
         "hanzi": "他在路边停下来向路人问路。",
@@ -5346,7 +5661,7 @@
     "radical": "十",
     "level": 2,
     "frequency": 19822,
-    "mnemonic": "",
+    "mnemonic": "Gắn với nét thập, ghi nhớ cụm 「午睡」 (wǔ shuì) = ngủ trưa.",
     "examples": [
       {
         "hanzi": "养成午睡的习惯对身体很好。",
@@ -5365,7 +5680,7 @@
     "radical": "艹",
     "level": 2,
     "frequency": 19934,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ thảo (cây cỏ / thực vật), ghi nhớ cụm 「药片」 (yào piàn) = thuốc viên.",
     "examples": [
       {
         "hanzi": "医生给了她一些止疼药片。",
@@ -5384,7 +5699,7 @@
     "radical": "一",
     "level": 2,
     "frequency": 20631,
-    "mnemonic": "",
+    "mnemonic": "Gắn với nét nhất căn bản, ghi nhớ cụm 「一点点」 (yī diǎn diǎn) = một chút, một tí.",
     "examples": [
       {
         "hanzi": "这件事情我只知道一点点。",
@@ -5403,7 +5718,7 @@
     "radical": "阝",
     "level": 2,
     "frequency": 25274,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 阝, ghi nhớ cụm 「阴天」 (yīn tiān) = trời âm u, trời nhiều mây.",
     "examples": [
       {
         "hanzi": "今天是个阴天。",
@@ -5422,7 +5737,7 @@
     "radical": "西",
     "level": 2,
     "frequency": 25471,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 西, ghi nhớ cụm 「西医」 (xī yī) = tây y, bác sĩ tây y.",
     "examples": [
       {
         "hanzi": "感冒发烧时我通常去看西医。",
@@ -5441,7 +5756,7 @@
     "radical": "小",
     "level": 2,
     "frequency": 25607,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ tiểu (nhỏ bé), ghi nhớ cụm 「小孩儿」 (xiǎo hái r) = đứa trẻ, trẻ con.",
     "examples": [
       {
         "hanzi": "那个小孩儿在公园里跑步。",
@@ -5460,7 +5775,7 @@
     "radical": "口",
     "level": 2,
     "frequency": 26538,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ khẩu (miệng / lời nói), ghi nhớ cụm 「听讲」 (tīng jiǎng) = nghe giảng.",
     "examples": [
       {
         "hanzi": "上课的时候要认真听讲。",
@@ -5479,7 +5794,7 @@
     "radical": "丨",
     "level": 2,
     "frequency": 29379,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 丨, ghi nhớ cụm 「中小学」 (zhōng xiǎo xué) = trung tiểu học, cấp 1 cấp 2 cấp 3.",
     "examples": [
       {
         "hanzi": "他在附近的中小学读书。",
@@ -5498,7 +5813,7 @@
     "radical": "一",
     "level": 2,
     "frequency": 32899,
-    "mnemonic": "",
+    "mnemonic": "Gắn với nét nhất căn bản, ghi nhớ cụm 「一路平安」 (yī lù píng ān) = thượng lộ bình an, đi đường bình an.",
     "examples": [
       {
         "hanzi": "祝你一路平安，到达后发消息。",
@@ -5517,7 +5832,7 @@
     "radical": "一",
     "level": 2,
     "frequency": 35153,
-    "mnemonic": "",
+    "mnemonic": "Gắn với nét nhất căn bản, ghi nhớ cụm 「不一会儿」 (bù yīhuǐr5) = chẳng mấy chốc, một lát sau.",
     "examples": [
       {
         "hanzi": "不一会儿，雨就停了。",
@@ -5536,7 +5851,7 @@
     "radical": "一",
     "level": 2,
     "frequency": 58429,
-    "mnemonic": "",
+    "mnemonic": "Gắn với nét nhất căn bản, ghi nhớ cụm 「不太」 (bù tài) = không lắm, không quá.",
     "examples": [
       {
         "hanzi": "我不太明白他说什么。",
@@ -5555,7 +5870,7 @@
     "radical": "生",
     "level": 2,
     "frequency": 61776,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 生, ghi nhớ cụm 「生词」 (shēng cí) = từ mới.",
     "examples": [
       {
         "hanzi": "这篇文章有很多生词。",
@@ -5574,7 +5889,7 @@
     "radical": "田",
     "level": 2,
     "frequency": 69994,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ điền (ruộng / khung), ghi nhớ cụm 「画儿」 (huà r) = bức tranh, bức họa.",
     "examples": [
       {
         "hanzi": "我不喜欢那幅画儿。",
@@ -5593,7 +5908,7 @@
     "radical": "八",
     "level": 2,
     "frequency": 1000000,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 八, ghi nhớ cụm 「公交车」 (gōng jiāo chē) = xe buýt.",
     "examples": [
       {
         "hanzi": "乘公交车费时。",
@@ -5612,7 +5927,7 @@
     "radical": "见",
     "level": 2,
     "frequency": 1000000,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ kiến (nhìn thấy), ghi nhớ cụm 「见过」 (jiànguò) = đã từng thấy, từng gặp.",
     "examples": [
       {
         "hanzi": "这是我见过最美的景色了。",
@@ -5631,7 +5946,7 @@
     "radical": "忄",
     "level": 2,
     "frequency": 1000000,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ tâm đứng (cảm xúc / suy nghĩ), ghi nhớ cụm 「快点儿」 (kuài diǎn r) = nhanh lên.",
     "examples": [
       {
         "hanzi": "快点儿，我们要迟到了。",
@@ -5650,7 +5965,7 @@
     "radical": "阝",
     "level": 2,
     "frequency": 1000000,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ 阝, ghi nhớ cụm 「那时候」 (nà shí hou) = lúc đó, thời gian đó.",
     "examples": [
       {
         "hanzi": "那时候我还是一名学生。",
@@ -5669,7 +5984,7 @@
     "radical": "田",
     "level": 2,
     "frequency": 1000000,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ điền (ruộng / khung), ghi nhớ cụm 「男孩儿」 (nán hái r) = con trai, cậu con trai.",
     "examples": [
       {
         "hanzi": "那个男孩儿很喜欢踢足球。",
@@ -5688,7 +6003,7 @@
     "radical": "扌",
     "level": 2,
     "frequency": 1000000,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ tài gẩy (hành động bằng tay), ghi nhớ cụm 「挺好」 (tǐng hǎo) = khá tốt, rất tốt.",
     "examples": [
       {
         "hanzi": "这家饭馆的咖哩挺好。",
@@ -5707,7 +6022,7 @@
     "radical": "一",
     "level": 2,
     "frequency": 1000000,
-    "mnemonic": "",
+    "mnemonic": "Gắn với nét nhất căn bản, ghi nhớ cụm 「下周」 (xià zhōu) = tuần sau, tuần tới.",
     "examples": [
       {
         "hanzi": "下周我去温哥华看我妹妹。",
@@ -5726,7 +6041,7 @@
     "radical": "⺮",
     "level": 2,
     "frequency": 1000000,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ ⺮, ghi nhớ cụm 「笑话儿」 (xiàohuar5) = trò cười, chuyện cười.",
     "examples": [
       {
         "hanzi": "他讲了一个很好笑的笑话儿。",
@@ -5745,7 +6060,7 @@
     "radical": "月",
     "level": 2,
     "frequency": 1000000,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ nguyệt (mặt trăng / cơ thể), ghi nhớ cụm 「有空儿」 (yǒukòngr5) = rảnh rỗi, có thời gian rảnh.",
     "examples": [
       {
         "hanzi": "你周末有空儿一起喝咖啡吗？",
@@ -5764,7 +6079,7 @@
     "radical": "月",
     "level": 2,
     "frequency": 1000000,
-    "mnemonic": "",
+    "mnemonic": "Gắn với bộ nguyệt (mặt trăng / cơ thể), ghi nhớ cụm 「有一点儿」 (yǒu yī diǎn r) = hơi, một chút.",
     "examples": [
       {
         "hanzi": "今天的天气有一点儿冷。",
@@ -5780,37 +6095,811 @@
     "hanzi": "网购",
     "pinyin": "wǎng gòu",
     "meaningVi": "mua sắm online",
-    "radical": "糸",
+    "radical": "冂",
     "level": 2,
     "frequency": 9999,
-    "mnemonic": "",
+    "mnemonic": "Mua sắm (购 có bộ bối 贝 = tiền bạc) ngay trên mạng (网)!",
     "examples": [
       {
-        "hanzi": "我最近很喜欢在网上网购。",
-        "pinyin": "wǒ zuì jìn hěn xǐ huān zài wǎng shàng wǎng gòu 。",
-        "vi": "Dạo này mình rất thích mua sắm online trên mạng.",
-        "audio": "audio/teacher-cb2c8e470e19.mp3"
+        "hanzi": "现在年轻人很喜欢网购。",
+        "pinyin": "xiàn zài nián qīng rén hěn xǐ huan wǎng gòu.",
+        "vi": "Giới trẻ hiện nay rất thích mua sắm online.",
+        "audio": "audio/teacher-382d4873b382.mp3"
+      },
+      {
+        "hanzi": "我在网上买了一盏新台灯。",
+        "pinyin": "wǒ zài wǎng shàng mǎi le yì zhǎn xīn tái dēng.",
+        "vi": "Mình mua một chiếc đèn bàn mới trên mạng.",
+        "audio": "audio/teacher-c54973f592f6.mp3"
       }
     ],
-    "audio": "audio/teacher-634ba51c19a8.mp3"
+    "audio": "audio/teacher-634ba51c19a8.mp3",
+    "literalVi": "网 (mạng) + 购 (mua sắm)",
+    "usageNoteVi": "Không cần thêm 在网上 trước 网购 vì bản thân 网 đã là 'trên mạng'.",
+    "partOfSpeech": "Động từ"
   },
   {
     "id": "w2-306",
     "hanzi": "快递",
     "pinyin": "kuài dì",
-    "meaningVi": "chuyển phát nhanh, shipper",
-    "radical": "心",
+    "meaningVi": "chuyển phát nhanh, đơn hàng / shipper",
+    "radical": "忄",
     "level": 2,
     "frequency": 9999,
-    "mnemonic": "",
+    "mnemonic": "Chuyển giao (递) siêu nhanh (快) = chuyển phát nhanh!",
     "examples": [
       {
-        "hanzi": "我的快递今天下午能送到。",
-        "pinyin": "wǒ de kuài dì jīn tiān xià wǔ néng sòng dào 。",
-        "vi": "Đồ chuyển phát nhanh của mình chiều nay sẽ được giao.",
-        "audio": "audio/teacher-c7972e1c75a4.mp3"
+        "hanzi": "你好，你的快递到了！",
+        "pinyin": "nǐ hǎo, nǐ de kuài dì dào le!",
+        "vi": "Xin chào, đơn hàng của bạn tới rồi!",
+        "audio": "audio/teacher-d1fcc6b41e59.mp3"
+      },
+      {
+        "hanzi": "我去楼下拿快递。",
+        "pinyin": "wǒ qù lóu xià ná kuài dì.",
+        "vi": "Mình xuống dưới lầu lấy hàng ship.",
+        "audio": "audio/teacher-c172251c3b9d.mp3"
       }
     ],
-    "audio": "audio/teacher-9ee77fc5d53c.mp3"
+    "audio": "audio/teacher-9ee77fc5d53c.mp3",
+    "literalVi": "快 (nhanh) + 递 (chuyển giao)",
+    "usageNoteVi": "拿快递 (lấy hàng ship), 快递员 (nhân viên giao hàng).",
+    "partOfSpeech": "Danh từ"
+  },
+  {
+    "id": "w2-c001",
+    "hanzi": "喜欢",
+    "level": 2,
+    "frequency": 502,
+    "pinyin": "xǐ huan",
+    "meaningVi": "thích, yêu thích",
+    "radical": "口",
+    "mnemonic": "Vui mừng (喜) và hân hoan (欢) khi làm điều mình thích!",
+    "literalVi": "喜 (vui mừng) + 欢 (hân hoan)",
+    "usageNoteVi": "Chữ 欢 đọc thanh nhẹ (xǐ huan). Phủ định: 不喜欢.",
+    "partOfSpeech": "Động từ",
+    "examples": [
+      {
+        "hanzi": "我最喜欢听音乐。",
+        "pinyin": "wǒ zuì xǐ huan tīng yīn yuè.",
+        "vi": "Mình thích nhất là nghe nhạc.",
+        "audio": "audio/teacher-7164cdf115a8.mp3"
+      },
+      {
+        "hanzi": "Bao很喜欢喝奶茶。",
+        "pinyin": "Bao hěn xǐ huan hē nǎi chá.",
+        "vi": "Bao rất thích uống trà sữa.",
+        "audio": "audio/teacher-f0419f3fe29c.mp3"
+      }
+    ],
+    "audio": "audio/teacher-36caa077a121.mp3"
+  },
+  {
+    "id": "w2-c002",
+    "hanzi": "画画",
+    "level": 2,
+    "frequency": 503,
+    "pinyin": "huà huà",
+    "meaningVi": "vẽ tranh",
+    "radical": "田",
+    "mnemonic": "Chữ 画 giống khung tranh có ô nhỏ (田) ở giữa!",
+    "literalVi": "画 (vẽ) + 画 (bức tranh)",
+    "usageNoteVi": "会画画 (biết vẽ tranh), 画得很好 (vẽ rất đẹp).",
+    "partOfSpeech": "Động từ",
+    "examples": [
+      {
+        "hanzi": "小玲会画画，画得很好看。",
+        "pinyin": "Xiǎo Líng huì huà huà, huà de hěn hǎo kàn.",
+        "vi": "Tiểu Linh biết vẽ tranh, vẽ rất đẹp.",
+        "audio": "audio/teacher-6e2df2fe1fe9.mp3"
+      },
+      {
+        "hanzi": "周末我在家画画。",
+        "pinyin": "zhōu mò wǒ zài jiā huà huà.",
+        "vi": "Cuối tuần mình ở nhà vẽ tranh.",
+        "audio": "audio/teacher-389c2419ea1a.mp3"
+      }
+    ],
+    "audio": "audio/teacher-138261f5dee1.mp3"
+  },
+  {
+    "id": "w2-c003",
+    "hanzi": "唱歌",
+    "level": 2,
+    "frequency": 504,
+    "pinyin": "chàng gē",
+    "meaningVi": "ca hát",
+    "radical": "口",
+    "mnemonic": "Mở miệng (口) ngân nga hai vầng mặt trời (昌) thành tiếng hát!",
+    "literalVi": "唱 (hát, bộ miệng 口) + 歌 (bài hát)",
+    "usageNoteVi": "去唱歌 = đi hát karaoke cùng bạn bè.",
+    "partOfSpeech": "Động từ",
+    "examples": [
+      {
+        "hanzi": "小明唱歌很好听！",
+        "pinyin": "Xiǎo Míng chàng gē hěn hǎo tīng!",
+        "vi": "Tiểu Minh hát hay lắm!",
+        "audio": "audio/teacher-e5fe97a58400.mp3"
+      },
+      {
+        "hanzi": "我们周末一起去唱歌吧。",
+        "pinyin": "wǒ men zhōu mò yì qǐ qù chàng gē ba.",
+        "vi": "Cuối tuần chúng mình cùng đi hát nhé.",
+        "audio": "audio/teacher-6c065ab8c9a8.mp3"
+      }
+    ],
+    "audio": "audio/teacher-c3c217065325.mp3"
+  },
+  {
+    "id": "w2-c004",
+    "hanzi": "散步",
+    "level": 2,
+    "frequency": 505,
+    "pinyin": "sàn bù",
+    "meaningVi": "đi dạo, tản bộ",
+    "radical": "攵",
+    "mnemonic": "Thư thả (散) từng bước chân (步) ngắm cảnh!",
+    "literalVi": "散 (thư thả) + 步 (bước chân)",
+    "usageNoteVi": "Hay dùng sau bữa tối: 晚饭后去散步.",
+    "partOfSpeech": "Động từ",
+    "examples": [
+      {
+        "hanzi": "晚上我喜欢去公园散步。",
+        "pinyin": "wǎn shang wǒ xǐ huan qù gōng yuán sàn bù.",
+        "vi": "Buổi tối mình thích ra công viên đi dạo.",
+        "audio": "audio/teacher-0c2080626ede.mp3"
+      },
+      {
+        "hanzi": "爸爸妈妈常常一起散步。",
+        "pinyin": "bà ba mā ma cháng cháng yì qǐ sàn bù.",
+        "vi": "Bố mẹ thường cùng nhau đi dạo.",
+        "audio": "audio/teacher-5b6f9cdc9500.mp3"
+      }
+    ],
+    "audio": "audio/teacher-412263f487f7.mp3"
+  },
+  {
+    "id": "w2-c005",
+    "hanzi": "天气",
+    "level": 2,
+    "frequency": 506,
+    "pinyin": "tiān qì",
+    "meaningVi": "thời tiết",
+    "radical": "大",
+    "mnemonic": "Khí trời (天 + 气) thay đổi mỗi ngày chính là thời tiết!",
+    "literalVi": "天 (bầu trời) + 气 (khí hậu)",
+    "usageNoteVi": "天气预报 (dự báo thời tiết).",
+    "partOfSpeech": "Danh từ",
+    "examples": [
+      {
+        "hanzi": "今天天气怎么样？",
+        "pinyin": "jīn tiān tiān qì zěn me yàng?",
+        "vi": "Thời tiết hôm nay thế nào?",
+        "audio": "audio/teacher-b3d81bdf9077.mp3"
+      },
+      {
+        "hanzi": "周末天气很好，不冷也不热。",
+        "pinyin": "zhōu mò tiān qì hěn hǎo, bù lěng yě bú rè.",
+        "vi": "Cuối tuần thời tiết rất đẹp, không lạnh cũng không nóng.",
+        "audio": "audio/teacher-b73383166e13.mp3"
+      }
+    ],
+    "audio": "audio/teacher-4985ea3e9bbc.mp3"
+  },
+  {
+    "id": "w2-c006",
+    "hanzi": "下雨",
+    "level": 2,
+    "frequency": 507,
+    "pinyin": "xià yǔ",
+    "meaningVi": "trời mưa",
+    "radical": "雨",
+    "mnemonic": "Chữ 雨 có 4 giọt nước rơi lách tách dưới khung cửa sổ!",
+    "literalVi": "下 (rơi xuống) + 雨 (giọt mưa rơi từ mây)",
+    "usageNoteVi": "正在下雨 (đang mưa), 下大雨 (mưa to), 下小雨 (mưa nhỏ).",
+    "partOfSpeech": "Động từ",
+    "examples": [
+      {
+        "hanzi": "外面正在下小雨。",
+        "pinyin": "wài miàn zhèng zài xià xiǎo yǔ.",
+        "vi": "Bên ngoài trời đang mưa nhỏ.",
+        "audio": "audio/teacher-be08a36b09cd.mp3"
+      },
+      {
+        "hanzi": "如果明天不下雨，我们就去公园。",
+        "pinyin": "rú guǒ míng tiān bú xià yǔ, wǒ men jiù qù gōng yuán.",
+        "vi": "Nếu ngày mai không mưa thì chúng mình đi công viên.",
+        "audio": "audio/teacher-3c60686810eb.mp3"
+      }
+    ],
+    "audio": "audio/teacher-b1e545d25ad3.mp3"
+  },
+  {
+    "id": "w2-c007",
+    "hanzi": "凉快",
+    "level": 2,
+    "frequency": 508,
+    "pinyin": "liáng kuai",
+    "meaningVi": "mát mẻ",
+    "radical": "冫",
+    "mnemonic": "Hơi mát (冫) làm người sảng khoái (快) = mát mẻ dễ chịu!",
+    "literalVi": "凉 (mát, bộ băng 冫) + 快 (sảng khoái)",
+    "usageNoteVi": "Chữ 快 đọc thanh nhẹ (liáng kuai).",
+    "partOfSpeech": "Tính từ",
+    "examples": [
+      {
+        "hanzi": "下雨以后天气很凉快。",
+        "pinyin": "xià yǔ yǐ hòu tiān qì hěn liáng kuai.",
+        "vi": "Sau cơn mưa thời tiết rất mát mẻ.",
+        "audio": "audio/teacher-86a9819e4395.mp3"
+      },
+      {
+        "hanzi": "秋天比夏天凉快得多。",
+        "pinyin": "qiū tiān bǐ xià tiān liáng kuai de duō.",
+        "vi": "Mùa thu mát hơn mùa hè nhiều.",
+        "audio": "audio/teacher-3907c711e186.mp3"
+      }
+    ],
+    "audio": "audio/teacher-803851a6e585.mp3"
+  },
+  {
+    "id": "w2-c008",
+    "hanzi": "课",
+    "level": 2,
+    "frequency": 509,
+    "pinyin": "kè",
+    "meaningVi": "tiết học, bài học",
+    "radical": "讠",
+    "mnemonic": "上课 (vào học), 下课 (tan học), 中文课 (lớp tiếng Trung).",
+    "literalVi": "Bộ ngôn (讠) + 果 (kết quả) — lời giảng mang lại tri thức",
+    "usageNoteVi": "Lượng từ cho tiết học là 节 (jié): 一节课.",
+    "partOfSpeech": "Danh từ",
+    "examples": [
+      {
+        "hanzi": "今天上午有中文课。",
+        "pinyin": "jīn tiān shàng wǔ yǒu Zhōng wén kè.",
+        "vi": "Sáng nay có tiết tiếng Trung.",
+        "audio": "audio/teacher-21df3e4012c7.mp3"
+      },
+      {
+        "hanzi": "八点上课，十点下课。",
+        "pinyin": "bā diǎn shàng kè, shí diǎn xià kè.",
+        "vi": "8 giờ vào học, 10 giờ tan học.",
+        "audio": "audio/teacher-eba4e686ebe4.mp3"
+      }
+    ],
+    "audio": "audio/teacher-6a975d08788f.mp3"
+  },
+  {
+    "id": "w2-c009",
+    "hanzi": "问题",
+    "level": 2,
+    "frequency": 510,
+    "pinyin": "wèn tí",
+    "meaningVi": "câu hỏi, vấn đề",
+    "radical": "口",
+    "mnemonic": "Hỏi (问) về một đề bài (题) chính là câu hỏi/vấn đề!",
+    "literalVi": "问 (cái miệng 口 trong cửa 门 = hỏi) + 题 (đề bài)",
+    "usageNoteVi": "没问题！(Méi wèntí! = Không vấn đề gì / OK luôn!).",
+    "partOfSpeech": "Danh từ",
+    "examples": [
+      {
+        "hanzi": "老师，我有一个问题！",
+        "pinyin": "lǎo shī, wǒ yǒu yí gè wèn tí!",
+        "vi": "Thưa cô, em có một câu hỏi ạ!",
+        "audio": "audio/teacher-b12016b59941.mp3"
+      },
+      {
+        "hanzi": "这个问题不太难。",
+        "pinyin": "zhè gè wèn tí bú tài nán.",
+        "vi": "Câu hỏi này không khó lắm.",
+        "audio": "audio/teacher-1d276c2d27bd.mp3"
+      }
+    ],
+    "audio": "audio/teacher-ae8dfe267339.mp3"
+  },
+  {
+    "id": "w2-c010",
+    "hanzi": "复习",
+    "level": 2,
+    "frequency": 511,
+    "pinyin": "fù xí",
+    "meaningVi": "ôn tập",
+    "radical": "夂",
+    "mnemonic": "Luyện tập (习) lặp đi lặp lại (复) giúp nhớ lâu mãi mãi!",
+    "literalVi": "复 (lặp lại) + 习 (luyện tập)",
+    "usageNoteVi": "复习生词 (ôn tập từ mới), 复习课文 (ôn bài khóa).",
+    "partOfSpeech": "Động từ",
+    "examples": [
+      {
+        "hanzi": "我每天晚上都复习中文。",
+        "pinyin": "wǒ měi tiān wǎn shang dōu fù xí Zhōng wén.",
+        "vi": "Tối nào mình cũng ôn tập tiếng Trung.",
+        "audio": "audio/teacher-c41680c92e50.mp3"
+      },
+      {
+        "hanzi": "我们一起复习吧！",
+        "pinyin": "wǒ men yì qǐ fù xí ba!",
+        "vi": "Chúng mình cùng ôn bài nhé!",
+        "audio": "audio/teacher-eaf433524c25.mp3"
+      }
+    ],
+    "audio": "audio/teacher-c10fd9ad4151.mp3"
+  },
+  {
+    "id": "w2-c011",
+    "hanzi": "工作",
+    "level": 2,
+    "frequency": 512,
+    "pinyin": "gōng zuò",
+    "meaningVi": "công việc, làm việc",
+    "radical": "工",
+    "mnemonic": "Vừa là danh từ ('công việc') vừa là động từ ('làm việc')!",
+    "literalVi": "工 (công trình) + 作 (làm)",
+    "usageNoteVi": "你在哪儿工作？(Bạn làm việc ở đâu?).",
+    "partOfSpeech": "Danh từ / Động từ",
+    "examples": [
+      {
+        "hanzi": "我很喜欢现在的工作。",
+        "pinyin": "wǒ hěn xǐ huan xiàn zài de gōng zuò.",
+        "vi": "Mình rất thích công việc hiện tại.",
+        "audio": "audio/teacher-6feb329fb8bb.mp3"
+      },
+      {
+        "hanzi": "哥哥在一家大公司工作。",
+        "pinyin": "gē ge zài yì jiā dà gōng sī gōng zuò.",
+        "vi": "Anh trai làm việc ở một công ty lớn.",
+        "audio": "audio/teacher-61b0c7d82384.mp3"
+      }
+    ],
+    "audio": "audio/teacher-c749c17ee227.mp3"
+  },
+  {
+    "id": "w2-c012",
+    "hanzi": "公司",
+    "level": 2,
+    "frequency": 513,
+    "pinyin": "gōng sī",
+    "meaningVi": "công ty",
+    "radical": "八",
+    "mnemonic": "Nơi mọi người cùng (公) quản lý điều hành công việc (司) = công ty!",
+    "literalVi": "公 (chung) + 司 (quản lý điều hành)",
+    "usageNoteVi": "Lượng từ cho công ty là 家 (jiā): 一家公司.",
+    "partOfSpeech": "Danh từ",
+    "examples": [
+      {
+        "hanzi": "我们公司离地铁站很近。",
+        "pinyin": "wǒ men gōng sī lí dì tiě zhàn hěn jìn.",
+        "vi": "Công ty mình rất gần ga tàu điện ngầm.",
+        "audio": "audio/teacher-3ce5bcaafc4f.mp3"
+      },
+      {
+        "hanzi": "今天九点到公司。",
+        "pinyin": "jīn tiān jiǔ diǎn dào gōng sī.",
+        "vi": "Hôm nay 9 giờ có mặt ở công ty.",
+        "audio": "audio/teacher-ec22f8abfc63.mp3"
+      }
+    ],
+    "audio": "audio/teacher-3f0dbf3e2a39.mp3"
+  },
+  {
+    "id": "w2-c013",
+    "hanzi": "忙",
+    "level": 2,
+    "frequency": 514,
+    "pinyin": "máng",
+    "meaningVi": "bận rộn",
+    "radical": "忄",
+    "mnemonic": "Bận đến mức tâm trí (忄) quay cuồng (亡) = 忙!",
+    "literalVi": "Trái tim (忄) như quên hết mọi thứ (亡) vì quá bận!",
+    "usageNoteVi": "最近忙吗？(Dạo này bận không?) — câu hỏi thăm rất tự nhiên.",
+    "partOfSpeech": "Tính từ",
+    "examples": [
+      {
+        "hanzi": "你最近工作忙吗？",
+        "pinyin": "nǐ zuì jìn gōng zuò máng ma?",
+        "vi": "Dạo này công việc của bạn có bận không?",
+        "audio": "audio/teacher-5d0a728a99fe.mp3"
+      },
+      {
+        "hanzi": "虽然有点儿忙，但是很充实。",
+        "pinyin": "suī rán yǒu diǎnr máng, dàn shì hěn chōng shí.",
+        "vi": "Tuy hơi bận chút nhưng rất ý nghĩa.",
+        "audio": "audio/teacher-e102c47aeef0.mp3"
+      }
+    ],
+    "audio": "audio/teacher-4edd3d69f84f.mp3"
+  },
+  {
+    "id": "w2-c014",
+    "hanzi": "完成",
+    "level": 2,
+    "frequency": 515,
+    "pinyin": "wán chéng",
+    "meaningVi": "hoàn thành, làm xong",
+    "radical": "宀",
+    "mnemonic": "Làm trọn vẹn (完) đến khi thành công (成)!",
+    "literalVi": "完 (xong xuôi) + 成 (thành công)",
+    "usageNoteVi": "完成任务 (hoàn thành nhiệm vụ), 完成工作 (hoàn thành công việc).",
+    "partOfSpeech": "Động từ",
+    "examples": [
+      {
+        "hanzi": "我已经完成了今天的工作。",
+        "pinyin": "wǒ yǐ jīng wán chéng le jīn tiān de gōng zuò.",
+        "vi": "Mình đã hoàn thành công việc hôm nay rồi.",
+        "audio": "audio/teacher-2673504c267d.mp3"
+      },
+      {
+        "hanzi": "谢谢同事帮我完成！",
+        "pinyin": "xiè xie tóng shì bāng wǒ wán chéng!",
+        "vi": "Cảm ơn đồng nghiệp đã giúp mình hoàn thành!",
+        "audio": "audio/teacher-78f8c4f37270.mp3"
+      }
+    ],
+    "audio": "audio/teacher-90b8693b159c.mp3"
+  },
+  {
+    "id": "w2-c015",
+    "hanzi": "老板",
+    "level": 2,
+    "frequency": 516,
+    "pinyin": "lǎo bǎn",
+    "meaningVi": "sếp, ông chủ / bà chủ",
+    "radical": "老",
+    "mnemonic": "Chủ quán trà sữa, chủ cửa hàng hay sếp công ty đều có thể gọi thân mật là 老板!",
+    "literalVi": "老 (kính trọng) + 板 (chủ tiệm/công ty)",
+    "usageNoteVi": "Rất hay dùng khi mua hàng ở tiệm nhỏ: 老板，这个多少钱？",
+    "partOfSpeech": "Danh từ",
+    "examples": [
+      {
+        "hanzi": "我们的老板很亲切。",
+        "pinyin": "wǒ men de lǎo bǎn hěn qīn qiè.",
+        "vi": "Sếp của chúng mình rất gần gũi.",
+        "audio": "audio/teacher-0fd72ad594f8.mp3"
+      },
+      {
+        "hanzi": "老板，这份工作我做完了！",
+        "pinyin": "lǎo bǎn, zhè fèn gōng zuò wǒ zuò wán le!",
+        "vi": "Sếp ơi, phần việc này em làm xong rồi ạ!",
+        "audio": "audio/teacher-e94501067264.mp3"
+      }
+    ],
+    "audio": "audio/teacher-03e3745def98.mp3"
+  },
+  {
+    "id": "w2-c016",
+    "hanzi": "感冒",
+    "level": 2,
+    "frequency": 517,
+    "pinyin": "gǎn mào",
+    "meaningVi": "bị cảm cúm",
+    "radical": "心",
+    "mnemonic": "Trời lạnh dầm mưa dễ bị cảm (感冒)!",
+    "literalVi": "感 (nhiễm) + 冒 (bốc lên)",
+    "usageNoteVi": "我感冒了 (Mình bị cảm rồi).",
+    "partOfSpeech": "Động từ",
+    "examples": [
+      {
+        "hanzi": "昨天淋雨了，今天有点儿感冒。",
+        "pinyin": "zuó tiān lín yǔ le, jīn tiān yǒu diǎnr gǎn mào.",
+        "vi": "Hôm qua bị dính mưa, hôm nay hơi cảm rồi.",
+        "audio": "audio/teacher-aac2a4864598.mp3"
+      },
+      {
+        "hanzi": "感冒了要多喝热水。",
+        "pinyin": "gǎn mào le yào duō hē rè shuǐ.",
+        "vi": "Bị cảm thì phải uống nhiều nước ấm.",
+        "audio": "audio/teacher-9dd1d5b96e5b.mp3"
+      }
+    ],
+    "audio": "audio/teacher-0de20819d568.mp3"
+  },
+  {
+    "id": "w2-c017",
+    "hanzi": "头疼",
+    "level": 2,
+    "frequency": 518,
+    "pinyin": "tóu téng",
+    "meaningVi": "đau đầu",
+    "radical": "疒",
+    "mnemonic": "Bộ 疒 bao ngoài chữ 冬 (đông) — lạnh quá là bị đau (疼)!",
+    "literalVi": "头 (đầu) + 疼 (đau, có bộ nạch 疒 chỉ bệnh tật!)",
+    "usageNoteVi": "Cũng nói 头痛 (tóu tòng).",
+    "partOfSpeech": "Động từ",
+    "examples": [
+      {
+        "hanzi": "我今天觉得有点儿头疼。",
+        "pinyin": "wǒ jīn tiān jué de yǒu diǎnr tóu téng.",
+        "vi": "Hôm nay mình thấy hơi đau đầu.",
+        "audio": "audio/teacher-3b087510e580.mp3"
+      },
+      {
+        "hanzi": "休息一会儿就不头疼了。",
+        "pinyin": "xiū xi yí huìr jiù bù tóu téng le.",
+        "vi": "Nghỉ một lát là hết đau đầu ngay.",
+        "audio": "audio/teacher-2b624da065da.mp3"
+      }
+    ],
+    "audio": "audio/teacher-6830e2f3ce3c.mp3"
+  },
+  {
+    "id": "w2-c018",
+    "hanzi": "发烧",
+    "level": 2,
+    "frequency": 519,
+    "pinyin": "fā shāo",
+    "meaningVi": "bị sốt",
+    "radical": "火",
+    "mnemonic": "Bộ lửa (火) bùng lên trong người là bị sốt (发烧)!",
+    "literalVi": "发 (phát ra) + 烧 (nóng rực, có bộ hỏa 火!)",
+    "usageNoteVi": "发高烧 = sốt cao.",
+    "partOfSpeech": "Động từ",
+    "examples": [
+      {
+        "hanzi": "医生说我发烧三十八度。",
+        "pinyin": "yī shēng shuō wǒ fā shāo sān shí bā dù.",
+        "vi": "Bác sĩ bảo mình sốt 38 độ.",
+        "audio": "audio/teacher-c04535373941.mp3"
+      },
+      {
+        "hanzi": "你发烧了吗？快去医院吧。",
+        "pinyin": "nǐ fā shāo le ma? kuài qù yī yuàn ba.",
+        "vi": "Bạn bị sốt rồi à? Mau đi bệnh viện đi.",
+        "audio": "audio/teacher-c1f33999c24d.mp3"
+      }
+    ],
+    "audio": "audio/teacher-b2d936b81edf.mp3"
+  },
+  {
+    "id": "w2-c019",
+    "hanzi": "医院",
+    "level": 2,
+    "frequency": 520,
+    "pinyin": "yī yuàn",
+    "meaningVi": "bệnh viện",
+    "radical": "匚",
+    "mnemonic": "Bác sĩ là 医生 (yī shēng), nơi bác sĩ làm việc là 医院 (yī yuàn)!",
+    "literalVi": "医 (y học) + 院 (khu viện)",
+    "usageNoteVi": "去医院看病 (đi bệnh viện khám bệnh).",
+    "partOfSpeech": "Danh từ",
+    "examples": [
+      {
+        "hanzi": "小玲陪Bao去医院看病。",
+        "pinyin": "Xiǎo Líng péi Bao qù yī yuàn kàn bìng.",
+        "vi": "Tiểu Linh đi cùng Bao tới bệnh viện khám bệnh.",
+        "audio": "audio/teacher-caad6bd084f5.mp3"
+      },
+      {
+        "hanzi": "附近有一家大医院。",
+        "pinyin": "fù jìn yǒu yì jiā dà yī yuàn.",
+        "vi": "Gần đây có một bệnh viện lớn.",
+        "audio": "audio/teacher-743adfa83383.mp3"
+      }
+    ],
+    "audio": "audio/teacher-2753c83390e4.mp3"
+  },
+  {
+    "id": "w2-c020",
+    "hanzi": "休息",
+    "level": 2,
+    "frequency": 521,
+    "pinyin": "xiū xi",
+    "meaningVi": "nghỉ ngơi",
+    "radical": "亻",
+    "mnemonic": "Hình ảnh tuyệt đẹp: một người (亻) ngồi tựa gốc cây (木) nghỉ mát = 休!",
+    "literalVi": "休 (người 亻 tựa lưng vào cây 木 để nghỉ!) + 息 (thở đều)",
+    "usageNoteVi": "好好休息！(Nghỉ ngơi thật tốt nhé!).",
+    "partOfSpeech": "Động từ",
+    "examples": [
+      {
+        "hanzi": "请你在家好好休息两天。",
+        "pinyin": "qǐng nǐ zài jiā hǎo hǎo xiū xi liǎng tiān.",
+        "vi": "Bạn cứ ở nhà nghỉ ngơi thật tốt hai ngày nhé.",
+        "audio": "audio/teacher-1fe1049f93be.mp3"
+      },
+      {
+        "hanzi": "我们休息十分钟再继续。",
+        "pinyin": "wǒ men xiū xi shí fēn zhōng zài jì xù.",
+        "vi": "Chúng mình nghỉ 10 phút rồi tiếp tục.",
+        "audio": "audio/teacher-9eafb7281c21.mp3"
+      }
+    ],
+    "audio": "audio/teacher-bdffb6458d92.mp3"
+  },
+  {
+    "id": "w2-c021",
+    "hanzi": "房子",
+    "level": 2,
+    "frequency": 522,
+    "pinyin": "fáng zi",
+    "meaningVi": "ngôi nhà, căn hộ",
+    "radical": "户",
+    "mnemonic": "租房子 (zū fáng zi) = thuê nhà!",
+    "literalVi": "房 (cánh cửa 户 che không gian 方) + 子",
+    "usageNoteVi": "Lượng từ cho căn hộ là 套 (tào): 一套房子.",
+    "partOfSpeech": "Danh từ",
+    "examples": [
+      {
+        "hanzi": "我想租一套离地铁近的房子。",
+        "pinyin": "wǒ xiǎng zū yí tào lí dì tiě jìn de fáng zi.",
+        "vi": "Mình muốn thuê một căn hộ gần tàu điện ngầm.",
+        "audio": "audio/teacher-214ac7d7f832.mp3"
+      },
+      {
+        "hanzi": "这套房子又干净又亮。",
+        "pinyin": "zhè tào fáng zi yòu gān jìng yòu liàng.",
+        "vi": "Căn nhà này vừa sạch vừa sáng.",
+        "audio": "audio/teacher-920cea0268bc.mp3"
+      }
+    ],
+    "audio": "audio/teacher-e3ef281c725f.mp3"
+  },
+  {
+    "id": "w2-c022",
+    "hanzi": "房间",
+    "level": 2,
+    "frequency": 523,
+    "pinyin": "fáng jiān",
+    "meaningVi": "căn phòng",
+    "radical": "户",
+    "mnemonic": "Một gian nhỏ (间) bên trong ngôi nhà (房) = căn phòng!",
+    "literalVi": "房 (nhà) + 间 (gian phòng)",
+    "usageNoteVi": "Lượng từ là 间 (jiān): 一间房间.",
+    "partOfSpeech": "Danh từ",
+    "examples": [
+      {
+        "hanzi": "我的房间很舒服。",
+        "pinyin": "wǒ de fáng jiān hěn shū fu.",
+        "vi": "Phòng của mình rất thoải mái.",
+        "audio": "audio/teacher-443c888671a4.mp3"
+      },
+      {
+        "hanzi": "房间里面有空调吗？",
+        "pinyin": "fáng jiān lǐ miàn yǒu kōng tiáo ma?",
+        "vi": "Bên trong phòng có điều hòa không ạ?",
+        "audio": "audio/teacher-c5dc8c4c6d53.mp3"
+      }
+    ],
+    "audio": "audio/teacher-4c4c718f6ed3.mp3"
+  },
+  {
+    "id": "w2-c023",
+    "hanzi": "手机",
+    "level": 2,
+    "frequency": 524,
+    "pinyin": "shǒu jī",
+    "meaningVi": "điện thoại di động",
+    "radical": "手",
+    "mnemonic": "Chiếc máy (机) cầm gọn trong lòng bàn tay (手) = điện thoại di động!",
+    "literalVi": "手 (tay) + 机 (máy móc)",
+    "usageNoteVi": "看手机 (xem điện thoại), 手机号码 (số điện thoại).",
+    "partOfSpeech": "Danh từ",
+    "examples": [
+      {
+        "hanzi": "我每天用手机学中文。",
+        "pinyin": "wǒ měi tiān yòng shǒu jī xué Zhōng wén.",
+        "vi": "Ngày nào mình cũng dùng điện thoại học tiếng Trung.",
+        "audio": "audio/teacher-aac5a26219da.mp3"
+      },
+      {
+        "hanzi": "请问，你的手机号码是多少？",
+        "pinyin": "qǐng wèn, nǐ de shǒu jī hào mǎ shì duō shao?",
+        "vi": "Xin hỏi, số điện thoại của bạn là bao nhiêu?",
+        "audio": "audio/teacher-59d327ca6f70.mp3"
+      }
+    ],
+    "audio": "audio/teacher-a9a1de21997a.mp3"
+  },
+  {
+    "id": "w2-c024",
+    "hanzi": "短信",
+    "level": 2,
+    "frequency": 525,
+    "pinyin": "duǎn xìn",
+    "meaningVi": "tin nhắn",
+    "radical": "矢",
+    "mnemonic": "Bức thư (信) ngắn gọn (短) gửi qua điện thoại = tin nhắn!",
+    "literalVi": "短 (ngắn) + 信 (thư tín)",
+    "usageNoteVi": "Lượng từ cho tin nhắn là 条 (tiáo): 一条短信.",
+    "partOfSpeech": "Danh từ",
+    "examples": [
+      {
+        "hanzi": "你收到我的短信了吗？",
+        "pinyin": "nǐ shōu dào wǒ de duǎn xìn le ma?",
+        "vi": "Bạn nhận được tin nhắn của mình chưa?",
+        "audio": "audio/teacher-fa66bfd6838d.mp3"
+      },
+      {
+        "hanzi": "有事就给我发短信。",
+        "pinyin": "yǒu shì jiù gěi wǒ fā duǎn xìn.",
+        "vi": "Có việc gì cứ nhắn tin cho mình nhé.",
+        "audio": "audio/teacher-9a4ba5b61384.mp3"
+      }
+    ],
+    "audio": "audio/teacher-87adbfd1caa5.mp3"
+  },
+  {
+    "id": "w2-c025",
+    "hanzi": "包裹",
+    "level": 2,
+    "frequency": 526,
+    "pinyin": "bāo guǒ",
+    "meaningVi": "gói hàng, bưu kiện",
+    "radical": "勹",
+    "mnemonic": "Món hàng được bọc gói (包裹) cẩn thận giao tới tận tay!",
+    "literalVi": "包 (bọc lại) + 裹 (gói ghém cẩn thận)",
+    "usageNoteVi": "拆包裹 (khui/mở gói hàng).",
+    "partOfSpeech": "Danh từ",
+    "examples": [
+      {
+        "hanzi": "请检查一下你的包裹。",
+        "pinyin": "qǐng jiǎn chá yí xià nǐ de bāo guǒ.",
+        "vi": "Bạn hãy kiểm tra gói hàng của mình nhé.",
+        "audio": "audio/teacher-6fbdf8354ad3.mp3"
+      },
+      {
+        "hanzi": "这个包裹不太重。",
+        "pinyin": "zhè gè bāo guǒ bú tài zhòng.",
+        "vi": "Gói hàng này không nặng lắm.",
+        "audio": "audio/teacher-22a1c6c8373b.mp3"
+      }
+    ],
+    "audio": "audio/teacher-6c408c4850b7.mp3"
+  },
+  {
+    "id": "w2-c026",
+    "hanzi": "付款",
+    "level": 2,
+    "frequency": 527,
+    "pinyin": "fù kuǎn",
+    "meaningVi": "thanh toán, trả tiền",
+    "radical": "亻",
+    "mnemonic": "Trao (付) khoản tiền (款) để hoàn tất đơn hàng!",
+    "literalVi": "付 (trao/trả) + 款 (khoản tiền)",
+    "usageNoteVi": "手机付款 (thanh toán bằng điện thoại).",
+    "partOfSpeech": "Động từ",
+    "examples": [
+      {
+        "hanzi": "请问可以用手机付款吗？",
+        "pinyin": "qǐng wèn kě yǐ yòng shǒu jī fù kuǎn ma?",
+        "vi": "Xin hỏi có thể thanh toán bằng điện thoại không?",
+        "audio": "audio/teacher-904b5535b0ed.mp3"
+      },
+      {
+        "hanzi": "我已经付款成功了！",
+        "pinyin": "wǒ yǐ jīng fù kuǎn chéng gōng le!",
+        "vi": "Mình đã thanh toán thành công rồi!",
+        "audio": "audio/teacher-a3fbed3f2a33.mp3"
+      }
+    ],
+    "audio": "audio/teacher-c77fa800003f.mp3"
+  },
+  {
+    "id": "w2-c027",
+    "hanzi": "收到",
+    "level": 2,
+    "frequency": 528,
+    "pinyin": "shōu dào",
+    "meaningVi": "nhận được",
+    "radical": "攵",
+    "mnemonic": "Đã nhận (收) được tận tay (到) — dùng cho cả tin nhắn lẫn bưu kiện!",
+    "literalVi": "收 (thu/nhận) + 到 (đến tay)",
+    "usageNoteVi": "收到！(Đã nhận / Rõ rồi! — câu phản hồi siêu gọn trong chat).",
+    "partOfSpeech": "Động từ",
+    "examples": [
+      {
+        "hanzi": "我今天下午收到了快递。",
+        "pinyin": "wǒ jīn tiān xià wǔ shōu dào le kuài dì.",
+        "vi": "Chiều nay mình đã nhận được hàng ship.",
+        "audio": "audio/teacher-d9b3f88041f5.mp3"
+      },
+      {
+        "hanzi": "收到你的短信了，谢谢！",
+        "pinyin": "shōu dào nǐ de duǎn xìn le, xiè xie!",
+        "vi": "Mình nhận được tin nhắn của bạn rồi, cảm ơn!",
+        "audio": "audio/teacher-ae7f9ef449ae.mp3"
+      }
+    ],
+    "audio": "audio/teacher-ba44305dcc4a.mp3"
   }
 ]

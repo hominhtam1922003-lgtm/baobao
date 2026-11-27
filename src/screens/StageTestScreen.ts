@@ -6,6 +6,7 @@ import { iconSvg } from '../components/Icons';
 import { audioService } from '../services/audioPlayer';
 import { loadStageLessons, resolveStageForLessonId } from '../services/contentLoader';
 import { requestPersistentStorage } from '../services/pwa';
+import { resolveWardrobe } from '../services/shopCatalog';
 import { ensureProgress, ensureSettings, recordStudyActivity } from '../services/srsEngine';
 import type { StageTestItem } from '../types/curriculum';
 import { escapeHtml } from '../utils/html';
@@ -34,6 +35,7 @@ export async function renderStageTestScreen(root: HTMLElement, testId: string): 
   }
 
   const items = testLesson.stageTestItems;
+  const wardrobe = resolveWardrobe(progress);
   audioService.preload(items.flatMap((it) => [it.audio, it.audioSlow]));
 
   const shell = renderFocusShell({
@@ -140,11 +142,14 @@ export async function renderStageTestScreen(root: HTMLElement, testId: string): 
       const pct = Math.round((score / items.length) * 100);
       const passed = pct >= 75;
       const earnedXp = passed ? testLesson.xp : 20;
+      const earnedCoins = passed ? (testLesson.coinReward ?? 100) : 25;
 
       if (!recorded) {
         recorded = true;
+        audioService.playSfx('coin');
         recordStudyActivity({
           xpEarned: earnedXp,
+          coinsEarned: earnedCoins,
           skill: 'all',
           completedLessonId: passed ? testLesson.id : undefined,
         });
@@ -154,14 +159,19 @@ export async function renderStageTestScreen(root: HTMLElement, testId: string): 
       }
 
       shell.body.innerHTML = `
-        <div class="clay-card" style="padding:32px;text-align:center;">
-          ${renderBaoSvg({ mood: passed ? 'celebrate' : 'wave', size: 112, accessory: progress.equippedAccessory })}
-          <h2 style="margin:12px 0 6px;font-size:28px;">${passed ? `Chinh phục ${escapeHtml(testLesson.title)}!` : 'Cố thêm chút nữa nhé!'}</h2>
-          <p style="margin:0 0 18px;color:var(--ink-muted);font-size:17px;">
-            Bạn đạt <strong>${score}/${items.length}</strong> câu (${pct}%) · +${earnedXp} XP cộng đều cả 4 kỹ năng.
+        <div class="clay-card milestone-banner" style="padding:32px;text-align:center;">
+          ${renderBaoSvg({ mood: passed ? 'celebrate' : 'wave', size: 128, wardrobe })}
+          <h2 style="margin:12px 0 6px;font-size:28px;">${passed ? `🏆 Chinh phục ${escapeHtml(testLesson.title)}!` : 'Cố thêm chút nữa nhé!'}</h2>
+          <div style="display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin:10px 0 12px;">
+            <span class="chip" style="background:var(--review-soft);border-color:var(--review);">⭐ +${earnedXp} XP</span>
+            <span class="chip coin-chip">🎋 +${earnedCoins} Xu Tre</span>
+          </div>
+          <p style="margin:0 0 18px;color:var(--ink-muted);font-size:16px;">
+            Bạn đạt <strong>${score}/${items.length}</strong> câu (${pct}%) · cộng đều cả 4 kỹ năng.
             ${passed ? ` Huy hiệu Chặng ${stage} đã mở khoá!` : ' Đạt từ 75% trở lên để nhận huy hiệu hoàn thành chặng (không mất lượt thử).'}
           </p>
           <div style="display:flex;justify-content:center;gap:10px;flex-wrap:wrap;">
+            <a href="#/shop" class="btn btn-comm">🛍️ Dùng Xu Tre sắm đồ cho Bao</a>
             <a href="#/" class="btn btn-review">Về bản đồ học</a>
             ${!passed ? `<button type="button" class="btn btn-soft" data-st-retry>Làm lại bài kiểm tra</button>` : ''}
             ${stage < 4 && passed ? `<a href="#/reading/story-c${stage}" class="btn btn-read">Đọc tiếp Truyện dài kỳ</a>` : ''}

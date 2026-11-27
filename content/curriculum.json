@@ -46,7 +46,7 @@
           "id": 1,
           "stage": 1,
           "title": "Chào hỏi & tạm biệt",
-          "subtitle": "Làm quen, cảm ơn, xin lỗi tự nhiên",
+          "subtitle": "Làm quen, cảm ơn, xin lỗi tự nhiên ngay ngày đầu",
           "ready": true,
           "lessonIds": [
             "t1-giao-tiep",
@@ -54,13 +54,15 @@
             "t1-nghe",
             "t1-viet"
           ],
-          "readingId": "r-t1"
+          "readingId": "r-t1",
+          "storyTagVi": "Ngày 1 · Bước vào lớp tiếng Trung",
+          "connectsFromVi": "Khởi đầu hành trình cùng gấu trúc Bao"
         },
         {
           "id": 2,
           "stage": 1,
           "title": "Giới thiệu bản thân",
-          "subtitle": "Tên tuổi, quốc tịch và bạn mới",
+          "subtitle": "Hỏi tên, giới thiệu quốc tịch Việt Nam và làm quen bạn mới",
           "ready": true,
           "lessonIds": [
             "t2-giao-tiep",
@@ -68,13 +70,15 @@
             "t2-nghe",
             "t2-viet"
           ],
-          "readingId": "r-t2"
+          "readingId": "r-t2",
+          "storyTagVi": "Ngày 1 · Làm quen bạn cùng bàn",
+          "connectsFromVi": "Tiếp nối Bài 1: Chào hỏi & tạm biệt"
         },
         {
           "id": 3,
           "stage": 1,
           "title": "Số đếm, tuổi & ngày tháng",
-          "subtitle": "Đếm số, hỏi tuổi, ngày sinh nhật",
+          "subtitle": "Hỏi tuổi, nói ngày tháng và chúc mừng sinh nhật",
           "ready": true,
           "lessonIds": [
             "t3-giao-tiep",
@@ -82,13 +86,15 @@
             "t3-nghe",
             "t3-viet"
           ],
-          "readingId": "r-t3"
+          "readingId": "r-t3",
+          "storyTagVi": "Ngày 2 · Sinh nhật sắp tới của Linh",
+          "connectsFromVi": "Tiếp nối Bài 2: Giới thiệu bản thân"
         },
         {
           "id": 4,
           "stage": 1,
           "title": "Gia đình & bạn bè",
-          "subtitle": "Kể về người thân và bạn thân",
+          "subtitle": "Kể về người thân trong nhà và bạn thân Tiểu Minh",
           "ready": true,
           "lessonIds": [
             "t4-giao-tiep",
@@ -96,13 +102,15 @@
             "t4-nghe",
             "t4-viet"
           ],
-          "readingId": "r-t4"
+          "readingId": "r-t4",
+          "storyTagVi": "Ngày 3 · Khoe ảnh gia đình cùng Linh",
+          "connectsFromVi": "Tiếp nối Bài 3: Số đếm, tuổi & sinh nhật"
         },
         {
           "id": 5,
           "stage": 1,
           "title": "Thời gian & hẹn gặp",
-          "subtitle": "Hỏi giờ và đặt lịch gặp mặt",
+          "subtitle": "Hỏi mấy giờ, nói sáng/chiều/tối và đặt lịch hẹn bạn",
           "ready": true,
           "lessonIds": [
             "t5-giao-tiep",
@@ -110,13 +118,15 @@
             "t5-nghe",
             "t5-viet"
           ],
-          "readingId": "r-t5"
+          "readingId": "r-t5",
+          "storyTagVi": "Ngày 4 · Chốt giờ đi uống trà sữa",
+          "connectsFromVi": "Tiếp nối Bài 4: Gia đình & bạn bè"
         },
         {
           "id": 6,
           "stage": 1,
           "title": "Ăn uống: gọi món, trà sữa & cà phê",
-          "subtitle": "Xem thực đơn, chọn ít đường/đá, tính tiền",
+          "subtitle": "Gọi đồ uống đúng gu ít đường, nóng/đá và gọi tính tiền",
           "ready": true,
           "lessonIds": [
             "t6-giao-tiep",
@@ -124,13 +134,15 @@
             "t6-nghe",
             "t6-viet"
           ],
-          "readingId": "r-t6"
+          "readingId": "r-t6",
+          "storyTagVi": "Ngày 4 · Quán trà sữa phố cổ",
+          "connectsFromVi": "Tiếp nối Bài 5: Thời gian & hẹn gặp"
         },
         {
           "id": 7,
           "stage": 1,
           "title": "Mua sắm & mặc cả",
-          "subtitle": "Hỏi giá, chọn món và trả giá nhẹ",
+          "subtitle": "Hỏi giá tiền, chê đắt/khen rẻ và trả giá vui vẻ ở chợ phố cổ",
           "ready": true,
           "lessonIds": [
             "t7-giao-tiep",
@@ -138,13 +150,15 @@
             "t7-nghe",
             "t7-viet"
           ],
-          "readingId": "r-t7"
+          "readingId": "r-t7",
+          "storyTagVi": "Ngày 5 · Chọn quà ở chợ phố cổ",
+          "connectsFromVi": "Tiếp nối Bài 6: Ăn uống & tính tiền"
         },
         {
           "id": 8,
           "stage": 1,
           "title": "Hỏi đường & đi lại",
-          "subtitle": "Chỉ hướng, ga tàu và bắt xe",
+          "subtitle": "Hỏi đường ra ga tàu điện ngầm, rẽ trái/phải và đi lại tự tin",
           "ready": true,
           "lessonIds": [
             "t8-giao-tiep",
@@ -152,7 +166,9 @@
             "t8-nghe",
             "t8-viet"
           ],
-          "readingId": "r-t8"
+          "readingId": "r-t8",
+          "storyTagVi": "Ngày 5 · Tìm đường ra ga tàu điện ngầm",
+          "connectsFromVi": "Tiếp nối Bài 7: Mua sắm ở chợ phố cổ"
         }
       ]
     },
@@ -195,7 +211,7 @@
           "id": 9,
           "stage": 2,
           "title": "Sở thích & thời gian rảnh",
-          "subtitle": "Nghe nhạc, đọc sách, vận động cuối tuần",
+          "subtitle": "Kể sở thích cuối tuần, ra công viên vận động cùng nhóm bạn",
           "ready": true,
           "lessonIds": [
             "t9-giao-tiep",
@@ -203,13 +219,15 @@
             "t9-nghe",
             "t9-viet"
           ],
-          "readingId": "r-t9"
+          "readingId": "r-t9",
+          "storyTagVi": "Tuần 2 · Cuối tuần ở công viên",
+          "connectsFromVi": "Tiếp nối Chặng 1: Đã tự tin đi lại & hẹn gặp"
         },
         {
           "id": 10,
           "stage": 2,
-          "title": "Thời tiết & mùa",
-          "subtitle": "Nắng mưa, nóng lạnh và bốn mùa",
+          "title": "Thời tiết & bốn mùa",
+          "subtitle": "Hỏi thời tiết hôm nay, nắng mưa, mát mẻ và so sánh các mùa",
           "ready": true,
           "lessonIds": [
             "t10-giao-tiep",
@@ -217,13 +235,15 @@
             "t10-nghe",
             "t10-viet"
           ],
-          "readingId": "r-t10"
+          "readingId": "r-t10",
+          "storyTagVi": "Tuần 2 · Xem thời tiết trước khi ra ngoài",
+          "connectsFromVi": "Tiếp nối Bài 9: Sở thích & đi công viên"
         },
         {
           "id": 11,
           "stage": 2,
           "title": "Trường học & học tập",
-          "subtitle": "Lớp học, bài tập, kỳ thi",
+          "subtitle": "Hỏi bài thầy cô, ôn tập và tự tin bước vào kỳ thi",
           "ready": true,
           "lessonIds": [
             "t11-giao-tiep",
@@ -231,13 +251,15 @@
             "t11-nghe",
             "t11-viet"
           ],
-          "readingId": "r-t11"
+          "readingId": "r-t11",
+          "storyTagVi": "Tuần 3 · Ôn thi ở lớp cô Vương",
+          "connectsFromVi": "Tiếp nối Bài 10: Hết cuối tuần quay lại lớp"
         },
         {
           "id": 12,
           "stage": 2,
           "title": "Công việc & nghề nghiệp",
-          "subtitle": "Công ty, đồng nghiệp và giờ làm",
+          "subtitle": "Hỏi nghề nghiệp, nói chuyện cùng đồng nghiệp và hoàn thành việc",
           "ready": true,
           "lessonIds": [
             "t12-giao-tiep",
@@ -245,13 +267,15 @@
             "t12-nghe",
             "t12-viet"
           ],
-          "readingId": "r-t12"
+          "readingId": "r-t12",
+          "storyTagVi": "Tuần 3 · Ngày đầu đi thực tập",
+          "connectsFromVi": "Tiếp nối Bài 11: Thi tốt ở lớp học"
         },
         {
           "id": 13,
           "stage": 2,
           "title": "Sức khỏe: đi khám, mua thuốc",
-          "subtitle": "Hỏi thăm khi ốm, khám bác sĩ",
+          "subtitle": "Nói triệu chứng cảm sốt, đi bệnh viện, uống thuốc và nghỉ ngơi",
           "ready": true,
           "lessonIds": [
             "t13-giao-tiep",
@@ -259,13 +283,15 @@
             "t13-nghe",
             "t13-viet"
           ],
-          "readingId": "r-t13"
+          "readingId": "r-t13",
+          "storyTagVi": "Tuần 4 · Bao bị cảm nhẹ và đi khám",
+          "connectsFromVi": "Tiếp nối Bài 12: Tuần đầu đi làm hơi bận"
         },
         {
           "id": 14,
           "stage": 2,
-          "title": "Nhà ở: thuê nhà, hỏi tiện nghi",
-          "subtitle": "Tìm phòng trọ, bàn ghế và phòng tắm",
+          "title": "Nhà ở: thuê nhà & hỏi tiện nghi",
+          "subtitle": "Xem phòng trọ mới, hỏi tầng mấy, điều hòa và không gian trong/ngoài",
           "ready": true,
           "lessonIds": [
             "t14-giao-tiep",
@@ -273,13 +299,15 @@
             "t14-nghe",
             "t14-viet"
           ],
-          "readingId": "r-t14"
+          "readingId": "r-t14",
+          "storyTagVi": "Tuần 5 · Chuyển vào căn phòng mới",
+          "connectsFromVi": "Tiếp nối Bài 13: Khỏe lại và muốn ở gần công ty"
         },
         {
           "id": 15,
           "stage": 2,
           "title": "Điện thoại, mạng xã hội & internet",
-          "subtitle": "Gọi điện, nhắn tin và Wi-Fi",
+          "subtitle": "Lên mạng, nhắn tin, gửi ảnh chụp và hỏi mật khẩu Wi-Fi",
           "ready": true,
           "lessonIds": [
             "t15-giao-tiep",
@@ -287,13 +315,15 @@
             "t15-nghe",
             "t15-viet"
           ],
-          "readingId": "r-t15"
+          "readingId": "r-t15",
+          "storyTagVi": "Tuần 5 · Chụp ảnh phòng mới gửi bố mẹ",
+          "connectsFromVi": "Tiếp nối Bài 14: Vừa chuyển vào phòng trọ mới"
         },
         {
           "id": 16,
           "stage": 2,
           "title": "Mua sắm online & nhận hàng",
-          "subtitle": "Đặt đơn, giao hàng nhanh và kiểm hàng",
+          "subtitle": "Đặt hàng qua mạng, thanh toán thẻ và nhận bưu kiện từ shipper",
           "ready": true,
           "lessonIds": [
             "t16-giao-tiep",
@@ -301,7 +331,9 @@
             "t16-nghe",
             "t16-viet"
           ],
-          "readingId": "r-t16"
+          "readingId": "r-t16",
+          "storyTagVi": "Tuần 6 · Nhận đơn hàng trang trí phòng",
+          "connectsFromVi": "Tiếp nối Bài 15: Lên mạng & Wi-Fi phòng mới"
         }
       ]
     },
@@ -344,7 +376,7 @@
           "id": 17,
           "stage": 3,
           "title": "Kết bạn mới & giữ liên lạc",
-          "subtitle": "Làm quen sâu hơn và trò chuyện thân thiết",
+          "subtitle": "Làm quen hàng xóm mới, trò chuyện thân thiết và mời bạn tới chơi",
           "ready": true,
           "lessonIds": [
             "t17-giao-tiep",
@@ -352,13 +384,15 @@
             "t17-nghe",
             "t17-viet"
           ],
-          "readingId": "r-t17"
+          "readingId": "r-t17",
+          "storyTagVi": "Tháng 2 · Làm quen hàng xóm mới Tiểu An",
+          "connectsFromVi": "Tiếp nối Chặng 2: Đã dọn vào phòng mới & ổn định cuộc sống"
         },
         {
           "id": 18,
           "stage": 3,
           "title": "Hẹn gặp & lên kế hoạch đi chơi",
-          "subtitle": "Sắp xếp lịch, rủ bạn cuối tuần",
+          "subtitle": "Bàn dự định, đưa ra quyết định và nhắc nhau đến đúng giờ",
           "ready": true,
           "lessonIds": [
             "t18-giao-tiep",
@@ -366,13 +400,15 @@
             "t18-nghe",
             "t18-viet"
           ],
-          "readingId": "r-t18"
+          "readingId": "r-t18",
+          "storyTagVi": "Tháng 2 · Lên lịch đi chơi nhóm 4 người",
+          "connectsFromVi": "Tiếp nối Bài 17: Vừa kết bạn với hàng xóm Tiểu An"
         },
         {
           "id": 19,
           "stage": 3,
           "title": "Phim, nhạc & thần tượng",
-          "subtitle": "Bình luận phim hay và bài hát yêu thích",
+          "subtitle": "Kể chuyện bộ phim đã từng xem, khen giọng hát và chương trình hay",
           "ready": true,
           "lessonIds": [
             "t19-giao-tiep",
@@ -380,13 +416,15 @@
             "t19-nghe",
             "t19-viet"
           ],
-          "readingId": "r-t19"
+          "readingId": "r-t19",
+          "storyTagVi": "Tháng 2 · Buổi chiều ở rạp chiếu phim",
+          "connectsFromVi": "Tiếp nối Bài 18: Chốt lịch đi xem phim cuối tuần"
         },
         {
           "id": 20,
           "stage": 3,
           "title": "Thể thao & vận động",
-          "subtitle": "Chạy bộ, đá bóng và cổ vũ thi đấu",
+          "subtitle": "Tới nhà thi đấu xem bóng rổ, chạy bộ và cổ vũ 'Cố lên!'",
           "ready": true,
           "lessonIds": [
             "t20-giao-tiep",
@@ -394,13 +432,15 @@
             "t20-nghe",
             "t20-viet"
           ],
-          "readingId": "r-t20"
+          "readingId": "r-t20",
+          "storyTagVi": "Tháng 2 · Cổ vũ trận bóng rổ ở nhà thi đấu",
+          "connectsFromVi": "Tiếp nối Bài 19: Sau buổi xem phim thứ Bảy"
         },
         {
           "id": 21,
           "stage": 3,
-          "title": "Du lịch: khách sạn, vé, điểm tham quan",
-          "subtitle": "Đặt phòng, mua vé tàu và tham quan",
+          "title": "Du lịch: khách sạn, vé & điểm tham quan",
+          "subtitle": "Chuẩn bị hành lý, đặt khách sạn, xem bản đồ và chọn thành phố đẹp",
           "ready": true,
           "lessonIds": [
             "t21-giao-tiep",
@@ -408,13 +448,15 @@
             "t21-nghe",
             "t21-viet"
           ],
-          "readingId": "r-t21"
+          "readingId": "r-t21",
+          "storyTagVi": "Tháng 3 · Chuyến tàu du lịch thành phố cổ",
+          "connectsFromVi": "Tiếp nối Bài 20: Ăn mừng thắng trận bóng rổ"
         },
         {
           "id": 22,
           "stage": 3,
           "title": "Lễ tết & phong tục",
-          "subtitle": "Đón Tết, quà tặng và món truyền thống",
+          "subtitle": "Đón Tết Trung Thu, ngắm đèn lồng, tặng quà và trải nghiệm văn hóa",
           "ready": true,
           "lessonIds": [
             "t22-giao-tiep",
@@ -422,13 +464,15 @@
             "t22-nghe",
             "t22-viet"
           ],
-          "readingId": "r-t22"
+          "readingId": "r-t22",
+          "storyTagVi": "Tháng 3 · Đêm hội đèn lồng phố cổ",
+          "connectsFromVi": "Tiếp nối Bài 21: Chuyến du lịch tới thành phố cổ"
         },
         {
           "id": 23,
           "stage": 3,
           "title": "Cảm xúc & tính cách",
-          "subtitle": "Diễn đạt tâm trạng, lo lắng, tự tin",
+          "subtitle": "Chia sẻ tâm trạng vui/lo lắng và khen ngợi tính cách đáng yêu của bạn bè",
           "ready": true,
           "lessonIds": [
             "t23-giao-tiep",
@@ -436,13 +480,15 @@
             "t23-nghe",
             "t23-viet"
           ],
-          "readingId": "r-t23"
+          "readingId": "r-t23",
+          "storyTagVi": "Tháng 3 · Tâm sự tối muộn ở khách sạn",
+          "connectsFromVi": "Tiếp nối Bài 22: Sau đêm hội đèn lồng ấm áp"
         },
         {
           "id": 24,
           "stage": 3,
           "title": "Kể chuyện đã qua",
-          "subtitle": "Thuật lại kỷ niệm đáng nhớ",
+          "subtitle": "Thuật lại kỷ niệm bất ngờ trên tàu, sự cố quên đồ và cách giải quyết",
           "ready": true,
           "lessonIds": [
             "t24-giao-tiep",
@@ -450,7 +496,9 @@
             "t24-nghe",
             "t24-viet"
           ],
-          "readingId": "r-t24"
+          "readingId": "r-t24",
+          "storyTagVi": "Tháng 3 · Kỷ niệm đáng nhớ trên chuyến tàu về",
+          "connectsFromVi": "Tiếp nối Bài 23: Kết thúc chuyến du lịch đầy cảm xúc"
         }
       ]
     },
@@ -493,7 +541,7 @@
           "id": 25,
           "stage": 4,
           "title": "Bày tỏ ý kiến & đồng ý/phản đối nhẹ nhàng",
-          "subtitle": "Thảo luận, nêu lý do và đồng thuận",
+          "subtitle": "Nêu quan điểm lịch sự, đưa lý do thuyết phục và thảo luận hòa nhã",
           "ready": true,
           "lessonIds": [
             "t25-giao-tiep",
@@ -501,13 +549,15 @@
             "t25-nghe",
             "t25-viet"
           ],
-          "readingId": "r-t25"
+          "readingId": "r-t25",
+          "storyTagVi": "Tháng 4 · Buổi thảo luận câu lạc bộ sinh viên",
+          "connectsFromVi": "Tiếp nối Chặng 3: Tự tin kể chuyện và giao tiếp sâu"
         },
         {
           "id": 26,
           "stage": 4,
           "title": "Dự định & ước mơ tương lai",
-          "subtitle": "Mục tiêu nghề nghiệp và kế hoạch dài hạn",
+          "subtitle": "Chia sẻ ước mơ, đặt mục tiêu nghề nghiệp và kiên trì thực hiện",
           "ready": true,
           "lessonIds": [
             "t26-giao-tiep",
@@ -515,13 +565,15 @@
             "t26-nghe",
             "t26-viet"
           ],
-          "readingId": "r-t26"
+          "readingId": "r-t26",
+          "storyTagVi": "Tháng 4 · Ước mơ tương lai của Bao & Linh",
+          "connectsFromVi": "Tiếp nối Bài 25: Sau buổi thảo luận câu lạc bộ"
         },
         {
           "id": 27,
           "stage": 4,
           "title": "Công nghệ & AI trong đời sống",
-          "subtitle": "Trí tuệ nhân tạo, ứng dụng thông minh",
+          "subtitle": "Nói về trí tuệ nhân tạo, phần mềm thông minh và nâng cao hiệu suất học",
           "ready": true,
           "lessonIds": [
             "t27-giao-tiep",
@@ -529,13 +581,15 @@
             "t27-nghe",
             "t27-viet"
           ],
-          "readingId": "r-t27"
+          "readingId": "r-t27",
+          "storyTagVi": "Tháng 5 · Khám phá AI hỗ trợ học tiếng Trung",
+          "connectsFromVi": "Tiếp nối Bài 26: Ước mơ làm ứng dụng giáo dục của Linh"
         },
         {
           "id": 28,
           "stage": 4,
           "title": "Tình huống khó: nhờ giúp đỡ, khẩn cấp & xin lỗi",
-          "subtitle": "Xử lý sự cố, xin lỗi và hỗ trợ kịp thời",
+          "subtitle": "Giữ bình tĩnh xử lý sự cố, nhờ giúp đỡ lịch sự và xin lỗi chân thành",
           "ready": true,
           "lessonIds": [
             "t28-giao-tiep",
@@ -543,7 +597,9 @@
             "t28-nghe",
             "t28-viet"
           ],
-          "readingId": "r-t28"
+          "readingId": "r-t28",
+          "storyTagVi": "Đích đến · Hội chợ Mùa Thu tỏa sáng!",
+          "connectsFromVi": "Tiếp nối Bài 27: Ngày hội lớn cuối hành trình!"
         }
       ]
     }

@@ -3,7 +3,14 @@ const base = import.meta.env.BASE_URL;
 export async function registerPwa(): Promise<void> {
   if (!('serviceWorker' in navigator)) return;
   try {
-    await navigator.serviceWorker.register(`${base}sw.js`, { scope: base });
+    let reloaded = false;
+    navigator.serviceWorker.addEventListener('controllerchange', () => {
+      if (reloaded) return;
+      reloaded = true;
+      window.location.reload();
+    });
+    const reg = await navigator.serviceWorker.register(`${base}sw.js`, { scope: base });
+    reg.update().catch(() => {});
   } catch {
     // SW registration may fail on unsupported contexts; app still works online.
   }

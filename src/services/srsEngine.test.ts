@@ -9,8 +9,14 @@ import {
   computeStreak,
   evaluateUnlockedAccessories,
   evaluateBadges,
+  recordStudyActivity,
+  buyShopItem,
+  equipWardrobeItem,
+  getCoins,
   type SrsCardRecord,
 } from './srsEngine';
+import { resetDbForTests } from './db';
+import { resolveWardrobe } from './shopCatalog';
 
 describe('srsEngine seam', () => {
   const fixedNow = new Date('2026-11-26T05:00:00.000Z');
@@ -144,5 +150,39 @@ describe('srsEngine seam', () => {
         'xp-500',
       ])
     );
+  });
+
+  it('awards Xu Tre coins on lesson completion and allows buying + equipping multi-slot Bao items', async () => {
+    await resetDbForTests();
+    const afterLesson = await recordStudyActivity({
+      xpEarned: 40,
+      coinsEarned: 45,
+      skill: 'giaoTiep',
+      completedLessonId: 't1-giao-tiep',
+    });
+    // Starts with 20 welcome coins + 45 lesson coins + 40 daily goal bonus (40 XP meets 10m*4 goal) = 105
+    expect(getCoins(afterLesson)).toBe(105);
+
+    const buyHat = await buyShopItem('bamboo-hat'); // 30 coins
+    expect(buyHat.ok).toBe(true);
+    expect(getCoins(buyHat.progress)).toBe(75);
+    expect(resolveWardrobe(buyHat.progress).hat).toBe('bamboo-hat');
+
+    const buyBoba = await buyShopItem('boba-tea'); // 55 coins
+    expect(buyBoba.ok).toBe(true);
+    expect(getCoins(buyBoba.progress)).toBe(20);
+    // Both hat AND prop are equipped simultaneously!
+    const w = resolveWardrobe(buyBoba.progress);
+    expect(w.hat).toBe('bamboo-hat');
+    expect(w.prop).toBe('boba-tea');
+
+    // Cannot buy expensive item when balance is too low
+    const tooExpensive = await buyShopItem('crown');
+    expect(tooExpensive.ok).toBe(false);
+
+    // Can unequip a slot cleanly
+    const unequipped = await equipWardrobeItem('hat', 'none');
+    expect(resolveWardrobe(unequipped).hat).toBe('none');
+    expect(resolveWardrobe(unequipped).prop).toBe('boba-tea');
   });
 });

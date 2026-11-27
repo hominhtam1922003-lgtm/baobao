@@ -9,6 +9,7 @@ import {
   resolveStageForReadingId,
 } from '../services/contentLoader';
 import { requestPersistentStorage } from '../services/pwa';
+import { resolveWardrobe } from '../services/shopCatalog';
 import {
   addCardToSrs,
   ensureProgress,
@@ -39,6 +40,8 @@ export async function renderReadingScreen(root: HTMLElement, readingId: string):
 
   const weakWords = new Set(allCards.filter(isWeakCard).map((c) => c.hanzi));
   const wordByHanzi = new Map(words.map((w) => [w.hanzi, w]));
+  const wardrobe = resolveWardrobe(progress);
+  const coinReward = reading.isStoryChapter ? 35 : 30;
   let pinyinMode: 'all' | 'new' | 'off' = settings.pinyinMode;
   let activeParagraph = -1;
   let playingKaraoke = false;
@@ -217,9 +220,14 @@ export async function renderReadingScreen(root: HTMLElement, readingId: string):
 
             ${
               answeredAll
-                ? `<div style="margin-top:18px;display:flex;gap:10px;flex-wrap:wrap;align-items:center;">
-                     <button type="button" class="btn btn-review" data-save-all-new>Lưu tất cả từ mới vào Ôn tập</button>
-                     <a href="#/" class="btn btn-read">Về bản đồ</a>
+                ? `<div class="milestone-banner" style="margin-top:18px;padding:16px;border-radius:18px;background:var(--read-soft);border:2px solid var(--read);display:flex;flex-direction:column;gap:10px;">
+                     <div style="font-weight:800;font-size:16px;">🎉 Hoàn thành bài đọc! +25 XP · 🎋 +${coinReward} Xu Tre</div>
+                     <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;">
+                       <a href="#/shop" class="btn btn-sm btn-review">🛍️ Tiệm của Bao</a>
+                       ${!reading.isStoryChapter ? `<a href="#/listening/t${reading.topicId}-nghe" class="btn btn-sm btn-listen">🎧 Sang bài Nghe cùng chủ đề →</a>` : ''}
+                       <button type="button" class="btn btn-sm btn-soft" data-save-all-new>Lưu tất cả từ mới vào Ôn tập</button>
+                       <a href="#/" class="btn btn-sm btn-read">Về bản đồ</a>
+                     </div>
                    </div>`
                 : ''
             }
@@ -255,7 +263,7 @@ export async function renderReadingScreen(root: HTMLElement, readingId: string):
           ${
             !hintDismissed
               ? `<div class="clay-card" style="padding:16px;display:flex;gap:10px;align-items:flex-start;">
-                   ${renderBaoSvg({ mood: 'point', size: 52, accessory: progress.equippedAccessory })}
+                   ${renderBaoSvg({ mood: 'point', size: 60, wardrobe })}
                    <div style="flex:1;">
                      <div style="font-weight:800;font-size:14px;">Gợi ý đọc của Bao</div>
                      <p style="margin:4px 0 8px;font-size:13px;color:var(--ink-muted);">
@@ -331,8 +339,10 @@ export async function renderReadingScreen(root: HTMLElement, readingId: string):
       if (q) audioService.playSfx(opt === q.answer ? 'ok' : 'err');
       if (selectedAnswers.size === reading.questions.length && !awardedReadingXp) {
         awardedReadingXp = true;
+        audioService.playSfx('coin');
         recordStudyActivity({
           xpEarned: 25,
+          coinsEarned: coinReward,
           skill: 'doc',
           completedLessonId: reading.isStoryChapter ? undefined : `t${reading.topicId}-doc`,
           completedStoryId: reading.isStoryChapter ? reading.id : undefined,

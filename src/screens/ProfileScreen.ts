@@ -5,6 +5,7 @@ import { iconSvg } from '../components/Icons';
 import { audioService } from '../services/audioPlayer';
 import type { ProgressRecord } from '../services/db';
 import { exportBackupJson, importBackupJson } from '../services/progressBackup';
+import { getOwnedItemIds, resolveWardrobe, SHOP_CATALOG } from '../services/shopCatalog';
 import {
   BAO_ACCESSORIES,
   BAO_BADGES,
@@ -13,6 +14,7 @@ import {
   equipAccessory,
   evaluateBadges,
   evaluateUnlockedAccessories,
+  getCoins,
   markMilestoneCelebrated,
   saveSettings,
   todayIsoDate,
@@ -81,6 +83,9 @@ export async function renderProfileScreen(root: HTMLElement): Promise<() => void
       { label: 'Viết chữ', xp: progress.skillXp.viet, color: 'var(--write)' },
     ];
 
+    const wardrobe = resolveWardrobe(progress);
+    const coins = getCoins(progress);
+    const ownedCount = getOwnedItemIds(progress).size;
     const unlockedSet = new Set([...progress.unlockedAccessories, ...evaluateUnlockedAccessories(progress.xp)]);
     const earnedBadges = new Set([
       ...progress.badges,
@@ -102,7 +107,7 @@ export async function renderProfileScreen(root: HTMLElement): Promise<() => void
         activeMilestone
           ? `<div class="clay-card milestone-banner" style="padding:18px 22px;margin-bottom:18px;background:var(--review-soft);border:2px solid var(--review);display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;">
                <div style="display:flex;align-items:center;gap:12px;">
-                 ${renderBaoSvg({ mood: 'celebrate', size: 64, accessory: progress.equippedAccessory })}
+                 ${renderBaoSvg({ mood: 'celebrate', size: 70, wardrobe })}
                  <div>
                    <div style="font-size:19px;font-weight:800;">Chúc mừng mốc Streak ${activeMilestone} ngày!</div>
                    <div style="font-size:14px;color:var(--ink-muted);">Thói quen bền bỉ thật đáng nể — tiếp tục giữ lửa cùng Bao nhé!</div>
@@ -114,20 +119,27 @@ export async function renderProfileScreen(root: HTMLElement): Promise<() => void
       }
 
       <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:18px;">
-        <!-- 1. Danh tính & Tủ đồ của Bao (8 món) -->
+        <!-- 1. Danh tính & Tủ đồ của Bao -->
         <section class="clay-card" style="padding:22px;grid-column:span 1;">
           <div style="display:flex;align-items:center;gap:14px;margin-bottom:14px;">
-            ${renderBaoSvg({ mood: 'happy', size: 88, accessory: progress.equippedAccessory })}
+            ${renderBaoSvg({ mood: 'happy', size: 96, wardrobe })}
             <div style="flex:1;">
               <input type="text" data-learner-name value="${escapeHtml(settings.learnerName)}" aria-label="Tên người học" style="font-size:20px;font-weight:800;border:1.5px solid var(--border);border-radius:12px;padding:4px 10px;width:100%;max-width:200px;background:var(--bg);" />
-              <div style="font-size:14px;font-weight:700;color:var(--ink-muted);margin-top:4px;">Nhà du hành cấp ${levelNum}</div>
+              <div style="font-size:14px;font-weight:700;color:var(--ink-muted);margin-top:4px;">Nhà du hành cấp ${levelNum} · 🎋 ${coins} Xu Tre</div>
               <div class="progress-track" style="height:10px;margin-top:6px;">
                 <div class="progress-fill" style="width:${levelPct}%;background:var(--review);"></div>
               </div>
               <div style="font-size:12px;color:var(--ink-muted);margin-top:3px;">${progress.xp} XP (${levelPct}/100 lên cấp ${levelNum + 1})</div>
             </div>
           </div>
-          <div style="font-weight:800;font-size:14px;margin-bottom:8px;">Tủ đồ của Bao (${unlockedSet.size + 1}/${BAO_ACCESSORIES.length} món mở khoá):</div>
+          <div style="padding:12px 14px;border-radius:16px;background:linear-gradient(135deg, #D9F6EF 0%, #FFF6D6 100%);border:1.5px solid var(--read);margin-bottom:12px;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;">
+            <div>
+              <div style="font-weight:800;font-size:14px;">🛍️ Tiệm Thời Trang Bao (${ownedCount}/${SHOP_CATALOG.length} món)</div>
+              <div style="font-size:12px;color:var(--ink-muted);">Phối 5 ngăn: Mũ · Áo · Kính · Phụ kiện · Khung nền</div>
+            </div>
+            <a href="#/shop" class="btn btn-sm btn-comm">Mở Tiệm →</a>
+          </div>
+          <div style="font-weight:800;font-size:13px;margin-bottom:8px;color:var(--ink-muted);">Đồ mở khóa theo mốc XP (${unlockedSet.size + 1}/${BAO_ACCESSORIES.length}):</div>
           <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:8px;">
             ${BAO_ACCESSORIES.map((acc) => {
               const unlocked = acc.id === 'none' || unlockedSet.has(acc.id);

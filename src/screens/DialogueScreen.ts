@@ -5,6 +5,7 @@ import { iconSvg } from '../components/Icons';
 import { audioService } from '../services/audioPlayer';
 import { loadStageLessons, resolveStageForLessonId } from '../services/contentLoader';
 import { createShadowRecorder } from '../services/recorder';
+import { resolveWardrobe } from '../services/shopCatalog';
 import { addCardToSrs, ensureProgress, ensureSettings, recordStudyActivity } from '../services/srsEngine';
 import { escapeHtml } from '../utils/html';
 
@@ -22,6 +23,7 @@ export async function renderDialogueScreen(root: HTMLElement, lessonId: string):
   }
 
   const turns = lesson.dialogue;
+  const wardrobe = resolveWardrobe(progress);
   const goals = turns.filter((t) => t.goalLabel).map((t) => t.goalLabel!);
   audioService.preload(turns.map((t) => t.audio));
 
@@ -119,8 +121,8 @@ export async function renderDialogueScreen(root: HTMLElement, lessonId: string):
                   <div style="flex:0 0 auto;">
                     ${
                       isBao
-                        ? renderBaoSvg({ mood: 'happy', size: 42, accessory: progress.equippedAccessory })
-                        : `<div style="width:42px;height:42px;border-radius:999px;background:var(--surface);border:2px solid var(--comm);display:flex;align-items:center;justify-content:center;font-weight:800;">${escapeHtml(t.speaker[0] ?? 'A')}</div>`
+                        ? renderBaoSvg({ mood: 'happy', size: 46, wardrobe })
+                        : `<div style="width:44px;height:44px;border-radius:999px;background:var(--surface);border:2px solid var(--comm);display:flex;align-items:center;justify-content:center;font-weight:800;">${escapeHtml(t.speaker[0] ?? 'A')}</div>`
                     }
                   </div>
                   <div style="max-width:78%;background:var(--surface);border:1.5px solid var(--border);border-radius:18px;padding:12px 16px;box-shadow:var(--shadow-clay);">
@@ -191,12 +193,17 @@ export async function renderDialogueScreen(root: HTMLElement, lessonId: string):
 
         ${
           isFinished
-            ? `<div class="clay-card" style="padding:24px;margin-top:18px;text-align:center;">
-                 ${renderBaoSvg({ mood: 'celebrate', size: 88, accessory: progress.equippedAccessory })}
-                 <h2 style="margin:8px 0 4px;">Hoàn thành hội thoại!</h2>
+            ? `<div class="clay-card milestone-banner" style="padding:26px;margin-top:18px;text-align:center;">
+                 ${renderBaoSvg({ mood: 'celebrate', size: 108, wardrobe })}
+                 <h2 style="margin:8px 0 4px;">🎉 Hoàn thành hội thoại!</h2>
+                 <div style="display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin:8px 0 12px;">
+                   <span class="chip" style="background:var(--review-soft);border-color:var(--review);">⭐ +20 XP</span>
+                   <span class="chip coin-chip">🎋 +20 Xu Tre</span>
+                 </div>
                  <p style="margin:0 0 14px;color:var(--ink-muted);">Bạn tự hoàn thành ${selfCorrectCount} lượt phản hồi · Chế độ shadowing thu âm chỉ phát lại để bạn tự nghe, không chấm điểm.</p>
                  <div style="display:flex;justify-content:center;gap:10px;flex-wrap:wrap;">
-                   <button type="button" class="btn btn-review" data-save-sentences>Lưu câu hay vào Ôn tập</button>
+                   <a href="#/shop" class="btn btn-review">🛍️ Tiệm của Bao</a>
+                   <button type="button" class="btn btn-read" data-save-sentences>Lưu câu hay vào Ôn tập</button>
                    <button type="button" class="btn btn-soft" data-replay-dlg>Chơi lại</button>
                    <a href="#/" class="btn btn-comm">Về bản đồ</a>
                  </div>
@@ -269,7 +276,8 @@ export async function renderDialogueScreen(root: HTMLElement, lessonId: string):
         confetti({ particleCount: 30, spread: 50, origin: { y: 0.72 } });
       }
       if (revealedCount >= turns.length) {
-        await recordStudyActivity({ xpEarned: 20, skill: 'giaoTiep' });
+        await recordStudyActivity({ xpEarned: 20, coinsEarned: 20, skill: 'giaoTiep' });
+        audioService.playSfx('coin');
         render();
       } else {
         advanceTurn();

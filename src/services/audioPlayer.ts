@@ -54,13 +54,46 @@ class AudioService {
     return this.audioCtx;
   }
 
-  playSfx(kind: 'pop' | 'ok' | 'err') {
+  playSfx(kind: 'pop' | 'ok' | 'err' | 'coin' | 'cheer') {
     const ctx = this.getCtx();
     if (!ctx) return;
     if (ctx.state === 'suspended') {
       ctx.resume().catch(() => {});
     }
     const now = ctx.currentTime;
+
+    if (kind === 'coin') {
+      [987.77, 1318.51].forEach((freq, i) => {
+        const o = ctx.createOscillator();
+        const g = ctx.createGain();
+        o.connect(g);
+        g.connect(ctx.destination);
+        o.type = 'sine';
+        o.frequency.setValueAtTime(freq, now + i * 0.075);
+        g.gain.setValueAtTime(0.11, now + i * 0.075);
+        g.gain.exponentialRampToValueAtTime(0.001, now + i * 0.075 + 0.18);
+        o.start(now + i * 0.075);
+        o.stop(now + i * 0.075 + 0.19);
+      });
+      return;
+    }
+
+    if (kind === 'cheer') {
+      [523.25, 659.25, 783.99, 1046.5].forEach((freq, i) => {
+        const o = ctx.createOscillator();
+        const g = ctx.createGain();
+        o.connect(g);
+        g.connect(ctx.destination);
+        o.type = 'triangle';
+        o.frequency.setValueAtTime(freq, now + i * 0.07);
+        g.gain.setValueAtTime(0.1, now + i * 0.07);
+        g.gain.exponentialRampToValueAtTime(0.001, now + i * 0.07 + 0.25);
+        o.start(now + i * 0.07);
+        o.stop(now + i * 0.07 + 0.26);
+      });
+      return;
+    }
+
     const osc = ctx.createOscillator();
     const gain = ctx.createGain();
     osc.connect(gain);

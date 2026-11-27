@@ -138,6 +138,7 @@ export function collectStageAssetUrls(
   }
   for (const l of lessons) {
     for (const p of l.patterns ?? []) addRel(p.audio);
+    for (const gex of l.grammarSpotlight?.examples ?? []) addRel(gex.audio);
     for (const t of l.dialogue ?? []) addRel(t.audio);
     for (const rp of l.roleplay ?? []) {
       addRel(rp.npcAudio);
